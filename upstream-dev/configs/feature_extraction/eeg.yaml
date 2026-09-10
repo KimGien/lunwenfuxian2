@@ -1,0 +1,33 @@
+# EEG feature extraction configuration
+# Override at runtime: python scripts/extract_features.py eeg --config configs/feature_extraction/eeg.yaml model=labram
+
+data:
+  base_dir: split_dataset
+
+# Model to use: cbramod_mumtaz | cbramod | labram | handcrafted
+model: cbramod_mumtaz
+
+cbramod_mumtaz:
+  pretrained_weights: cbramod_pretrained_weights/pretrained_weights2.pth
+  output_file: cbramod_embeddings_mumtaz.npy
+  channels: [9, 22, 33, 24, 124, 122, 6, 36, 104, 45, 55, 108, 52, 62, 92, 58, 96, 70, 83]
+  sfreq: 200
+  patch_size: 200
+
+cbramod:
+  pretrained_weights: cbramod_pretrained_weights/pretrained_weights.pth
+  output_file: cbramod_embeddings.npy
+  channels: [9, 22, 33, 24, 124, 122, 6, 36, 104, 45, 55, 108, 52, 62, 92, 58, 96, 70, 83]
+  sfreq: 200
+  patch_size: 200
+
+labram:
+  output_file: labram_base_embeddings.npy
+  n_times: 2500
+  n_chans: 29
+  sfreq: 250
+  patch_size: 200
+
+handcrafted:
+  output_file: eeg_features.npy
+  sfreq: 250

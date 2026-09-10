@@ -1,0 +1,282 @@
+{
+  "baseline备选\\2510.14922v2.pdf": {
+    "bytes": 458363,
+    "sha256": "55b1b887c3532bdd242d43a9285e29e0b7da10921574adae7b98176b8833f0d0"
+  },
+  "output\\plans\\TRI-DEP_递进实验路线.md": {
+    "bytes": 15629,
+    "sha256": "3461193ce5b28fe2ea04f8b20b92299c291d6f816156d073a635c4f7247f9f8c"
+  },
+  "S00\\upstream-dev\\data\\split_dataset_june\\fold_assignments.json": {
+    "bytes": 4043,
+    "sha256": "171288f46abc9ae73db89d4669d1ebd2bb24ff8bce800b62519c5ba01f8e41fc"
+  },
+  "S00\\configs\\b0.json": {
+    "bytes": 4351,
+    "sha256": "596c7094a8602818cd5d8470e3e14b76882b161fb07ab2bdec970cf8b6b51895"
+  },
+  "S00\\configs\\cohort.json": {
+    "bytes": 2198,
+    "sha256": "8aa80dd47c58ebfcbad5c09ad60b6cfe53060f4e0f738f818d66f8abaf6dc77f"
+  },
+  "S00\\manifests\\fold_assignments.json": {
+    "bytes": 3948,
+    "sha256": "a28ebe92c94428128313586d3a5524b2f03befcbc473215f4b0b2dcb49c3284d"
+  },
+  "S00\\upstream-dev\\lib\\__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "S00\\upstream-dev\\lib\\baselines\\__init__.py": {
+    "bytes": 375,
+    "sha256": "63a84c279eda9e62d88a33b9bb80e60836dde2a32e3e88083cfeee3ece85b4d1"
+  },
+  "S00\\upstream-dev\\lib\\baselines\\datasets.py": {
+    "bytes": 2373,
+    "sha256": "0faf6762d18a728055418cd28b6691657e40fe64226ada35cb3d4eaebfb38ee8"
+  },
+  "S00\\upstream-dev\\lib\\baselines\\models.py": {
+    "bytes": 3201,
+    "sha256": "6756b020eeba4089f3a2b293cab5c207b8f1e1794b633eac1582e0074cad8a76"
+  },
+  "S00\\upstream-dev\\lib\\datasets.py": {
+    "bytes": 6073,
+    "sha256": "29ef09460c29e38999196f3787e9ab563c23cae047fdb9665142bbb4899d7272"
+  },
+  "S00\\upstream-dev\\lib\\feature_extraction\\__init__.py": {
+    "bytes": 70,
+    "sha256": "e2085443c70245f59bd6093c0e37a524fe8c0c898392d6179dc2b0283fb8625b"
+  },
+  "S00\\upstream-dev\\lib\\feature_extraction\\eeg\\__init__.py": {
+    "bytes": 505,
+    "sha256": "a18a760a2fea9e26b1a7959c082993166ed8fdf06a0345f7207ab3426c397587"
+  },
+  "S00\\upstream-dev\\lib\\feature_extraction\\eeg\\extract_cbramod.py": {
+    "bytes": 8374,
+    "sha256": "f15a1087ae1d4521b0afd972988943dcb7cdcbd16b93f46f3d4c4b669d2c2b4d"
+  },
+  "S00\\upstream-dev\\lib\\feature_extraction\\eeg\\extract_handcrafted_features.py": {
+    "bytes": 6360,
+    "sha256": "3995957c95d9ee9d4cf175c206ed0ecc81872337a7850ac5e3736beb6fe21c6f"
+  },
+  "S00\\upstream-dev\\lib\\feature_extraction\\eeg\\extract_labram.py": {
+    "bytes": 4772,
+    "sha256": "b018828e0a908ebddc364556e9fe21e7a6b64800b88ab86bdadd9b15beecaabb"
+  },
+  "S00\\upstream-dev\\lib\\feature_extraction\\speech\\__init__.py": {
+    "bytes": 845,
+    "sha256": "64cf4da736155f8bb04ccf096245641ed5134a9fd876fcc94793e90ccbdcaa00"
+  },
+  "S00\\upstream-dev\\lib\\feature_extraction\\speech\\chinese_hubert.py": {
+    "bytes": 3479,
+    "sha256": "0cc1b7942e2df4086a13e5d2cf16a745cb7b8cd89c2dcdc7d7ca1ce4dd65cb82"
+  },
+  "S00\\upstream-dev\\lib\\feature_extraction\\speech\\extract_features_speech.py": {
+    "bytes": 11799,
+    "sha256": "6642b3b51b20bb697dcb34d49efa62ba0d8d614af790a1ef282ea2938eda43a1"
+  },
+  "S00\\upstream-dev\\lib\\feature_extraction\\speech\\extract_handcrafted_features_speech.py": {
+    "bytes": 6740,
+    "sha256": "4b537c58795a78324f050fc70d382bc69a162d9dc62ab2965d0f04f59d2c939d"
+  },
+  "S00\\upstream-dev\\lib\\feature_extraction\\speech\\handcrafted_features.py": {
+    "bytes": 5117,
+    "sha256": "f88344639860634812cdf19d4a019b32081964b82885c565fbe20c8c945a09dd"
+  },
+  "S00\\upstream-dev\\lib\\feature_extraction\\speech\\mfccs.py": {
+    "bytes": 4953,
+    "sha256": "883a2ed3652876565238398194421c2570a23ea01472c2918d0c6cdbd5252e5a"
+  },
+  "S00\\upstream-dev\\lib\\feature_extraction\\speech\\xslr_53.py": {
+    "bytes": 3884,
+    "sha256": "0366d25be92b9d1f7dda026bd39bbfa8e6c12f5d76e1bb66b16bdc0c602e36f7"
+  },
+  "S00\\upstream-dev\\lib\\feature_extraction\\text\\__init__.py": {
+    "bytes": 608,
+    "sha256": "15fe88a00c95805ed22daf10f24326b85166983443374c76997701f6de417a79"
+  },
+  "S00\\upstream-dev\\lib\\feature_extraction\\text\\chinese_bert_base.py": {
+    "bytes": 2525,
+    "sha256": "75bd32c190f84ad3625fe0ba6e74ea40441ad099b20f3991a1c0756da2e924ee"
+  },
+  "S00\\upstream-dev\\lib\\feature_extraction\\text\\chinese_macbert.py": {
+    "bytes": 2593,
+    "sha256": "9f736eae94c2e73af4d2e116a37cc5b77e2d6de0cf6b73950882d1eb400dd198"
+  },
+  "S00\\upstream-dev\\lib\\feature_extraction\\text\\chinese_mpnet.py": {
+    "bytes": 2009,
+    "sha256": "434558d31117f609c278061ccd6dc2f1a02ccde65896bfd14de8bb13086e2774"
+  },
+  "S00\\upstream-dev\\lib\\feature_extraction\\text\\chinese_xlnet.py": {
+    "bytes": 3040,
+    "sha256": "574fcf39751f97cb9ae2f05ccbb753fde42d9d393da6b416e2cd906d1a2b790e"
+  },
+  "S00\\upstream-dev\\lib\\feature_extraction\\text\\extract_features_text.py": {
+    "bytes": 3361,
+    "sha256": "89686192d514ebd5b2887b154fac83cc30518557248d970c6a32c23d6e5837f4"
+  },
+  "S00\\upstream-dev\\lib\\models\\__init__.py": {
+    "bytes": 603,
+    "sha256": "c9c2b71023cb9a15da0d561e6ac1877d410369053961a18a36371ade6ed26da4"
+  },
+  "S00\\upstream-dev\\lib\\models\\cbramod\\__init__.py": {
+    "bytes": 112,
+    "sha256": "3094310401d62569e8076b66abe200e0235b19f9f68d801b6872ef1ca4cf7676"
+  },
+  "S00\\upstream-dev\\lib\\models\\cbramod\\cbramod.py": {
+    "bytes": 4218,
+    "sha256": "afc1da9557746135ce72ac17b8490f57461e9a200a3f65b8ba7466a34ffe54e0"
+  },
+  "S00\\upstream-dev\\lib\\models\\cbramod\\cbramod_model.py": {
+    "bytes": 1238,
+    "sha256": "117d402aee0e3d018b7aa9c9d87b17f9d4a219f6ad3b0fa2fb97d295f92f1ca0"
+  },
+  "S00\\upstream-dev\\lib\\models\\cbramod\\criss_cross_transformer.py": {
+    "bytes": 8739,
+    "sha256": "5eb3c4c93c1b530a8cbe3ad3d0e217c63d9bd6419553fdfd8eae46223df7950a"
+  },
+  "S00\\upstream-dev\\lib\\models\\cbramod\\model_for_mumtaz.py": {
+    "bytes": 2257,
+    "sha256": "3ec7600251517f950f76ac79f68c328fca31d13377e3a434e6d157cdd92dff43"
+  },
+  "S00\\upstream-dev\\lib\\models\\encoders\\__init__.py": {
+    "bytes": 535,
+    "sha256": "f2879e5df88202dca10bb59b61d402420acc9e41db91c9c36c8b5558950a2a6c"
+  },
+  "S00\\upstream-dev\\lib\\models\\encoders\\cnn.py": {
+    "bytes": 1876,
+    "sha256": "e144547bb5da653d8fd8b46f971ce8bb43b532754e3840fe3cfa25fc76e8469c"
+  },
+  "S00\\upstream-dev\\lib\\models\\encoders\\cnn_bigru.py": {
+    "bytes": 2654,
+    "sha256": "079ebd55ed8d94b4dd3dced44faa9387c760e8e11607c457b0231dceb9c4d280"
+  },
+  "S00\\upstream-dev\\lib\\models\\encoders\\cnn_bilstm.py": {
+    "bytes": 2548,
+    "sha256": "f77510c82f9d567c60d1c8310786691cc49e54c40720c311e7803b8d176baec7"
+  },
+  "S00\\upstream-dev\\lib\\models\\encoders\\cnn_gru.py": {
+    "bytes": 2049,
+    "sha256": "c1a9b3f0a6582c9570f39f348f798070f78754cf16eeab7eea4ce25a41f61646"
+  },
+  "S00\\upstream-dev\\lib\\models\\encoders\\cnn_lstm.py": {
+    "bytes": 1802,
+    "sha256": "a8cb32ef6c7f16c4cee5dc62597931436f0a8b41bd38fb242764c012fda39d50"
+  },
+  "S00\\upstream-dev\\lib\\models\\encoders\\factory.py": {
+    "bytes": 1548,
+    "sha256": "67b31783a55c8fe676ad351e3cd23c506dd02524249e5bc68cfd3c690e180d9f"
+  },
+  "S00\\upstream-dev\\lib\\models\\models.py": {
+    "bytes": 31575,
+    "sha256": "19e8a3a5991ed3d0b58e6394cf2253822c2d1c6a61df546d6dadf3a43b6791aa"
+  },
+  "S00\\upstream-dev\\lib\\preprocessing\\__init__.py": {
+    "bytes": 596,
+    "sha256": "4281863b51b76742558a79c0df89b9e792b099b899426665666c0cdc51f20bdf"
+  },
+  "S00\\upstream-dev\\lib\\preprocessing\\audio_transcription.py": {
+    "bytes": 6108,
+    "sha256": "89fe796273b3dad918e05c5696d9dbb42f8b1863b67e4931299460bbaa5f5f94"
+  },
+  "S00\\upstream-dev\\lib\\preprocessing\\create_dataset.py": {
+    "bytes": 6822,
+    "sha256": "6bd47777c5693e207e9b8eaf584861e7e95b1a6f0d268e2b4febcaab877a4cf3"
+  },
+  "S00\\upstream-dev\\lib\\preprocessing\\eeg_preprocessing.py": {
+    "bytes": 7788,
+    "sha256": "b6292d0c60b2c337d8c8c8a852dd34b7dbebf05fc002887944f30df576a936da"
+  },
+  "S00\\upstream-dev\\lib\\preprocessing\\speech_preprocessing.py": {
+    "bytes": 8597,
+    "sha256": "f1a58b5a463812bdbb37bc6a61f71e52a3dfe36ef730d59505b62e133613a2c1"
+  },
+  "S00\\upstream-dev\\scripts\\baselines\\__init__.py": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "S00\\upstream-dev\\scripts\\baselines\\baseline_densenet_121.py": {
+    "bytes": 12708,
+    "sha256": "164053aadc5e5d5ad6fe552bd8c0bda2e1827034e5b0e43f1e6993f26cc5b00a"
+  },
+  "S00\\upstream-dev\\scripts\\baselines\\baseline_vit.py": {
+    "bytes": 13505,
+    "sha256": "757234eed286831704536a3363f7bc56e3f7ec41c0c77bd174769ef41112ea90"
+  },
+  "S00\\upstream-dev\\scripts\\fusion.py": {
+    "bytes": 11457,
+    "sha256": "612ce2f8f489827f35892f32087fb043004dd6e0ebb00af7734c37e4e39710ed"
+  },
+  "S00\\upstream-dev\\scripts\\fusion_grid_search.py": {
+    "bytes": 10873,
+    "sha256": "246da2389f3fda4621a0a37d942e00dc41373b92032125aee78dfb1669aaa23a"
+  },
+  "S00\\upstream-dev\\scripts\\fusion_significance.py": {
+    "bytes": 10202,
+    "sha256": "00033865677aab4bb0d23d2a25e8bf770b3e04227a7594272ac4fa5a3913fd59"
+  },
+  "S00\\upstream-dev\\scripts\\inference.py": {
+    "bytes": 25261,
+    "sha256": "d05ec938fce83ecf846d15ec6a76344b9bef43d56b6685408fe323640fefb915"
+  },
+  "S00\\upstream-dev\\scripts\\pairwise_significance_tests.py": {
+    "bytes": 29445,
+    "sha256": "b60be4186d3b7573cd6bdcd2edf270852257557fb6e4d6780ff589caf1c7fc87"
+  },
+  "S00\\upstream-dev\\setup.py": {
+    "bytes": 283,
+    "sha256": "15b0def8ac4c1c786f6f29fc6a1a21445880550b891dae3ad0fb7ec5894a0ffe"
+  },
+  "S00\\upstream-dev\\configs\\feature_extraction\\eeg.yaml": {
+    "bytes": 982,
+    "sha256": "d66994fc98c1f7cd30602fbc2a391d970b2add862eec27f509d742f2759d608c"
+  },
+  "S00\\upstream-dev\\configs\\feature_extraction\\speech.yaml": {
+    "bytes": 673,
+    "sha256": "804ae14f964f0186ad0cb4a599d3878ce68015f0b8eea87b994286a30b267fff"
+  },
+  "S00\\upstream-dev\\configs\\feature_extraction\\text.yaml": {
+    "bytes": 505,
+    "sha256": "3c189e352e1378f8c0660cbf11a5a00461d8a5a5d398841194a219f83c84c5dc"
+  },
+  "S00\\upstream-dev\\configs\\preprocessing.yaml": {
+    "bytes": 1317,
+    "sha256": "e5bdb745429e9c25a30f9e6c9b8701cfd8021196e2e9baef1790728a2c128e49"
+  },
+  "S00\\upstream-dev\\configs\\training\\early_fusion.yaml": {
+    "bytes": 4647,
+    "sha256": "5707ec8953a5df00cb231a72d521450791be84fcafc19f1be569eb5a2287651e"
+  },
+  "S00\\upstream-dev\\configs\\training\\eeg.yaml": {
+    "bytes": 4942,
+    "sha256": "3ef474cae8894f430491ec43b159ecf28b0fd033092e77d792de44c1c067dd7d"
+  },
+  "S00\\upstream-dev\\configs\\training\\fusion.yaml": {
+    "bytes": 3032,
+    "sha256": "d403f1bbac08563471edca848a8037c1ec72ce10f03de8c2f4032a57719dcea8"
+  },
+  "S00\\upstream-dev\\configs\\training\\intermediate_fusion.yaml": {
+    "bytes": 3225,
+    "sha256": "e8047ca6845f0ec6524dc0633d274cdebdf14962744601821dafef2a6b651876"
+  },
+  "S00\\upstream-dev\\configs\\training\\speech.yaml": {
+    "bytes": 7800,
+    "sha256": "de2217dfd1446fe90cdbaa7e2c2266fe5fc96e2921516bae20a4efec62c9592f"
+  },
+  "S00\\upstream-dev\\configs\\training\\text.yaml": {
+    "bytes": 3449,
+    "sha256": "c47388d0e95a423cbc645c6926a6e45ea06b16b841e206bc7e71ef15b82bcdbd"
+  },
+  "S00\\upstream-dev\\cbramod_pretrained_weights\\pretrained_weights.pth": {
+    "bytes": 19775842,
+    "sha256": "0792cb808c14e6b7a2bb2ce1dff379bc47bc54c49a779825bdfeb33bf8157178"
+  },
+  "S00\\upstream-dev\\cbramod_pretrained_weights\\pretrained_weights2.pth": {
+    "bytes": 96432565,
+    "sha256": "6951afbffcc69ff4c3fecc5e1c4c004ccf3b8e9bfc220a2fdf47fde2538b5478"
+  },
+  "S00\\sources\\companion.html": {
+    "bytes": 39468,
+    "sha256": "c7b96388e0ad7e6483b09078da0d96e183393710109e816419e2cee2fa8e6abb"
+  }
+}

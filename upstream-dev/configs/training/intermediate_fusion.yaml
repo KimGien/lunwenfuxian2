@@ -1,0 +1,93 @@
+# Intermediate (representation-level) fusion training configurations
+# Unimodal encoders are frozen; only the fusion head is trained (~50-58K params)
+# Usage: python scripts/inference.py --config configs/training/intermediate_fusion.yaml --all
+#
+# Requires pretrained unimodal checkpoints from:
+#   checkpoints/cbramod_mumtaz_conv/fold_{1-5}.pt
+#   checkpoints/hubert_bigru_conv/fold_{1-5}.pt
+#   checkpoints/macbert_lstm/fold_{1-5}.pt
+
+data:
+  base_dir: data/split_dataset_june
+  fold_file: data/split_dataset_june/fold_assignments.json
+
+# Pretrained unimodal models to freeze and extract representations from
+unimodal_checkpoints:
+  eeg:
+    ckpt_dir: cbramod_mumtaz_conv
+    model_class: EEGConvPoolClassifier
+    model_kwargs: {input_dim: 200, seq_len: 60}
+  speech:
+    ckpt_dir: hubert_bigru_conv
+    model_class: SpeechConvPoolClassifier
+    model_kwargs: {input_dim: 512, hidden_dim: 1024}
+  text:
+    ckpt_dir: macbert_lstm
+    model_class: LSTM1Classifier
+    model_kwargs: {input_dim: 768, hidden_dim: 1024}
+
+configs:
+
+  # ── Concatenation fusion (~50K trainable params) ─────────────────────────
+
+  - name: intermediate_concat
+    eeg_file: cbramod_embeddings_mumtaz.npy
+    speech_file: audio_embedding_hubert_lstm.npy
+    text_file: text_embedding_macbert.npy
+    intermediate_fusion: true
+    model_class: IntermediateFusionConcat
+    model_kwargs: {proj_dim: 128, dropout: 0.3}
+    epochs: 100
+    lr: 0.001
+    optimizer: Adamax
+    weight_decay: 0
+    batch_size: 8
+    output_csv: intermediate_concat.csv
+    feature_group: Intermediate Concat
+
+  - name: intermediate_concat_v2
+    eeg_file: cbramod_embeddings_mumtaz.npy
+    speech_file: audio_embedding_hubert_lstm.npy
+    text_file: text_embedding_macbert.npy
+    intermediate_fusion: true
+    model_class: IntermediateFusionConcat
+    model_kwargs: {proj_dim: 128, dropout: 0.5}
+    epochs: 150
+    lr: 0.005
+    optimizer: Adamax
+    weight_decay: 0
+    batch_size: 8
+    output_csv: intermediate_concat_v2.csv
+    feature_group: Intermediate Concat
+
+  # ── Gated fusion (~58K trainable params) ────────────────────────────────
+
+  - name: intermediate_gated
+    eeg_file: cbramod_embeddings_mumtaz.npy
+    speech_file: audio_embedding_hubert_lstm.npy
+    text_file: text_embedding_macbert.npy
+    intermediate_fusion: true
+    model_class: IntermediateFusionGated
+    model_kwargs: {proj_dim: 128, dropout: 0.3}
+    epochs: 100
+    lr: 0.001
+    optimizer: Adamax
+    weight_decay: 0
+    batch_size: 8
+    output_csv: intermediate_gated.csv
+    feature_group: Intermediate Gated
+
+  - name: intermediate_gated_v2
+    eeg_file: cbramod_embeddings_mumtaz.npy
+    speech_file: audio_embedding_hubert_lstm.npy
+    text_file: text_embedding_macbert.npy
+    intermediate_fusion: true
+    model_class: IntermediateFusionGated
+    model_kwargs: {proj_dim: 128, dropout: 0.5}
+    epochs: 150
+    lr: 0.005
+    optimizer: Adamax
+    weight_decay: 0
+    batch_size: 8
+    output_csv: intermediate_gated_v2.csv
+    feature_group: Intermediate Gated

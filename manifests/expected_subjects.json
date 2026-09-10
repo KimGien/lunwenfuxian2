@@ -1,0 +1,335 @@
+[
+  {
+    "subject_id": "02010002",
+    "label": null,
+    "label_status": "requires_MODMA_metadata",
+    "upstream_prefix_label": 1,
+    "eeg_files": [],
+    "audio_files": [],
+    "raw_files_present": false
+  },
+  {
+    "subject_id": "02010005",
+    "label": null,
+    "label_status": "requires_MODMA_metadata",
+    "upstream_prefix_label": 1,
+    "eeg_files": [],
+    "audio_files": [],
+    "raw_files_present": false
+  },
+  {
+    "subject_id": "02010006",
+    "label": null,
+    "label_status": "requires_MODMA_metadata",
+    "upstream_prefix_label": 1,
+    "eeg_files": [],
+    "audio_files": [],
+    "raw_files_present": false
+  },
+  {
+    "subject_id": "02010008",
+    "label": null,
+    "label_status": "requires_MODMA_metadata",
+    "upstream_prefix_label": 1,
+    "eeg_files": [],
+    "audio_files": [],
+    "raw_files_present": false
+  },
+  {
+    "subject_id": "02010010",
+    "label": null,
+    "label_status": "requires_MODMA_metadata",
+    "upstream_prefix_label": 1,
+    "eeg_files": [],
+    "audio_files": [],
+    "raw_files_present": false
+  },
+  {
+    "subject_id": "02010011",
+    "label": null,
+    "label_status": "requires_MODMA_metadata",
+    "upstream_prefix_label": 1,
+    "eeg_files": [],
+    "audio_files": [],
+    "raw_files_present": false
+  },
+  {
+    "subject_id": "02010012",
+    "label": null,
+    "label_status": "requires_MODMA_metadata",
+    "upstream_prefix_label": 1,
+    "eeg_files": [],
+    "audio_files": [],
+    "raw_files_present": false
+  },
+  {
+    "subject_id": "02010013",
+    "label": null,
+    "label_status": "requires_MODMA_metadata",
+    "upstream_prefix_label": 1,
+    "eeg_files": [],
+    "audio_files": [],
+    "raw_files_present": false
+  },
+  {
+    "subject_id": "02010015",
+    "label": null,
+    "label_status": "requires_MODMA_metadata",
+    "upstream_prefix_label": 1,
+    "eeg_files": [],
+    "audio_files": [],
+    "raw_files_present": false
+  },
+  {
+    "subject_id": "02010018",
+    "label": null,
+    "label_status": "requires_MODMA_metadata",
+    "upstream_prefix_label": 1,
+    "eeg_files": [],
+    "audio_files": [],
+    "raw_files_present": false
+  },
+  {
+    "subject_id": "02010022",
+    "label": null,
+    "label_status": "requires_MODMA_metadata",
+    "upstream_prefix_label": 1,
+    "eeg_files": [],
+    "audio_files": [],
+    "raw_files_present": false
+  },
+  {
+    "subject_id": "02010023",
+    "label": null,
+    "label_status": "requires_MODMA_metadata",
+    "upstream_prefix_label": 1,
+    "eeg_files": [],
+    "audio_files": [],
+    "raw_files_present": false
+  },
+  {
+    "subject_id": "02010024",
+    "label": null,
+    "label_status": "requires_MODMA_metadata",
+    "upstream_prefix_label": 1,
+    "eeg_files": [],
+    "audio_files": [],
+    "raw_files_present": false
+  },
+  {
+    "subject_id": "02010025",
+    "label": null,
+    "label_status": "requires_MODMA_metadata",
+    "upstream_prefix_label": 1,
+    "eeg_files": [],
+    "audio_files": [],
+    "raw_files_present": false
+  },
+  {
+    "subject_id": "02010034",
+    "label": null,
+    "label_status": "requires_MODMA_metadata",
+    "upstream_prefix_label": 1,
+    "eeg_files": [],
+    "audio_files": [],
+    "raw_files_present": false
+  },
+  {
+    "subject_id": "02010036",
+    "label": null,
+    "label_status": "requires_MODMA_metadata",
+    "upstream_prefix_label": 1,
+    "eeg_files": [],
+    "audio_files": [],
+    "raw_files_present": false
+  },
+  {
+    "subject_id": "02020008",
+    "label": null,
+    "label_status": "requires_MODMA_metadata",
+    "upstream_prefix_label": 0,
+    "eeg_files": [],
+    "audio_files": [],
+    "raw_files_present": false
+  },
+  {
+    "subject_id": "02020010",
+    "label": null,
+    "label_status": "requires_MODMA_metadata",
+    "upstream_prefix_label": 0,
+    "eeg_files": [],
+    "audio_files": [],
+    "raw_files_present": false
+  },
+  {
+    "subject_id": "02020014",
+    "label": null,
+    "label_status": "requires_MODMA_metadata",
+    "upstream_prefix_label": 0,
+    "eeg_files": [],
+    "audio_files": [],
+    "raw_files_present": false
+  },
+  {
+    "subject_id": "02020015",
+    "label": null,
+    "label_status": "requires_MODMA_metadata",
+    "upstream_prefix_label": 0,
+    "eeg_files": [],
+    "audio_files": [],
+    "raw_files_present": false
+  },
+  {
+    "subject_id": "02020016",
+    "label": null,
+    "label_status": "requires_MODMA_metadata",
+    "upstream_prefix_label": 0,
+    "eeg_files": [],
+    "audio_files": [],
+    "raw_files_present": false
+  },
+  {
+    "subject_id": "02020018",
+    "label": null,
+    "label_status": "requires_MODMA_metadata",
+    "upstream_prefix_label": 0,
+    "eeg_files": [],
+    "audio_files": [],
+    "raw_files_present": false
+  },
+  {
+    "subject_id": "02020019",
+    "label": null,
+    "label_status": "requires_MODMA_metadata",
+    "upstream_prefix_label": 0,
+    "eeg_files": [],
+    "audio_files": [],
+    "raw_files_present": false
+  },
+  {
+    "subject_id": "02020021",
+    "label": null,
+    "label_status": "requires_MODMA_metadata",
+    "upstream_prefix_label": 0,
+    "eeg_files": [],
+    "audio_files": [],
+    "raw_files_present": false
+  },
+  {
+    "subject_id": "02020022",
+    "label": null,
+    "label_status": "requires_MODMA_metadata",
+    "upstream_prefix_label": 0,
+    "eeg_files": [],
+    "audio_files": [],
+    "raw_files_present": false
+  },
+  {
+    "subject_id": "02020023",
+    "label": null,
+    "label_status": "requires_MODMA_metadata",
+    "upstream_prefix_label": 0,
+    "eeg_files": [],
+    "audio_files": [],
+    "raw_files_present": false
+  },
+  {
+    "subject_id": "02020025",
+    "label": null,
+    "label_status": "requires_MODMA_metadata",
+    "upstream_prefix_label": 0,
+    "eeg_files": [],
+    "audio_files": [],
+    "raw_files_present": false
+  },
+  {
+    "subject_id": "02020026",
+    "label": null,
+    "label_status": "requires_MODMA_metadata",
+    "upstream_prefix_label": 0,
+    "eeg_files": [],
+    "audio_files": [],
+    "raw_files_present": false
+  },
+  {
+    "subject_id": "02020027",
+    "label": null,
+    "label_status": "requires_MODMA_metadata",
+    "upstream_prefix_label": 0,
+    "eeg_files": [],
+    "audio_files": [],
+    "raw_files_present": false
+  },
+  {
+    "subject_id": "02030002",
+    "label": null,
+    "label_status": "requires_MODMA_metadata",
+    "upstream_prefix_label": 0,
+    "eeg_files": [],
+    "audio_files": [],
+    "raw_files_present": false
+  },
+  {
+    "subject_id": "02030004",
+    "label": null,
+    "label_status": "requires_MODMA_metadata",
+    "upstream_prefix_label": 0,
+    "eeg_files": [],
+    "audio_files": [],
+    "raw_files_present": false
+  },
+  {
+    "subject_id": "02030005",
+    "label": null,
+    "label_status": "requires_MODMA_metadata",
+    "upstream_prefix_label": 0,
+    "eeg_files": [],
+    "audio_files": [],
+    "raw_files_present": false
+  },
+  {
+    "subject_id": "02030006",
+    "label": null,
+    "label_status": "requires_MODMA_metadata",
+    "upstream_prefix_label": 0,
+    "eeg_files": [],
+    "audio_files": [],
+    "raw_files_present": false
+  },
+  {
+    "subject_id": "02030007",
+    "label": null,
+    "label_status": "requires_MODMA_metadata",
+    "upstream_prefix_label": 0,
+    "eeg_files": [],
+    "audio_files": [],
+    "raw_files_present": false
+  },
+  {
+    "subject_id": "02030009",
+    "label": null,
+    "label_status": "requires_MODMA_metadata",
+    "upstream_prefix_label": 0,
+    "eeg_files": [],
+    "audio_files": [],
+    "raw_files_present": false
+  },
+  {
+    "subject_id": "02030014",
+    "label": null,
+    "label_status": "requires_MODMA_metadata",
+    "upstream_prefix_label": 0,
+    "eeg_files": [],
+    "audio_files": [],
+    "raw_files_present": false
+  },
+  {
+    "subject_id": "02030017",
+    "label": null,
+    "label_status": "requires_MODMA_metadata",
+    "upstream_prefix_label": 0,
+    "eeg_files": [],
+    "audio_files": [],
+    "raw_files_present": false
+  }
+]

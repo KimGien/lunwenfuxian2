@@ -1,0 +1,26 @@
+# Preprocessing configuration for TRI-DEP
+# Override any key at runtime: python scripts/preprocess.py --config configs/preprocessing.yaml data.base_dir=/path/to/data
+
+data:
+  raw_eeg_dir: dataset/EEG_128channels_resting_lanzhou_2015
+  raw_audio_dir: dataset/audio_lanzhou_2015-2
+  base_dir: split_dataset          # output directory for the aligned dataset
+
+eeg:
+  channels: [9, 22, 33, 24, 124, 122, 6, 36, 104, 45, 55, 108, 52, 62, 92, 58, 96, 70, 83]
+  sampling_rate: 250               # original sampling rate (Hz)
+  highpass: 0.5                    # bandpass high-pass cut-off (Hz)
+  lowpass: 50.0                    # bandpass low-pass cut-off (Hz)
+  notch: 50.0                      # notch filter frequency (Hz)
+  segment_length: 10               # seconds per segment
+  fixed_num_segments: 30           # keep exactly this many segments per subject
+
+speech:
+  sample_rate: 16000               # target sampling rate (Hz)
+  segment_duration: 5.0            # seconds per clip
+  overlap_duration: 2.5            # overlap between consecutive clips (seconds)
+
+transcription:
+  device: cpu                      # whisperx device: cpu or cuda
+  model_size: medium               # whisperx model: tiny, base, small, medium, large
+  language: zh                     # audio language code

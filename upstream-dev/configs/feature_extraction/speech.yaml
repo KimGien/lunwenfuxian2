@@ -1,0 +1,26 @@
+# Speech feature extraction configuration
+# Override at runtime: python scripts/extract_features.py speech --config configs/feature_extraction/speech.yaml feature_extractor=chinese_hubert encoder=cnn_bigru
+
+data:
+  base_dir: split_dataset
+  segment_subdir: segmented_audio
+
+# Feature extractor: chinese_hubert | xslr53 | mfcc
+feature_extractor: chinese_hubert
+
+# Segment-level encoder: cnn_bigru | cnn_lstm | cnn_gru | cnn_bilstm | cnn
+encoder: cnn_bigru
+
+device: cpu   # cpu or cuda
+
+chinese_hubert:
+  input_dim: 1024
+  encoder_output_dim: 512
+
+xslr53:
+  input_dim: 1024
+  encoder_output_dim: 512
+
+mfcc:
+  input_dim: 40
+  encoder_output_dim: 256

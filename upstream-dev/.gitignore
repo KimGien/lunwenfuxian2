@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and checkpoints (large files)
+data/**
+!data/split_dataset_june/
+data/split_dataset_june/**
+!data/split_dataset_june/fold_assignments.json
+predictions/
+checkpoints/
+
+# IDE
+.idea/
+.vscode/
+*.swp

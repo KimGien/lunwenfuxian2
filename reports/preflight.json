@@ -1,0 +1,99 @@
+{
+  "timestamp_utc": "2026-09-10T02:16:50.373413+00:00",
+  "stage": "S00_B0_37_DATA_READY_PROTOCOL_AND_FEATURES_PENDING",
+  "s00_reproduced": false,
+  "training_ready": false,
+  "real_training_run": false,
+  "feature_extraction_complete": false,
+  "real_subject_probability_files_created": false,
+  "official_folds_passed": true,
+  "data": {
+    "passed": true,
+    "cohort": 37,
+    "complete_subjects": 37,
+    "diagnosis_counts": {
+      "1": 16,
+      "0": 21
+    },
+    "wav_count": 1073,
+    "invalid_wav_count": 0,
+    "eeg_count": 37,
+    "eeg_sample_rates": {
+      "250.0": 37
+    },
+    "wav_sample_rates": {
+      "44100": 1073
+    },
+    "wav_hours": 5.299808453010834,
+    "duplicate_pcm_groups": [],
+    "errors": [],
+    "original_archive_publisher_not_verified": true,
+    "cohort_id": "MODMA-37-v1",
+    "folds_sha256": "a28ebe92c94428128313586d3a5524b2f03befcbc473215f4b0b2dcb49c3284d",
+    "subject_manifest_sha256": "865398778869799ab4da5bcc680d0cbcffcb2aa122d229d2d42eb13f0af72cc9",
+    "excluded_subject_ids": [
+      "02010004"
+    ],
+    "suspect_wav_count": 0,
+    "decodable_without_signal_flags": 1073,
+    "signal_screen_report": "reports/audio_signal_quality.json",
+    "signal_screen_sha256": "27742047431dfe2f4e06d430cc41ceaef2b7d87116faf947c32a0d4cd5d95983"
+  },
+  "gpu_smoke_passed": true,
+  "backbone_smoke_passed": true,
+  "asr_smoke_passed": true,
+  "package_checks": {
+    "main": {
+      "passed": true,
+      "output": "No broken requirements found.\n"
+    },
+    "asr": {
+      "passed": true,
+      "output": "No broken requirements found.\n"
+    }
+  },
+  "protocol_tests_passed": true,
+  "outstanding": [
+    "Speech encoder training/initialization provenance and degenerate sequence dimension",
+    "Paper Chinese HuBERT Large versus code emotion-finetuned base",
+    "ASR full transcript versus first segment",
+    "Audio short/tail segmentation",
+    "EEG physical units, channel mapping and 60-segment length policy for recordings up to 335.504 seconds"
+  ],
+  "python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+  "data_recovery": {
+    "checked_utc": "2026-09-10T01:53:16.415839+00:00",
+    "recovered_full_recordings": 0,
+    "data_problem_resolved": false,
+    "original_zip_and_raw_modified": false,
+    "original_38_subject_folds_modified": false,
+    "header_invalid_files": 5,
+    "signal_suspect_files": 1,
+    "affected_subjects": [
+      "02010004"
+    ],
+    "complete_subjects": 37,
+    "decodable_without_severe_noise_flags": 1096,
+    "mirror_matches_local_for_questions": [
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28"
+    ],
+    "known_source_defect_reference": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8296267/",
+    "official_archive_access": "ReShare audio endpoint returned HTTP 401; registered access is required",
+    "inactive_fallback": null,
+    "baseline_cohort_changed": true,
+    "training_run": false,
+    "active_cohort_id": "MODMA-37-v1",
+    "active_cohort_policy": "configs/cohort.json",
+    "active_cohort_data_blocker_resolved_by_exclusion": true
+  },
+  "experiment": "B0-37",
+  "cohort_id": "MODMA-37-v1",
+  "folds_sha256": "a28ebe92c94428128313586d3a5524b2f03befcbc473215f4b0b2dcb49c3284d",
+  "active_folds_passed": true,
+  "data_ready": true
+}

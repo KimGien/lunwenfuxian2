@@ -1,0 +1,30 @@
+{
+  "checked_utc": "2026-09-10T01:53:16.415839+00:00",
+  "recovered_full_recordings": 0,
+  "data_problem_resolved": false,
+  "original_zip_and_raw_modified": false,
+  "original_38_subject_folds_modified": false,
+  "header_invalid_files": 5,
+  "signal_suspect_files": 1,
+  "affected_subjects": [
+    "02010004"
+  ],
+  "complete_subjects": 37,
+  "decodable_without_severe_noise_flags": 1096,
+  "mirror_matches_local_for_questions": [
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28"
+  ],
+  "known_source_defect_reference": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8296267/",
+  "official_archive_access": "ReShare audio endpoint returned HTTP 401; registered access is required",
+  "inactive_fallback": null,
+  "baseline_cohort_changed": true,
+  "training_run": false,
+  "active_cohort_id": "MODMA-37-v1",
+  "active_cohort_policy": "configs/cohort.json",
+  "active_cohort_data_blocker_resolved_by_exclusion": true
+}

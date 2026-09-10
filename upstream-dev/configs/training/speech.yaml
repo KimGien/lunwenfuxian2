@@ -1,0 +1,271 @@
+# Speech training configurations
+# Usage: python scripts/inference.py --config configs/training/speech.yaml --all
+
+data:
+  base_dir: data/split_dataset_june
+  fold_file: data/split_dataset_june/fold_assignments.json
+
+configs:
+
+  # ── XLSR-53 (6 configs: 3 encoders × 2 detectors) ───────────────────────
+
+  - name: xlsr_gru_lstm
+    embedding_file: audio_embedding_gru.npy
+    model_class: BiLSTMClassifier
+    model_kwargs: {input_dim: 512, hidden_dim: 256}
+    epochs: 50
+    lr: 0.001
+    optimizer: Adamax
+    weight_decay: 0
+    batch_size: 8
+    output_csv: speech_xlsr_gru_lstm.csv
+    feature_group: XLSR-53
+
+  - name: xlsr_gru_conv
+    embedding_file: audio_embedding_gru.npy
+    model_class: SpeechConvPoolClassifier
+    model_kwargs: {input_dim: 512, hidden_dim: 128}
+    epochs: 50
+    lr: 0.001
+    optimizer: Adamax
+    weight_decay: 0
+    batch_size: 16
+    output_csv: speech_xlsr_gru_conv.csv
+    feature_group: XLSR-53
+
+  - name: xlsr_lstm_lstm
+    embedding_file: audio_embedding_lstm.npy
+    model_class: BiLSTMClassifier
+    model_kwargs: {input_dim: 256, hidden_dim: 256}
+    epochs: 100
+    lr: 0.001
+    optimizer: Adamax
+    weight_decay: 0
+    batch_size: 8
+    output_csv: speech_xlsr_lstm_lstm.csv
+    feature_group: XLSR-53
+
+  - name: xlsr_lstm_conv
+    embedding_file: audio_embedding_lstm.npy
+    model_class: SpeechConvPoolClassifier
+    model_kwargs: {input_dim: 256, hidden_dim: 128}
+    epochs: 70
+    lr: 0.001
+    optimizer: Adamax
+    weight_decay: 0
+    batch_size: 16
+    output_csv: speech_xlsr_lstm_conv.csv
+    feature_group: XLSR-53
+
+  - name: xlsr_cnn_lstm
+    embedding_file: audio_embedding_cnn.npy
+    model_class: BiLSTMClassifier
+    model_kwargs: {input_dim: 256, hidden_dim: 256}
+    epochs: 100
+    lr: 0.001
+    optimizer: Adamax
+    weight_decay: 0
+    batch_size: 8
+    output_csv: speech_xlsr_cnn_lstm.csv
+    feature_group: XLSR-53
+
+  - name: xlsr_cnn_conv
+    embedding_file: audio_embedding_cnn.npy
+    model_class: SpeechConvPoolClassifier
+    model_kwargs: {input_dim: 256, hidden_dim: 128}
+    epochs: 50
+    lr: 0.001
+    optimizer: Adamax
+    weight_decay: 0
+    batch_size: 16
+    output_csv: speech_xlsr_cnn_conv.csv
+    feature_group: XLSR-53
+
+  # ── Chinese HuBERT (6 configs: 3 encoders × 2 detectors) ────────────────
+
+  - name: hubert_lstm_lstm
+    embedding_file: audio_embedding_hubert_lstm_real.npy
+    model_class: BiLSTMClassifier
+    model_kwargs: {input_dim: 256, hidden_dim: 1024}
+    epochs: 100
+    lr: 0.0001
+    optimizer: Adamax
+    weight_decay: 0.001
+    batch_size: 32
+    output_csv: speech_hubert_lstm_lstm.csv
+    feature_group: HuBERT
+
+  - name: hubert_lstm_conv
+    embedding_file: audio_embedding_hubert_lstm_real.npy
+    model_class: SpeechConvPoolClassifier
+    model_kwargs: {input_dim: 256, hidden_dim: 1024}
+    epochs: 60
+    lr: 0.01
+    optimizer: Adamax
+    weight_decay: 0
+    batch_size: 8
+    output_csv: speech_hubert_lstm_conv.csv
+    feature_group: HuBERT
+
+  - name: hubert_bigru_lstm
+    embedding_file: audio_embedding_hubert_lstm.npy
+    model_class: BiLSTMClassifier
+    model_kwargs: {input_dim: 512, hidden_dim: 1024}
+    epochs: 110
+    lr: 0.0005
+    optimizer: Adamax
+    weight_decay: 0
+    batch_size: 16
+    output_csv: speech_hubert_bigru_lstm.csv
+    feature_group: HuBERT
+
+  - name: hubert_bigru_conv
+    embedding_file: audio_embedding_hubert_lstm.npy
+    model_class: SpeechConvPoolClassifier
+    model_kwargs: {input_dim: 512, hidden_dim: 1024}
+    epochs: 70
+    lr: 0.005
+    optimizer: Adamax
+    weight_decay: 0
+    batch_size: 8
+    output_csv: speech_hubert_bigru_conv.csv
+    feature_group: HuBERT
+
+  - name: hubert_noenc_lstm
+    embedding_file: hubert_embeddings.npy
+    model_class: BiLSTMClassifier
+    model_kwargs: {input_dim: 768, hidden_dim: 1024}
+    epochs: 50
+    lr: 0.001
+    optimizer: Adamax
+    weight_decay: 0
+    batch_size: 16
+    output_csv: speech_hubert_noenc_lstm.csv
+    feature_group: HuBERT
+
+  - name: hubert_noenc_conv
+    embedding_file: hubert_embeddings.npy
+    model_class: SpeechConvPoolClassifier
+    model_kwargs: {input_dim: 768, hidden_dim: 1024}
+    epochs: 65
+    lr: 0.0001
+    optimizer: Adamax
+    weight_decay: 0
+    batch_size: 32
+    output_csv: speech_hubert_noenc_conv.csv
+    feature_group: HuBERT
+
+  # ── Prosody + MFCC (3 end-to-end configs) ────────────────────────────────
+
+  - name: prosody_mfcc_cnn_lstm
+    embedding_file: raw_audio_features.npy
+    model_class: ProsodyMFCCModel
+    model_kwargs: {}
+    epochs: 110
+    lr: 0.0005
+    optimizer: Adam
+    weight_decay: 0
+    batch_size: 32
+    raw_audio: true
+    output_csv: speech_prosody_mfcc_cnn_lstm.csv
+    feature_group: Prosody+MFCC
+
+  - name: prosody_mfcc_cnn_bilstm
+    embedding_file: raw_audio_features.npy
+    model_class: ProsodyMFCCModel
+    model_kwargs: {}
+    epochs: 110
+    lr: 0.0005
+    optimizer: Adam
+    weight_decay: 0
+    batch_size: 32
+    raw_audio: true
+    output_csv: speech_prosody_mfcc_cnn_bilstm.csv
+    feature_group: Prosody+MFCC
+
+  - name: prosody_mfcc_bigru_attn
+    embedding_file: raw_audio_features.npy
+    model_class: ProsodyMFCCModel
+    model_kwargs: {}
+    epochs: 60
+    lr: 0.001
+    optimizer: Adam
+    weight_decay: 0
+    batch_size: 8
+    raw_audio: true
+    output_csv: speech_prosody_mfcc_bigru_attn.csv
+    feature_group: Prosody+MFCC
+
+  # ── MFCC only (6 configs: 3 encoders × 2 detectors) ─────────────────────
+
+  - name: mfcc_lstm_lstm
+    embedding_file: audio_mfcc_encoded_lstm.npy
+    model_class: BiLSTMClassifier
+    model_kwargs: {input_dim: 256, hidden_dim: 1024}
+    epochs: 100
+    lr: 0.0001
+    optimizer: Adamax
+    weight_decay: 0
+    batch_size: 8
+    output_csv: speech_mfcc_lstm_lstm.csv
+    feature_group: MFCC
+
+  - name: mfcc_lstm_conv
+    embedding_file: audio_mfcc_encoded_lstm.npy
+    model_class: SpeechConvPoolClassifier
+    model_kwargs: {input_dim: 256, hidden_dim: 128}
+    epochs: 40
+    lr: 0.01
+    optimizer: Adamax
+    weight_decay: 0
+    batch_size: 32
+    output_csv: speech_mfcc_lstm_conv.csv
+    feature_group: MFCC
+
+  - name: mfcc_bigru_lstm
+    embedding_file: audio_mfcc_encoded_bigru.npy
+    model_class: BiLSTMClassifier
+    model_kwargs: {input_dim: 256, hidden_dim: 1024}
+    epochs: 60
+    lr: 0.001
+    optimizer: Adam
+    weight_decay: 0
+    batch_size: 16
+    output_csv: speech_mfcc_bigru_lstm.csv
+    feature_group: MFCC
+
+  - name: mfcc_bigru_conv
+    embedding_file: audio_mfcc_encoded_bigru.npy
+    model_class: SpeechConvPoolClassifier
+    model_kwargs: {input_dim: 256, hidden_dim: 128}
+    epochs: 100
+    lr: 0.005
+    optimizer: Adam
+    weight_decay: 0
+    batch_size: 32
+    output_csv: speech_mfcc_bigru_conv.csv
+    feature_group: MFCC
+
+  - name: mfcc_cnn_lstm
+    embedding_file: audio_mfcc_encoded_cnn.npy
+    model_class: BiLSTMClassifier
+    model_kwargs: {input_dim: 256, hidden_dim: 1024}
+    epochs: 90
+    lr: 0.0001
+    optimizer: Adamax
+    weight_decay: 0
+    batch_size: 32
+    output_csv: speech_mfcc_cnn_lstm.csv
+    feature_group: MFCC
+
+  - name: mfcc_cnn_conv
+    embedding_file: audio_mfcc_encoded_cnn.npy
+    model_class: SpeechConvPoolClassifier
+    model_kwargs: {input_dim: 256, hidden_dim: 128}
+    epochs: 40
+    lr: 0.01
+    optimizer: Adamax
+    weight_decay: 0
+    batch_size: 8
+    output_csv: speech_mfcc_cnn_conv.csv
+    feature_group: MFCC

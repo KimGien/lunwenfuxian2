@@ -1,0 +1,86 @@
+{
+  "kaggle_02010004_23.response": {
+    "url": "https://www.kaggle.com/api/v1/datasets/download/pankajmsah/modma-audio-group-6-dsai/MODMA_AUDIO%20Datatset%2Faudio_lanzhou_2015%2F02010004%2F23.wav?datasetVersionNumber=1",
+    "checked_utc": "2026-09-10T01:47:25.115563+00:00",
+    "status": 200,
+    "final_url": "https://storage.googleapis.com:443/kagglesdsdata/datasets/9867827/15425540/MODMA_AUDIO%20Datatset/audio_lanzhou_2015/02010004/23.wav",
+    "content_type": "audio/wav",
+    "path": "recovery\\sources\\kaggle_02010004_23.response",
+    "bytes": 2178620,
+    "sha256": "e02f21034d568ab8f7dd8ca1cc540c634035274481ae6965572c53866de34c5f"
+  },
+  "kaggle_02010004_24.response": {
+    "url": "https://www.kaggle.com/api/v1/datasets/download/pankajmsah/modma-audio-group-6-dsai/MODMA_AUDIO%20Datatset%2Faudio_lanzhou_2015%2F02010004%2F24.wav?datasetVersionNumber=1",
+    "checked_utc": "2026-09-10T01:47:25.116361+00:00",
+    "status": 200,
+    "final_url": "https://storage.googleapis.com:443/kagglesdsdata/datasets/9867827/15425540/MODMA_AUDIO%20Datatset/audio_lanzhou_2015/02010004/24.wav",
+    "content_type": "audio/wav",
+    "path": "recovery\\sources\\kaggle_02010004_24.response",
+    "bytes": 2026404,
+    "sha256": "5c2f140bff00785aa5692453fd7a96cbaeb35a9ae33bb82583ad2acc6223e151"
+  },
+  "kaggle_02010004_25.response": {
+    "url": "https://www.kaggle.com/api/v1/datasets/download/pankajmsah/modma-audio-group-6-dsai/MODMA_AUDIO%20Datatset%2Faudio_lanzhou_2015%2F02010004%2F25.wav?datasetVersionNumber=1",
+    "checked_utc": "2026-09-10T01:47:25.116772+00:00",
+    "status": 200,
+    "final_url": "https://storage.googleapis.com:443/kagglesdsdata/datasets/9867827/15425540/MODMA_AUDIO%20Datatset/audio_lanzhou_2015/02010004/25.wav",
+    "content_type": "audio/wav",
+    "path": "recovery\\sources\\kaggle_02010004_25.response",
+    "bytes": 1929086,
+    "sha256": "0152ba6591cb4166606b55d14f3ad6f8533e99bdebe2d02859e5f7a543d6641b"
+  },
+  "kaggle_02010004_26.response": {
+    "url": "https://www.kaggle.com/api/v1/datasets/download/pankajmsah/modma-audio-group-6-dsai/MODMA_AUDIO%20Datatset%2Faudio_lanzhou_2015%2F02010004%2F26.wav?datasetVersionNumber=1",
+    "checked_utc": "2026-09-10T01:47:25.117117+00:00",
+    "status": 200,
+    "final_url": "https://storage.googleapis.com:443/kagglesdsdata/datasets/9867827/15425540/MODMA_AUDIO%20Datatset/audio_lanzhou_2015/02010004/26.wav",
+    "content_type": "audio/wav",
+    "path": "recovery\\sources\\kaggle_02010004_26.response",
+    "bytes": 2332124,
+    "sha256": "8b12d0ef8915bef2da04c43099f4bd86fa0ae6b55f6c138f1e3bd28e2d16159b"
+  },
+  "kaggle_02010004_27.response": {
+    "url": "https://www.kaggle.com/api/v1/datasets/download/pankajmsah/modma-audio-group-6-dsai/MODMA_AUDIO%20Datatset%2Faudio_lanzhou_2015%2F02010004%2F27.wav?datasetVersionNumber=1",
+    "checked_utc": "2026-09-10T01:47:25.221179+00:00",
+    "status": 200,
+    "final_url": "https://storage.googleapis.com:443/kagglesdsdata/datasets/9867827/15425540/MODMA_AUDIO%20Datatset/audio_lanzhou_2015/02010004/27.wav",
+    "content_type": "audio/wav",
+    "path": "recovery\\sources\\kaggle_02010004_27.response",
+    "bytes": 3050900,
+    "sha256": "75e27cd56fc15a4be4a37e6fb575ea08e5636fbafccb200a1bfe2d6c65cc7b9c"
+  },
+  "kaggle_02010004_28.response": {
+    "url": "https://www.kaggle.com/api/v1/datasets/download/pankajmsah/modma-audio-group-6-dsai/MODMA_AUDIO%20Datatset%2Faudio_lanzhou_2015%2F02010004%2F28.wav?datasetVersionNumber=1",
+    "checked_utc": "2026-09-10T01:47:27.247033+00:00",
+    "status": 200,
+    "final_url": "https://storage.googleapis.com:443/kagglesdsdata/datasets/9867827/15425540/MODMA_AUDIO%20Datatset/audio_lanzhou_2015/02010004/28.wav",
+    "content_type": "audio/wav",
+    "path": "recovery\\sources\\kaggle_02010004_28.response",
+    "bytes": 4531286,
+    "sha256": "2ac1bb2a96e848242ba9661499f28d6cf2d5bbcab1daf150209294ca1da61b9e"
+  },
+  "kaggle_lanzhou_search.json": {
+    "url": "https://www.kaggle.com/api/v1/datasets/list?search=lanzhou&page=1",
+    "checked_utc": "2026-09-10T01:47:27.322963+00:00",
+    "status": 200,
+    "final_url": "https://www.kaggle.com/api/v1/datasets/list?search=lanzhou&page=1",
+    "content_type": "application/json",
+    "path": "recovery\\sources\\kaggle_lanzhou_search.json",
+    "bytes": 17503,
+    "sha256": "1763470991c5f5a3cf28634f9726bea0186fe013b48db70f19a43d03490570be"
+  },
+  "github_audio_repo_search.json": {
+    "url": "https://api.github.com/search/repositories?q=MODMA+audio&per_page=30",
+    "checked_utc": "2026-09-10T01:47:27.344407+00:00",
+    "status": 200,
+    "final_url": "https://api.github.com/search/repositories?q=MODMA+audio&per_page=30",
+    "content_type": "application/json; charset=utf-8",
+    "path": "recovery\\sources\\github_audio_repo_search.json",
+    "bytes": 6176,
+    "sha256": "59cc33a23877f43e969c04f7795b59c33ff612e7666391c90d030aefb169bf26"
+  },
+  "reshare_audio_head": {
+    "url": "https://reshare.ukdataservice.ac.uk/854301/1/854301_Audio_Lanzhou_2015.zip",
+    "error": "HTTP Error 401: Unauthorized"
+  }
+}

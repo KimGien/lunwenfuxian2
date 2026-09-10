@@ -1,0 +1,2753 @@
+{
+  "checked_utc": "2026-09-10T01:47:18.476472+00:00",
+  "subject_id": "02010004",
+  "invalid_questions": [
+    "24",
+    "25",
+    "26",
+    "27",
+    "28"
+  ],
+  "controls": [
+    "23",
+    "29"
+  ],
+  "files": [
+    {
+      "path": "dataset\\modma\\raw\\modma-audio-group-6-dsai\\MODMA_AUDIO Datatset\\audio_lanzhou_2015\\02010004\\23.wav",
+      "bytes": 2178620,
+      "sha256": "e02f21034d568ab8f7dd8ca1cc540c634035274481ae6965572c53866de34c5f",
+      "first_64_hex": "52494646343e210057415645666d7420100000000100010044ac0000cc0402000300180064617461bc3d21006912002712003112008311005511007e11009f11",
+      "entropy_bits_per_byte": 7.211430641877091,
+      "zero_fraction": 0.10319330585416456,
+      "riff_offset": 0,
+      "wave_offset": 8,
+      "blocks": [
+        {
+          "offset": 0,
+          "bytes": 65536,
+          "entropy": 6.193922319260449,
+          "zero_fraction": 0.170654296875
+        },
+        {
+          "offset": 65536,
+          "bytes": 65536,
+          "entropy": 6.249245401191789,
+          "zero_fraction": 0.1635589599609375
+        },
+        {
+          "offset": 131072,
+          "bytes": 65536,
+          "entropy": 6.256716413691437,
+          "zero_fraction": 0.1758880615234375
+        },
+        {
+          "offset": 196608,
+          "bytes": 65536,
+          "entropy": 6.09192012423088,
+          "zero_fraction": 0.193939208984375
+        },
+        {
+          "offset": 262144,
+          "bytes": 65536,
+          "entropy": 6.173731473058882,
+          "zero_fraction": 0.174835205078125
+        },
+        {
+          "offset": 327680,
+          "bytes": 65536,
+          "entropy": 6.179798394419279,
+          "zero_fraction": 0.1833343505859375
+        },
+        {
+          "offset": 393216,
+          "bytes": 65536,
+          "entropy": 6.215545332952363,
+          "zero_fraction": 0.167999267578125
+        },
+        {
+          "offset": 458752,
+          "bytes": 65536,
+          "entropy": 6.670915994620701,
+          "zero_fraction": 0.1561431884765625
+        },
+        {
+          "offset": 524288,
+          "bytes": 65536,
+          "entropy": 6.590165736138003,
+          "zero_fraction": 0.1502532958984375
+        },
+        {
+          "offset": 589824,
+          "bytes": 65536,
+          "entropy": 6.91477092864978,
+          "zero_fraction": 0.1118621826171875
+        },
+        {
+          "offset": 655360,
+          "bytes": 65536,
+          "entropy": 6.5247922402742935,
+          "zero_fraction": 0.1628875732421875
+        },
+        {
+          "offset": 720896,
+          "bytes": 65536,
+          "entropy": 6.717489210678406,
+          "zero_fraction": 0.1477508544921875
+        },
+        {
+          "offset": 786432,
+          "bytes": 65536,
+          "entropy": 6.825776978686196,
+          "zero_fraction": 0.1447906494140625
+        },
+        {
+          "offset": 851968,
+          "bytes": 65536,
+          "entropy": 6.592837049897486,
+          "zero_fraction": 0.1531829833984375
+        },
+        {
+          "offset": 917504,
+          "bytes": 65536,
+          "entropy": 6.7472223830641855,
+          "zero_fraction": 0.13848876953125
+        },
+        {
+          "offset": 983040,
+          "bytes": 65536,
+          "entropy": 6.603380927298078,
+          "zero_fraction": 0.1404266357421875
+        },
+        {
+          "offset": 1048576,
+          "bytes": 65536,
+          "entropy": 6.761768169942533,
+          "zero_fraction": 0.1422271728515625
+        },
+        {
+          "offset": 1114112,
+          "bytes": 65536,
+          "entropy": 6.894691349262262,
+          "zero_fraction": 0.1232452392578125
+        },
+        {
+          "offset": 1179648,
+          "bytes": 65536,
+          "entropy": 6.708060637514257,
+          "zero_fraction": 0.1334075927734375
+        },
+        {
+          "offset": 1245184,
+          "bytes": 65536,
+          "entropy": 6.753439107927457,
+          "zero_fraction": 0.123291015625
+        },
+        {
+          "offset": 1310720,
+          "bytes": 65536,
+          "entropy": 6.7720263152932665,
+          "zero_fraction": 0.1268310546875
+        },
+        {
+          "offset": 1376256,
+          "bytes": 65536,
+          "entropy": 6.542528399308273,
+          "zero_fraction": 0.1642608642578125
+        },
+        {
+          "offset": 1441792,
+          "bytes": 65536,
+          "entropy": 7.776809809732443,
+          "zero_fraction": 0.041748046875
+        },
+        {
+          "offset": 1507328,
+          "bytes": 65536,
+          "entropy": 7.997031730396015,
+          "zero_fraction": 0.0038909912109375
+        },
+        {
+          "offset": 1572864,
+          "bytes": 65536,
+          "entropy": 7.996988474206491,
+          "zero_fraction": 0.0038604736328125
+        },
+        {
+          "offset": 1638400,
+          "bytes": 65536,
+          "entropy": 7.997708387245092,
+          "zero_fraction": 0.003662109375
+        },
+        {
+          "offset": 1703936,
+          "bytes": 65536,
+          "entropy": 7.997228323740957,
+          "zero_fraction": 0.0040283203125
+        },
+        {
+          "offset": 1769472,
+          "bytes": 65536,
+          "entropy": 7.996985018251116,
+          "zero_fraction": 0.0038299560546875
+        },
+        {
+          "offset": 1835008,
+          "bytes": 65536,
+          "entropy": 7.997015825949437,
+          "zero_fraction": 0.003631591796875
+        },
+        {
+          "offset": 1900544,
+          "bytes": 65536,
+          "entropy": 7.997153296876879,
+          "zero_fraction": 0.0040283203125
+        },
+        {
+          "offset": 1966080,
+          "bytes": 65536,
+          "entropy": 7.997044069570154,
+          "zero_fraction": 0.0035247802734375
+        },
+        {
+          "offset": 2031616,
+          "bytes": 65536,
+          "entropy": 7.996951386078302,
+          "zero_fraction": 0.0038909912109375
+        },
+        {
+          "offset": 2097152,
+          "bytes": 65536,
+          "entropy": 7.997062936779509,
+          "zero_fraction": 0.004119873046875
+        },
+        {
+          "offset": 2162688,
+          "bytes": 15932,
+          "entropy": 7.988427626215917,
+          "zero_fraction": 0.004079839317097665
+        }
+      ],
+      "wave": {
+        "valid": true,
+        "sample_rate": 44100,
+        "sample_width": 3,
+        "channels": 1,
+        "frames": 726164
+      },
+      "ffmpeg": {
+        "returncode": 0,
+        "diagnostic": ""
+      },
+      "archive": {
+        "member": "MODMA_AUDIO Datatset/audio_lanzhou_2015/02010004/23.wav",
+        "crc32": "cc29d322",
+        "crc_passed": true,
+        "raw_exactly_matches_archive": true,
+        "compressed_bytes": 1878757,
+        "flags": 2048,
+        "encrypted": false,
+        "compression": 8
+      }
+    },
+    {
+      "path": "dataset\\modma\\raw\\modma-audio-group-6-dsai\\MODMA_AUDIO Datatset\\audio_lanzhou_2015\\02010004\\24.wav",
+      "bytes": 2026404,
+      "sha256": "5c2f140bff00785aa5692453fd7a96cbaeb35a9ae33bb82583ad2acc6223e151",
+      "first_64_hex": "daed5b9d637152db5f322640088fe126d386c8e1ab38e962363562b16fc4f3c58b85daca59c121c86ae5b94627d98f44b05be1fd70b33faf81f166c4e793bf4c",
+      "entropy_bits_per_byte": 7.999911442802226,
+      "zero_fraction": 0.003915803561382627,
+      "riff_offset": -1,
+      "wave_offset": -1,
+      "blocks": [
+        {
+          "offset": 0,
+          "bytes": 65536,
+          "entropy": 7.997103320343983,
+          "zero_fraction": 0.0038299560546875
+        },
+        {
+          "offset": 65536,
+          "bytes": 65536,
+          "entropy": 7.997500814496651,
+          "zero_fraction": 0.0040130615234375
+        },
+        {
+          "offset": 131072,
+          "bytes": 65536,
+          "entropy": 7.99737040463957,
+          "zero_fraction": 0.003753662109375
+        },
+        {
+          "offset": 196608,
+          "bytes": 65536,
+          "entropy": 7.997066013005751,
+          "zero_fraction": 0.0041351318359375
+        },
+        {
+          "offset": 262144,
+          "bytes": 65536,
+          "entropy": 7.996915225070738,
+          "zero_fraction": 0.0035858154296875
+        },
+        {
+          "offset": 327680,
+          "bytes": 65536,
+          "entropy": 7.997262471561514,
+          "zero_fraction": 0.0043792724609375
+        },
+        {
+          "offset": 393216,
+          "bytes": 65536,
+          "entropy": 7.9975408788359585,
+          "zero_fraction": 0.004150390625
+        },
+        {
+          "offset": 458752,
+          "bytes": 65536,
+          "entropy": 7.997467870298808,
+          "zero_fraction": 0.0041656494140625
+        },
+        {
+          "offset": 524288,
+          "bytes": 65536,
+          "entropy": 7.996833596643873,
+          "zero_fraction": 0.00347900390625
+        },
+        {
+          "offset": 589824,
+          "bytes": 65536,
+          "entropy": 7.997364195176959,
+          "zero_fraction": 0.00384521484375
+        },
+        {
+          "offset": 655360,
+          "bytes": 65536,
+          "entropy": 7.996890287764548,
+          "zero_fraction": 0.003753662109375
+        },
+        {
+          "offset": 720896,
+          "bytes": 65536,
+          "entropy": 7.996974120463457,
+          "zero_fraction": 0.0039215087890625
+        },
+        {
+          "offset": 786432,
+          "bytes": 65536,
+          "entropy": 7.997191133850397,
+          "zero_fraction": 0.0039825439453125
+        },
+        {
+          "offset": 851968,
+          "bytes": 65536,
+          "entropy": 7.997516478078653,
+          "zero_fraction": 0.0037841796875
+        },
+        {
+          "offset": 917504,
+          "bytes": 65536,
+          "entropy": 7.997255226588477,
+          "zero_fraction": 0.004241943359375
+        },
+        {
+          "offset": 983040,
+          "bytes": 65536,
+          "entropy": 7.997122295690552,
+          "zero_fraction": 0.0034942626953125
+        },
+        {
+          "offset": 1048576,
+          "bytes": 65536,
+          "entropy": 7.997536599477832,
+          "zero_fraction": 0.003875732421875
+        },
+        {
+          "offset": 1114112,
+          "bytes": 65536,
+          "entropy": 7.997015944189257,
+          "zero_fraction": 0.0038299560546875
+        },
+        {
+          "offset": 1179648,
+          "bytes": 65536,
+          "entropy": 7.997132285922589,
+          "zero_fraction": 0.00396728515625
+        },
+        {
+          "offset": 1245184,
+          "bytes": 65536,
+          "entropy": 7.997123197410307,
+          "zero_fraction": 0.004150390625
+        },
+        {
+          "offset": 1310720,
+          "bytes": 65536,
+          "entropy": 7.99708169150552,
+          "zero_fraction": 0.003875732421875
+        },
+        {
+          "offset": 1376256,
+          "bytes": 65536,
+          "entropy": 7.996970454050072,
+          "zero_fraction": 0.00396728515625
+        },
+        {
+          "offset": 1441792,
+          "bytes": 65536,
+          "entropy": 7.997474354347837,
+          "zero_fraction": 0.0037689208984375
+        },
+        {
+          "offset": 1507328,
+          "bytes": 65536,
+          "entropy": 7.996643311349622,
+          "zero_fraction": 0.0039215087890625
+        },
+        {
+          "offset": 1572864,
+          "bytes": 65536,
+          "entropy": 7.99704959446868,
+          "zero_fraction": 0.0041961669921875
+        },
+        {
+          "offset": 1638400,
+          "bytes": 65536,
+          "entropy": 7.997460138525736,
+          "zero_fraction": 0.00390625
+        },
+        {
+          "offset": 1703936,
+          "bytes": 65536,
+          "entropy": 7.997229330950989,
+          "zero_fraction": 0.004058837890625
+        },
+        {
+          "offset": 1769472,
+          "bytes": 65536,
+          "entropy": 7.99729601242076,
+          "zero_fraction": 0.003692626953125
+        },
+        {
+          "offset": 1835008,
+          "bytes": 65536,
+          "entropy": 7.997493762050352,
+          "zero_fraction": 0.004119873046875
+        },
+        {
+          "offset": 1900544,
+          "bytes": 65536,
+          "entropy": 7.996852084971552,
+          "zero_fraction": 0.0036163330078125
+        },
+        {
+          "offset": 1966080,
+          "bytes": 60324,
+          "entropy": 7.997124536665561,
+          "zero_fraction": 0.003928784563357868
+        }
+      ],
+      "wave": {
+        "valid": false,
+        "error": "file does not start with RIFF id"
+      },
+      "ffmpeg": {
+        "returncode": 3199971767,
+        "diagnostic": "[in#0 @ 000001fba2716c80] Error opening input: Invalid data found when processing input\nError opening input file C:\\Users\\jin  qiyan\\Desktop\\lunwen2\\dataset\\modma\\raw\\modma-audio-group-6-dsai\\MODMA_AUDIO Datatset\\audio_lanzhou_2015\\02010004\\24.wav.\nError opening input files: Invalid data found when processing input\n"
+      },
+      "archive": {
+        "member": "MODMA_AUDIO Datatset/audio_lanzhou_2015/02010004/24.wav",
+        "crc32": "6af92585",
+        "crc_passed": true,
+        "raw_exactly_matches_archive": true,
+        "compressed_bytes": 2027024,
+        "flags": 2048,
+        "encrypted": false,
+        "compression": 8
+      }
+    },
+    {
+      "path": "dataset\\modma\\raw\\modma-audio-group-6-dsai\\MODMA_AUDIO Datatset\\audio_lanzhou_2015\\02010004\\25.wav",
+      "bytes": 1929086,
+      "sha256": "0152ba6591cb4166606b55d14f3ad6f8533e99bdebe2d02859e5f7a543d6641b",
+      "first_64_hex": "769f8e2b893df4831012d38b9a59066d725e05c5e377b7c3ee0069e05a0b19f14010c46d6b58fa29065d4a9f7a50896964000e381425abe2390655cdefe316bd",
+      "entropy_bits_per_byte": 7.999894279872547,
+      "zero_fraction": 0.003861414161939903,
+      "riff_offset": -1,
+      "wave_offset": -1,
+      "blocks": [
+        {
+          "offset": 0,
+          "bytes": 65536,
+          "entropy": 7.9974514533673435,
+          "zero_fraction": 0.004241943359375
+        },
+        {
+          "offset": 65536,
+          "bytes": 65536,
+          "entropy": 7.997264346189014,
+          "zero_fraction": 0.003753662109375
+        },
+        {
+          "offset": 131072,
+          "bytes": 65536,
+          "entropy": 7.9971621199778635,
+          "zero_fraction": 0.0038604736328125
+        },
+        {
+          "offset": 196608,
+          "bytes": 65536,
+          "entropy": 7.9971434509561705,
+          "zero_fraction": 0.00421142578125
+        },
+        {
+          "offset": 262144,
+          "bytes": 65536,
+          "entropy": 7.99774654797981,
+          "zero_fraction": 0.0039825439453125
+        },
+        {
+          "offset": 327680,
+          "bytes": 65536,
+          "entropy": 7.997343424569069,
+          "zero_fraction": 0.00360107421875
+        },
+        {
+          "offset": 393216,
+          "bytes": 65536,
+          "entropy": 7.996651348228694,
+          "zero_fraction": 0.00421142578125
+        },
+        {
+          "offset": 458752,
+          "bytes": 65536,
+          "entropy": 7.9976241002743125,
+          "zero_fraction": 0.00390625
+        },
+        {
+          "offset": 524288,
+          "bytes": 65536,
+          "entropy": 7.997444462426877,
+          "zero_fraction": 0.003509521484375
+        },
+        {
+          "offset": 589824,
+          "bytes": 65536,
+          "entropy": 7.997169064643586,
+          "zero_fraction": 0.0034942626953125
+        },
+        {
+          "offset": 655360,
+          "bytes": 65536,
+          "entropy": 7.997611894316983,
+          "zero_fraction": 0.0034027099609375
+        },
+        {
+          "offset": 720896,
+          "bytes": 65536,
+          "entropy": 7.997448160528366,
+          "zero_fraction": 0.00390625
+        },
+        {
+          "offset": 786432,
+          "bytes": 65536,
+          "entropy": 7.997248402808629,
+          "zero_fraction": 0.0040740966796875
+        },
+        {
+          "offset": 851968,
+          "bytes": 65536,
+          "entropy": 7.9973452341222355,
+          "zero_fraction": 0.004180908203125
+        },
+        {
+          "offset": 917504,
+          "bytes": 65536,
+          "entropy": 7.997210007488542,
+          "zero_fraction": 0.003692626953125
+        },
+        {
+          "offset": 983040,
+          "bytes": 65536,
+          "entropy": 7.996965147674293,
+          "zero_fraction": 0.00390625
+        },
+        {
+          "offset": 1048576,
+          "bytes": 65536,
+          "entropy": 7.996883240728232,
+          "zero_fraction": 0.003692626953125
+        },
+        {
+          "offset": 1114112,
+          "bytes": 65536,
+          "entropy": 7.99731824437522,
+          "zero_fraction": 0.0040740966796875
+        },
+        {
+          "offset": 1179648,
+          "bytes": 65536,
+          "entropy": 7.99749109874451,
+          "zero_fraction": 0.0035552978515625
+        },
+        {
+          "offset": 1245184,
+          "bytes": 65536,
+          "entropy": 7.997544918656052,
+          "zero_fraction": 0.00390625
+        },
+        {
+          "offset": 1310720,
+          "bytes": 65536,
+          "entropy": 7.997496383547622,
+          "zero_fraction": 0.004150390625
+        },
+        {
+          "offset": 1376256,
+          "bytes": 65536,
+          "entropy": 7.997373487318371,
+          "zero_fraction": 0.0042266845703125
+        },
+        {
+          "offset": 1441792,
+          "bytes": 65536,
+          "entropy": 7.9966693899707915,
+          "zero_fraction": 0.0034942626953125
+        },
+        {
+          "offset": 1507328,
+          "bytes": 65536,
+          "entropy": 7.997081964498117,
+          "zero_fraction": 0.00360107421875
+        },
+        {
+          "offset": 1572864,
+          "bytes": 65536,
+          "entropy": 7.996947494863108,
+          "zero_fraction": 0.00396728515625
+        },
+        {
+          "offset": 1638400,
+          "bytes": 65536,
+          "entropy": 7.997381522907683,
+          "zero_fraction": 0.003662109375
+        },
+        {
+          "offset": 1703936,
+          "bytes": 65536,
+          "entropy": 7.997043114784819,
+          "zero_fraction": 0.0040740966796875
+        },
+        {
+          "offset": 1769472,
+          "bytes": 65536,
+          "entropy": 7.997261061866449,
+          "zero_fraction": 0.003692626953125
+        },
+        {
+          "offset": 1835008,
+          "bytes": 65536,
+          "entropy": 7.997195499077596,
+          "zero_fraction": 0.0040130615234375
+        },
+        {
+          "offset": 1900544,
+          "bytes": 28542,
+          "entropy": 7.992630351573895,
+          "zero_fraction": 0.003713825239997197
+        }
+      ],
+      "wave": {
+        "valid": false,
+        "error": "file does not start with RIFF id"
+      },
+      "ffmpeg": {
+        "returncode": 3199971767,
+        "diagnostic": "[in#0 @ 000001c544ae6c80] Error opening input: Invalid data found when processing input\nError opening input file C:\\Users\\jin  qiyan\\Desktop\\lunwen2\\dataset\\modma\\raw\\modma-audio-group-6-dsai\\MODMA_AUDIO Datatset\\audio_lanzhou_2015\\02010004\\25.wav.\nError opening input files: Invalid data found when processing input\n"
+      },
+      "archive": {
+        "member": "MODMA_AUDIO Datatset/audio_lanzhou_2015/02010004/25.wav",
+        "crc32": "1fc479f0",
+        "crc_passed": true,
+        "raw_exactly_matches_archive": true,
+        "compressed_bytes": 1929676,
+        "flags": 2048,
+        "encrypted": false,
+        "compression": 8
+      }
+    },
+    {
+      "path": "dataset\\modma\\raw\\modma-audio-group-6-dsai\\MODMA_AUDIO Datatset\\audio_lanzhou_2015\\02010004\\26.wav",
+      "bytes": 2332124,
+      "sha256": "8b12d0ef8915bef2da04c43099f4bd86fa0ae6b55f6c138f1e3bd28e2d16159b",
+      "first_64_hex": "2be28b84299ccdd955e2bcd16fdb887e2f78b3a7dcad3f24b771ac7d837de16670e0a943e7a9ceb7000445e64737950b04bdfd54a231d9953bcd954b1f4703e0",
+      "entropy_bits_per_byte": 7.999925742219999,
+      "zero_fraction": 0.003926034807754648,
+      "riff_offset": -1,
+      "wave_offset": -1,
+      "blocks": [
+        {
+          "offset": 0,
+          "bytes": 65536,
+          "entropy": 7.997259726412541,
+          "zero_fraction": 0.003662109375
+        },
+        {
+          "offset": 65536,
+          "bytes": 65536,
+          "entropy": 7.997097392707485,
+          "zero_fraction": 0.004150390625
+        },
+        {
+          "offset": 131072,
+          "bytes": 65536,
+          "entropy": 7.9975080159905145,
+          "zero_fraction": 0.0036163330078125
+        },
+        {
+          "offset": 196608,
+          "bytes": 65536,
+          "entropy": 7.9971383840680845,
+          "zero_fraction": 0.004150390625
+        },
+        {
+          "offset": 262144,
+          "bytes": 65536,
+          "entropy": 7.997058539905768,
+          "zero_fraction": 0.0035247802734375
+        },
+        {
+          "offset": 327680,
+          "bytes": 65536,
+          "entropy": 7.997183230973567,
+          "zero_fraction": 0.00372314453125
+        },
+        {
+          "offset": 393216,
+          "bytes": 65536,
+          "entropy": 7.997207946274243,
+          "zero_fraction": 0.0043182373046875
+        },
+        {
+          "offset": 458752,
+          "bytes": 65536,
+          "entropy": 7.997377218686787,
+          "zero_fraction": 0.0039215087890625
+        },
+        {
+          "offset": 524288,
+          "bytes": 65536,
+          "entropy": 7.996817145316667,
+          "zero_fraction": 0.0039215087890625
+        },
+        {
+          "offset": 589824,
+          "bytes": 65536,
+          "entropy": 7.997665866427331,
+          "zero_fraction": 0.0041961669921875
+        },
+        {
+          "offset": 655360,
+          "bytes": 65536,
+          "entropy": 7.997507435285701,
+          "zero_fraction": 0.004058837890625
+        },
+        {
+          "offset": 720896,
+          "bytes": 65536,
+          "entropy": 7.9972493960350475,
+          "zero_fraction": 0.00372314453125
+        },
+        {
+          "offset": 786432,
+          "bytes": 65536,
+          "entropy": 7.997336980540516,
+          "zero_fraction": 0.0039520263671875
+        },
+        {
+          "offset": 851968,
+          "bytes": 65536,
+          "entropy": 7.996558452230332,
+          "zero_fraction": 0.0035400390625
+        },
+        {
+          "offset": 917504,
+          "bytes": 65536,
+          "entropy": 7.996943231359446,
+          "zero_fraction": 0.0039215087890625
+        },
+        {
+          "offset": 983040,
+          "bytes": 65536,
+          "entropy": 7.997211826558907,
+          "zero_fraction": 0.0039520263671875
+        },
+        {
+          "offset": 1048576,
+          "bytes": 65536,
+          "entropy": 7.99727132586942,
+          "zero_fraction": 0.0039215087890625
+        },
+        {
+          "offset": 1114112,
+          "bytes": 65536,
+          "entropy": 7.997214336001861,
+          "zero_fraction": 0.003753662109375
+        },
+        {
+          "offset": 1179648,
+          "bytes": 65536,
+          "entropy": 7.997713387413549,
+          "zero_fraction": 0.00408935546875
+        },
+        {
+          "offset": 1245184,
+          "bytes": 65536,
+          "entropy": 7.9971477504657,
+          "zero_fraction": 0.003875732421875
+        },
+        {
+          "offset": 1310720,
+          "bytes": 65536,
+          "entropy": 7.997709769985477,
+          "zero_fraction": 0.0037689208984375
+        },
+        {
+          "offset": 1376256,
+          "bytes": 65536,
+          "entropy": 7.997299207703469,
+          "zero_fraction": 0.0038299560546875
+        },
+        {
+          "offset": 1441792,
+          "bytes": 65536,
+          "entropy": 7.997033093566968,
+          "zero_fraction": 0.003936767578125
+        },
+        {
+          "offset": 1507328,
+          "bytes": 65536,
+          "entropy": 7.996877849602973,
+          "zero_fraction": 0.0037689208984375
+        },
+        {
+          "offset": 1572864,
+          "bytes": 65536,
+          "entropy": 7.997127643141588,
+          "zero_fraction": 0.0037689208984375
+        },
+        {
+          "offset": 1638400,
+          "bytes": 65536,
+          "entropy": 7.997589382177534,
+          "zero_fraction": 0.0039520263671875
+        },
+        {
+          "offset": 1703936,
+          "bytes": 65536,
+          "entropy": 7.997050077886601,
+          "zero_fraction": 0.0040283203125
+        },
+        {
+          "offset": 1769472,
+          "bytes": 65536,
+          "entropy": 7.997191774036714,
+          "zero_fraction": 0.003875732421875
+        },
+        {
+          "offset": 1835008,
+          "bytes": 65536,
+          "entropy": 7.997249848485465,
+          "zero_fraction": 0.00421142578125
+        },
+        {
+          "offset": 1900544,
+          "bytes": 65536,
+          "entropy": 7.997212123400245,
+          "zero_fraction": 0.0042266845703125
+        },
+        {
+          "offset": 1966080,
+          "bytes": 65536,
+          "entropy": 7.997114344244681,
+          "zero_fraction": 0.003997802734375
+        },
+        {
+          "offset": 2031616,
+          "bytes": 65536,
+          "entropy": 7.996978397716143,
+          "zero_fraction": 0.0032196044921875
+        },
+        {
+          "offset": 2097152,
+          "bytes": 65536,
+          "entropy": 7.997300271806717,
+          "zero_fraction": 0.004119873046875
+        },
+        {
+          "offset": 2162688,
+          "bytes": 65536,
+          "entropy": 7.997272183476612,
+          "zero_fraction": 0.00408935546875
+        },
+        {
+          "offset": 2228224,
+          "bytes": 65536,
+          "entropy": 7.997447060926036,
+          "zero_fraction": 0.0045623779296875
+        },
+        {
+          "offset": 2293760,
+          "bytes": 38364,
+          "entropy": 7.994845054346839,
+          "zero_fraction": 0.004066312167657179
+        }
+      ],
+      "wave": {
+        "valid": false,
+        "error": "file does not start with RIFF id"
+      },
+      "ffmpeg": {
+        "returncode": 3199971767,
+        "diagnostic": "[in#0 @ 000002030e3b6c80] Error opening input: Invalid data found when processing input\nError opening input file C:\\Users\\jin  qiyan\\Desktop\\lunwen2\\dataset\\modma\\raw\\modma-audio-group-6-dsai\\MODMA_AUDIO Datatset\\audio_lanzhou_2015\\02010004\\26.wav.\nError opening input files: Invalid data found when processing input\n"
+      },
+      "archive": {
+        "member": "MODMA_AUDIO Datatset/audio_lanzhou_2015/02010004/26.wav",
+        "crc32": "d593651d",
+        "crc_passed": true,
+        "raw_exactly_matches_archive": true,
+        "compressed_bytes": 2332839,
+        "flags": 2048,
+        "encrypted": false,
+        "compression": 8
+      }
+    },
+    {
+      "path": "dataset\\modma\\raw\\modma-audio-group-6-dsai\\MODMA_AUDIO Datatset\\audio_lanzhou_2015\\02010004\\27.wav",
+      "bytes": 3050900,
+      "sha256": "75e27cd56fc15a4be4a37e6fb575ea08e5636fbafccb200a1bfe2d6c65cc7b9c",
+      "first_64_hex": "47cc71629c63c7d5cec0b74122572fc46c6d62ad7fbdf936e8bca30dbdd8028453d389b6ca7a2c17323fb862964abd6acd9a831ee6bc5f57190158f1b9c2d571",
+      "entropy_bits_per_byte": 7.999934462548786,
+      "zero_fraction": 0.0039047494182044644,
+      "riff_offset": -1,
+      "wave_offset": -1,
+      "blocks": [
+        {
+          "offset": 0,
+          "bytes": 65536,
+          "entropy": 7.997259299404055,
+          "zero_fraction": 0.003662109375
+        },
+        {
+          "offset": 65536,
+          "bytes": 65536,
+          "entropy": 7.997452216805309,
+          "zero_fraction": 0.0037078857421875
+        },
+        {
+          "offset": 131072,
+          "bytes": 65536,
+          "entropy": 7.997105432317766,
+          "zero_fraction": 0.0036468505859375
+        },
+        {
+          "offset": 196608,
+          "bytes": 65536,
+          "entropy": 7.997654068533118,
+          "zero_fraction": 0.0037384033203125
+        },
+        {
+          "offset": 262144,
+          "bytes": 65536,
+          "entropy": 7.9974277304550485,
+          "zero_fraction": 0.00384521484375
+        },
+        {
+          "offset": 327680,
+          "bytes": 65536,
+          "entropy": 7.99704543127766,
+          "zero_fraction": 0.0039825439453125
+        },
+        {
+          "offset": 393216,
+          "bytes": 65536,
+          "entropy": 7.997584840938504,
+          "zero_fraction": 0.00372314453125
+        },
+        {
+          "offset": 458752,
+          "bytes": 65536,
+          "entropy": 7.996698854015589,
+          "zero_fraction": 0.00396728515625
+        },
+        {
+          "offset": 524288,
+          "bytes": 65536,
+          "entropy": 7.997118576383076,
+          "zero_fraction": 0.0037994384765625
+        },
+        {
+          "offset": 589824,
+          "bytes": 65536,
+          "entropy": 7.997098641950078,
+          "zero_fraction": 0.00384521484375
+        },
+        {
+          "offset": 655360,
+          "bytes": 65536,
+          "entropy": 7.997230471550542,
+          "zero_fraction": 0.003814697265625
+        },
+        {
+          "offset": 720896,
+          "bytes": 65536,
+          "entropy": 7.997044913922002,
+          "zero_fraction": 0.0041656494140625
+        },
+        {
+          "offset": 786432,
+          "bytes": 65536,
+          "entropy": 7.997324774514194,
+          "zero_fraction": 0.0036468505859375
+        },
+        {
+          "offset": 851968,
+          "bytes": 65536,
+          "entropy": 7.9974352913066165,
+          "zero_fraction": 0.003936767578125
+        },
+        {
+          "offset": 917504,
+          "bytes": 65536,
+          "entropy": 7.997296565970558,
+          "zero_fraction": 0.00396728515625
+        },
+        {
+          "offset": 983040,
+          "bytes": 65536,
+          "entropy": 7.996851973158735,
+          "zero_fraction": 0.0040130615234375
+        },
+        {
+          "offset": 1048576,
+          "bytes": 65536,
+          "entropy": 7.997059336167289,
+          "zero_fraction": 0.00408935546875
+        },
+        {
+          "offset": 1114112,
+          "bytes": 65536,
+          "entropy": 7.997110940000484,
+          "zero_fraction": 0.003997802734375
+        },
+        {
+          "offset": 1179648,
+          "bytes": 65536,
+          "entropy": 7.997055677334283,
+          "zero_fraction": 0.0037078857421875
+        },
+        {
+          "offset": 1245184,
+          "bytes": 65536,
+          "entropy": 7.997182805136425,
+          "zero_fraction": 0.004119873046875
+        },
+        {
+          "offset": 1310720,
+          "bytes": 65536,
+          "entropy": 7.997278346679297,
+          "zero_fraction": 0.004302978515625
+        },
+        {
+          "offset": 1376256,
+          "bytes": 65536,
+          "entropy": 7.996964716187429,
+          "zero_fraction": 0.0038909912109375
+        },
+        {
+          "offset": 1441792,
+          "bytes": 65536,
+          "entropy": 7.99735319899301,
+          "zero_fraction": 0.004364013671875
+        },
+        {
+          "offset": 1507328,
+          "bytes": 65536,
+          "entropy": 7.9969503920638685,
+          "zero_fraction": 0.00384521484375
+        },
+        {
+          "offset": 1572864,
+          "bytes": 65536,
+          "entropy": 7.996404028845214,
+          "zero_fraction": 0.003448486328125
+        },
+        {
+          "offset": 1638400,
+          "bytes": 65536,
+          "entropy": 7.997065673177378,
+          "zero_fraction": 0.003570556640625
+        },
+        {
+          "offset": 1703936,
+          "bytes": 65536,
+          "entropy": 7.997124585222686,
+          "zero_fraction": 0.00408935546875
+        },
+        {
+          "offset": 1769472,
+          "bytes": 65536,
+          "entropy": 7.997177943813114,
+          "zero_fraction": 0.003997802734375
+        },
+        {
+          "offset": 1835008,
+          "bytes": 65536,
+          "entropy": 7.996908628499982,
+          "zero_fraction": 0.0033721923828125
+        },
+        {
+          "offset": 1900544,
+          "bytes": 65536,
+          "entropy": 7.99683920920362,
+          "zero_fraction": 0.003692626953125
+        },
+        {
+          "offset": 1966080,
+          "bytes": 65536,
+          "entropy": 7.9971623814440225,
+          "zero_fraction": 0.003753662109375
+        },
+        {
+          "offset": 2031616,
+          "bytes": 65536,
+          "entropy": 7.99688716944417,
+          "zero_fraction": 0.0039215087890625
+        },
+        {
+          "offset": 2097152,
+          "bytes": 65536,
+          "entropy": 7.9970937462012,
+          "zero_fraction": 0.0040435791015625
+        },
+        {
+          "offset": 2162688,
+          "bytes": 65536,
+          "entropy": 7.996908639019755,
+          "zero_fraction": 0.003814697265625
+        },
+        {
+          "offset": 2228224,
+          "bytes": 65536,
+          "entropy": 7.997593734867333,
+          "zero_fraction": 0.0040130615234375
+        },
+        {
+          "offset": 2293760,
+          "bytes": 65536,
+          "entropy": 7.9971634456063025,
+          "zero_fraction": 0.0040130615234375
+        },
+        {
+          "offset": 2359296,
+          "bytes": 65536,
+          "entropy": 7.9971503929828245,
+          "zero_fraction": 0.0041656494140625
+        },
+        {
+          "offset": 2424832,
+          "bytes": 65536,
+          "entropy": 7.9966343099145805,
+          "zero_fraction": 0.0044403076171875
+        },
+        {
+          "offset": 2490368,
+          "bytes": 65536,
+          "entropy": 7.997616959223062,
+          "zero_fraction": 0.0042724609375
+        },
+        {
+          "offset": 2555904,
+          "bytes": 65536,
+          "entropy": 7.99691891746162,
+          "zero_fraction": 0.0036163330078125
+        },
+        {
+          "offset": 2621440,
+          "bytes": 65536,
+          "entropy": 7.997259897725526,
+          "zero_fraction": 0.00390625
+        },
+        {
+          "offset": 2686976,
+          "bytes": 65536,
+          "entropy": 7.9967358305462986,
+          "zero_fraction": 0.003814697265625
+        },
+        {
+          "offset": 2752512,
+          "bytes": 65536,
+          "entropy": 7.9974115295750225,
+          "zero_fraction": 0.003570556640625
+        },
+        {
+          "offset": 2818048,
+          "bytes": 65536,
+          "entropy": 7.997238597130586,
+          "zero_fraction": 0.0038909912109375
+        },
+        {
+          "offset": 2883584,
+          "bytes": 65536,
+          "entropy": 7.997146976360179,
+          "zero_fraction": 0.0041961669921875
+        },
+        {
+          "offset": 2949120,
+          "bytes": 65536,
+          "entropy": 7.99680724911209,
+          "zero_fraction": 0.0039215087890625
+        },
+        {
+          "offset": 3014656,
+          "bytes": 36244,
+          "entropy": 7.99489399087894,
+          "zero_fraction": 0.004469705330537468
+        }
+      ],
+      "wave": {
+        "valid": false,
+        "error": "file does not start with RIFF id"
+      },
+      "ffmpeg": {
+        "returncode": 3199971767,
+        "diagnostic": "[in#0 @ 00000175845b6c80] Error opening input: Invalid data found when processing input\nError opening input file C:\\Users\\jin  qiyan\\Desktop\\lunwen2\\dataset\\modma\\raw\\modma-audio-group-6-dsai\\MODMA_AUDIO Datatset\\audio_lanzhou_2015\\02010004\\27.wav.\nError opening input files: Invalid data found when processing input\n"
+      },
+      "archive": {
+        "member": "MODMA_AUDIO Datatset/audio_lanzhou_2015/02010004/27.wav",
+        "crc32": "1d56b5cc",
+        "crc_passed": true,
+        "raw_exactly_matches_archive": true,
+        "compressed_bytes": 3051835,
+        "flags": 2048,
+        "encrypted": false,
+        "compression": 8
+      }
+    },
+    {
+      "path": "dataset\\modma\\raw\\modma-audio-group-6-dsai\\MODMA_AUDIO Datatset\\audio_lanzhou_2015\\02010004\\28.wav",
+      "bytes": 4531286,
+      "sha256": "2ac1bb2a96e848242ba9661499f28d6cf2d5bbcab1daf150209294ca1da61b9e",
+      "first_64_hex": "470a37da6b080d079e86cef358bfb9a4da89ec8b041a4404dd115bdd017f46b87656487f86987e100e39d1fc7ab213979b718797d28cc6c956afe531b705f43f",
+      "entropy_bits_per_byte": 6.895593459998237,
+      "zero_fraction": 0.13286007548408996,
+      "riff_offset": -1,
+      "wave_offset": -1,
+      "blocks": [
+        {
+          "offset": 0,
+          "bytes": 65536,
+          "entropy": 7.997538580162812,
+          "zero_fraction": 0.003814697265625
+        },
+        {
+          "offset": 65536,
+          "bytes": 65536,
+          "entropy": 7.997095582661879,
+          "zero_fraction": 0.0038299560546875
+        },
+        {
+          "offset": 131072,
+          "bytes": 65536,
+          "entropy": 7.997408361520968,
+          "zero_fraction": 0.0040283203125
+        },
+        {
+          "offset": 196608,
+          "bytes": 65536,
+          "entropy": 7.997494058685611,
+          "zero_fraction": 0.003692626953125
+        },
+        {
+          "offset": 262144,
+          "bytes": 65536,
+          "entropy": 7.997218353750756,
+          "zero_fraction": 0.004150390625
+        },
+        {
+          "offset": 327680,
+          "bytes": 65536,
+          "entropy": 7.997484377718303,
+          "zero_fraction": 0.0037078857421875
+        },
+        {
+          "offset": 393216,
+          "bytes": 65536,
+          "entropy": 7.9972204593485205,
+          "zero_fraction": 0.003692626953125
+        },
+        {
+          "offset": 458752,
+          "bytes": 65536,
+          "entropy": 7.997366712172906,
+          "zero_fraction": 0.0040435791015625
+        },
+        {
+          "offset": 524288,
+          "bytes": 65536,
+          "entropy": 7.9970028683998144,
+          "zero_fraction": 0.0034942626953125
+        },
+        {
+          "offset": 589824,
+          "bytes": 65536,
+          "entropy": 7.997081221914456,
+          "zero_fraction": 0.0040283203125
+        },
+        {
+          "offset": 655360,
+          "bytes": 65536,
+          "entropy": 7.9976032425575685,
+          "zero_fraction": 0.0040283203125
+        },
+        {
+          "offset": 720896,
+          "bytes": 65536,
+          "entropy": 7.997220295682129,
+          "zero_fraction": 0.0037384033203125
+        },
+        {
+          "offset": 786432,
+          "bytes": 65536,
+          "entropy": 7.997367500520787,
+          "zero_fraction": 0.00433349609375
+        },
+        {
+          "offset": 851968,
+          "bytes": 65536,
+          "entropy": 7.997234220264197,
+          "zero_fraction": 0.0041656494140625
+        },
+        {
+          "offset": 917504,
+          "bytes": 65536,
+          "entropy": 7.9968582721820525,
+          "zero_fraction": 0.0037078857421875
+        },
+        {
+          "offset": 983040,
+          "bytes": 65536,
+          "entropy": 7.996995368703892,
+          "zero_fraction": 0.00408935546875
+        },
+        {
+          "offset": 1048576,
+          "bytes": 65536,
+          "entropy": 6.229602068435104,
+          "zero_fraction": 0.172393798828125
+        },
+        {
+          "offset": 1114112,
+          "bytes": 65536,
+          "entropy": 6.383284091996255,
+          "zero_fraction": 0.173675537109375
+        },
+        {
+          "offset": 1179648,
+          "bytes": 65536,
+          "entropy": 6.7726586413610415,
+          "zero_fraction": 0.1365203857421875
+        },
+        {
+          "offset": 1245184,
+          "bytes": 65536,
+          "entropy": 6.538959124504138,
+          "zero_fraction": 0.1589813232421875
+        },
+        {
+          "offset": 1310720,
+          "bytes": 65536,
+          "entropy": 6.329711174589617,
+          "zero_fraction": 0.1674652099609375
+        },
+        {
+          "offset": 1376256,
+          "bytes": 65536,
+          "entropy": 6.414269218835423,
+          "zero_fraction": 0.1686859130859375
+        },
+        {
+          "offset": 1441792,
+          "bytes": 65536,
+          "entropy": 6.606853965788622,
+          "zero_fraction": 0.18182373046875
+        },
+        {
+          "offset": 1507328,
+          "bytes": 65536,
+          "entropy": 6.299405222418318,
+          "zero_fraction": 0.1744232177734375
+        },
+        {
+          "offset": 1572864,
+          "bytes": 65536,
+          "entropy": 6.272442777680418,
+          "zero_fraction": 0.1758575439453125
+        },
+        {
+          "offset": 1638400,
+          "bytes": 65536,
+          "entropy": 6.24122805704546,
+          "zero_fraction": 0.1830291748046875
+        },
+        {
+          "offset": 1703936,
+          "bytes": 65536,
+          "entropy": 6.305624753983742,
+          "zero_fraction": 0.1642608642578125
+        },
+        {
+          "offset": 1769472,
+          "bytes": 65536,
+          "entropy": 6.284812852097874,
+          "zero_fraction": 0.168670654296875
+        },
+        {
+          "offset": 1835008,
+          "bytes": 65536,
+          "entropy": 6.1759259952236,
+          "zero_fraction": 0.1627044677734375
+        },
+        {
+          "offset": 1900544,
+          "bytes": 65536,
+          "entropy": 6.270915908199758,
+          "zero_fraction": 0.1833648681640625
+        },
+        {
+          "offset": 1966080,
+          "bytes": 65536,
+          "entropy": 6.476121469602048,
+          "zero_fraction": 0.1693878173828125
+        },
+        {
+          "offset": 2031616,
+          "bytes": 65536,
+          "entropy": 6.687583231916418,
+          "zero_fraction": 0.1508941650390625
+        },
+        {
+          "offset": 2097152,
+          "bytes": 65536,
+          "entropy": 6.426926824884914,
+          "zero_fraction": 0.18011474609375
+        },
+        {
+          "offset": 2162688,
+          "bytes": 65536,
+          "entropy": 6.206383056998573,
+          "zero_fraction": 0.1795806884765625
+        },
+        {
+          "offset": 2228224,
+          "bytes": 65536,
+          "entropy": 6.193875298145494,
+          "zero_fraction": 0.1674652099609375
+        },
+        {
+          "offset": 2293760,
+          "bytes": 65536,
+          "entropy": 6.174733268960972,
+          "zero_fraction": 0.1832275390625
+        },
+        {
+          "offset": 2359296,
+          "bytes": 65536,
+          "entropy": 6.1444023900502955,
+          "zero_fraction": 0.1711273193359375
+        },
+        {
+          "offset": 2424832,
+          "bytes": 65536,
+          "entropy": 6.284020121986022,
+          "zero_fraction": 0.1737213134765625
+        },
+        {
+          "offset": 2490368,
+          "bytes": 65536,
+          "entropy": 6.275405811828077,
+          "zero_fraction": 0.1686859130859375
+        },
+        {
+          "offset": 2555904,
+          "bytes": 65536,
+          "entropy": 6.2786183806985525,
+          "zero_fraction": 0.1829071044921875
+        },
+        {
+          "offset": 2621440,
+          "bytes": 65536,
+          "entropy": 6.257384713716346,
+          "zero_fraction": 0.167205810546875
+        },
+        {
+          "offset": 2686976,
+          "bytes": 65536,
+          "entropy": 6.610805117863369,
+          "zero_fraction": 0.1591949462890625
+        },
+        {
+          "offset": 2752512,
+          "bytes": 65536,
+          "entropy": 6.33903474497297,
+          "zero_fraction": 0.1761627197265625
+        },
+        {
+          "offset": 2818048,
+          "bytes": 65536,
+          "entropy": 6.353474695550204,
+          "zero_fraction": 0.166961669921875
+        },
+        {
+          "offset": 2883584,
+          "bytes": 65536,
+          "entropy": 6.543585465841353,
+          "zero_fraction": 0.1661224365234375
+        },
+        {
+          "offset": 2949120,
+          "bytes": 65536,
+          "entropy": 6.570189286134521,
+          "zero_fraction": 0.1761016845703125
+        },
+        {
+          "offset": 3014656,
+          "bytes": 65536,
+          "entropy": 6.242884252275541,
+          "zero_fraction": 0.177490234375
+        },
+        {
+          "offset": 3080192,
+          "bytes": 65536,
+          "entropy": 6.298587891807664,
+          "zero_fraction": 0.1803131103515625
+        },
+        {
+          "offset": 3145728,
+          "bytes": 65536,
+          "entropy": 6.252059045040795,
+          "zero_fraction": 0.1796417236328125
+        },
+        {
+          "offset": 3211264,
+          "bytes": 65536,
+          "entropy": 6.405615160619618,
+          "zero_fraction": 0.160186767578125
+        },
+        {
+          "offset": 3276800,
+          "bytes": 65536,
+          "entropy": 6.797732493122806,
+          "zero_fraction": 0.12689208984375
+        },
+        {
+          "offset": 3342336,
+          "bytes": 65536,
+          "entropy": 6.602485818097611,
+          "zero_fraction": 0.177703857421875
+        },
+        {
+          "offset": 3407872,
+          "bytes": 65536,
+          "entropy": 6.555290006192113,
+          "zero_fraction": 0.1687164306640625
+        },
+        {
+          "offset": 3473408,
+          "bytes": 65536,
+          "entropy": 6.477175209865132,
+          "zero_fraction": 0.173431396484375
+        },
+        {
+          "offset": 3538944,
+          "bytes": 65536,
+          "entropy": 6.205483226157825,
+          "zero_fraction": 0.1788787841796875
+        },
+        {
+          "offset": 3604480,
+          "bytes": 65536,
+          "entropy": 6.152271003565796,
+          "zero_fraction": 0.1920318603515625
+        },
+        {
+          "offset": 3670016,
+          "bytes": 65536,
+          "entropy": 6.165138695324577,
+          "zero_fraction": 0.1721038818359375
+        },
+        {
+          "offset": 3735552,
+          "bytes": 65536,
+          "entropy": 6.207963018734089,
+          "zero_fraction": 0.176849365234375
+        },
+        {
+          "offset": 3801088,
+          "bytes": 65536,
+          "entropy": 6.178455062393242,
+          "zero_fraction": 0.180816650390625
+        },
+        {
+          "offset": 3866624,
+          "bytes": 65536,
+          "entropy": 6.547490647164964,
+          "zero_fraction": 0.1738128662109375
+        },
+        {
+          "offset": 3932160,
+          "bytes": 65536,
+          "entropy": 6.243408023074812,
+          "zero_fraction": 0.1704864501953125
+        },
+        {
+          "offset": 3997696,
+          "bytes": 65536,
+          "entropy": 6.241055845699367,
+          "zero_fraction": 0.1646881103515625
+        },
+        {
+          "offset": 4063232,
+          "bytes": 65536,
+          "entropy": 6.1699676121007645,
+          "zero_fraction": 0.17333984375
+        },
+        {
+          "offset": 4128768,
+          "bytes": 65536,
+          "entropy": 6.172204651652399,
+          "zero_fraction": 0.17596435546875
+        },
+        {
+          "offset": 4194304,
+          "bytes": 65536,
+          "entropy": 6.225703198038252,
+          "zero_fraction": 0.18115234375
+        },
+        {
+          "offset": 4259840,
+          "bytes": 65536,
+          "entropy": 6.250062675571205,
+          "zero_fraction": 0.1805877685546875
+        },
+        {
+          "offset": 4325376,
+          "bytes": 65536,
+          "entropy": 6.199866004324258,
+          "zero_fraction": 0.1739654541015625
+        },
+        {
+          "offset": 4390912,
+          "bytes": 65536,
+          "entropy": 6.196781967288999,
+          "zero_fraction": 0.174713134765625
+        },
+        {
+          "offset": 4456448,
+          "bytes": 65536,
+          "entropy": 6.260042049598797,
+          "zero_fraction": 0.1768798828125
+        },
+        {
+          "offset": 4521984,
+          "bytes": 9302,
+          "entropy": 6.051202763324441,
+          "zero_fraction": 0.15706299720490216
+        }
+      ],
+      "wave": {
+        "valid": false,
+        "error": "file does not start with RIFF id"
+      },
+      "ffmpeg": {
+        "returncode": 3199971767,
+        "diagnostic": "[in#0 @ 00000225eb286c80] Error opening input: Invalid data found when processing input\nError opening input file C:\\Users\\jin  qiyan\\Desktop\\lunwen2\\dataset\\modma\\raw\\modma-audio-group-6-dsai\\MODMA_AUDIO Datatset\\audio_lanzhou_2015\\02010004\\28.wav.\nError opening input files: Invalid data found when processing input\n"
+      },
+      "archive": {
+        "member": "MODMA_AUDIO Datatset/audio_lanzhou_2015/02010004/28.wav",
+        "crc32": "4ae54f95",
+        "crc_passed": true,
+        "raw_exactly_matches_archive": true,
+        "compressed_bytes": 3660076,
+        "flags": 2048,
+        "encrypted": false,
+        "compression": 8
+      }
+    },
+    {
+      "path": "dataset\\modma\\raw\\modma-audio-group-6-dsai\\MODMA_AUDIO Datatset\\audio_lanzhou_2015\\02010004\\29.wav",
+      "bytes": 10584128,
+      "sha256": "f7571e367c7cba07d00b708c5b3e162474d74352b36ecf2707cb94859518b065",
+      "first_64_hex": "524946463880a10057415645666d7420100000000100010044ac0000cc0402000300180064617461c07fa100eef8ffc9f8ff2af9ff9bf8ff19f9ff2af9ff1bf9",
+      "entropy_bits_per_byte": 6.457335908391192,
+      "zero_fraction": 0.17099377482963168,
+      "riff_offset": 0,
+      "wave_offset": 8,
+      "blocks": [
+        {
+          "offset": 0,
+          "bytes": 65536,
+          "entropy": 6.246132443262126,
+          "zero_fraction": 0.186859130859375
+        },
+        {
+          "offset": 65536,
+          "bytes": 65536,
+          "entropy": 6.260086816619928,
+          "zero_fraction": 0.1784820556640625
+        },
+        {
+          "offset": 131072,
+          "bytes": 65536,
+          "entropy": 6.663673919483422,
+          "zero_fraction": 0.171142578125
+        },
+        {
+          "offset": 196608,
+          "bytes": 65536,
+          "entropy": 6.39464030659261,
+          "zero_fraction": 0.172576904296875
+        },
+        {
+          "offset": 262144,
+          "bytes": 65536,
+          "entropy": 6.516297721579524,
+          "zero_fraction": 0.184295654296875
+        },
+        {
+          "offset": 327680,
+          "bytes": 65536,
+          "entropy": 6.215688415445228,
+          "zero_fraction": 0.1819000244140625
+        },
+        {
+          "offset": 393216,
+          "bytes": 65536,
+          "entropy": 6.686868745432551,
+          "zero_fraction": 0.1486053466796875
+        },
+        {
+          "offset": 458752,
+          "bytes": 65536,
+          "entropy": 6.4976330167320695,
+          "zero_fraction": 0.1707916259765625
+        },
+        {
+          "offset": 524288,
+          "bytes": 65536,
+          "entropy": 6.24115226568397,
+          "zero_fraction": 0.1743621826171875
+        },
+        {
+          "offset": 589824,
+          "bytes": 65536,
+          "entropy": 6.771298807223812,
+          "zero_fraction": 0.1341400146484375
+        },
+        {
+          "offset": 655360,
+          "bytes": 65536,
+          "entropy": 6.330244324114456,
+          "zero_fraction": 0.1716766357421875
+        },
+        {
+          "offset": 720896,
+          "bytes": 65536,
+          "entropy": 6.628166602164112,
+          "zero_fraction": 0.16802978515625
+        },
+        {
+          "offset": 786432,
+          "bytes": 65536,
+          "entropy": 6.513286386648628,
+          "zero_fraction": 0.171539306640625
+        },
+        {
+          "offset": 851968,
+          "bytes": 65536,
+          "entropy": 6.224154117746937,
+          "zero_fraction": 0.1674041748046875
+        },
+        {
+          "offset": 917504,
+          "bytes": 65536,
+          "entropy": 6.5063139061082635,
+          "zero_fraction": 0.1770477294921875
+        },
+        {
+          "offset": 983040,
+          "bytes": 65536,
+          "entropy": 6.570824491143839,
+          "zero_fraction": 0.187469482421875
+        },
+        {
+          "offset": 1048576,
+          "bytes": 65536,
+          "entropy": 6.599398851860751,
+          "zero_fraction": 0.1674346923828125
+        },
+        {
+          "offset": 1114112,
+          "bytes": 65536,
+          "entropy": 6.2910937948858505,
+          "zero_fraction": 0.1706695556640625
+        },
+        {
+          "offset": 1179648,
+          "bytes": 65536,
+          "entropy": 6.344894850083748,
+          "zero_fraction": 0.1766357421875
+        },
+        {
+          "offset": 1245184,
+          "bytes": 65536,
+          "entropy": 6.579395019719308,
+          "zero_fraction": 0.1788177490234375
+        },
+        {
+          "offset": 1310720,
+          "bytes": 65536,
+          "entropy": 6.3830798257714285,
+          "zero_fraction": 0.1737823486328125
+        },
+        {
+          "offset": 1376256,
+          "bytes": 65536,
+          "entropy": 6.230092874847599,
+          "zero_fraction": 0.16326904296875
+        },
+        {
+          "offset": 1441792,
+          "bytes": 65536,
+          "entropy": 6.506775645522335,
+          "zero_fraction": 0.1827392578125
+        },
+        {
+          "offset": 1507328,
+          "bytes": 65536,
+          "entropy": 6.364973426614501,
+          "zero_fraction": 0.17352294921875
+        },
+        {
+          "offset": 1572864,
+          "bytes": 65536,
+          "entropy": 6.1880493462441075,
+          "zero_fraction": 0.1707916259765625
+        },
+        {
+          "offset": 1638400,
+          "bytes": 65536,
+          "entropy": 6.173985767318987,
+          "zero_fraction": 0.18572998046875
+        },
+        {
+          "offset": 1703936,
+          "bytes": 65536,
+          "entropy": 6.221030169332706,
+          "zero_fraction": 0.168487548828125
+        },
+        {
+          "offset": 1769472,
+          "bytes": 65536,
+          "entropy": 6.142739478186454,
+          "zero_fraction": 0.170166015625
+        },
+        {
+          "offset": 1835008,
+          "bytes": 65536,
+          "entropy": 6.184664028434011,
+          "zero_fraction": 0.1861419677734375
+        },
+        {
+          "offset": 1900544,
+          "bytes": 65536,
+          "entropy": 6.233004012911381,
+          "zero_fraction": 0.1724395751953125
+        },
+        {
+          "offset": 1966080,
+          "bytes": 65536,
+          "entropy": 6.547744407938125,
+          "zero_fraction": 0.1777496337890625
+        },
+        {
+          "offset": 2031616,
+          "bytes": 65536,
+          "entropy": 6.534242461123574,
+          "zero_fraction": 0.1684112548828125
+        },
+        {
+          "offset": 2097152,
+          "bytes": 65536,
+          "entropy": 6.514331833130244,
+          "zero_fraction": 0.1844482421875
+        },
+        {
+          "offset": 2162688,
+          "bytes": 65536,
+          "entropy": 6.308865766001796,
+          "zero_fraction": 0.1783294677734375
+        },
+        {
+          "offset": 2228224,
+          "bytes": 65536,
+          "entropy": 6.222784209171063,
+          "zero_fraction": 0.172088623046875
+        },
+        {
+          "offset": 2293760,
+          "bytes": 65536,
+          "entropy": 6.269561559193054,
+          "zero_fraction": 0.1622772216796875
+        },
+        {
+          "offset": 2359296,
+          "bytes": 65536,
+          "entropy": 6.612024098435427,
+          "zero_fraction": 0.1518402099609375
+        },
+        {
+          "offset": 2424832,
+          "bytes": 65536,
+          "entropy": 6.661108458797659,
+          "zero_fraction": 0.16937255859375
+        },
+        {
+          "offset": 2490368,
+          "bytes": 65536,
+          "entropy": 6.632531979710817,
+          "zero_fraction": 0.16314697265625
+        },
+        {
+          "offset": 2555904,
+          "bytes": 65536,
+          "entropy": 6.550879666737703,
+          "zero_fraction": 0.1847686767578125
+        },
+        {
+          "offset": 2621440,
+          "bytes": 65536,
+          "entropy": 6.546450170153099,
+          "zero_fraction": 0.175567626953125
+        },
+        {
+          "offset": 2686976,
+          "bytes": 65536,
+          "entropy": 6.256305140291271,
+          "zero_fraction": 0.168792724609375
+        },
+        {
+          "offset": 2752512,
+          "bytes": 65536,
+          "entropy": 6.46204909745275,
+          "zero_fraction": 0.17535400390625
+        },
+        {
+          "offset": 2818048,
+          "bytes": 65536,
+          "entropy": 6.545393015281863,
+          "zero_fraction": 0.17340087890625
+        },
+        {
+          "offset": 2883584,
+          "bytes": 65536,
+          "entropy": 6.444042375990614,
+          "zero_fraction": 0.16815185546875
+        },
+        {
+          "offset": 2949120,
+          "bytes": 65536,
+          "entropy": 6.192503842060274,
+          "zero_fraction": 0.181060791015625
+        },
+        {
+          "offset": 3014656,
+          "bytes": 65536,
+          "entropy": 6.2622828841957805,
+          "zero_fraction": 0.171966552734375
+        },
+        {
+          "offset": 3080192,
+          "bytes": 65536,
+          "entropy": 6.257656701338276,
+          "zero_fraction": 0.1820831298828125
+        },
+        {
+          "offset": 3145728,
+          "bytes": 65536,
+          "entropy": 6.578501710080736,
+          "zero_fraction": 0.1672821044921875
+        },
+        {
+          "offset": 3211264,
+          "bytes": 65536,
+          "entropy": 6.629309333690662,
+          "zero_fraction": 0.161102294921875
+        },
+        {
+          "offset": 3276800,
+          "bytes": 65536,
+          "entropy": 6.545161292202126,
+          "zero_fraction": 0.1695098876953125
+        },
+        {
+          "offset": 3342336,
+          "bytes": 65536,
+          "entropy": 6.518111132814958,
+          "zero_fraction": 0.1669769287109375
+        },
+        {
+          "offset": 3407872,
+          "bytes": 65536,
+          "entropy": 6.25696408914336,
+          "zero_fraction": 0.17120361328125
+        },
+        {
+          "offset": 3473408,
+          "bytes": 65536,
+          "entropy": 6.278550967040057,
+          "zero_fraction": 0.1753692626953125
+        },
+        {
+          "offset": 3538944,
+          "bytes": 65536,
+          "entropy": 6.228558725934122,
+          "zero_fraction": 0.1672515869140625
+        },
+        {
+          "offset": 3604480,
+          "bytes": 65536,
+          "entropy": 6.670110315530244,
+          "zero_fraction": 0.1455535888671875
+        },
+        {
+          "offset": 3670016,
+          "bytes": 65536,
+          "entropy": 6.690924393143427,
+          "zero_fraction": 0.1527862548828125
+        },
+        {
+          "offset": 3735552,
+          "bytes": 65536,
+          "entropy": 6.544749213448078,
+          "zero_fraction": 0.1722869873046875
+        },
+        {
+          "offset": 3801088,
+          "bytes": 65536,
+          "entropy": 6.254387876799089,
+          "zero_fraction": 0.1571807861328125
+        },
+        {
+          "offset": 3866624,
+          "bytes": 65536,
+          "entropy": 6.272620545062604,
+          "zero_fraction": 0.1734466552734375
+        },
+        {
+          "offset": 3932160,
+          "bytes": 65536,
+          "entropy": 6.278423822512634,
+          "zero_fraction": 0.1701812744140625
+        },
+        {
+          "offset": 3997696,
+          "bytes": 65536,
+          "entropy": 6.5754492661683495,
+          "zero_fraction": 0.1885986328125
+        },
+        {
+          "offset": 4063232,
+          "bytes": 65536,
+          "entropy": 6.443274477707241,
+          "zero_fraction": 0.17034912109375
+        },
+        {
+          "offset": 4128768,
+          "bytes": 65536,
+          "entropy": 6.552780437098684,
+          "zero_fraction": 0.16998291015625
+        },
+        {
+          "offset": 4194304,
+          "bytes": 65536,
+          "entropy": 6.587375357805078,
+          "zero_fraction": 0.1846160888671875
+        },
+        {
+          "offset": 4259840,
+          "bytes": 65536,
+          "entropy": 6.49373586848165,
+          "zero_fraction": 0.1729736328125
+        },
+        {
+          "offset": 4325376,
+          "bytes": 65536,
+          "entropy": 6.366226859027111,
+          "zero_fraction": 0.1658935546875
+        },
+        {
+          "offset": 4390912,
+          "bytes": 65536,
+          "entropy": 6.288356179393525,
+          "zero_fraction": 0.1628265380859375
+        },
+        {
+          "offset": 4456448,
+          "bytes": 65536,
+          "entropy": 6.294624919019291,
+          "zero_fraction": 0.171844482421875
+        },
+        {
+          "offset": 4521984,
+          "bytes": 65536,
+          "entropy": 6.341276004156731,
+          "zero_fraction": 0.176910400390625
+        },
+        {
+          "offset": 4587520,
+          "bytes": 65536,
+          "entropy": 6.507919283205703,
+          "zero_fraction": 0.1798095703125
+        },
+        {
+          "offset": 4653056,
+          "bytes": 65536,
+          "entropy": 6.369858876844186,
+          "zero_fraction": 0.1623382568359375
+        },
+        {
+          "offset": 4718592,
+          "bytes": 65536,
+          "entropy": 6.2641122985837985,
+          "zero_fraction": 0.181884765625
+        },
+        {
+          "offset": 4784128,
+          "bytes": 65536,
+          "entropy": 6.173444568704823,
+          "zero_fraction": 0.168701171875
+        },
+        {
+          "offset": 4849664,
+          "bytes": 65536,
+          "entropy": 6.252169420137243,
+          "zero_fraction": 0.1711883544921875
+        },
+        {
+          "offset": 4915200,
+          "bytes": 65536,
+          "entropy": 6.164519466497874,
+          "zero_fraction": 0.17218017578125
+        },
+        {
+          "offset": 4980736,
+          "bytes": 65536,
+          "entropy": 6.1198663399847035,
+          "zero_fraction": 0.175506591796875
+        },
+        {
+          "offset": 5046272,
+          "bytes": 65536,
+          "entropy": 6.235479098192422,
+          "zero_fraction": 0.155975341796875
+        },
+        {
+          "offset": 5111808,
+          "bytes": 65536,
+          "entropy": 6.2167194977747915,
+          "zero_fraction": 0.1775054931640625
+        },
+        {
+          "offset": 5177344,
+          "bytes": 65536,
+          "entropy": 6.559156632306034,
+          "zero_fraction": 0.168853759765625
+        },
+        {
+          "offset": 5242880,
+          "bytes": 65536,
+          "entropy": 6.428604934565555,
+          "zero_fraction": 0.1727447509765625
+        },
+        {
+          "offset": 5308416,
+          "bytes": 65536,
+          "entropy": 6.664091444975195,
+          "zero_fraction": 0.1491546630859375
+        },
+        {
+          "offset": 5373952,
+          "bytes": 65536,
+          "entropy": 6.670805961682141,
+          "zero_fraction": 0.1576995849609375
+        },
+        {
+          "offset": 5439488,
+          "bytes": 65536,
+          "entropy": 6.148861663741232,
+          "zero_fraction": 0.18670654296875
+        },
+        {
+          "offset": 5505024,
+          "bytes": 65536,
+          "entropy": 6.252909413664343,
+          "zero_fraction": 0.1727294921875
+        },
+        {
+          "offset": 5570560,
+          "bytes": 65536,
+          "entropy": 6.27469549183879,
+          "zero_fraction": 0.184844970703125
+        },
+        {
+          "offset": 5636096,
+          "bytes": 65536,
+          "entropy": 6.4962203795228435,
+          "zero_fraction": 0.182220458984375
+        },
+        {
+          "offset": 5701632,
+          "bytes": 65536,
+          "entropy": 6.4701765944319,
+          "zero_fraction": 0.163330078125
+        },
+        {
+          "offset": 5767168,
+          "bytes": 65536,
+          "entropy": 6.493839045595513,
+          "zero_fraction": 0.174163818359375
+        },
+        {
+          "offset": 5832704,
+          "bytes": 65536,
+          "entropy": 6.71313204212348,
+          "zero_fraction": 0.1443023681640625
+        },
+        {
+          "offset": 5898240,
+          "bytes": 65536,
+          "entropy": 6.27358143639174,
+          "zero_fraction": 0.172119140625
+        },
+        {
+          "offset": 5963776,
+          "bytes": 65536,
+          "entropy": 6.271330207641707,
+          "zero_fraction": 0.1676788330078125
+        },
+        {
+          "offset": 6029312,
+          "bytes": 65536,
+          "entropy": 6.214914614449939,
+          "zero_fraction": 0.1830596923828125
+        },
+        {
+          "offset": 6094848,
+          "bytes": 65536,
+          "entropy": 6.4163830936795,
+          "zero_fraction": 0.1797332763671875
+        },
+        {
+          "offset": 6160384,
+          "bytes": 65536,
+          "entropy": 6.5999418968801615,
+          "zero_fraction": 0.16729736328125
+        },
+        {
+          "offset": 6225920,
+          "bytes": 65536,
+          "entropy": 6.56809030663245,
+          "zero_fraction": 0.167755126953125
+        },
+        {
+          "offset": 6291456,
+          "bytes": 65536,
+          "entropy": 6.519284300104802,
+          "zero_fraction": 0.1701507568359375
+        },
+        {
+          "offset": 6356992,
+          "bytes": 65536,
+          "entropy": 6.3143837862302625,
+          "zero_fraction": 0.1666412353515625
+        },
+        {
+          "offset": 6422528,
+          "bytes": 65536,
+          "entropy": 6.19639320824092,
+          "zero_fraction": 0.1823577880859375
+        },
+        {
+          "offset": 6488064,
+          "bytes": 65536,
+          "entropy": 6.177803910446895,
+          "zero_fraction": 0.1700897216796875
+        },
+        {
+          "offset": 6553600,
+          "bytes": 65536,
+          "entropy": 6.274059451474735,
+          "zero_fraction": 0.1710205078125
+        },
+        {
+          "offset": 6619136,
+          "bytes": 65536,
+          "entropy": 6.576700379849797,
+          "zero_fraction": 0.1790771484375
+        },
+        {
+          "offset": 6684672,
+          "bytes": 65536,
+          "entropy": 6.615973962796058,
+          "zero_fraction": 0.1623077392578125
+        },
+        {
+          "offset": 6750208,
+          "bytes": 65536,
+          "entropy": 6.615108097777991,
+          "zero_fraction": 0.1553497314453125
+        },
+        {
+          "offset": 6815744,
+          "bytes": 65536,
+          "entropy": 6.628750742825128,
+          "zero_fraction": 0.1649932861328125
+        },
+        {
+          "offset": 6881280,
+          "bytes": 65536,
+          "entropy": 6.542009341455147,
+          "zero_fraction": 0.1657562255859375
+        },
+        {
+          "offset": 6946816,
+          "bytes": 65536,
+          "entropy": 6.575007822423098,
+          "zero_fraction": 0.154632568359375
+        },
+        {
+          "offset": 7012352,
+          "bytes": 65536,
+          "entropy": 6.831345222478972,
+          "zero_fraction": 0.12640380859375
+        },
+        {
+          "offset": 7077888,
+          "bytes": 65536,
+          "entropy": 6.542677976610349,
+          "zero_fraction": 0.17437744140625
+        },
+        {
+          "offset": 7143424,
+          "bytes": 65536,
+          "entropy": 6.549289903327033,
+          "zero_fraction": 0.167633056640625
+        },
+        {
+          "offset": 7208960,
+          "bytes": 65536,
+          "entropy": 6.489852522942089,
+          "zero_fraction": 0.1621246337890625
+        },
+        {
+          "offset": 7274496,
+          "bytes": 65536,
+          "entropy": 6.658389892834386,
+          "zero_fraction": 0.15618896484375
+        },
+        {
+          "offset": 7340032,
+          "bytes": 65536,
+          "entropy": 6.556976867164495,
+          "zero_fraction": 0.1721954345703125
+        },
+        {
+          "offset": 7405568,
+          "bytes": 65536,
+          "entropy": 6.545172838725247,
+          "zero_fraction": 0.17779541015625
+        },
+        {
+          "offset": 7471104,
+          "bytes": 65536,
+          "entropy": 6.526186634023471,
+          "zero_fraction": 0.1670074462890625
+        },
+        {
+          "offset": 7536640,
+          "bytes": 65536,
+          "entropy": 6.282618039198122,
+          "zero_fraction": 0.1736907958984375
+        },
+        {
+          "offset": 7602176,
+          "bytes": 65536,
+          "entropy": 6.2495880747199095,
+          "zero_fraction": 0.1838531494140625
+        },
+        {
+          "offset": 7667712,
+          "bytes": 65536,
+          "entropy": 6.252288058258093,
+          "zero_fraction": 0.1727752685546875
+        },
+        {
+          "offset": 7733248,
+          "bytes": 65536,
+          "entropy": 6.174570566945113,
+          "zero_fraction": 0.1727142333984375
+        },
+        {
+          "offset": 7798784,
+          "bytes": 65536,
+          "entropy": 6.282883635386373,
+          "zero_fraction": 0.1714019775390625
+        },
+        {
+          "offset": 7864320,
+          "bytes": 65536,
+          "entropy": 6.56228444421041,
+          "zero_fraction": 0.184356689453125
+        },
+        {
+          "offset": 7929856,
+          "bytes": 65536,
+          "entropy": 6.461245032180706,
+          "zero_fraction": 0.16851806640625
+        },
+        {
+          "offset": 7995392,
+          "bytes": 65536,
+          "entropy": 6.300845575260052,
+          "zero_fraction": 0.177947998046875
+        },
+        {
+          "offset": 8060928,
+          "bytes": 65536,
+          "entropy": 6.256890322164539,
+          "zero_fraction": 0.1646881103515625
+        },
+        {
+          "offset": 8126464,
+          "bytes": 65536,
+          "entropy": 6.253930444753303,
+          "zero_fraction": 0.1774139404296875
+        },
+        {
+          "offset": 8192000,
+          "bytes": 65536,
+          "entropy": 6.224154891055763,
+          "zero_fraction": 0.1609649658203125
+        },
+        {
+          "offset": 8257536,
+          "bytes": 65536,
+          "entropy": 6.229361296941498,
+          "zero_fraction": 0.1702880859375
+        },
+        {
+          "offset": 8323072,
+          "bytes": 65536,
+          "entropy": 6.288479855345483,
+          "zero_fraction": 0.17864990234375
+        },
+        {
+          "offset": 8388608,
+          "bytes": 65536,
+          "entropy": 6.248782907199604,
+          "zero_fraction": 0.17254638671875
+        },
+        {
+          "offset": 8454144,
+          "bytes": 65536,
+          "entropy": 6.499700847350831,
+          "zero_fraction": 0.1750640869140625
+        },
+        {
+          "offset": 8519680,
+          "bytes": 65536,
+          "entropy": 6.708162403686363,
+          "zero_fraction": 0.155731201171875
+        },
+        {
+          "offset": 8585216,
+          "bytes": 65536,
+          "entropy": 6.721759296551078,
+          "zero_fraction": 0.148773193359375
+        },
+        {
+          "offset": 8650752,
+          "bytes": 65536,
+          "entropy": 6.597497359428306,
+          "zero_fraction": 0.1675262451171875
+        },
+        {
+          "offset": 8716288,
+          "bytes": 65536,
+          "entropy": 6.455483530473747,
+          "zero_fraction": 0.1686248779296875
+        },
+        {
+          "offset": 8781824,
+          "bytes": 65536,
+          "entropy": 6.259310338283596,
+          "zero_fraction": 0.1718292236328125
+        },
+        {
+          "offset": 8847360,
+          "bytes": 65536,
+          "entropy": 6.1752268161657184,
+          "zero_fraction": 0.17559814453125
+        },
+        {
+          "offset": 8912896,
+          "bytes": 65536,
+          "entropy": 6.185382554552425,
+          "zero_fraction": 0.175872802734375
+        },
+        {
+          "offset": 8978432,
+          "bytes": 65536,
+          "entropy": 6.20813290894761,
+          "zero_fraction": 0.181976318359375
+        },
+        {
+          "offset": 9043968,
+          "bytes": 65536,
+          "entropy": 6.133204762864687,
+          "zero_fraction": 0.17279052734375
+        },
+        {
+          "offset": 9109504,
+          "bytes": 65536,
+          "entropy": 6.203121736476149,
+          "zero_fraction": 0.1749267578125
+        },
+        {
+          "offset": 9175040,
+          "bytes": 65536,
+          "entropy": 6.392020196315141,
+          "zero_fraction": 0.17987060546875
+        },
+        {
+          "offset": 9240576,
+          "bytes": 65536,
+          "entropy": 6.425009391322397,
+          "zero_fraction": 0.1739349365234375
+        },
+        {
+          "offset": 9306112,
+          "bytes": 65536,
+          "entropy": 6.734173286141782,
+          "zero_fraction": 0.1374053955078125
+        },
+        {
+          "offset": 9371648,
+          "bytes": 65536,
+          "entropy": 6.662245361243603,
+          "zero_fraction": 0.156097412109375
+        },
+        {
+          "offset": 9437184,
+          "bytes": 65536,
+          "entropy": 6.6056154080891805,
+          "zero_fraction": 0.1683502197265625
+        },
+        {
+          "offset": 9502720,
+          "bytes": 65536,
+          "entropy": 6.496883044056568,
+          "zero_fraction": 0.17547607421875
+        },
+        {
+          "offset": 9568256,
+          "bytes": 65536,
+          "entropy": 6.305614422167057,
+          "zero_fraction": 0.1822357177734375
+        },
+        {
+          "offset": 9633792,
+          "bytes": 65536,
+          "entropy": 6.5494902604875564,
+          "zero_fraction": 0.18878173828125
+        },
+        {
+          "offset": 9699328,
+          "bytes": 65536,
+          "entropy": 6.519603522327529,
+          "zero_fraction": 0.1723175048828125
+        },
+        {
+          "offset": 9764864,
+          "bytes": 65536,
+          "entropy": 6.480384335796907,
+          "zero_fraction": 0.177703857421875
+        },
+        {
+          "offset": 9830400,
+          "bytes": 65536,
+          "entropy": 6.594378699548263,
+          "zero_fraction": 0.1781005859375
+        },
+        {
+          "offset": 9895936,
+          "bytes": 65536,
+          "entropy": 6.550037149516337,
+          "zero_fraction": 0.17938232421875
+        },
+        {
+          "offset": 9961472,
+          "bytes": 65536,
+          "entropy": 6.428877296536053,
+          "zero_fraction": 0.1729736328125
+        },
+        {
+          "offset": 10027008,
+          "bytes": 65536,
+          "entropy": 6.243722583633284,
+          "zero_fraction": 0.181304931640625
+        },
+        {
+          "offset": 10092544,
+          "bytes": 65536,
+          "entropy": 6.1907583688973755,
+          "zero_fraction": 0.1768341064453125
+        },
+        {
+          "offset": 10158080,
+          "bytes": 65536,
+          "entropy": 6.319709277630043,
+          "zero_fraction": 0.1684417724609375
+        },
+        {
+          "offset": 10223616,
+          "bytes": 65536,
+          "entropy": 6.369810666564918,
+          "zero_fraction": 0.1744384765625
+        },
+        {
+          "offset": 10289152,
+          "bytes": 65536,
+          "entropy": 6.49290969397599,
+          "zero_fraction": 0.1798248291015625
+        },
+        {
+          "offset": 10354688,
+          "bytes": 65536,
+          "entropy": 6.154186155309637,
+          "zero_fraction": 0.1808929443359375
+        },
+        {
+          "offset": 10420224,
+          "bytes": 65536,
+          "entropy": 6.198715958638565,
+          "zero_fraction": 0.169189453125
+        },
+        {
+          "offset": 10485760,
+          "bytes": 65536,
+          "entropy": 6.1689628380256005,
+          "zero_fraction": 0.1639556884765625
+        },
+        {
+          "offset": 10551296,
+          "bytes": 32832,
+          "entropy": 6.174356546507211,
+          "zero_fraction": 0.16797636452241715
+        }
+      ],
+      "wave": {
+        "valid": true,
+        "sample_rate": 44100,
+        "sample_width": 3,
+        "channels": 1,
+        "frames": 3528000
+      },
+      "ffmpeg": {
+        "returncode": 0,
+        "diagnostic": ""
+      },
+      "archive": {
+        "member": "MODMA_AUDIO Datatset/audio_lanzhou_2015/02010004/29.wav",
+        "crc32": "29104601",
+        "crc_passed": true,
+        "raw_exactly_matches_archive": true,
+        "compressed_bytes": 8177625,
+        "flags": 2048,
+        "encrypted": false,
+        "compression": 8
+      }
+    }
+  ],
+  "alternate_eeglab_members_for_subject": [
+    "audio_lanzhou_2015/02010004_01.fdt",
+    "audio_lanzhou_2015/02010004_01.set",
+    "audio_lanzhou_2015/02010004_02.fdt",
+    "audio_lanzhou_2015/02010004_02.set",
+    "audio_lanzhou_2015/02010004_03.fdt",
+    "audio_lanzhou_2015/02010004_03.set",
+    "audio_lanzhou_2015/02010004_04.fdt",
+    "audio_lanzhou_2015/02010004_04.set",
+    "audio_lanzhou_2015/02010004_05.fdt",
+    "audio_lanzhou_2015/02010004_05.set",
+    "audio_lanzhou_2015/02010004_06.fdt",
+    "audio_lanzhou_2015/02010004_06.set",
+    "audio_lanzhou_2015/02010004_07.fdt",
+    "audio_lanzhou_2015/02010004_07.set",
+    "audio_lanzhou_2015/02010004_08.fdt",
+    "audio_lanzhou_2015/02010004_08.set",
+    "audio_lanzhou_2015/02010004_09.fdt",
+    "audio_lanzhou_2015/02010004_09.set",
+    "audio_lanzhou_2015/02010004_10.fdt",
+    "audio_lanzhou_2015/02010004_10.set",
+    "audio_lanzhou_2015/02010004_11.fdt",
+    "audio_lanzhou_2015/02010004_11.set",
+    "audio_lanzhou_2015/02010004_12.fdt",
+    "audio_lanzhou_2015/02010004_12.set",
+    "audio_lanzhou_2015/02010004_13.fdt",
+    "audio_lanzhou_2015/02010004_13.set",
+    "audio_lanzhou_2015/02010004_14.fdt",
+    "audio_lanzhou_2015/02010004_14.set",
+    "audio_lanzhou_2015/02010004_15.fdt",
+    "audio_lanzhou_2015/02010004_15.set",
+    "audio_lanzhou_2015/02010004_16.fdt",
+    "audio_lanzhou_2015/02010004_16.set",
+    "audio_lanzhou_2015/02010004_17.fdt",
+    "audio_lanzhou_2015/02010004_17.set",
+    "audio_lanzhou_2015/02010004_18.fdt",
+    "audio_lanzhou_2015/02010004_18.set",
+    "audio_lanzhou_2015/02010004_19.fdt",
+    "audio_lanzhou_2015/02010004_19.set",
+    "audio_lanzhou_2015/02010004_20.fdt",
+    "audio_lanzhou_2015/02010004_20.set",
+    "audio_lanzhou_2015/02010004_21.fdt",
+    "audio_lanzhou_2015/02010004_21.set",
+    "audio_lanzhou_2015/02010004_22.fdt",
+    "audio_lanzhou_2015/02010004_22.set",
+    "audio_lanzhou_2015/02010004_23.fdt",
+    "audio_lanzhou_2015/02010004_23.set",
+    "audio_lanzhou_2015/02010004_29.fdt",
+    "audio_lanzhou_2015/02010004_29.set"
+  ],
+  "alternate_absent_questions": [
+    "24",
+    "25",
+    "26",
+    "27",
+    "28"
+  ],
+  "raw_files_modified": false,
+  "recovered_full_recordings": 0,
+  "interpretation": "CRC equality rules out extraction mismatch; uniform byte entropy alone does not prove encryption or recover original samples. Lower-entropy blocks do not establish a complete WAV or its missing header."
+}

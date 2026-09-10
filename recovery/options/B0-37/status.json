@@ -1,0 +1,139 @@
+{
+  "experiment": "B0-37",
+  "active": true,
+  "training_ready": false,
+  "status": "activated_for_baseline_and_all_followup_MODMA_experiments",
+  "excluded_subject_ids": [
+    "02010004"
+  ],
+  "selection_basis": "raw data decode and severe-noise audit only; no prediction scores",
+  "subjects": 37,
+  "class_counts": {
+    "1": 16,
+    "0": 21
+  },
+  "recordings": 1073,
+  "source_official_folds_sha256": "171288f46abc9ae73db89d4669d1ebd2bb24ff8bce800b62519c5ba01f8e41fc",
+  "fold_audit": {
+    "fold_1": {
+      "train": {
+        "n": 27,
+        "class_counts": {
+          "1": 12,
+          "0": 15
+        }
+      },
+      "val": {
+        "n": 3,
+        "class_counts": {
+          "0": 2,
+          "1": 1
+        }
+      },
+      "test": {
+        "n": 7,
+        "class_counts": {
+          "1": 3,
+          "0": 4
+        }
+      }
+    },
+    "fold_2": {
+      "train": {
+        "n": 26,
+        "class_counts": {
+          "1": 11,
+          "0": 15
+        }
+      },
+      "val": {
+        "n": 3,
+        "class_counts": {
+          "0": 2,
+          "1": 1
+        }
+      },
+      "test": {
+        "n": 8,
+        "class_counts": {
+          "1": 4,
+          "0": 4
+        }
+      }
+    },
+    "fold_3": {
+      "train": {
+        "n": 26,
+        "class_counts": {
+          "0": 14,
+          "1": 12
+        }
+      },
+      "val": {
+        "n": 3,
+        "class_counts": {
+          "0": 2,
+          "1": 1
+        }
+      },
+      "test": {
+        "n": 8,
+        "class_counts": {
+          "1": 3,
+          "0": 5
+        }
+      }
+    },
+    "fold_4": {
+      "train": {
+        "n": 27,
+        "class_counts": {
+          "0": 15,
+          "1": 12
+        }
+      },
+      "val": {
+        "n": 3,
+        "class_counts": {
+          "1": 1,
+          "0": 2
+        }
+      },
+      "test": {
+        "n": 7,
+        "class_counts": {
+          "1": 3,
+          "0": 4
+        }
+      }
+    },
+    "fold_5": {
+      "train": {
+        "n": 27,
+        "class_counts": {
+          "0": 15,
+          "1": 12
+        }
+      },
+      "val": {
+        "n": 3,
+        "class_counts": {
+          "1": 1,
+          "0": 2
+        }
+      },
+      "test": {
+        "n": 7,
+        "class_counts": {
+          "1": 3,
+          "0": 4
+        }
+      }
+    }
+  },
+  "test_each_subject_once": true,
+  "original_fold_order_retained": true,
+  "scientific_limit": "Changed cohort: cannot claim exact 38-subject TRI-DEP replication; all comparisons must rerun on the same B0-37 cohort. Encoder and EEG protocol questions remain unresolved.",
+  "cohort_id": "MODMA-37-v1",
+  "active_fold_file": "manifests/fold_assignments.json"
+}

@@ -1,0 +1,868 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title> Multi-modal Open Dataset for Mental-disorder Analysis, Experimental Data 2014-2016  - ReShare</title>
+		<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">// <!-- No script --></script>		
+		<script type="text/javascript" src="/reshare_template/scripts/bootstrap.min.js">// <!-- No script --></script>
+		<link rel="stylesheet" href="/reshare_template/styles/reshare_ukds.css" />
+		<meta name="eprints.eprintid" content="854301" />
+<meta name="eprints.rev_number" content="225" />
+<meta name="eprints.userid" content="8450" />
+<meta name="eprints.dir" content="disk0/00/85/43/01" />
+<meta name="eprints.datestamp" content="2022-02-09 09:03:06" />
+<meta name="eprints.lastmod" content="2022-02-09 09:03:34" />
+<meta name="eprints.status_changed" content="2022-02-09 09:03:06" />
+<meta name="eprints.type" content="data_collection" />
+<meta name="eprints.metadata_visibility" content="show" />
+<meta name="eprints.title" content="Multi-modal Open Dataset for Mental-disorder Analysis, Experimental Data 2014-2016" />
+<meta name="eprints.abstract" content="According to the World Health Organisation, the number of mental disorder patients, especially depression patients, has grown rapidly and become a leading contributor to the global burden of disease. However, the present common practice of depression diagnosis is based on interviews and clinical scales carried out by doctors, which is not only labour-consuming but also time-consuming. One important reason is due to the lack of physiological indicators for mental disorders. With the rising of tools such as data mining and artificial intelligence, using physiological data to explore new possible physiological indicators of mental disorder and creating new applications for mental disorder diagnosis has become a new research hot topic. However, good quality physiological data for mental disorder patients are hard to acquire. We present a multi-modal open dataset for mental-disorder analysis. The dataset includes EEG and audio data from clinically depressed patients and matching normal controls. All our patients were carefully diagnosed and selected by professional psychiatrists in hospitals. The EEG dataset includes not only data collected using traditional 128-electrodes mounted elastic cap, but also a novel wearable 3-electrode EEG collector for pervasive applications. The 128-electrodes EEG signals of 53 subjects were recorded as both in resting state and under stimulation; the 3-electrode EEG signals of 55 subjects were recorded in resting state; the audio data of 52 subjects were recorded during interviewing, reading, and picture description. We encourage other researchers in the field to use it for testing their methods of mental-disorder analysis." />
+<meta name="eprints.keywords" content="DEPRESSION" />
+<meta name="eprints.keywords" content="MULTI-MODAL" />
+<meta name="eprints.keywords" content="MENTAL DISORDERS" />
+<meta name="eprints.subjects" content="8DC454D7-445E-4A6D-BFF2-D72955BEF54D" />
+<meta name="eprints.subjects" content="E5F50382-7169-4D3D-B506-11C6B0977071" />
+<meta name="eprints.creators_name" content="Hu, Bin" />
+<meta name="eprints.creators_id" content="bh@lzu.edu.cn" />
+<meta name="eprints.creators_affiliation" content="Lanzhou University, China" />
+<meta name="eprints.creators_orcid_id" content="https://orcid.org/0000-0003-3514-5413" />
+<meta name="eprints.copyright_holders_name" content="Hu, Bin" />
+<meta name="eprints.copyright_holders_id" content="bh@lzu.edu.cn" />
+<meta name="eprints.copyright_holders_affiliation" content="Lanzhou University, China" />
+<meta name="eprints.copyright_holders_orcid_id" content="https://orcid.org/0000-0003-3514-5413" />
+<meta name="eprints.contact_details_name" content="Hu, Bin" />
+<meta name="eprints.contact_details_name" content="Cai, Hanshu" />
+<meta name="eprints.contact_details_id" content="bh@lzu.edu.cn" />
+<meta name="eprints.contact_details_id" content="hcai@lzu.edu.cn" />
+<meta name="eprints.contact_details_affiliation" content="Lanzhou University, China" />
+<meta name="eprints.contact_details_affiliation" content="Lanzhou University, China" />
+<meta name="eprints.contact_details_orcid_id" content="https://orcid.org/0000-0003-3514-5413" />
+<meta name="eprints.contact_details_orcid_id" content="https://orcid.org/0000-0002-8918-0591" />
+<meta name="eprints.alt_title" content="Multi-modal Open Dataset for Mental-disorder Analysis (MODMA)" />
+<meta name="eprints.data_type" content="experimental_data" />
+<meta name="eprints.collection_dates_date_from" content="2014-10-01" />
+<meta name="eprints.collection_dates_date_to" content="2016-10-31" />
+<meta name="eprints.geographic_cover" content="Gansu Province" />
+<meta name="eprints.collection_method" content="Participants: (1) full brain 128-electrodes EEG experiment: 
+53 participants include a total of 24 outpatients (13 males and 11 females; 18–55-year-old) diagnosed with depression, as well as 29 healthy controls (20 males and 9 females; 18–55-year-old) were recruited; 
+(2) pervasive 3-electrodes EEG experiment: 55 participants include a total of 26 outpatients (15 males and 11 females; 18–55-year-old) diagnosed with depression, as well as 29 healthy controls (19 males and 10 females; 18–55-year-old) were recruited; 
+(3) Audio experiment: 52 participants include a total of 23 outpatients (16 males and 7 females; 18–55-year-old) diagnosed with depression, as well as 29 healthy controls (20 males and 9 females; 18–55-year-old) were recruited.
+For more information please see the Methodology file." />
+<meta name="eprints.provenance" content="Written informed consent was obtained from all participants prior to the experiment. Consent forms and study design were approved by the local Ethics Committee for Biomedical Research at the Lanzhou University Second Hospital in accordance to the Code of Ethics of the World Medical Association (Declaration of Helsinki).
+All the names, addresses, or other information that directly confirms the participants' identity has been removed. However, the dataset does include voice recording data for analyzing cognitive behaviours. All participants were warned about the associated risks prior to the experiments." />
+<meta name="eprints.language" content="English" />
+<meta name="eprints.related_resources_url" content="https://modma.lzu.edu.cn/" />
+<meta name="eprints.related_resources_name" content="MODMA Dataset" />
+<meta name="eprints.related_resources_type" content="website" />
+<meta name="eprints.publisher" content="UK Data Service" />
+<meta name="eprints.country" content="China" />
+<meta name="eprints.data_kind" content="Numeric" />
+<meta name="eprints.data_kind" content="Audio" />
+<meta name="eprints.data_kind" content="Other" />
+<meta name="eprints.observation_unit" content="individual" />
+<meta name="eprints.access_notes" content="The Data Collection is available to any user without the requirement for registration for download/access." />
+<meta name="eprints.terms_conditions_agreement" content="TRUE" />
+<meta name="eprints.award_funders" content="National Key Research and Development Program of China" />
+<meta name="eprints.award_funders" content="National Basic Research Program of China (973 Program)" />
+<meta name="eprints.award_funders" content="National Natural Science Foundation of China" />
+<meta name="eprints.award_funders" content="Program of International S&amp;T Cooperation of MOST" />
+<meta name="eprints.award_funders" content="Program of Beijing Municipal Science &amp; Technology Commission" />
+<meta name="eprints.reviewer" content="Katie, Anca, Vlad" />
+<meta name="eprints.review_notes" content="19/11/2021 - peer review by Scientific Data Vlad
+
+to be peer reviewed by Scientific data. Anca 
+
+Sent back and emailed. Asked for: blank consent form and information sheet, upload ReadMe file, and more detail in methodology. Katie" />
+<meta name="eprints.access_category" content="open" />
+<meta name="eprints.doi" content="10.5255/UKDA-SN-854301" />
+<meta name="eprints.eprint_status" content="archive" />
+<meta name="eprints.citation" content="   Hu, Bin (2022). Multi-modal Open Dataset for Mental-disorder Analysis, Experimental Data 2014-2016. [Data Collection]. Colchester, Essex: UK Data Service.   10.5255/UKDA-SN-854301 &lt;https://dx.doi.org/10.5255/UKDA-SN-854301&gt;   " />
+<meta name="eprints.document_url" content="https://reshare.ukdataservice.ac.uk/854301/4/854301_EEG_128Channels_Resting_Lanzhou_2015.zip" />
+<meta name="eprints.document_url" content="https://reshare.ukdataservice.ac.uk/854301/3/854301_EEG_128Channels_ERP_Lanzhou_2015.zip" />
+<meta name="eprints.document_url" content="https://reshare.ukdataservice.ac.uk/854301/2/854301_EEG_3Channels_Resting_Lanzhou_2015.zip" />
+<meta name="eprints.document_url" content="https://reshare.ukdataservice.ac.uk/854301/1/854301_Audio_Lanzhou_2015.zip" />
+<meta name="eprints.document_url" content="https://reshare.ukdataservice.ac.uk/854301/38/Behavioral_Data.zip" />
+<meta name="eprints.document_url" content="https://reshare.ukdataservice.ac.uk/854301/46/MODMA_EEG_BIDS_format.zip" />
+<meta name="eprints.document_url" content="https://reshare.ukdataservice.ac.uk/854301/49/MODMA_EEG_BIDS_format.z01" />
+<meta name="eprints.document_url" content="https://reshare.ukdataservice.ac.uk/854301/39/MODMA_EEG_BIDS_format.z02" />
+<meta name="eprints.document_url" content="https://reshare.ukdataservice.ac.uk/854301/40/MODMA_EEG_BIDS_format.z03" />
+<meta name="eprints.document_url" content="https://reshare.ukdataservice.ac.uk/854301/42/MODMA_EEG_BIDS_format.z04" />
+<meta name="eprints.document_url" content="https://reshare.ukdataservice.ac.uk/854301/41/MODMA_EEG_BIDS_format.z05" />
+<meta name="eprints.document_url" content="https://reshare.ukdataservice.ac.uk/854301/43/MODMA_EEG_BIDS_format.z06" />
+<meta name="eprints.document_url" content="https://reshare.ukdataservice.ac.uk/854301/47/MODMA_EEG_BIDS_format.z07" />
+<meta name="eprints.document_url" content="https://reshare.ukdataservice.ac.uk/854301/44/MODMA_EEG_BIDS_format.z08" />
+<meta name="eprints.document_url" content="https://reshare.ukdataservice.ac.uk/854301/48/MODMA_EEG_BIDS_format.z09" />
+<meta name="eprints.document_url" content="https://reshare.ukdataservice.ac.uk/854301/45/MODMA_EEG_BIDS_format.z10" />
+<meta name="eprints.document_url" content="https://reshare.ukdataservice.ac.uk/854301/8/854301_Methodology.docx" />
+<meta name="eprints.document_url" content="https://reshare.ukdataservice.ac.uk/854301/6/854301_InformedConsent.pdf" />
+<meta name="eprints.document_url" content="https://reshare.ukdataservice.ac.uk/854301/5/854301_InformationSheet.pdf" />
+<meta name="eprints.document_url" content="https://reshare.ukdataservice.ac.uk/854301/37/ReadMe.pdf" />
+<link rel="schema.DC" href="http://purl.org/DC/elements/1.0/" />
+<meta name="DC.relation" content="https://reshare.ukdataservice.ac.uk/854301/" />
+<meta name="DC.title" content="Multi-modal Open Dataset for Mental-disorder Analysis, Experimental Data 2014-2016" />
+<meta name="DC.creator" content="Hu, Bin" />
+<meta name="DC.subject" content="Health" />
+<meta name="DC.subject" content="Psychology" />
+<meta name="DC.description" content="According to the World Health Organisation, the number of mental disorder patients, especially depression patients, has grown rapidly and become a leading contributor to the global burden of disease. However, the present common practice of depression diagnosis is based on interviews and clinical scales carried out by doctors, which is not only labour-consuming but also time-consuming. One important reason is due to the lack of physiological indicators for mental disorders. With the rising of tools such as data mining and artificial intelligence, using physiological data to explore new possible physiological indicators of mental disorder and creating new applications for mental disorder diagnosis has become a new research hot topic. However, good quality physiological data for mental disorder patients are hard to acquire. We present a multi-modal open dataset for mental-disorder analysis. The dataset includes EEG and audio data from clinically depressed patients and matching normal controls. All our patients were carefully diagnosed and selected by professional psychiatrists in hospitals. The EEG dataset includes not only data collected using traditional 128-electrodes mounted elastic cap, but also a novel wearable 3-electrode EEG collector for pervasive applications. The 128-electrodes EEG signals of 53 subjects were recorded as both in resting state and under stimulation; the 3-electrode EEG signals of 55 subjects were recorded in resting state; the audio data of 52 subjects were recorded during interviewing, reading, and picture description. We encourage other researchers in the field to use it for testing their methods of mental-disorder analysis." />
+<meta name="DC.publisher" content="UK Data Service" />
+<meta name="DC.type" content="Data Collection" />
+<meta name="DC.type" content="NonPeerReviewed" />
+<meta name="DC.format" content="archive" />
+<meta name="DC.language" content="en" />
+<meta name="DC.rights" content="cc_by" />
+<meta name="DC.identifier" content="https://reshare.ukdataservice.ac.uk/854301/4/854301_EEG_128Channels_Resting_Lanzhou_2015.zip" />
+<meta name="DC.format" content="archive" />
+<meta name="DC.language" content="en" />
+<meta name="DC.rights" content="cc_by" />
+<meta name="DC.identifier" content="https://reshare.ukdataservice.ac.uk/854301/3/854301_EEG_128Channels_ERP_Lanzhou_2015.zip" />
+<meta name="DC.format" content="archive" />
+<meta name="DC.language" content="en" />
+<meta name="DC.rights" content="cc_by" />
+<meta name="DC.identifier" content="https://reshare.ukdataservice.ac.uk/854301/2/854301_EEG_3Channels_Resting_Lanzhou_2015.zip" />
+<meta name="DC.format" content="archive" />
+<meta name="DC.language" content="en" />
+<meta name="DC.rights" content="ukda_eul" />
+<meta name="DC.identifier" content="https://reshare.ukdataservice.ac.uk/854301/1/854301_Audio_Lanzhou_2015.zip" />
+<meta name="DC.format" content="archive" />
+<meta name="DC.language" content="en" />
+<meta name="DC.rights" content="cc_by" />
+<meta name="DC.identifier" content="https://reshare.ukdataservice.ac.uk/854301/38/Behavioral_Data.zip" />
+<meta name="DC.format" content="archive" />
+<meta name="DC.language" content="en" />
+<meta name="DC.rights" content="cc_by" />
+<meta name="DC.identifier" content="https://reshare.ukdataservice.ac.uk/854301/46/MODMA_EEG_BIDS_format.zip" />
+<meta name="DC.format" content="other" />
+<meta name="DC.language" content="en" />
+<meta name="DC.rights" content="cc_by" />
+<meta name="DC.identifier" content="https://reshare.ukdataservice.ac.uk/854301/49/MODMA_EEG_BIDS_format.z01" />
+<meta name="DC.format" content="other" />
+<meta name="DC.language" content="en" />
+<meta name="DC.rights" content="cc_by" />
+<meta name="DC.identifier" content="https://reshare.ukdataservice.ac.uk/854301/39/MODMA_EEG_BIDS_format.z02" />
+<meta name="DC.format" content="other" />
+<meta name="DC.language" content="en" />
+<meta name="DC.rights" content="cc_by" />
+<meta name="DC.identifier" content="https://reshare.ukdataservice.ac.uk/854301/40/MODMA_EEG_BIDS_format.z03" />
+<meta name="DC.format" content="other" />
+<meta name="DC.language" content="en" />
+<meta name="DC.rights" content="cc_by" />
+<meta name="DC.identifier" content="https://reshare.ukdataservice.ac.uk/854301/42/MODMA_EEG_BIDS_format.z04" />
+<meta name="DC.format" content="other" />
+<meta name="DC.language" content="en" />
+<meta name="DC.rights" content="cc_by" />
+<meta name="DC.identifier" content="https://reshare.ukdataservice.ac.uk/854301/41/MODMA_EEG_BIDS_format.z05" />
+<meta name="DC.format" content="other" />
+<meta name="DC.language" content="en" />
+<meta name="DC.rights" content="cc_by" />
+<meta name="DC.identifier" content="https://reshare.ukdataservice.ac.uk/854301/43/MODMA_EEG_BIDS_format.z06" />
+<meta name="DC.format" content="other" />
+<meta name="DC.language" content="en" />
+<meta name="DC.rights" content="cc_by" />
+<meta name="DC.identifier" content="https://reshare.ukdataservice.ac.uk/854301/47/MODMA_EEG_BIDS_format.z07" />
+<meta name="DC.format" content="other" />
+<meta name="DC.language" content="en" />
+<meta name="DC.rights" content="cc_by" />
+<meta name="DC.identifier" content="https://reshare.ukdataservice.ac.uk/854301/44/MODMA_EEG_BIDS_format.z08" />
+<meta name="DC.format" content="other" />
+<meta name="DC.language" content="en" />
+<meta name="DC.rights" content="cc_by" />
+<meta name="DC.identifier" content="https://reshare.ukdataservice.ac.uk/854301/48/MODMA_EEG_BIDS_format.z09" />
+<meta name="DC.format" content="other" />
+<meta name="DC.language" content="en" />
+<meta name="DC.rights" content="cc_by" />
+<meta name="DC.identifier" content="https://reshare.ukdataservice.ac.uk/854301/45/MODMA_EEG_BIDS_format.z10" />
+<meta name="DC.format" content="text" />
+<meta name="DC.language" content="en" />
+<meta name="DC.rights" content="cc_by_sa" />
+<meta name="DC.identifier" content="https://reshare.ukdataservice.ac.uk/854301/8/854301_Methodology.docx" />
+<meta name="DC.format" content="text" />
+<meta name="DC.language" content="en" />
+<meta name="DC.rights" content="cc_by_sa" />
+<meta name="DC.identifier" content="https://reshare.ukdataservice.ac.uk/854301/6/854301_InformedConsent.pdf" />
+<meta name="DC.format" content="text" />
+<meta name="DC.language" content="en" />
+<meta name="DC.rights" content="cc_by_sa" />
+<meta name="DC.identifier" content="https://reshare.ukdataservice.ac.uk/854301/5/854301_InformationSheet.pdf" />
+<meta name="DC.format" content="text" />
+<meta name="DC.language" content="en" />
+<meta name="DC.rights" content="cc_by_sa" />
+<meta name="DC.identifier" content="https://reshare.ukdataservice.ac.uk/854301/37/ReadMe.pdf" />
+<meta name="DC.identifier" content="   Hu, Bin (2022). Multi-modal Open Dataset for Mental-disorder Analysis, Experimental Data 2014-2016. [Data Collection]. Colchester, Essex: UK Data Service.   10.5255/UKDA-SN-854301 &lt;https://dx.doi.org/10.5255/UKDA-SN-854301&gt;   " />
+<meta name="DC.relation" content="10.5255/UKDA-SN-854301" />
+<meta name="DC.language" content="English" />
+<link rel="alternate" href="https://reshare.ukdataservice.ac.uk/cgi/export/eprint/854301/BibTeX/reshare-eprint-854301.bib" type="text/plain" title="BibTeX" />
+<link rel="alternate" href="https://reshare.ukdataservice.ac.uk/cgi/export/eprint/854301/DIDL/reshare-eprint-854301.xml" type="text/xml; charset=utf-8" title="MPEG-21 DIDL" />
+<link rel="alternate" href="https://reshare.ukdataservice.ac.uk/cgi/export/eprint/854301/EndNote/reshare-eprint-854301.enw" type="text/plain; charset=utf-8" title="EndNote" />
+<link rel="alternate" href="https://reshare.ukdataservice.ac.uk/cgi/export/eprint/854301/Text/reshare-eprint-854301.txt" type="text/plain; charset=utf-8" title="ASCII Citation" />
+<link rel="alternate" href="https://reshare.ukdataservice.ac.uk/cgi/export/eprint/854301/ContextObject/reshare-eprint-854301.xml" type="text/xml; charset=utf-8" title="OpenURL ContextObject" />
+<link rel="alternate" href="https://reshare.ukdataservice.ac.uk/cgi/export/eprint/854301/RDFNT/reshare-eprint-854301.nt" type="text/plain" title="RDF+N-Triples" />
+<link rel="alternate" href="https://reshare.ukdataservice.ac.uk/cgi/export/eprint/854301/COinS/reshare-eprint-854301.txt" type="text/plain; charset=utf-8" title="OpenURL ContextObject in Span" />
+<link rel="alternate" href="https://reshare.ukdataservice.ac.uk/cgi/export/eprint/854301/DC/reshare-eprint-854301.txt" type="text/plain; charset=utf-8" title="Dublin Core" />
+<link rel="alternate" href="https://reshare.ukdataservice.ac.uk/cgi/export/eprint/854301/RDFN3/reshare-eprint-854301.n3" type="text/n3" title="RDF+N3" />
+<link rel="alternate" href="https://reshare.ukdataservice.ac.uk/cgi/export/eprint/854301/DataCiteXML/reshare-eprint-854301.xml" type="application/xml; charset=utf-8" title="Data Cite XML" />
+<link rel="alternate" href="https://reshare.ukdataservice.ac.uk/cgi/export/eprint/854301/Refer/reshare-eprint-854301.refer" type="text/plain" title="Refer" />
+<link rel="alternate" href="https://reshare.ukdataservice.ac.uk/cgi/export/eprint/854301/JSON/reshare-eprint-854301.js" type="application/json; charset=utf-8" title="JSON" />
+<link rel="alternate" href="https://reshare.ukdataservice.ac.uk/cgi/export/eprint/854301/Atom/reshare-eprint-854301.xml" type="application/atom+xml;charset=utf-8" title="Atom" />
+<link rel="alternate" href="https://reshare.ukdataservice.ac.uk/cgi/export/eprint/854301/RIS/reshare-eprint-854301.ris" type="text/plain" title="Reference Manager" />
+<link rel="alternate" href="https://reshare.ukdataservice.ac.uk/cgi/export/eprint/854301/MODS/reshare-eprint-854301.xml" type="text/xml; charset=utf-8" title="MODS" />
+<link rel="alternate" href="https://reshare.ukdataservice.ac.uk/cgi/export/eprint/854301/Simple/reshare-eprint-854301.txt" type="text/plain; charset=utf-8" title="Simple Metadata" />
+<link rel="alternate" href="https://reshare.ukdataservice.ac.uk/cgi/export/eprint/854301/RDFXML/reshare-eprint-854301.rdf" type="application/rdf+xml" title="RDF+XML" />
+<link rel="alternate" href="https://reshare.ukdataservice.ac.uk/cgi/export/eprint/854301/METS/reshare-eprint-854301.xml" type="text/xml; charset=utf-8" title="METS" />
+<link rel="alternate" href="https://reshare.ukdataservice.ac.uk/cgi/export/eprint/854301/XML/reshare-eprint-854301.xml" type="application/vnd.eprints.data+xml; charset=utf-8" title="EP3 XML" />
+<link rel="alternate" href="https://reshare.ukdataservice.ac.uk/cgi/export/eprint/854301/CSV/reshare-eprint-854301.csv" type="text/csv; charset=utf-8" title="Multiline CSV" />
+<link rel="alternate" href="https://reshare.ukdataservice.ac.uk/cgi/export/eprint/854301/HTML/reshare-eprint-854301.html" type="text/html; charset=utf-8" title="HTML Citation" />
+<link rel="Top" href="https://reshare.ukdataservice.ac.uk/" />
+    <link rel="Sword" href="https://reshare.ukdataservice.ac.uk/sword-app/servicedocument" />
+    <link rel="SwordDeposit" href="https://reshare.ukdataservice.ac.uk/id/contents" />
+    <link rel="Search" type="text/html" href="http://reshare.ukdataservice.ac.uk/cgi/search" />
+    <link rel="Search" type="application/opensearchdescription+xml" href="http://reshare.ukdataservice.ac.uk/cgi/opensearchdescription" />
+    <script type="text/javascript" src="https://www.google.com/jsapi"><!--padder--></script><script type="text/javascript">
+// <![CDATA[
+google.load("visualization", "1", {packages:["corechart", "geochart"]});
+// ]]></script><script type="text/javascript" src="https://www.google.com/jsapi"><!--padder--></script><script type="text/javascript">
+// <![CDATA[
+google.load("visualization", "1", {packages:["corechart", "geochart"]});
+// ]]></script><script type="text/javascript" src="https://www.google.com/jsapi"><!--padder--></script><script type="text/javascript">
+// <![CDATA[
+google.load("visualization", "1", {packages:["corechart", "geochart"]});
+// ]]></script><script type="text/javascript">
+// <![CDATA[
+var eprints_http_root = "https:\/\/reshare.ukdataservice.ac.uk";
+var eprints_http_cgiroot = "https:\/\/reshare.ukdataservice.ac.uk\/cgi";
+var eprints_oai_archive_id = "reshare.ukdataservice.ac.uk";
+var eprints_logged_in = false;
+// ]]></script>
+    <style type="text/css">.ep_logged_in { display: none }</style>
+    <link rel="stylesheet" type="text/css" href="/style/auto-3.3.15.css" />
+    <script type="text/javascript" src="/javascript/auto-3.3.15.js"><!--padder--></script>
+    <!--[if lte IE 6]>
+        <link rel="stylesheet" type="text/css" href="/style/ie6.css" />
+   <![endif]-->
+    <meta name="Generator" content="EPrints 3.3.15" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Language" content="en" />
+     
+		<link rel="stylesheet" href="/reshare_template/styles/reshare_ep3.css" />
+		<script type="text/javascript" src="https://www.google.com/jsapi">// <!-- No script --></script>
+		<script type="text/javascript">
+google.load("visualization", "1", {packages:["corechart", "geochart"]});
+		</script>
+	
+            <!-- Initialise Matomo Analytics -->
+            <script type="text/javascript">
+           var _paq = window._paq = window._paq || [];
+           _paq.push(["setCookieDomain", "*.reshare.ukdataservice.ac.uk"]);
+           _paq.push(["setDoNotTrack", true]);
+           _paq.push(["disableCookies"]);
+           _paq.push(['trackPageView']);
+           _paq.push(['enableLinkTracking']);
+           (function() {
+               var u="https://ukdataservice02.matomo.cloud/";
+               _paq.push(['setTrackerUrl', u+'matomo.php']);
+               _paq.push(['setSiteId', '15']);
+               var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+               g.async=true; g.src='//cdn.matomo.cloud/ukdataservice02.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
+           })(); 
+	    </script>
+	
+	</head>
+	<body class="no-index">
+		<div>
+			<!-- begin container -->  
+		<div class="container">	  
+			
+			<div class="row row-first">
+				<div class="span12" role="navigation">
+				    <nav role="navigation" aria-labelledby="subnav">
+					<ul id="subnav" class="nav-small pull-right top-right-menu">
+						<!--<li><a href="{$config{userhome}}">Login</a></li>-->
+						<li>
+							<a href="http://ukdataservice.ac.uk/" title="UK Data Service home" target="_self">
+								UK Data Service home
+							</a>
+						</li>
+						<li>
+							<a href="https://reshare.ukdataservice.ac.uk/help/index.html">
+								Help
+							</a>
+						</li>
+						<li>
+							<a href="https://reshare.ukdataservice.ac.uk/information.html">
+								About
+							</a>
+						</li>
+						<li>
+							<a href="https://reshare.ukdataservice.ac.uk/accessibility/index.html">
+								Accessibility
+							</a>
+						</li>
+						<li>
+							<a href="http://ukdataservice.ac.uk/help/faq/" title="ReShare FAQ" target="_self">
+								FAQ
+							</a>
+						</li>
+						<li>
+							<a href="https://reshare.ukdataservice.ac.uk/contact/index.html">
+								Contact
+							</a>
+						</li>
+					</ul>
+				    </nav>
+				</div>
+			</div>	
+			<div class="ep_noprint row adjust-margin">
+				<div role="banner" class="span2">	
+					<div id="logo">
+						<div>
+							<a href="https://reshare.ukdataservice.ac.uk/" title="ReShare">
+								<img src="/reshare_template/images/ukdataservice/mobile-symbol.png" class="visible-phone" alt="UK Data Service" />
+								<i id="ukds-text" role="img" aria-label="UK Data Service logo"></i>	       
+								<span>ReShare</span>	
+							</a>
+							<a href="#" class="webui_ui_button mobile-nav-btn visible-phone collapsed" data-toggle="collapse" data-target=".nav-collapse" aria-label="mobile navigation drop-down"><i class="bootstrap-icon icon-white icon-chevron-down"></i></a>
+
+						</div>
+						<a href="http://ukdataservice.ac.uk/" title="UK Data Service" class="hidden-phone"><i id="ukds-logo" role="img" aria-label="UK Data Service logo"></i></a>
+
+					</div>
+				</div>
+				<div class="span10 nav-collapse collapse">
+					<nav role="navigation" aria-labelledby="main-nav">   
+
+						<ul id="main-nav" class="nav">
+							<li>
+								<a href="https://reshare.ukdataservice.ac.uk">
+									Home
+								</a>
+							</li>
+							<li>
+								<a href="https://reshare.ukdataservice.ac.uk/legal/index.html">
+									Legal
+								</a>
+							</li>
+							<li>
+								<a href="https://reshare.ukdataservice.ac.uk/reshare-review-procedures/">
+									Review procedures
+								</a>
+							</li>
+							<li>
+								<a href="https://reshare.ukdataservice.ac.uk/cgi/stats/report">
+									Metrics
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="row">
+				<div class="store2">
+					<div class="span2">
+						<div id="logo-spacer" class="hidden-phone"> </div>		
+						<nav class="hidden-phone" role="navigation" aria-label="ep_tm_menu_tools">
+							
+
+						</nav>					
+					</div>
+					<div class="span10">
+						<div>
+						</div>
+					</div>
+					<div class="row">
+
+						<div class="span10" role="main">
+							<h1 class="store2_page_title">
+								
+
+Multi-modal Open Dataset for Mental-disorder Analysis, Experimental Data 2014-2016
+
+
+							</h1>
+							<div class="ep_summary_content"><div class="ep_summary_content_left"></div><div class="ep_summary_content_right"></div><div class="ep_summary_content_top"></div><div class="ep_summary_content_main">
+	<p style="margin-bottom: 1em">
+		
+
+	<!--
+<cite:linkhere><xhtml:em><print expr="title" opts="magicstop"/></xhtml:em></cite:linkhere>
+-->
+
+  <span class="person_name">Hu, Bin</span>
+    (2022).
+    <em>Multi-modal Open Dataset for Mental-disorder Analysis, Experimental Data 2014-2016.</em>
+    [Data Collection]. Colchester, Essex:  
+    UK Data Service.
+    <!--<a href="{$item.uri()}"><epc:print expr="$item.uri()" /></a>-->
+	
+	<a href="https://dx.doi.org/10.5255/UKDA-SN-854301">10.5255/UKDA-SN-854301</a>
+	
+
+
+
+	</p>
+	
+
+
+	
+	
+	<!--<hr style="border-top: 2px solid #444;  background-color: transparent; height: 0;" /> -->
+	<h3>Data description (abstract)</h3>
+	
+		<p class="rd_text_center" style="text-align: left; margin: 1em auto 0.5em auto; line-height:1.5em"><p class="ep_field_para">According to the World Health Organisation, the number of mental disorder patients, especially depression patients, has grown rapidly and become a leading contributor to the global burden of disease. However, the present common practice of depression diagnosis is based on interviews and clinical scales carried out by doctors, which is not only labour-consuming but also time-consuming. One important reason is due to the lack of physiological indicators for mental disorders. With the rising of tools such as data mining and artificial intelligence, using physiological data to explore new possible physiological indicators of mental disorder and creating new applications for mental disorder diagnosis has become a new research hot topic. However, good quality physiological data for mental disorder patients are hard to acquire. We present a multi-modal open dataset for mental-disorder analysis. The dataset includes EEG and audio data from clinically depressed patients and matching normal controls. All our patients were carefully diagnosed and selected by professional psychiatrists in hospitals. The EEG dataset includes not only data collected using traditional 128-electrodes mounted elastic cap, but also a novel wearable 3-electrode EEG collector for pervasive applications. The 128-electrodes EEG signals of 53 subjects were recorded as both in resting state and under stimulation; the 3-electrode EEG signals of 55 subjects were recorded in resting state; the audio data of 52 subjects were recorded during interviewing, reading, and picture description. We encourage other researchers in the field to use it for testing their methods of mental-disorder analysis.</p></p>
+	
+	<div class="rd_citation_left">
+		<table class="main_meta_table" style="margin-bottom: 1em; margin-top: 1em; width:100%" cellpadding="3">
+			
+			
+				
+					<tr class="main_meta_table_row">
+						<th align="right" class="rd_meta_table_th">Data creators:</th>
+						<td valign="top" class="rd_metatable_td">
+			  
+					<table>
+						<tr>
+						<th>Creator Name</th>
+						<th>Affiliation</th>
+						<th>ORCID (as URL)</th>
+					        </tr>
+				            
+
+						    
+						<tr>
+						<td>Hu Bin</td>
+						<td>Lanzhou University, China</td>
+						<td>
+								<a href="https://orcid.org/0000-0003-3514-5413">
+							        https://orcid.org/0000-0003-3514-5413
+							        </a>
+						    
+					        </td>
+					        </tr>
+					        
+					    
+				            
+				         </table>
+				    
+				</td>
+					</tr>
+				
+			
+				
+			
+				
+					<tr class="main_meta_table_row">
+						<th align="right" class="rd_meta_table_th">Sponsors:</th>
+						<td valign="top" class="rd_metatable_td">
+			  
+					National Key Research and Development Program of China, National Basic Research Program of China (973 Program), National Natural Science Foundation of China, Program of International S&amp;T Cooperation of MOST, Program of Beijing Municipal Science &amp; Technology Commission
+				
+				</td>
+					</tr>
+				
+			
+				
+			
+				
+					<tr class="main_meta_table_row">
+						<th align="right" class="rd_meta_table_th">Topic classification:</th>
+						<td valign="top" class="rd_metatable_td">
+			  
+					Health<br />Psychology
+				
+				</td>
+					</tr>
+				
+			
+				
+					<tr class="main_meta_table_row">
+						<th align="right" class="rd_meta_table_th">Keywords:</th>
+						<td valign="top" class="rd_metatable_td">
+			  
+					DEPRESSION, MULTI-MODAL, MENTAL DISORDERS
+				
+				</td>
+					</tr>
+				
+			
+				
+			
+				
+					<tr class="main_meta_table_row">
+						<th align="right" class="rd_meta_table_th">Alternative title:</th>
+						<td valign="top" class="rd_metatable_td">
+			  
+					Multi-modal Open Dataset for Mental-disorder Analysis (MODMA)
+				
+				</td>
+					</tr>
+				
+			
+				
+			
+				
+			
+				
+			
+				
+					<tr class="main_meta_table_row">
+						<th align="right" class="rd_meta_table_th">Date published:</th>
+						<td valign="top" class="rd_metatable_td">
+			  
+					09 Feb 2022 09:03
+				
+				</td>
+					</tr>
+				
+			
+				
+					<tr class="main_meta_table_row">
+						<th align="right" class="rd_meta_table_th">Last modified:</th>
+						<td valign="top" class="rd_metatable_td">
+			  
+					09 Feb 2022 09:03
+				
+				</td>
+					</tr>
+				
+			
+<!--   <tr class="main_meta_table_row">
+      <th align="right">URI:</th>
+	  <td valign="top"><a href="{$item.uri()}"><epc:print expr="$item.uri()" /></a></td>
+    </tr>-->
+	
+
+	<tr>
+		<td colspan="2" style="padding:0">
+			<div class="ep_summary_box" id="854301_coverage">
+				<div class="ep_summary_box_title">
+					<div class="ep_only_js" id="854301_coverage_colbar" style="display: none">
+						<a class="ep_box_collapse_link" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('854301_coverage_content',true,'854301_coverage');EPJS_toggle('854301_coverage_colbar',true);EPJS_toggle('854301_coverage_bar',false);return false;" href="#"><img alt="-" src="http://reshare.ukdataservice.ac.uk/style/images/minus.png" border="0" />
+						</a> 
+						<a class="ep_box_collapse_text" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('854301_coverage_content',true,'854301_coverage');EPJS_toggle('854301_coverage_colbar',true);EPJS_toggle('854301_coverage_bar',false);return false;" href="#">Coverage and Methodology</a>
+					</div>
+
+					<div class="ep_only_js" id="854301_coverage_bar">
+						<a class="ep_box_collapse_link" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('854301_coverage_content',false,'854301_coverage');EPJS_toggle('854301_coverage_colbar',false);EPJS_toggle('854301_coverage_bar',true);return false;" href="#"><img alt="+" src="http://reshare.ukdataservice.ac.uk/style/images/plus.png" border="0" />
+						</a> 
+						<a class="ep_box_collapse_text" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('854301_coverage_content',false,'854301_coverage');EPJS_toggle('854301_coverage_colbar',false);EPJS_toggle('854301_coverage_bar',true);return false;" href="#">Coverage and Methodology</a>
+					</div>
+
+				</div>
+				<div class="ep_summary_box_body" id="854301_coverage_content" style="display: none">
+					<div id="854301_coverage_content_inner">         
+						<table class="main_meta_table" style="margin-bottom: 1em; margin-top: 1em; width:100%" cellpadding="3">
+
+							
+								
+							
+								
+									<tr class="main_meta_table_row">
+										<th align="right" class="rd_meta_table_th">Collection period:</th>
+										<td valign="top" class="rd_metatable_td">
+											<table border="1" cellspacing="0" cellpadding="2"><tr><th>Date from: </th><th>Date to:</th></tr><tr><td>1 October 2014</td><td>31 October 2016</td></tr></table></td>
+									</tr>
+								
+							
+								
+									<tr class="main_meta_table_row">
+										<th align="right" class="rd_meta_table_th">Geographical area:</th>
+										<td valign="top" class="rd_metatable_td">
+											Gansu Province</td>
+									</tr>
+								
+							
+								
+									<tr class="main_meta_table_row">
+										<th align="right" class="rd_meta_table_th">Country:</th>
+										<td valign="top" class="rd_metatable_td">
+											China</td>
+									</tr>
+								
+							
+								
+							
+								
+									<tr class="main_meta_table_row">
+										<th align="right" class="rd_meta_table_th">Data collection method:</th>
+										<td valign="top" class="rd_metatable_td">
+											<p class="ep_field_para">Participants: (1) full brain 128-electrodes EEG experiment: <br />53 participants include a total of 24 outpatients (13 males and 11 females; 18–55-year-old) diagnosed with depression, as well as 29 healthy controls (20 males and 9 females; 18–55-year-old) were recruited; <br />(2) pervasive 3-electrodes EEG experiment: 55 participants include a total of 26 outpatients (15 males and 11 females; 18–55-year-old) diagnosed with depression, as well as 29 healthy controls (19 males and 10 females; 18–55-year-old) were recruited; <br />(3) Audio experiment: 52 participants include a total of 23 outpatients (16 males and 7 females; 18–55-year-old) diagnosed with depression, as well as 29 healthy controls (20 males and 9 females; 18–55-year-old) were recruited.<br />For more information please see the Methodology file.</p></td>
+									</tr>
+								
+							
+								
+									<tr class="main_meta_table_row">
+										<th align="right" class="rd_meta_table_th">Observation unit:</th>
+										<td valign="top" class="rd_metatable_td">
+											Individual</td>
+									</tr>
+								
+							
+								
+									<tr class="main_meta_table_row">
+										<th align="right" class="rd_meta_table_th">Kind of data:</th>
+										<td valign="top" class="rd_metatable_td">
+											Numeric, Audio, Other</td>
+									</tr>
+								
+							
+								
+									<tr class="main_meta_table_row">
+										<th align="right" class="rd_meta_table_th">Type of data:</th>
+										<td valign="top" class="rd_metatable_td">
+											Experimental data
+</td>
+									</tr>
+								
+							
+								
+									<tr class="main_meta_table_row">
+										<th align="right" class="rd_meta_table_th">Resource language:</th>
+										<td valign="top" class="rd_metatable_td">
+											English</td>
+									</tr>
+								
+							
+						</table>
+					</div>
+				</div>
+			</div>              
+	</td></tr>
+	
+
+	<tr>
+		<td colspan="2" style="padding:0">
+			<div class="ep_summary_box" id="854301_admin">
+				<div class="ep_summary_box_title">
+					<div class="ep_only_js" id="854301_admin_colbar" style="display: none">
+						<a class="ep_box_collapse_link" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('854301_admin_content',true,'854301_admin');EPJS_toggle('854301_admin_colbar',true);EPJS_toggle('854301_admin_bar',false);return false;" href="#"><img alt="-" src="http://reshare.ukdataservice.ac.uk/style/images/minus.png" border="0" />
+						</a> 
+						<a class="ep_box_collapse_text" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('854301_admin_content',true,'854301_admin');EPJS_toggle('854301_admin_colbar',true);EPJS_toggle('854301_admin_bar',false);return false;" href="#">Access and Administration</a>
+					</div>
+
+					<div class="ep_only_js" id="854301_admin_bar">
+						<a class="ep_box_collapse_link" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('854301_admin_content',false,'854301_admin');EPJS_toggle('854301_admin_colbar',false);EPJS_toggle('854301_admin_bar',true);return false;" href="#"><img alt="+" src="http://reshare.ukdataservice.ac.uk/style/images/plus.png" border="0" />
+						</a> 
+						<a class="ep_box_collapse_text" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('854301_admin_content',false,'854301_admin');EPJS_toggle('854301_admin_colbar',false);EPJS_toggle('854301_admin_bar',true);return false;" href="#">Access and Administration</a>
+					</div>
+
+				</div>
+				<div class="ep_summary_box_body" id="854301_admin_content" style="display: none">
+					<div id="854301_admin_content_inner">         
+						<table class="main_meta_table" style="margin-bottom: 1em; margin-top: 1em; width:100%" cellpadding="3">
+
+							
+								
+									<tr class="main_meta_table_row">
+										<th align="right" class="rd_meta_table_th">Data sourcing, processing and preparation:</th>
+										<td valign="top" class="rd_metatable_td">
+			  
+					Written informed consent was obtained from all participants prior to the experiment. Consent forms and study design were approved by the local Ethics Committee for Biomedical Research at the Lanzhou University Second Hospital in accordance to the Code of Ethics of the World Medical Association (Declaration of Helsinki).&#13;
+All the names, addresses, or other information that directly confirms the participants' identity has been removed. However, the dataset does include voice recording data for analyzing cognitive behaviours. All participants were warned about the associated risks prior to the experiments.
+				
+				</td>
+									</tr>
+								
+							
+								
+									<tr class="main_meta_table_row">
+										<th align="right" class="rd_meta_table_th">Rights owners:</th>
+										<td valign="top" class="rd_metatable_td">
+			  
+					<table>
+						<tr>
+						<th>Name</th>
+						<th>Affiliation</th>
+						<th>ORCID (as URL)</th>
+					        </tr>
+						
+						<tr>
+						<td>Hu Bin</td>
+						<td>Lanzhou University, China</td>
+						<td>
+								<a href="https://orcid.org/0000-0003-3514-5413">
+							        https://orcid.org/0000-0003-3514-5413
+							        </a>
+							</td>
+					        </tr>
+					        
+				               </table>
+				
+				</td>
+									</tr>
+								
+							
+								
+									<tr class="main_meta_table_row">
+										<th align="right" class="rd_meta_table_th">Contact:</th>
+										<td valign="top" class="rd_metatable_td">
+			  
+					<table border="1" cellspacing="0" cellpadding="2"><tr><th>Name</th><th>Email</th><th>Affiliation</th><th>ORCID (as URL)</th></tr><tr><td><span class="person_name">Hu, Bin</span></td><td>bh@lzu.edu.cn</td><td>Lanzhou University, China</td><td><a href="https://orcid.org/0000-0003-3514-5413">https://orcid.org/0000-0003-3514-5413</a></td></tr><tr><td><span class="person_name">Cai, Hanshu</span></td><td>hcai@lzu.edu.cn</td><td>Lanzhou University, China</td><td><a href="https://orcid.org/0000-0002-8918-0591">https://orcid.org/0000-0002-8918-0591</a></td></tr></table>
+				
+				</td>
+									</tr>
+								
+							
+								
+							
+								
+									<tr class="main_meta_table_row">
+										<th align="right" class="rd_meta_table_th">Notes on access:</th>
+										<td valign="top" class="rd_metatable_td">
+			  
+					<p class="ep_field_para">The Data Collection is available to any user without the requirement for registration for download/access.</p>
+				
+				</td>
+									</tr>
+								
+							
+								
+							
+								
+									<tr class="main_meta_table_row">
+										<th align="right" class="rd_meta_table_th">Publisher:</th>
+										<td valign="top" class="rd_metatable_td">
+			  
+					UK Data Service
+				
+				</td>
+									</tr>
+								
+							
+								
+							
+								
+									<tr class="main_meta_table_row">
+										<th align="right" class="rd_meta_table_th">Last modified:</th>
+										<td valign="top" class="rd_metatable_td">
+			  
+					09 Feb 2022 09:03
+				
+				</td>
+									</tr>
+								
+							
+						</table>
+					</div>
+				</div>
+			</div>              
+		</td>
+	</tr>
+<!--
+<tr>
+    <epc:if test="!$flags{preview}">
+      <td colspan="2">
+	  <h3>Actions (login required)</h3>
+		<table class="ep_summary_page_actions">
+		<epc:foreach expr="action_list('eprint_summary_page_actions',$item)" iterator="action">
+		<tr>
+		    <td><epc:print expr="$action.action_icon()" /></td>
+		    <td><epc:print expr="$action.action_title()" /></td>
+		</tr>
+		</epc:foreach>
+	</table>
+    </td>
+  </epc:if>
+
+</tr>
+-->  
+</table>
+</div>	
+
+<div class="rd_citation_right"><h3 class="file_list_heading solid-border"> Available Files</h3><h4 class="file_list_subheading">Data</h4><table border="0" cellpadding="2" width="100%"><tr><td class="files_box"><div class="ep_summary_box" id="_doc_3735138_file_meta"><div class="ep_summary_box_title"><div class="ep_no_js"><a href="https://reshare.ukdataservice.ac.uk/854301/4/854301_EEG_128Channels_Resting_Lanzhou_2015.zip">854301_EEG_128Channels_Resting_Lanzhou_2015.zip</a></div><div class="ep_only_js" id="_doc_3735138_file_meta_colbar" style="display: none"><a class="ep_box_collapse_link" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('_doc_3735138_file_meta_content',true,'_doc_3735138_file_meta');EPJS_toggle('_doc_3735138_file_meta_colbar',true);EPJS_toggle('_doc_3735138_file_meta_bar',false);return false" href="#"><img alt="-" src="/style/images/minus.png" border="0" /> <a href="https://reshare.ukdataservice.ac.uk/854301/4/854301_EEG_128Channels_Resting_Lanzhou_2015.zip">854301_EEG_128Channels_Resting_Lanzhou_2015.zip</a></a></div><div class="ep_only_js" id="_doc_3735138_file_meta_bar"><a class="ep_box_collapse_link" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('_doc_3735138_file_meta_content',false,'_doc_3735138_file_meta');EPJS_toggle('_doc_3735138_file_meta_colbar',false);EPJS_toggle('_doc_3735138_file_meta_bar',true);return false" href="#"><img alt="+" src="/style/images/plus.png" border="0" /> <a href="https://reshare.ukdataservice.ac.uk/854301/4/854301_EEG_128Channels_Resting_Lanzhou_2015.zip">854301_EEG_128Channels_Resting_Lanzhou_2015.zip</a></a></div></div><div class="ep_summary_box_body" id="_doc_3735138_file_meta_content" style="display: none"><div id="_doc_3735138_file_meta_content_inner"><div id="_doc_3735138_filemetadiv" class="rd_full"><table id="filemeta" border="0" cellpadding="2" width="100%"><tr><th valign="top" class="ep_row">Accessible to:</th><td valign="top" class="ep_row">Anyone (open access data)</td></tr><tr><th valign="top" class="ep_row">File or bundle content:</th><td valign="top" class="ep_row">Data</td></tr><tr><th valign="top" class="ep_row">File format:</th><td valign="top" class="ep_row">application/zip</td></tr><tr><th valign="top" class="ep_row">License:</th><td valign="top" class="ep_row"><a href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img src="/reshare_template/images/license_images/by-4.0-88x31.png" alt="Creative Commons: Attribution 4.0 International (CC BY 4.0)" /></a></td></tr><tr><th valign="top" class="ep_row">File size:</th><td valign="top" class="ep_row">2GB</td></tr></table></div></div></div></div></td></tr><tr><td class="files_box"><div class="ep_summary_box" id="_doc_3735137_file_meta"><div class="ep_summary_box_title"><div class="ep_no_js"><a href="https://reshare.ukdataservice.ac.uk/854301/3/854301_EEG_128Channels_ERP_Lanzhou_2015.zip">854301_EEG_128Channels_ERP_Lanzhou_2015.zip</a></div><div class="ep_only_js" id="_doc_3735137_file_meta_colbar" style="display: none"><a class="ep_box_collapse_link" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('_doc_3735137_file_meta_content',true,'_doc_3735137_file_meta');EPJS_toggle('_doc_3735137_file_meta_colbar',true);EPJS_toggle('_doc_3735137_file_meta_bar',false);return false" href="#"><img alt="-" src="/style/images/minus.png" border="0" /> <a href="https://reshare.ukdataservice.ac.uk/854301/3/854301_EEG_128Channels_ERP_Lanzhou_2015.zip">854301_EEG_128Channels_ERP_Lanzhou_2015.zip</a></a></div><div class="ep_only_js" id="_doc_3735137_file_meta_bar"><a class="ep_box_collapse_link" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('_doc_3735137_file_meta_content',false,'_doc_3735137_file_meta');EPJS_toggle('_doc_3735137_file_meta_colbar',false);EPJS_toggle('_doc_3735137_file_meta_bar',true);return false" href="#"><img alt="+" src="/style/images/plus.png" border="0" /> <a href="https://reshare.ukdataservice.ac.uk/854301/3/854301_EEG_128Channels_ERP_Lanzhou_2015.zip">854301_EEG_128Channels_ERP_Lanzhou_2015.zip</a></a></div></div><div class="ep_summary_box_body" id="_doc_3735137_file_meta_content" style="display: none"><div id="_doc_3735137_file_meta_content_inner"><div id="_doc_3735137_filemetadiv" class="rd_full"><table id="filemeta" border="0" cellpadding="2" width="100%"><tr><th valign="top" class="ep_row">Accessible to:</th><td valign="top" class="ep_row">Anyone (open access data)</td></tr><tr><th valign="top" class="ep_row">File or bundle content:</th><td valign="top" class="ep_row">Data</td></tr><tr><th valign="top" class="ep_row">File format:</th><td valign="top" class="ep_row">application/zip</td></tr><tr><th valign="top" class="ep_row">License:</th><td valign="top" class="ep_row"><a href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img src="/reshare_template/images/license_images/by-4.0-88x31.png" alt="Creative Commons: Attribution 4.0 International (CC BY 4.0)" /></a></td></tr><tr><th valign="top" class="ep_row">File size:</th><td valign="top" class="ep_row">5GB</td></tr></table></div></div></div></div></td></tr><tr><td class="files_box"><div class="ep_summary_box" id="_doc_3735136_file_meta"><div class="ep_summary_box_title"><div class="ep_no_js"><a href="https://reshare.ukdataservice.ac.uk/854301/2/854301_EEG_3Channels_Resting_Lanzhou_2015.zip">854301_EEG_3Channels_Resting_Lanzhou_2015.zip</a></div><div class="ep_only_js" id="_doc_3735136_file_meta_colbar" style="display: none"><a class="ep_box_collapse_link" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('_doc_3735136_file_meta_content',true,'_doc_3735136_file_meta');EPJS_toggle('_doc_3735136_file_meta_colbar',true);EPJS_toggle('_doc_3735136_file_meta_bar',false);return false" href="#"><img alt="-" src="/style/images/minus.png" border="0" /> <a href="https://reshare.ukdataservice.ac.uk/854301/2/854301_EEG_3Channels_Resting_Lanzhou_2015.zip">854301_EEG_3Channels_Resting_Lanzhou_2015.zip</a></a></div><div class="ep_only_js" id="_doc_3735136_file_meta_bar"><a class="ep_box_collapse_link" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('_doc_3735136_file_meta_content',false,'_doc_3735136_file_meta');EPJS_toggle('_doc_3735136_file_meta_colbar',false);EPJS_toggle('_doc_3735136_file_meta_bar',true);return false" href="#"><img alt="+" src="/style/images/plus.png" border="0" /> <a href="https://reshare.ukdataservice.ac.uk/854301/2/854301_EEG_3Channels_Resting_Lanzhou_2015.zip">854301_EEG_3Channels_Resting_Lanzhou_2015.zip</a></a></div></div><div class="ep_summary_box_body" id="_doc_3735136_file_meta_content" style="display: none"><div id="_doc_3735136_file_meta_content_inner"><div id="_doc_3735136_filemetadiv" class="rd_full"><table id="filemeta" border="0" cellpadding="2" width="100%"><tr><th valign="top" class="ep_row">Accessible to:</th><td valign="top" class="ep_row">Anyone (open access data)</td></tr><tr><th valign="top" class="ep_row">File or bundle content:</th><td valign="top" class="ep_row">Data</td></tr><tr><th valign="top" class="ep_row">File format:</th><td valign="top" class="ep_row">application/zip</td></tr><tr><th valign="top" class="ep_row">License:</th><td valign="top" class="ep_row"><a href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img src="/reshare_template/images/license_images/by-4.0-88x31.png" alt="Creative Commons: Attribution 4.0 International (CC BY 4.0)" /></a></td></tr><tr><th valign="top" class="ep_row">File size:</th><td valign="top" class="ep_row">147MB</td></tr></table></div></div></div></div></td></tr><tr><td class="files_box"><div class="ep_summary_box" id="_doc_3735135_file_meta"><div class="ep_summary_box_title"><div class="ep_no_js"><a href="https://reshare.ukdataservice.ac.uk/854301/1/854301_Audio_Lanzhou_2015.zip">854301_Audio_Lanzhou_2015.zip</a></div><div class="ep_only_js" id="_doc_3735135_file_meta_colbar" style="display: none"><a class="ep_box_collapse_link" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('_doc_3735135_file_meta_content',true,'_doc_3735135_file_meta');EPJS_toggle('_doc_3735135_file_meta_colbar',true);EPJS_toggle('_doc_3735135_file_meta_bar',false);return false" href="#"><img alt="-" src="/style/images/minus.png" border="0" /> <a href="https://reshare.ukdataservice.ac.uk/854301/1/854301_Audio_Lanzhou_2015.zip">854301_Audio_Lanzhou_2015.zip</a></a></div><div class="ep_only_js" id="_doc_3735135_file_meta_bar"><a class="ep_box_collapse_link" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('_doc_3735135_file_meta_content',false,'_doc_3735135_file_meta');EPJS_toggle('_doc_3735135_file_meta_colbar',false);EPJS_toggle('_doc_3735135_file_meta_bar',true);return false" href="#"><img alt="+" src="/style/images/plus.png" border="0" /> <a href="https://reshare.ukdataservice.ac.uk/854301/1/854301_Audio_Lanzhou_2015.zip">854301_Audio_Lanzhou_2015.zip</a></a></div></div><div class="ep_summary_box_body" id="_doc_3735135_file_meta_content" style="display: none"><div id="_doc_3735135_file_meta_content_inner"><div id="_doc_3735135_filemetadiv" class="rd_full"><table id="filemeta" border="0" cellpadding="2" width="100%"><tr><th valign="top" class="ep_row">Accessible to:</th><td valign="top" class="ep_row">Registered users only (safeguarded data)</td></tr><tr><th valign="top" class="ep_row">File or bundle content:</th><td valign="top" class="ep_row">Data</td></tr><tr><th valign="top" class="ep_row">File format:</th><td valign="top" class="ep_row">application/zip</td></tr><tr><th valign="top" class="ep_row">License:</th><td valign="top" class="ep_row"><a href="https://ukdataservice.ac.uk//app/uploads/cd137-enduserlicence.pdf" target="_blank">UK Data Service End User Licence</a></td></tr><tr><th valign="top" class="ep_row">File size:</th><td valign="top" class="ep_row">2GB</td></tr></table></div></div></div></div></td></tr><tr><td class="files_box"><div class="ep_summary_box" id="_doc_3744895_file_meta"><div class="ep_summary_box_title"><div class="ep_no_js"><a href="https://reshare.ukdataservice.ac.uk/854301/38/Behavioral_Data.zip">Behavioral_Data.zip</a></div><div class="ep_only_js" id="_doc_3744895_file_meta_colbar" style="display: none"><a class="ep_box_collapse_link" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('_doc_3744895_file_meta_content',true,'_doc_3744895_file_meta');EPJS_toggle('_doc_3744895_file_meta_colbar',true);EPJS_toggle('_doc_3744895_file_meta_bar',false);return false" href="#"><img alt="-" src="/style/images/minus.png" border="0" /> <a href="https://reshare.ukdataservice.ac.uk/854301/38/Behavioral_Data.zip">Behavioral_Data.zip</a></a></div><div class="ep_only_js" id="_doc_3744895_file_meta_bar"><a class="ep_box_collapse_link" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('_doc_3744895_file_meta_content',false,'_doc_3744895_file_meta');EPJS_toggle('_doc_3744895_file_meta_colbar',false);EPJS_toggle('_doc_3744895_file_meta_bar',true);return false" href="#"><img alt="+" src="/style/images/plus.png" border="0" /> <a href="https://reshare.ukdataservice.ac.uk/854301/38/Behavioral_Data.zip">Behavioral_Data.zip</a></a></div></div><div class="ep_summary_box_body" id="_doc_3744895_file_meta_content" style="display: none"><div id="_doc_3744895_file_meta_content_inner"><div id="_doc_3744895_filemetadiv" class="rd_full"><table id="filemeta" border="0" cellpadding="2" width="100%"><tr><th valign="top" class="ep_row">Accessible to:</th><td valign="top" class="ep_row">Registered users only (safeguarded data)</td></tr><tr><th valign="top" class="ep_row">File or bundle content:</th><td valign="top" class="ep_row">Data</td></tr><tr><th valign="top" class="ep_row">File format:</th><td valign="top" class="ep_row">application/zip</td></tr><tr><th valign="top" class="ep_row">License:</th><td valign="top" class="ep_row"><a href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img src="/reshare_template/images/license_images/by-4.0-88x31.png" alt="Creative Commons: Attribution 4.0 International (CC BY 4.0)" /></a></td></tr><tr><th valign="top" class="ep_row">File size:</th><td valign="top" class="ep_row">1MB</td></tr></table></div></div></div></div></td></tr><tr><td class="files_box"><div class="ep_summary_box" id="_doc_3744903_file_meta"><div class="ep_summary_box_title"><div class="ep_no_js"><a href="https://reshare.ukdataservice.ac.uk/854301/46/MODMA_EEG_BIDS_format.zip">MODMA_EEG_BIDS_format.zip</a></div><div class="ep_only_js" id="_doc_3744903_file_meta_colbar" style="display: none"><a class="ep_box_collapse_link" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('_doc_3744903_file_meta_content',true,'_doc_3744903_file_meta');EPJS_toggle('_doc_3744903_file_meta_colbar',true);EPJS_toggle('_doc_3744903_file_meta_bar',false);return false" href="#"><img alt="-" src="/style/images/minus.png" border="0" /> <a href="https://reshare.ukdataservice.ac.uk/854301/46/MODMA_EEG_BIDS_format.zip">MODMA_EEG_BIDS_format.zip</a></a></div><div class="ep_only_js" id="_doc_3744903_file_meta_bar"><a class="ep_box_collapse_link" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('_doc_3744903_file_meta_content',false,'_doc_3744903_file_meta');EPJS_toggle('_doc_3744903_file_meta_colbar',false);EPJS_toggle('_doc_3744903_file_meta_bar',true);return false" href="#"><img alt="+" src="/style/images/plus.png" border="0" /> <a href="https://reshare.ukdataservice.ac.uk/854301/46/MODMA_EEG_BIDS_format.zip">MODMA_EEG_BIDS_format.zip</a></a></div></div><div class="ep_summary_box_body" id="_doc_3744903_file_meta_content" style="display: none"><div id="_doc_3744903_file_meta_content_inner"><div id="_doc_3744903_filemetadiv" class="rd_full"><table id="filemeta" border="0" cellpadding="2" width="100%"><tr><th valign="top" class="ep_row">Accessible to:</th><td valign="top" class="ep_row">Anyone (open access data)</td></tr><tr><th valign="top" class="ep_row">File or bundle content:</th><td valign="top" class="ep_row">Data</td></tr><tr><th valign="top" class="ep_row">File or bundle description:</th><td valign="top" class="ep_row">EEG Data in BIDS format</td></tr><tr><th valign="top" class="ep_row">File format:</th><td valign="top" class="ep_row">application/zip</td></tr><tr><th valign="top" class="ep_row">License:</th><td valign="top" class="ep_row"><a href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img src="/reshare_template/images/license_images/by-4.0-88x31.png" alt="Creative Commons: Attribution 4.0 International (CC BY 4.0)" /></a></td></tr><tr><th valign="top" class="ep_row">File size:</th><td valign="top" class="ep_row">362MB</td></tr></table></div></div></div></div></td></tr><tr><td class="files_box"><div class="ep_summary_box" id="_doc_3744906_file_meta"><div class="ep_summary_box_title"><div class="ep_no_js"><a href="https://reshare.ukdataservice.ac.uk/854301/49/MODMA_EEG_BIDS_format.z01">MODMA_EEG_BIDS_format.z01</a></div><div class="ep_only_js" id="_doc_3744906_file_meta_colbar" style="display: none"><a class="ep_box_collapse_link" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('_doc_3744906_file_meta_content',true,'_doc_3744906_file_meta');EPJS_toggle('_doc_3744906_file_meta_colbar',true);EPJS_toggle('_doc_3744906_file_meta_bar',false);return false" href="#"><img alt="-" src="/style/images/minus.png" border="0" /> <a href="https://reshare.ukdataservice.ac.uk/854301/49/MODMA_EEG_BIDS_format.z01">MODMA_EEG_BIDS_format.z01</a></a></div><div class="ep_only_js" id="_doc_3744906_file_meta_bar"><a class="ep_box_collapse_link" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('_doc_3744906_file_meta_content',false,'_doc_3744906_file_meta');EPJS_toggle('_doc_3744906_file_meta_colbar',false);EPJS_toggle('_doc_3744906_file_meta_bar',true);return false" href="#"><img alt="+" src="/style/images/plus.png" border="0" /> <a href="https://reshare.ukdataservice.ac.uk/854301/49/MODMA_EEG_BIDS_format.z01">MODMA_EEG_BIDS_format.z01</a></a></div></div><div class="ep_summary_box_body" id="_doc_3744906_file_meta_content" style="display: none"><div id="_doc_3744906_file_meta_content_inner"><div id="_doc_3744906_filemetadiv" class="rd_full"><table id="filemeta" border="0" cellpadding="2" width="100%"><tr><th valign="top" class="ep_row">Accessible to:</th><td valign="top" class="ep_row">Anyone (open access data)</td></tr><tr><th valign="top" class="ep_row">File or bundle content:</th><td valign="top" class="ep_row">Data</td></tr><tr><th valign="top" class="ep_row">File or bundle description:</th><td valign="top" class="ep_row">EEG Data in BIDS format</td></tr><tr><th valign="top" class="ep_row">File format:</th><td valign="top" class="ep_row">application/zip</td></tr><tr><th valign="top" class="ep_row">License:</th><td valign="top" class="ep_row"><a href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img src="/reshare_template/images/license_images/by-4.0-88x31.png" alt="Creative Commons: Attribution 4.0 International (CC BY 4.0)" /></a></td></tr><tr><th valign="top" class="ep_row">File size:</th><td valign="top" class="ep_row">1GB</td></tr></table></div></div></div></div></td></tr><tr><td class="files_box"><div class="ep_summary_box" id="_doc_3744896_file_meta"><div class="ep_summary_box_title"><div class="ep_no_js"><a href="https://reshare.ukdataservice.ac.uk/854301/39/MODMA_EEG_BIDS_format.z02">MODMA_EEG_BIDS_format.z02</a></div><div class="ep_only_js" id="_doc_3744896_file_meta_colbar" style="display: none"><a class="ep_box_collapse_link" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('_doc_3744896_file_meta_content',true,'_doc_3744896_file_meta');EPJS_toggle('_doc_3744896_file_meta_colbar',true);EPJS_toggle('_doc_3744896_file_meta_bar',false);return false" href="#"><img alt="-" src="/style/images/minus.png" border="0" /> <a href="https://reshare.ukdataservice.ac.uk/854301/39/MODMA_EEG_BIDS_format.z02">MODMA_EEG_BIDS_format.z02</a></a></div><div class="ep_only_js" id="_doc_3744896_file_meta_bar"><a class="ep_box_collapse_link" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('_doc_3744896_file_meta_content',false,'_doc_3744896_file_meta');EPJS_toggle('_doc_3744896_file_meta_colbar',false);EPJS_toggle('_doc_3744896_file_meta_bar',true);return false" href="#"><img alt="+" src="/style/images/plus.png" border="0" /> <a href="https://reshare.ukdataservice.ac.uk/854301/39/MODMA_EEG_BIDS_format.z02">MODMA_EEG_BIDS_format.z02</a></a></div></div><div class="ep_summary_box_body" id="_doc_3744896_file_meta_content" style="display: none"><div id="_doc_3744896_file_meta_content_inner"><div id="_doc_3744896_filemetadiv" class="rd_full"><table id="filemeta" border="0" cellpadding="2" width="100%"><tr><th valign="top" class="ep_row">Accessible to:</th><td valign="top" class="ep_row">Anyone (open access data)</td></tr><tr><th valign="top" class="ep_row">File or bundle content:</th><td valign="top" class="ep_row">Data</td></tr><tr><th valign="top" class="ep_row">File or bundle description:</th><td valign="top" class="ep_row">EEG Data in BIDS format</td></tr><tr><th valign="top" class="ep_row">File format:</th><td valign="top" class="ep_row">application/octet-stream</td></tr><tr><th valign="top" class="ep_row">License:</th><td valign="top" class="ep_row"><a href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img src="/reshare_template/images/license_images/by-4.0-88x31.png" alt="Creative Commons: Attribution 4.0 International (CC BY 4.0)" /></a></td></tr><tr><th valign="top" class="ep_row">File size:</th><td valign="top" class="ep_row">1GB</td></tr></table></div></div></div></div></td></tr><tr><td class="files_box"><div class="ep_summary_box" id="_doc_3744897_file_meta"><div class="ep_summary_box_title"><div class="ep_no_js"><a href="https://reshare.ukdataservice.ac.uk/854301/40/MODMA_EEG_BIDS_format.z03">MODMA_EEG_BIDS_format.z03</a></div><div class="ep_only_js" id="_doc_3744897_file_meta_colbar" style="display: none"><a class="ep_box_collapse_link" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('_doc_3744897_file_meta_content',true,'_doc_3744897_file_meta');EPJS_toggle('_doc_3744897_file_meta_colbar',true);EPJS_toggle('_doc_3744897_file_meta_bar',false);return false" href="#"><img alt="-" src="/style/images/minus.png" border="0" /> <a href="https://reshare.ukdataservice.ac.uk/854301/40/MODMA_EEG_BIDS_format.z03">MODMA_EEG_BIDS_format.z03</a></a></div><div class="ep_only_js" id="_doc_3744897_file_meta_bar"><a class="ep_box_collapse_link" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('_doc_3744897_file_meta_content',false,'_doc_3744897_file_meta');EPJS_toggle('_doc_3744897_file_meta_colbar',false);EPJS_toggle('_doc_3744897_file_meta_bar',true);return false" href="#"><img alt="+" src="/style/images/plus.png" border="0" /> <a href="https://reshare.ukdataservice.ac.uk/854301/40/MODMA_EEG_BIDS_format.z03">MODMA_EEG_BIDS_format.z03</a></a></div></div><div class="ep_summary_box_body" id="_doc_3744897_file_meta_content" style="display: none"><div id="_doc_3744897_file_meta_content_inner"><div id="_doc_3744897_filemetadiv" class="rd_full"><table id="filemeta" border="0" cellpadding="2" width="100%"><tr><th valign="top" class="ep_row">Accessible to:</th><td valign="top" class="ep_row">Anyone (open access data)</td></tr><tr><th valign="top" class="ep_row">File or bundle content:</th><td valign="top" class="ep_row">Data</td></tr><tr><th valign="top" class="ep_row">File or bundle description:</th><td valign="top" class="ep_row">EEG Data in BIDS format</td></tr><tr><th valign="top" class="ep_row">File format:</th><td valign="top" class="ep_row">application/octet-stream</td></tr><tr><th valign="top" class="ep_row">License:</th><td valign="top" class="ep_row"><a href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img src="/reshare_template/images/license_images/by-4.0-88x31.png" alt="Creative Commons: Attribution 4.0 International (CC BY 4.0)" /></a></td></tr><tr><th valign="top" class="ep_row">File size:</th><td valign="top" class="ep_row">1GB</td></tr></table></div></div></div></div></td></tr><tr><td class="files_box"><div class="ep_summary_box" id="_doc_3744899_file_meta"><div class="ep_summary_box_title"><div class="ep_no_js"><a href="https://reshare.ukdataservice.ac.uk/854301/42/MODMA_EEG_BIDS_format.z04">MODMA_EEG_BIDS_format.z04</a></div><div class="ep_only_js" id="_doc_3744899_file_meta_colbar" style="display: none"><a class="ep_box_collapse_link" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('_doc_3744899_file_meta_content',true,'_doc_3744899_file_meta');EPJS_toggle('_doc_3744899_file_meta_colbar',true);EPJS_toggle('_doc_3744899_file_meta_bar',false);return false" href="#"><img alt="-" src="/style/images/minus.png" border="0" /> <a href="https://reshare.ukdataservice.ac.uk/854301/42/MODMA_EEG_BIDS_format.z04">MODMA_EEG_BIDS_format.z04</a></a></div><div class="ep_only_js" id="_doc_3744899_file_meta_bar"><a class="ep_box_collapse_link" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('_doc_3744899_file_meta_content',false,'_doc_3744899_file_meta');EPJS_toggle('_doc_3744899_file_meta_colbar',false);EPJS_toggle('_doc_3744899_file_meta_bar',true);return false" href="#"><img alt="+" src="/style/images/plus.png" border="0" /> <a href="https://reshare.ukdataservice.ac.uk/854301/42/MODMA_EEG_BIDS_format.z04">MODMA_EEG_BIDS_format.z04</a></a></div></div><div class="ep_summary_box_body" id="_doc_3744899_file_meta_content" style="display: none"><div id="_doc_3744899_file_meta_content_inner"><div id="_doc_3744899_filemetadiv" class="rd_full"><table id="filemeta" border="0" cellpadding="2" width="100%"><tr><th valign="top" class="ep_row">Accessible to:</th><td valign="top" class="ep_row">Anyone (open access data)</td></tr><tr><th valign="top" class="ep_row">File or bundle content:</th><td valign="top" class="ep_row">Data</td></tr><tr><th valign="top" class="ep_row">File or bundle description:</th><td valign="top" class="ep_row">EEG Data in BIDS format</td></tr><tr><th valign="top" class="ep_row">File format:</th><td valign="top" class="ep_row">application/octet-stream</td></tr><tr><th valign="top" class="ep_row">License:</th><td valign="top" class="ep_row"><a href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img src="/reshare_template/images/license_images/by-4.0-88x31.png" alt="Creative Commons: Attribution 4.0 International (CC BY 4.0)" /></a></td></tr><tr><th valign="top" class="ep_row">File size:</th><td valign="top" class="ep_row">1GB</td></tr></table></div></div></div></div></td></tr><tr><td class="files_box"><div class="ep_summary_box" id="_doc_3744898_file_meta"><div class="ep_summary_box_title"><div class="ep_no_js"><a href="https://reshare.ukdataservice.ac.uk/854301/41/MODMA_EEG_BIDS_format.z05">MODMA_EEG_BIDS_format.z05</a></div><div class="ep_only_js" id="_doc_3744898_file_meta_colbar" style="display: none"><a class="ep_box_collapse_link" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('_doc_3744898_file_meta_content',true,'_doc_3744898_file_meta');EPJS_toggle('_doc_3744898_file_meta_colbar',true);EPJS_toggle('_doc_3744898_file_meta_bar',false);return false" href="#"><img alt="-" src="/style/images/minus.png" border="0" /> <a href="https://reshare.ukdataservice.ac.uk/854301/41/MODMA_EEG_BIDS_format.z05">MODMA_EEG_BIDS_format.z05</a></a></div><div class="ep_only_js" id="_doc_3744898_file_meta_bar"><a class="ep_box_collapse_link" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('_doc_3744898_file_meta_content',false,'_doc_3744898_file_meta');EPJS_toggle('_doc_3744898_file_meta_colbar',false);EPJS_toggle('_doc_3744898_file_meta_bar',true);return false" href="#"><img alt="+" src="/style/images/plus.png" border="0" /> <a href="https://reshare.ukdataservice.ac.uk/854301/41/MODMA_EEG_BIDS_format.z05">MODMA_EEG_BIDS_format.z05</a></a></div></div><div class="ep_summary_box_body" id="_doc_3744898_file_meta_content" style="display: none"><div id="_doc_3744898_file_meta_content_inner"><div id="_doc_3744898_filemetadiv" class="rd_full"><table id="filemeta" border="0" cellpadding="2" width="100%"><tr><th valign="top" class="ep_row">Accessible to:</th><td valign="top" class="ep_row">Anyone (open access data)</td></tr><tr><th valign="top" class="ep_row">File or bundle content:</th><td valign="top" class="ep_row">Data</td></tr><tr><th valign="top" class="ep_row">File or bundle description:</th><td valign="top" class="ep_row">EEG Data in BIDS format</td></tr><tr><th valign="top" class="ep_row">File format:</th><td valign="top" class="ep_row">application/octet-stream</td></tr><tr><th valign="top" class="ep_row">License:</th><td valign="top" class="ep_row"><a href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img src="/reshare_template/images/license_images/by-4.0-88x31.png" alt="Creative Commons: Attribution 4.0 International (CC BY 4.0)" /></a></td></tr><tr><th valign="top" class="ep_row">File size:</th><td valign="top" class="ep_row">1GB</td></tr></table></div></div></div></div></td></tr><tr><td class="files_box"><div class="ep_summary_box" id="_doc_3744900_file_meta"><div class="ep_summary_box_title"><div class="ep_no_js"><a href="https://reshare.ukdataservice.ac.uk/854301/43/MODMA_EEG_BIDS_format.z06">MODMA_EEG_BIDS_format.z06</a></div><div class="ep_only_js" id="_doc_3744900_file_meta_colbar" style="display: none"><a class="ep_box_collapse_link" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('_doc_3744900_file_meta_content',true,'_doc_3744900_file_meta');EPJS_toggle('_doc_3744900_file_meta_colbar',true);EPJS_toggle('_doc_3744900_file_meta_bar',false);return false" href="#"><img alt="-" src="/style/images/minus.png" border="0" /> <a href="https://reshare.ukdataservice.ac.uk/854301/43/MODMA_EEG_BIDS_format.z06">MODMA_EEG_BIDS_format.z06</a></a></div><div class="ep_only_js" id="_doc_3744900_file_meta_bar"><a class="ep_box_collapse_link" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('_doc_3744900_file_meta_content',false,'_doc_3744900_file_meta');EPJS_toggle('_doc_3744900_file_meta_colbar',false);EPJS_toggle('_doc_3744900_file_meta_bar',true);return false" href="#"><img alt="+" src="/style/images/plus.png" border="0" /> <a href="https://reshare.ukdataservice.ac.uk/854301/43/MODMA_EEG_BIDS_format.z06">MODMA_EEG_BIDS_format.z06</a></a></div></div><div class="ep_summary_box_body" id="_doc_3744900_file_meta_content" style="display: none"><div id="_doc_3744900_file_meta_content_inner"><div id="_doc_3744900_filemetadiv" class="rd_full"><table id="filemeta" border="0" cellpadding="2" width="100%"><tr><th valign="top" class="ep_row">Accessible to:</th><td valign="top" class="ep_row">Anyone (open access data)</td></tr><tr><th valign="top" class="ep_row">File or bundle content:</th><td valign="top" class="ep_row">Data</td></tr><tr><th valign="top" class="ep_row">File or bundle description:</th><td valign="top" class="ep_row">EEG Data in BIDS format</td></tr><tr><th valign="top" class="ep_row">File format:</th><td valign="top" class="ep_row">application/octet-stream</td></tr><tr><th valign="top" class="ep_row">License:</th><td valign="top" class="ep_row"><a href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img src="/reshare_template/images/license_images/by-4.0-88x31.png" alt="Creative Commons: Attribution 4.0 International (CC BY 4.0)" /></a></td></tr><tr><th valign="top" class="ep_row">File size:</th><td valign="top" class="ep_row">1GB</td></tr></table></div></div></div></div></td></tr><tr><td class="files_box"><div class="ep_summary_box" id="_doc_3744904_file_meta"><div class="ep_summary_box_title"><div class="ep_no_js"><a href="https://reshare.ukdataservice.ac.uk/854301/47/MODMA_EEG_BIDS_format.z07">MODMA_EEG_BIDS_format.z07</a></div><div class="ep_only_js" id="_doc_3744904_file_meta_colbar" style="display: none"><a class="ep_box_collapse_link" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('_doc_3744904_file_meta_content',true,'_doc_3744904_file_meta');EPJS_toggle('_doc_3744904_file_meta_colbar',true);EPJS_toggle('_doc_3744904_file_meta_bar',false);return false" href="#"><img alt="-" src="/style/images/minus.png" border="0" /> <a href="https://reshare.ukdataservice.ac.uk/854301/47/MODMA_EEG_BIDS_format.z07">MODMA_EEG_BIDS_format.z07</a></a></div><div class="ep_only_js" id="_doc_3744904_file_meta_bar"><a class="ep_box_collapse_link" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('_doc_3744904_file_meta_content',false,'_doc_3744904_file_meta');EPJS_toggle('_doc_3744904_file_meta_colbar',false);EPJS_toggle('_doc_3744904_file_meta_bar',true);return false" href="#"><img alt="+" src="/style/images/plus.png" border="0" /> <a href="https://reshare.ukdataservice.ac.uk/854301/47/MODMA_EEG_BIDS_format.z07">MODMA_EEG_BIDS_format.z07</a></a></div></div><div class="ep_summary_box_body" id="_doc_3744904_file_meta_content" style="display: none"><div id="_doc_3744904_file_meta_content_inner"><div id="_doc_3744904_filemetadiv" class="rd_full"><table id="filemeta" border="0" cellpadding="2" width="100%"><tr><th valign="top" class="ep_row">Accessible to:</th><td valign="top" class="ep_row">Anyone (open access data)</td></tr><tr><th valign="top" class="ep_row">File or bundle content:</th><td valign="top" class="ep_row">Data</td></tr><tr><th valign="top" class="ep_row">File or bundle description:</th><td valign="top" class="ep_row">EEG Data in BIDS format</td></tr><tr><th valign="top" class="ep_row">File format:</th><td valign="top" class="ep_row">application/x-dosexec</td></tr><tr><th valign="top" class="ep_row">License:</th><td valign="top" class="ep_row"><a href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img src="/reshare_template/images/license_images/by-4.0-88x31.png" alt="Creative Commons: Attribution 4.0 International (CC BY 4.0)" /></a></td></tr><tr><th valign="top" class="ep_row">File size:</th><td valign="top" class="ep_row">1GB</td></tr></table></div></div></div></div></td></tr><tr><td class="files_box"><div class="ep_summary_box" id="_doc_3744901_file_meta"><div class="ep_summary_box_title"><div class="ep_no_js"><a href="https://reshare.ukdataservice.ac.uk/854301/44/MODMA_EEG_BIDS_format.z08">MODMA_EEG_BIDS_format.z08</a></div><div class="ep_only_js" id="_doc_3744901_file_meta_colbar" style="display: none"><a class="ep_box_collapse_link" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('_doc_3744901_file_meta_content',true,'_doc_3744901_file_meta');EPJS_toggle('_doc_3744901_file_meta_colbar',true);EPJS_toggle('_doc_3744901_file_meta_bar',false);return false" href="#"><img alt="-" src="/style/images/minus.png" border="0" /> <a href="https://reshare.ukdataservice.ac.uk/854301/44/MODMA_EEG_BIDS_format.z08">MODMA_EEG_BIDS_format.z08</a></a></div><div class="ep_only_js" id="_doc_3744901_file_meta_bar"><a class="ep_box_collapse_link" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('_doc_3744901_file_meta_content',false,'_doc_3744901_file_meta');EPJS_toggle('_doc_3744901_file_meta_colbar',false);EPJS_toggle('_doc_3744901_file_meta_bar',true);return false" href="#"><img alt="+" src="/style/images/plus.png" border="0" /> <a href="https://reshare.ukdataservice.ac.uk/854301/44/MODMA_EEG_BIDS_format.z08">MODMA_EEG_BIDS_format.z08</a></a></div></div><div class="ep_summary_box_body" id="_doc_3744901_file_meta_content" style="display: none"><div id="_doc_3744901_file_meta_content_inner"><div id="_doc_3744901_filemetadiv" class="rd_full"><table id="filemeta" border="0" cellpadding="2" width="100%"><tr><th valign="top" class="ep_row">Accessible to:</th><td valign="top" class="ep_row">Anyone (open access data)</td></tr><tr><th valign="top" class="ep_row">File or bundle content:</th><td valign="top" class="ep_row">Data</td></tr><tr><th valign="top" class="ep_row">File or bundle description:</th><td valign="top" class="ep_row">EEG Data in BIDS format</td></tr><tr><th valign="top" class="ep_row">File format:</th><td valign="top" class="ep_row">application/octet-stream</td></tr><tr><th valign="top" class="ep_row">License:</th><td valign="top" class="ep_row"><a href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img src="/reshare_template/images/license_images/by-4.0-88x31.png" alt="Creative Commons: Attribution 4.0 International (CC BY 4.0)" /></a></td></tr><tr><th valign="top" class="ep_row">File size:</th><td valign="top" class="ep_row">1GB</td></tr></table></div></div></div></div></td></tr><tr><td class="files_box"><div class="ep_summary_box" id="_doc_3744905_file_meta"><div class="ep_summary_box_title"><div class="ep_no_js"><a href="https://reshare.ukdataservice.ac.uk/854301/48/MODMA_EEG_BIDS_format.z09">MODMA_EEG_BIDS_format.z09</a></div><div class="ep_only_js" id="_doc_3744905_file_meta_colbar" style="display: none"><a class="ep_box_collapse_link" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('_doc_3744905_file_meta_content',true,'_doc_3744905_file_meta');EPJS_toggle('_doc_3744905_file_meta_colbar',true);EPJS_toggle('_doc_3744905_file_meta_bar',false);return false" href="#"><img alt="-" src="/style/images/minus.png" border="0" /> <a href="https://reshare.ukdataservice.ac.uk/854301/48/MODMA_EEG_BIDS_format.z09">MODMA_EEG_BIDS_format.z09</a></a></div><div class="ep_only_js" id="_doc_3744905_file_meta_bar"><a class="ep_box_collapse_link" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('_doc_3744905_file_meta_content',false,'_doc_3744905_file_meta');EPJS_toggle('_doc_3744905_file_meta_colbar',false);EPJS_toggle('_doc_3744905_file_meta_bar',true);return false" href="#"><img alt="+" src="/style/images/plus.png" border="0" /> <a href="https://reshare.ukdataservice.ac.uk/854301/48/MODMA_EEG_BIDS_format.z09">MODMA_EEG_BIDS_format.z09</a></a></div></div><div class="ep_summary_box_body" id="_doc_3744905_file_meta_content" style="display: none"><div id="_doc_3744905_file_meta_content_inner"><div id="_doc_3744905_filemetadiv" class="rd_full"><table id="filemeta" border="0" cellpadding="2" width="100%"><tr><th valign="top" class="ep_row">Accessible to:</th><td valign="top" class="ep_row">Anyone (open access data)</td></tr><tr><th valign="top" class="ep_row">File or bundle content:</th><td valign="top" class="ep_row">Data</td></tr><tr><th valign="top" class="ep_row">File or bundle description:</th><td valign="top" class="ep_row">EEG Data in BIDS format</td></tr><tr><th valign="top" class="ep_row">File format:</th><td valign="top" class="ep_row">application/octet-stream</td></tr><tr><th valign="top" class="ep_row">License:</th><td valign="top" class="ep_row"><a href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img src="/reshare_template/images/license_images/by-4.0-88x31.png" alt="Creative Commons: Attribution 4.0 International (CC BY 4.0)" /></a></td></tr><tr><th valign="top" class="ep_row">File size:</th><td valign="top" class="ep_row">1GB</td></tr></table></div></div></div></div></td></tr><tr><td class="files_box"><div class="ep_summary_box" id="_doc_3744902_file_meta"><div class="ep_summary_box_title"><div class="ep_no_js"><a href="https://reshare.ukdataservice.ac.uk/854301/45/MODMA_EEG_BIDS_format.z10">MODMA_EEG_BIDS_format.z10</a></div><div class="ep_only_js" id="_doc_3744902_file_meta_colbar" style="display: none"><a class="ep_box_collapse_link" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('_doc_3744902_file_meta_content',true,'_doc_3744902_file_meta');EPJS_toggle('_doc_3744902_file_meta_colbar',true);EPJS_toggle('_doc_3744902_file_meta_bar',false);return false" href="#"><img alt="-" src="/style/images/minus.png" border="0" /> <a href="https://reshare.ukdataservice.ac.uk/854301/45/MODMA_EEG_BIDS_format.z10">MODMA_EEG_BIDS_format.z10</a></a></div><div class="ep_only_js" id="_doc_3744902_file_meta_bar"><a class="ep_box_collapse_link" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('_doc_3744902_file_meta_content',false,'_doc_3744902_file_meta');EPJS_toggle('_doc_3744902_file_meta_colbar',false);EPJS_toggle('_doc_3744902_file_meta_bar',true);return false" href="#"><img alt="+" src="/style/images/plus.png" border="0" /> <a href="https://reshare.ukdataservice.ac.uk/854301/45/MODMA_EEG_BIDS_format.z10">MODMA_EEG_BIDS_format.z10</a></a></div></div><div class="ep_summary_box_body" id="_doc_3744902_file_meta_content" style="display: none"><div id="_doc_3744902_file_meta_content_inner"><div id="_doc_3744902_filemetadiv" class="rd_full"><table id="filemeta" border="0" cellpadding="2" width="100%"><tr><th valign="top" class="ep_row">Accessible to:</th><td valign="top" class="ep_row">Anyone (open access data)</td></tr><tr><th valign="top" class="ep_row">File or bundle content:</th><td valign="top" class="ep_row">Data</td></tr><tr><th valign="top" class="ep_row">File or bundle description:</th><td valign="top" class="ep_row">EEG Data in BIDS format</td></tr><tr><th valign="top" class="ep_row">File format:</th><td valign="top" class="ep_row">application/octet-stream</td></tr><tr><th valign="top" class="ep_row">License:</th><td valign="top" class="ep_row"><a href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img src="/reshare_template/images/license_images/by-4.0-88x31.png" alt="Creative Commons: Attribution 4.0 International (CC BY 4.0)" /></a></td></tr><tr><th valign="top" class="ep_row">File size:</th><td valign="top" class="ep_row">1GB</td></tr></table></div></div></div></div></td></tr></table><h4 class="file_list_subheading">Documentation</h4><table border="0" cellpadding="2" width="100%"><tr><td class="files_box"><div class="ep_summary_box" id="_doc_3735144_file_meta"><div class="ep_summary_box_title"><div class="ep_no_js"><a href="https://reshare.ukdataservice.ac.uk/854301/8/854301_Methodology.docx">854301_Methodology.docx</a></div><div class="ep_only_js" id="_doc_3735144_file_meta_colbar" style="display: none"><a class="ep_box_collapse_link" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('_doc_3735144_file_meta_content',true,'_doc_3735144_file_meta');EPJS_toggle('_doc_3735144_file_meta_colbar',true);EPJS_toggle('_doc_3735144_file_meta_bar',false);return false" href="#"><img alt="-" src="/style/images/minus.png" border="0" /> <a href="https://reshare.ukdataservice.ac.uk/854301/8/854301_Methodology.docx">854301_Methodology.docx</a></a></div><div class="ep_only_js" id="_doc_3735144_file_meta_bar"><a class="ep_box_collapse_link" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('_doc_3735144_file_meta_content',false,'_doc_3735144_file_meta');EPJS_toggle('_doc_3735144_file_meta_colbar',false);EPJS_toggle('_doc_3735144_file_meta_bar',true);return false" href="#"><img alt="+" src="/style/images/plus.png" border="0" /> <a href="https://reshare.ukdataservice.ac.uk/854301/8/854301_Methodology.docx">854301_Methodology.docx</a></a></div></div><div class="ep_summary_box_body" id="_doc_3735144_file_meta_content" style="display: none"><div id="_doc_3735144_file_meta_content_inner"><div id="_doc_3735144_filemetadiv" class="rd_full"><table id="filemeta" border="0" cellpadding="2" width="100%"><tr><th valign="top" class="ep_row">Accessible to:</th><td valign="top" class="ep_row">Anyone (open access data)</td></tr><tr><th valign="top" class="ep_row">File or bundle content:</th><td valign="top" class="ep_row">Documentation</td></tr><tr><th valign="top" class="ep_row">File format:</th><td valign="top" class="ep_row">application/vnd.openxmlformats-officedocument.wordprocessingml.document</td></tr><tr><th valign="top" class="ep_row">License:</th><td valign="top" class="ep_row"><a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="/reshare_template/images/license_images/by-sa-4.0-88x31.png" alt="Creative Commons: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)" /></a></td></tr><tr><th valign="top" class="ep_row">File size:</th><td valign="top" class="ep_row">16kB</td></tr></table></div></div></div></div></td></tr><tr><td class="files_box"><div class="ep_summary_box" id="_doc_3735140_file_meta"><div class="ep_summary_box_title"><div class="ep_no_js"><a href="https://reshare.ukdataservice.ac.uk/854301/6/854301_InformedConsent.pdf">854301_InformedConsent.pdf</a></div><div class="ep_only_js" id="_doc_3735140_file_meta_colbar" style="display: none"><a class="ep_box_collapse_link" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('_doc_3735140_file_meta_content',true,'_doc_3735140_file_meta');EPJS_toggle('_doc_3735140_file_meta_colbar',true);EPJS_toggle('_doc_3735140_file_meta_bar',false);return false" href="#"><img alt="-" src="/style/images/minus.png" border="0" /> <a href="https://reshare.ukdataservice.ac.uk/854301/6/854301_InformedConsent.pdf">854301_InformedConsent.pdf</a></a></div><div class="ep_only_js" id="_doc_3735140_file_meta_bar"><a class="ep_box_collapse_link" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('_doc_3735140_file_meta_content',false,'_doc_3735140_file_meta');EPJS_toggle('_doc_3735140_file_meta_colbar',false);EPJS_toggle('_doc_3735140_file_meta_bar',true);return false" href="#"><img alt="+" src="/style/images/plus.png" border="0" /> <a href="https://reshare.ukdataservice.ac.uk/854301/6/854301_InformedConsent.pdf">854301_InformedConsent.pdf</a></a></div></div><div class="ep_summary_box_body" id="_doc_3735140_file_meta_content" style="display: none"><div id="_doc_3735140_file_meta_content_inner"><div id="_doc_3735140_filemetadiv" class="rd_full"><table id="filemeta" border="0" cellpadding="2" width="100%"><tr><th valign="top" class="ep_row">Accessible to:</th><td valign="top" class="ep_row">Anyone (open access data)</td></tr><tr><th valign="top" class="ep_row">File or bundle content:</th><td valign="top" class="ep_row">Documentation</td></tr><tr><th valign="top" class="ep_row">File format:</th><td valign="top" class="ep_row">application/pdf</td></tr><tr><th valign="top" class="ep_row">License:</th><td valign="top" class="ep_row"><a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="/reshare_template/images/license_images/by-sa-4.0-88x31.png" alt="Creative Commons: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)" /></a></td></tr><tr><th valign="top" class="ep_row">File size:</th><td valign="top" class="ep_row">146kB</td></tr></table></div></div></div></div></td></tr><tr><td class="files_box"><div class="ep_summary_box" id="_doc_3735139_file_meta"><div class="ep_summary_box_title"><div class="ep_no_js"><a href="https://reshare.ukdataservice.ac.uk/854301/5/854301_InformationSheet.pdf">854301_InformationSheet.pdf</a></div><div class="ep_only_js" id="_doc_3735139_file_meta_colbar" style="display: none"><a class="ep_box_collapse_link" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('_doc_3735139_file_meta_content',true,'_doc_3735139_file_meta');EPJS_toggle('_doc_3735139_file_meta_colbar',true);EPJS_toggle('_doc_3735139_file_meta_bar',false);return false" href="#"><img alt="-" src="/style/images/minus.png" border="0" /> <a href="https://reshare.ukdataservice.ac.uk/854301/5/854301_InformationSheet.pdf">854301_InformationSheet.pdf</a></a></div><div class="ep_only_js" id="_doc_3735139_file_meta_bar"><a class="ep_box_collapse_link" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('_doc_3735139_file_meta_content',false,'_doc_3735139_file_meta');EPJS_toggle('_doc_3735139_file_meta_colbar',false);EPJS_toggle('_doc_3735139_file_meta_bar',true);return false" href="#"><img alt="+" src="/style/images/plus.png" border="0" /> <a href="https://reshare.ukdataservice.ac.uk/854301/5/854301_InformationSheet.pdf">854301_InformationSheet.pdf</a></a></div></div><div class="ep_summary_box_body" id="_doc_3735139_file_meta_content" style="display: none"><div id="_doc_3735139_file_meta_content_inner"><div id="_doc_3735139_filemetadiv" class="rd_full"><table id="filemeta" border="0" cellpadding="2" width="100%"><tr><th valign="top" class="ep_row">Accessible to:</th><td valign="top" class="ep_row">Anyone (open access data)</td></tr><tr><th valign="top" class="ep_row">File or bundle content:</th><td valign="top" class="ep_row">Documentation</td></tr><tr><th valign="top" class="ep_row">File format:</th><td valign="top" class="ep_row">application/pdf</td></tr><tr><th valign="top" class="ep_row">License:</th><td valign="top" class="ep_row"><a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="/reshare_template/images/license_images/by-sa-4.0-88x31.png" alt="Creative Commons: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)" /></a></td></tr><tr><th valign="top" class="ep_row">File size:</th><td valign="top" class="ep_row">56kB</td></tr></table></div></div></div></div></td></tr></table><h4 class="file_list_subheading">Read me</h4><table border="0" cellpadding="2" width="100%"><tr><td class="files_box"><div class="ep_summary_box" id="_doc_3744894_file_meta"><div class="ep_summary_box_title"><div class="ep_no_js"><a href="https://reshare.ukdataservice.ac.uk/854301/37/ReadMe.pdf">ReadMe.pdf</a></div><div class="ep_only_js" id="_doc_3744894_file_meta_colbar" style="display: none"><a class="ep_box_collapse_link" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('_doc_3744894_file_meta_content',true,'_doc_3744894_file_meta');EPJS_toggle('_doc_3744894_file_meta_colbar',true);EPJS_toggle('_doc_3744894_file_meta_bar',false);return false" href="#"><img alt="-" src="/style/images/minus.png" border="0" /> <a href="https://reshare.ukdataservice.ac.uk/854301/37/ReadMe.pdf">ReadMe.pdf</a></a></div><div class="ep_only_js" id="_doc_3744894_file_meta_bar"><a class="ep_box_collapse_link" onclick="EPJS_blur(event); EPJS_toggleSlideScroll('_doc_3744894_file_meta_content',false,'_doc_3744894_file_meta');EPJS_toggle('_doc_3744894_file_meta_colbar',false);EPJS_toggle('_doc_3744894_file_meta_bar',true);return false" href="#"><img alt="+" src="/style/images/plus.png" border="0" /> <a href="https://reshare.ukdataservice.ac.uk/854301/37/ReadMe.pdf">ReadMe.pdf</a></a></div></div><div class="ep_summary_box_body" id="_doc_3744894_file_meta_content" style="display: none"><div id="_doc_3744894_file_meta_content_inner"><div id="_doc_3744894_filemetadiv" class="rd_full"><table id="filemeta" border="0" cellpadding="2" width="100%"><tr><th valign="top" class="ep_row">Accessible to:</th><td valign="top" class="ep_row">Anyone (open access data)</td></tr><tr><th valign="top" class="ep_row">File or bundle content:</th><td valign="top" class="ep_row">README file</td></tr><tr><th valign="top" class="ep_row">File format:</th><td valign="top" class="ep_row">application/pdf</td></tr><tr><th valign="top" class="ep_row">License:</th><td valign="top" class="ep_row"><a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank"><img src="/reshare_template/images/license_images/by-sa-4.0-88x31.png" alt="Creative Commons: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)" /></a></td></tr><tr><th valign="top" class="ep_row">File size:</th><td valign="top" class="ep_row">441kB</td></tr></table></div></div></div></div></td></tr></table></div> 
+
+  
+
+<h3 class="irstats2_summary_page_header">Downloads</h3>
+<div class="reshare_downloads">
+        <span id="irstats2_summary_page_downloads"></span><span> data downloads and <span id="irstats2_summary_page_short_views"></span>
+                page views since this item was published</span> 
+        <p><a href="#" id="irstats2_summary_page:link">View more statistics</a></p>
+        
+</div>
+<script type="text/javascript">
+document.observe("dom:loaded",function(){
+
+                var epLocation = location.href.split('/');
+                var irstats2_summary_page_eprintid = epLocation[epLocation.length-2];   
+                $( 'irstats2_summary_page:link' ).setAttribute( 'href', '/cgi/stats/report/eprint/' + irstats2_summary_page_eprintid );
+                
+                new EPJS_Stats_Counter ( { 'context': {
+                        'range':'_ALL_',
+                        'set_name': 'eprint',
+                        'set_value': irstats2_summary_page_eprintid,
+                        'datatype':'u_downloads'},
+                        'options': {
+                        'container_id': 'irstats2_summary_page_downloads'
+                        } } );
+                new EPJS_Stats_Counter ( { 'context': {
+                        'range':'_ALL_',
+                        'set_name': 'eprint',
+                        'set_value': irstats2_summary_page_eprintid,
+                        'datatype':'views'},
+                        'options': {
+                        'container_id': 'irstats2_summary_page_short_views'
+                        } } );
+                });
+        
+        
+        </script>
+ 
+  
+
+<h3 class="irstats2_summary_page_header">Altmetric</h3>
+<div id="altmetric_summary_page" class="854301" data-altmetric-id-type="doi" data-altmetric-id="10.5255/UKDA-SN-854301">
+
+</div>
+<script type="text/javascript">
+// <![CDATA[
+new EP_Altmetric_Badge( 'altmetric_summary_page' );
+// ]]></script>
+<div class="rd_citation_right citation_right_lower"><h3 class="related_list_heading solid-border"> Related Resources</h3><h4 class="resource_list_subheading">Website</h4><table border="0" cellpadding="2" width="100%"><tr><td class=""><a href="https://modma.lzu.edu.cn/">MODMA Dataset</a></td></tr></table></div> 
+
+
+<div class="rd_actions_div">
+	
+		<h4>Edit item (login required)</h4>
+		<table class="ep_summary_page_actions">
+			
+				<tr>
+					<td><a href="/cgi/users/home?screen=EPrint%3A%3AView&amp;eprintid=854301"><img src="/style/images/action_view.png" title="Edit Item" alt="Edit Item" class="ep_form_action_icon" /></a></td>
+					<td>Edit Item</td>
+				</tr>
+			
+		</table>
+	
+</div>  
+
+
+</div><div class="ep_summary_content_bottom"></div><div class="ep_summary_content_after"></div></div>
+						</div>
+
+						<div class="span3">            
+
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<footer>
+				<div class="row">
+					<div class="ep_noprint span12 footer-bar">
+						<ul class="pull-right nav-small">
+							<li><a href="http://ukdataservice.ac.uk/conditions.aspx" target="_self">Terms and conditions</a></li>
+							<li><a href="http://ukdataservice.ac.uk/conditions/cookies.aspx" target="_self">Cookies</a></li>
+							<li><a href="http://ukdataservice.ac.uk/conditions/privacy-policy.aspx" target="_self">Privacy policy</a></li>
+						</ul>	
+						<!--<epc:phrase ref="template:about_eprints"/>-->
+						<span>We are supported by the University of Essex, University of Manchester, Jisc, UCL and University of Edinburgh. We are funded by UKRI through the Economic and Social Research Council. <br />© Copyright 2026 UK Data Service.</span>
+					</div>
+				</div>
+			</footer>
+		</div>
+		</div>
+	</body>
+</html>

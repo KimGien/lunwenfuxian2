@@ -1,0 +1,6 @@
+{
+  "index": "https://download.pytorch.org/whl/cu126/torch/",
+  "url": "https://download-r2.pytorch.org/whl/cu126/torch-2.8.0%2Bcu126-cp313-cp313-win_amd64.whl#sha256=3aa7da5cc6b7df0e8c0754dea339bd31cd21b5620e84f53b2ac4be47e8bb2179",
+  "sha256": "3aa7da5cc6b7df0e8c0754dea339bd31cd21b5620e84f53b2ac4be47e8bb2179",
+  "verified": true
+}

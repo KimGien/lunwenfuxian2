@@ -1,0 +1,160 @@
+# EEG training configurations
+# Usage: python scripts/inference.py --config configs/training/eeg.yaml --all
+
+data:
+  base_dir: data/split_dataset_june
+  fold_file: data/split_dataset_june/fold_assignments.json
+
+configs:
+
+  # ── CBraMod (original weights) ────────────────────────────────────────────
+
+  - name: cbramod_lstm
+    embedding_file: cbramod_embeddings.npy
+    model_class: EEGLSTMClassifier
+    model_kwargs: {input_dim: 200, hidden_dim: 128}
+    epochs: 50
+    lr: 0.0001
+    optimizer: AdamW
+    weight_decay: 0.0001
+    batch_size: 64
+    output_csv: eeg_cbramod_lstm.csv
+    feature_group: CBraMod
+
+  - name: cbramod_conv
+    embedding_file: cbramod_embeddings.npy
+    model_class: EEGConvPoolClassifier
+    model_kwargs: {input_dim: 200, seq_len: 75}
+    epochs: 70
+    lr: 0.0001
+    optimizer: AdamW
+    weight_decay: 0.0001
+    batch_size: 100
+    output_csv: eeg_cbramod_conv.csv
+    feature_group: CBraMod
+
+  - name: cbramod_gru_attn
+    embedding_file: cbramod_embeddings.npy
+    model_class: GRUAttentionClassifier
+    model_kwargs: {input_dim: 200, hidden_dim: 128}
+    epochs: 50
+    lr: 0.0001
+    optimizer: AdamW
+    weight_decay: 0.0001
+    batch_size: 64
+    output_csv: eeg_cbramod_gru_attn.csv
+    feature_group: CBraMod
+
+  # ── LaBraM ────────────────────────────────────────────────────────────────
+
+  - name: labram_lstm
+    embedding_file: labram_base_embeddings.npy
+    model_class: EEGLSTMClassifier
+    model_kwargs: {input_dim: 200, hidden_dim: 128}
+    epochs: 30
+    lr: 0.01
+    optimizer: Adamax
+    weight_decay: 0
+    batch_size: 16
+    output_csv: eeg_labram_lstm.csv
+    feature_group: LaBraM
+
+  - name: labram_conv
+    embedding_file: labram_base_embeddings.npy
+    model_class: EEGConvPoolClassifier
+    model_kwargs: {input_dim: 200, seq_len: 30}
+    epochs: 70
+    lr: 0.0001
+    optimizer: AdamW
+    weight_decay: 0.0001
+    batch_size: 100
+    output_csv: eeg_labram_conv.csv
+    feature_group: LaBraM
+
+  - name: labram_gru_attn
+    embedding_file: labram_base_embeddings.npy
+    model_class: GRUAttentionClassifier
+    model_kwargs: {input_dim: 200, hidden_dim: 128}
+    epochs: 70
+    lr: 0.005
+    optimizer: Adamax
+    weight_decay: 0
+    batch_size: 16
+    output_csv: eeg_labram_gru_attn.csv
+    feature_group: LaBraM
+
+  # ── Handcrafted features ──────────────────────────────────────────────────
+
+  - name: xhand_cnn_lstm
+    embedding_file: eeg_features.npy
+    model_class: EEGCNNLSTMClassifier
+    model_kwargs: {num_channels: 29}
+    epochs: 40
+    lr: 0.0001
+    optimizer: Adam
+    weight_decay: 0
+    batch_size: 16
+    output_csv: eeg_xhand_cnn_lstm.csv
+    feature_group: Handcrafted
+
+  - name: xhand_cnn_fc
+    embedding_file: eeg_features.npy
+    model_class: EEGCNNFCClassifier
+    model_kwargs: {num_channels: 29}
+    epochs: 40
+    lr: 0.0001
+    optimizer: Adam
+    weight_decay: 0
+    batch_size: 16
+    output_csv: eeg_xhand_cnn_fc.csv
+    feature_group: Handcrafted
+
+  - name: xhand_cnn_gru_attn
+    embedding_file: eeg_features.npy
+    model_class: EEGCNNGRUAttentionClassifier
+    model_kwargs: {num_channels: 29}
+    epochs: 60
+    lr: 0.0001
+    optimizer: Adam
+    weight_decay: 0
+    batch_size: 16
+    output_csv: eeg_xhand_cnn_gru_attn.csv
+    feature_group: Handcrafted
+
+  # ── CBraMod (Mumtaz weights) ──────────────────────────────────────────────
+
+  - name: cbramod_mumtaz_lstm
+    embedding_file: cbramod_embeddings_mumtaz.npy
+    model_class: EEGLSTMClassifier
+    model_kwargs: {input_dim: 200, hidden_dim: 256}
+    epochs: 30
+    lr: 0.01
+    optimizer: Adamax
+    weight_decay: 0
+    batch_size: 16
+    output_csv: eeg_cbramod_mumtaz_lstm.csv
+    feature_group: CBraMod Mumtaz
+
+  - name: cbramod_mumtaz_conv
+    embedding_file: cbramod_embeddings_mumtaz.npy
+    model_class: EEGConvPoolClassifier
+    model_kwargs: {input_dim: 200, seq_len: 60}
+    epochs: 60
+    lr: 0.005
+    optimizer: Adamax
+    weight_decay: 0
+    batch_size: 16
+    output_csv: eeg_cbramod_mumtaz_conv.csv
+    feature_group: CBraMod Mumtaz
+
+  - name: cbramod_mumtaz_gru_attn
+    embedding_file: cbramod_embeddings_mumtaz.npy
+    model_class: GRUAttentionClassifier
+    model_kwargs: {input_dim: 200, hidden_dim: 256}
+    epochs: 30
+    lr: 0.01
+    optimizer: Adamax
+    weight_decay: 0
+    batch_size: 16
+    output_csv: eeg_cbramod_mumtaz_gru_attn.csv
+    feature_group: CBraMod Mumtaz

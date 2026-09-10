@@ -1,0 +1,19 @@
+# Text feature extraction configuration
+# Override at runtime: python scripts/extract_features.py text --config configs/feature_extraction/text.yaml models=[macbert]
+
+data:
+  base_dir: split_dataset
+  save_dir: split_dataset
+
+# Models to run (subset or all): mpnet | macbert | bert | xlnet
+models:
+  - mpnet
+  - macbert
+  - bert
+  - xlnet
+
+output_files:
+  mpnet: text_embedding.npy
+  macbert: text_embedding_macbert.npy
+  bert: text_embedding_bert.npy
+  xlnet: text_embedding_xlnet.npy
