@@ -1,0 +1,19 @@
+{
+  "protocol_id": "B0-37-fulltext-v1",
+  "cohort_id": "MODMA-37-v1",
+  "folds_sha256": "a28ebe92c94428128313586d3a5524b2f03befcbc473215f4b0b2dcb49c3284d",
+  "speech_encoder": "Upstream CNN-BiGRU(input_dim=768), random frozen weights saved separately for seeds 11/22/33; same weights across subjects/folds within each seed. Preserve (N,768)->(N,1,768), then mean outputs. No MODMA fitting.",
+  "hubert_identity": "xmj2002/hubert-base-ch-speech-emotion-recognition@520fe386b3cc1b51f4db26ce7656dce8d6c9d875; frozen last_hidden_state, time mean, 768 dimensions. Code Base identity retained; paper Large discrepancy disclosed.",
+  "asr_segments": "Reuse audited WhisperX segments (including documented gain10 recovery for02010036/22), sort by(start,end), concatenate text verbatim without added separators, use ALL segments. MacBERT frozen CLS, reject >512 tokens rather than truncate; empirical max393. No new ASR, manual rewriting, or target fitting.",
+  "audio_segmentation": "Exact upstream librosa 16k mono, peak normalization, trim20dB, median3; 5s windows stride2.5s, drop <5s and retain upstream tail duplication. WAV PCM16 roundtrip retained. No segments -> zero512, flagged in audit.",
+  "eeg_units_channels": "Retain native .mat numeric values and upstream 19 indices, no extra scale/reference/montage changes. MNE EEGLAB reader native*1e-6 verified separately. Checkpoint scale and target anatomical equivalence remain unverified limitations; see EEG resolution report.",
+  "eeg_length_policy": "Resample entire recording250->200Hz, bandpass0.3-75, notch50, then retain first60000 samples (300s), split60x5s, patch200 samples, average channel/patch embeddings ->60x200. Reject shorter input. Explicit local adaptation, not confirmed author policy.",
+  "limitations": [
+    "37-person code-based baseline, not an exact reproduction of original38-person result",
+    "Random frozen encoder and degenerate attention retained",
+    "EEG native scale and index mapping follow code; physical/checkpoint compatibility remains uncertain"
+  ],
+  "eeg_audit_sha256": "e2560d2e78a8c8c5230582a304ebf3dcbc09527cd41beed5ee58bb029e546408",
+  "backbones_sha256": "ea99b75262214657464633724a08739b7202a207c0bbfe423b4374a98ed236ed",
+  "parent_protocol_sha256": "303adc5984da3059ead9d8a24ab91a5bf4db7bed72cf698f01188350bb29777a"
+}
