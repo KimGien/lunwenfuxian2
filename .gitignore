@@ -40,3 +40,6 @@ __pycache__/
 *.key
 .DS_Store
 Thumbs.db
+
+# Local ASR diagnostic contains participant transcript text
+/reports/asr_empty_retry_02010036_22.json

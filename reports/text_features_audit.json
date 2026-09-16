@@ -1,0 +1,38 @@
+{
+  "timestamp_utc": "2026-09-11T06:49:54.107622+00:00",
+  "passed": true,
+  "experiment": "B0-37",
+  "cohort_id": "MODMA-37-v1",
+  "subjects": 37,
+  "questions": 1073,
+  "per_subject_shape": [
+    29,
+    768
+  ],
+  "dtype": "float32",
+  "pooling": "CLS",
+  "export_policy": "first_segment_code",
+  "max_tokens": 512,
+  "truncated_recordings": [],
+  "token_count_range": [
+    4,
+    183
+  ],
+  "transcript_provenance_passed": true,
+  "feature_manifest_sha256": "e6b4d45c7e0badbe439d4f929f2ef43873d2dc3ecffa6deb646dd48715b71795",
+  "preflight_by_seed": {
+    "11": {
+      "passed": true,
+      "fold_subject_modality_assignments": 555
+    },
+    "22": {
+      "passed": true,
+      "fold_subject_modality_assignments": 555
+    },
+    "33": {
+      "passed": true,
+      "fold_subject_modality_assignments": 555
+    }
+  },
+  "training_started": false
+}

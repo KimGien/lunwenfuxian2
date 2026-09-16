@@ -1,6 +1,22 @@
-# TRI-DEP S00：B0-37 基线准备
+# TRI-DEP S00：B0-37 三模态基线
 
-对应 `baseline备选/2510.14922v2.pdf` 和 `output/plans/TRI-DEP_递进实验路线.md`。这里保存 B0 的来源、数据审计、环境、配置、验证工具和运行入口。**尚未完成真实 B0 训练，不能把合成输入检查解释为论文指标复现。**
+对应 `baseline备选/2510.14922v2.pdf` 和 `output/plans/TRI-DEP_递进实验路线.md`。这里保存 B0 的来源、数据审计、环境、配置、验证工具和运行入口。**B0-37 已于 2026-09-11 完成真实三模态分类器训练：3 个种子 × 5 折 × 3 个分支，共 45 次。预训练骨干保持冻结。**
+
+
+## 本版本训练结果
+
+| 分支 | 平均测试 Macro-F1 |
+|---|---:|
+| EEG | 0.4494 |
+| 语音 | 0.6300 |
+| 文本 | 0.6568 |
+| 三模态融合 | **0.6644** |
+
+先对每个种子的五折取均值，再对三个种子取均值。45份权重重新加载后重现333个分支测试概率，最大绝对误差为0；60组逐折指标与scikit-learn核对一致。完整指标、标准差与限制见[训练完成报告](reports/三模态训练完成报告.md)和[机器可读汇总](reports/b0_training_summary.json)。这是已披露差异的37人代码版基线，不等同于原论文38人实验。
+
+本仓库发布代码、配置、来源清单与复现报告。原始MODMA数据、转写正文（包括低音量重试候选）、特征缓存、权重、逐人运行输出和虚拟环境保留本地，不随Git上传。运行需要自行取得有权限使用的MODMA数据，并按清单准备骨干权重及环境；克隆仓库本身不会获得这些数据和二进制产物。
+
+当前冻结协议见[protocol_resolution.json](configs/protocol_resolution.json)，处理决定见[阻塞解决与执行记录](reports/阻塞解决与执行记录.md)。已完成1073题转写与全部三模态特征，种子11/22/33均通过输入预检。文档中的本机绝对路径链接仅供原工作区使用；GitHub中可直接打开对应相对路径文件。
 
 ## 当前结论
 
@@ -16,9 +32,9 @@
 - MacBERT、代码实际使用的 HuBERT、CBraMod-Mumtaz 已固定本地权重及来源。前两者没有骨干参数缺失；CBraMod 的 209 个保留骨干键匹配，移除的重建头和原任务分类头不用于特征提取。
 - 转写使用独立 `.asr-venv`，因为 WhisperX 3.3.1 不支持 Python 3.13。medium ASR 权重已固定；最终环境及转写验证状态见 `reports/asr_smoke.json` 和 `reports/preflight.json`，缺少报告时不可推断已通过。
 
-## 仍需解决的输入和协议问题
+## 已锁定做法与保留的科学限制
 
-1. 数据缺失阻塞已通过用户授权的人群调整解决：B0-37 与所有后续 MODMA 实验共用 37 人。原论文 38 人成绩仅作背景参考；方法增益以同环境、同划分的 B0-37 为准。以下模型与预处理协议仍待解决。
+1. 数据缺失阻塞已通过用户授权的人群调整解决：B0-37 与所有后续 MODMA 实验共用 37 人。原论文 38 人成绩仅作背景参考；方法增益以同环境、同划分的 B0-37 为准。以下为原始差异背景，实际执行选择以冻结协议和完成报告为准。
 2. 论文描述 Chinese HuBERT Large，但发布代码实际加载 `xmj2002/hubert-base-ch-speech-emotion-recognition`，输出 768 维。准备包下载的是代码指向的权重，并保留这一差异。不能自行更换为 Large 后声称没有修改 B0。
 3. 语音 CNN-BiGRU-Attention 在发布提取脚本中随机初始化后直接以 `eval/no_grad` 运行，没有加载编码器任务权重，也没有优化器训练。二维输入被扩成每个片段长度为 1 的序列，注意力权重因此恒为 1。输出实际为 512 维；部分默认参数仍写成 256/1024，训练配置文件名还含 `lstm`。这些均需明确采取“发布代码复现”还是有来源的修正版，不能悄悄修改并归因于后续 S01。
 4. WhisperX 入口只保存第一个 ASR segment；论文写的是每题转写。完整转写与首段转写必须分别留存和命名。错误占位符 `[ERROR]` 不能当作正常答案输入模型。
@@ -60,13 +76,13 @@ S00/.venv/Scripts/python.exe S00/scripts/smoke_backbones.py
 S00/.venv/Scripts/python.exe S00/scripts/run_b0.py
 ```
 
-`audit_modma.py` 当前返回 0，37 人数据通过；`run_b0.py` 当前返回 2，因尚缺协议说明与完整特征。`smoke_*` 使用合成输入，不创建真实受试者预测或报告模型 F1。`cohort.py` 可单独验证活动人群和审计来源。
+在保留本地完整数据与特征的工作区，`audit_modma.py` 与三个种子的 `run_b0.py` 预检均已通过。新克隆需先恢复私有输入，不能沿用报告中的通过状态绕过检查。`smoke_*` 使用合成输入，不创建真实受试者预测或报告模型 F1。`cohort.py` 可单独验证活动人群和审计来源。
 
 补充录音后不要覆盖已保留的原始压缩包；将新来源和 SHA-256 记录后更新工作副本，再运行数据审计和 staging。`stage_dataset.py` 遇到现有文件与来源不一致会停止，不覆盖已有数据。新来源接入需更新 raw manifest。
 
 ## 特征与训练入口
 
-当前尚未生成真实完整三模态特征缓存或受试者预测。解决剩余协议问题后，放置 `S00/features/B0-37/protocol_resolution.json`，记录 `speech_encoder`、`hubert_identity`、`asr_segments`、`audio_segmentation`、`eeg_units_channels`、`eeg_length_policy` 六项选择及依据。该记录用于追溯，文字存在本身不证明方法正确。
+本地真实完整三模态特征缓存和受试者预测已生成。独立重跑时，生成并检查 `S00/features/B0-37/protocol_resolution.json`，记录 `speech_encoder`、`hubert_identity`、`asr_segments`、`audio_segmentation`、`eeg_units_channels`、`eeg_length_policy` 六项选择及依据。该记录用于追溯，文字存在本身不证明方法正确。
 
 每个已审计特征在 `features_manifest.json` 中占一条：
 

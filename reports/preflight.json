@@ -1,11 +1,10 @@
 {
-  "timestamp_utc": "2026-09-10T02:16:50.373413+00:00",
-  "stage": "S00_B0_37_DATA_READY_PROTOCOL_AND_FEATURES_PENDING",
-  "s00_reproduced": false,
-  "training_ready": false,
-  "real_training_run": false,
-  "feature_extraction_complete": false,
-  "real_subject_probability_files_created": false,
+  "timestamp_utc": "2026-09-11T06:57:44.917051+00:00",
+  "stage": "S00_B0_37_TRAINING_COMPLETE",
+  "training_ready": true,
+  "real_training_run": true,
+  "feature_extraction_complete": true,
+  "real_subject_probability_files_created": true,
   "official_folds_passed": true,
   "data": {
     "passed": true,
@@ -53,13 +52,7 @@
     }
   },
   "protocol_tests_passed": true,
-  "outstanding": [
-    "Speech encoder training/initialization provenance and degenerate sequence dimension",
-    "Paper Chinese HuBERT Large versus code emotion-finetuned base",
-    "ASR full transcript versus first segment",
-    "Audio short/tail segmentation",
-    "EEG physical units, channel mapping and 60-segment length policy for recordings up to 335.504 seconds"
-  ],
+  "outstanding": [],
   "python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
   "data_recovery": {
     "checked_utc": "2026-09-10T01:53:16.415839+00:00",
@@ -95,5 +88,86 @@
   "cohort_id": "MODMA-37-v1",
   "folds_sha256": "a28ebe92c94428128313586d3a5524b2f03befcbc473215f4b0b2dcb49c3284d",
   "active_folds_passed": true,
-  "data_ready": true
+  "data_ready": true,
+  "extraction_tests_passed": true,
+  "protocol_locked": true,
+  "scientific_limitations": [
+    "37-person code-based baseline, not an exact reproduction of original38-person result",
+    "Random frozen encoder and degenerate attention retained",
+    "EEG native scale and index mapping follow code; physical/checkpoint compatibility remains uncertain"
+  ],
+  "execution": {
+    "started_utc": "2026-09-10T09:04:30.553893+00:00",
+    "completed_stages": [
+      "eeg_features",
+      "speech_features",
+      "transcription",
+      "text_features",
+      "preflight_11",
+      "preflight_22",
+      "preflight_33",
+      "train_11",
+      "train_22",
+      "train_33",
+      "evaluation_audit"
+    ],
+    "training_requested": true,
+    "stage": "training_complete",
+    "status": "complete",
+    "updated_utc": "2026-09-11T06:57:44.917051+00:00",
+    "driver_active": false,
+    "transcription_audit_sha256": "14a29bda39a28397e314f886214db092bf7cfd364179f45f89a3e7c2dfe684fa",
+    "previous_driver_pid": 31536,
+    "previous_asr_pid": 27480,
+    "preflight_by_seed": {
+      "11": {
+        "passed": true,
+        "fold_subject_modality_assignments": 555
+      },
+      "22": {
+        "passed": true,
+        "fold_subject_modality_assignments": 555
+      },
+      "33": {
+        "passed": true,
+        "fold_subject_modality_assignments": 555
+      }
+    },
+    "completed_seeds": [
+      11,
+      22,
+      33
+    ],
+    "remaining_seeds": [],
+    "branch_training_runs": 45,
+    "training_summary_sha256": "60cef962c8685492c0fa1ba924b8e29b0f6eff0d7346befe958a96b24da9f83e"
+  },
+  "transcription": {
+    "completed": 1073,
+    "expected": 1073,
+    "empty_recordings": [],
+    "elapsed_seconds": 840.4074358940125,
+    "status": "complete",
+    "export_policy": "first_segment_code",
+    "verified_utc": "2026-09-11T06:46:49.158221+00:00",
+    "audit_sha256": "14a29bda39a28397e314f886214db092bf7cfd364179f45f89a3e7c2dfe684fa"
+  },
+  "preflight_by_seed": {
+    "11": {
+      "passed": true,
+      "fold_subject_modality_assignments": 555
+    },
+    "22": {
+      "passed": true,
+      "fold_subject_modality_assignments": 555
+    },
+    "33": {
+      "passed": true,
+      "fold_subject_modality_assignments": 555
+    }
+  },
+  "b0_37_completed": true,
+  "s00_execution_complete": true,
+  "exact_paper_reproduction_verified": false,
+  "training_summary_sha256": "60cef962c8685492c0fa1ba924b8e29b0f6eff0d7346befe958a96b24da9f83e"
 }

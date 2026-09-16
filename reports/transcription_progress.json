@@ -1,0 +1,10 @@
+{
+  "completed": 1073,
+  "expected": 1073,
+  "empty_recordings": [],
+  "elapsed_seconds": 840.4074358940125,
+  "status": "complete",
+  "export_policy": "first_segment_code",
+  "verified_utc": "2026-09-11T06:46:49.158221+00:00",
+  "audit_sha256": "14a29bda39a28397e314f886214db092bf7cfd364179f45f89a3e7c2dfe684fa"
+}
