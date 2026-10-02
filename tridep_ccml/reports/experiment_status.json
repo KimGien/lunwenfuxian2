@@ -1,0 +1,165 @@
+{
+  "utc": "2026-09-21T02:04:40.890703+00:00",
+  "active_blockers": [],
+  "TC-00": {
+    "status": "complete",
+    "type": "parent_recheck"
+  },
+  "TC-01": {
+    "status": "complete",
+    "experiment": "TC-01-37-fulltext",
+    "completed_jobs": 15,
+    "completed_epochs_per_job": 60,
+    "verified": true,
+    "report": "reports/tc01/TC-01实验完成报告.md",
+    "primary_metrics": {
+      "macro_f1": 0.6997619047619047,
+      "mdd_recall": 0.5722222222222223,
+      "balanced_accuracy": 0.701111111111111,
+      "nll": 0.6015535523514183,
+      "brier": 0.20682357072052973
+    }
+  },
+  "TC-02": {
+    "status": "complete",
+    "experiment": "TC-02-37-fulltext",
+    "completed_jobs": 15,
+    "completed_epochs_per_job": 60,
+    "verified": true,
+    "paired_TC01_verified": true,
+    "report": "reports/tc02/TC-02实验完成报告.md",
+    "primary_metrics": {
+      "macro_f1": 0.6908465608465608,
+      "mdd_recall": 0.5722222222222223,
+      "balanced_accuracy": 0.6944444444444443,
+      "nll": 0.6076554858705298,
+      "brier": 0.20998513943730346
+    }
+  },
+  "TC-03": {
+    "status": "complete",
+    "completed_inference_jobs": 45,
+    "new_training_jobs": 0,
+    "new_optimizer_updates": 0,
+    "verified": true,
+    "TC02_artifacts_unchanged": true,
+    "report": "reports/tc03/TC-03实验完成报告.md",
+    "variants": {
+      "mean": {
+        "experiment": "TC-03-mean-37-fulltext",
+        "jobs": 15,
+        "primary_metrics": {
+          "macro_f1": 0.5653006253006253,
+          "mdd_recall": 0.4055555555555555,
+          "balanced_accuracy": 0.5777777777777777,
+          "nll": 0.6333267443802438,
+          "brier": 0.22270348476988197
+        }
+      },
+      "sum": {
+        "experiment": "TC-03-sum-37-fulltext",
+        "jobs": 15,
+        "primary_metrics": {
+          "macro_f1": 0.5653006253006253,
+          "mdd_recall": 0.4055555555555555,
+          "balanced_accuracy": 0.5777777777777777,
+          "nll": 0.6495980368035191,
+          "brier": 0.22888527104693254
+        }
+      },
+      "ccml": {
+        "experiment": "TC-03-ccml-37-fulltext",
+        "jobs": 15,
+        "primary_metrics": {
+          "macro_f1": 0.6053799903799905,
+          "mdd_recall": 0.44999999999999996,
+          "balanced_accuracy": 0.6183333333333333,
+          "nll": 0.6353150189906233,
+          "brier": 0.22404935161467845
+        }
+      }
+    }
+  },
+  "TC-04": {
+    "status": "complete",
+    "experiment": "TC-04-37-fulltext",
+    "completed_jobs": 15,
+    "completed_epochs_per_job": 60,
+    "verified": true,
+    "paired_TC01_TC02_verified": true,
+    "report": "reports/tc04/TC-04实验完成报告.md",
+    "primary_metrics": {
+      "macro_f1": 0.6116137566137566,
+      "mdd_recall": 0.48888888888888893,
+      "balanced_accuracy": 0.6244444444444445,
+      "nll": 0.6494167718528561,
+      "brier": 0.23025993779415033
+    },
+    "predeclared_engineering_reference_met": false
+  },
+  "TC-05": {
+    "status": "complete",
+    "completed_training_jobs": 45,
+    "completed_epochs_per_job": 60,
+    "verified": true,
+    "paired_TC01_TC02_TC04_verified": true,
+    "total_optimizer_updates": 10800,
+    "report": "reports/tc05/TC-05实验完成报告.md",
+    "variants": {
+      "a": {
+        "experiment": "TC-05a-37-fulltext",
+        "jobs": 15,
+        "primary_metrics": {
+          "macro_f1": 0.601111111111111,
+          "mdd_recall": 0.47222222222222227,
+          "balanced_accuracy": 0.6144444444444445,
+          "nll": 0.6474956894086138,
+          "brier": 0.22963262765633272
+        },
+        "effective_loss_parameters": {
+          "rho": 1.0,
+          "delta": 1.0,
+          "gamma": 1.0,
+          "anneal_epochs": 50
+        }
+      },
+      "b": {
+        "experiment": "TC-05b-37-fulltext",
+        "jobs": 15,
+        "primary_metrics": {
+          "macro_f1": 0.6195502645502645,
+          "mdd_recall": 0.48888888888888893,
+          "balanced_accuracy": 0.6311111111111111,
+          "nll": 0.649327167499404,
+          "brier": 0.2302022361834606
+        },
+        "effective_loss_parameters": {
+          "rho": 1.25,
+          "delta": 0.0,
+          "gamma": 1.0,
+          "anneal_epochs": 50
+        }
+      },
+      "c": {
+        "experiment": "TC-05c-37-fulltext",
+        "jobs": 15,
+        "primary_metrics": {
+          "macro_f1": 0.5986075036075036,
+          "mdd_recall": 0.44999999999999996,
+          "balanced_accuracy": 0.6116666666666667,
+          "nll": 0.6394250415082458,
+          "brier": 0.22608296596924307
+        },
+        "effective_loss_parameters": {
+          "rho": 1.25,
+          "delta": 1.0,
+          "gamma": 0.0,
+          "anneal_epochs": 50
+        }
+      }
+    }
+  },
+  "TC-06": {
+    "status": "deferred_second_phase"
+  }
+}

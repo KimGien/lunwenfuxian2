@@ -1,0 +1,1924 @@
+{
+  "experiment": "TC-01-37-fulltext",
+  "fusion": {
+    "experiment": "TC-01-37-fulltext",
+    "evaluation_scope": "fixed-split developmental comparison; previously viewed test cohort",
+    "independent_subjects": 37,
+    "seed_reports": {
+      "11": {
+        "fold_metrics": {
+          "1": {
+            "n_subjects": 7,
+            "macro_f1": 0.5333333333333333,
+            "mdd_recall": 0.3333333333333333,
+            "balanced_accuracy": 0.5416666666666666,
+            "nll": 0.6465374792022127,
+            "brier": 0.23107322330135577
+          },
+          "2": {
+            "n_subjects": 8,
+            "macro_f1": 0.873015873015873,
+            "mdd_recall": 0.75,
+            "balanced_accuracy": 0.875,
+            "nll": 0.48718991947620993,
+            "brier": 0.1578039954637558
+          },
+          "3": {
+            "n_subjects": 8,
+            "macro_f1": 0.7333333333333334,
+            "mdd_recall": 0.6666666666666666,
+            "balanced_accuracy": 0.7333333333333334,
+            "nll": 0.4358938892706975,
+            "brier": 0.15008171697277925
+          },
+          "4": {
+            "n_subjects": 7,
+            "macro_f1": 0.8444444444444444,
+            "mdd_recall": 0.6666666666666666,
+            "balanced_accuracy": 0.8333333333333333,
+            "nll": 0.48481058229580326,
+            "brier": 0.15746860068506788
+          },
+          "5": {
+            "n_subjects": 7,
+            "macro_f1": 0.41666666666666663,
+            "mdd_recall": 0.3333333333333333,
+            "balanced_accuracy": 0.41666666666666663,
+            "nll": 0.8796448900555227,
+            "brier": 0.3307058437391715
+          }
+        },
+        "unweighted_fold_mean": {
+          "macro_f1": 0.6801587301587302,
+          "mdd_recall": 0.55,
+          "balanced_accuracy": 0.6799999999999999,
+          "nll": 0.5868153520600893,
+          "brier": 0.20542667603242606
+        },
+        "pooled_oof": {
+          "n_subjects": 37,
+          "macro_f1": 0.6881226053639846,
+          "mdd_recall": 0.5625,
+          "balanced_accuracy": 0.6860119047619048,
+          "nll": 0.5800438143472981,
+          "brier": 0.20264376685328234,
+          "ece5": 0.1272134195031548,
+          "definition": "MDD probability vs MDD event rate; 5 equal-width bins",
+          "bins": [
+            {
+              "lower": 0.0,
+              "upper": 0.2,
+              "n": 4,
+              "mean_p_mdd": 0.0892585163237527,
+              "observed_mdd_rate": 0.0
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.4,
+              "n": 17,
+              "mean_p_mdd": 0.3088466121869929,
+              "observed_mdd_rate": 0.4117647058823529
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.6,
+              "n": 6,
+              "mean_p_mdd": 0.5085776001214981,
+              "observed_mdd_rate": 0.16666666666666666
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.8,
+              "n": 7,
+              "mean_p_mdd": 0.6781952125685555,
+              "observed_mdd_rate": 0.7142857142857143
+            },
+            {
+              "lower": 0.8,
+              "upper": 1.0,
+              "n": 3,
+              "mean_p_mdd": 0.9012814164161682,
+              "observed_mdd_rate": 1.0
+            }
+          ]
+        },
+        "uncertainty": null
+      },
+      "22": {
+        "fold_metrics": {
+          "1": {
+            "n_subjects": 7,
+            "macro_f1": 0.5333333333333333,
+            "mdd_recall": 0.3333333333333333,
+            "balanced_accuracy": 0.5416666666666666,
+            "nll": 0.5990349724957024,
+            "brier": 0.2194367159594271
+          },
+          "2": {
+            "n_subjects": 8,
+            "macro_f1": 0.873015873015873,
+            "mdd_recall": 0.75,
+            "balanced_accuracy": 0.875,
+            "nll": 0.5234246604366211,
+            "brier": 0.17264789728808652
+          },
+          "3": {
+            "n_subjects": 8,
+            "macro_f1": 0.6190476190476191,
+            "mdd_recall": 0.6666666666666666,
+            "balanced_accuracy": 0.6333333333333333,
+            "nll": 0.5605470289175284,
+            "brier": 0.19898105820901255
+          },
+          "4": {
+            "n_subjects": 7,
+            "macro_f1": 0.8444444444444444,
+            "mdd_recall": 0.6666666666666666,
+            "balanced_accuracy": 0.8333333333333333,
+            "nll": 0.5419309648840883,
+            "brier": 0.18157985167445484
+          },
+          "5": {
+            "n_subjects": 7,
+            "macro_f1": 0.5333333333333333,
+            "mdd_recall": 0.3333333333333333,
+            "balanced_accuracy": 0.5416666666666666,
+            "nll": 0.7607448481848823,
+            "brier": 0.28260047981094966
+          }
+        },
+        "unweighted_fold_mean": {
+          "macro_f1": 0.6806349206349206,
+          "mdd_recall": 0.55,
+          "balanced_accuracy": 0.6849999999999999,
+          "nll": 0.5971364949837644,
+          "brier": 0.2110492005883861
+        },
+        "pooled_oof": {
+          "n_subjects": 37,
+          "macro_f1": 0.6881226053639846,
+          "mdd_recall": 0.5625,
+          "balanced_accuracy": 0.6860119047619048,
+          "nll": 0.5941553787509705,
+          "brier": 0.20968516151596253,
+          "ece5": 0.11740481667220594,
+          "definition": "MDD probability vs MDD event rate; 5 equal-width bins",
+          "bins": [
+            {
+              "lower": 0.0,
+              "upper": 0.2,
+              "n": 8,
+              "mean_p_mdd": 0.10563863371498883,
+              "observed_mdd_rate": 0.25
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.4,
+              "n": 12,
+              "mean_p_mdd": 0.32119909798105556,
+              "observed_mdd_rate": 0.4166666666666667
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.6,
+              "n": 7,
+              "mean_p_mdd": 0.4996315581457956,
+              "observed_mdd_rate": 0.2857142857142857
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.8,
+              "n": 8,
+              "mean_p_mdd": 0.6624011918902397,
+              "observed_mdd_rate": 0.625
+            },
+            {
+              "lower": 0.8,
+              "upper": 1.0,
+              "n": 2,
+              "mean_p_mdd": 0.8765769898891449,
+              "observed_mdd_rate": 1.0
+            }
+          ]
+        },
+        "uncertainty": null
+      },
+      "33": {
+        "fold_metrics": {
+          "1": {
+            "n_subjects": 7,
+            "macro_f1": 0.7083333333333333,
+            "mdd_recall": 0.6666666666666666,
+            "balanced_accuracy": 0.7083333333333333,
+            "nll": 0.5629677202007577,
+            "brier": 0.19052516843420378
+          },
+          "2": {
+            "n_subjects": 8,
+            "macro_f1": 0.873015873015873,
+            "mdd_recall": 0.75,
+            "balanced_accuracy": 0.875,
+            "nll": 0.4375926466988745,
+            "brier": 0.14156697347253275
+          },
+          "3": {
+            "n_subjects": 8,
+            "macro_f1": 0.7333333333333334,
+            "mdd_recall": 0.6666666666666666,
+            "balanced_accuracy": 0.7333333333333334,
+            "nll": 0.7738477457761223,
+            "brier": 0.21309754172864032
+          },
+          "4": {
+            "n_subjects": 7,
+            "macro_f1": 0.8444444444444444,
+            "mdd_recall": 0.6666666666666666,
+            "balanced_accuracy": 0.8333333333333333,
+            "nll": 0.4616096856496776,
+            "brier": 0.15254040206106065
+          },
+          "5": {
+            "n_subjects": 7,
+            "macro_f1": 0.5333333333333333,
+            "mdd_recall": 0.3333333333333333,
+            "balanced_accuracy": 0.5416666666666666,
+            "nll": 0.8675262517265735,
+            "brier": 0.3222440920074477
+          }
+        },
+        "unweighted_fold_mean": {
+          "macro_f1": 0.7384920634920634,
+          "mdd_recall": 0.6166666666666666,
+          "balanced_accuracy": 0.7383333333333333,
+          "nll": 0.6207088100104011,
+          "brier": 0.20399483554077702
+        },
+        "pooled_oof": {
+          "n_subjects": 37,
+          "macro_f1": 0.7448275862068966,
+          "mdd_recall": 0.625,
+          "balanced_accuracy": 0.7410714285714286,
+          "nll": 0.6198986146713252,
+          "brier": 0.20255361511157757,
+          "ece5": 0.12577106314082,
+          "definition": "MDD probability vs MDD event rate; 5 equal-width bins",
+          "bins": [
+            {
+              "lower": 0.0,
+              "upper": 0.2,
+              "n": 8,
+              "mean_p_mdd": 0.06529645744012669,
+              "observed_mdd_rate": 0.25
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.4,
+              "n": 11,
+              "mean_p_mdd": 0.3308019610968503,
+              "observed_mdd_rate": 0.2727272727272727
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.6,
+              "n": 7,
+              "mean_p_mdd": 0.4599866143294743,
+              "observed_mdd_rate": 0.2857142857142857
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.8,
+              "n": 9,
+              "mean_p_mdd": 0.6501138077841865,
+              "observed_mdd_rate": 0.7777777777777778
+            },
+            {
+              "lower": 0.8,
+              "upper": 1.0,
+              "n": 2,
+              "mean_p_mdd": 0.9159013032913208,
+              "observed_mdd_rate": 1.0
+            }
+          ]
+        },
+        "uncertainty": null
+      }
+    },
+    "primary_seed_mean_of_fold_means": {
+      "macro_f1": 0.6997619047619047,
+      "mdd_recall": 0.5722222222222223,
+      "balanced_accuracy": 0.701111111111111,
+      "nll": 0.6015535523514183,
+      "brier": 0.20682357072052973
+    },
+    "separate_seed_mean_of_pooled_oof": {
+      "macro_f1": 0.7070242656449554,
+      "mdd_recall": 0.5833333333333334,
+      "balanced_accuracy": 0.7043650793650794,
+      "nll": 0.5980326025898646,
+      "brier": 0.20496084782694082
+    },
+    "note": "Seeds/folds are not additional independent subjects. u is evidence insufficiency."
+  },
+  "branches": {
+    "eeg": {
+      "experiment": "TC-01-37-fulltext",
+      "evaluation_scope": "fixed-split developmental comparison; previously viewed test cohort",
+      "independent_subjects": 37,
+      "seed_reports": {
+        "11": {
+          "fold_metrics": {
+            "1": {
+              "n_subjects": 7,
+              "macro_f1": 0.41666666666666663,
+              "mdd_recall": 0.3333333333333333,
+              "balanced_accuracy": 0.41666666666666663,
+              "nll": 2.0370596154046297,
+              "brier": 0.5139461854597576
+            },
+            "2": {
+              "n_subjects": 8,
+              "macro_f1": 0.6190476190476191,
+              "mdd_recall": 0.5,
+              "balanced_accuracy": 0.625,
+              "nll": 5.246583240258233,
+              "brier": 0.38704399783106586
+            },
+            "3": {
+              "n_subjects": 8,
+              "macro_f1": 0.6190476190476191,
+              "mdd_recall": 1.0,
+              "balanced_accuracy": 0.7,
+              "nll": 2.4182434999987383,
+              "brier": 0.2961820757022622
+            },
+            "4": {
+              "n_subjects": 7,
+              "macro_f1": 0.2857142857142857,
+              "mdd_recall": 0.3333333333333333,
+              "balanced_accuracy": 0.29166666666666663,
+              "nll": 5.262156619877272,
+              "brier": 0.6452511750897474
+            },
+            "5": {
+              "n_subjects": 7,
+              "macro_f1": 0.125,
+              "mdd_recall": 0.0,
+              "balanced_accuracy": 0.125,
+              "nll": 2.0285173678313475,
+              "brier": 0.6018345069020464
+            }
+          },
+          "unweighted_fold_mean": {
+            "macro_f1": 0.4130952380952381,
+            "mdd_recall": 0.4333333333333333,
+            "balanced_accuracy": 0.43166666666666664,
+            "nll": 3.3985120686740444,
+            "brier": 0.48885158819697583
+          },
+          "pooled_oof": {
+            "n_subjects": 37,
+            "macro_f1": 0.4307692307692308,
+            "mdd_recall": 0.4375,
+            "balanced_accuracy": 0.4330357142857143,
+            "nll": 3.421966193076987,
+            "brier": 0.4808927475791212,
+            "ece5": 0.5091862631520303,
+            "definition": "MDD probability vs MDD event rate; 5 equal-width bins",
+            "bins": [
+              {
+                "lower": 0.0,
+                "upper": 0.2,
+                "n": 16,
+                "mean_p_mdd": 0.03451816520849341,
+                "observed_mdd_rate": 0.5625
+              },
+              {
+                "lower": 0.2,
+                "upper": 0.4,
+                "n": 2,
+                "mean_p_mdd": 0.33171020448207855,
+                "observed_mdd_rate": 0.0
+              },
+              {
+                "lower": 0.4,
+                "upper": 0.6,
+                "n": 1,
+                "mean_p_mdd": 0.567051351070404,
+                "observed_mdd_rate": 0.0
+              },
+              {
+                "lower": 0.6,
+                "upper": 0.8,
+                "n": 4,
+                "mean_p_mdd": 0.6636561304330826,
+                "observed_mdd_rate": 0.25
+              },
+              {
+                "lower": 0.8,
+                "upper": 1.0,
+                "n": 14,
+                "mean_p_mdd": 0.964791864156723,
+                "observed_mdd_rate": 0.42857142857142855
+              }
+            ]
+          },
+          "uncertainty": null
+        },
+        "22": {
+          "fold_metrics": {
+            "1": {
+              "n_subjects": 7,
+              "macro_f1": 0.41666666666666663,
+              "mdd_recall": 0.3333333333333333,
+              "balanced_accuracy": 0.41666666666666663,
+              "nll": 2.1102544143916657,
+              "brier": 0.5239487549774131
+            },
+            "2": {
+              "n_subjects": 8,
+              "macro_f1": 0.6190476190476191,
+              "mdd_recall": 0.5,
+              "balanced_accuracy": 0.625,
+              "nll": 1.6892607010609004,
+              "brier": 0.3579334736546601
+            },
+            "3": {
+              "n_subjects": 8,
+              "macro_f1": 0.6190476190476191,
+              "mdd_recall": 1.0,
+              "balanced_accuracy": 0.7,
+              "nll": 2.8448477426341694,
+              "brier": 0.3218479799730725
+            },
+            "4": {
+              "n_subjects": 7,
+              "macro_f1": 0.2857142857142857,
+              "mdd_recall": 0.3333333333333333,
+              "balanced_accuracy": 0.29166666666666663,
+              "nll": 3.95410229416567,
+              "brier": 0.581921563674239
+            },
+            "5": {
+              "n_subjects": 7,
+              "macro_f1": 0.36363636363636365,
+              "mdd_recall": 0.0,
+              "balanced_accuracy": 0.5,
+              "nll": 1.2331721795247728,
+              "brier": 0.3759039645152672
+            }
+          },
+          "unweighted_fold_mean": {
+            "macro_f1": 0.4608225108225108,
+            "mdd_recall": 0.4333333333333333,
+            "balanced_accuracy": 0.5066666666666666,
+            "nll": 2.3663274663554357,
+            "brier": 0.4323111473589304
+          },
+          "pooled_oof": {
+            "n_subjects": 37,
+            "macro_f1": 0.5044642857142857,
+            "mdd_recall": 0.4375,
+            "balanced_accuracy": 0.5044642857142857,
+            "nll": 2.360961345030684,
+            "brier": 0.4273154489510891,
+            "ece5": 0.41998506708159766,
+            "definition": "MDD probability vs MDD event rate; 5 equal-width bins",
+            "bins": [
+              {
+                "lower": 0.0,
+                "upper": 0.2,
+                "n": 19,
+                "mean_p_mdd": 0.05040662954828995,
+                "observed_mdd_rate": 0.42105263157894735
+              },
+              {
+                "lower": 0.2,
+                "upper": 0.4,
+                "n": 2,
+                "mean_p_mdd": 0.2184446081519127,
+                "observed_mdd_rate": 0.5
+              },
+              {
+                "lower": 0.4,
+                "upper": 0.6,
+                "n": 0,
+                "mean_p_mdd": null,
+                "observed_mdd_rate": null
+              },
+              {
+                "lower": 0.6,
+                "upper": 0.8,
+                "n": 3,
+                "mean_p_mdd": 0.725322405497233,
+                "observed_mdd_rate": 0.3333333333333333
+              },
+              {
+                "lower": 0.8,
+                "upper": 1.0,
+                "n": 13,
+                "mean_p_mdd": 0.9813919571729807,
+                "observed_mdd_rate": 0.46153846153846156
+              }
+            ]
+          },
+          "uncertainty": null
+        },
+        "33": {
+          "fold_metrics": {
+            "1": {
+              "n_subjects": 7,
+              "macro_f1": 0.2857142857142857,
+              "mdd_recall": 0.3333333333333333,
+              "balanced_accuracy": 0.29166666666666663,
+              "nll": 1.854629955956817,
+              "brier": 0.49613484849552275
+            },
+            "2": {
+              "n_subjects": 8,
+              "macro_f1": 0.6190476190476191,
+              "mdd_recall": 0.5,
+              "balanced_accuracy": 0.625,
+              "nll": 2.348904256610761,
+              "brier": 0.37256353897730554
+            },
+            "3": {
+              "n_subjects": 8,
+              "macro_f1": 0.6190476190476191,
+              "mdd_recall": 0.6666666666666666,
+              "balanced_accuracy": 0.6333333333333333,
+              "nll": 3.8270361726724573,
+              "brier": 0.3758837538550275
+            },
+            "4": {
+              "n_subjects": 7,
+              "macro_f1": 0.41666666666666663,
+              "mdd_recall": 0.3333333333333333,
+              "balanced_accuracy": 0.41666666666666663,
+              "nll": 3.3906711891799017,
+              "brier": 0.5456758526285789
+            },
+            "5": {
+              "n_subjects": 7,
+              "macro_f1": 0.3,
+              "mdd_recall": 0.0,
+              "balanced_accuracy": 0.375,
+              "nll": 1.0760392353885626,
+              "brier": 0.3922193691972365
+            }
+          },
+          "unweighted_fold_mean": {
+            "macro_f1": 0.4480952380952381,
+            "mdd_recall": 0.36666666666666664,
+            "balanced_accuracy": 0.4683333333333334,
+            "nll": 2.4994561619617,
+            "brier": 0.43649547263073424
+          },
+          "pooled_oof": {
+            "n_subjects": 37,
+            "macro_f1": 0.47261815453863465,
+            "mdd_recall": 0.375,
+            "balanced_accuracy": 0.4732142857142857,
+            "nll": 2.5312677323768304,
+            "brier": 0.4331294279704873,
+            "ece5": 0.4811920432239238,
+            "definition": "MDD probability vs MDD event rate; 5 equal-width bins",
+            "bins": [
+              {
+                "lower": 0.0,
+                "upper": 0.2,
+                "n": 18,
+                "mean_p_mdd": 0.037608287976791784,
+                "observed_mdd_rate": 0.5555555555555556
+              },
+              {
+                "lower": 0.2,
+                "upper": 0.4,
+                "n": 3,
+                "mean_p_mdd": 0.34349172314008075,
+                "observed_mdd_rate": 0.0
+              },
+              {
+                "lower": 0.4,
+                "upper": 0.6,
+                "n": 3,
+                "mean_p_mdd": 0.5286228358745575,
+                "observed_mdd_rate": 0.0
+              },
+              {
+                "lower": 0.6,
+                "upper": 0.8,
+                "n": 2,
+                "mean_p_mdd": 0.746612936258316,
+                "observed_mdd_rate": 0.0
+              },
+              {
+                "lower": 0.8,
+                "upper": 1.0,
+                "n": 11,
+                "mean_p_mdd": 0.9428622939369895,
+                "observed_mdd_rate": 0.5454545454545454
+              }
+            ]
+          },
+          "uncertainty": null
+        }
+      },
+      "primary_seed_mean_of_fold_means": {
+        "macro_f1": 0.4406709956709957,
+        "mdd_recall": 0.41111111111111104,
+        "balanced_accuracy": 0.4688888888888889,
+        "nll": 2.7547652323303935,
+        "brier": 0.45255273606221347
+      },
+      "separate_seed_mean_of_pooled_oof": {
+        "macro_f1": 0.46928389034071705,
+        "mdd_recall": 0.4166666666666667,
+        "balanced_accuracy": 0.4702380952380952,
+        "nll": 2.771398423494834,
+        "brier": 0.44711254150023255
+      },
+      "note": "Seeds/folds are not additional independent subjects. u is evidence insufficiency.",
+      "output": "eeg"
+    },
+    "speech": {
+      "experiment": "TC-01-37-fulltext",
+      "evaluation_scope": "fixed-split developmental comparison; previously viewed test cohort",
+      "independent_subjects": 37,
+      "seed_reports": {
+        "11": {
+          "fold_metrics": {
+            "1": {
+              "n_subjects": 7,
+              "macro_f1": 0.7083333333333333,
+              "mdd_recall": 0.6666666666666666,
+              "balanced_accuracy": 0.7083333333333333,
+              "nll": 1.6346509843663777,
+              "brier": 0.29198722592448634
+            },
+            "2": {
+              "n_subjects": 8,
+              "macro_f1": 0.6190476190476191,
+              "mdd_recall": 0.75,
+              "balanced_accuracy": 0.625,
+              "nll": 1.0259779284373975,
+              "brier": 0.2969813840195531
+            },
+            "3": {
+              "n_subjects": 8,
+              "macro_f1": 0.6666666666666667,
+              "mdd_recall": 0.3333333333333333,
+              "balanced_accuracy": 0.6666666666666666,
+              "nll": 0.7492038252400357,
+              "brier": 0.20161556687896637
+            },
+            "4": {
+              "n_subjects": 7,
+              "macro_f1": 0.8444444444444444,
+              "mdd_recall": 0.6666666666666666,
+              "balanced_accuracy": 0.8333333333333333,
+              "nll": 1.0771477062258261,
+              "brier": 0.17657266862722848
+            },
+            "5": {
+              "n_subjects": 7,
+              "macro_f1": 0.5714285714285714,
+              "mdd_recall": 0.6666666666666666,
+              "balanced_accuracy": 0.5833333333333333,
+              "nll": 0.8744173357086839,
+              "brier": 0.276561549360752
+            }
+          },
+          "unweighted_fold_mean": {
+            "macro_f1": 0.6819841269841269,
+            "mdd_recall": 0.6166666666666666,
+            "balanced_accuracy": 0.6833333333333333,
+            "nll": 1.0722795559956642,
+            "brier": 0.24874367896219723
+          },
+          "pooled_oof": {
+            "n_subjects": 37,
+            "macro_f1": 0.6946736684171042,
+            "mdd_recall": 0.625,
+            "balanced_accuracy": 0.6934523809523809,
+            "nll": 1.0622963841493427,
+            "brier": 0.24877366796149797,
+            "ece5": 0.20955161399654793,
+            "definition": "MDD probability vs MDD event rate; 5 equal-width bins",
+            "bins": [
+              {
+                "lower": 0.0,
+                "upper": 0.2,
+                "n": 17,
+                "mean_p_mdd": 0.03837152588633163,
+                "observed_mdd_rate": 0.23529411764705882
+              },
+              {
+                "lower": 0.2,
+                "upper": 0.4,
+                "n": 4,
+                "mean_p_mdd": 0.28423216193914413,
+                "observed_mdd_rate": 0.5
+              },
+              {
+                "lower": 0.4,
+                "upper": 0.6,
+                "n": 3,
+                "mean_p_mdd": 0.5378683308760325,
+                "observed_mdd_rate": 0.3333333333333333
+              },
+              {
+                "lower": 0.6,
+                "upper": 0.8,
+                "n": 2,
+                "mean_p_mdd": 0.710847944021225,
+                "observed_mdd_rate": 0.5
+              },
+              {
+                "lower": 0.8,
+                "upper": 1.0,
+                "n": 11,
+                "mean_p_mdd": 0.9552139477296309,
+                "observed_mdd_rate": 0.7272727272727273
+              }
+            ]
+          },
+          "uncertainty": null
+        },
+        "22": {
+          "fold_metrics": {
+            "1": {
+              "n_subjects": 7,
+              "macro_f1": 0.7083333333333333,
+              "mdd_recall": 0.6666666666666666,
+              "balanced_accuracy": 0.7083333333333333,
+              "nll": 1.7459649130663981,
+              "brier": 0.2823925621495546
+            },
+            "2": {
+              "n_subjects": 8,
+              "macro_f1": 0.6190476190476191,
+              "mdd_recall": 0.75,
+              "balanced_accuracy": 0.625,
+              "nll": 1.1052110016705854,
+              "brier": 0.2719104820402956
+            },
+            "3": {
+              "n_subjects": 8,
+              "macro_f1": 0.38461538461538464,
+              "mdd_recall": 0.0,
+              "balanced_accuracy": 0.5,
+              "nll": 2.5853428185590146,
+              "brier": 0.39610842953003583
+            },
+            "4": {
+              "n_subjects": 7,
+              "macro_f1": 0.8444444444444444,
+              "mdd_recall": 0.6666666666666666,
+              "balanced_accuracy": 0.8333333333333333,
+              "nll": 0.6905249315243067,
+              "brier": 0.18747064009429057
+            },
+            "5": {
+              "n_subjects": 7,
+              "macro_f1": 0.41666666666666663,
+              "mdd_recall": 0.3333333333333333,
+              "balanced_accuracy": 0.41666666666666663,
+              "nll": 1.076374033167366,
+              "brier": 0.3174865376799703
+            }
+          },
+          "unweighted_fold_mean": {
+            "macro_f1": 0.5946214896214896,
+            "mdd_recall": 0.4833333333333333,
+            "balanced_accuracy": 0.6166666666666666,
+            "nll": 1.4406835395975341,
+            "brier": 0.2910737302988294
+          },
+          "pooled_oof": {
+            "n_subjects": 37,
+            "macro_f1": 0.6314176245210728,
+            "mdd_recall": 0.5,
+            "balanced_accuracy": 0.6309523809523809,
+            "nll": 1.4625534515173864,
+            "brier": 0.29339458032511784,
+            "ece5": 0.23535688175399772,
+            "definition": "MDD probability vs MDD event rate; 5 equal-width bins",
+            "bins": [
+              {
+                "lower": 0.0,
+                "upper": 0.2,
+                "n": 19,
+                "mean_p_mdd": 0.03885138987205114,
+                "observed_mdd_rate": 0.3157894736842105
+              },
+              {
+                "lower": 0.2,
+                "upper": 0.4,
+                "n": 3,
+                "mean_p_mdd": 0.3569880624612172,
+                "observed_mdd_rate": 0.3333333333333333
+              },
+              {
+                "lower": 0.4,
+                "upper": 0.6,
+                "n": 3,
+                "mean_p_mdd": 0.46991802255312604,
+                "observed_mdd_rate": 0.3333333333333333
+              },
+              {
+                "lower": 0.6,
+                "upper": 0.8,
+                "n": 3,
+                "mean_p_mdd": 0.6925378243128458,
+                "observed_mdd_rate": 0.6666666666666666
+              },
+              {
+                "lower": 0.8,
+                "upper": 1.0,
+                "n": 9,
+                "mean_p_mdd": 0.9875610338317024,
+                "observed_mdd_rate": 0.6666666666666666
+              }
+            ]
+          },
+          "uncertainty": null
+        },
+        "33": {
+          "fold_metrics": {
+            "1": {
+              "n_subjects": 7,
+              "macro_f1": 0.7083333333333333,
+              "mdd_recall": 1.0,
+              "balanced_accuracy": 0.75,
+              "nll": 1.4443757501648808,
+              "brier": 0.1836199295773116
+            },
+            "2": {
+              "n_subjects": 8,
+              "macro_f1": 0.75,
+              "mdd_recall": 0.75,
+              "balanced_accuracy": 0.75,
+              "nll": 0.9131226199145208,
+              "brier": 0.2360774271909759
+            },
+            "3": {
+              "n_subjects": 8,
+              "macro_f1": 0.38461538461538464,
+              "mdd_recall": 0.0,
+              "balanced_accuracy": 0.5,
+              "nll": 2.078042495604655,
+              "brier": 0.3582051750761484
+            },
+            "4": {
+              "n_subjects": 7,
+              "macro_f1": 0.8444444444444444,
+              "mdd_recall": 0.6666666666666666,
+              "balanced_accuracy": 0.8333333333333333,
+              "nll": 0.4793052988284837,
+              "brier": 0.15300350893888964
+            },
+            "5": {
+              "n_subjects": 7,
+              "macro_f1": 0.2222222222222222,
+              "mdd_recall": 0.0,
+              "balanced_accuracy": 0.25,
+              "nll": 1.425042913416225,
+              "brier": 0.4317901387860763
+            }
+          },
+          "unweighted_fold_mean": {
+            "macro_f1": 0.5819230769230769,
+            "mdd_recall": 0.4833333333333333,
+            "balanced_accuracy": 0.6166666666666666,
+            "nll": 1.267977815585753,
+            "brier": 0.2725392359138804
+          },
+          "pooled_oof": {
+            "n_subjects": 37,
+            "macro_f1": 0.6314176245210728,
+            "mdd_recall": 0.5,
+            "balanced_accuracy": 0.6309523809523809,
+            "nll": 1.2802807746221767,
+            "brier": 0.2738690772771064,
+            "ece5": 0.26338470630759514,
+            "definition": "MDD probability vs MDD event rate; 5 equal-width bins",
+            "bins": [
+              {
+                "lower": 0.0,
+                "upper": 0.2,
+                "n": 20,
+                "mean_p_mdd": 0.040213434319775844,
+                "observed_mdd_rate": 0.25
+              },
+              {
+                "lower": 0.2,
+                "upper": 0.4,
+                "n": 2,
+                "mean_p_mdd": 0.298188179731369,
+                "observed_mdd_rate": 1.0
+              },
+              {
+                "lower": 0.4,
+                "upper": 0.6,
+                "n": 3,
+                "mean_p_mdd": 0.47115422288576764,
+                "observed_mdd_rate": 0.3333333333333333
+              },
+              {
+                "lower": 0.6,
+                "upper": 0.8,
+                "n": 0,
+                "mean_p_mdd": null,
+                "observed_mdd_rate": null
+              },
+              {
+                "lower": 0.8,
+                "upper": 1.0,
+                "n": 12,
+                "mean_p_mdd": 0.9777013758818308,
+                "observed_mdd_rate": 0.6666666666666666
+              }
+            ]
+          },
+          "uncertainty": null
+        }
+      },
+      "primary_seed_mean_of_fold_means": {
+        "macro_f1": 0.6195095645095644,
+        "mdd_recall": 0.5277777777777777,
+        "balanced_accuracy": 0.6388888888888888,
+        "nll": 1.2603136370596504,
+        "brier": 0.27078554839163566
+      },
+      "separate_seed_mean_of_pooled_oof": {
+        "macro_f1": 0.6525029724864165,
+        "mdd_recall": 0.5416666666666666,
+        "balanced_accuracy": 0.6517857142857143,
+        "nll": 1.2683768700963018,
+        "brier": 0.27201244185457407
+      },
+      "note": "Seeds/folds are not additional independent subjects. u is evidence insufficiency.",
+      "output": "speech"
+    },
+    "text": {
+      "experiment": "TC-01-37-fulltext",
+      "evaluation_scope": "fixed-split developmental comparison; previously viewed test cohort",
+      "independent_subjects": 37,
+      "seed_reports": {
+        "11": {
+          "fold_metrics": {
+            "1": {
+              "n_subjects": 7,
+              "macro_f1": 0.65,
+              "mdd_recall": 0.3333333333333333,
+              "balanced_accuracy": 0.6666666666666666,
+              "nll": 1.2806166548399005,
+              "brier": 0.30099996503572807
+            },
+            "2": {
+              "n_subjects": 8,
+              "macro_f1": 0.873015873015873,
+              "mdd_recall": 0.75,
+              "balanced_accuracy": 0.875,
+              "nll": 0.3270721966364023,
+              "brier": 0.1020195618239099
+            },
+            "3": {
+              "n_subjects": 8,
+              "macro_f1": 0.7333333333333334,
+              "mdd_recall": 0.6666666666666666,
+              "balanced_accuracy": 0.7333333333333334,
+              "nll": 1.1243537787648283,
+              "brier": 0.2537225325299859
+            },
+            "4": {
+              "n_subjects": 7,
+              "macro_f1": 1.0,
+              "mdd_recall": 1.0,
+              "balanced_accuracy": 1.0,
+              "nll": 0.1484914658922166,
+              "brier": 0.025686973632664666
+            },
+            "5": {
+              "n_subjects": 7,
+              "macro_f1": 0.5714285714285714,
+              "mdd_recall": 0.6666666666666666,
+              "balanced_accuracy": 0.5833333333333333,
+              "nll": 1.3162232466607267,
+              "brier": 0.4117874130908906
+            }
+          },
+          "unweighted_fold_mean": {
+            "macro_f1": 0.7655555555555555,
+            "mdd_recall": 0.6833333333333333,
+            "balanced_accuracy": 0.7716666666666667,
+            "nll": 0.8393514685588149,
+            "brier": 0.21884328922263582
+          },
+          "pooled_oof": {
+            "n_subjects": 37,
+            "macro_f1": 0.7757575757575758,
+            "mdd_recall": 0.6875,
+            "balanced_accuracy": 0.7723214285714286,
+            "nll": 0.8332088479718852,
+            "brier": 0.21662857343638242,
+            "ece5": 0.17681953074360218,
+            "definition": "MDD probability vs MDD event rate; 5 equal-width bins",
+            "bins": [
+              {
+                "lower": 0.0,
+                "upper": 0.2,
+                "n": 17,
+                "mean_p_mdd": 0.04836174484123202,
+                "observed_mdd_rate": 0.23529411764705882
+              },
+              {
+                "lower": 0.2,
+                "upper": 0.4,
+                "n": 4,
+                "mean_p_mdd": 0.29839181154966354,
+                "observed_mdd_rate": 0.25
+              },
+              {
+                "lower": 0.4,
+                "upper": 0.6,
+                "n": 3,
+                "mean_p_mdd": 0.48332740863164264,
+                "observed_mdd_rate": 0.3333333333333333
+              },
+              {
+                "lower": 0.6,
+                "upper": 0.8,
+                "n": 2,
+                "mean_p_mdd": 0.7168286144733429,
+                "observed_mdd_rate": 1.0
+              },
+              {
+                "lower": 0.8,
+                "upper": 1.0,
+                "n": 11,
+                "mean_p_mdd": 0.9231436415152117,
+                "observed_mdd_rate": 0.7272727272727273
+              }
+            ]
+          },
+          "uncertainty": null
+        },
+        "22": {
+          "fold_metrics": {
+            "1": {
+              "n_subjects": 7,
+              "macro_f1": 0.65,
+              "mdd_recall": 0.3333333333333333,
+              "balanced_accuracy": 0.6666666666666666,
+              "nll": 1.6397464418665346,
+              "brier": 0.2983463282222193
+            },
+            "2": {
+              "n_subjects": 8,
+              "macro_f1": 0.6190476190476191,
+              "mdd_recall": 0.5,
+              "balanced_accuracy": 0.625,
+              "nll": 0.4511074523605604,
+              "brier": 0.15830375017353154
+            },
+            "3": {
+              "n_subjects": 8,
+              "macro_f1": 0.6190476190476191,
+              "mdd_recall": 0.6666666666666666,
+              "balanced_accuracy": 0.6333333333333333,
+              "nll": 0.963546186006361,
+              "brier": 0.28580493571139176
+            },
+            "4": {
+              "n_subjects": 7,
+              "macro_f1": 1.0,
+              "mdd_recall": 1.0,
+              "balanced_accuracy": 1.0,
+              "nll": 0.24769962323580916,
+              "brier": 0.06164841427920874
+            },
+            "5": {
+              "n_subjects": 7,
+              "macro_f1": 0.41666666666666663,
+              "mdd_recall": 0.3333333333333333,
+              "balanced_accuracy": 0.41666666666666663,
+              "nll": 1.8116458858267601,
+              "brier": 0.4576342084755329
+            }
+          },
+          "unweighted_fold_mean": {
+            "macro_f1": 0.660952380952381,
+            "mdd_recall": 0.5666666666666667,
+            "balanced_accuracy": 0.6683333333333333,
+            "nll": 1.022749117859205,
+            "brier": 0.25234752737237687
+          },
+          "pooled_oof": {
+            "n_subjects": 37,
+            "macro_f1": 0.6636363636363636,
+            "mdd_recall": 0.5625,
+            "balanced_accuracy": 0.6622023809523809,
+            "nll": 1.0056992638767324,
+            "brier": 0.2507100579437328,
+            "ece5": 0.19274771865457296,
+            "definition": "MDD probability vs MDD event rate; 5 equal-width bins",
+            "bins": [
+              {
+                "lower": 0.0,
+                "upper": 0.2,
+                "n": 15,
+                "mean_p_mdd": 0.03021336377908786,
+                "observed_mdd_rate": 0.26666666666666666
+              },
+              {
+                "lower": 0.2,
+                "upper": 0.4,
+                "n": 7,
+                "mean_p_mdd": 0.3212975135871342,
+                "observed_mdd_rate": 0.2857142857142857
+              },
+              {
+                "lower": 0.4,
+                "upper": 0.6,
+                "n": 3,
+                "mean_p_mdd": 0.5327577094237009,
+                "observed_mdd_rate": 0.6666666666666666
+              },
+              {
+                "lower": 0.6,
+                "upper": 0.8,
+                "n": 1,
+                "mean_p_mdd": 0.6904894113540649,
+                "observed_mdd_rate": 0.0
+              },
+              {
+                "lower": 0.8,
+                "upper": 1.0,
+                "n": 11,
+                "mean_p_mdd": 0.9312333789738741,
+                "observed_mdd_rate": 0.7272727272727273
+              }
+            ]
+          },
+          "uncertainty": null
+        },
+        "33": {
+          "fold_metrics": {
+            "1": {
+              "n_subjects": 7,
+              "macro_f1": 0.65,
+              "mdd_recall": 0.3333333333333333,
+              "balanced_accuracy": 0.6666666666666666,
+              "nll": 1.3592636244705878,
+              "brier": 0.2881950972253695
+            },
+            "2": {
+              "n_subjects": 8,
+              "macro_f1": 0.75,
+              "mdd_recall": 0.75,
+              "balanced_accuracy": 0.75,
+              "nll": 0.48650938684622025,
+              "brier": 0.15396636804066144
+            },
+            "3": {
+              "n_subjects": 8,
+              "macro_f1": 0.6190476190476191,
+              "mdd_recall": 0.6666666666666666,
+              "balanced_accuracy": 0.6333333333333333,
+              "nll": 1.1465025328876655,
+              "brier": 0.27005861272164383
+            },
+            "4": {
+              "n_subjects": 7,
+              "macro_f1": 1.0,
+              "mdd_recall": 1.0,
+              "balanced_accuracy": 1.0,
+              "nll": 0.22220006273356938,
+              "brier": 0.05865040632764982
+            },
+            "5": {
+              "n_subjects": 7,
+              "macro_f1": 0.5714285714285714,
+              "mdd_recall": 0.6666666666666666,
+              "balanced_accuracy": 0.5833333333333333,
+              "nll": 1.9537603807845128,
+              "brier": 0.3918040572358695
+            }
+          },
+          "unweighted_fold_mean": {
+            "macro_f1": 0.7180952380952381,
+            "mdd_recall": 0.6833333333333333,
+            "balanced_accuracy": 0.7266666666666667,
+            "nll": 1.0336471975445112,
+            "brier": 0.23253490831023882
+          },
+          "pooled_oof": {
+            "n_subjects": 37,
+            "macro_f1": 0.7247023809523809,
+            "mdd_recall": 0.6875,
+            "balanced_accuracy": 0.7247023809523809,
+            "nll": 1.0219098333457235,
+            "brier": 0.23142558842218008,
+            "ece5": 0.24089492210564584,
+            "definition": "MDD probability vs MDD event rate; 5 equal-width bins",
+            "bins": [
+              {
+                "lower": 0.0,
+                "upper": 0.2,
+                "n": 18,
+                "mean_p_mdd": 0.046247572586354285,
+                "observed_mdd_rate": 0.2777777777777778
+              },
+              {
+                "lower": 0.2,
+                "upper": 0.4,
+                "n": 2,
+                "mean_p_mdd": 0.24877355992794037,
+                "observed_mdd_rate": 0.0
+              },
+              {
+                "lower": 0.4,
+                "upper": 0.6,
+                "n": 3,
+                "mean_p_mdd": 0.5200947523117065,
+                "observed_mdd_rate": 0.0
+              },
+              {
+                "lower": 0.6,
+                "upper": 0.8,
+                "n": 2,
+                "mean_p_mdd": 0.7273064255714417,
+                "observed_mdd_rate": 1.0
+              },
+              {
+                "lower": 0.8,
+                "upper": 1.0,
+                "n": 12,
+                "mean_p_mdd": 0.9285291582345963,
+                "observed_mdd_rate": 0.75
+              }
+            ]
+          },
+          "uncertainty": null
+        }
+      },
+      "primary_seed_mean_of_fold_means": {
+        "macro_f1": 0.7148677248677249,
+        "mdd_recall": 0.6444444444444445,
+        "balanced_accuracy": 0.7222222222222223,
+        "nll": 0.9652492613208437,
+        "brier": 0.23457524163508384
+      },
+      "separate_seed_mean_of_pooled_oof": {
+        "macro_f1": 0.7213654401154401,
+        "mdd_recall": 0.6458333333333334,
+        "balanced_accuracy": 0.7197420634920636,
+        "nll": 0.953605981731447,
+        "brier": 0.2329214066007651
+      },
+      "note": "Seeds/folds are not additional independent subjects. u is evidence insufficiency.",
+      "output": "text"
+    }
+  },
+  "baseline_comparison": {
+    "TC-00-weighted-37-fulltext": {
+      "experiment": "TC-00-weighted-37-fulltext",
+      "evaluation_scope": "fixed-split developmental comparison; previously viewed test cohort",
+      "independent_subjects": 37,
+      "seed_reports": {
+        "11": {
+          "fold_metrics": {
+            "1": {
+              "n_subjects": 7,
+              "macro_f1": 0.65,
+              "mdd_recall": 0.3333333333333333,
+              "balanced_accuracy": 0.6666666666666666,
+              "nll": 1.130029510155474,
+              "brier": 0.28836485720078564
+            },
+            "2": {
+              "n_subjects": 8,
+              "macro_f1": 0.873015873015873,
+              "mdd_recall": 0.75,
+              "balanced_accuracy": 0.875,
+              "nll": 0.38967154982898805,
+              "brier": 0.12311054655419866
+            },
+            "3": {
+              "n_subjects": 8,
+              "macro_f1": 0.6190476190476191,
+              "mdd_recall": 0.6666666666666666,
+              "balanced_accuracy": 0.6333333333333333,
+              "nll": 0.8968059045646104,
+              "brier": 0.284035699982332
+            },
+            "4": {
+              "n_subjects": 7,
+              "macro_f1": 1.0,
+              "mdd_recall": 1.0,
+              "balanced_accuracy": 1.0,
+              "nll": 0.22100613415492862,
+              "brier": 0.046002830147949945
+            },
+            "5": {
+              "n_subjects": 7,
+              "macro_f1": 0.5714285714285714,
+              "mdd_recall": 0.6666666666666666,
+              "balanced_accuracy": 0.5833333333333333,
+              "nll": 1.0484521453757722,
+              "brier": 0.37264030352271044
+            }
+          },
+          "unweighted_fold_mean": {
+            "macro_f1": 0.7426984126984127,
+            "mdd_recall": 0.6833333333333333,
+            "balanced_accuracy": 0.7516666666666667,
+            "nll": 0.7371930488159546,
+            "brier": 0.22283084748159535
+          },
+          "pooled_oof": {
+            "n_subjects": 37,
+            "macro_f1": 0.7501875468867216,
+            "mdd_recall": 0.6875,
+            "balanced_accuracy": 0.7485119047619048,
+            "nll": 0.7321144368365409,
+            "brier": 0.22178988941600994,
+            "ece5": 0.17379700191117625,
+            "definition": "MDD probability vs MDD event rate; 5 equal-width bins",
+            "bins": [
+              {
+                "lower": 0.0,
+                "upper": 0.2,
+                "n": 16,
+                "mean_p_mdd": 0.06892457185313106,
+                "observed_mdd_rate": 0.25
+              },
+              {
+                "lower": 0.2,
+                "upper": 0.4,
+                "n": 6,
+                "mean_p_mdd": 0.31263700127601624,
+                "observed_mdd_rate": 0.16666666666666666
+              },
+              {
+                "lower": 0.4,
+                "upper": 0.6,
+                "n": 2,
+                "mean_p_mdd": 0.5330014824867249,
+                "observed_mdd_rate": 1.0
+              },
+              {
+                "lower": 0.6,
+                "upper": 0.8,
+                "n": 3,
+                "mean_p_mdd": 0.6984672546386719,
+                "observed_mdd_rate": 0.6666666666666666
+              },
+              {
+                "lower": 0.8,
+                "upper": 1.0,
+                "n": 10,
+                "mean_p_mdd": 0.8628061413764954,
+                "observed_mdd_rate": 0.7
+              }
+            ]
+          },
+          "uncertainty": null
+        },
+        "22": {
+          "fold_metrics": {
+            "1": {
+              "n_subjects": 7,
+              "macro_f1": 0.65,
+              "mdd_recall": 0.3333333333333333,
+              "balanced_accuracy": 0.6666666666666666,
+              "nll": 1.184441866110218,
+              "brier": 0.2885486276750675
+            },
+            "2": {
+              "n_subjects": 8,
+              "macro_f1": 0.75,
+              "mdd_recall": 0.75,
+              "balanced_accuracy": 0.75,
+              "nll": 0.5177752415958351,
+              "brier": 0.1787144826024116
+            },
+            "3": {
+              "n_subjects": 8,
+              "macro_f1": 0.6190476190476191,
+              "mdd_recall": 0.6666666666666666,
+              "balanced_accuracy": 0.6333333333333333,
+              "nll": 0.6818552327968573,
+              "brier": 0.2447497827926745
+            },
+            "4": {
+              "n_subjects": 7,
+              "macro_f1": 1.0,
+              "mdd_recall": 1.0,
+              "balanced_accuracy": 1.0,
+              "nll": 0.30549987893384684,
+              "brier": 0.07680642778714905
+            },
+            "5": {
+              "n_subjects": 7,
+              "macro_f1": 0.41666666666666663,
+              "mdd_recall": 0.3333333333333333,
+              "balanced_accuracy": 0.41666666666666663,
+              "nll": 1.2481245084806125,
+              "brier": 0.40102638969091403
+            }
+          },
+          "unweighted_fold_mean": {
+            "macro_f1": 0.6871428571428572,
+            "mdd_recall": 0.6166666666666666,
+            "balanced_accuracy": 0.6933333333333334,
+            "nll": 0.7875393455834739,
+            "brier": 0.23796914210964334
+          },
+          "pooled_oof": {
+            "n_subjects": 37,
+            "macro_f1": 0.6946736684171042,
+            "mdd_recall": 0.625,
+            "balanced_accuracy": 0.6934523809523809,
+            "nll": 0.777392096481467,
+            "brier": 0.23655092538466493,
+            "ece5": 0.14735081315937695,
+            "definition": "MDD probability vs MDD event rate; 5 equal-width bins",
+            "bins": [
+              {
+                "lower": 0.0,
+                "upper": 0.2,
+                "n": 15,
+                "mean_p_mdd": 0.08367243393998554,
+                "observed_mdd_rate": 0.26666666666666666
+              },
+              {
+                "lower": 0.2,
+                "upper": 0.4,
+                "n": 6,
+                "mean_p_mdd": 0.2724759771682633,
+                "observed_mdd_rate": 0.3333333333333333
+              },
+              {
+                "lower": 0.4,
+                "upper": 0.6,
+                "n": 2,
+                "mean_p_mdd": 0.5060277596116066,
+                "observed_mdd_rate": 0.5
+              },
+              {
+                "lower": 0.6,
+                "upper": 0.8,
+                "n": 6,
+                "mean_p_mdd": 0.7137808601061503,
+                "observed_mdd_rate": 0.5
+              },
+              {
+                "lower": 0.8,
+                "upper": 1.0,
+                "n": 8,
+                "mean_p_mdd": 0.8808977223932744,
+                "observed_mdd_rate": 0.75
+              }
+            ]
+          },
+          "uncertainty": null
+        },
+        "33": {
+          "fold_metrics": {
+            "1": {
+              "n_subjects": 7,
+              "macro_f1": 0.65,
+              "mdd_recall": 0.3333333333333333,
+              "balanced_accuracy": 0.6666666666666666,
+              "nll": 1.1178706318535272,
+              "brier": 0.2873927941315267
+            },
+            "2": {
+              "n_subjects": 8,
+              "macro_f1": 0.873015873015873,
+              "mdd_recall": 0.75,
+              "balanced_accuracy": 0.875,
+              "nll": 0.511759297279339,
+              "brier": 0.15482815632770294
+            },
+            "3": {
+              "n_subjects": 8,
+              "macro_f1": 0.6190476190476191,
+              "mdd_recall": 0.6666666666666666,
+              "balanced_accuracy": 0.6333333333333333,
+              "nll": 0.8882765868341327,
+              "brier": 0.25566632306061265
+            },
+            "4": {
+              "n_subjects": 7,
+              "macro_f1": 1.0,
+              "mdd_recall": 1.0,
+              "balanced_accuracy": 1.0,
+              "nll": 0.28910189180861895,
+              "brier": 0.07721814994187452
+            },
+            "5": {
+              "n_subjects": 7,
+              "macro_f1": 0.5714285714285714,
+              "mdd_recall": 0.6666666666666666,
+              "balanced_accuracy": 0.5833333333333333,
+              "nll": 1.175377358598821,
+              "brier": 0.3547621746912834
+            }
+          },
+          "unweighted_fold_mean": {
+            "macro_f1": 0.7426984126984127,
+            "mdd_recall": 0.6833333333333333,
+            "balanced_accuracy": 0.7516666666666667,
+            "nll": 0.7964771532748878,
+            "brier": 0.22597351963060003
+          },
+          "pooled_oof": {
+            "n_subjects": 37,
+            "macro_f1": 0.7501875468867216,
+            "mdd_recall": 0.6875,
+            "balanced_accuracy": 0.7485119047619048,
+            "nll": 0.7912631418576904,
+            "brier": 0.22485318017457614,
+            "ece5": 0.1595432884185701,
+            "definition": "MDD probability vs MDD event rate; 5 equal-width bins",
+            "bins": [
+              {
+                "lower": 0.0,
+                "upper": 0.2,
+                "n": 18,
+                "mean_p_mdd": 0.0747798786809047,
+                "observed_mdd_rate": 0.2777777777777778
+              },
+              {
+                "lower": 0.2,
+                "upper": 0.4,
+                "n": 2,
+                "mean_p_mdd": 0.25120818614959717,
+                "observed_mdd_rate": 0.0
+              },
+              {
+                "lower": 0.4,
+                "upper": 0.6,
+                "n": 4,
+                "mean_p_mdd": 0.5050678849220276,
+                "observed_mdd_rate": 0.25
+              },
+              {
+                "lower": 0.6,
+                "upper": 0.8,
+                "n": 4,
+                "mean_p_mdd": 0.7598438113927841,
+                "observed_mdd_rate": 0.75
+              },
+              {
+                "lower": 0.8,
+                "upper": 1.0,
+                "n": 9,
+                "mean_p_mdd": 0.8541195922427707,
+                "observed_mdd_rate": 0.7777777777777778
+              }
+            ]
+          },
+          "uncertainty": null
+        }
+      },
+      "primary_seed_mean_of_fold_means": {
+        "macro_f1": 0.7241798941798941,
+        "mdd_recall": 0.6611111111111111,
+        "balanced_accuracy": 0.7322222222222222,
+        "nll": 0.7737365158914388,
+        "brier": 0.22892450307394627
+      },
+      "separate_seed_mean_of_pooled_oof": {
+        "macro_f1": 0.7316829207301825,
+        "mdd_recall": 0.6666666666666666,
+        "balanced_accuracy": 0.7301587301587302,
+        "nll": 0.7669232250585661,
+        "brier": 0.227731331658417
+      },
+      "note": "Seeds/folds are not additional independent subjects. u is evidence insufficiency."
+    },
+    "TC-00-mean-37-fulltext": {
+      "experiment": "TC-00-mean-37-fulltext",
+      "evaluation_scope": "fixed-split developmental comparison; previously viewed test cohort",
+      "independent_subjects": 37,
+      "seed_reports": {
+        "11": {
+          "fold_metrics": {
+            "1": {
+              "n_subjects": 7,
+              "macro_f1": 0.5333333333333333,
+              "mdd_recall": 0.3333333333333333,
+              "balanced_accuracy": 0.5416666666666666,
+              "nll": 0.6722284495809817,
+              "brier": 0.24159576949892878
+            },
+            "2": {
+              "n_subjects": 8,
+              "macro_f1": 0.75,
+              "mdd_recall": 0.75,
+              "balanced_accuracy": 0.75,
+              "nll": 0.4778479608596364,
+              "brier": 0.1543128072946408
+            },
+            "3": {
+              "n_subjects": 8,
+              "macro_f1": 0.7333333333333334,
+              "mdd_recall": 0.6666666666666666,
+              "balanced_accuracy": 0.7333333333333334,
+              "nll": 0.44273909968356195,
+              "brier": 0.1478906320680292
+            },
+            "4": {
+              "n_subjects": 7,
+              "macro_f1": 0.8444444444444444,
+              "mdd_recall": 0.6666666666666666,
+              "balanced_accuracy": 0.8333333333333333,
+              "nll": 0.5061415673293949,
+              "brier": 0.16469226002162787
+            },
+            "5": {
+              "n_subjects": 7,
+              "macro_f1": 0.41666666666666663,
+              "mdd_recall": 0.3333333333333333,
+              "balanced_accuracy": 0.41666666666666663,
+              "nll": 0.8165163106968262,
+              "brier": 0.30522674213075324
+            }
+          },
+          "unweighted_fold_mean": {
+            "macro_f1": 0.6555555555555556,
+            "mdd_recall": 0.55,
+            "balanced_accuracy": 0.655,
+            "nll": 0.5830946776300803,
+            "brier": 0.202743642202796
+          },
+          "pooled_oof": {
+            "n_subjects": 37,
+            "macro_f1": 0.6636363636363636,
+            "mdd_recall": 0.5625,
+            "balanced_accuracy": 0.6622023809523809,
+            "nll": 0.576456777772865,
+            "brier": 0.19995218693136563,
+            "ece5": 0.10145669750191247,
+            "definition": "MDD probability vs MDD event rate; 5 equal-width bins",
+            "bins": [
+              {
+                "lower": 0.0,
+                "upper": 0.2,
+                "n": 3,
+                "mean_p_mdd": 0.10823028850575155,
+                "observed_mdd_rate": 0.0
+              },
+              {
+                "lower": 0.2,
+                "upper": 0.4,
+                "n": 16,
+                "mean_p_mdd": 0.32144115053714906,
+                "observed_mdd_rate": 0.375
+              },
+              {
+                "lower": 0.4,
+                "upper": 0.6,
+                "n": 8,
+                "mean_p_mdd": 0.493952841158413,
+                "observed_mdd_rate": 0.25
+              },
+              {
+                "lower": 0.6,
+                "upper": 0.8,
+                "n": 7,
+                "mean_p_mdd": 0.6739394666094866,
+                "observed_mdd_rate": 0.7142857142857143
+              },
+              {
+                "lower": 0.8,
+                "upper": 1.0,
+                "n": 3,
+                "mean_p_mdd": 0.8872603707843356,
+                "observed_mdd_rate": 1.0
+              }
+            ]
+          },
+          "uncertainty": null
+        },
+        "22": {
+          "fold_metrics": {
+            "1": {
+              "n_subjects": 7,
+              "macro_f1": 0.5333333333333333,
+              "mdd_recall": 0.3333333333333333,
+              "balanced_accuracy": 0.5416666666666666,
+              "nll": 0.5977107618248741,
+              "brier": 0.21401968427941273
+            },
+            "2": {
+              "n_subjects": 8,
+              "macro_f1": 0.873015873015873,
+              "mdd_recall": 0.75,
+              "balanced_accuracy": 0.875,
+              "nll": 0.5483672914469329,
+              "brier": 0.17777303923021562
+            },
+            "3": {
+              "n_subjects": 8,
+              "macro_f1": 0.6190476190476191,
+              "mdd_recall": 0.6666666666666666,
+              "balanced_accuracy": 0.6333333333333333,
+              "nll": 0.6399329858161097,
+              "brier": 0.22636279620442118
+            },
+            "4": {
+              "n_subjects": 7,
+              "macro_f1": 0.7083333333333333,
+              "mdd_recall": 0.6666666666666666,
+              "balanced_accuracy": 0.7083333333333333,
+              "nll": 0.5658289733800467,
+              "brier": 0.19163121261891147
+            },
+            "5": {
+              "n_subjects": 7,
+              "macro_f1": 0.5333333333333333,
+              "mdd_recall": 0.3333333333333333,
+              "balanced_accuracy": 0.5416666666666666,
+              "nll": 0.7299943039119599,
+              "brier": 0.26903084472038563
+            }
+          },
+          "unweighted_fold_mean": {
+            "macro_f1": 0.6534126984126984,
+            "mdd_recall": 0.55,
+            "balanced_accuracy": 0.6599999999999999,
+            "nll": 0.6163668632759847,
+            "brier": 0.21576351541066932
+          },
+          "pooled_oof": {
+            "n_subjects": 37,
+            "macro_f1": 0.6636363636363636,
+            "mdd_recall": 0.5625,
+            "balanced_accuracy": 0.6622023809523809,
+            "nll": 0.6151659592411487,
+            "brier": 0.21502321283265036,
+            "ece5": 0.1011517330840139,
+            "definition": "MDD probability vs MDD event rate; 5 equal-width bins",
+            "bins": [
+              {
+                "lower": 0.0,
+                "upper": 0.2,
+                "n": 5,
+                "mean_p_mdd": 0.08933346506770855,
+                "observed_mdd_rate": 0.2
+              },
+              {
+                "lower": 0.2,
+                "upper": 0.4,
+                "n": 15,
+                "mean_p_mdd": 0.300962837126604,
+                "observed_mdd_rate": 0.3333333333333333
+              },
+              {
+                "lower": 0.4,
+                "upper": 0.6,
+                "n": 8,
+                "mean_p_mdd": 0.5159233616650454,
+                "observed_mdd_rate": 0.375
+              },
+              {
+                "lower": 0.6,
+                "upper": 0.8,
+                "n": 6,
+                "mean_p_mdd": 0.6481319576430703,
+                "observed_mdd_rate": 0.8333333333333334
+              },
+              {
+                "lower": 0.8,
+                "upper": 1.0,
+                "n": 3,
+                "mean_p_mdd": 0.8217096196280584,
+                "observed_mdd_rate": 0.6666666666666666
+              }
+            ]
+          },
+          "uncertainty": null
+        },
+        "33": {
+          "fold_metrics": {
+            "1": {
+              "n_subjects": 7,
+              "macro_f1": 0.7083333333333333,
+              "mdd_recall": 0.6666666666666666,
+              "balanced_accuracy": 0.7083333333333333,
+              "nll": 0.5350844084023767,
+              "brier": 0.18156618770313485
+            },
+            "2": {
+              "n_subjects": 8,
+              "macro_f1": 0.873015873015873,
+              "mdd_recall": 0.75,
+              "balanced_accuracy": 0.875,
+              "nll": 0.4697011490125272,
+              "brier": 0.15123575665734232
+            },
+            "3": {
+              "n_subjects": 8,
+              "macro_f1": 0.7333333333333334,
+              "mdd_recall": 0.6666666666666666,
+              "balanced_accuracy": 0.7333333333333334,
+              "nll": 0.7886053471048651,
+              "brier": 0.21594949535083707
+            },
+            "4": {
+              "n_subjects": 7,
+              "macro_f1": 0.8444444444444444,
+              "mdd_recall": 0.6666666666666666,
+              "balanced_accuracy": 0.8333333333333333,
+              "nll": 0.495372476157414,
+              "brier": 0.16643166705973692
+            },
+            "5": {
+              "n_subjects": 7,
+              "macro_f1": 0.5333333333333333,
+              "mdd_recall": 0.3333333333333333,
+              "balanced_accuracy": 0.5416666666666666,
+              "nll": 0.8103891891303088,
+              "brier": 0.2999529923581456
+            }
+          },
+          "unweighted_fold_mean": {
+            "macro_f1": 0.7384920634920634,
+            "mdd_recall": 0.6166666666666666,
+            "balanced_accuracy": 0.7383333333333333,
+            "nll": 0.6198305139614984,
+            "brier": 0.20302721982583932
+          },
+          "pooled_oof": {
+            "n_subjects": 37,
+            "macro_f1": 0.7448275862068966,
+            "mdd_recall": 0.625,
+            "balanced_accuracy": 0.7410714285714286,
+            "nll": 0.6203344455343198,
+            "brier": 0.2019767012408799,
+            "ece5": 0.11505185029329108,
+            "definition": "MDD probability vs MDD event rate; 5 equal-width bins",
+            "bins": [
+              {
+                "lower": 0.0,
+                "upper": 0.2,
+                "n": 8,
+                "mean_p_mdd": 0.07808702124153417,
+                "observed_mdd_rate": 0.125
+              },
+              {
+                "lower": 0.2,
+                "upper": 0.4,
+                "n": 10,
+                "mean_p_mdd": 0.30221035884654457,
+                "observed_mdd_rate": 0.4
+              },
+              {
+                "lower": 0.4,
+                "upper": 0.6,
+                "n": 11,
+                "mean_p_mdd": 0.5026198074827086,
+                "observed_mdd_rate": 0.36363636363636365
+              },
+              {
+                "lower": 0.6,
+                "upper": 0.8,
+                "n": 6,
+                "mean_p_mdd": 0.6465038432216311,
+                "observed_mdd_rate": 0.8333333333333334
+              },
+              {
+                "lower": 0.8,
+                "upper": 1.0,
+                "n": 2,
+                "mean_p_mdd": 0.8730383018652598,
+                "observed_mdd_rate": 1.0
+              }
+            ]
+          },
+          "uncertainty": null
+        }
+      },
+      "primary_seed_mean_of_fold_means": {
+        "macro_f1": 0.6824867724867726,
+        "mdd_recall": 0.5722222222222223,
+        "balanced_accuracy": 0.6844444444444444,
+        "nll": 0.6064306849558544,
+        "brier": 0.20717812581310155
+      },
+      "separate_seed_mean_of_pooled_oof": {
+        "macro_f1": 0.690700104493208,
+        "mdd_recall": 0.5833333333333334,
+        "balanced_accuracy": 0.6884920634920636,
+        "nll": 0.6039857275161111,
+        "brier": 0.20565070033496533
+      },
+      "note": "Seeds/folds are not additional independent subjects. u is evidence insufficiency."
+    }
+  }
+}

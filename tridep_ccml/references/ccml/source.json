@@ -1,0 +1,41 @@
+{
+  "repository": "https://github.com/Lihong-Liu/CCML",
+  "branch": "master",
+  "commit": "8938ae23bcba5d6ff1508b35fc9a6664eca54f71",
+  "commit_url": "https://github.com/Lihong-Liu/CCML/commit/8938ae23bcba5d6ff1508b35fc9a6664eca54f71",
+  "commit_date": "2024-10-04T03:53:56Z",
+  "retrieved_date": "2026-09-17",
+  "retrieval_method": "GitHub connector: commit and contents API pinned to commit",
+  "files": [
+    {
+      "path": "model.py",
+      "git_blob_sha": "838034b4794210510e174f449316fc4c1c1c0dd0",
+      "url": "https://github.com/Lihong-Liu/CCML/blob/8938ae23bcba5d6ff1508b35fc9a6664eca54f71/model.py",
+      "sha256": "f863220502c1159861c0420ca2840928c9ae0b48f8a23ea7c03caabda2c6e459",
+      "size_bytes": 2708,
+      "git_blob_verified": true
+    },
+    {
+      "path": "loss_function.py",
+      "git_blob_sha": "7eff8340cf5b21a662d6e3846434f144eb9fa461",
+      "url": "https://github.com/Lihong-Liu/CCML/blob/8938ae23bcba5d6ff1508b35fc9a6664eca54f71/loss_function.py",
+      "sha256": "3c4bcfe0989904f24a3d0b3775ec5a94d23094cc25b551deeb32a05bce4795dd",
+      "size_bytes": 5657,
+      "git_blob_verified": true
+    },
+    {
+      "path": "main.py",
+      "git_blob_sha": "d6c82b65cfafb7e67fa7a3ed34172d0815909a72",
+      "url": "https://github.com/Lihong-Liu/CCML/blob/8938ae23bcba5d6ff1508b35fc9a6664eca54f71/main.py",
+      "sha256": "3587b569d3d56ca5f4663b59e77fea2b2c0898319a7e8f016ac0368a7672a4c9",
+      "size_bytes": 3878,
+      "git_blob_verified": true
+    }
+  ],
+  "adaptation_notes": [
+    "Original upstream files retained as reference only, not used as the production implementation.",
+    "Local equations preserve Softplus, residual-before-enhancement, actual view count, evidence sum, and the upstream loss combination.",
+    "Local implementation safely returns zero consistent evidence when all common evidence is zero; invalid inputs raise rather than being patched by nan_to_num.",
+    "Local MODMA protocol uses independent 128-to-2 heads, Adamax, 60 epochs, and frozen parent representations; original main.py hyperparameters are not adopted."
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "cohort_id": "MODMA-37-v1",
+  "cohort_sha256": "b63fbf1c51fb89af4468d2d72233a12081c16f2c3179ff39bfed068448de7f80",
+  "folds_sha256": "a28ebe92c94428128313586d3a5524b2f03befcbc473215f4b0b2dcb49c3284d",
+  "plan_path": "output/plans/MODMA_TRI-DEP_CCML_实验计划.md",
+  "plan_sha256": "015d99f76cfbe9f7d0049868c8219c7db5900c9a6f7e5f76a510da52c29d5a59",
+  "python": "../S00/.venv/Scripts/python.exe",
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "folds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "modalities": [
+    "eeg",
+    "speech",
+    "text"
+  ],
+  "epochs": 60,
+  "batch_size": 8,
+  "optimizer": "Adamax",
+  "learning_rate": 0.001,
+  "weight_decay": 0.0,
+  "gradient_clip": 1.0,
+  "rho": 1.25,
+  "delta": 1.0,
+  "gamma": 1.0,
+  "anneal_epochs": 50,
+  "threshold": 0.5,
+  "tie_class": 0,
+  "trainable_parameters": 774,
+  "checkpoint_selection": "fixed_final_epoch",
+  "representation_policy": "same_fold_same_seed_parent_frozen_eval",
+  "class_weights": null,
+  "resampling": false,
+  "calibration_fitting": false,
+  "validation_search": false,
+  "test_interpretation": "fixed_split_development_comparison",
+  "tc06": {
+    "status": "deferred_second_phase",
+    "epochs": 60,
+    "batch_size": 8,
+    "head_lr": 0.001,
+    "representation_lr": 0.0001
+  },
+  "synthetic_perturbation": {
+    "modality": "eeg",
+    "operation": "multiply_evidence",
+    "factors": [
+      0.0,
+      0.5,
+      1.0,
+      2.0
+    ],
+    "clinical_or_ood_claim": false
+  }
+}
