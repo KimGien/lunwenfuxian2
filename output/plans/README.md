@@ -25,3 +25,5 @@
 - [MODMA_TRI-DEP_CCML_实验计划](MODMA_TRI-DEP_CCML_实验计划.md)
 - [TC00_EEG修订_原始TRIDEP固定对照计划](TC00_EEG修订_原始TRIDEP固定对照计划.md)
 - [TRI-DEP_递进实验路线](TRI-DEP_递进实验路线.md)
+- [模型与数据缺陷排查及性能改进后续计划_v1](模型与数据缺陷排查及性能改进后续计划_v1.md)
+- [模型优化第一批执行附表_v1](模型优化第一批执行附表_v1.md)

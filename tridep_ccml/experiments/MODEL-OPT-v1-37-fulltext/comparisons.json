@@ -1,0 +1,167 @@
+{
+  "clip_ST": {
+    "candidate": "M1-branch-ST",
+    "control": "M1-global-ST",
+    "delta": {
+      "macro_f1": -0.018638768638768677,
+      "balanced_accuracy": -0.017777777777777892,
+      "mdd_recall": -0.03888888888888897,
+      "auc": -2.220446049250313e-16,
+      "nll": -0.000134888347694484,
+      "brier": 7.85671249566855e-05
+    },
+    "paired_unit_f1_deltas": [
+      -0.029365079365079372,
+      0.024242424242424288,
+      -0.050793650793650835
+    ],
+    "improved_units": 1,
+    "unit": "seed",
+    "criteria": {
+      "f1_delta_ge_0.01": false,
+      "stability": false,
+      "BA_non_decreasing": false,
+      "recall_drop_le_0.05": true
+    },
+    "classification_pass": false,
+    "probability_pass": false
+  },
+  "clip_EST": {
+    "candidate": "M1-branch-EST",
+    "control": "M1-global-EST",
+    "delta": {
+      "macro_f1": -0.00925925925925919,
+      "balanced_accuracy": -0.011111111111111072,
+      "mdd_recall": -0.005555555555555536,
+      "auc": -0.013333333333333308,
+      "nll": -0.0021775226125317904,
+      "brier": -0.00112298462334523
+    },
+    "paired_unit_f1_deltas": [
+      -0.022857142857142798,
+      -0.004920634920634881,
+      0.0
+    ],
+    "improved_units": 0,
+    "unit": "seed",
+    "criteria": {
+      "f1_delta_ge_0.01": false,
+      "stability": false,
+      "BA_non_decreasing": false,
+      "recall_drop_le_0.05": true
+    },
+    "classification_pass": false,
+    "probability_pass": true
+  },
+  "speech_statistics": {
+    "candidate": "M1-stat-ST",
+    "control": "M1-mean-ST",
+    "delta": {
+      "macro_f1": -0.006507936507936574,
+      "balanced_accuracy": 0.0,
+      "mdd_recall": 0.0,
+      "auc": -0.02083333333333337,
+      "nll": 0.0023916171105564654,
+      "brier": 0.0007676574943414893
+    },
+    "paired_unit_f1_deltas": [
+      -0.003968253968253954,
+      -0.050555555555555465,
+      0.03499999999999992
+    ],
+    "improved_units": 1,
+    "unit": "seed",
+    "criteria": {
+      "f1_delta_ge_0.01": false,
+      "stability": false,
+      "BA_non_decreasing": true,
+      "recall_drop_le_0.05": true
+    },
+    "classification_pass": false,
+    "probability_pass": false
+  },
+  "EEG_global": {
+    "candidate": "M1-global-EST",
+    "control": "M1-global-ST",
+    "delta": {
+      "macro_f1": 0.009785954785954787,
+      "balanced_accuracy": 0.007777777777777661,
+      "mdd_recall": -0.011111111111111183,
+      "auc": 0.0019444444444444153,
+      "nll": -0.010830330216217265,
+      "brier": -0.003312299589529527
+    },
+    "paired_unit_f1_deltas": [
+      -0.010202020202020212,
+      0.008253968253968291,
+      0.03130591630591639
+    ],
+    "improved_units": 2,
+    "unit": "seed",
+    "criteria": {
+      "f1_delta_ge_0.01": false,
+      "stability": true,
+      "BA_non_decreasing": true,
+      "recall_drop_le_0.05": true
+    },
+    "classification_pass": false,
+    "probability_pass": true
+  },
+  "EEG_branch": {
+    "candidate": "M1-branch-EST",
+    "control": "M1-branch-ST",
+    "delta": {
+      "macro_f1": 0.019165464165464274,
+      "balanced_accuracy": 0.014444444444444482,
+      "mdd_recall": 0.022222222222222254,
+      "auc": -0.01138888888888867,
+      "nll": -0.012872964481054572,
+      "brier": -0.004513851337831443
+    },
+    "paired_unit_f1_deltas": [
+      -0.0036940836940836386,
+      -0.020909090909090877,
+      0.08209956709956723
+    ],
+    "improved_units": 1,
+    "unit": "seed",
+    "criteria": {
+      "f1_delta_ge_0.01": true,
+      "stability": false,
+      "BA_non_decreasing": true,
+      "recall_drop_le_0.05": true
+    },
+    "classification_pass": false,
+    "probability_pass": true
+  },
+  "covariance": {
+    "candidate": "M1-covariance",
+    "control": "M1-bandpower",
+    "delta": {
+      "macro_f1": -0.03071428571428575,
+      "balanced_accuracy": -0.015000000000000013,
+      "mdd_recall": 5.551115123125783e-17,
+      "auc": -0.08166666666666655,
+      "nll": 0.019547964117476502,
+      "brier": 0.007995898234710364
+    },
+    "paired_unit_f1_deltas": [
+      0.07777777777777778,
+      0.0,
+      -0.36825396825396833,
+      0.13690476190476186,
+      0.0
+    ],
+    "improved_units": 2,
+    "unit": "fold",
+    "criteria": {
+      "f1_delta_ge_0.01": false,
+      "stability": false,
+      "BA_non_decreasing": false,
+      "recall_drop_le_0.05": true,
+      "candidate_BA_above_chance": true
+    },
+    "classification_pass": false,
+    "probability_pass": false
+  }
+}

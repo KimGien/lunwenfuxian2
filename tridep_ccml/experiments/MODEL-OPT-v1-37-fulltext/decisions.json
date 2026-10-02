@@ -1,0 +1,8 @@
+{
+  "combination_registration_triggered": false,
+  "EEG_fusion_registration_supported": false,
+  "loss_balance": "not automatically triggered; separate mechanism hypothesis needed",
+  "backbone_finetuning": "not automatically triggered; separate mechanism hypothesis needed",
+  "independent_population": "requires new data",
+  "additional_search": false
+}

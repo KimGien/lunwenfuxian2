@@ -1,0 +1,22 @@
+{
+  "stage": "complete",
+  "completed_neural": 90,
+  "completed_linear": 10,
+  "completed_updates": 21600,
+  "outer_results_released": true,
+  "data_defect_audit": "skipped_by_user",
+  "report": {
+    "path": "output/analysis/model_opt_v1_20260930/模型优化第一批完成报告.md",
+    "sha256": "1ef3b4d80afa1ff53905091a8006968b954e6daf16d74bdf28aa0eea32bccd99"
+  },
+  "classification_passes": [],
+  "decisions": {
+    "combination_registration_triggered": false,
+    "EEG_fusion_registration_supported": false,
+    "loss_balance": "not automatically triggered; separate mechanism hypothesis needed",
+    "backbone_finetuning": "not automatically triggered; separate mechanism hypothesis needed",
+    "independent_population": "requires new data",
+    "additional_search": false
+  },
+  "updated_utc": "2026-09-30T09:50:42.455125+00:00"
+}
