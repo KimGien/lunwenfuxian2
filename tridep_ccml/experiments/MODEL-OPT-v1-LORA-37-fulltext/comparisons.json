@@ -1,0 +1,29 @@
+{
+  "text_lora": {
+    "candidate": "M3-lora-ST",
+    "control": "M3-frozen-ST",
+    "delta": {
+      "macro_f1": 0.0,
+      "balanced_accuracy": 0.0,
+      "mdd_recall": 0.0,
+      "auc": -0.015277777777777835,
+      "nll": -0.000590586077584887,
+      "brier": -0.00028752595911099577
+    },
+    "paired_unit_f1_deltas": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "improved_units": 0,
+    "unit": "seed",
+    "criteria": {
+      "f1_delta_ge_0.01": false,
+      "stability": false,
+      "BA_non_decreasing": true,
+      "recall_drop_le_0.05": true
+    },
+    "classification_pass": false,
+    "probability_pass": true
+  }
+}

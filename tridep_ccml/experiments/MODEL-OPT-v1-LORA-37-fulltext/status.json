@@ -1,0 +1,16 @@
+{
+  "stage": "complete",
+  "models_completed": 30,
+  "updates_completed": 7200,
+  "finetuning_executed": true,
+  "classification_pass": false,
+  "probability_pass": true,
+  "current_development_candidate": "M2-mean-ST",
+  "outer_results_released": true,
+  "data_defect_audit": "skipped_by_user",
+  "report": {
+    "path": "output/analysis/model_opt_lora_20261001/MacBERT有限微调阶段完成报告.md",
+    "sha256": "1d0ac2f12dfcaa15765c6a01b7185b353013146e37327bc49ce2167ec5f183d1"
+  },
+  "updated_utc": "2026-10-01T08:08:07.173724+00:00"
+}
