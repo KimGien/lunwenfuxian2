@@ -21,6 +21,7 @@ MODMA 37 人实验的源码、固定配置、完成报告与验收记录。实�
 | 模型优化第一批：裁剪、语音汇聚与 EEG 基线 | 2026-09-30 | [报告](output/analysis/model_opt_v1_20260930/模型优化第一批完成报告.md) |
 | 模型优化第二批：CCML 损失块平衡 | 2026-09-30 | [报告](output/analysis/model_opt_loss_20260930/CCML损失块平衡阶段完成报告.md) |
 | 模型优化第三批：MacBERT 有限微调 | 2026-10-01 | [报告](output/analysis/model_opt_lora_20261001/MacBERT有限微调阶段完成报告.md) |
+| 三批模型优化执行总结与上传索引 | 2026-10-01 | [报告](output/analysis/model_opt_summary_20261001/模型优化后续计划v1执行总结_20261001.md) |
 
 ## 运行与来源
 

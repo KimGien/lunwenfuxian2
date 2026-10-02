@@ -1,0 +1,21 @@
+{
+  "client_date": "2026-10-01",
+  "files": [
+    {
+      "path": "output/analysis/model_opt_summary_20261001/candidate_f1_changes.png",
+      "sha256": "8d27aa92f5413f6d4c8a70686748edec543433289b0138b59ab6d3b9e3899605"
+    },
+    {
+      "path": "output/analysis/model_opt_summary_20261001/来源清单.json",
+      "sha256": "f68867bbbecba6e2bf2e1a67414e74957ea529bae389fe378ceee4a30723196e"
+    },
+    {
+      "path": "output/analysis/model_opt_summary_20261001/模型优化后续计划v1执行总结_20261001.md",
+      "sha256": "11c6b85818bdbeb4334f59590797aec2e35df418acd065a0aaf4ec6bb8a44028"
+    },
+    {
+      "path": "output/analysis/model_opt_summary_20261001/汇总结果.json",
+      "sha256": "3b559311493d8cab2c5787b095c90e5225010664f96e4304fec238334b3e2489"
+    }
+  ]
+}

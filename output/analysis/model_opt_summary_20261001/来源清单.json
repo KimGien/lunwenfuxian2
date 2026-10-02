@@ -1,0 +1,98 @@
+{
+  "created_utc": "2026-10-01T08:21:15.756443+00:00",
+  "files": [
+    {
+      "path": "output/analysis/model_opt_v1_20260930/模型优化第一批完成报告.md",
+      "sha256": "1ef3b4d80afa1ff53905091a8006968b954e6daf16d74bdf28aa0eea32bccd99"
+    },
+    {
+      "path": "tridep_ccml/experiments/MODEL-OPT-v1-37-fulltext/metrics.json",
+      "sha256": "f5b5ee13dd466ce7f36b8ccac6a6b0c7ddcc92de3eeeb1c2aa6ab3994feda301"
+    },
+    {
+      "path": "tridep_ccml/experiments/MODEL-OPT-v1-37-fulltext/comparisons.json",
+      "sha256": "362a34636176e9235ba65bd6d46f57b7ea99568954303e3fe45c9c9c35ab0329"
+    },
+    {
+      "path": "tridep_ccml/experiments/MODEL-OPT-v1-37-fulltext/status.json",
+      "sha256": "922fe10b8d0a02cc87458c9bcd3da37d161e7c86dca7643f5b9a59a2b345d844"
+    },
+    {
+      "path": "tridep_ccml/experiments/MODEL-OPT-v1-37-fulltext/evaluation_complete.json",
+      "sha256": "4bdbc4bf9047bd5d5c494ca5b2f10076f640159ea6ba261d666370acfaf43a01"
+    },
+    {
+      "path": "tridep_ccml/experiments/MODEL-OPT-v1-37-fulltext/registration.json",
+      "sha256": "1faaacce208b7417c1b8d05da483990c870bad52b697bafca1536c3499ea479b"
+    },
+    {
+      "path": "output/analysis/model_opt_loss_20260930/CCML损失块平衡阶段完成报告.md",
+      "sha256": "c9d34ffad026cf18b6cba7e1880f70b020dae810760093eb9bee00f81b844a12"
+    },
+    {
+      "path": "tridep_ccml/experiments/MODEL-OPT-v1-LOSS-37-fulltext/metrics.json",
+      "sha256": "11c18b80d8d9ed77228eab92947b71a6e6f813a8908fba067e2787572e437824"
+    },
+    {
+      "path": "tridep_ccml/experiments/MODEL-OPT-v1-LOSS-37-fulltext/comparisons.json",
+      "sha256": "9275bcd42762afd9104feef70ac6566c57b9402fd61556434acdebe1e2bbe352"
+    },
+    {
+      "path": "tridep_ccml/experiments/MODEL-OPT-v1-LOSS-37-fulltext/status.json",
+      "sha256": "c45da729491d9ad0761058574828cd9c1b948b1dd81e56ca4da3b9556be30162"
+    },
+    {
+      "path": "tridep_ccml/experiments/MODEL-OPT-v1-LOSS-37-fulltext/evaluation_complete.json",
+      "sha256": "767ef30e00c054a8b3456665c3b76b3f7344a11d2612d00c48cc3b9ce617c786"
+    },
+    {
+      "path": "tridep_ccml/experiments/MODEL-OPT-v1-LOSS-37-fulltext/registration.json",
+      "sha256": "d9b9eea870e5b760b87b932fdad300feee61cb9a97dd2724aed69d0e70435702"
+    },
+    {
+      "path": "output/analysis/model_opt_lora_20261001/MacBERT有限微调阶段完成报告.md",
+      "sha256": "1d0ac2f12dfcaa15765c6a01b7185b353013146e37327bc49ce2167ec5f183d1"
+    },
+    {
+      "path": "tridep_ccml/experiments/MODEL-OPT-v1-LORA-37-fulltext/metrics.json",
+      "sha256": "8016beb436100825fc5766c461b82cafbae142921b1aad8d623503f6c5e58d0a"
+    },
+    {
+      "path": "tridep_ccml/experiments/MODEL-OPT-v1-LORA-37-fulltext/comparisons.json",
+      "sha256": "eabef4dde9070e4916cf48d56fd671bf8c7cf76f735d4e41d5b486a9197af14b"
+    },
+    {
+      "path": "tridep_ccml/experiments/MODEL-OPT-v1-LORA-37-fulltext/status.json",
+      "sha256": "8af00f2fe149a10dfbce85177d0be59f00e3633e97ca67f19d90248ad56cf1af"
+    },
+    {
+      "path": "tridep_ccml/experiments/MODEL-OPT-v1-LORA-37-fulltext/evaluation_complete.json",
+      "sha256": "231f5f29664fb43168a3286c8e5cfc595b516162ce892adc4f5cbc3cb26a1b3e"
+    },
+    {
+      "path": "tridep_ccml/experiments/MODEL-OPT-v1-LORA-37-fulltext/registration.json",
+      "sha256": "eeaea98fa0d4df5a678923274c6d4712839e0ef4fbcb74865b513ea7d59bcdd9"
+    },
+    {
+      "path": "output/plans/模型与数据缺陷排查及性能改进后续计划_v1.md",
+      "sha256": "a571f2be3fbfbe623906c94d73fdd19f31e13dde7feff8170f59274d2c702020"
+    },
+    {
+      "path": "tridep_ccml/model_opt_loss/core.py",
+      "sha256": "be58d5aaf4a6abf3d83d7389c198a49075c4c4f33733b9d484b2fc2a04d6dc68"
+    },
+    {
+      "path": "tridep_ccml/fusion_g1/model.py",
+      "sha256": "5e7c8cf05bc3b6094f91f28a828ab0d22e35da247012c20e27aa0d70fc3646a7"
+    },
+    {
+      "path": "tridep_ccml/experiments/MODEL-OPT-v1-LORA-37-fulltext/training_diagnostics.json",
+      "sha256": "dff5ee148f6307d046bcdb3511753d033aae6a444eaf88b44e2099a920f31c87"
+    },
+    {
+      "path": "tridep_ccml/experiments/MODEL-OPT-v1-LORA-37-fulltext/paired_subject_changes.json",
+      "sha256": "ecd97deb3307084c883b3efe0775edcb98ee8f17506fc73ffece0f7dba98656f"
+    }
+  ],
+  "summary_generation": "read completed reports and machine-readable metrics; no training or inference"
+}

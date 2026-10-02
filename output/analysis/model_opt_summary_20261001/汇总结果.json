@@ -1,0 +1,464 @@
+{
+  "as_of_client_date": "2026-10-01",
+  "scope": "model optimization follow-up plan v1, three completed batches",
+  "phases": [
+    {
+      "phase": 1,
+      "name": "数据与训练审计",
+      "status": "数据缺陷排查按用户要求跳过；必要训练诊断随实验完成"
+    },
+    {
+      "phase": 2,
+      "name": "修复已确认错误并建立新控制",
+      "status": "未触发；本轮未进行数据缺陷修复"
+    },
+    {
+      "phase": 3,
+      "name": "裁剪方式 统计汇聚 EEG协方差",
+      "status": "已完成；三项候选均未通过分类门槛"
+    },
+    {
+      "phase": 4,
+      "name": "损失块平衡 有限骨干微调",
+      "status": "已完成；仅 ST 均值损失通过分类门槛"
+    },
+    {
+      "phase": 5,
+      "name": "组合有效改动",
+      "status": "未触发；只有一项改动通过分类门槛"
+    },
+    {
+      "phase": 6,
+      "name": "冻结主流程并评价新受试者",
+      "status": "尚未执行；未完成全样本最终训练或独立人群评价"
+    }
+  ],
+  "candidates": [
+    {
+      "name": "ST 分支裁剪",
+      "plot_name": "ST branch clipping",
+      "experiment": "MODEL-OPT-v1-37-fulltext",
+      "comparison": "clip_ST",
+      "candidate": "M1-branch-ST",
+      "control": "M1-global-ST",
+      "candidate_metrics": {
+        "macro_f1": 0.7347474747474747,
+        "balanced_accuracy": 0.7399999999999999,
+        "mdd_recall": 0.5833333333333333,
+        "auc": 0.8416666666666665,
+        "nll": 0.5215818906548096,
+        "brier": 0.16947260558975275
+      },
+      "control_metrics": {
+        "macro_f1": 0.7533862433862434,
+        "balanced_accuracy": 0.7577777777777778,
+        "mdd_recall": 0.6222222222222222,
+        "auc": 0.8416666666666667,
+        "nll": 0.5217167790025041,
+        "brier": 0.16939403846479606
+      },
+      "delta": {
+        "macro_f1": -0.018638768638768677,
+        "balanced_accuracy": -0.017777777777777892,
+        "mdd_recall": -0.03888888888888897,
+        "auc": -2.220446049250313e-16,
+        "nll": -0.000134888347694484,
+        "brier": 7.85671249566855e-05
+      },
+      "paired_unit_f1_deltas": [
+        -0.029365079365079372,
+        0.024242424242424288,
+        -0.050793650793650835
+      ],
+      "improved_units": 1,
+      "unit": "seed",
+      "criteria": {
+        "f1_delta_ge_0.01": false,
+        "stability": false,
+        "BA_non_decreasing": false,
+        "recall_drop_le_0.05": true
+      },
+      "classification_pass": false,
+      "probability_pass": false
+    },
+    {
+      "name": "EST 分支裁剪",
+      "plot_name": "EST branch clipping",
+      "experiment": "MODEL-OPT-v1-37-fulltext",
+      "comparison": "clip_EST",
+      "candidate": "M1-branch-EST",
+      "control": "M1-global-EST",
+      "candidate_metrics": {
+        "macro_f1": 0.753912938912939,
+        "balanced_accuracy": 0.7544444444444444,
+        "mdd_recall": 0.6055555555555555,
+        "auc": 0.8302777777777778,
+        "nll": 0.5087089261737551,
+        "brier": 0.1649587542519213
+      },
+      "control_metrics": {
+        "macro_f1": 0.7631721981721982,
+        "balanced_accuracy": 0.7655555555555554,
+        "mdd_recall": 0.611111111111111,
+        "auc": 0.8436111111111111,
+        "nll": 0.5108864487862869,
+        "brier": 0.16608173887526653
+      },
+      "delta": {
+        "macro_f1": -0.00925925925925919,
+        "balanced_accuracy": -0.011111111111111072,
+        "mdd_recall": -0.005555555555555536,
+        "auc": -0.013333333333333308,
+        "nll": -0.0021775226125317904,
+        "brier": -0.00112298462334523
+      },
+      "paired_unit_f1_deltas": [
+        -0.022857142857142798,
+        -0.004920634920634881,
+        0.0
+      ],
+      "improved_units": 0,
+      "unit": "seed",
+      "criteria": {
+        "f1_delta_ge_0.01": false,
+        "stability": false,
+        "BA_non_decreasing": false,
+        "recall_drop_le_0.05": true
+      },
+      "classification_pass": false,
+      "probability_pass": true
+    },
+    {
+      "name": "ST 语音均值加标准差",
+      "plot_name": "Speech mean + standard deviation",
+      "experiment": "MODEL-OPT-v1-37-fulltext",
+      "comparison": "speech_statistics",
+      "candidate": "M1-stat-ST",
+      "control": "M1-mean-ST",
+      "candidate_metrics": {
+        "macro_f1": 0.7468783068783068,
+        "balanced_accuracy": 0.7577777777777778,
+        "mdd_recall": 0.6222222222222222,
+        "auc": 0.8208333333333333,
+        "nll": 0.5241083889682948,
+        "brier": 0.1701616928920405
+      },
+      "control_metrics": {
+        "macro_f1": 0.7533862433862434,
+        "balanced_accuracy": 0.7577777777777778,
+        "mdd_recall": 0.6222222222222222,
+        "auc": 0.8416666666666667,
+        "nll": 0.5217167718577383,
+        "brier": 0.169394035397699
+      },
+      "delta": {
+        "macro_f1": -0.006507936507936574,
+        "balanced_accuracy": 0.0,
+        "mdd_recall": 0.0,
+        "auc": -0.02083333333333337,
+        "nll": 0.0023916171105564654,
+        "brier": 0.0007676574943414893
+      },
+      "paired_unit_f1_deltas": [
+        -0.003968253968253954,
+        -0.050555555555555465,
+        0.03499999999999992
+      ],
+      "improved_units": 1,
+      "unit": "seed",
+      "criteria": {
+        "f1_delta_ge_0.01": false,
+        "stability": false,
+        "BA_non_decreasing": true,
+        "recall_drop_le_0.05": true
+      },
+      "classification_pass": false,
+      "probability_pass": false
+    },
+    {
+      "name": "EEG 协方差替代频带功率",
+      "plot_name": "EEG covariance (5 folds)",
+      "experiment": "MODEL-OPT-v1-37-fulltext",
+      "comparison": "covariance",
+      "candidate": "M1-covariance",
+      "control": "M1-bandpower",
+      "candidate_metrics": {
+        "macro_f1": 0.47121933621933626,
+        "balanced_accuracy": 0.5233333333333333,
+        "mdd_recall": 0.36666666666666664,
+        "auc": 0.5141666666666667,
+        "nll": 0.7833516206123525,
+        "brier": 0.2855826415787581
+      },
+      "control_metrics": {
+        "macro_f1": 0.501933621933622,
+        "balanced_accuracy": 0.5383333333333333,
+        "mdd_recall": 0.3666666666666666,
+        "auc": 0.5958333333333332,
+        "nll": 0.763803656494876,
+        "brier": 0.27758674334404776
+      },
+      "delta": {
+        "macro_f1": -0.03071428571428575,
+        "balanced_accuracy": -0.015000000000000013,
+        "mdd_recall": 5.551115123125783e-17,
+        "auc": -0.08166666666666655,
+        "nll": 0.019547964117476502,
+        "brier": 0.007995898234710364
+      },
+      "paired_unit_f1_deltas": [
+        0.07777777777777778,
+        0.0,
+        -0.36825396825396833,
+        0.13690476190476186,
+        0.0
+      ],
+      "improved_units": 2,
+      "unit": "fold",
+      "criteria": {
+        "f1_delta_ge_0.01": false,
+        "stability": false,
+        "BA_non_decreasing": false,
+        "recall_drop_le_0.05": true,
+        "candidate_BA_above_chance": true
+      },
+      "classification_pass": false,
+      "probability_pass": false
+    },
+    {
+      "name": "ST 单分支损失改为均值",
+      "plot_name": "ST mean single-view loss",
+      "experiment": "MODEL-OPT-v1-LOSS-37-fulltext",
+      "comparison": "loss_ST",
+      "candidate": "M2-mean-ST",
+      "control": "M2-sum-ST",
+      "candidate_metrics": {
+        "macro_f1": 0.7815993265993266,
+        "balanced_accuracy": 0.7838888888888889,
+        "mdd_recall": 0.6611111111111111,
+        "auc": 0.8472222222222222,
+        "nll": 0.5193117586391747,
+        "brier": 0.16827925200694163
+      },
+      "control_metrics": {
+        "macro_f1": 0.7533862433862434,
+        "balanced_accuracy": 0.7577777777777778,
+        "mdd_recall": 0.6222222222222222,
+        "auc": 0.8416666666666667,
+        "nll": 0.5217167790025041,
+        "brier": 0.16939403846479606
+      },
+      "delta": {
+        "macro_f1": 0.028213083213083245,
+        "balanced_accuracy": 0.026111111111111085,
+        "mdd_recall": 0.03888888888888886,
+        "auc": 0.005555555555555536,
+        "nll": -0.0024050203633294576,
+        "brier": -0.0011147864578544275
+      },
+      "paired_unit_f1_deltas": [
+        0.0,
+        0.024242424242424288,
+        0.06039682539682545
+      ],
+      "improved_units": 2,
+      "unit": "seed",
+      "criteria": {
+        "f1_delta_ge_0.01": true,
+        "stability": true,
+        "BA_non_decreasing": true,
+        "recall_drop_le_0.05": true
+      },
+      "classification_pass": true,
+      "probability_pass": true
+    },
+    {
+      "name": "EST 单分支损失改为均值",
+      "plot_name": "EST mean single-view loss",
+      "experiment": "MODEL-OPT-v1-LOSS-37-fulltext",
+      "comparison": "loss_EST",
+      "candidate": "M2-mean-EST",
+      "control": "M2-sum-EST",
+      "candidate_metrics": {
+        "macro_f1": 0.7485690235690236,
+        "balanced_accuracy": 0.7516666666666666,
+        "mdd_recall": 0.5833333333333334,
+        "auc": 0.8549999999999999,
+        "nll": 0.5083316948958907,
+        "brier": 0.16467266220288496
+      },
+      "control_metrics": {
+        "macro_f1": 0.7631721981721982,
+        "balanced_accuracy": 0.7655555555555554,
+        "mdd_recall": 0.611111111111111,
+        "auc": 0.8436111111111111,
+        "nll": 0.5108864487862869,
+        "brier": 0.16608173887526653
+      },
+      "delta": {
+        "macro_f1": -0.014603174603174618,
+        "balanced_accuracy": -0.01388888888888884,
+        "mdd_recall": -0.02777777777777768,
+        "auc": 0.011388888888888782,
+        "nll": -0.0025547538903961664,
+        "brier": -0.0014090766723815762
+      },
+      "paired_unit_f1_deltas": [
+        -0.03888888888888897,
+        -0.004920634920634881,
+        0.0
+      ],
+      "improved_units": 0,
+      "unit": "seed",
+      "criteria": {
+        "f1_delta_ge_0.01": false,
+        "stability": false,
+        "BA_non_decreasing": false,
+        "recall_drop_le_0.05": true
+      },
+      "classification_pass": false,
+      "probability_pass": true
+    },
+    {
+      "name": "ST 文本末层 LoRA",
+      "plot_name": "Text last-layer LoRA",
+      "experiment": "MODEL-OPT-v1-LORA-37-fulltext",
+      "comparison": "text_lora",
+      "candidate": "M3-lora-ST",
+      "control": "M3-frozen-ST",
+      "candidate_metrics": {
+        "macro_f1": 0.7815993265993266,
+        "balanced_accuracy": 0.7838888888888889,
+        "mdd_recall": 0.6611111111111111,
+        "auc": 0.8319444444444444,
+        "nll": 0.5186951293929265,
+        "brier": 0.16798165169199275
+      },
+      "control_metrics": {
+        "macro_f1": 0.7815993265993266,
+        "balanced_accuracy": 0.7838888888888889,
+        "mdd_recall": 0.6611111111111111,
+        "auc": 0.8472222222222222,
+        "nll": 0.5192857154705114,
+        "brier": 0.16826917765110375
+      },
+      "delta": {
+        "macro_f1": 0.0,
+        "balanced_accuracy": 0.0,
+        "mdd_recall": 0.0,
+        "auc": -0.015277777777777835,
+        "nll": -0.000590586077584887,
+        "brier": -0.00028752595911099577
+      },
+      "paired_unit_f1_deltas": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "improved_units": 0,
+      "unit": "seed",
+      "criteria": {
+        "f1_delta_ge_0.01": false,
+        "stability": false,
+        "BA_non_decreasing": true,
+        "recall_drop_le_0.05": true
+      },
+      "classification_pass": false,
+      "probability_pass": true
+    }
+  ],
+  "retained_development_candidate": {
+    "condition": "M2-mean-ST",
+    "metrics": {
+      "macro_f1": 0.7815993265993266,
+      "balanced_accuracy": 0.7838888888888889,
+      "mdd_recall": 0.6611111111111111,
+      "auc": 0.8472222222222222,
+      "nll": 0.5193117586391747,
+      "brier": 0.16827925200694163
+    },
+    "paired_control_metrics": {
+      "macro_f1": 0.7533862433862434,
+      "balanced_accuracy": 0.7577777777777778,
+      "mdd_recall": 0.6222222222222222,
+      "auc": 0.8416666666666667,
+      "nll": 0.5217167790025041,
+      "brier": 0.16939403846479606
+    },
+    "improvement": {
+      "candidate": "M2-mean-ST",
+      "control": "M2-sum-ST",
+      "delta": {
+        "macro_f1": 0.028213083213083245,
+        "balanced_accuracy": 0.026111111111111085,
+        "mdd_recall": 0.03888888888888886,
+        "auc": 0.005555555555555536,
+        "nll": -0.0024050203633294576,
+        "brier": -0.0011147864578544275
+      },
+      "paired_unit_f1_deltas": [
+        0.0,
+        0.024242424242424288,
+        0.06039682539682545
+      ],
+      "improved_units": 2,
+      "unit": "seed",
+      "criteria": {
+        "f1_delta_ge_0.01": true,
+        "stability": true,
+        "BA_non_decreasing": true,
+        "recall_drop_le_0.05": true
+      },
+      "classification_pass": true,
+      "probability_pass": true
+    }
+  },
+  "budget": {
+    "new_neural_fits": 150,
+    "new_linear_fits": 10,
+    "new_total_fits": 160,
+    "new_optimizer_updates": 36000,
+    "reused_controls": 30,
+    "zero_update_loss_probes": 90
+  },
+  "independent_people": 37,
+  "independent_validation": false,
+  "data_defect_audit": "skipped_by_user",
+  "phase6_executed": false,
+  "new_training_for_summary": 0,
+  "new_inference_for_summary": 0,
+  "historical_files_changed": false,
+  "source_stage_verifications": [
+    {
+      "completed_utc": "2026-09-30T09:50:05.047197+00:00",
+      "reloads_exact": 100,
+      "rows": 3700,
+      "independent_subjects": 37,
+      "independent_metric_checks": 300,
+      "all_results_released_together": true,
+      "reference_and_scaler_train_scope_verified": true
+    },
+    {
+      "passed": true,
+      "models_reloaded_exactly": 60,
+      "prediction_rows": 2220,
+      "historical_control_rows_exact": 1110,
+      "independent_fold_metric_checks": 180,
+      "unique_subjects": 37,
+      "completed_utc": "2026-09-30T10:51:37.325175+00:00",
+      "all_candidates_locked_before_new_outer_inference": true
+    },
+    {
+      "passed": true,
+      "completed_utc": "2026-10-01T08:07:41.100928+00:00",
+      "reloads_exact": 30,
+      "rows": 1110,
+      "test_oof_rows": 222,
+      "independent_subjects": 37,
+      "formal_fold_metric_checks": 90,
+      "all_endpoint_fold_metric_checks": 360,
+      "fold_bound_feature_exports": 30,
+      "all_results_released_together": true
+    }
+  ]
+}
