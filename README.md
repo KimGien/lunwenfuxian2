@@ -13,6 +13,7 @@ MODMA 37 人实验的源码、固定配置、完成报告与验收记录。实�
 | EEG-R1：分支替换 | 2026-09-27 | [报告](tridep_ccml/experiments/EEG-R1-37-fulltext/EEG-R1执行报告.md) |
 | EEG-P1：有效学习验收与 SparNet 修复 | 2026-09-27 | [报告](tridep_ccml/experiments/EEG-P1-37-fulltext/EEG-P1执行报告.md) |
 | EEG-P2：无标签质量与尺度核查 | 2026-09-28 | [报告](output/analysis/eeg_quality_scale_20260928/EEG-P2无标签质量与尺度核查报告.md) |
+| EEG-P3：泛化、BN 与校准 | 2026-09-29 | [报告](output/analysis/eeg_generalization_20260929/EEG-P3泛化BN与校准报告.md) |
 
 ## 运行与来源
 

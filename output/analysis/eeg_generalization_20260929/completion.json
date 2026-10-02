@@ -1,0 +1,46 @@
+{
+  "complete": true,
+  "priority": 3,
+  "augmentation": false,
+  "subjects_deleted": 0,
+  "independent_validation": false,
+  "report": {
+    "path": "output/analysis/eeg_generalization_20260929/EEG-P3泛化BN与校准报告.md",
+    "sha256": "4e99dd76c604a74673e1ab1dbb06d97c277f7129e67fc7378cc656389dc9c047"
+  },
+  "verification": {
+    "path": "output/analysis/eeg_generalization_20260929/verification.json",
+    "sha256": "17c6fc4e8e9c2db167e76314128c5b283b6bad839e142601633b577e89a7270f"
+  },
+  "configuration": {
+    "path": "tridep_ccml/experiments/EEG-P3-37-fulltext/configuration.json",
+    "sha256": "33bbbc9cc94ed54b43b9f755ca14115052d17979565cb8554d2c41b3c7351ffc"
+  },
+  "sources": {
+    "tridep_ccml/eeg_p3/common.py": "9d2ac7e9982a254e8cb807bab89f2fc8b61a95749f96d2a78ebebef176345ea3",
+    "tridep_ccml/eeg_p3/engine.py": "a0deb20d7746b59b7459e6e3cdb0b2b40f92b16e947ca969ab7628fb2e714ec8",
+    "tridep_ccml/eeg_p3/finalize.py": "d9ca9f641d0c67bdeb21476b353f93ba7715730bf42ec99418152acdaf4292fc",
+    "tridep_ccml/eeg_p3/methods.py": "6527fe23566e543bea893f7400034c136a28a4bd3ffdfcf8286653e7cc23e552",
+    "tridep_ccml/eeg_p3/run.py": "4e068046077c6d97b18363eb17aac47a8e2411af98aaa14b6a2dc59ee24d4966",
+    "tridep_ccml/eeg_p3/summarize.py": "20d319d9de7aced1eac55112f14254a58b45bd7db265b0fe550c0d4810292082",
+    "tridep_ccml/eeg_p3/test_contracts.py": "aefaeabdb9069b78d6827f95f5498adf90d7d348eb26574937dc7f5eded4626e",
+    "tridep_ccml/eeg_p3/verify.py": "601e02233b1ba5f71912afd5407f0c34356860272cb01b3f530834ebfe0ed397",
+    "tridep_ccml/eeg_p3/__init__.py": "612747766c483819c042308650510fd844ecc189e939c27ffb88d71e0cf30671"
+  },
+  "finished_utc": "2026-09-29T10:31:01.880250+00:00",
+  "development_signal_combinations": [
+    "C1/BR/eeg",
+    "C1/G/eeg",
+    "C1/S/eeg",
+    "C1/SR/eeg",
+    "C3/sigmoid/fusion",
+    "C4/threshold/eeg",
+    "C4/sigmoid/fusion",
+    "U1/S/eeg",
+    "U1/SR/eeg"
+  ],
+  "formatting_amendment": {
+    "utc": "2026-09-29T10:31:55.718925+00:00",
+    "reason": "Wrap absolute paths containing spaces for valid Markdown links; numerical artifacts unchanged."
+  }
+}

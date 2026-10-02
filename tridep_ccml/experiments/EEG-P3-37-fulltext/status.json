@@ -1,0 +1,9 @@
+{
+  "state": "complete",
+  "priority": 3,
+  "updated_utc": "2026-09-29T10:31:01.881326+00:00",
+  "report": {
+    "path": "output/analysis/eeg_generalization_20260929/EEG-P3泛化BN与校准报告.md",
+    "sha256": "4e99dd76c604a74673e1ab1dbb06d97c277f7129e67fc7378cc656389dc9c047"
+  }
+}
