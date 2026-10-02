@@ -1,0 +1,5301 @@
+[
+  {
+    "condition": "E-HC",
+    "split": "test",
+    "mean": {
+      "macro_f1": 0.3617715617715618,
+      "balanced_accuracy": 0.5,
+      "mdd_recall": 0.0,
+      "auc": null,
+      "nll": null,
+      "brier": null
+    },
+    "per_fold": [
+      {
+        "seed": 0,
+        "fold": 1,
+        "macro_f1": 0.36363636363636365,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": null,
+        "nll": null,
+        "brier": null,
+        "confusion_HC_MDD": [
+          [
+            4,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "n_people": 7,
+        "predicted_MDD": 0
+      },
+      {
+        "seed": 0,
+        "fold": 2,
+        "macro_f1": 0.3333333333333333,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": null,
+        "nll": null,
+        "brier": null,
+        "confusion_HC_MDD": [
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "n_people": 8,
+        "predicted_MDD": 0
+      },
+      {
+        "seed": 0,
+        "fold": 3,
+        "macro_f1": 0.38461538461538464,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": null,
+        "nll": null,
+        "brier": null,
+        "confusion_HC_MDD": [
+          [
+            5,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "n_people": 8,
+        "predicted_MDD": 0
+      },
+      {
+        "seed": 0,
+        "fold": 4,
+        "macro_f1": 0.36363636363636365,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": null,
+        "nll": null,
+        "brier": null,
+        "confusion_HC_MDD": [
+          [
+            4,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "n_people": 7,
+        "predicted_MDD": 0
+      },
+      {
+        "seed": 0,
+        "fold": 5,
+        "macro_f1": 0.36363636363636365,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": null,
+        "nll": null,
+        "brier": null,
+        "confusion_HC_MDD": [
+          [
+            4,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "n_people": 7,
+        "predicted_MDD": 0
+      }
+    ],
+    "per_seed": [
+      {
+        "seed": 0,
+        "macro_f1": 0.3617715617715618,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": null,
+        "nll": null,
+        "brier": null
+      }
+    ],
+    "pooled_oof": [
+      {
+        "seed": 0,
+        "macro_f1": 0.3620689655172414,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": null,
+        "nll": null,
+        "brier": null,
+        "confusion_HC_MDD": [
+          [
+            21,
+            0
+          ],
+          [
+            16,
+            0
+          ]
+        ],
+        "n_people": 37,
+        "predicted_MDD": 0
+      }
+    ],
+    "aggregation": "unweighted five-fold mean, then seed mean; deterministic linear/baselines have one run per fold"
+  },
+  {
+    "condition": "E-HC",
+    "split": "train",
+    "mean": {
+      "macro_f1": 0.3574564459930314,
+      "balanced_accuracy": 0.5,
+      "mdd_recall": 0.0,
+      "auc": null,
+      "nll": null,
+      "brier": null
+    },
+    "per_fold": [
+      {
+        "seed": 0,
+        "fold": 1,
+        "macro_f1": 0.35714285714285715,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": null,
+        "nll": null,
+        "brier": null,
+        "confusion_HC_MDD": [
+          [
+            15,
+            0
+          ],
+          [
+            12,
+            0
+          ]
+        ],
+        "n_people": 27,
+        "predicted_MDD": 0
+      },
+      {
+        "seed": 0,
+        "fold": 2,
+        "macro_f1": 0.36585365853658536,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": null,
+        "nll": null,
+        "brier": null,
+        "confusion_HC_MDD": [
+          [
+            15,
+            0
+          ],
+          [
+            11,
+            0
+          ]
+        ],
+        "n_people": 26,
+        "predicted_MDD": 0
+      },
+      {
+        "seed": 0,
+        "fold": 3,
+        "macro_f1": 0.35,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": null,
+        "nll": null,
+        "brier": null,
+        "confusion_HC_MDD": [
+          [
+            14,
+            0
+          ],
+          [
+            12,
+            0
+          ]
+        ],
+        "n_people": 26,
+        "predicted_MDD": 0
+      },
+      {
+        "seed": 0,
+        "fold": 4,
+        "macro_f1": 0.35714285714285715,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": null,
+        "nll": null,
+        "brier": null,
+        "confusion_HC_MDD": [
+          [
+            15,
+            0
+          ],
+          [
+            12,
+            0
+          ]
+        ],
+        "n_people": 27,
+        "predicted_MDD": 0
+      },
+      {
+        "seed": 0,
+        "fold": 5,
+        "macro_f1": 0.35714285714285715,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": null,
+        "nll": null,
+        "brier": null,
+        "confusion_HC_MDD": [
+          [
+            15,
+            0
+          ],
+          [
+            12,
+            0
+          ]
+        ],
+        "n_people": 27,
+        "predicted_MDD": 0
+      }
+    ],
+    "per_seed": [
+      {
+        "seed": 0,
+        "macro_f1": 0.3574564459930314,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": null,
+        "nll": null,
+        "brier": null
+      }
+    ],
+    "pooled_oof": [],
+    "aggregation": "unweighted five-fold mean, then seed mean; deterministic linear/baselines have one run per fold"
+  },
+  {
+    "condition": "E-HC",
+    "split": "val",
+    "mean": {
+      "macro_f1": 0.4,
+      "balanced_accuracy": 0.5,
+      "mdd_recall": 0.0,
+      "auc": null,
+      "nll": null,
+      "brier": null
+    },
+    "per_fold": [
+      {
+        "seed": 0,
+        "fold": 1,
+        "macro_f1": 0.4,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": null,
+        "nll": null,
+        "brier": null,
+        "confusion_HC_MDD": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 0
+      },
+      {
+        "seed": 0,
+        "fold": 2,
+        "macro_f1": 0.4,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": null,
+        "nll": null,
+        "brier": null,
+        "confusion_HC_MDD": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 0
+      },
+      {
+        "seed": 0,
+        "fold": 3,
+        "macro_f1": 0.4,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": null,
+        "nll": null,
+        "brier": null,
+        "confusion_HC_MDD": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 0
+      },
+      {
+        "seed": 0,
+        "fold": 4,
+        "macro_f1": 0.4,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": null,
+        "nll": null,
+        "brier": null,
+        "confusion_HC_MDD": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 0
+      },
+      {
+        "seed": 0,
+        "fold": 5,
+        "macro_f1": 0.4,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": null,
+        "nll": null,
+        "brier": null,
+        "confusion_HC_MDD": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 0
+      }
+    ],
+    "per_seed": [
+      {
+        "seed": 0,
+        "macro_f1": 0.4,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": null,
+        "nll": null,
+        "brier": null
+      }
+    ],
+    "pooled_oof": [],
+    "aggregation": "unweighted five-fold mean, then seed mean; deterministic linear/baselines have one run per fold"
+  },
+  {
+    "condition": "E-L0",
+    "split": "test",
+    "mean": {
+      "macro_f1": 0.501933621933622,
+      "balanced_accuracy": 0.5383333333333333,
+      "mdd_recall": 0.3666666666666666,
+      "auc": 0.5958333333333332,
+      "nll": 0.7656808890192186,
+      "brier": 0.27836457353059896
+    },
+    "per_fold": [
+      {
+        "seed": 0,
+        "fold": 1,
+        "macro_f1": 0.2222222222222222,
+        "balanced_accuracy": 0.25,
+        "mdd_recall": 0.0,
+        "auc": 0.3333333333333333,
+        "nll": 1.04871840989799,
+        "brier": 0.4025713413371475,
+        "confusion_HC_MDD": [
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "n_people": 7,
+        "predicted_MDD": 2
+      },
+      {
+        "seed": 0,
+        "fold": 2,
+        "macro_f1": 0.6190476190476191,
+        "balanced_accuracy": 0.625,
+        "mdd_recall": 0.5,
+        "auc": 0.5625,
+        "nll": 0.7328728868222476,
+        "brier": 0.2685533845385694,
+        "confusion_HC_MDD": [
+          [
+            3,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "n_people": 8,
+        "predicted_MDD": 3
+      },
+      {
+        "seed": 0,
+        "fold": 3,
+        "macro_f1": 0.7333333333333334,
+        "balanced_accuracy": 0.7333333333333334,
+        "mdd_recall": 0.6666666666666666,
+        "auc": 0.6666666666666666,
+        "nll": 0.6045391209759673,
+        "brier": 0.21116558688354958,
+        "confusion_HC_MDD": [
+          [
+            4,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "n_people": 8,
+        "predicted_MDD": 3
+      },
+      {
+        "seed": 0,
+        "fold": 4,
+        "macro_f1": 0.5714285714285714,
+        "balanced_accuracy": 0.5833333333333333,
+        "mdd_recall": 0.6666666666666666,
+        "auc": 0.5833333333333333,
+        "nll": 0.8138447217941874,
+        "brier": 0.2903850867875722,
+        "confusion_HC_MDD": [
+          [
+            2,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "n_people": 7,
+        "predicted_MDD": 4
+      },
+      {
+        "seed": 0,
+        "fold": 5,
+        "macro_f1": 0.36363636363636365,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": 0.8333333333333333,
+        "nll": 0.6284293056057005,
+        "brier": 0.21914746810615598,
+        "confusion_HC_MDD": [
+          [
+            4,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "n_people": 7,
+        "predicted_MDD": 0
+      }
+    ],
+    "per_seed": [
+      {
+        "seed": 0,
+        "macro_f1": 0.501933621933622,
+        "balanced_accuracy": 0.5383333333333333,
+        "mdd_recall": 0.3666666666666666,
+        "auc": 0.5958333333333332,
+        "nll": 0.7656808890192186,
+        "brier": 0.27836457353059896
+      }
+    ],
+    "pooled_oof": [
+      {
+        "seed": 0,
+        "macro_f1": 0.5403726708074534,
+        "balanced_accuracy": 0.5446428571428572,
+        "mdd_recall": 0.375,
+        "auc": 0.5327380952380953,
+        "nll": 0.7604390033370503,
+        "brier": 0.2762832174322455,
+        "confusion_HC_MDD": [
+          [
+            15,
+            6
+          ],
+          [
+            10,
+            6
+          ]
+        ],
+        "n_people": 37,
+        "predicted_MDD": 12
+      }
+    ],
+    "aggregation": "unweighted five-fold mean, then seed mean; deterministic linear/baselines have one run per fold"
+  },
+  {
+    "condition": "E-L0",
+    "split": "train",
+    "mean": {
+      "macro_f1": 0.8591201396055219,
+      "balanced_accuracy": 0.8534415584415586,
+      "mdd_recall": 0.7621212121212121,
+      "auc": 0.9456926406926408,
+      "nll": 0.45254262325745565,
+      "brier": 0.13904279972716735
+    },
+    "per_fold": [
+      {
+        "seed": 0,
+        "fold": 1,
+        "macro_f1": 0.9232954545454546,
+        "balanced_accuracy": 0.9166666666666667,
+        "mdd_recall": 0.8333333333333334,
+        "auc": 0.9666666666666667,
+        "nll": 0.4028288909877069,
+        "brier": 0.11858409241244029,
+        "confusion_HC_MDD": [
+          [
+            15,
+            0
+          ],
+          [
+            2,
+            10
+          ]
+        ],
+        "n_people": 27,
+        "predicted_MDD": 10
+      },
+      {
+        "seed": 0,
+        "fold": 2,
+        "macro_f1": 0.8375,
+        "balanced_accuracy": 0.8303030303030303,
+        "mdd_recall": 0.7272727272727273,
+        "auc": 0.9272727272727274,
+        "nll": 0.45154279786013835,
+        "brier": 0.13883742530925747,
+        "confusion_HC_MDD": [
+          [
+            14,
+            1
+          ],
+          [
+            3,
+            8
+          ]
+        ],
+        "n_people": 26,
+        "predicted_MDD": 9
+      },
+      {
+        "seed": 0,
+        "fold": 3,
+        "macro_f1": 0.8050974512743628,
+        "balanced_accuracy": 0.8035714285714286,
+        "mdd_recall": 0.75,
+        "auc": 0.9345238095238095,
+        "nll": 0.49407774017849587,
+        "brier": 0.15674468661859312,
+        "confusion_HC_MDD": [
+          [
+            12,
+            2
+          ],
+          [
+            3,
+            9
+          ]
+        ],
+        "n_people": 26,
+        "predicted_MDD": 11
+      },
+      {
+        "seed": 0,
+        "fold": 4,
+        "macro_f1": 0.8465909090909092,
+        "balanced_accuracy": 0.8416666666666667,
+        "mdd_recall": 0.75,
+        "auc": 0.9611111111111112,
+        "nll": 0.44936993586957324,
+        "brier": 0.13804413389229755,
+        "confusion_HC_MDD": [
+          [
+            14,
+            1
+          ],
+          [
+            3,
+            9
+          ]
+        ],
+        "n_people": 27,
+        "predicted_MDD": 10
+      },
+      {
+        "seed": 0,
+        "fold": 5,
+        "macro_f1": 0.8831168831168831,
+        "balanced_accuracy": 0.875,
+        "mdd_recall": 0.75,
+        "auc": 0.9388888888888889,
+        "nll": 0.46489375139136363,
+        "brier": 0.14300366040324847,
+        "confusion_HC_MDD": [
+          [
+            15,
+            0
+          ],
+          [
+            3,
+            9
+          ]
+        ],
+        "n_people": 27,
+        "predicted_MDD": 9
+      }
+    ],
+    "per_seed": [
+      {
+        "seed": 0,
+        "macro_f1": 0.8591201396055219,
+        "balanced_accuracy": 0.8534415584415586,
+        "mdd_recall": 0.7621212121212121,
+        "auc": 0.9456926406926408,
+        "nll": 0.45254262325745565,
+        "brier": 0.13904279972716735
+      }
+    ],
+    "pooled_oof": [],
+    "aggregation": "unweighted five-fold mean, then seed mean; deterministic linear/baselines have one run per fold"
+  },
+  {
+    "condition": "E-L0",
+    "split": "val",
+    "mean": {
+      "macro_f1": 0.6799999999999999,
+      "balanced_accuracy": 0.75,
+      "mdd_recall": 0.8,
+      "auc": 0.5,
+      "nll": 0.6135457645487914,
+      "brier": 0.21186187688515684
+    },
+    "per_fold": [
+      {
+        "seed": 0,
+        "fold": 1,
+        "macro_f1": 1.0,
+        "balanced_accuracy": 1.0,
+        "mdd_recall": 1.0,
+        "auc": 1.0,
+        "nll": 0.29261702329195594,
+        "brier": 0.0694863373803419,
+        "confusion_HC_MDD": [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 1
+      },
+      {
+        "seed": 0,
+        "fold": 2,
+        "macro_f1": 0.6666666666666666,
+        "balanced_accuracy": 0.75,
+        "mdd_recall": 1.0,
+        "auc": 0.5,
+        "nll": 0.5804627476870546,
+        "brier": 0.1993737205648295,
+        "confusion_HC_MDD": [
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 2
+      },
+      {
+        "seed": 0,
+        "fold": 3,
+        "macro_f1": 0.4,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": 0.0,
+        "nll": 0.8256917440417991,
+        "brier": 0.3035541706903212,
+        "confusion_HC_MDD": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 0
+      },
+      {
+        "seed": 0,
+        "fold": 4,
+        "macro_f1": 0.6666666666666666,
+        "balanced_accuracy": 0.75,
+        "mdd_recall": 1.0,
+        "auc": 0.5,
+        "nll": 0.6355629838507674,
+        "brier": 0.2252330206676532,
+        "confusion_HC_MDD": [
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 2
+      },
+      {
+        "seed": 0,
+        "fold": 5,
+        "macro_f1": 0.6666666666666666,
+        "balanced_accuracy": 0.75,
+        "mdd_recall": 1.0,
+        "auc": 0.5,
+        "nll": 0.7333943238723801,
+        "brier": 0.26166213512263836,
+        "confusion_HC_MDD": [
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 2
+      }
+    ],
+    "per_seed": [
+      {
+        "seed": 0,
+        "macro_f1": 0.6799999999999999,
+        "balanced_accuracy": 0.75,
+        "mdd_recall": 0.8,
+        "auc": 0.5,
+        "nll": 0.6135457645487914,
+        "brier": 0.21186187688515684
+      }
+    ],
+    "pooled_oof": [],
+    "aggregation": "unweighted five-fold mean, then seed mean; deterministic linear/baselines have one run per fold"
+  },
+  {
+    "condition": "E-L1",
+    "split": "test",
+    "mean": {
+      "macro_f1": 0.501933621933622,
+      "balanced_accuracy": 0.5383333333333333,
+      "mdd_recall": 0.3666666666666666,
+      "auc": 0.5958333333333332,
+      "nll": 0.763803656494876,
+      "brier": 0.2775867433440477
+    },
+    "per_fold": [
+      {
+        "seed": 0,
+        "fold": 1,
+        "macro_f1": 0.2222222222222222,
+        "balanced_accuracy": 0.25,
+        "mdd_recall": 0.0,
+        "auc": 0.3333333333333333,
+        "nll": 1.0440641204587855,
+        "brier": 0.4006653272510704,
+        "confusion_HC_MDD": [
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "n_people": 7,
+        "predicted_MDD": 2
+      },
+      {
+        "seed": 0,
+        "fold": 2,
+        "macro_f1": 0.6190476190476191,
+        "balanced_accuracy": 0.625,
+        "mdd_recall": 0.5,
+        "auc": 0.5625,
+        "nll": 0.730233819944747,
+        "brier": 0.26747350904105405,
+        "confusion_HC_MDD": [
+          [
+            3,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "n_people": 8,
+        "predicted_MDD": 3
+      },
+      {
+        "seed": 0,
+        "fold": 3,
+        "macro_f1": 0.7333333333333334,
+        "balanced_accuracy": 0.7333333333333334,
+        "mdd_recall": 0.6666666666666666,
+        "auc": 0.6666666666666666,
+        "nll": 0.6077950598553383,
+        "brier": 0.21273877659623563,
+        "confusion_HC_MDD": [
+          [
+            4,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "n_people": 8,
+        "predicted_MDD": 3
+      },
+      {
+        "seed": 0,
+        "fold": 4,
+        "macro_f1": 0.5714285714285714,
+        "balanced_accuracy": 0.5833333333333333,
+        "mdd_recall": 0.6666666666666666,
+        "auc": 0.5833333333333333,
+        "nll": 0.8097105554611558,
+        "brier": 0.28848212029573456,
+        "confusion_HC_MDD": [
+          [
+            2,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "n_people": 7,
+        "predicted_MDD": 4
+      },
+      {
+        "seed": 0,
+        "fold": 5,
+        "macro_f1": 0.36363636363636365,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": 0.8333333333333333,
+        "nll": 0.6272147267543536,
+        "brier": 0.21857398353614393,
+        "confusion_HC_MDD": [
+          [
+            4,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "n_people": 7,
+        "predicted_MDD": 0
+      }
+    ],
+    "per_seed": [
+      {
+        "seed": 0,
+        "macro_f1": 0.501933621933622,
+        "balanced_accuracy": 0.5383333333333333,
+        "mdd_recall": 0.3666666666666666,
+        "auc": 0.5958333333333332,
+        "nll": 0.763803656494876,
+        "brier": 0.2775867433440477
+      }
+    ],
+    "pooled_oof": [
+      {
+        "seed": 0,
+        "macro_f1": 0.5403726708074534,
+        "balanced_accuracy": 0.5446428571428572,
+        "mdd_recall": 0.375,
+        "auc": 0.5327380952380953,
+        "nll": 0.7586799150573174,
+        "brier": 0.2755607649372692,
+        "confusion_HC_MDD": [
+          [
+            15,
+            6
+          ],
+          [
+            10,
+            6
+          ]
+        ],
+        "n_people": 37,
+        "predicted_MDD": 12
+      }
+    ],
+    "aggregation": "unweighted five-fold mean, then seed mean; deterministic linear/baselines have one run per fold"
+  },
+  {
+    "condition": "E-L1",
+    "split": "train",
+    "mean": {
+      "macro_f1": 0.8591201396055219,
+      "balanced_accuracy": 0.8534415584415586,
+      "mdd_recall": 0.7621212121212121,
+      "auc": 0.9456926406926408,
+      "nll": 0.45169032832368333,
+      "brier": 0.13866374945172708
+    },
+    "per_fold": [
+      {
+        "seed": 0,
+        "fold": 1,
+        "macro_f1": 0.9232954545454546,
+        "balanced_accuracy": 0.9166666666666667,
+        "mdd_recall": 0.8333333333333334,
+        "auc": 0.9666666666666667,
+        "nll": 0.40302646351221794,
+        "brier": 0.11865498045961506,
+        "confusion_HC_MDD": [
+          [
+            15,
+            0
+          ],
+          [
+            2,
+            10
+          ]
+        ],
+        "n_people": 27,
+        "predicted_MDD": 10
+      },
+      {
+        "seed": 0,
+        "fold": 2,
+        "macro_f1": 0.8375,
+        "balanced_accuracy": 0.8303030303030303,
+        "mdd_recall": 0.7272727272727273,
+        "auc": 0.9272727272727274,
+        "nll": 0.45075616136556346,
+        "brier": 0.13850413256892707,
+        "confusion_HC_MDD": [
+          [
+            14,
+            1
+          ],
+          [
+            3,
+            8
+          ]
+        ],
+        "n_people": 26,
+        "predicted_MDD": 9
+      },
+      {
+        "seed": 0,
+        "fold": 3,
+        "macro_f1": 0.8050974512743628,
+        "balanced_accuracy": 0.8035714285714286,
+        "mdd_recall": 0.75,
+        "auc": 0.9345238095238095,
+        "nll": 0.4916878226238067,
+        "brier": 0.15569882871765406,
+        "confusion_HC_MDD": [
+          [
+            12,
+            2
+          ],
+          [
+            3,
+            9
+          ]
+        ],
+        "n_people": 26,
+        "predicted_MDD": 11
+      },
+      {
+        "seed": 0,
+        "fold": 4,
+        "macro_f1": 0.8465909090909092,
+        "balanced_accuracy": 0.8416666666666667,
+        "mdd_recall": 0.75,
+        "auc": 0.9611111111111112,
+        "nll": 0.4481921797053476,
+        "brier": 0.13748133115653957,
+        "confusion_HC_MDD": [
+          [
+            14,
+            1
+          ],
+          [
+            3,
+            9
+          ]
+        ],
+        "n_people": 27,
+        "predicted_MDD": 10
+      },
+      {
+        "seed": 0,
+        "fold": 5,
+        "macro_f1": 0.8831168831168831,
+        "balanced_accuracy": 0.875,
+        "mdd_recall": 0.75,
+        "auc": 0.9388888888888889,
+        "nll": 0.46478901441148107,
+        "brier": 0.1429794743558996,
+        "confusion_HC_MDD": [
+          [
+            15,
+            0
+          ],
+          [
+            3,
+            9
+          ]
+        ],
+        "n_people": 27,
+        "predicted_MDD": 9
+      }
+    ],
+    "per_seed": [
+      {
+        "seed": 0,
+        "macro_f1": 0.8591201396055219,
+        "balanced_accuracy": 0.8534415584415586,
+        "mdd_recall": 0.7621212121212121,
+        "auc": 0.9456926406926408,
+        "nll": 0.45169032832368333,
+        "brier": 0.13866374945172708
+      }
+    ],
+    "pooled_oof": [],
+    "aggregation": "unweighted five-fold mean, then seed mean; deterministic linear/baselines have one run per fold"
+  },
+  {
+    "condition": "E-L1",
+    "split": "val",
+    "mean": {
+      "macro_f1": 0.6799999999999999,
+      "balanced_accuracy": 0.75,
+      "mdd_recall": 0.8,
+      "auc": 0.5,
+      "nll": 0.6085548262205741,
+      "brier": 0.20975540227443695
+    },
+    "per_fold": [
+      {
+        "seed": 0,
+        "fold": 1,
+        "macro_f1": 1.0,
+        "balanced_accuracy": 1.0,
+        "mdd_recall": 1.0,
+        "auc": 1.0,
+        "nll": 0.28841816205515675,
+        "brier": 0.06768508581745035,
+        "confusion_HC_MDD": [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 1
+      },
+      {
+        "seed": 0,
+        "fold": 2,
+        "macro_f1": 0.6666666666666666,
+        "balanced_accuracy": 0.75,
+        "mdd_recall": 1.0,
+        "auc": 0.5,
+        "nll": 0.5753541285891093,
+        "brier": 0.19648578568339445,
+        "confusion_HC_MDD": [
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 2
+      },
+      {
+        "seed": 0,
+        "fold": 3,
+        "macro_f1": 0.4,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": 0.0,
+        "nll": 0.8187774346599204,
+        "brier": 0.30138265026859407,
+        "confusion_HC_MDD": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 0
+      },
+      {
+        "seed": 0,
+        "fold": 4,
+        "macro_f1": 0.6666666666666666,
+        "balanced_accuracy": 0.75,
+        "mdd_recall": 1.0,
+        "auc": 0.5,
+        "nll": 0.633741534989979,
+        "brier": 0.22428661420810356,
+        "confusion_HC_MDD": [
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 2
+      },
+      {
+        "seed": 0,
+        "fold": 5,
+        "macro_f1": 0.6666666666666666,
+        "balanced_accuracy": 0.75,
+        "mdd_recall": 1.0,
+        "auc": 0.5,
+        "nll": 0.7264828708087051,
+        "brier": 0.25893687539464233,
+        "confusion_HC_MDD": [
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 2
+      }
+    ],
+    "per_seed": [
+      {
+        "seed": 0,
+        "macro_f1": 0.6799999999999999,
+        "balanced_accuracy": 0.75,
+        "mdd_recall": 0.8,
+        "auc": 0.5,
+        "nll": 0.6085548262205741,
+        "brier": 0.20975540227443695
+      }
+    ],
+    "pooled_oof": [],
+    "aggregation": "unweighted five-fold mean, then seed mean; deterministic linear/baselines have one run per fold"
+  },
+  {
+    "condition": "E-N0",
+    "split": "test",
+    "mean": {
+      "macro_f1": 0.4762543012543012,
+      "balanced_accuracy": 0.5044444444444444,
+      "mdd_recall": 0.4055555555555555,
+      "auc": 0.47500000000000003,
+      "nll": 0.7239440664689095,
+      "brier": 0.2617257559465915
+    },
+    "per_fold": [
+      {
+        "seed": 11,
+        "fold": 1,
+        "macro_f1": 0.36363636363636365,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": 0.75,
+        "nll": 0.6611450750153827,
+        "brier": 0.2347766310144337,
+        "confusion_HC_MDD": [
+          [
+            4,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "n_people": 7,
+        "predicted_MDD": 0
+      },
+      {
+        "seed": 11,
+        "fold": 2,
+        "macro_f1": 0.5,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.5,
+        "auc": 0.375,
+        "nll": 0.7531047505661153,
+        "brier": 0.27973543187447447,
+        "confusion_HC_MDD": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "n_people": 8,
+        "predicted_MDD": 4
+      },
+      {
+        "seed": 11,
+        "fold": 3,
+        "macro_f1": 0.5636363636363637,
+        "balanced_accuracy": 0.5666666666666667,
+        "mdd_recall": 0.3333333333333333,
+        "auc": 0.5333333333333333,
+        "nll": 0.7780097628164857,
+        "brier": 0.2546026492883465,
+        "confusion_HC_MDD": [
+          [
+            4,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "n_people": 8,
+        "predicted_MDD": 2
+      },
+      {
+        "seed": 11,
+        "fold": 4,
+        "macro_f1": 0.41666666666666663,
+        "balanced_accuracy": 0.41666666666666663,
+        "mdd_recall": 0.3333333333333333,
+        "auc": 0.5833333333333333,
+        "nll": 0.6582070179341031,
+        "brier": 0.23382973393665576,
+        "confusion_HC_MDD": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "n_people": 7,
+        "predicted_MDD": 3
+      },
+      {
+        "seed": 11,
+        "fold": 5,
+        "macro_f1": 0.5333333333333333,
+        "balanced_accuracy": 0.625,
+        "mdd_recall": 1.0,
+        "auc": 0.25,
+        "nll": 0.7981785194971085,
+        "brier": 0.29763576786318485,
+        "confusion_HC_MDD": [
+          [
+            1,
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        "n_people": 7,
+        "predicted_MDD": 6
+      },
+      {
+        "seed": 22,
+        "fold": 1,
+        "macro_f1": 0.7083333333333333,
+        "balanced_accuracy": 0.7083333333333333,
+        "mdd_recall": 0.6666666666666666,
+        "auc": 0.8333333333333334,
+        "nll": 0.6227200062859082,
+        "brier": 0.21509622417713306,
+        "confusion_HC_MDD": [
+          [
+            3,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "n_people": 7,
+        "predicted_MDD": 3
+      },
+      {
+        "seed": 22,
+        "fold": 2,
+        "macro_f1": 0.4666666666666667,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.75,
+        "auc": 0.3125,
+        "nll": 0.7314610806455968,
+        "brier": 0.2680399535299667,
+        "confusion_HC_MDD": [
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "n_people": 8,
+        "predicted_MDD": 6
+      },
+      {
+        "seed": 22,
+        "fold": 3,
+        "macro_f1": 0.8545454545454545,
+        "balanced_accuracy": 0.8333333333333333,
+        "mdd_recall": 0.6666666666666666,
+        "auc": 0.8666666666666667,
+        "nll": 0.5577000370171474,
+        "brier": 0.1850731850979801,
+        "confusion_HC_MDD": [
+          [
+            5,
+            0
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "n_people": 8,
+        "predicted_MDD": 2
+      },
+      {
+        "seed": 22,
+        "fold": 4,
+        "macro_f1": 0.65,
+        "balanced_accuracy": 0.6666666666666666,
+        "mdd_recall": 0.3333333333333333,
+        "auc": 0.5,
+        "nll": 0.661980045499256,
+        "brier": 0.2371495166405188,
+        "confusion_HC_MDD": [
+          [
+            4,
+            0
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "n_people": 7,
+        "predicted_MDD": 1
+      },
+      {
+        "seed": 22,
+        "fold": 5,
+        "macro_f1": 0.41666666666666663,
+        "balanced_accuracy": 0.4583333333333333,
+        "mdd_recall": 0.6666666666666666,
+        "auc": 0.16666666666666666,
+        "nll": 0.8144411853210688,
+        "brier": 0.3090257377211619,
+        "confusion_HC_MDD": [
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "n_people": 7,
+        "predicted_MDD": 5
+      },
+      {
+        "seed": 33,
+        "fold": 1,
+        "macro_f1": 0.125,
+        "balanced_accuracy": 0.125,
+        "mdd_recall": 0.0,
+        "auc": 0.25,
+        "nll": 0.7300175679967585,
+        "brier": 0.2685900368365705,
+        "confusion_HC_MDD": [
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "n_people": 7,
+        "predicted_MDD": 3
+      },
+      {
+        "seed": 33,
+        "fold": 2,
+        "macro_f1": 0.6190476190476191,
+        "balanced_accuracy": 0.625,
+        "mdd_recall": 0.5,
+        "auc": 0.4375,
+        "nll": 0.7898946415579962,
+        "brier": 0.29005468539632123,
+        "confusion_HC_MDD": [
+          [
+            3,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "n_people": 8,
+        "predicted_MDD": 3
+      },
+      {
+        "seed": 33,
+        "fold": 3,
+        "macro_f1": 0.38461538461538464,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": 0.6,
+        "nll": 0.6333400378253811,
+        "brier": 0.2268005315522268,
+        "confusion_HC_MDD": [
+          [
+            5,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "n_people": 8,
+        "predicted_MDD": 0
+      },
+      {
+        "seed": 33,
+        "fold": 4,
+        "macro_f1": 0.41666666666666663,
+        "balanced_accuracy": 0.41666666666666663,
+        "mdd_recall": 0.3333333333333333,
+        "auc": 0.5,
+        "nll": 0.7456553112166938,
+        "brier": 0.2660551373771458,
+        "confusion_HC_MDD": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "n_people": 7,
+        "predicted_MDD": 3
+      },
+      {
+        "seed": 33,
+        "fold": 5,
+        "macro_f1": 0.125,
+        "balanced_accuracy": 0.125,
+        "mdd_recall": 0.0,
+        "auc": 0.16666666666666666,
+        "nll": 0.9233059578386399,
+        "brier": 0.3594211168927522,
+        "confusion_HC_MDD": [
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "n_people": 7,
+        "predicted_MDD": 3
+      }
+    ],
+    "per_seed": [
+      {
+        "seed": 11,
+        "macro_f1": 0.4754545454545454,
+        "balanced_accuracy": 0.5216666666666667,
+        "mdd_recall": 0.4333333333333333,
+        "auc": 0.49833333333333324,
+        "nll": 0.729729025165839,
+        "brier": 0.2601160427954191
+      },
+      {
+        "seed": 22,
+        "macro_f1": 0.6192424242424241,
+        "balanced_accuracy": 0.6333333333333333,
+        "mdd_recall": 0.6166666666666666,
+        "auc": 0.5358333333333334,
+        "nll": 0.6776604709537954,
+        "brier": 0.2428769234333521
+      },
+      {
+        "seed": 33,
+        "macro_f1": 0.33406593406593404,
+        "balanced_accuracy": 0.3583333333333333,
+        "mdd_recall": 0.16666666666666666,
+        "auc": 0.39083333333333337,
+        "nll": 0.764442703287094,
+        "brier": 0.2821843016110033
+      }
+    ],
+    "pooled_oof": [
+      {
+        "seed": 11,
+        "macro_f1": 0.5281320330082521,
+        "balanced_accuracy": 0.5282738095238095,
+        "mdd_recall": 0.4375,
+        "auc": 0.5535714285714286,
+        "nll": 0.7316656863293776,
+        "brier": 0.2604972859189862,
+        "confusion_HC_MDD": [
+          [
+            13,
+            8
+          ],
+          [
+            9,
+            7
+          ]
+        ],
+        "n_people": 37,
+        "predicted_MDD": 15
+      },
+      {
+        "seed": 22,
+        "macro_f1": 0.6444937176644494,
+        "balanced_accuracy": 0.6458333333333333,
+        "mdd_recall": 0.625,
+        "auc": 0.5892857142857143,
+        "nll": 0.6758723675958266,
+        "brier": 0.24199474212960187,
+        "confusion_HC_MDD": [
+          [
+            14,
+            7
+          ],
+          [
+            6,
+            10
+          ]
+        ],
+        "n_people": 37,
+        "predicted_MDD": 17
+      },
+      {
+        "seed": 33,
+        "macro_f1": 0.36801242236024845,
+        "balanced_accuracy": 0.3794642857142857,
+        "mdd_recall": 0.1875,
+        "auc": 0.44047619047619047,
+        "nll": 0.7615872782278829,
+        "brier": 0.2809001560360449,
+        "confusion_HC_MDD": [
+          [
+            12,
+            9
+          ],
+          [
+            13,
+            3
+          ]
+        ],
+        "n_people": 37,
+        "predicted_MDD": 12
+      }
+    ],
+    "aggregation": "unweighted five-fold mean, then seed mean; deterministic linear/baselines have one run per fold"
+  },
+  {
+    "condition": "E-N0",
+    "split": "train",
+    "mean": {
+      "macro_f1": 0.8755979529418617,
+      "balanced_accuracy": 0.8848412698412699,
+      "mdd_recall": 0.9388888888888888,
+      "auc": 0.9828571428571428,
+      "nll": 0.4798584679379207,
+      "brier": 0.14927966833159725
+    },
+    "per_fold": [
+      {
+        "seed": 11,
+        "fold": 1,
+        "macro_f1": 0.8465909090909092,
+        "balanced_accuracy": 0.8416666666666667,
+        "mdd_recall": 0.75,
+        "auc": 0.9833333333333334,
+        "nll": 0.4591478774605874,
+        "brier": 0.13931494737568006,
+        "confusion_HC_MDD": [
+          [
+            14,
+            1
+          ],
+          [
+            3,
+            9
+          ]
+        ],
+        "n_people": 27,
+        "predicted_MDD": 10
+      },
+      {
+        "seed": 11,
+        "fold": 2,
+        "macro_f1": 0.9610194902548725,
+        "balanced_accuracy": 0.9666666666666667,
+        "mdd_recall": 1.0,
+        "auc": 1.0,
+        "nll": 0.39285460827028057,
+        "brier": 0.10993240919716644,
+        "confusion_HC_MDD": [
+          [
+            14,
+            1
+          ],
+          [
+            0,
+            11
+          ]
+        ],
+        "n_people": 26,
+        "predicted_MDD": 12
+      },
+      {
+        "seed": 11,
+        "fold": 3,
+        "macro_f1": 1.0,
+        "balanced_accuracy": 1.0,
+        "mdd_recall": 1.0,
+        "auc": 1.0,
+        "nll": 0.4000300709861655,
+        "brier": 0.1137045326595906,
+        "confusion_HC_MDD": [
+          [
+            14,
+            0
+          ],
+          [
+            0,
+            12
+          ]
+        ],
+        "n_people": 26,
+        "predicted_MDD": 12
+      },
+      {
+        "seed": 11,
+        "fold": 4,
+        "macro_f1": 0.8882758620689655,
+        "balanced_accuracy": 0.8916666666666666,
+        "mdd_recall": 0.9166666666666666,
+        "auc": 0.9555555555555556,
+        "nll": 0.4344630077274267,
+        "brier": 0.1296991299877998,
+        "confusion_HC_MDD": [
+          [
+            13,
+            2
+          ],
+          [
+            1,
+            11
+          ]
+        ],
+        "n_people": 27,
+        "predicted_MDD": 13
+      },
+      {
+        "seed": 11,
+        "fold": 5,
+        "macro_f1": 0.6931818181818181,
+        "balanced_accuracy": 0.7333333333333334,
+        "mdd_recall": 1.0,
+        "auc": 0.9388888888888889,
+        "nll": 0.592263020456129,
+        "brier": 0.2027862545877918,
+        "confusion_HC_MDD": [
+          [
+            7,
+            8
+          ],
+          [
+            0,
+            12
+          ]
+        ],
+        "n_people": 27,
+        "predicted_MDD": 20
+      },
+      {
+        "seed": 22,
+        "fold": 1,
+        "macro_f1": 0.8888888888888888,
+        "balanced_accuracy": 0.9,
+        "mdd_recall": 1.0,
+        "auc": 0.9833333333333334,
+        "nll": 0.4928124884935074,
+        "brier": 0.1539366449766783,
+        "confusion_HC_MDD": [
+          [
+            12,
+            3
+          ],
+          [
+            0,
+            12
+          ]
+        ],
+        "n_people": 27,
+        "predicted_MDD": 15
+      },
+      {
+        "seed": 22,
+        "fold": 2,
+        "macro_f1": 0.8461538461538461,
+        "balanced_accuracy": 0.8666666666666667,
+        "mdd_recall": 1.0,
+        "auc": 1.0,
+        "nll": 0.5097632210026444,
+        "brier": 0.16184749770530615,
+        "confusion_HC_MDD": [
+          [
+            11,
+            4
+          ],
+          [
+            0,
+            11
+          ]
+        ],
+        "n_people": 26,
+        "predicted_MDD": 15
+      },
+      {
+        "seed": 22,
+        "fold": 3,
+        "macro_f1": 0.9226190476190477,
+        "balanced_accuracy": 0.9226190476190477,
+        "mdd_recall": 0.9166666666666666,
+        "auc": 0.9940476190476191,
+        "nll": 0.43015404350246644,
+        "brier": 0.12559670771459538,
+        "confusion_HC_MDD": [
+          [
+            13,
+            1
+          ],
+          [
+            1,
+            11
+          ]
+        ],
+        "n_people": 26,
+        "predicted_MDD": 12
+      },
+      {
+        "seed": 22,
+        "fold": 4,
+        "macro_f1": 0.8465909090909092,
+        "balanced_accuracy": 0.8416666666666667,
+        "mdd_recall": 0.75,
+        "auc": 0.9666666666666667,
+        "nll": 0.5047988034956731,
+        "brier": 0.15978090868524197,
+        "confusion_HC_MDD": [
+          [
+            14,
+            1
+          ],
+          [
+            3,
+            9
+          ]
+        ],
+        "n_people": 27,
+        "predicted_MDD": 10
+      },
+      {
+        "seed": 22,
+        "fold": 5,
+        "macro_f1": 0.8137931034482759,
+        "balanced_accuracy": 0.8333333333333333,
+        "mdd_recall": 1.0,
+        "auc": 0.9722222222222222,
+        "nll": 0.5413689829605578,
+        "brier": 0.1770053650196465,
+        "confusion_HC_MDD": [
+          [
+            10,
+            5
+          ],
+          [
+            0,
+            12
+          ]
+        ],
+        "n_people": 27,
+        "predicted_MDD": 17
+      },
+      {
+        "seed": 33,
+        "fold": 1,
+        "macro_f1": 0.9627586206896552,
+        "balanced_accuracy": 0.9666666666666667,
+        "mdd_recall": 1.0,
+        "auc": 0.9944444444444445,
+        "nll": 0.49927736936234796,
+        "brier": 0.15569442732158406,
+        "confusion_HC_MDD": [
+          [
+            14,
+            1
+          ],
+          [
+            0,
+            12
+          ]
+        ],
+        "n_people": 27,
+        "predicted_MDD": 13
+      },
+      {
+        "seed": 33,
+        "fold": 2,
+        "macro_f1": 0.8461538461538461,
+        "balanced_accuracy": 0.8666666666666667,
+        "mdd_recall": 1.0,
+        "auc": 1.0,
+        "nll": 0.47322632811387594,
+        "brier": 0.14585467354494236,
+        "confusion_HC_MDD": [
+          [
+            11,
+            4
+          ],
+          [
+            0,
+            11
+          ]
+        ],
+        "n_people": 26,
+        "predicted_MDD": 15
+      },
+      {
+        "seed": 33,
+        "fold": 3,
+        "macro_f1": 0.880184331797235,
+        "balanced_accuracy": 0.875,
+        "mdd_recall": 0.75,
+        "auc": 0.9821428571428571,
+        "nll": 0.4483697340854278,
+        "brier": 0.13772894110517564,
+        "confusion_HC_MDD": [
+          [
+            14,
+            0
+          ],
+          [
+            3,
+            9
+          ]
+        ],
+        "n_people": 26,
+        "predicted_MDD": 9
+      },
+      {
+        "seed": 33,
+        "fold": 4,
+        "macro_f1": 0.9627586206896552,
+        "balanced_accuracy": 0.9666666666666667,
+        "mdd_recall": 1.0,
+        "auc": 1.0,
+        "nll": 0.48591544069246984,
+        "brier": 0.1501664934614377,
+        "confusion_HC_MDD": [
+          [
+            14,
+            1
+          ],
+          [
+            0,
+            12
+          ]
+        ],
+        "n_people": 27,
+        "predicted_MDD": 13
+      },
+      {
+        "seed": 33,
+        "fold": 5,
+        "macro_f1": 0.775,
+        "balanced_accuracy": 0.8,
+        "mdd_recall": 1.0,
+        "auc": 0.9722222222222223,
+        "nll": 0.5334320224592509,
+        "brier": 0.17614609163132203,
+        "confusion_HC_MDD": [
+          [
+            9,
+            6
+          ],
+          [
+            0,
+            12
+          ]
+        ],
+        "n_people": 27,
+        "predicted_MDD": 18
+      }
+    ],
+    "per_seed": [
+      {
+        "seed": 11,
+        "macro_f1": 0.8778136159193132,
+        "balanced_accuracy": 0.8866666666666667,
+        "mdd_recall": 0.9333333333333332,
+        "auc": 0.9755555555555556,
+        "nll": 0.45575171698011785,
+        "brier": 0.13908745476160575
+      },
+      {
+        "seed": 22,
+        "macro_f1": 0.8636091590401935,
+        "balanced_accuracy": 0.8728571428571428,
+        "mdd_recall": 0.9333333333333332,
+        "auc": 0.9832539682539683,
+        "nll": 0.4957795078909698,
+        "brier": 0.15563342482029366
+      },
+      {
+        "seed": 33,
+        "macro_f1": 0.8853710838660783,
+        "balanced_accuracy": 0.8950000000000001,
+        "mdd_recall": 0.95,
+        "auc": 0.9897619047619048,
+        "nll": 0.4880441789426745,
+        "brier": 0.15311812541289235
+      }
+    ],
+    "pooled_oof": [],
+    "aggregation": "unweighted five-fold mean, then seed mean; deterministic linear/baselines have one run per fold"
+  },
+  {
+    "condition": "E-N0",
+    "split": "val",
+    "mean": {
+      "macro_f1": 0.4177777777777778,
+      "balanced_accuracy": 0.5166666666666667,
+      "mdd_recall": 0.5333333333333333,
+      "auc": 0.6333333333333333,
+      "nll": 0.6945421070772436,
+      "brier": 0.249133914228259
+    },
+    "per_fold": [
+      {
+        "seed": 11,
+        "fold": 1,
+        "macro_f1": 1.0,
+        "balanced_accuracy": 1.0,
+        "mdd_recall": 1.0,
+        "auc": 1.0,
+        "nll": 0.3663566792742927,
+        "brier": 0.09670346149010789,
+        "confusion_HC_MDD": [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 1
+      },
+      {
+        "seed": 11,
+        "fold": 2,
+        "macro_f1": 0.4,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": 0.5,
+        "nll": 0.6108454934478095,
+        "brier": 0.21098163060409103,
+        "confusion_HC_MDD": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 0
+      },
+      {
+        "seed": 11,
+        "fold": 3,
+        "macro_f1": 0.0,
+        "balanced_accuracy": 0.0,
+        "mdd_recall": 0.0,
+        "auc": 0.0,
+        "nll": 0.9064705173731186,
+        "brier": 0.3542385523266516,
+        "confusion_HC_MDD": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 2
+      },
+      {
+        "seed": 11,
+        "fold": 4,
+        "macro_f1": 0.4,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": 1.0,
+        "nll": 0.5415049714699526,
+        "brier": 0.17638930132504674,
+        "confusion_HC_MDD": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 0
+      },
+      {
+        "seed": 11,
+        "fold": 5,
+        "macro_f1": 0.25,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 1.0,
+        "auc": 1.0,
+        "nll": 0.7520044623499059,
+        "brier": 0.2807938973384232,
+        "confusion_HC_MDD": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 3
+      },
+      {
+        "seed": 22,
+        "fold": 1,
+        "macro_f1": 0.25,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 1.0,
+        "auc": 1.0,
+        "nll": 0.6960470145216696,
+        "brier": 0.2517540146758878,
+        "confusion_HC_MDD": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 3
+      },
+      {
+        "seed": 22,
+        "fold": 2,
+        "macro_f1": 1.0,
+        "balanced_accuracy": 1.0,
+        "mdd_recall": 1.0,
+        "auc": 1.0,
+        "nll": 0.525850551915892,
+        "brier": 0.1687960608935549,
+        "confusion_HC_MDD": [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 1
+      },
+      {
+        "seed": 22,
+        "fold": 3,
+        "macro_f1": 0.0,
+        "balanced_accuracy": 0.0,
+        "mdd_recall": 0.0,
+        "auc": 0.0,
+        "nll": 0.9264872965266093,
+        "brier": 0.3642437799082134,
+        "confusion_HC_MDD": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 2
+      },
+      {
+        "seed": 22,
+        "fold": 4,
+        "macro_f1": 0.4,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": 1.0,
+        "nll": 0.5207462840086897,
+        "brier": 0.16732248656883097,
+        "confusion_HC_MDD": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 0
+      },
+      {
+        "seed": 22,
+        "fold": 5,
+        "macro_f1": 0.25,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 1.0,
+        "auc": 0.0,
+        "nll": 0.7487746759912474,
+        "brier": 0.27770176688481385,
+        "confusion_HC_MDD": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 3
+      },
+      {
+        "seed": 33,
+        "fold": 1,
+        "macro_f1": 1.0,
+        "balanced_accuracy": 1.0,
+        "mdd_recall": 1.0,
+        "auc": 1.0,
+        "nll": 0.518793668930665,
+        "brier": 0.16391704092038997,
+        "confusion_HC_MDD": [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 1
+      },
+      {
+        "seed": 33,
+        "fold": 2,
+        "macro_f1": 0.25,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 1.0,
+        "auc": 1.0,
+        "nll": 0.7054307063934743,
+        "brier": 0.25639685849315796,
+        "confusion_HC_MDD": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 3
+      },
+      {
+        "seed": 33,
+        "fold": 3,
+        "macro_f1": 0.4,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": 0.0,
+        "nll": 0.9732319436080906,
+        "brier": 0.35278706137918703,
+        "confusion_HC_MDD": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 0
+      },
+      {
+        "seed": 33,
+        "fold": 4,
+        "macro_f1": 0.6666666666666666,
+        "balanced_accuracy": 0.75,
+        "mdd_recall": 1.0,
+        "auc": 1.0,
+        "nll": 0.6291693668914534,
+        "brier": 0.21868194507255279,
+        "confusion_HC_MDD": [
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 2
+      },
+      {
+        "seed": 33,
+        "fold": 5,
+        "macro_f1": 0.0,
+        "balanced_accuracy": 0.0,
+        "mdd_recall": 0.0,
+        "auc": 0.0,
+        "nll": 0.9964179734557814,
+        "brier": 0.3963008555429755,
+        "confusion_HC_MDD": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 2
+      }
+    ],
+    "per_seed": [
+      {
+        "seed": 11,
+        "macro_f1": 0.41,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.4,
+        "auc": 0.7,
+        "nll": 0.6354364247830159,
+        "brier": 0.2238213686168641
+      },
+      {
+        "seed": 22,
+        "macro_f1": 0.38,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.6,
+        "auc": 0.6,
+        "nll": 0.6835811645928216,
+        "brier": 0.2459636217862602
+      },
+      {
+        "seed": 33,
+        "macro_f1": 0.46333333333333326,
+        "balanced_accuracy": 0.55,
+        "mdd_recall": 0.6,
+        "auc": 0.6,
+        "nll": 0.764608731855893,
+        "brier": 0.27761675228165267
+      }
+    ],
+    "pooled_oof": [],
+    "aggregation": "unweighted five-fold mean, then seed mean; deterministic linear/baselines have one run per fold"
+  },
+  {
+    "condition": "E-N1",
+    "split": "test",
+    "mean": {
+      "macro_f1": 0.4388313538313538,
+      "balanced_accuracy": 0.4838888888888888,
+      "mdd_recall": 0.3444444444444444,
+      "auc": 0.47555555555555556,
+      "nll": 0.7272755014896305,
+      "brier": 0.26457308392031237
+    },
+    "per_fold": [
+      {
+        "seed": 11,
+        "fold": 1,
+        "macro_f1": 0.36363636363636365,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": 0.5,
+        "nll": 0.6893278064077986,
+        "brier": 0.24684645537994054,
+        "confusion_HC_MDD": [
+          [
+            4,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "n_people": 7,
+        "predicted_MDD": 0
+      },
+      {
+        "seed": 11,
+        "fold": 2,
+        "macro_f1": 0.5,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.5,
+        "auc": 0.5,
+        "nll": 0.6802316117688485,
+        "brier": 0.24507741502617877,
+        "confusion_HC_MDD": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "n_people": 8,
+        "predicted_MDD": 4
+      },
+      {
+        "seed": 11,
+        "fold": 3,
+        "macro_f1": 0.38461538461538464,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": 0.39999999999999997,
+        "nll": 0.7791486483992678,
+        "brier": 0.27658658579232187,
+        "confusion_HC_MDD": [
+          [
+            5,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "n_people": 8,
+        "predicted_MDD": 0
+      },
+      {
+        "seed": 11,
+        "fold": 4,
+        "macro_f1": 0.7083333333333333,
+        "balanced_accuracy": 0.7083333333333333,
+        "mdd_recall": 0.6666666666666666,
+        "auc": 0.5833333333333334,
+        "nll": 0.6874142132836045,
+        "brier": 0.24602599904277397,
+        "confusion_HC_MDD": [
+          [
+            3,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "n_people": 7,
+        "predicted_MDD": 3
+      },
+      {
+        "seed": 11,
+        "fold": 5,
+        "macro_f1": 0.2222222222222222,
+        "balanced_accuracy": 0.25,
+        "mdd_recall": 0.0,
+        "auc": 0.3333333333333333,
+        "nll": 0.77006652237558,
+        "brier": 0.28699417757219653,
+        "confusion_HC_MDD": [
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "n_people": 7,
+        "predicted_MDD": 2
+      },
+      {
+        "seed": 22,
+        "fold": 1,
+        "macro_f1": 0.41666666666666663,
+        "balanced_accuracy": 0.4583333333333333,
+        "mdd_recall": 0.6666666666666666,
+        "auc": 0.5,
+        "nll": 0.7089992511796386,
+        "brier": 0.2574730652640917,
+        "confusion_HC_MDD": [
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "n_people": 7,
+        "predicted_MDD": 5
+      },
+      {
+        "seed": 22,
+        "fold": 2,
+        "macro_f1": 0.7333333333333334,
+        "balanced_accuracy": 0.75,
+        "mdd_recall": 1.0,
+        "auc": 0.625,
+        "nll": 0.6657737361135767,
+        "brier": 0.23608005016332945,
+        "confusion_HC_MDD": [
+          [
+            2,
+            2
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "n_people": 8,
+        "predicted_MDD": 6
+      },
+      {
+        "seed": 22,
+        "fold": 3,
+        "macro_f1": 0.38461538461538464,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": 0.5333333333333332,
+        "nll": 0.6989052887198611,
+        "brier": 0.24974643946781058,
+        "confusion_HC_MDD": [
+          [
+            5,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "n_people": 8,
+        "predicted_MDD": 0
+      },
+      {
+        "seed": 22,
+        "fold": 4,
+        "macro_f1": 0.5333333333333333,
+        "balanced_accuracy": 0.5416666666666666,
+        "mdd_recall": 0.3333333333333333,
+        "auc": 0.41666666666666663,
+        "nll": 0.7222792610007416,
+        "brier": 0.26359665691931244,
+        "confusion_HC_MDD": [
+          [
+            3,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "n_people": 7,
+        "predicted_MDD": 2
+      },
+      {
+        "seed": 22,
+        "fold": 5,
+        "macro_f1": 0.41666666666666663,
+        "balanced_accuracy": 0.41666666666666663,
+        "mdd_recall": 0.3333333333333333,
+        "auc": 0.5833333333333333,
+        "nll": 0.6993987310883607,
+        "brier": 0.2533362070197602,
+        "confusion_HC_MDD": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "n_people": 7,
+        "predicted_MDD": 3
+      },
+      {
+        "seed": 33,
+        "fold": 1,
+        "macro_f1": 0.41666666666666663,
+        "balanced_accuracy": 0.4583333333333333,
+        "mdd_recall": 0.6666666666666666,
+        "auc": 0.25,
+        "nll": 0.8121184167012033,
+        "brier": 0.3071637835976387,
+        "confusion_HC_MDD": [
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "n_people": 7,
+        "predicted_MDD": 5
+      },
+      {
+        "seed": 33,
+        "fold": 2,
+        "macro_f1": 0.3333333333333333,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": 0.625,
+        "nll": 0.8103955260332253,
+        "brier": 0.29573925769351406,
+        "confusion_HC_MDD": [
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "n_people": 8,
+        "predicted_MDD": 0
+      },
+      {
+        "seed": 33,
+        "fold": 3,
+        "macro_f1": 0.4666666666666667,
+        "balanced_accuracy": 0.4666666666666667,
+        "mdd_recall": 0.3333333333333333,
+        "auc": 0.5333333333333333,
+        "nll": 0.6666793148806573,
+        "brier": 0.24238635318684804,
+        "confusion_HC_MDD": [
+          [
+            3,
+            2
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "n_people": 8,
+        "predicted_MDD": 3
+      },
+      {
+        "seed": 33,
+        "fold": 4,
+        "macro_f1": 0.41666666666666663,
+        "balanced_accuracy": 0.41666666666666663,
+        "mdd_recall": 0.3333333333333333,
+        "auc": 0.5,
+        "nll": 0.762888154946579,
+        "brier": 0.2808381973127097,
+        "confusion_HC_MDD": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "n_people": 7,
+        "predicted_MDD": 3
+      },
+      {
+        "seed": 33,
+        "fold": 5,
+        "macro_f1": 0.2857142857142857,
+        "balanced_accuracy": 0.29166666666666663,
+        "mdd_recall": 0.3333333333333333,
+        "auc": 0.25,
+        "nll": 0.7555060394455159,
+        "brier": 0.2807056153662583,
+        "confusion_HC_MDD": [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "n_people": 7,
+        "predicted_MDD": 4
+      }
+    ],
+    "per_seed": [
+      {
+        "seed": 11,
+        "macro_f1": 0.4357614607614607,
+        "balanced_accuracy": 0.4916666666666666,
+        "mdd_recall": 0.2333333333333333,
+        "auc": 0.4633333333333334,
+        "nll": 0.7212377604470198,
+        "brier": 0.2603061265626823
+      },
+      {
+        "seed": 22,
+        "macro_f1": 0.49692307692307686,
+        "balanced_accuracy": 0.5333333333333333,
+        "mdd_recall": 0.4666666666666666,
+        "auc": 0.5316666666666666,
+        "nll": 0.6990712536204358,
+        "brier": 0.2520464837668609
+      },
+      {
+        "seed": 33,
+        "macro_f1": 0.38380952380952377,
+        "balanced_accuracy": 0.4266666666666666,
+        "mdd_recall": 0.3333333333333333,
+        "auc": 0.43166666666666664,
+        "nll": 0.7615174904014361,
+        "brier": 0.2813666414313937
+      }
+    ],
+    "pooled_oof": [
+      {
+        "seed": 11,
+        "macro_f1": 0.4865306122448979,
+        "balanced_accuracy": 0.5059523809523809,
+        "mdd_recall": 0.25,
+        "auc": 0.5446428571428571,
+        "nll": 0.7216946452922652,
+        "brier": 0.2603345521760103,
+        "confusion_HC_MDD": [
+          [
+            16,
+            5
+          ],
+          [
+            12,
+            4
+          ]
+        ],
+        "n_people": 37,
+        "predicted_MDD": 9
+      },
+      {
+        "seed": 22,
+        "macro_f1": 0.5595238095238095,
+        "balanced_accuracy": 0.5595238095238095,
+        "mdd_recall": 0.5,
+        "auc": 0.5625,
+        "nll": 0.6981668351769915,
+        "brier": 0.25155279517489915,
+        "confusion_HC_MDD": [
+          [
+            13,
+            8
+          ],
+          [
+            8,
+            8
+          ]
+        ],
+        "n_people": 37,
+        "predicted_MDD": 16
+      },
+      {
+        "seed": 33,
+        "macro_f1": 0.41710427606901723,
+        "balanced_accuracy": 0.4181547619047619,
+        "mdd_recall": 0.3125,
+        "auc": 0.45833333333333337,
+        "nll": 0.7602753244584904,
+        "brier": 0.2807015692156525,
+        "confusion_HC_MDD": [
+          [
+            11,
+            10
+          ],
+          [
+            11,
+            5
+          ]
+        ],
+        "n_people": 37,
+        "predicted_MDD": 15
+      }
+    ],
+    "aggregation": "unweighted five-fold mean, then seed mean; deterministic linear/baselines have one run per fold"
+  },
+  {
+    "condition": "E-N1",
+    "split": "train",
+    "mean": {
+      "macro_f1": 0.8939554653309124,
+      "balanced_accuracy": 0.9002380952380952,
+      "mdd_recall": 0.9166666666666666,
+      "auc": 0.9827441077441078,
+      "nll": 0.4582563261984481,
+      "brier": 0.13966205968812462
+    },
+    "per_fold": [
+      {
+        "seed": 11,
+        "fold": 1,
+        "macro_f1": 0.8411764705882353,
+        "balanced_accuracy": 0.8333333333333333,
+        "mdd_recall": 0.6666666666666666,
+        "auc": 0.9444444444444444,
+        "nll": 0.4869416314867969,
+        "brier": 0.1522028127263509,
+        "confusion_HC_MDD": [
+          [
+            15,
+            0
+          ],
+          [
+            4,
+            8
+          ]
+        ],
+        "n_people": 27,
+        "predicted_MDD": 8
+      },
+      {
+        "seed": 11,
+        "fold": 2,
+        "macro_f1": 1.0,
+        "balanced_accuracy": 1.0,
+        "mdd_recall": 1.0,
+        "auc": 1.0,
+        "nll": 0.3938285002907405,
+        "brier": 0.11034826245284786,
+        "confusion_HC_MDD": [
+          [
+            15,
+            0
+          ],
+          [
+            0,
+            11
+          ]
+        ],
+        "n_people": 26,
+        "predicted_MDD": 11
+      },
+      {
+        "seed": 11,
+        "fold": 3,
+        "macro_f1": 1.0,
+        "balanced_accuracy": 1.0,
+        "mdd_recall": 1.0,
+        "auc": 1.0,
+        "nll": 0.4068564594001306,
+        "brier": 0.11593914946114658,
+        "confusion_HC_MDD": [
+          [
+            14,
+            0
+          ],
+          [
+            0,
+            12
+          ]
+        ],
+        "n_people": 26,
+        "predicted_MDD": 12
+      },
+      {
+        "seed": 11,
+        "fold": 4,
+        "macro_f1": 0.8882758620689655,
+        "balanced_accuracy": 0.8916666666666666,
+        "mdd_recall": 0.9166666666666666,
+        "auc": 0.9666666666666667,
+        "nll": 0.4166009522732544,
+        "brier": 0.1213624369130611,
+        "confusion_HC_MDD": [
+          [
+            13,
+            2
+          ],
+          [
+            1,
+            11
+          ]
+        ],
+        "n_people": 27,
+        "predicted_MDD": 13
+      },
+      {
+        "seed": 11,
+        "fold": 5,
+        "macro_f1": 0.9621318373071529,
+        "balanced_accuracy": 0.9583333333333333,
+        "mdd_recall": 0.9166666666666666,
+        "auc": 0.9944444444444445,
+        "nll": 0.4735826527612699,
+        "brier": 0.14379172453807507,
+        "confusion_HC_MDD": [
+          [
+            15,
+            0
+          ],
+          [
+            1,
+            11
+          ]
+        ],
+        "n_people": 27,
+        "predicted_MDD": 11
+      },
+      {
+        "seed": 22,
+        "fold": 1,
+        "macro_f1": 0.8137931034482759,
+        "balanced_accuracy": 0.8333333333333333,
+        "mdd_recall": 1.0,
+        "auc": 1.0,
+        "nll": 0.4894736029384521,
+        "brier": 0.152521165812885,
+        "confusion_HC_MDD": [
+          [
+            10,
+            5
+          ],
+          [
+            0,
+            12
+          ]
+        ],
+        "n_people": 27,
+        "predicted_MDD": 17
+      },
+      {
+        "seed": 22,
+        "fold": 2,
+        "macro_f1": 0.8844444444444444,
+        "balanced_accuracy": 0.9,
+        "mdd_recall": 1.0,
+        "auc": 0.9939393939393939,
+        "nll": 0.5310258592755754,
+        "brier": 0.1713392846188473,
+        "confusion_HC_MDD": [
+          [
+            12,
+            3
+          ],
+          [
+            0,
+            11
+          ]
+        ],
+        "n_people": 26,
+        "predicted_MDD": 14
+      },
+      {
+        "seed": 22,
+        "fold": 3,
+        "macro_f1": 0.6941176470588235,
+        "balanced_accuracy": 0.7083333333333334,
+        "mdd_recall": 0.4166666666666667,
+        "auc": 1.0,
+        "nll": 0.4666641704537866,
+        "brier": 0.14851926816391287,
+        "confusion_HC_MDD": [
+          [
+            14,
+            0
+          ],
+          [
+            7,
+            5
+          ]
+        ],
+        "n_people": 26,
+        "predicted_MDD": 5
+      },
+      {
+        "seed": 22,
+        "fold": 4,
+        "macro_f1": 0.9258241758241759,
+        "balanced_accuracy": 0.9333333333333333,
+        "mdd_recall": 1.0,
+        "auc": 0.9722222222222222,
+        "nll": 0.5278399082556107,
+        "brier": 0.1695918185482434,
+        "confusion_HC_MDD": [
+          [
+            13,
+            2
+          ],
+          [
+            0,
+            12
+          ]
+        ],
+        "n_people": 27,
+        "predicted_MDD": 14
+      },
+      {
+        "seed": 22,
+        "fold": 5,
+        "macro_f1": 0.8888888888888888,
+        "balanced_accuracy": 0.9,
+        "mdd_recall": 1.0,
+        "auc": 0.9555555555555556,
+        "nll": 0.4527095753885732,
+        "brier": 0.13725606471061388,
+        "confusion_HC_MDD": [
+          [
+            12,
+            3
+          ],
+          [
+            0,
+            12
+          ]
+        ],
+        "n_people": 27,
+        "predicted_MDD": 15
+      },
+      {
+        "seed": 33,
+        "fold": 1,
+        "macro_f1": 0.8137931034482759,
+        "balanced_accuracy": 0.8333333333333333,
+        "mdd_recall": 1.0,
+        "auc": 0.9833333333333334,
+        "nll": 0.5080549982324627,
+        "brier": 0.16166150432048734,
+        "confusion_HC_MDD": [
+          [
+            10,
+            5
+          ],
+          [
+            0,
+            12
+          ]
+        ],
+        "n_people": 27,
+        "predicted_MDD": 17
+      },
+      {
+        "seed": 33,
+        "fold": 2,
+        "macro_f1": 1.0,
+        "balanced_accuracy": 1.0,
+        "mdd_recall": 1.0,
+        "auc": 1.0,
+        "nll": 0.3818634192414159,
+        "brier": 0.10650434441041591,
+        "confusion_HC_MDD": [
+          [
+            15,
+            0
+          ],
+          [
+            0,
+            11
+          ]
+        ],
+        "n_people": 26,
+        "predicted_MDD": 11
+      },
+      {
+        "seed": 33,
+        "fold": 3,
+        "macro_f1": 0.8452380952380952,
+        "balanced_accuracy": 0.8452380952380952,
+        "mdd_recall": 0.8333333333333334,
+        "auc": 0.9583333333333333,
+        "nll": 0.4339884057022276,
+        "brier": 0.13224468721738736,
+        "confusion_HC_MDD": [
+          [
+            12,
+            2
+          ],
+          [
+            2,
+            10
+          ]
+        ],
+        "n_people": 26,
+        "predicted_MDD": 12
+      },
+      {
+        "seed": 33,
+        "fold": 4,
+        "macro_f1": 0.9258241758241759,
+        "balanced_accuracy": 0.9333333333333333,
+        "mdd_recall": 1.0,
+        "auc": 1.0,
+        "nll": 0.44281222966083494,
+        "brier": 0.13123899596373312,
+        "confusion_HC_MDD": [
+          [
+            13,
+            2
+          ],
+          [
+            0,
+            12
+          ]
+        ],
+        "n_people": 27,
+        "predicted_MDD": 14
+      },
+      {
+        "seed": 33,
+        "fold": 5,
+        "macro_f1": 0.9258241758241759,
+        "balanced_accuracy": 0.9333333333333333,
+        "mdd_recall": 1.0,
+        "auc": 0.9722222222222222,
+        "nll": 0.46160252761558956,
+        "brier": 0.14040937546386167,
+        "confusion_HC_MDD": [
+          [
+            13,
+            2
+          ],
+          [
+            0,
+            12
+          ]
+        ],
+        "n_people": 27,
+        "predicted_MDD": 14
+      }
+    ],
+    "per_seed": [
+      {
+        "seed": 11,
+        "macro_f1": 0.9383168339928707,
+        "balanced_accuracy": 0.9366666666666665,
+        "mdd_recall": 0.9,
+        "auc": 0.9811111111111112,
+        "nll": 0.43556203924243847,
+        "brier": 0.1287288772182963
+      },
+      {
+        "seed": 22,
+        "macro_f1": 0.8414136519329218,
+        "balanced_accuracy": 0.8550000000000001,
+        "mdd_recall": 0.8833333333333332,
+        "auc": 0.9843434343434344,
+        "nll": 0.4935426232623996,
+        "brier": 0.1558455203709005
+      },
+      {
+        "seed": 33,
+        "macro_f1": 0.9021359100669446,
+        "balanced_accuracy": 0.909047619047619,
+        "mdd_recall": 0.9666666666666668,
+        "auc": 0.9827777777777778,
+        "nll": 0.44566431609050616,
+        "brier": 0.1344117814751771
+      }
+    ],
+    "pooled_oof": [],
+    "aggregation": "unweighted five-fold mean, then seed mean; deterministic linear/baselines have one run per fold"
+  },
+  {
+    "condition": "E-N1",
+    "split": "val",
+    "mean": {
+      "macro_f1": 0.5833333333333333,
+      "balanced_accuracy": 0.6666666666666666,
+      "mdd_recall": 0.6,
+      "auc": 0.6999999999999998,
+      "nll": 0.6336269027556131,
+      "brier": 0.21999520416066662
+    },
+    "per_fold": [
+      {
+        "seed": 11,
+        "fold": 1,
+        "macro_f1": 1.0,
+        "balanced_accuracy": 1.0,
+        "mdd_recall": 1.0,
+        "auc": 1.0,
+        "nll": 0.42911154528032447,
+        "brier": 0.12311007673251269,
+        "confusion_HC_MDD": [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 1
+      },
+      {
+        "seed": 11,
+        "fold": 2,
+        "macro_f1": 0.4,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": 0.5,
+        "nll": 0.5604659140946952,
+        "brier": 0.18967800220640582,
+        "confusion_HC_MDD": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 0
+      },
+      {
+        "seed": 11,
+        "fold": 3,
+        "macro_f1": 0.25,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 1.0,
+        "auc": 0.0,
+        "nll": 0.8609681496319771,
+        "brier": 0.3317339858011863,
+        "confusion_HC_MDD": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 3
+      },
+      {
+        "seed": 11,
+        "fold": 4,
+        "macro_f1": 0.25,
+        "balanced_accuracy": 0.25,
+        "mdd_recall": 0.0,
+        "auc": 0.5,
+        "nll": 0.5461730951681293,
+        "brier": 0.18413027875615207,
+        "confusion_HC_MDD": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 1
+      },
+      {
+        "seed": 11,
+        "fold": 5,
+        "macro_f1": 1.0,
+        "balanced_accuracy": 1.0,
+        "mdd_recall": 1.0,
+        "auc": 1.0,
+        "nll": 0.5970598536151118,
+        "brier": 0.202638980101758,
+        "confusion_HC_MDD": [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 1
+      },
+      {
+        "seed": 22,
+        "fold": 1,
+        "macro_f1": 0.25,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 1.0,
+        "auc": 1.0,
+        "nll": 0.7296658587268668,
+        "brier": 0.26856238247796443,
+        "confusion_HC_MDD": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 3
+      },
+      {
+        "seed": 22,
+        "fold": 2,
+        "macro_f1": 0.6666666666666666,
+        "balanced_accuracy": 0.75,
+        "mdd_recall": 1.0,
+        "auc": 1.0,
+        "nll": 0.5786741006863009,
+        "brier": 0.19421238356159667,
+        "confusion_HC_MDD": [
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 2
+      },
+      {
+        "seed": 22,
+        "fold": 3,
+        "macro_f1": 0.4,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": 0.0,
+        "nll": 0.9774464068799432,
+        "brier": 0.3617998165254157,
+        "confusion_HC_MDD": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 0
+      },
+      {
+        "seed": 22,
+        "fold": 4,
+        "macro_f1": 1.0,
+        "balanced_accuracy": 1.0,
+        "mdd_recall": 1.0,
+        "auc": 1.0,
+        "nll": 0.48810023191778845,
+        "brier": 0.15114381444587366,
+        "confusion_HC_MDD": [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 1
+      },
+      {
+        "seed": 22,
+        "fold": 5,
+        "macro_f1": 0.4,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": 1.0,
+        "nll": 0.6099340193838391,
+        "brier": 0.20898002850938635,
+        "confusion_HC_MDD": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 0
+      },
+      {
+        "seed": 33,
+        "fold": 1,
+        "macro_f1": 0.6666666666666666,
+        "balanced_accuracy": 0.75,
+        "mdd_recall": 1.0,
+        "auc": 1.0,
+        "nll": 0.5854314427114368,
+        "brier": 0.19799765569515296,
+        "confusion_HC_MDD": [
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 2
+      },
+      {
+        "seed": 33,
+        "fold": 2,
+        "macro_f1": 0.6666666666666666,
+        "balanced_accuracy": 0.75,
+        "mdd_recall": 1.0,
+        "auc": 1.0,
+        "nll": 0.6240539671418912,
+        "brier": 0.21624497049810673,
+        "confusion_HC_MDD": [
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 2
+      },
+      {
+        "seed": 33,
+        "fold": 3,
+        "macro_f1": 0.4,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": 0.0,
+        "nll": 0.8602051624662183,
+        "brier": 0.32680842038007335,
+        "confusion_HC_MDD": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 0
+      },
+      {
+        "seed": 33,
+        "fold": 4,
+        "macro_f1": 1.0,
+        "balanced_accuracy": 1.0,
+        "mdd_recall": 1.0,
+        "auc": 1.0,
+        "nll": 0.4279950161853337,
+        "brier": 0.12416052900270458,
+        "confusion_HC_MDD": [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 1
+      },
+      {
+        "seed": 33,
+        "fold": 5,
+        "macro_f1": 0.4,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": 0.5,
+        "nll": 0.6291187774443391,
+        "brier": 0.21872673771570975,
+        "confusion_HC_MDD": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 0
+      }
+    ],
+    "per_seed": [
+      {
+        "seed": 11,
+        "macro_f1": 0.58,
+        "balanced_accuracy": 0.65,
+        "mdd_recall": 0.6,
+        "auc": 0.6,
+        "nll": 0.5987557115580475,
+        "brier": 0.206258264719603
+      },
+      {
+        "seed": 22,
+        "macro_f1": 0.5433333333333332,
+        "balanced_accuracy": 0.65,
+        "mdd_recall": 0.6,
+        "auc": 0.8,
+        "nll": 0.6767641235189477,
+        "brier": 0.23693968510404737
+      },
+      {
+        "seed": 33,
+        "macro_f1": 0.6266666666666667,
+        "balanced_accuracy": 0.7,
+        "mdd_recall": 0.6,
+        "auc": 0.7,
+        "nll": 0.6253608731898439,
+        "brier": 0.2167876626583495
+      }
+    ],
+    "pooled_oof": [],
+    "aggregation": "unweighted five-fold mean, then seed mean; deterministic linear/baselines have one run per fold"
+  },
+  {
+    "condition": "E-N1-threshold",
+    "split": "test",
+    "mean": {
+      "macro_f1": 0.4369240019240019,
+      "balanced_accuracy": 0.47055555555555556,
+      "mdd_recall": 0.3777777777777777,
+      "auc": 0.47555555555555556,
+      "nll": 0.7272755014896305,
+      "brier": 0.26457308392031237
+    },
+    "per_fold": [
+      {
+        "seed": 11,
+        "fold": 1,
+        "macro_f1": 0.36363636363636365,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": 0.5,
+        "nll": 0.6893278064077986,
+        "brier": 0.24684645537994054,
+        "confusion_HC_MDD": [
+          [
+            4,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "n_people": 7,
+        "predicted_MDD": 0
+      },
+      {
+        "seed": 11,
+        "fold": 2,
+        "macro_f1": 0.2,
+        "balanced_accuracy": 0.25,
+        "mdd_recall": 0.0,
+        "auc": 0.5,
+        "nll": 0.6802316117688485,
+        "brier": 0.24507741502617877,
+        "confusion_HC_MDD": [
+          [
+            2,
+            2
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "n_people": 8,
+        "predicted_MDD": 2
+      },
+      {
+        "seed": 11,
+        "fold": 3,
+        "macro_f1": 0.5636363636363637,
+        "balanced_accuracy": 0.5666666666666667,
+        "mdd_recall": 0.3333333333333333,
+        "auc": 0.39999999999999997,
+        "nll": 0.7791486483992678,
+        "brier": 0.27658658579232187,
+        "confusion_HC_MDD": [
+          [
+            4,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "n_people": 8,
+        "predicted_MDD": 2
+      },
+      {
+        "seed": 11,
+        "fold": 4,
+        "macro_f1": 0.5333333333333333,
+        "balanced_accuracy": 0.5416666666666666,
+        "mdd_recall": 0.3333333333333333,
+        "auc": 0.5833333333333334,
+        "nll": 0.6874142132836045,
+        "brier": 0.24602599904277397,
+        "confusion_HC_MDD": [
+          [
+            3,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "n_people": 7,
+        "predicted_MDD": 2
+      },
+      {
+        "seed": 11,
+        "fold": 5,
+        "macro_f1": 0.2222222222222222,
+        "balanced_accuracy": 0.25,
+        "mdd_recall": 0.0,
+        "auc": 0.3333333333333333,
+        "nll": 0.77006652237558,
+        "brier": 0.28699417757219653,
+        "confusion_HC_MDD": [
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "n_people": 7,
+        "predicted_MDD": 2
+      },
+      {
+        "seed": 22,
+        "fold": 1,
+        "macro_f1": 0.7083333333333333,
+        "balanced_accuracy": 0.7083333333333333,
+        "mdd_recall": 0.6666666666666666,
+        "auc": 0.5,
+        "nll": 0.7089992511796386,
+        "brier": 0.2574730652640917,
+        "confusion_HC_MDD": [
+          [
+            3,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "n_people": 7,
+        "predicted_MDD": 3
+      },
+      {
+        "seed": 22,
+        "fold": 2,
+        "macro_f1": 0.5,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.5,
+        "auc": 0.625,
+        "nll": 0.6657737361135767,
+        "brier": 0.23608005016332945,
+        "confusion_HC_MDD": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "n_people": 8,
+        "predicted_MDD": 4
+      },
+      {
+        "seed": 22,
+        "fold": 3,
+        "macro_f1": 0.3333333333333333,
+        "balanced_accuracy": 0.4,
+        "mdd_recall": 0.0,
+        "auc": 0.5333333333333332,
+        "nll": 0.6989052887198611,
+        "brier": 0.24974643946781058,
+        "confusion_HC_MDD": [
+          [
+            4,
+            1
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "n_people": 8,
+        "predicted_MDD": 1
+      },
+      {
+        "seed": 22,
+        "fold": 4,
+        "macro_f1": 0.5714285714285714,
+        "balanced_accuracy": 0.5833333333333333,
+        "mdd_recall": 0.6666666666666666,
+        "auc": 0.41666666666666663,
+        "nll": 0.7222792610007416,
+        "brier": 0.26359665691931244,
+        "confusion_HC_MDD": [
+          [
+            2,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "n_people": 7,
+        "predicted_MDD": 4
+      },
+      {
+        "seed": 22,
+        "fold": 5,
+        "macro_f1": 0.41666666666666663,
+        "balanced_accuracy": 0.4583333333333333,
+        "mdd_recall": 0.6666666666666666,
+        "auc": 0.5833333333333333,
+        "nll": 0.6993987310883607,
+        "brier": 0.2533362070197602,
+        "confusion_HC_MDD": [
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "n_people": 7,
+        "predicted_MDD": 5
+      },
+      {
+        "seed": 33,
+        "fold": 1,
+        "macro_f1": 0.41666666666666663,
+        "balanced_accuracy": 0.4583333333333333,
+        "mdd_recall": 0.6666666666666666,
+        "auc": 0.25,
+        "nll": 0.8121184167012033,
+        "brier": 0.3071637835976387,
+        "confusion_HC_MDD": [
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "n_people": 7,
+        "predicted_MDD": 5
+      },
+      {
+        "seed": 33,
+        "fold": 2,
+        "macro_f1": 0.6190476190476191,
+        "balanced_accuracy": 0.625,
+        "mdd_recall": 0.5,
+        "auc": 0.625,
+        "nll": 0.8103955260332253,
+        "brier": 0.29573925769351406,
+        "confusion_HC_MDD": [
+          [
+            3,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "n_people": 8,
+        "predicted_MDD": 3
+      },
+      {
+        "seed": 33,
+        "fold": 3,
+        "macro_f1": 0.4666666666666667,
+        "balanced_accuracy": 0.4666666666666667,
+        "mdd_recall": 0.3333333333333333,
+        "auc": 0.5333333333333333,
+        "nll": 0.6666793148806573,
+        "brier": 0.24238635318684804,
+        "confusion_HC_MDD": [
+          [
+            3,
+            2
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "n_people": 8,
+        "predicted_MDD": 3
+      },
+      {
+        "seed": 33,
+        "fold": 4,
+        "macro_f1": 0.41666666666666663,
+        "balanced_accuracy": 0.41666666666666663,
+        "mdd_recall": 0.3333333333333333,
+        "auc": 0.5,
+        "nll": 0.762888154946579,
+        "brier": 0.2808381973127097,
+        "confusion_HC_MDD": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "n_people": 7,
+        "predicted_MDD": 3
+      },
+      {
+        "seed": 33,
+        "fold": 5,
+        "macro_f1": 0.2222222222222222,
+        "balanced_accuracy": 0.3333333333333333,
+        "mdd_recall": 0.6666666666666666,
+        "auc": 0.25,
+        "nll": 0.7555060394455159,
+        "brier": 0.2807056153662583,
+        "confusion_HC_MDD": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "n_people": 7,
+        "predicted_MDD": 6
+      }
+    ],
+    "per_seed": [
+      {
+        "seed": 11,
+        "macro_f1": 0.3765656565656566,
+        "balanced_accuracy": 0.4216666666666667,
+        "mdd_recall": 0.13333333333333333,
+        "auc": 0.4633333333333334,
+        "nll": 0.7212377604470198,
+        "brier": 0.2603061265626823
+      },
+      {
+        "seed": 22,
+        "macro_f1": 0.5059523809523809,
+        "balanced_accuracy": 0.53,
+        "mdd_recall": 0.4999999999999999,
+        "auc": 0.5316666666666666,
+        "nll": 0.6990712536204358,
+        "brier": 0.2520464837668609
+      },
+      {
+        "seed": 33,
+        "macro_f1": 0.4282539682539682,
+        "balanced_accuracy": 0.45999999999999996,
+        "mdd_recall": 0.4999999999999999,
+        "auc": 0.43166666666666664,
+        "nll": 0.7615174904014361,
+        "brier": 0.2813666414313937
+      }
+    ],
+    "pooled_oof": [
+      {
+        "seed": 11,
+        "macro_f1": 0.3833333333333333,
+        "balanced_accuracy": 0.41964285714285715,
+        "mdd_recall": 0.125,
+        "auc": 0.5446428571428571,
+        "nll": 0.7216946452922652,
+        "brier": 0.2603345521760103,
+        "confusion_HC_MDD": [
+          [
+            15,
+            6
+          ],
+          [
+            14,
+            2
+          ]
+        ],
+        "n_people": 37,
+        "predicted_MDD": 8
+      },
+      {
+        "seed": 22,
+        "macro_f1": 0.5351071692535108,
+        "balanced_accuracy": 0.5357142857142857,
+        "mdd_recall": 0.5,
+        "auc": 0.5625,
+        "nll": 0.6981668351769915,
+        "brier": 0.25155279517489915,
+        "confusion_HC_MDD": [
+          [
+            12,
+            9
+          ],
+          [
+            8,
+            8
+          ]
+        ],
+        "n_people": 37,
+        "predicted_MDD": 17
+      },
+      {
+        "seed": 33,
+        "macro_f1": 0.45906432748538006,
+        "balanced_accuracy": 0.4642857142857143,
+        "mdd_recall": 0.5,
+        "auc": 0.45833333333333337,
+        "nll": 0.7602753244584904,
+        "brier": 0.2807015692156525,
+        "confusion_HC_MDD": [
+          [
+            9,
+            12
+          ],
+          [
+            8,
+            8
+          ]
+        ],
+        "n_people": 37,
+        "predicted_MDD": 20
+      }
+    ],
+    "aggregation": "unweighted five-fold mean, then seed mean; deterministic linear/baselines have one run per fold"
+  },
+  {
+    "condition": "E-N1-threshold",
+    "split": "train",
+    "mean": {
+      "macro_f1": 0.8569871706660193,
+      "balanced_accuracy": 0.8688600288600289,
+      "mdd_recall": 0.9434343434343434,
+      "auc": 0.9827441077441078,
+      "nll": 0.4582563261984481,
+      "brier": 0.13966205968812462
+    },
+    "per_fold": [
+      {
+        "seed": 11,
+        "fold": 1,
+        "macro_f1": 0.8411764705882353,
+        "balanced_accuracy": 0.8333333333333333,
+        "mdd_recall": 0.6666666666666666,
+        "auc": 0.9444444444444444,
+        "nll": 0.4869416314867969,
+        "brier": 0.1522028127263509,
+        "confusion_HC_MDD": [
+          [
+            15,
+            0
+          ],
+          [
+            4,
+            8
+          ]
+        ],
+        "n_people": 27,
+        "predicted_MDD": 8
+      },
+      {
+        "seed": 11,
+        "fold": 2,
+        "macro_f1": 0.91875,
+        "balanced_accuracy": 0.9090909090909092,
+        "mdd_recall": 0.8181818181818182,
+        "auc": 1.0,
+        "nll": 0.3938285002907405,
+        "brier": 0.11034826245284786,
+        "confusion_HC_MDD": [
+          [
+            15,
+            0
+          ],
+          [
+            2,
+            9
+          ]
+        ],
+        "n_people": 26,
+        "predicted_MDD": 9
+      },
+      {
+        "seed": 11,
+        "fold": 3,
+        "macro_f1": 0.9614814814814814,
+        "balanced_accuracy": 0.9642857142857143,
+        "mdd_recall": 1.0,
+        "auc": 1.0,
+        "nll": 0.4068564594001306,
+        "brier": 0.11593914946114658,
+        "confusion_HC_MDD": [
+          [
+            13,
+            1
+          ],
+          [
+            0,
+            12
+          ]
+        ],
+        "n_people": 26,
+        "predicted_MDD": 13
+      },
+      {
+        "seed": 11,
+        "fold": 4,
+        "macro_f1": 0.8500000000000001,
+        "balanced_accuracy": 0.8500000000000001,
+        "mdd_recall": 0.8333333333333334,
+        "auc": 0.9666666666666667,
+        "nll": 0.4166009522732544,
+        "brier": 0.1213624369130611,
+        "confusion_HC_MDD": [
+          [
+            13,
+            2
+          ],
+          [
+            2,
+            10
+          ]
+        ],
+        "n_people": 27,
+        "predicted_MDD": 12
+      },
+      {
+        "seed": 11,
+        "fold": 5,
+        "macro_f1": 0.9621318373071529,
+        "balanced_accuracy": 0.9583333333333333,
+        "mdd_recall": 0.9166666666666666,
+        "auc": 0.9944444444444445,
+        "nll": 0.4735826527612699,
+        "brier": 0.14379172453807507,
+        "confusion_HC_MDD": [
+          [
+            15,
+            0
+          ],
+          [
+            1,
+            11
+          ]
+        ],
+        "n_people": 27,
+        "predicted_MDD": 11
+      },
+      {
+        "seed": 22,
+        "fold": 1,
+        "macro_f1": 0.9258241758241759,
+        "balanced_accuracy": 0.9333333333333333,
+        "mdd_recall": 1.0,
+        "auc": 1.0,
+        "nll": 0.4894736029384521,
+        "brier": 0.152521165812885,
+        "confusion_HC_MDD": [
+          [
+            13,
+            2
+          ],
+          [
+            0,
+            12
+          ]
+        ],
+        "n_people": 27,
+        "predicted_MDD": 14
+      },
+      {
+        "seed": 22,
+        "fold": 2,
+        "macro_f1": 0.9610194902548725,
+        "balanced_accuracy": 0.9666666666666667,
+        "mdd_recall": 1.0,
+        "auc": 0.9939393939393939,
+        "nll": 0.5310258592755754,
+        "brier": 0.1713392846188473,
+        "confusion_HC_MDD": [
+          [
+            14,
+            1
+          ],
+          [
+            0,
+            11
+          ]
+        ],
+        "n_people": 26,
+        "predicted_MDD": 12
+      },
+      {
+        "seed": 22,
+        "fold": 3,
+        "macro_f1": 0.9610194902548725,
+        "balanced_accuracy": 0.9583333333333333,
+        "mdd_recall": 0.9166666666666666,
+        "auc": 1.0,
+        "nll": 0.4666641704537866,
+        "brier": 0.14851926816391287,
+        "confusion_HC_MDD": [
+          [
+            14,
+            0
+          ],
+          [
+            1,
+            11
+          ]
+        ],
+        "n_people": 26,
+        "predicted_MDD": 11
+      },
+      {
+        "seed": 22,
+        "fold": 4,
+        "macro_f1": 0.7349228611500701,
+        "balanced_accuracy": 0.7666666666666666,
+        "mdd_recall": 1.0,
+        "auc": 0.9722222222222222,
+        "nll": 0.5278399082556107,
+        "brier": 0.1695918185482434,
+        "confusion_HC_MDD": [
+          [
+            8,
+            7
+          ],
+          [
+            0,
+            12
+          ]
+        ],
+        "n_people": 27,
+        "predicted_MDD": 19
+      },
+      {
+        "seed": 22,
+        "fold": 5,
+        "macro_f1": 0.8516483516483516,
+        "balanced_accuracy": 0.8666666666666667,
+        "mdd_recall": 1.0,
+        "auc": 0.9555555555555556,
+        "nll": 0.4527095753885732,
+        "brier": 0.13725606471061388,
+        "confusion_HC_MDD": [
+          [
+            11,
+            4
+          ],
+          [
+            0,
+            12
+          ]
+        ],
+        "n_people": 27,
+        "predicted_MDD": 16
+      },
+      {
+        "seed": 33,
+        "fold": 1,
+        "macro_f1": 0.6931818181818181,
+        "balanced_accuracy": 0.7333333333333334,
+        "mdd_recall": 1.0,
+        "auc": 0.9833333333333334,
+        "nll": 0.5080549982324627,
+        "brier": 0.16166150432048734,
+        "confusion_HC_MDD": [
+          [
+            7,
+            8
+          ],
+          [
+            0,
+            12
+          ]
+        ],
+        "n_people": 27,
+        "predicted_MDD": 20
+      },
+      {
+        "seed": 33,
+        "fold": 2,
+        "macro_f1": 0.7271364317841079,
+        "balanced_accuracy": 0.7666666666666666,
+        "mdd_recall": 1.0,
+        "auc": 1.0,
+        "nll": 0.3818634192414159,
+        "brier": 0.10650434441041591,
+        "confusion_HC_MDD": [
+          [
+            8,
+            7
+          ],
+          [
+            0,
+            11
+          ]
+        ],
+        "n_people": 26,
+        "predicted_MDD": 18
+      },
+      {
+        "seed": 33,
+        "fold": 3,
+        "macro_f1": 0.8844444444444444,
+        "balanced_accuracy": 0.8928571428571428,
+        "mdd_recall": 1.0,
+        "auc": 0.9583333333333333,
+        "nll": 0.4339884057022276,
+        "brier": 0.13224468721738736,
+        "confusion_HC_MDD": [
+          [
+            11,
+            3
+          ],
+          [
+            0,
+            12
+          ]
+        ],
+        "n_people": 26,
+        "predicted_MDD": 15
+      },
+      {
+        "seed": 33,
+        "fold": 4,
+        "macro_f1": 0.8888888888888888,
+        "balanced_accuracy": 0.9,
+        "mdd_recall": 1.0,
+        "auc": 1.0,
+        "nll": 0.44281222966083494,
+        "brier": 0.13123899596373312,
+        "confusion_HC_MDD": [
+          [
+            12,
+            3
+          ],
+          [
+            0,
+            12
+          ]
+        ],
+        "n_people": 27,
+        "predicted_MDD": 15
+      },
+      {
+        "seed": 33,
+        "fold": 5,
+        "macro_f1": 0.6931818181818181,
+        "balanced_accuracy": 0.7333333333333334,
+        "mdd_recall": 1.0,
+        "auc": 0.9722222222222222,
+        "nll": 0.46160252761558956,
+        "brier": 0.14040937546386167,
+        "confusion_HC_MDD": [
+          [
+            7,
+            8
+          ],
+          [
+            0,
+            12
+          ]
+        ],
+        "n_people": 27,
+        "predicted_MDD": 20
+      }
+    ],
+    "per_seed": [
+      {
+        "seed": 11,
+        "macro_f1": 0.906707957875374,
+        "balanced_accuracy": 0.903008658008658,
+        "mdd_recall": 0.846969696969697,
+        "auc": 0.9811111111111112,
+        "nll": 0.43556203924243847,
+        "brier": 0.1287288772182963
+      },
+      {
+        "seed": 22,
+        "macro_f1": 0.8868868738264686,
+        "balanced_accuracy": 0.8983333333333334,
+        "mdd_recall": 0.9833333333333332,
+        "auc": 0.9843434343434344,
+        "nll": 0.4935426232623996,
+        "brier": 0.1558455203709005
+      },
+      {
+        "seed": 33,
+        "macro_f1": 0.7773666802962154,
+        "balanced_accuracy": 0.8052380952380952,
+        "mdd_recall": 1.0,
+        "auc": 0.9827777777777778,
+        "nll": 0.44566431609050616,
+        "brier": 0.1344117814751771
+      }
+    ],
+    "pooled_oof": [],
+    "aggregation": "unweighted five-fold mean, then seed mean; deterministic linear/baselines have one run per fold"
+  },
+  {
+    "condition": "E-N1-threshold",
+    "split": "val",
+    "mean": {
+      "macro_f1": 0.5299999999999999,
+      "balanced_accuracy": 0.6166666666666666,
+      "mdd_recall": 0.6666666666666666,
+      "auc": 0.6999999999999998,
+      "nll": 0.6336269027556131,
+      "brier": 0.21999520416066662
+    },
+    "per_fold": [
+      {
+        "seed": 11,
+        "fold": 1,
+        "macro_f1": 1.0,
+        "balanced_accuracy": 1.0,
+        "mdd_recall": 1.0,
+        "auc": 1.0,
+        "nll": 0.42911154528032447,
+        "brier": 0.12311007673251269,
+        "confusion_HC_MDD": [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 1
+      },
+      {
+        "seed": 11,
+        "fold": 2,
+        "macro_f1": 0.4,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": 0.5,
+        "nll": 0.5604659140946952,
+        "brier": 0.18967800220640582,
+        "confusion_HC_MDD": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 0
+      },
+      {
+        "seed": 11,
+        "fold": 3,
+        "macro_f1": 0.25,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 1.0,
+        "auc": 0.0,
+        "nll": 0.8609681496319771,
+        "brier": 0.3317339858011863,
+        "confusion_HC_MDD": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 3
+      },
+      {
+        "seed": 11,
+        "fold": 4,
+        "macro_f1": 0.4,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": 0.5,
+        "nll": 0.5461730951681293,
+        "brier": 0.18413027875615207,
+        "confusion_HC_MDD": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 0
+      },
+      {
+        "seed": 11,
+        "fold": 5,
+        "macro_f1": 0.4,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": 1.0,
+        "nll": 0.5970598536151118,
+        "brier": 0.202638980101758,
+        "confusion_HC_MDD": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 0
+      },
+      {
+        "seed": 22,
+        "fold": 1,
+        "macro_f1": 0.25,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 1.0,
+        "auc": 1.0,
+        "nll": 0.7296658587268668,
+        "brier": 0.26856238247796443,
+        "confusion_HC_MDD": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 3
+      },
+      {
+        "seed": 22,
+        "fold": 2,
+        "macro_f1": 1.0,
+        "balanced_accuracy": 1.0,
+        "mdd_recall": 1.0,
+        "auc": 1.0,
+        "nll": 0.5786741006863009,
+        "brier": 0.19421238356159667,
+        "confusion_HC_MDD": [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 1
+      },
+      {
+        "seed": 22,
+        "fold": 3,
+        "macro_f1": 0.0,
+        "balanced_accuracy": 0.0,
+        "mdd_recall": 0.0,
+        "auc": 0.0,
+        "nll": 0.9774464068799432,
+        "brier": 0.3617998165254157,
+        "confusion_HC_MDD": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 2
+      },
+      {
+        "seed": 22,
+        "fold": 4,
+        "macro_f1": 1.0,
+        "balanced_accuracy": 1.0,
+        "mdd_recall": 1.0,
+        "auc": 1.0,
+        "nll": 0.48810023191778845,
+        "brier": 0.15114381444587366,
+        "confusion_HC_MDD": [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 1
+      },
+      {
+        "seed": 22,
+        "fold": 5,
+        "macro_f1": 1.0,
+        "balanced_accuracy": 1.0,
+        "mdd_recall": 1.0,
+        "auc": 1.0,
+        "nll": 0.6099340193838391,
+        "brier": 0.20898002850938635,
+        "confusion_HC_MDD": [
+          [
+            2,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 1
+      },
+      {
+        "seed": 33,
+        "fold": 1,
+        "macro_f1": 0.6666666666666666,
+        "balanced_accuracy": 0.75,
+        "mdd_recall": 1.0,
+        "auc": 1.0,
+        "nll": 0.5854314427114368,
+        "brier": 0.19799765569515296,
+        "confusion_HC_MDD": [
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 2
+      },
+      {
+        "seed": 33,
+        "fold": 2,
+        "macro_f1": 0.25,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 1.0,
+        "auc": 1.0,
+        "nll": 0.6240539671418912,
+        "brier": 0.21624497049810673,
+        "confusion_HC_MDD": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 3
+      },
+      {
+        "seed": 33,
+        "fold": 3,
+        "macro_f1": 0.0,
+        "balanced_accuracy": 0.0,
+        "mdd_recall": 0.0,
+        "auc": 0.0,
+        "nll": 0.8602051624662183,
+        "brier": 0.32680842038007335,
+        "confusion_HC_MDD": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 2
+      },
+      {
+        "seed": 33,
+        "fold": 4,
+        "macro_f1": 0.6666666666666666,
+        "balanced_accuracy": 0.75,
+        "mdd_recall": 1.0,
+        "auc": 1.0,
+        "nll": 0.4279950161853337,
+        "brier": 0.12416052900270458,
+        "confusion_HC_MDD": [
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 2
+      },
+      {
+        "seed": 33,
+        "fold": 5,
+        "macro_f1": 0.6666666666666666,
+        "balanced_accuracy": 0.75,
+        "mdd_recall": 1.0,
+        "auc": 0.5,
+        "nll": 0.6291187774443391,
+        "brier": 0.21872673771570975,
+        "confusion_HC_MDD": [
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 2
+      }
+    ],
+    "per_seed": [
+      {
+        "seed": 11,
+        "macro_f1": 0.48999999999999994,
+        "balanced_accuracy": 0.6,
+        "mdd_recall": 0.4,
+        "auc": 0.6,
+        "nll": 0.5987557115580475,
+        "brier": 0.206258264719603
+      },
+      {
+        "seed": 22,
+        "macro_f1": 0.65,
+        "balanced_accuracy": 0.7,
+        "mdd_recall": 0.8,
+        "auc": 0.8,
+        "nll": 0.6767641235189477,
+        "brier": 0.23693968510404737
+      },
+      {
+        "seed": 33,
+        "macro_f1": 0.45,
+        "balanced_accuracy": 0.55,
+        "mdd_recall": 0.8,
+        "auc": 0.7,
+        "nll": 0.6253608731898439,
+        "brier": 0.2167876626583495
+      }
+    ],
+    "pooled_oof": [],
+    "aggregation": "unweighted five-fold mean, then seed mean; deterministic linear/baselines have one run per fold"
+  },
+  {
+    "condition": "E-PRIOR",
+    "split": "test",
+    "mean": {
+      "macro_f1": 0.3617715617715618,
+      "balanced_accuracy": 0.5,
+      "mdd_recall": 0.0,
+      "auc": 0.5,
+      "nll": 0.6864456721617385,
+      "brier": 0.24664616010769858
+    },
+    "per_fold": [
+      {
+        "seed": 0,
+        "fold": 1,
+        "macro_f1": 0.36363636363636365,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": 0.5,
+        "nll": 0.6834196154653517,
+        "brier": 0.2451499118165785,
+        "confusion_HC_MDD": [
+          [
+            4,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "n_people": 7,
+        "predicted_MDD": 0
+      },
+      {
+        "seed": 0,
+        "fold": 2,
+        "macro_f1": 0.3333333333333333,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": 0.5,
+        "nll": 0.7051238010711918,
+        "brier": 0.2559171597633136,
+        "confusion_HC_MDD": [
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "n_people": 8,
+        "predicted_MDD": 0
+      },
+      {
+        "seed": 0,
+        "fold": 3,
+        "macro_f1": 0.38461538461538464,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": 0.5,
+        "nll": 0.6768457133414453,
+        "brier": 0.2418639053254438,
+        "confusion_HC_MDD": [
+          [
+            5,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "n_people": 8,
+        "predicted_MDD": 0
+      },
+      {
+        "seed": 0,
+        "fold": 4,
+        "macro_f1": 0.36363636363636365,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": 0.5,
+        "nll": 0.6834196154653517,
+        "brier": 0.2451499118165785,
+        "confusion_HC_MDD": [
+          [
+            4,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "n_people": 7,
+        "predicted_MDD": 0
+      },
+      {
+        "seed": 0,
+        "fold": 5,
+        "macro_f1": 0.36363636363636365,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": 0.5,
+        "nll": 0.6834196154653517,
+        "brier": 0.2451499118165785,
+        "confusion_HC_MDD": [
+          [
+            4,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "n_people": 7,
+        "predicted_MDD": 0
+      }
+    ],
+    "per_seed": [
+      {
+        "seed": 0,
+        "macro_f1": 0.3617715617715618,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": 0.5,
+        "nll": 0.6864456721617385,
+        "brier": 0.24664616010769858
+      }
+    ],
+    "pooled_oof": [
+      {
+        "seed": 0,
+        "macro_f1": 0.3620689655172414,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": 0.456845238095238,
+        "nll": 0.6866910281100941,
+        "brier": 0.2467674775367084,
+        "confusion_HC_MDD": [
+          [
+            21,
+            0
+          ],
+          [
+            16,
+            0
+          ]
+        ],
+        "n_people": 37,
+        "predicted_MDD": 0
+      }
+    ],
+    "aggregation": "unweighted five-fold mean, then seed mean; deterministic linear/baselines have one run per fold"
+  },
+  {
+    "condition": "E-PRIOR",
+    "split": "train",
+    "mean": {
+      "macro_f1": 0.3574564459930314,
+      "balanced_accuracy": 0.5,
+      "mdd_recall": 0.0,
+      "auc": 0.5,
+      "nll": 0.6864672270947958,
+      "brier": 0.24666885820731976
+    },
+    "per_fold": [
+      {
+        "seed": 0,
+        "fold": 1,
+        "macro_f1": 0.35714285714285715,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": 0.5,
+        "nll": 0.6869615765973234,
+        "brier": 0.2469135802469136,
+        "confusion_HC_MDD": [
+          [
+            15,
+            0
+          ],
+          [
+            12,
+            0
+          ]
+        ],
+        "n_people": 27,
+        "predicted_MDD": 0
+      },
+      {
+        "seed": 0,
+        "fold": 2,
+        "macro_f1": 0.36585365853658536,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": 0.5,
+        "nll": 0.6812657296632042,
+        "brier": 0.24408284023668633,
+        "confusion_HC_MDD": [
+          [
+            15,
+            0
+          ],
+          [
+            11,
+            0
+          ]
+        ],
+        "n_people": 26,
+        "predicted_MDD": 0
+      },
+      {
+        "seed": 0,
+        "fold": 3,
+        "macro_f1": 0.35,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": 0.5,
+        "nll": 0.6901856760188043,
+        "brier": 0.24852071005917165,
+        "confusion_HC_MDD": [
+          [
+            14,
+            0
+          ],
+          [
+            12,
+            0
+          ]
+        ],
+        "n_people": 26,
+        "predicted_MDD": 0
+      },
+      {
+        "seed": 0,
+        "fold": 4,
+        "macro_f1": 0.35714285714285715,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": 0.5,
+        "nll": 0.6869615765973234,
+        "brier": 0.2469135802469136,
+        "confusion_HC_MDD": [
+          [
+            15,
+            0
+          ],
+          [
+            12,
+            0
+          ]
+        ],
+        "n_people": 27,
+        "predicted_MDD": 0
+      },
+      {
+        "seed": 0,
+        "fold": 5,
+        "macro_f1": 0.35714285714285715,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": 0.5,
+        "nll": 0.6869615765973234,
+        "brier": 0.2469135802469136,
+        "confusion_HC_MDD": [
+          [
+            15,
+            0
+          ],
+          [
+            12,
+            0
+          ]
+        ],
+        "n_people": 27,
+        "predicted_MDD": 0
+      }
+    ],
+    "per_seed": [
+      {
+        "seed": 0,
+        "macro_f1": 0.3574564459930314,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": 0.5,
+        "nll": 0.6864672270947958,
+        "brier": 0.24666885820731976
+      }
+    ],
+    "pooled_oof": [],
+    "aggregation": "unweighted five-fold mean, then seed mean; deterministic linear/baselines have one run per fold"
+  },
+  {
+    "condition": "E-PRIOR",
+    "split": "val",
+    "mean": {
+      "macro_f1": 0.4,
+      "balanced_accuracy": 0.5,
+      "mdd_recall": 0.0,
+      "auc": 0.5,
+      "nll": 0.6620715254779523,
+      "brier": 0.23452772298926144
+    },
+    "per_fold": [
+      {
+        "seed": 0,
+        "fold": 1,
+        "macro_f1": 0.4,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": 0.5,
+        "nll": 0.6621678486735223,
+        "brier": 0.23456790123456792,
+        "confusion_HC_MDD": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 0
+      },
+      {
+        "seed": 0,
+        "fold": 2,
+        "macro_f1": 0.4,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": 0.5,
+        "nll": 0.6534313130205519,
+        "brier": 0.23027613412228795,
+        "confusion_HC_MDD": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 0
+      },
+      {
+        "seed": 0,
+        "fold": 3,
+        "macro_f1": 0.4,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": 0.5,
+        "nll": 0.6704227683486428,
+        "brier": 0.2386587771203156,
+        "confusion_HC_MDD": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 0
+      },
+      {
+        "seed": 0,
+        "fold": 4,
+        "macro_f1": 0.4,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": 0.5,
+        "nll": 0.6621678486735223,
+        "brier": 0.23456790123456792,
+        "confusion_HC_MDD": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 0
+      },
+      {
+        "seed": 0,
+        "fold": 5,
+        "macro_f1": 0.4,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": 0.5,
+        "nll": 0.6621678486735223,
+        "brier": 0.23456790123456792,
+        "confusion_HC_MDD": [
+          [
+            2,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "n_people": 3,
+        "predicted_MDD": 0
+      }
+    ],
+    "per_seed": [
+      {
+        "seed": 0,
+        "macro_f1": 0.4,
+        "balanced_accuracy": 0.5,
+        "mdd_recall": 0.0,
+        "auc": 0.5,
+        "nll": 0.6620715254779523,
+        "brier": 0.23452772298926144
+      }
+    ],
+    "pooled_oof": [],
+    "aggregation": "unweighted five-fold mean, then seed mean; deterministic linear/baselines have one run per fold"
+  }
+]

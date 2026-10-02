@@ -1,0 +1,35 @@
+{
+  "state": "EEG_mainline_complete",
+  "eeg_mainline_completed": true,
+  "updated_utc": "2026-09-29T15:29:48.126966+00:00",
+  "input_engineering_passed": true,
+  "new_neural_fits": 60,
+  "new_linear_fits": 10,
+  "old_models_replayed": 15,
+  "neural_updates": 11700,
+  "neural_improvement_passed": false,
+  "linear_improvement_passed": false,
+  "standalone_screen_passed": false,
+  "fusion_G_started": false,
+  "augmentation": false,
+  "source_subjects": 37,
+  "new_independent_subjects": 0,
+  "historical_manifest_entries_verified": 3323,
+  "source_and_new_cache_descriptors_rechecked": 185,
+  "report": {
+    "path": "output/analysis/eeg_e2v2_20260929/EEG-E2v2主线完成报告.md",
+    "sha256": "485c0102ff02c8416a2df36c3d347ab2bd3b1946eeba708d332872e9aec44ffa"
+  },
+  "handoff": {
+    "path": "output/analysis/eeg_e2v2_20260929/handoff.json",
+    "sha256": "21b43d03f1e3a876ecac698d93265e7940349005c3ddda0f3191ce5b168c0ffe"
+  },
+  "evaluation_verification": {
+    "path": "tridep_ccml/experiments/EEG-E2v2-37-fulltext/evaluation_verification.json",
+    "sha256": "9063df6091deb9b15549582d2c23480fd13b33ce4371d1ea42cb99c35c4e0a89"
+  },
+  "results_verification": {
+    "path": "tridep_ccml/experiments/EEG-E2v2-37-fulltext/results_verification.json",
+    "sha256": "bdf9941e3c296815dca9f40dbc75651cf79391e0b72822dbd39e9eacdc886114"
+  }
+}
