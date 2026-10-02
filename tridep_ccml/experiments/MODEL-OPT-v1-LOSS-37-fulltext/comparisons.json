@@ -1,0 +1,110 @@
+{
+  "loss_ST": {
+    "candidate": "M2-mean-ST",
+    "control": "M2-sum-ST",
+    "delta": {
+      "macro_f1": 0.028213083213083245,
+      "balanced_accuracy": 0.026111111111111085,
+      "mdd_recall": 0.03888888888888886,
+      "auc": 0.005555555555555536,
+      "nll": -0.0024050203633294576,
+      "brier": -0.0011147864578544275
+    },
+    "paired_unit_f1_deltas": [
+      0.0,
+      0.024242424242424288,
+      0.06039682539682545
+    ],
+    "improved_units": 2,
+    "unit": "seed",
+    "criteria": {
+      "f1_delta_ge_0.01": true,
+      "stability": true,
+      "BA_non_decreasing": true,
+      "recall_drop_le_0.05": true
+    },
+    "classification_pass": true,
+    "probability_pass": true
+  },
+  "loss_EST": {
+    "candidate": "M2-mean-EST",
+    "control": "M2-sum-EST",
+    "delta": {
+      "macro_f1": -0.014603174603174618,
+      "balanced_accuracy": -0.01388888888888884,
+      "mdd_recall": -0.02777777777777768,
+      "auc": 0.011388888888888782,
+      "nll": -0.0025547538903961664,
+      "brier": -0.0014090766723815762
+    },
+    "paired_unit_f1_deltas": [
+      -0.03888888888888897,
+      -0.004920634920634881,
+      0.0
+    ],
+    "improved_units": 0,
+    "unit": "seed",
+    "criteria": {
+      "f1_delta_ge_0.01": false,
+      "stability": false,
+      "BA_non_decreasing": false,
+      "recall_drop_le_0.05": true
+    },
+    "classification_pass": false,
+    "probability_pass": true
+  },
+  "EEG_sum": {
+    "candidate": "M2-sum-EST",
+    "control": "M2-sum-ST",
+    "delta": {
+      "macro_f1": 0.009785954785954787,
+      "balanced_accuracy": 0.007777777777777661,
+      "mdd_recall": -0.011111111111111183,
+      "auc": 0.0019444444444444153,
+      "nll": -0.010830330216217265,
+      "brier": -0.003312299589529527
+    },
+    "paired_unit_f1_deltas": [
+      -0.010202020202020212,
+      0.008253968253968291,
+      0.03130591630591639
+    ],
+    "improved_units": 2,
+    "unit": "seed",
+    "criteria": {
+      "f1_delta_ge_0.01": false,
+      "stability": true,
+      "BA_non_decreasing": true,
+      "recall_drop_le_0.05": true
+    },
+    "classification_pass": false,
+    "probability_pass": true
+  },
+  "EEG_mean": {
+    "candidate": "M2-mean-EST",
+    "control": "M2-mean-ST",
+    "delta": {
+      "macro_f1": -0.033030303030303076,
+      "balanced_accuracy": -0.03222222222222226,
+      "mdd_recall": -0.07777777777777772,
+      "auc": 0.007777777777777661,
+      "nll": -0.010980063743283974,
+      "brier": -0.0036065898040566757
+    },
+    "paired_unit_f1_deltas": [
+      -0.049090909090909185,
+      -0.020909090909090877,
+      -0.029090909090909056
+    ],
+    "improved_units": 0,
+    "unit": "seed",
+    "criteria": {
+      "f1_delta_ge_0.01": false,
+      "stability": false,
+      "BA_non_decreasing": false,
+      "recall_drop_le_0.05": false
+    },
+    "classification_pass": false,
+    "probability_pass": true
+  }
+}

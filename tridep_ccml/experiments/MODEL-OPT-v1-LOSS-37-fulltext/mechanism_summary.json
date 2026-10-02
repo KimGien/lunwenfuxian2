@@ -1,0 +1,4675 @@
+{
+  "probes": 90,
+  "same_module_loss_gradients": true,
+  "training_only": true,
+  "optimizer_updates": 0,
+  "summary": {
+    "initial/M2-sum-ST": {
+      "speech_head": {
+        "n": 15,
+        "median_single_fusion_norm_ratio": 1.230409683679728,
+        "median_cosine": 0.5706215833840828,
+        "negative_cosine_fraction": 0.0
+      },
+      "speech_projection": {
+        "n": 15,
+        "median_single_fusion_norm_ratio": 1.2162024953839272,
+        "median_cosine": 0.6448690301695899,
+        "negative_cosine_fraction": 0.0
+      },
+      "text_head": {
+        "n": 15,
+        "median_single_fusion_norm_ratio": 0.9046959759012801,
+        "median_cosine": 0.9189251148705524,
+        "negative_cosine_fraction": 0.0
+      },
+      "text_projection": {
+        "n": 15,
+        "median_single_fusion_norm_ratio": 0.9540857957497936,
+        "median_cosine": 0.9259735950916345,
+        "negative_cosine_fraction": 0.0
+      }
+    },
+    "initial/M2-sum-EST": {
+      "eeg_encoder": {
+        "n": 15,
+        "median_single_fusion_norm_ratio": 1.4210102260058974,
+        "median_cosine": 0.9019918101195137,
+        "negative_cosine_fraction": 0.06666666666666667
+      },
+      "eeg_head": {
+        "n": 15,
+        "median_single_fusion_norm_ratio": 1.8756734286945713,
+        "median_cosine": 0.8375744098463216,
+        "negative_cosine_fraction": 0.13333333333333333
+      },
+      "eeg_projection": {
+        "n": 15,
+        "median_single_fusion_norm_ratio": 1.6613609964593004,
+        "median_cosine": 0.8291322363718223,
+        "negative_cosine_fraction": 0.13333333333333333
+      },
+      "speech_head": {
+        "n": 15,
+        "median_single_fusion_norm_ratio": 1.6466827727247102,
+        "median_cosine": 0.7647877335195431,
+        "negative_cosine_fraction": 0.06666666666666667
+      },
+      "speech_projection": {
+        "n": 15,
+        "median_single_fusion_norm_ratio": 1.6606680622422114,
+        "median_cosine": 0.7837815908994779,
+        "negative_cosine_fraction": 0.06666666666666667
+      },
+      "text_head": {
+        "n": 15,
+        "median_single_fusion_norm_ratio": 1.2997086923719867,
+        "median_cosine": 0.8925745437614317,
+        "negative_cosine_fraction": 0.0
+      },
+      "text_projection": {
+        "n": 15,
+        "median_single_fusion_norm_ratio": 1.2318122066804407,
+        "median_cosine": 0.8969332636158579,
+        "negative_cosine_fraction": 0.0
+      }
+    },
+    "final/M2-sum-ST": {
+      "speech_head": {
+        "n": 15,
+        "median_single_fusion_norm_ratio": 1.482763998249944,
+        "median_cosine": 0.21931097385169332,
+        "negative_cosine_fraction": 0.2
+      },
+      "speech_projection": {
+        "n": 15,
+        "median_single_fusion_norm_ratio": 1.4494035259771023,
+        "median_cosine": 0.20846520478210828,
+        "negative_cosine_fraction": 0.26666666666666666
+      },
+      "text_head": {
+        "n": 15,
+        "median_single_fusion_norm_ratio": 0.9242214778699198,
+        "median_cosine": 0.6267809025117337,
+        "negative_cosine_fraction": 0.0
+      },
+      "text_projection": {
+        "n": 15,
+        "median_single_fusion_norm_ratio": 1.138902767041495,
+        "median_cosine": 0.48861140050764457,
+        "negative_cosine_fraction": 0.13333333333333333
+      }
+    },
+    "final/M2-mean-ST": {
+      "speech_head": {
+        "n": 15,
+        "median_single_fusion_norm_ratio": 0.9157844277651606,
+        "median_cosine": 0.40457249007294616,
+        "negative_cosine_fraction": 0.13333333333333333
+      },
+      "speech_projection": {
+        "n": 15,
+        "median_single_fusion_norm_ratio": 0.9983160044240226,
+        "median_cosine": 0.2225536930655521,
+        "negative_cosine_fraction": 0.26666666666666666
+      },
+      "text_head": {
+        "n": 15,
+        "median_single_fusion_norm_ratio": 0.5718612434572615,
+        "median_cosine": 0.5681589672919324,
+        "negative_cosine_fraction": 0.0
+      },
+      "text_projection": {
+        "n": 15,
+        "median_single_fusion_norm_ratio": 0.7664583363462086,
+        "median_cosine": 0.5020398195484086,
+        "negative_cosine_fraction": 0.13333333333333333
+      }
+    },
+    "final/M2-sum-EST": {
+      "eeg_encoder": {
+        "n": 15,
+        "median_single_fusion_norm_ratio": 2.45413054531453,
+        "median_cosine": 0.9062849177341575,
+        "negative_cosine_fraction": 0.0
+      },
+      "eeg_head": {
+        "n": 15,
+        "median_single_fusion_norm_ratio": 1.6025951853372333,
+        "median_cosine": 0.5661254503201769,
+        "negative_cosine_fraction": 0.0
+      },
+      "eeg_projection": {
+        "n": 15,
+        "median_single_fusion_norm_ratio": 1.8095581831650818,
+        "median_cosine": 0.6912016622455961,
+        "negative_cosine_fraction": 0.0
+      },
+      "speech_head": {
+        "n": 15,
+        "median_single_fusion_norm_ratio": 0.979380020760874,
+        "median_cosine": 0.8328856847640512,
+        "negative_cosine_fraction": 0.0
+      },
+      "speech_projection": {
+        "n": 15,
+        "median_single_fusion_norm_ratio": 1.5377251906160072,
+        "median_cosine": 0.5722297132369513,
+        "negative_cosine_fraction": 0.06666666666666667
+      },
+      "text_head": {
+        "n": 15,
+        "median_single_fusion_norm_ratio": 1.3937415371882012,
+        "median_cosine": 0.7725315883561781,
+        "negative_cosine_fraction": 0.0
+      },
+      "text_projection": {
+        "n": 15,
+        "median_single_fusion_norm_ratio": 1.7571216385765778,
+        "median_cosine": 0.7981664129643614,
+        "negative_cosine_fraction": 0.06666666666666667
+      }
+    },
+    "final/M2-mean-EST": {
+      "eeg_encoder": {
+        "n": 15,
+        "median_single_fusion_norm_ratio": 0.7815134347892374,
+        "median_cosine": 0.8562052692898973,
+        "negative_cosine_fraction": 0.0
+      },
+      "eeg_head": {
+        "n": 15,
+        "median_single_fusion_norm_ratio": 0.6116152095907923,
+        "median_cosine": 0.5370313773214926,
+        "negative_cosine_fraction": 0.0
+      },
+      "eeg_projection": {
+        "n": 15,
+        "median_single_fusion_norm_ratio": 0.6584372410008231,
+        "median_cosine": 0.6744839318345701,
+        "negative_cosine_fraction": 0.0
+      },
+      "speech_head": {
+        "n": 15,
+        "median_single_fusion_norm_ratio": 0.5705578504919949,
+        "median_cosine": 0.6344072016495281,
+        "negative_cosine_fraction": 0.0
+      },
+      "speech_projection": {
+        "n": 15,
+        "median_single_fusion_norm_ratio": 0.7878570206446386,
+        "median_cosine": 0.5604332645613159,
+        "negative_cosine_fraction": 0.13333333333333333
+      },
+      "text_head": {
+        "n": 15,
+        "median_single_fusion_norm_ratio": 0.5194742958901125,
+        "median_cosine": 0.7680855873944211,
+        "negative_cosine_fraction": 0.0
+      },
+      "text_projection": {
+        "n": 15,
+        "median_single_fusion_norm_ratio": 0.7213600812040984,
+        "median_cosine": 0.7448262201723029,
+        "negative_cosine_fraction": 0.06666666666666667
+      }
+    }
+  },
+  "rows": [
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 11,
+      "fold": 1,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 1.6048539280213494,
+      "cosine": 0.558455831038217
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 11,
+      "fold": 1,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 2.930126343468446,
+      "cosine": 0.2725546649087591
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 11,
+      "fold": 1,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 0.9122476121944288,
+      "cosine": 0.9889377677824073
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 11,
+      "fold": 1,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.868129979222712,
+      "cosine": 0.995097510953059
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 11,
+      "fold": 1,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 1.0142626240037542,
+      "cosine": 0.3982217935619917
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 11,
+      "fold": 1,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 1.3719019703568296,
+      "cosine": 0.35811783321574936
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 11,
+      "fold": 1,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 0.8879147362910434,
+      "cosine": 0.7368964787515279
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 11,
+      "fold": 1,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.7377440288950414,
+      "cosine": 0.7016658469271131
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 11,
+      "fold": 1,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 0.4031507401788196,
+      "cosine": -0.013353129473799191
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 11,
+      "fold": 1,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 0.7049085536554611,
+      "cosine": 0.24525871733080298
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 11,
+      "fold": 1,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 0.31946334970766804,
+      "cosine": 0.012497163196592031
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 11,
+      "fold": 1,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.3941475447930669,
+      "cosine": 0.3310428280178555
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 1,
+      "module": "eeg_encoder",
+      "single_fusion_norm_ratio": 1.1446365287555234,
+      "cosine": 0.994703223066948
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 1,
+      "module": "eeg_projection",
+      "single_fusion_norm_ratio": 1.1673276523342975,
+      "cosine": 0.9887662846320804
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 1,
+      "module": "eeg_head",
+      "single_fusion_norm_ratio": 1.1401511979548953,
+      "cosine": 0.9887822915715514
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 1,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 1.3682335040286098,
+      "cosine": -0.05213450217761919
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 1,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 1.583173056515087,
+      "cosine": -0.657587868894787
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 1,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 1.8124749280720733,
+      "cosine": 0.8916555360951999
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 1,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 2.0968826888111924,
+      "cosine": 0.9452649684894753
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 1,
+      "module": "eeg_encoder",
+      "single_fusion_norm_ratio": 3.6987216885382685,
+      "cosine": 0.7526568135127644
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 1,
+      "module": "eeg_projection",
+      "single_fusion_norm_ratio": 2.6508396206143643,
+      "cosine": 0.6561339138907061
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 1,
+      "module": "eeg_head",
+      "single_fusion_norm_ratio": 2.2822042140588232,
+      "cosine": 0.5585881029213938
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 1,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 0.9735457653780637,
+      "cosine": 0.6778723706792574
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 1,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 1.4288147714266848,
+      "cosine": 0.697410361423876
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 1,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 1.556172136776751,
+      "cosine": 0.8118923276975295
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 1,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.9609330892840676,
+      "cosine": 0.7360884886895186
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 11,
+      "fold": 1,
+      "module": "eeg_encoder",
+      "single_fusion_norm_ratio": 0.6415015795896442,
+      "cosine": 0.19859330788206023
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 11,
+      "fold": 1,
+      "module": "eeg_projection",
+      "single_fusion_norm_ratio": 0.869033756626454,
+      "cosine": 0.6744839318345701
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 11,
+      "fold": 1,
+      "module": "eeg_head",
+      "single_fusion_norm_ratio": 0.8977654825442329,
+      "cosine": 0.5930880469649864
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 11,
+      "fold": 1,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 0.44325369399406606,
+      "cosine": 0.02944227314121521
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 11,
+      "fold": 1,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 0.5818103926730994,
+      "cosine": 0.34749215726465293
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 11,
+      "fold": 1,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 0.7024429881988863,
+      "cosine": 0.6676442627648563
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 11,
+      "fold": 1,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.5194742958901125,
+      "cosine": 0.6678962079595434
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 11,
+      "fold": 2,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 1.4702348647256724,
+      "cosine": 0.8408003613110603
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 11,
+      "fold": 2,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 1.739061627552316,
+      "cosine": 0.7800307256023652
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 11,
+      "fold": 2,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 0.8203106054161177,
+      "cosine": 0.9873846343692588
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 11,
+      "fold": 2,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.7781245799129094,
+      "cosine": 0.9902347099531864
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 11,
+      "fold": 2,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 0.9859073127075058,
+      "cosine": 0.5126267975317467
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 11,
+      "fold": 2,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 1.5357771974787824,
+      "cosine": 0.4737366086709134
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 11,
+      "fold": 2,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 1.2992490174611868,
+      "cosine": 0.4613291709370842
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 11,
+      "fold": 2,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 1.3920243952016476,
+      "cosine": 0.430393868256948
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 11,
+      "fold": 2,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 0.5831927170995568,
+      "cosine": 0.7034973776950303
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 11,
+      "fold": 2,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 0.6806347831966132,
+      "cosine": 0.6871259746522994
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 11,
+      "fold": 2,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 0.6505157257223664,
+      "cosine": 0.4576054760632399
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 11,
+      "fold": 2,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.8011137189948672,
+      "cosine": 0.4331162178353523
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 2,
+      "module": "eeg_encoder",
+      "single_fusion_norm_ratio": 1.877832077649844,
+      "cosine": 0.9975651606685915
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 2,
+      "module": "eeg_projection",
+      "single_fusion_norm_ratio": 1.9076607039523654,
+      "cosine": 0.9952026657039269
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 2,
+      "module": "eeg_head",
+      "single_fusion_norm_ratio": 1.8987409372797759,
+      "cosine": 0.9964472117752036
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 2,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 1.677003079648843,
+      "cosine": 0.7398443322190508
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 2,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 1.9837692850117337,
+      "cosine": 0.6543353232883918
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 2,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 1.3341909056996981,
+      "cosine": 0.9596352794588406
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 2,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 1.308763979005682,
+      "cosine": 0.9679378481899401
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 2,
+      "module": "eeg_encoder",
+      "single_fusion_norm_ratio": 3.360676708400012,
+      "cosine": 0.8433750314418258
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 2,
+      "module": "eeg_projection",
+      "single_fusion_norm_ratio": 2.2584554406522637,
+      "cosine": 0.8032136549226916
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 2,
+      "module": "eeg_head",
+      "single_fusion_norm_ratio": 2.0961274720814647,
+      "cosine": 0.7354144065278352
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 2,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 1.5405193936653394,
+      "cosine": 0.6013667112168665
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 2,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 0.9347602180734219,
+      "cosine": 0.8328856847640512
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 2,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 2.34886502437136,
+      "cosine": 0.33817766014857087
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 2,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 2.130342550225786,
+      "cosine": 0.6093219183642297
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 11,
+      "fold": 2,
+      "module": "eeg_encoder",
+      "single_fusion_norm_ratio": 0.874772050502202,
+      "cosine": 0.736418958286311
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 11,
+      "fold": 2,
+      "module": "eeg_projection",
+      "single_fusion_norm_ratio": 1.022159275600434,
+      "cosine": 0.6476504905367277
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 11,
+      "fold": 2,
+      "module": "eeg_head",
+      "single_fusion_norm_ratio": 0.852604038332086,
+      "cosine": 0.3568532003243771
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 11,
+      "fold": 2,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 0.5142091295848968,
+      "cosine": -0.08480422080216973
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 11,
+      "fold": 2,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 0.6116279783054349,
+      "cosine": 0.2512927594228841
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 11,
+      "fold": 2,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 0.43419138106868427,
+      "cosine": 0.40683315317981045
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 11,
+      "fold": 2,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.5811661649152149,
+      "cosine": 0.3745174318400317
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 11,
+      "fold": 3,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 0.929739003725585,
+      "cosine": 0.5473046318631398
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 11,
+      "fold": 3,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 0.7896329928719449,
+      "cosine": 0.37476779608524957
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 11,
+      "fold": 3,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 0.8884127284529233,
+      "cosine": 0.9120829245426564
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 11,
+      "fold": 3,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.9046959759012801,
+      "cosine": 0.8775864172914706
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 11,
+      "fold": 3,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 1.4494035259771023,
+      "cosine": -0.22622249627031185
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 11,
+      "fold": 3,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 1.9852163458599394,
+      "cosine": -0.026763005959323814
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 11,
+      "fold": 3,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 1.602192506953735,
+      "cosine": 0.813062064046124
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 11,
+      "fold": 3,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.9575675142753429,
+      "cosine": 0.5667290063754203
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 11,
+      "fold": 3,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 1.20112817597346,
+      "cosine": -0.016669626082542504
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 11,
+      "fold": 3,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 1.0986761599204058,
+      "cosine": 0.3555985777934777
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 11,
+      "fold": 3,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 0.8425158231341581,
+      "cosine": 0.8493151599257885
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 11,
+      "fold": 3,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.6115664944977893,
+      "cosine": 0.5681589672919324
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 3,
+      "module": "eeg_encoder",
+      "single_fusion_norm_ratio": 1.9863533911736104,
+      "cosine": 0.9659654734682935
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 3,
+      "module": "eeg_projection",
+      "single_fusion_norm_ratio": 1.766639524951241,
+      "cosine": 0.9296099005878671
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 3,
+      "module": "eeg_head",
+      "single_fusion_norm_ratio": 1.8772772250709684,
+      "cosine": 0.8725026971447143
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 3,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 0.7485454763787012,
+      "cosine": 0.38815310061087016
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 3,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 0.6154789997488104,
+      "cosine": 0.274662210561146
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 3,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 1.2318122066804407,
+      "cosine": 0.9295035687704147
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 3,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 1.2997086923719867,
+      "cosine": 0.9000103413408937
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 3,
+      "module": "eeg_encoder",
+      "single_fusion_norm_ratio": 2.7385667399830065,
+      "cosine": 0.9062849177341575
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 3,
+      "module": "eeg_projection",
+      "single_fusion_norm_ratio": 2.7076634350402142,
+      "cosine": 0.6912016622455961
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 3,
+      "module": "eeg_head",
+      "single_fusion_norm_ratio": 2.7387590873033463,
+      "cosine": 0.5744424301153365
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 3,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 0.856634430661581,
+      "cosine": 0.032547619827888605
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 3,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 0.8293753756485454,
+      "cosine": 0.7901191560206072
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 3,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 2.854563982548602,
+      "cosine": 0.7393660898491307
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 3,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 1.1987435992681488,
+      "cosine": 0.5665734504209151
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 11,
+      "fold": 3,
+      "module": "eeg_encoder",
+      "single_fusion_norm_ratio": 1.3449513003119344,
+      "cosine": 0.7556166682833579
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 11,
+      "fold": 3,
+      "module": "eeg_projection",
+      "single_fusion_norm_ratio": 1.210932822044994,
+      "cosine": 0.8009023737716962
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 11,
+      "fold": 3,
+      "module": "eeg_head",
+      "single_fusion_norm_ratio": 1.0250960064689265,
+      "cosine": 0.7551839634390562
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 11,
+      "fold": 3,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 1.0465656907870948,
+      "cosine": 0.3266552257632089
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 11,
+      "fold": 3,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 0.8001911053640249,
+      "cosine": 0.298282762350982
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 11,
+      "fold": 3,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 0.8421298645975204,
+      "cosine": 0.8414719551422557
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 11,
+      "fold": 3,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.611834934644357,
+      "cosine": 0.5467770981173433
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 11,
+      "fold": 4,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 1.0993212569857849,
+      "cosine": 0.891637072826809
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 11,
+      "fold": 4,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 1.0896733308543785,
+      "cosine": 0.85522273468441
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 11,
+      "fold": 4,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 0.9929427860408953,
+      "cosine": 0.9897440357482244
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 11,
+      "fold": 4,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.9390168472590613,
+      "cosine": 0.9854886697417441
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 11,
+      "fold": 4,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 2.2497890221678856,
+      "cosine": 0.8107926666602288
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 11,
+      "fold": 4,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 1.482763998249944,
+      "cosine": 0.6145535528100171
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 11,
+      "fold": 4,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 1.138902767041495,
+      "cosine": 0.7667391968522147
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 11,
+      "fold": 4,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 1.0868067766807112,
+      "cosine": 0.42319425246507775
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 11,
+      "fold": 4,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 1.291310276178699,
+      "cosine": 0.8872303895193125
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 11,
+      "fold": 4,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 0.8360520898703556,
+      "cosine": 0.6949120799089765
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 11,
+      "fold": 4,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 0.7157995912300541,
+      "cosine": 0.658055520060219
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 11,
+      "fold": 4,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.6192508373116741,
+      "cosine": 0.5132978941898714
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 4,
+      "module": "eeg_encoder",
+      "single_fusion_norm_ratio": 1.1412137061298542,
+      "cosine": 0.9157209798373344
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 4,
+      "module": "eeg_projection",
+      "single_fusion_norm_ratio": 1.3087002854246417,
+      "cosine": 0.854819858638931
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 4,
+      "module": "eeg_head",
+      "single_fusion_norm_ratio": 1.324463271498553,
+      "cosine": 0.8375744098463216
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 4,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 1.227316199959819,
+      "cosine": 0.7547573091963614
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 4,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 1.1534989553232198,
+      "cosine": 0.7008601292800369
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 4,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 0.867386618577091,
+      "cosine": 0.7987787597090562
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 4,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.7143006129472513,
+      "cosine": 0.70725840625372
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 4,
+      "module": "eeg_encoder",
+      "single_fusion_norm_ratio": 3.0190716907247412,
+      "cosine": 0.9328323203970794
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 4,
+      "module": "eeg_projection",
+      "single_fusion_norm_ratio": 2.6572418694878026,
+      "cosine": 0.6816044148868815
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 4,
+      "module": "eeg_head",
+      "single_fusion_norm_ratio": 2.7269046340848035,
+      "cosine": 0.651396234695282
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 4,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 3.256561068605487,
+      "cosine": 0.17257042029091685
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 4,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 1.54524417263553,
+      "cosine": 0.7445306521795577
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 4,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 0.5397624497602974,
+      "cosine": 0.9576046335266354
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 4,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.6219919024788394,
+      "cosine": 0.9333621014906808
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 11,
+      "fold": 4,
+      "module": "eeg_encoder",
+      "single_fusion_norm_ratio": 1.3668073094470468,
+      "cosine": 0.8672395554921278
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 11,
+      "fold": 4,
+      "module": "eeg_projection",
+      "single_fusion_norm_ratio": 1.1482942004858234,
+      "cosine": 0.7419201760237771
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 11,
+      "fold": 4,
+      "module": "eeg_head",
+      "single_fusion_norm_ratio": 1.0081192183815857,
+      "cosine": 0.7618338841298051
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 11,
+      "fold": 4,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 0.8284237685756375,
+      "cosine": 0.5817124331017318
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 11,
+      "fold": 4,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 0.7203118099395281,
+      "cosine": 0.3086095730985898
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 11,
+      "fold": 4,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 0.6346983891604504,
+      "cosine": 0.6861772258211986
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 11,
+      "fold": 4,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.2874785197514094,
+      "cosine": 0.6855505705918616
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 11,
+      "fold": 5,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 1.0370488768705959,
+      "cosine": 0.7559103573384773
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 11,
+      "fold": 5,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 0.9702707287781908,
+      "cosine": 0.7074860415799357
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 11,
+      "fold": 5,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 0.9540857957497936,
+      "cosine": 0.9890132713851645
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 11,
+      "fold": 5,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.8909051559828071,
+      "cosine": 0.9962177142775404
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 11,
+      "fold": 5,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 2.372590777298182,
+      "cosine": -0.1621491977434729
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 11,
+      "fold": 5,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 1.2937223536956017,
+      "cosine": 0.13399480979458217
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 11,
+      "fold": 5,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 1.078604327012162,
+      "cosine": -0.442380200581308
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 11,
+      "fold": 5,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.8762440160620493,
+      "cosine": 0.15455617312723033
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 11,
+      "fold": 5,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 1.5762274308604427,
+      "cosine": 0.07789344701986105
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 11,
+      "fold": 5,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 0.8249598336627149,
+      "cosine": 0.32276430794974176
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 11,
+      "fold": 5,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 1.0298046783356392,
+      "cosine": -0.2340830164764573
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 11,
+      "fold": 5,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.5823067849060862,
+      "cosine": 0.2316596501480499
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 5,
+      "module": "eeg_encoder",
+      "single_fusion_norm_ratio": 0.9524255628096827,
+      "cosine": 0.9019918101195137
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 5,
+      "module": "eeg_projection",
+      "single_fusion_norm_ratio": 1.1790628090646895,
+      "cosine": 0.8291322363718223
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 5,
+      "module": "eeg_head",
+      "single_fusion_norm_ratio": 1.1843161918422447,
+      "cosine": 0.7957649806072529
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 5,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 0.9557418176177266,
+      "cosine": 0.4978984115714708
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 5,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 0.8217466188111997,
+      "cosine": 0.45650331274725126
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 5,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 0.9241697688260438,
+      "cosine": 0.875882274527002
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 5,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.7714384497546397,
+      "cosine": 0.8777119313224526
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 5,
+      "module": "eeg_encoder",
+      "single_fusion_norm_ratio": 2.45413054531453,
+      "cosine": 0.9105803009480937
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 5,
+      "module": "eeg_projection",
+      "single_fusion_norm_ratio": 2.261610689289287,
+      "cosine": 0.7441918524481098
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 5,
+      "module": "eeg_head",
+      "single_fusion_norm_ratio": 1.8512065600077658,
+      "cosine": 0.5004211697864616
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 5,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 1.9480984331770674,
+      "cosine": 0.8202374125491865
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 5,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 1.014259386870149,
+      "cosine": 0.9007715325933665
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 5,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 1.6520001287394828,
+      "cosine": 0.43037287292130266
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 11,
+      "fold": 5,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 1.198159305250208,
+      "cosine": 0.8207991709562827
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 11,
+      "fold": 5,
+      "module": "eeg_encoder",
+      "single_fusion_norm_ratio": 0.8729439786269917,
+      "cosine": 0.909036241954184
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 11,
+      "fold": 5,
+      "module": "eeg_projection",
+      "single_fusion_norm_ratio": 0.9520134833570977,
+      "cosine": 0.7681096436526257
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 11,
+      "fold": 5,
+      "module": "eeg_head",
+      "single_fusion_norm_ratio": 0.8124243779486457,
+      "cosine": 0.4842743497201999
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 11,
+      "fold": 5,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 1.5003970672485036,
+      "cosine": 0.5604332645613159
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 11,
+      "fold": 5,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 0.6560498307011122,
+      "cosine": 0.5721059844306987
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 11,
+      "fold": 5,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 0.7947811869561089,
+      "cosine": -0.24396563842711746
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 11,
+      "fold": 5,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.4458746611439821,
+      "cosine": 0.3036077967634299
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 22,
+      "fold": 1,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 2.2193091947773986,
+      "cosine": 0.6448690301695899
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 22,
+      "fold": 1,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 3.621187492906892,
+      "cosine": 0.7266232224326217
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 22,
+      "fold": 1,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 0.6710004706849918,
+      "cosine": 0.9492851371405138
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 22,
+      "fold": 1,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.568903860750594,
+      "cosine": 0.9325578750598283
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 22,
+      "fold": 1,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 0.8583385903677944,
+      "cosine": 0.38926446562936184
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 22,
+      "fold": 1,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 1.2573690903842705,
+      "cosine": 0.48039659629493137
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 22,
+      "fold": 1,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 1.071669299816509,
+      "cosine": 0.32109476385162994
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 22,
+      "fold": 1,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.9242214778699198,
+      "cosine": 0.7337915874626778
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 22,
+      "fold": 1,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 0.8616767671907308,
+      "cosine": 0.5084393536079573
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 22,
+      "fold": 1,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 0.8775096263253972,
+      "cosine": 0.6260740413530784
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 22,
+      "fold": 1,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 0.7827999385447364,
+      "cosine": 0.4188177945893653
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 22,
+      "fold": 1,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.5783933801311585,
+      "cosine": 0.6708081259059604
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 1,
+      "module": "eeg_encoder",
+      "single_fusion_norm_ratio": 3.4277944247809287,
+      "cosine": 0.9551237649262823
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 1,
+      "module": "eeg_projection",
+      "single_fusion_norm_ratio": 3.2495733968582625,
+      "cosine": 0.9831096907845407
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 1,
+      "module": "eeg_head",
+      "single_fusion_norm_ratio": 3.2546096953797177,
+      "cosine": 0.9940094793635967
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 1,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 2.7418906749133707,
+      "cosine": 0.7212126378289543
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 1,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 3.8797697000955957,
+      "cosine": 0.8377519737598654
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 1,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 0.8599468544425614,
+      "cosine": 0.9277985809487728
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 1,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.73033355076882,
+      "cosine": 0.8925745437614317
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 1,
+      "module": "eeg_encoder",
+      "single_fusion_norm_ratio": 2.06814054170937,
+      "cosine": 0.9246822407557495
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 1,
+      "module": "eeg_projection",
+      "single_fusion_norm_ratio": 1.485657255274499,
+      "cosine": 0.8181481200519889
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 1,
+      "module": "eeg_head",
+      "single_fusion_norm_ratio": 1.3143278344008826,
+      "cosine": 0.726240398798249
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 1,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 1.5814956046618025,
+      "cosine": -0.07738999589172213
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 1,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 1.0757526491739002,
+      "cosine": 0.640703819326231
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 1,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 1.363658615206794,
+      "cosine": -0.32717410317426976
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 1,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 1.1048860310466468,
+      "cosine": 0.2386001845822272
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 22,
+      "fold": 1,
+      "module": "eeg_encoder",
+      "single_fusion_norm_ratio": 0.532051420670542,
+      "cosine": 0.9712249247528744
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 22,
+      "fold": 1,
+      "module": "eeg_projection",
+      "single_fusion_norm_ratio": 0.4518282012317729,
+      "cosine": 0.8287898182552822
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 22,
+      "fold": 1,
+      "module": "eeg_head",
+      "single_fusion_norm_ratio": 0.3801741710109097,
+      "cosine": 0.7194466048765432
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 22,
+      "fold": 1,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 0.8342428157067047,
+      "cosine": 0.3268143842801238
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 22,
+      "fold": 1,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 0.5705578504919949,
+      "cosine": 0.7429362152344002
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 22,
+      "fold": 1,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 0.696574532691931,
+      "cosine": 0.784008711260212
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 22,
+      "fold": 1,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.5066915761822695,
+      "cosine": 0.8388419436348297
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 22,
+      "fold": 2,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 1.8631387799617565,
+      "cosine": 0.8502752316749884
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 22,
+      "fold": 2,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 2.0754690078652547,
+      "cosine": 0.8686408518026634
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 22,
+      "fold": 2,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 0.6827424512985384,
+      "cosine": 0.9449598490644746
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 22,
+      "fold": 2,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.6069243923157696,
+      "cosine": 0.9258221735225367
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 22,
+      "fold": 2,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 1.5474483518828206,
+      "cosine": 0.012209239245302228
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 22,
+      "fold": 2,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 1.8544841081635395,
+      "cosine": 0.0782766268147296
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 22,
+      "fold": 2,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 1.9969170540824008,
+      "cosine": 0.12663753431055894
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 22,
+      "fold": 2,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 1.008387797259498,
+      "cosine": 0.5063589941673446
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 22,
+      "fold": 2,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 1.274323002751846,
+      "cosine": 0.07632258859075944
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 22,
+      "fold": 2,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 1.0455809227800583,
+      "cosine": 0.27360960311094495
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 22,
+      "fold": 2,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 1.4694687764905656,
+      "cosine": 0.1349439408089683
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 22,
+      "fold": 2,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.5718612434572615,
+      "cosine": 0.36614190501204263
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 2,
+      "module": "eeg_encoder",
+      "single_fusion_norm_ratio": 3.1319032198067136,
+      "cosine": 0.9364122327127884
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 2,
+      "module": "eeg_projection",
+      "single_fusion_norm_ratio": 3.095500338732943,
+      "cosine": 0.9769096158477307
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 2,
+      "module": "eeg_head",
+      "single_fusion_norm_ratio": 3.1923848309976117,
+      "cosine": 0.9932728223231512
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 2,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 2.4887256688864916,
+      "cosine": 0.7837815908994779
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 2,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 2.7644044258157163,
+      "cosine": 0.8352639360092696
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 2,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 0.8385448172063706,
+      "cosine": 0.9347016688425352
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 2,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.7479847098424066,
+      "cosine": 0.9113049386321409
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 2,
+      "module": "eeg_encoder",
+      "single_fusion_norm_ratio": 1.5188238321018774,
+      "cosine": 0.940306600000749
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 2,
+      "module": "eeg_projection",
+      "single_fusion_norm_ratio": 1.7232774187500994,
+      "cosine": 0.5848016016597414
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 2,
+      "module": "eeg_head",
+      "single_fusion_norm_ratio": 1.5498071413953804,
+      "cosine": 0.38806133075964877
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 2,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 0.6084661543743645,
+      "cosine": 0.36638910817541986
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 2,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 0.7953585294570473,
+      "cosine": 0.930119430407459
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 2,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 3.3603399240111913,
+      "cosine": 0.7169947018929299
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 2,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 1.8930472978095005,
+      "cosine": 0.7567551860648596
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 22,
+      "fold": 2,
+      "module": "eeg_encoder",
+      "single_fusion_norm_ratio": 0.3577318975128248,
+      "cosine": 0.940521245695088
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 22,
+      "fold": 2,
+      "module": "eeg_projection",
+      "single_fusion_norm_ratio": 0.45451974647051485,
+      "cosine": 0.5770617607375295
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 22,
+      "fold": 2,
+      "module": "eeg_head",
+      "single_fusion_norm_ratio": 0.4403204361063313,
+      "cosine": 0.4078936434765904
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 22,
+      "fold": 2,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 0.39664229334028744,
+      "cosine": -0.4173030277202524
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 22,
+      "fold": 2,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 0.39188896031952347,
+      "cosine": 0.6388474615527563
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 22,
+      "fold": 2,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 1.2153076429175216,
+      "cosine": 0.47049897421952797
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 22,
+      "fold": 2,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.6081979629673481,
+      "cosine": 0.654953319636326
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 22,
+      "fold": 3,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 1.134775014241166,
+      "cosine": 0.44901566683275135
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 22,
+      "fold": 3,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 1.0599235800425182,
+      "cosine": 0.22829002448878535
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 22,
+      "fold": 3,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 1.0056246323678688,
+      "cosine": 0.6696795559880135
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 22,
+      "fold": 3,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 1.1111189068611138,
+      "cosine": 0.5382737315355461
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 22,
+      "fold": 3,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 0.9261269309165844,
+      "cosine": 0.007796635754662851
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 22,
+      "fold": 3,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 1.354665477941564,
+      "cosine": 0.316741971708489
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 22,
+      "fold": 3,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 1.21345653004346,
+      "cosine": 0.6621941329861709
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 22,
+      "fold": 3,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.8653852396977904,
+      "cosine": 0.6986416419246656
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 22,
+      "fold": 3,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 0.3641902554822899,
+      "cosine": -0.03687307113332839
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 22,
+      "fold": 3,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 0.4270991516497389,
+      "cosine": 0.42215250093691165
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 22,
+      "fold": 3,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 2.381051488442277,
+      "cosine": 0.7806356006210085
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 22,
+      "fold": 3,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 1.193178581917792,
+      "cosine": 0.5231828566430458
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 3,
+      "module": "eeg_encoder",
+      "single_fusion_norm_ratio": 1.1732481601979667,
+      "cosine": 0.4092516023596907
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 3,
+      "module": "eeg_projection",
+      "single_fusion_norm_ratio": 1.6613609964593004,
+      "cosine": 0.16964841376895984
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 3,
+      "module": "eeg_head",
+      "single_fusion_norm_ratio": 1.8756734286945713,
+      "cosine": 0.023729196788139336
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 3,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 1.5070280913681935,
+      "cosine": 0.4014269030902278
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 3,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 1.5729721632986158,
+      "cosine": 0.23786353246106762
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 3,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 1.13015331535639,
+      "cosine": 0.736818381624199
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 3,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 1.2070249539381934,
+      "cosine": 0.6471895694840997
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 3,
+      "module": "eeg_encoder",
+      "single_fusion_norm_ratio": 2.346583808900691,
+      "cosine": 0.607333777093421
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 3,
+      "module": "eeg_projection",
+      "single_fusion_norm_ratio": 1.7778378591246764,
+      "cosine": 0.2375837530303139
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 3,
+      "module": "eeg_head",
+      "single_fusion_norm_ratio": 1.6025951853372333,
+      "cosine": 0.2638572893852669
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 3,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 0.919889912604782,
+      "cosine": 0.8833415502136448
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 3,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 0.9776865022911968,
+      "cosine": 0.9551320116428982
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 3,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 2.5672416939319485,
+      "cosine": 0.921372394467218
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 3,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 1.5742622305798395,
+      "cosine": 0.7504072614786628
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 22,
+      "fold": 3,
+      "module": "eeg_encoder",
+      "single_fusion_norm_ratio": 0.6695811468232356,
+      "cosine": 0.7638275882545846
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 22,
+      "fold": 3,
+      "module": "eeg_projection",
+      "single_fusion_norm_ratio": 0.6584372410008231,
+      "cosine": 0.3326627256001496
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 22,
+      "fold": 3,
+      "module": "eeg_head",
+      "single_fusion_norm_ratio": 0.6356377749043013,
+      "cosine": 0.3130291581435702
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 22,
+      "fold": 3,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 0.2271982377658805,
+      "cosine": 0.8290034794380159
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 22,
+      "fold": 3,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 0.27906751771488725,
+      "cosine": 0.9388487814196603
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 22,
+      "fold": 3,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 1.1790622447986143,
+      "cosine": 0.9213078113727216
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 22,
+      "fold": 3,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.8486827202183436,
+      "cosine": 0.7818496024764082
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 22,
+      "fold": 4,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 1.1191825790633567,
+      "cosine": 0.6068508991708154
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 22,
+      "fold": 4,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 1.0474886839544206,
+      "cosine": 0.27152839030516834
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 22,
+      "fold": 4,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 1.1886116503114823,
+      "cosine": 0.5473668911169686
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 22,
+      "fold": 4,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 1.3222503092016284,
+      "cosine": 0.46250351385003713
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 22,
+      "fold": 4,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 1.5561005832611765,
+      "cosine": 0.20846520478210828
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 22,
+      "fold": 4,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 1.5271594765976635,
+      "cosine": 0.21931097385169332
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 22,
+      "fold": 4,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 1.2557216914686964,
+      "cosine": 0.7095161252195255
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 22,
+      "fold": 4,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.7143485968774058,
+      "cosine": 0.712093425960016
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 22,
+      "fold": 4,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 1.0079104067214681,
+      "cosine": 0.49758103611615934
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 22,
+      "fold": 4,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 0.9157844277651606,
+      "cosine": 0.47296563556335663
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 22,
+      "fold": 4,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 0.7664583363462086,
+      "cosine": 0.7991386069490437
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 22,
+      "fold": 4,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.4277605161553755,
+      "cosine": 0.7048273187683919
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 4,
+      "module": "eeg_encoder",
+      "single_fusion_norm_ratio": 1.07083569808035,
+      "cosine": 0.18036122825658027
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 4,
+      "module": "eeg_projection",
+      "single_fusion_norm_ratio": 1.3918193959673026,
+      "cosine": -0.07270217709374086
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 4,
+      "module": "eeg_head",
+      "single_fusion_norm_ratio": 1.4589906908146155,
+      "cosine": -0.2530740493033205
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 4,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 1.6070747861941301,
+      "cosine": 0.8653957932427842
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 4,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 1.736586334931945,
+      "cosine": 0.7647877335195431
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 4,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 1.5010928635094534,
+      "cosine": 0.41554425857727795
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 4,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 1.6772608142000747,
+      "cosine": 0.2964838421949535
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 4,
+      "module": "eeg_encoder",
+      "single_fusion_norm_ratio": 1.5344068812483684,
+      "cosine": 0.9098507477981318
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 4,
+      "module": "eeg_projection",
+      "single_fusion_norm_ratio": 1.4770498574526991,
+      "cosine": 0.7316277580768011
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 4,
+      "module": "eeg_head",
+      "single_fusion_norm_ratio": 1.328519397627944,
+      "cosine": 0.6307342295196297
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 4,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 1.8778246920368957,
+      "cosine": 0.4262544116980053
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 4,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 1.5449898004374603,
+      "cosine": 0.810523369751909
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 4,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 1.6206653074439368,
+      "cosine": 0.8225407830519627
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 4,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 1.0957525632973775,
+      "cosine": 0.7725315883561781
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 22,
+      "fold": 4,
+      "module": "eeg_encoder",
+      "single_fusion_norm_ratio": 0.5160805802050922,
+      "cosine": 0.8643646978578563
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 22,
+      "fold": 4,
+      "module": "eeg_projection",
+      "single_fusion_norm_ratio": 0.47575534469521125,
+      "cosine": 0.5075016595272176
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 22,
+      "fold": 4,
+      "module": "eeg_head",
+      "single_fusion_norm_ratio": 0.42287737718094853,
+      "cosine": 0.34381053097557196
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 22,
+      "fold": 4,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 0.44969685322645736,
+      "cosine": 0.37274966463106984
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 22,
+      "fold": 4,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 0.41942115324986273,
+      "cosine": 0.5956804923898832
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 22,
+      "fold": 4,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 0.7213600812040984,
+      "cosine": 0.8584163273791193
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 22,
+      "fold": 4,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.4579458666547733,
+      "cosine": 0.7680855873944211
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 22,
+      "fold": 5,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 1.0216221222037132,
+      "cosine": 0.47437893031301054
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 22,
+      "fold": 5,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 0.8732355512129987,
+      "cosine": 0.16870569156933712
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 22,
+      "fold": 5,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 1.0791523627652497,
+      "cosine": 0.6718127792202002
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 22,
+      "fold": 5,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 1.1710540902797926,
+      "cosine": 0.6266427852160243
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 22,
+      "fold": 5,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 1.1961224657810323,
+      "cosine": -0.020720661815948938
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 22,
+      "fold": 5,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 1.4888589794901057,
+      "cosine": -0.5981274856815167
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 22,
+      "fold": 5,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 0.6567893142314766,
+      "cosine": 0.7104350585876481
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 22,
+      "fold": 5,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.45116581761729235,
+      "cosine": 0.8010744697261776
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 22,
+      "fold": 5,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 0.7661976873804398,
+      "cosine": 0.2225536930655521
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 22,
+      "fold": 5,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 1.0883761027963363,
+      "cosine": -0.3315959828815047
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 22,
+      "fold": 5,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 0.4196645847492313,
+      "cosine": 0.6605551822796758
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 22,
+      "fold": 5,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.27722709893983605,
+      "cosine": 0.7718610625035991
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 5,
+      "module": "eeg_encoder",
+      "single_fusion_norm_ratio": 1.7482342197762981,
+      "cosine": -0.2653801733857848
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 5,
+      "module": "eeg_projection",
+      "single_fusion_norm_ratio": 1.5648839580439293,
+      "cosine": -0.22758455179661663
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 5,
+      "module": "eeg_head",
+      "single_fusion_norm_ratio": 1.3767941677366209,
+      "cosine": -0.5313735502886084
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 5,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 1.7154399928200164,
+      "cosine": 0.8067503486485534
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 5,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 1.8598798816607718,
+      "cosine": 0.6204081532426795
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 5,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 1.2357703291822755,
+      "cosine": 0.7298386092851383
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 5,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 1.3058149966671333,
+      "cosine": 0.7042495619959146
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 5,
+      "module": "eeg_encoder",
+      "single_fusion_norm_ratio": 2.3591901854900517,
+      "cosine": 0.9768405959927097
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 5,
+      "module": "eeg_projection",
+      "single_fusion_norm_ratio": 1.7225107416569256,
+      "cosine": 0.7026364750672842
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 5,
+      "module": "eeg_head",
+      "single_fusion_norm_ratio": 1.4225802623936612,
+      "cosine": 0.6253258588354945
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 5,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 1.5371116262951487,
+      "cosine": 0.6526591394528333
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 5,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 0.979380020760874,
+      "cosine": 0.8700125031437208
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 5,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 1.5149716131475097,
+      "cosine": 0.9123553112146715
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 22,
+      "fold": 5,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 1.208659204845287,
+      "cosine": 0.946955356697021
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 22,
+      "fold": 5,
+      "module": "eeg_encoder",
+      "single_fusion_norm_ratio": 0.7232679700203071,
+      "cosine": 0.9726059653415522
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 22,
+      "fold": 5,
+      "module": "eeg_projection",
+      "single_fusion_norm_ratio": 0.5346722011327923,
+      "cosine": 0.63011479975764
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 22,
+      "fold": 5,
+      "module": "eeg_head",
+      "single_fusion_norm_ratio": 0.4312568979820817,
+      "cosine": 0.5370313773214926
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 22,
+      "fold": 5,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 0.7878570206446386,
+      "cosine": 0.5867057998071389
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 22,
+      "fold": 5,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 0.3566220885448418,
+      "cosine": 0.8058325627264765
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 22,
+      "fold": 5,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 0.7423444207606174,
+      "cosine": 0.9004188534655262
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 22,
+      "fold": 5,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.48339155838535935,
+      "cosine": 0.9052319398838083
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 33,
+      "fold": 1,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 1.9642971314143596,
+      "cosine": 0.5557702797350116
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 33,
+      "fold": 1,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 2.4188376177443205,
+      "cosine": 0.4538368741305195
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 33,
+      "fold": 1,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 0.6650150852991992,
+      "cosine": 0.8452151862535129
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 33,
+      "fold": 1,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.5653308249049991,
+      "cosine": 0.7789361044961508
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 33,
+      "fold": 1,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 0.8790360734268045,
+      "cosine": 0.737726376184521
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 33,
+      "fold": 1,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 1.3132277598959539,
+      "cosine": 0.4052701286450571
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 33,
+      "fold": 1,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 0.8947867823360308,
+      "cosine": 0.48861140050764457
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 33,
+      "fold": 1,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.9967220336837045,
+      "cosine": 0.6267809025117337
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 33,
+      "fold": 1,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 0.9983160044240226,
+      "cosine": 0.6637946025551291
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 33,
+      "fold": 1,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 1.1683284498759121,
+      "cosine": 0.6075766699815454
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 33,
+      "fold": 1,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 0.6129279111938207,
+      "cosine": 0.5020398195484086
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 33,
+      "fold": 1,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.4908605193285223,
+      "cosine": 0.7445519201135584
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 1,
+      "module": "eeg_encoder",
+      "single_fusion_norm_ratio": 0.6490173047292526,
+      "cosine": 0.8907509930478207
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 1,
+      "module": "eeg_projection",
+      "single_fusion_norm_ratio": 0.8401634148598631,
+      "cosine": 0.8126978997379264
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 1,
+      "module": "eeg_head",
+      "single_fusion_norm_ratio": 0.8381670810452888,
+      "cosine": 0.8621091396512383
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 1,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 2.2067936759199824,
+      "cosine": 0.9339273472531129
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 1,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 2.3959180830870332,
+      "cosine": 0.9107255315133391
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 1,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 1.1274953559509102,
+      "cosine": 0.8753950632624597
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 1,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.9753880598428748,
+      "cosine": 0.8213920065313765
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 1,
+      "module": "eeg_encoder",
+      "single_fusion_norm_ratio": 3.594481731206067,
+      "cosine": 0.8427426116294459
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 1,
+      "module": "eeg_projection",
+      "single_fusion_norm_ratio": 2.1130610632459725,
+      "cosine": 0.6411924469409359
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 1,
+      "module": "eeg_head",
+      "single_fusion_norm_ratio": 1.5902887730282327,
+      "cosine": 0.5175111768453886
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 1,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 1.5377251906160072,
+      "cosine": 0.031621980398495265
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 1,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 1.0116608854293987,
+      "cosine": 0.5780662951951173
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 1,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 1.5630091031736681,
+      "cosine": 0.7848312347264237
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 1,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 1.4163526022266026,
+      "cosine": 0.7999714560732084
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 33,
+      "fold": 1,
+      "module": "eeg_encoder",
+      "single_fusion_norm_ratio": 1.2711721064916288,
+      "cosine": 0.8562052692898973
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 33,
+      "fold": 1,
+      "module": "eeg_projection",
+      "single_fusion_norm_ratio": 0.8468917815063653,
+      "cosine": 0.6873818225560308
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 33,
+      "fold": 1,
+      "module": "eeg_head",
+      "single_fusion_norm_ratio": 0.7015468014001942,
+      "cosine": 0.5832957387433914
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 33,
+      "fold": 1,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 0.8048771651666515,
+      "cosine": 0.7064957795473519
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 33,
+      "fold": 1,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 0.6824465442184712,
+      "cosine": 0.6344072016495281
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 33,
+      "fold": 1,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 0.6289366309090537,
+      "cosine": 0.7448262201723029
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 33,
+      "fold": 1,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.453835282279096,
+      "cosine": 0.7718535538597524
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 33,
+      "fold": 2,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 1.4976919998957927,
+      "cosine": 0.6433922858619915
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 33,
+      "fold": 2,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 1.6685028809293239,
+      "cosine": 0.4277852319593541
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 33,
+      "fold": 2,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 0.658653795580156,
+      "cosine": 0.8538268540642902
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 33,
+      "fold": 2,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.5116255522323125,
+      "cosine": 0.7910822046543499
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 33,
+      "fold": 2,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 1.551954955324749,
+      "cosine": 0.268398939766301
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 33,
+      "fold": 2,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 1.3004629743657543,
+      "cosine": 0.08611666565073829
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 33,
+      "fold": 2,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 0.9908757734815374,
+      "cosine": 0.11826638732727941
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 33,
+      "fold": 2,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 1.1553496668887004,
+      "cosine": 0.35679319183565805
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 33,
+      "fold": 2,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 0.6819001507639828,
+      "cosine": -0.3133178405877208
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 33,
+      "fold": 2,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 0.7287779767024598,
+      "cosine": 0.009659410206768438
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 33,
+      "fold": 2,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 0.45252857830709486,
+      "cosine": -0.14154124510577198
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 33,
+      "fold": 2,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.5113159870382027,
+      "cosine": 0.3839657661335051
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 2,
+      "module": "eeg_encoder",
+      "single_fusion_norm_ratio": 0.6522457973362037,
+      "cosine": 0.9021824135355218
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 2,
+      "module": "eeg_projection",
+      "single_fusion_norm_ratio": 0.8339050025529222,
+      "cosine": 0.8327303453259242
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 2,
+      "module": "eeg_head",
+      "single_fusion_norm_ratio": 0.8341060122402254,
+      "cosine": 0.8754557461309875
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 2,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 2.2043257491965913,
+      "cosine": 0.9611929969569353
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 2,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 2.243975162103338,
+      "cosine": 0.940751611334477
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 2,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 1.1892308094135602,
+      "cosine": 0.8969332636158579
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 2,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.9627569083990725,
+      "cosine": 0.8458560376720546
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 2,
+      "module": "eeg_encoder",
+      "single_fusion_norm_ratio": 6.159137150750304,
+      "cosine": 0.6985107689626484
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 2,
+      "module": "eeg_projection",
+      "single_fusion_norm_ratio": 3.1512388399437916,
+      "cosine": 0.621557146652295
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 2,
+      "module": "eeg_head",
+      "single_fusion_norm_ratio": 2.6922239769416954,
+      "cosine": 0.5175908407972213
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 2,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 2.7192752869107526,
+      "cosine": 0.5722297132369513
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 2,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 0.9767707777909124,
+      "cosine": 0.7390600397584379
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 2,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 2.6613815083268366,
+      "cosine": 0.7413811634631918
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 2,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 2.6320472690592154,
+      "cosine": 0.6788747153330833
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 33,
+      "fold": 2,
+      "module": "eeg_encoder",
+      "single_fusion_norm_ratio": 1.5698184442417553,
+      "cosine": 0.7398745143791648
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 33,
+      "fold": 2,
+      "module": "eeg_projection",
+      "single_fusion_norm_ratio": 0.7639649496300402,
+      "cosine": 0.49890422360640246
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 33,
+      "fold": 2,
+      "module": "eeg_head",
+      "single_fusion_norm_ratio": 0.6116152095907923,
+      "cosine": 0.37618082497971844
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 33,
+      "fold": 2,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 1.2994507790820522,
+      "cosine": 0.778806888063326
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 33,
+      "fold": 2,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 0.45072114988736545,
+      "cosine": 0.5813770315946228
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 33,
+      "fold": 2,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 1.0494537992384054,
+      "cosine": 0.740832016911498
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 33,
+      "fold": 2,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.8150200804299135,
+      "cosine": 0.695990805619813
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 33,
+      "fold": 3,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 1.2162024953839272,
+      "cosine": 0.6602541072428377
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 33,
+      "fold": 3,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 1.230409683679728,
+      "cosine": 0.5706215833840828
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 33,
+      "fold": 3,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 1.0431733395684115,
+      "cosine": 0.9259735950916345
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 33,
+      "fold": 3,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 1.1125702196561988,
+      "cosine": 0.9189251148705524
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 33,
+      "fold": 3,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 1.6437526149000774,
+      "cosine": 0.03114678456996143
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 33,
+      "fold": 3,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 1.941723712920717,
+      "cosine": 0.17796712544265095
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 33,
+      "fold": 3,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 2.2549491074911794,
+      "cosine": 0.7312378803974706
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 33,
+      "fold": 3,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 1.401302845833275,
+      "cosine": 0.6440481446427152
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 33,
+      "fold": 3,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 0.8482327775360201,
+      "cosine": 0.2795272487589679
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 33,
+      "fold": 3,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 1.0024413227889073,
+      "cosine": 0.40457249007294616
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 33,
+      "fold": 3,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 1.1361519663462445,
+      "cosine": 0.7423714349755564
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 33,
+      "fold": 3,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.7950908274352904,
+      "cosine": 0.6727146445983944
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 3,
+      "module": "eeg_encoder",
+      "single_fusion_norm_ratio": 2.4977974456644128,
+      "cosine": 0.6441493367929989
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 3,
+      "module": "eeg_projection",
+      "single_fusion_norm_ratio": 3.27297949010741,
+      "cosine": 0.37754637058053175
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 3,
+      "module": "eeg_head",
+      "single_fusion_norm_ratio": 3.77004843064959,
+      "cosine": 0.3596219093074232
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 3,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 1.7058967114557575,
+      "cosine": 0.962609303832995
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 3,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 1.6164938834927038,
+      "cosine": 0.949911407425426
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 3,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 1.8774219068319185,
+      "cosine": 0.9459116707250229
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 3,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 1.9937963565248096,
+      "cosine": 0.9409119957041612
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 3,
+      "module": "eeg_encoder",
+      "single_fusion_norm_ratio": 2.452170391803323,
+      "cosine": 0.88228526522127
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 3,
+      "module": "eeg_projection",
+      "single_fusion_norm_ratio": 1.8095581831650818,
+      "cosine": 0.726373513937969
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 3,
+      "module": "eeg_head",
+      "single_fusion_norm_ratio": 1.6661420565175233,
+      "cosine": 0.5661254503201769
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 3,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 0.5979012642383323,
+      "cosine": 0.816655861106367
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 3,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 0.7417005692482993,
+      "cosine": 0.9007002075088266
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 3,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 3.437806483470813,
+      "cosine": 0.8275298608720576
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 3,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 2.2663292987080577,
+      "cosine": 0.8022077278088047
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 33,
+      "fold": 3,
+      "module": "eeg_encoder",
+      "single_fusion_norm_ratio": 0.6391396724475351,
+      "cosine": 0.9036853160007386
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 33,
+      "fold": 3,
+      "module": "eeg_projection",
+      "single_fusion_norm_ratio": 0.41862270768783,
+      "cosine": 0.69792672553029
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 33,
+      "fold": 3,
+      "module": "eeg_head",
+      "single_fusion_norm_ratio": 0.3897855790885559,
+      "cosine": 0.5583468894419221
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 33,
+      "fold": 3,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 0.15515476462193864,
+      "cosine": 0.908010027416821
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 33,
+      "fold": 3,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 0.17073899434914866,
+      "cosine": 0.8592413426475481
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 33,
+      "fold": 3,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 1.3287663031125232,
+      "cosine": 0.8458731470445585
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 33,
+      "fold": 3,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.9768434129817952,
+      "cosine": 0.8222854595653486
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 33,
+      "fold": 4,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 1.03531036930379,
+      "cosine": 0.7931987731161725
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 33,
+      "fold": 4,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 1.0716530918217604,
+      "cosine": 0.7351811368016565
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 33,
+      "fold": 4,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 1.357437830831885,
+      "cosine": 0.8869244299331063
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 33,
+      "fold": 4,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 1.496919404033876,
+      "cosine": 0.8859209223914957
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 33,
+      "fold": 4,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 2.187155792613658,
+      "cosine": 0.2136207987608903
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 33,
+      "fold": 4,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 2.4099170690325082,
+      "cosine": -0.04659016546322645
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 33,
+      "fold": 4,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 1.5000836638566442,
+      "cosine": 0.45313120071698565
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 33,
+      "fold": 4,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.7384413203771373,
+      "cosine": 0.6920744838154391
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 33,
+      "fold": 4,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 1.118185890051694,
+      "cosine": 0.692447890726128
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 33,
+      "fold": 4,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 1.4796018709932761,
+      "cosine": 0.4500379528430406
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 33,
+      "fold": 4,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 0.9103533102962437,
+      "cosine": 0.5160177814040395
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 33,
+      "fold": 4,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.44381608400484207,
+      "cosine": 0.6857682178533476
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 4,
+      "module": "eeg_encoder",
+      "single_fusion_norm_ratio": 1.7405155598073807,
+      "cosine": 0.0007543174937307654
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 4,
+      "module": "eeg_projection",
+      "single_fusion_norm_ratio": 3.0018873753429256,
+      "cosine": 0.29178319080862636
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 4,
+      "module": "eeg_head",
+      "single_fusion_norm_ratio": 3.9740572966162415,
+      "cosine": 0.30346134777146255
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 4,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 1.6604702370245659,
+      "cosine": 0.9573791969540852
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 4,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 1.6466827727247102,
+      "cosine": 0.9416774518386235
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 4,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 1.9455042910810365,
+      "cosine": 0.9513413685352853
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 4,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 2.0580289981940774,
+      "cosine": 0.9524581098247431
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 4,
+      "module": "eeg_encoder",
+      "single_fusion_norm_ratio": 1.9404482152663338,
+      "cosine": 0.8327752654703193
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 4,
+      "module": "eeg_projection",
+      "single_fusion_norm_ratio": 1.5396285450147487,
+      "cosine": 0.8552933608623199
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 4,
+      "module": "eeg_head",
+      "single_fusion_norm_ratio": 1.441295545134601,
+      "cosine": 0.8019383512265491
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 4,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 2.026391766654359,
+      "cosine": 0.8126144314644286
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 4,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 1.4732115473210088,
+      "cosine": 0.8488972075121417
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 4,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 1.7966282909903732,
+      "cosine": 0.7981664129643614
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 4,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 1.3937415371882012,
+      "cosine": 0.8442743451376037
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 33,
+      "fold": 4,
+      "module": "eeg_encoder",
+      "single_fusion_norm_ratio": 0.7815134347892374,
+      "cosine": 0.7976478805611136
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 33,
+      "fold": 4,
+      "module": "eeg_projection",
+      "single_fusion_norm_ratio": 0.607755193017346,
+      "cosine": 0.7868536387490386
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 33,
+      "fold": 4,
+      "module": "eeg_head",
+      "single_fusion_norm_ratio": 0.5336950379377431,
+      "cosine": 0.6522596507800953
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 33,
+      "fold": 4,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 0.8342624837614977,
+      "cosine": 0.8679416980389766
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 33,
+      "fold": 4,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 0.6210487062386756,
+      "cosine": 0.8442546717892871
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 33,
+      "fold": 4,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 0.648670588399598,
+      "cosine": 0.7257927231434713
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 33,
+      "fold": 4,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.44746080027255003,
+      "cosine": 0.7815093928035337
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 33,
+      "fold": 5,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 1.2336183706918908,
+      "cosine": 0.7544235460471086
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 33,
+      "fold": 5,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 1.2918055195200575,
+      "cosine": 0.6894927896221408
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 33,
+      "fold": 5,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 1.0492974027251913,
+      "cosine": 0.9315167152246193
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-ST",
+      "seed": 33,
+      "fold": 5,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 1.1352947476137774,
+      "cosine": 0.931910128713805
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 33,
+      "fold": 5,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 0.6796670483823842,
+      "cosine": -0.13835039913372382
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 33,
+      "fold": 5,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 0.8062094790434594,
+      "cosine": 0.2656557974718252
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 33,
+      "fold": 5,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 0.5772597852416512,
+      "cosine": -0.4173628459235897
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-ST",
+      "seed": 33,
+      "fold": 5,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.7054907000529718,
+      "cosine": 0.13377810697314402
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 33,
+      "fold": 5,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 1.0232979275413936,
+      "cosine": 0.06585877410463625
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 33,
+      "fold": 5,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 1.9270134865703752,
+      "cosine": -0.3418717270917049
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 33,
+      "fold": 5,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 0.43848348476247445,
+      "cosine": 0.20864640525275885
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-ST",
+      "seed": 33,
+      "fold": 5,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.33722759586062906,
+      "cosine": 0.7602616001770943
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 5,
+      "module": "eeg_encoder",
+      "single_fusion_norm_ratio": 1.4210102260058974,
+      "cosine": 0.26922789893534066
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 5,
+      "module": "eeg_projection",
+      "single_fusion_norm_ratio": 2.9385326213946965,
+      "cosine": 0.4019935735783089
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 5,
+      "module": "eeg_head",
+      "single_fusion_norm_ratio": 3.7793704101911594,
+      "cosine": 0.43513135738145897
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 5,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 1.6606680622422114,
+      "cosine": 0.97048934461209
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 5,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 1.6075720107589657,
+      "cosine": 0.9565694558674692
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 5,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 1.884516676391103,
+      "cosine": 0.9339551615335029
+    },
+    {
+      "stage": "initial",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 5,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 2.0387758202381283,
+      "cosine": 0.9347298384609771
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 5,
+      "module": "eeg_encoder",
+      "single_fusion_norm_ratio": 2.7418941112725825,
+      "cosine": 0.9501408370113148
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 5,
+      "module": "eeg_projection",
+      "single_fusion_norm_ratio": 1.3089905630376242,
+      "cosine": 0.5737950750996019
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 5,
+      "module": "eeg_head",
+      "single_fusion_norm_ratio": 0.9911846321163374,
+      "cosine": 0.467159866847255
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 5,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 0.8516591447584493,
+      "cosine": 0.5446134015124879
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 5,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 0.9535030850345805,
+      "cosine": 0.9349876093355466
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 5,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 1.7571216385765778,
+      "cosine": 0.8841837759417518
+    },
+    {
+      "stage": "final",
+      "condition": "M2-sum-EST",
+      "seed": 33,
+      "fold": 5,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 1.4066479492153878,
+      "cosine": 0.9511670429321949
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 33,
+      "fold": 5,
+      "module": "eeg_encoder",
+      "single_fusion_norm_ratio": 0.7992061436166412,
+      "cosine": 0.8364443390072648
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 33,
+      "fold": 5,
+      "module": "eeg_projection",
+      "single_fusion_norm_ratio": 0.32773661602404647,
+      "cosine": 0.4314655590125092
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 33,
+      "fold": 5,
+      "module": "eeg_head",
+      "single_fusion_norm_ratio": 0.2688557775242126,
+      "cosine": 0.3804995555366798
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 33,
+      "fold": 5,
+      "module": "speech_projection",
+      "single_fusion_norm_ratio": 0.30388007012836893,
+      "cosine": 0.42880653196276325
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 33,
+      "fold": 5,
+      "module": "speech_head",
+      "single_fusion_norm_ratio": 0.3251257307914375,
+      "cosine": 0.9110248437250618
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 33,
+      "fold": 5,
+      "module": "text_projection",
+      "single_fusion_norm_ratio": 0.7060330022080795,
+      "cosine": 0.7753651246877212
+    },
+    {
+      "stage": "final",
+      "condition": "M2-mean-EST",
+      "seed": 33,
+      "fold": 5,
+      "module": "text_head",
+      "single_fusion_norm_ratio": 0.5274885180250677,
+      "cosine": 0.8861483184409665
+    }
+  ]
+}

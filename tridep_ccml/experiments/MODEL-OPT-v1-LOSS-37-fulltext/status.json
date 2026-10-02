@@ -1,0 +1,18 @@
+{
+  "stage": "complete",
+  "new_models_completed": 30,
+  "new_updates_completed": 7200,
+  "reused_controls": 30,
+  "mechanism_probes": 90,
+  "new_outer_results_released": true,
+  "data_defect_audit": "skipped_by_user",
+  "classification_passes": [
+    "loss_ST"
+  ],
+  "finetuning_executed": false,
+  "report": {
+    "path": "output/analysis/model_opt_loss_20260930/CCML损失块平衡阶段完成报告.md",
+    "sha256": "c9d34ffad026cf18b6cba7e1880f70b020dae810760093eb9bee00f81b844a12"
+  },
+  "updated_utc": "2026-09-30T11:14:08.532055+00:00"
+}
