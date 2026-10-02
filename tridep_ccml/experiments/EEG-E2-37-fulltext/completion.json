@@ -1,0 +1,37 @@
+{
+  "state": "E1_engineering_failed_stop_before_training",
+  "updated_utc": "2026-09-29T14:46:51.219008+00:00",
+  "engineering_attempt_closed": true,
+  "eeg_mainline_completed": false,
+  "engineering_passed": false,
+  "accepted_method": null,
+  "E0": "mechanism_complete_unit_provenance_unresolved",
+  "E1_synthetic": "failed_both_registered_candidates",
+  "E1_real_new_input": "not_started",
+  "E2_paired_training": "not_started",
+  "E3_threshold_diagnosis": "not_started",
+  "E4_full_handoff": "not_completed_engineering_stop_report_only",
+  "G_mainline": "not_started",
+  "new_models": 0,
+  "new_neural_models": 0,
+  "new_linear_fits": 0,
+  "new_real_caches": 0,
+  "new_f1": null,
+  "augmentation_used": false,
+  "third_candidate_run": false,
+  "thresholds_relaxed": false,
+  "next_version_required_before_training": true,
+  "report": {
+    "path": "output/analysis/eeg_e2_20260929/EEG-E2输入边界修复阶段报告.md",
+    "sha256": "ed4521a2dfe9602eb3da81f1223024ee5d67c7228db2f08354a25dab80c7bbd5"
+  },
+  "gate": {
+    "path": "tridep_ccml/experiments/EEG-E2-37-fulltext/synthetic_gate.json",
+    "sha256": "3a4cff164bf2433025b3311714301ddc5aaf825148ad4ae20bc0200763e0e462"
+  },
+  "verification": {
+    "path": "tridep_ccml/experiments/EEG-E2-37-fulltext/verification.json",
+    "sha256": "eb9e65e6562aa058658f343d4db808284afbd2c62e3f75b4cbe5222d65ef178e"
+  },
+  "stop_reason": "fallback case 104 last5 NRMSE 0.064962 > 0.2 * 0.240844 = 0.048169"
+}
