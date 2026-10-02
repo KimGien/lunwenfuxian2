@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "date": "2026-09-22",
+  "runs": {
+    "adapt": 15,
+    "control": 15,
+    "N": 15
+  },
+  "updates": 10800,
+  "configuration": {
+    "path": "tridep_ccml/experiments/CCML-v2-A-37-fulltext/configuration.json",
+    "sha256": "87f7ca899c2d062f14ea43a7578a4df356a93d84add96bef5148c4b5591106f7"
+  },
+  "plan": {
+    "path": "output/plans/CCML_v2_A_语音汇聚修订固定计划.md",
+    "sha256": "110d67b8c319d3caaa1bde29a37fc3966d01448f001f0c16582e38457667438d"
+  },
+  "report": {
+    "path": "tridep_ccml/experiments/CCML-v2-A-37-fulltext/CCML-v2-A实验完成报告.md",
+    "sha256": "0881aecf938617bc744c857e0ddc1b438d5e528e0b9838a4d632c128cefcf95a"
+  },
+  "audit": {
+    "path": "tridep_ccml/experiments/CCML-v2-A-37-fulltext/completion_audit.json",
+    "sha256": "e69bb88291fd39d612e88bc026bf46ab87ff37232e3ad991389d459cc35aae93"
+  },
+  "primary_comparison": "A-N versus old N",
+  "development_criteria_passed": false,
+  "probability_quality_worsened": true,
+  "execution_blockers": [],
+  "short_audio_revision_started": false,
+  "next_action": "Separately register short-audio coverage revision with the same A architecture and matched stages"
+}

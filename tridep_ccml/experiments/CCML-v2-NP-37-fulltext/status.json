@@ -1,0 +1,29 @@
+{
+  "status": "complete",
+  "date": "2026-09-22",
+  "NP_runs": 15,
+  "updates": 3600,
+  "configuration": {
+    "path": "tridep_ccml/experiments/CCML-v2-NP-37-fulltext/configuration_v2.json",
+    "sha256": "969da8725fba280032119d4a899b95ab74aebbf3f72d09b312313a56960d54f6"
+  },
+  "plan": {
+    "path": "output/plans/CCML_v2_NP_固定组合实验计划.md",
+    "sha256": "2ca0fe9a95e3a133013f791767a3b364a22c6146f2c575ce831b5298ebdca4c2"
+  },
+  "report": {
+    "path": "tridep_ccml/experiments/CCML-v2-NP-37-fulltext/CCML-v2-NP实验完成报告.md",
+    "sha256": "e5a35a09fd93645316e1b24d136af26e4b0c30fc0c090c017e6c3a39a7e60668"
+  },
+  "audit": {
+    "path": "tridep_ccml/experiments/CCML-v2-NP-37-fulltext/completion_audit.json",
+    "sha256": "c8765c382bad4eae0ddfe91930f6aaf7253c385cb8b4f9955f7e8e63783f4c62"
+  },
+  "primary_comparator": "N",
+  "development_criteria_passed_vs_N": true,
+  "probability_quality_worsened_vs_N": true,
+  "next_development_reference": "N",
+  "execution_blockers": [],
+  "speech_revision_started": false,
+  "next_action": "Separately register frozen HuBERT pooling/projection speech source revision and matched CCML controls"
+}

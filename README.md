@@ -8,10 +8,12 @@ MODMA 37 人实验的源码、固定配置、完成报告与验收记录。实�
 |---|---|---|
 | TRI-DEP 修改版 / S00 全文基线 | 2026-09-16 | [报告](S00/docs/S00完成详细步骤与训练代码.md) |
 | TRI-DEP + CCML：TC-00 至 TC-05 | 2026-09-21 | [报告](tridep_ccml/reports/tc05/TC-05实验完成报告.md) |
+| TRI-DEP + CCML v2：固定与可选实验完整收尾 | 2026-09-24 | [报告](tridep_ccml/reports/ccml_v2_full_closeout/CCML-v2总体总结与收尾报告.md) |
 
 ## 运行与来源
 
 [基线准备与训练说明](S00/README.md) · [完整基线步骤与源码](S00/docs/S00完成详细步骤与训练代码.md)
+[CCML / v2 说明](tridep_ccml/README.md) · [v2 完整收尾](tridep_ccml/reports/ccml_v2_full_closeout/CCML-v2总体总结与收尾报告.md)
 
 从仓库根目录运行，路径结构与本地实验工作区一致。新克隆需自行准备符合锁定版本的环境、授权数据、骨干和父实验产物。原始数据、转写正文、逐人预测、受试者级输入清单、配对明细、个体诊断图、特征缓存和权重保留本地。新增报告中的受试者编号已省略；本地原件保持原样。
 

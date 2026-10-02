@@ -1,0 +1,24 @@
+{
+  "status": "complete",
+  "date": "2026-09-22",
+  "P_runs": 15,
+  "updates": 3600,
+  "trainable_parameters": 836742,
+  "configuration": {
+    "path": "tridep_ccml/experiments/CCML-v2-P-37-fulltext/configuration_v2.json",
+    "sha256": "d27dada33881bba4cfd7d0c62c9a8d80ae8ebf7537f0db816b1a7062a5b02673"
+  },
+  "report": {
+    "path": "tridep_ccml/experiments/CCML-v2-P-37-fulltext/CCML-v2-P实验完成报告.md",
+    "sha256": "15ca798d53b9503991b67ae2a26f1f6261cb7a64a29c8e084eb606d1706ab805"
+  },
+  "audit": {
+    "path": "tridep_ccml/experiments/CCML-v2-P-37-fulltext/completion_audit.json",
+    "sha256": "ca563cd923e019500a00e13332d56bb47a40b81a5af9f3db68a7fb39fd3d586d"
+  },
+  "development_criteria_passed": false,
+  "execution_blockers": [],
+  "N_P_combination_started": false,
+  "recent_fixed_plan_complete": true,
+  "next_action": "Review N versus P and probability quality before a separately registered combination or input revision"
+}

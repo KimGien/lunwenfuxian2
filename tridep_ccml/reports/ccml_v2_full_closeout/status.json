@@ -1,0 +1,67 @@
+{
+  "status": "complete",
+  "updated_date": "2026-09-24",
+  "scope": "all_completed_fixed_and_registered_optional_v2_experiments",
+  "fixed_experiments_complete": true,
+  "registered_optional_experiments_complete": true,
+  "completed_optional_candidates": [
+    "S",
+    "AS-R",
+    "AS-P",
+    "G",
+    "F"
+  ],
+  "optional_classification_gates_passed": [],
+  "totals": {
+    "outer_conditions": 20,
+    "outer_runs": 300,
+    "inner_runs": 270,
+    "training_runs": 570,
+    "optimizer_updates": 120600,
+    "outer_prediction_records": 11100,
+    "outer_test_records": 2220,
+    "inner_prediction_records": 7182,
+    "new_report_training_runs": 0
+  },
+  "highest_observed_development_f1": 0.7908585858585858,
+  "highest_observed_conditions": [
+    "S-control",
+    "S",
+    "G",
+    "F"
+  ],
+  "retained_development_references": {
+    "S-control": "backbone mean version comparison baseline",
+    "AS-NP": "historical AS supervised-parent version",
+    "NP": "historical speech-path version",
+    "N": "historical normalization control"
+  },
+  "independent_validation_complete": false,
+  "research_limitations_resolved": false,
+  "unresolved_external_items": [
+    "EEG scale and coordinate provenance",
+    "independent generalization validation"
+  ],
+  "outside_scope": [
+    "original TC-06 CE/CCML paired unfreezing"
+  ],
+  "next_registered_training": null,
+  "new_training_runs_this_update": 0,
+  "TC00_E_counted_in_v2": false,
+  "report": {
+    "path": "tridep_ccml/reports/ccml_v2_full_closeout/CCML-v2总体总结与收尾报告.md",
+    "sha256": "3beb75f7e3965a4333269337269ef2d610e182d634a39c900f04540cdb2ba3d1"
+  },
+  "results": {
+    "path": "tridep_ccml/reports/ccml_v2_full_closeout/results.json",
+    "sha256": "a8f7edd1772c14e37cdfd86b3ea95e3c4697be47aab3a59502234fb5b8b02941"
+  },
+  "figure": {
+    "path": "tridep_ccml/reports/ccml_v2_full_closeout/训练与测试泛化差距_含可选实验.png",
+    "sha256": "ff6ca4d1dbe69a1bdd7514628dad73da83cc425c6e13be9f4afd3134412587bc"
+  },
+  "verification": {
+    "path": "tridep_ccml/reports/ccml_v2_full_closeout/verification.json",
+    "sha256": "57487badd9f3c077803a9da9c678ca5edd0ba29841a981cfcddad0b00351eda4"
+  }
+}

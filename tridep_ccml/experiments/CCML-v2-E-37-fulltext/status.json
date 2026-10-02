@@ -1,0 +1,26 @@
+{
+  "status": "complete",
+  "date": "2026-09-22",
+  "stage": "EEG revision, CCML adaptation and fresh-head control",
+  "corrected_eeg_subjects": 37,
+  "adaptation_runs": 15,
+  "control_runs": 15,
+  "updates": 7200,
+  "audit": {
+    "path": "tridep_ccml/experiments/CCML-v2-E-37-fulltext/completion_audit.json",
+    "sha256": "88d76802c98decef938fa2df15bda3e09f8f463a9933823a69a818af4d0b7ae3"
+  },
+  "report": {
+    "path": "tridep_ccml/experiments/CCML-v2-E-37-fulltext/CCML-v2-E实验完成报告.md",
+    "sha256": "edc4e8be88aa9bed74e5bfad2c4aa6e8fcc6fccc866f8ee53183b22af5891a83"
+  },
+  "nr_runs": 0,
+  "next_action": "CCML-v2-N and R on this revised parent, 15 runs each",
+  "active_execution_blockers": [],
+  "remaining_research_limitations": [
+    "Mumtaz input scale",
+    "raw coordinate template",
+    "speech encoder and short recordings"
+  ],
+  "pause_record_is_historical": true
+}

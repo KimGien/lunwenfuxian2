@@ -1,0 +1,154 @@
+{
+  "date": "2026-09-24",
+  "completed_optional_conditions": [
+    "AS-R",
+    "AS-P",
+    "G",
+    "F"
+  ],
+  "stage_statuses": {
+    "AS-RP": {
+      "path": "tridep_ccml/experiments/CCML-v2-AS-RP-37-fulltext/status.json",
+      "sha256": "a678139ba782fe68ecf980aa426716bb96cff7d19c315fc3efbdd6554b3ed07f"
+    },
+    "GF": {
+      "path": "tridep_ccml/experiments/CCML-v2-GF-37-fulltext/status.json",
+      "sha256": "52189079dd470da64230f872841d0ae0bd71910e8c2345b18d086c8b4aa6a9a3"
+    },
+    "S": {
+      "path": "tridep_ccml/experiments/CCML-v2-S-37-fulltext/status.json",
+      "sha256": "98329ab49d2769209666e25148030671a7e2f09d80bc912e7c14904d8dde21e5"
+    }
+  },
+  "comparisons": {
+    "AS-R": {
+      "delta": {
+        "macro_f1": 0.0,
+        "mdd_recall": 0.0,
+        "balanced_accuracy": 0.0,
+        "nll": -7.279964365447533e-06,
+        "brier": -1.8388264598767634e-06
+      },
+      "seed_f1_deltas": {
+        "11": 0.0,
+        "22": 0.0,
+        "33": 0.0
+      },
+      "gate": {
+        "mean_f1_at_least_plus_0_01": false,
+        "positive_seeds_at_least_2": false,
+        "recall_drop_at_most_0_05": true,
+        "nll_worsened": false,
+        "brier_worsened": false,
+        "development_criteria_passed": false
+      }
+    },
+    "AS-P": {
+      "delta": {
+        "macro_f1": -0.006127946127946149,
+        "mdd_recall": -0.04444444444444445,
+        "balanced_accuracy": 0.011111111111111183,
+        "nll": -0.054952787993702734,
+        "brier": -0.025585569731512825
+      },
+      "seed_f1_deltas": {
+        "11": 0.004949494949494926,
+        "22": -0.023333333333333317,
+        "33": 0.0
+      },
+      "gate": {
+        "mean_f1_at_least_plus_0_01": false,
+        "positive_seeds_at_least_2": false,
+        "recall_drop_at_most_0_05": true,
+        "nll_worsened": false,
+        "brier_worsened": false,
+        "development_criteria_passed": false
+      }
+    },
+    "G": {
+      "delta": {
+        "macro_f1": 0.0,
+        "mdd_recall": 0.0,
+        "balanced_accuracy": 0.0,
+        "nll": -0.0024429799164596977,
+        "brier": -0.0009199033890154029
+      },
+      "seed_f1_deltas": {
+        "11": 0.0,
+        "22": 0.0,
+        "33": 0.0
+      },
+      "gate": {
+        "mean_f1_at_least_plus_0_01": false,
+        "positive_seeds_at_least_2": false,
+        "recall_drop_at_most_0_05": true,
+        "nll_worsened": false,
+        "brier_worsened": false,
+        "development_criteria_passed": false
+      }
+    },
+    "F": {
+      "delta": {
+        "macro_f1": 0.0,
+        "mdd_recall": 0.0,
+        "balanced_accuracy": 0.0,
+        "nll": -0.0017656907385421583,
+        "brier": -0.0006610692216147129
+      },
+      "seed_f1_deltas": {
+        "11": 0.0,
+        "22": 0.0,
+        "33": 0.0
+      },
+      "gate": {
+        "mean_f1_at_least_plus_0_01": false,
+        "positive_seeds_at_least_2": false,
+        "recall_drop_at_most_0_05": true,
+        "nll_worsened": false,
+        "brier_worsened": false,
+        "development_criteria_passed": false
+      }
+    }
+  },
+  "development_gates_passed": [],
+  "new_budget": {
+    "AS_RP_runs": 30,
+    "GF_runs": 210,
+    "total_runs": 240,
+    "total_updates": 46800,
+    "outer_runs": 60,
+    "inner_runs": 180,
+    "reused_control_runs_not_counted": 30
+  },
+  "cumulative_v2_budget": {
+    "initial_fixed_runs": 210,
+    "S_runs": 120,
+    "remaining_optional_runs": 240,
+    "total_runs": 570,
+    "outer_runs": 300,
+    "inner_runs": 270,
+    "total_updates": 120600,
+    "TC00_E_supplement_excluded": true
+  },
+  "independent_subjects": 37,
+  "independent_validation": false,
+  "replayed_new_records": 7008,
+  "external_items_unresolved": [
+    "EEG input scale / coordinate provenance",
+    "new independent cohort"
+  ],
+  "outside_v2_scope": [
+    "original TC-06 CE/CCML paired unfreezing"
+  ],
+  "unregistered_combinations_not_started": [
+    "G+F",
+    "soft-min",
+    "modality dropout",
+    "additional strength search"
+  ],
+  "no_further_training_registered": true,
+  "closeout_code": {
+    "path": "tridep_ccml/closeout_v2_optional.py",
+    "sha256": "2c72134f2817c1318cd9e5f8871538f43345b7ddab4da0301cb8f5e98c0a5be7"
+  }
+}

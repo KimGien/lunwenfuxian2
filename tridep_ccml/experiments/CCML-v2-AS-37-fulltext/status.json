@@ -1,0 +1,34 @@
+{
+  "status": "complete",
+  "date": "2026-09-22",
+  "repaired_questions": 96,
+  "questions_covered": 1073,
+  "runs": {
+    "adapt": 15,
+    "control": 15,
+    "N": 15
+  },
+  "updates": 10800,
+  "configuration": {
+    "path": "tridep_ccml/experiments/CCML-v2-AS-37-fulltext/configuration.json",
+    "sha256": "504dc3efd0b9aae5e731351f76e59f1296c2cb9d731f86f8944e10e758de5edd"
+  },
+  "plan": {
+    "path": "output/plans/CCML_v2_AS_短音频覆盖修订固定计划.md",
+    "sha256": "ffc4fa28f4bab061733a95eda400c79cdcfe9fe3b8a1f14efd632190278d01bf"
+  },
+  "report": {
+    "path": "tridep_ccml/experiments/CCML-v2-AS-37-fulltext/CCML-v2-AS实验完成报告.md",
+    "sha256": "8de9f42de3683d3f91fd36bd4c65c759ad6cdb7c83389e8c2c94e87cc22bae09"
+  },
+  "audit": {
+    "path": "tridep_ccml/experiments/CCML-v2-AS-37-fulltext/completion_audit.json",
+    "sha256": "6a5b3211388e8216120da2dfc44c8a80670d7000dd083377db909d4f8ad2d1c5"
+  },
+  "primary_comparison": "AS-N versus A-N",
+  "development_criteria_passed": false,
+  "probability_quality_worsened": false,
+  "automatically_replaces_N_or_NP": false,
+  "execution_blockers": [],
+  "next_action": "Review paired speech/fusion diagnostics and separately register the next unchanged-CCML candidate; no implicit scaling or search"
+}

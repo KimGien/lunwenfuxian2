@@ -1,0 +1,27 @@
+{
+  "status": "complete",
+  "date": "2026-09-23",
+  "new_eeg_runs": 15,
+  "new_updates": 1800,
+  "old_replay_runs": 15,
+  "replay_updates": 1800,
+  "configuration": {
+    "path": "tridep_ccml/experiments/TC-00-E-37-fulltext/configuration.json",
+    "sha256": "046e617303cec68dfb4ef4bba8b71174ad6f054b90923cba568e5e38ba14fa3b"
+  },
+  "plan": {
+    "path": "output/plans/TC00_EEG修订_原始TRIDEP固定对照计划.md",
+    "sha256": "d63c789c45482b2b94d3f08b221939f0ec49f9bdae0cd0a42b0186d4032c7e00"
+  },
+  "report": {
+    "path": "tridep_ccml/experiments/TC-00-E-37-fulltext/TC-00-E原始TRIDEP实验完成报告.md",
+    "sha256": "e374a3638584e7dc29bc7e0c1d7511459406170f01c05e5f2ebb020213858ce3"
+  },
+  "audit": {
+    "path": "tridep_ccml/experiments/TC-00-E-37-fulltext/completion_audit.json",
+    "sha256": "a31098534a673c1c8080d5f07bf95fa2cf7daf9d2d5be2db72c8fae8cd3d432c"
+  },
+  "execution_blockers": [],
+  "weighted_macro_f1": 0.7241798941798941,
+  "mean_macro_f1": 0.6562433862433862
+}

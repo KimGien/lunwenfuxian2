@@ -1,0 +1,26 @@
+{
+  "status": "complete",
+  "date": "2026-09-24",
+  "runs": 30,
+  "updates": 7200,
+  "configuration": {
+    "path": "tridep_ccml/experiments/CCML-v2-AS-RP-37-fulltext/configuration.json",
+    "sha256": "f77a8284107242b652d4c471ad115f442a86385e259c3640cfbeb9e4e9b518f1"
+  },
+  "plan": {
+    "path": "output/plans/CCML_v2_AS_R_P_补充固定对照计划.md",
+    "sha256": "37c50d7ab34a192676e5728dbae4aa9028a56ef719367709591a801d10739cec"
+  },
+  "report": {
+    "path": "tridep_ccml/experiments/CCML-v2-AS-RP-37-fulltext/CCML-v2-AS-RP实验完成报告.md",
+    "sha256": "fb35d0883faf368e2d80950188cecf438b75dadd3a14fe53899645b6f8f93042"
+  },
+  "audit": {
+    "path": "tridep_ccml/experiments/CCML-v2-AS-RP-37-fulltext/completion_audit.json",
+    "sha256": "f83ff18a58cf3262d4a4787ae77de9ddbb4b1eb679939fa3417d413b80b05242"
+  },
+  "passed_gates": {
+    "R": false,
+    "P": false
+  }
+}

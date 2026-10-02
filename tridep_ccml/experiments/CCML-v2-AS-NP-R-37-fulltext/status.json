@@ -1,0 +1,27 @@
+{
+  "status": "complete",
+  "date": "2026-09-23",
+  "runs": 15,
+  "updates": 3600,
+  "configuration": {
+    "path": "tridep_ccml/experiments/CCML-v2-AS-NP-R-37-fulltext/configuration.json",
+    "sha256": "33c252ae6830510cc3f415c21b20219150e5eec48f5797bd2481a9aa350f3e04"
+  },
+  "plan": {
+    "path": "output/plans/CCML_v2_AS_NP_R_固定正则对照计划.md",
+    "sha256": "4790495652e9d07c816a0aa5d893fd05ca6171e222f0f2e0c9114830c7e888ac"
+  },
+  "report": {
+    "path": "tridep_ccml/experiments/CCML-v2-AS-NP-R-37-fulltext/CCML-v2-AS-NP-R实验完成报告.md",
+    "sha256": "8248d48d27d9ea531de4a7e79849727d44795c8632f1318a3f326c690c512340"
+  },
+  "audit": {
+    "path": "tridep_ccml/experiments/CCML-v2-AS-NP-R-37-fulltext/completion_audit.json",
+    "sha256": "050b1209fb08545cc485618f23da9c317f04581c3d284e876f88c4fb0b4c3a6f"
+  },
+  "primary_comparison": "AS-NP-R versus AS-NP",
+  "development_criteria_passed": false,
+  "probability_quality_worsened": true,
+  "execution_blockers": [],
+  "next_action": "No additional training registered"
+}

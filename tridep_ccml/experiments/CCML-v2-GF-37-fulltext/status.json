@@ -1,0 +1,28 @@
+{
+  "status": "complete",
+  "date": "2026-09-24",
+  "new_runs": 210,
+  "updates": 39600,
+  "configuration": {
+    "path": "tridep_ccml/experiments/CCML-v2-GF-37-fulltext/configuration.json",
+    "sha256": "9bcda72b34a34becd4f3f561c11e7069f8b3754d9b8af8e0c145e0f906658817"
+  },
+  "plan": {
+    "path": "output/plans/CCML_v2_G_F_独立扩展固定计划.md",
+    "sha256": "1ba988f9cc896e9b9bf7256be1494a208b228559c69eb42fc1544a27a7850446"
+  },
+  "report": {
+    "path": "tridep_ccml/experiments/CCML-v2-GF-37-fulltext/CCML-v2-GF实验完成报告.md",
+    "sha256": "f7da8cf92c6359d6fcd263cf2b5138ca4c610546d43785c110bc003d2a04aee3"
+  },
+  "audit": {
+    "path": "tridep_ccml/experiments/CCML-v2-GF-37-fulltext/completion_audit.json",
+    "sha256": "307573748bd1575c2015d245df5b69c44ee5426a80ccc55a04ba40e21e93c6c3"
+  },
+  "passed_gates": {
+    "G": false,
+    "F": false
+  },
+  "independent_validation": false,
+  "next_action": "No further optional experiment or search registered"
+}

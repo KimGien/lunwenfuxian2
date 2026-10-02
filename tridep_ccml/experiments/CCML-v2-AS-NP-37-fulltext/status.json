@@ -1,0 +1,28 @@
+{
+  "status": "complete",
+  "date": "2026-09-23",
+  "runs": 15,
+  "updates": 3600,
+  "trainable_parameters": 476294,
+  "configuration": {
+    "path": "tridep_ccml/experiments/CCML-v2-AS-NP-37-fulltext/configuration.json",
+    "sha256": "07820d66551b86c455f88e4aca00f231c670cb89bdd7a1bfc08e8e74a34bb789"
+  },
+  "plan": {
+    "path": "output/plans/CCML_v2_AS_NP_同版本投影适配固定计划.md",
+    "sha256": "9b83b1dc26a374ddf44b27255e801543e274b4c580b97cb0890dc87740f5892b"
+  },
+  "report": {
+    "path": "tridep_ccml/experiments/CCML-v2-AS-NP-37-fulltext/CCML-v2-AS-NP实验完成报告.md",
+    "sha256": "ab6f885eac65f49c1946d504815c5364de45c281cb70e431790853c2a9978ea7"
+  },
+  "audit": {
+    "path": "tridep_ccml/experiments/CCML-v2-AS-NP-37-fulltext/completion_audit.json",
+    "sha256": "32024b64ce26438ab00414efb46e0b49a15a5002d386f1c1ad793cf5647e08e0"
+  },
+  "primary_comparison": "AS-NP versus AS-N",
+  "development_criteria_passed": true,
+  "probability_quality_worsened": false,
+  "execution_blockers": [],
+  "next_action": "Review same-version branch/fusion diagnostics and register a separate fixed next hypothesis; no implicit CCML extension"
+}

@@ -1,0 +1,46 @@
+{
+  "status": "complete",
+  "completed_date": "2026-09-24",
+  "scope": "fixed_experimental_v2_closeout",
+  "fixed_experiments_complete": true,
+  "independent_validation_complete": false,
+  "research_limitations_resolved": false,
+  "automatic_followup_training": false,
+  "totals": {
+    "conditions": 14,
+    "training_runs": 210,
+    "optimizer_updates": 50400,
+    "prediction_records": 7770,
+    "test_records": 1554,
+    "new_closeout_training_runs": 0
+  },
+  "supplement_counted_in_v2": false,
+  "retained_development_references": {
+    "AS-NP": "complete speech coverage development reference; not deployment validation",
+    "NP": "highest observed v2 development macro-F1; historical speech path",
+    "N": "fixed representation normalization control"
+  },
+  "not_completed": [
+    "optional S or fusion method extension",
+    "independent AS-R/AS-P factorial controls",
+    "EEG scale and coordinate provenance closure",
+    "independent generalization validation",
+    "original TC-06 (outside this closeout scope)"
+  ],
+  "report": {
+    "path": "tridep_ccml/reports/ccml_v2_closeout/CCML-v2总体总结与收尾报告.md",
+    "sha256": "23270ff5494543a223c08b975fedec27700ecd5862ab0106a59c943c6ef7c0e4"
+  },
+  "results": {
+    "path": "tridep_ccml/reports/ccml_v2_closeout/results.json",
+    "sha256": "b4ef7efaf57cd85fb9b4a9ae941a5624c4c1cbb220a1a66effa5be3d5ac4097b"
+  },
+  "figure": {
+    "path": "tridep_ccml/reports/ccml_v2_closeout/训练与测试泛化差距.png",
+    "sha256": "7701a51556791f8b0993e95939e995a1d907f2da1a4c47f9f604d72721081464"
+  },
+  "verification": {
+    "path": "tridep_ccml/reports/ccml_v2_closeout/verification.json",
+    "sha256": "d16fbc25a97b714660a4dddbd5f7818ef401326f2c529b21c0338e956891b06f"
+  }
+}

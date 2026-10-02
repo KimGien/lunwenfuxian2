@@ -1,0 +1,23 @@
+{
+  "status": "complete",
+  "date": "2026-09-22",
+  "N_runs": 15,
+  "R_runs": 15,
+  "updates": 7200,
+  "control": "CCML-v2-E-control-37-fulltext",
+  "parent": "CCML-v2-E-37-fulltext",
+  "report": {
+    "path": "tridep_ccml/experiments/CCML-v2-NR-37-fulltext/CCML-v2-NR实验完成报告.md",
+    "sha256": "3669577c2e50c0a3fb96c6a9974a88e9abf1380c96a474226d97b38397045937"
+  },
+  "audit": {
+    "path": "tridep_ccml/experiments/CCML-v2-NR-37-fulltext/completion_audit.json",
+    "sha256": "783be70abb762fe02df2db7ebf7174ce5c4108c4904355831e1ef489b6bfc149"
+  },
+  "development_criteria_passed": [
+    "N"
+  ],
+  "execution_blockers": [],
+  "P_started": false,
+  "next_action": "Prepare same-fold pre-projection caches and independent CCML-v2-P; no automatic N/R combination"
+}

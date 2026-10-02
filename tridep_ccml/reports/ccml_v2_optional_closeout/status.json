@@ -1,0 +1,34 @@
+{
+  "status": "complete",
+  "date": "2026-09-24",
+  "scope": "four_registered_remaining_optional_experiments",
+  "completed": [
+    "AS-R",
+    "AS-P",
+    "G",
+    "F"
+  ],
+  "new_training_runs": 240,
+  "new_updates": 46800,
+  "cumulative_v2": {
+    "initial_fixed_runs": 210,
+    "S_runs": 120,
+    "remaining_optional_runs": 240,
+    "total_runs": 570,
+    "outer_runs": 300,
+    "inner_runs": 270,
+    "total_updates": 120600,
+    "TC00_E_supplement_excluded": true
+  },
+  "independent_validation_complete": false,
+  "external_provenance_resolved": false,
+  "next_registered_training": null,
+  "report": {
+    "path": "tridep_ccml/reports/ccml_v2_optional_closeout/CCML-v2剩余可选实验总结.md",
+    "sha256": "c2076e0529c52364baebccbfd352723a8eef09609bac30818ccf9839de6eb002"
+  },
+  "results": {
+    "path": "tridep_ccml/reports/ccml_v2_optional_closeout/results.json",
+    "sha256": "723e0bf41e38c2198e3d750b63f19a23414be020e19c34fca6772640bef01803"
+  }
+}

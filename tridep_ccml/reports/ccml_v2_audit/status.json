@@ -1,0 +1,17 @@
+{
+  "audit": "completed",
+  "new_training_runs": 0,
+  "next_action": "CCML-only EEG parent revision before N/R",
+  "nr_gate": "pending_corrected_parent_and_same_version_control",
+  "test_result": {
+    "command": "S00/.venv/Scripts/python.exe -B -m unittest discover -s tridep_ccml/tests -q",
+    "passed": 47,
+    "failed": 0
+  },
+  "historical_status_file_modified": false,
+  "source_resolution_note": "audit.json minus-one candidates were raw checks, not approved anatomical claims; this separate resolution records the subsequently verified label mapping from primary sources.",
+  "open_limitations": [
+    "raw coordinate metadata mismatch",
+    "Mumtaz numerical input scale compatibility"
+  ]
+}

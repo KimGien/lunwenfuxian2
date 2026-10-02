@@ -1,0 +1,29 @@
+{
+  "status": "complete",
+  "date": "2026-09-24",
+  "runs": 120,
+  "updates": 23400,
+  "configuration": {
+    "path": "tridep_ccml/experiments/CCML-v2-S-37-fulltext/configuration.json",
+    "sha256": "3042c701ad7370222e8f173d2945be349e3d15267d9d712d5a1b15358259a6a1"
+  },
+  "plan": {
+    "path": "output/plans/CCML_v2_S_模态证据尺度校准固定计划.md",
+    "sha256": "a384f7a8b1c3a997be26ef994b1fdd8a6ab907fa972f1ba6f702b681642c42d6"
+  },
+  "report": {
+    "path": "tridep_ccml/experiments/CCML-v2-S-37-fulltext/CCML-v2-S实验完成报告.md",
+    "sha256": "6783ce0f790bcbd1fb00b3b077d178b074cdce8f323d97ec810068a2d117bf6b"
+  },
+  "audit": {
+    "path": "tridep_ccml/experiments/CCML-v2-S-37-fulltext/completion_audit.json",
+    "sha256": "ff418819143a34a77b9e42aa222e332113f4e33cf0c1b115035e133d158a0c8e"
+  },
+  "primary_comparison": "S versus S-control on S-backbone-mean-v1",
+  "development_criteria_passed": false,
+  "independent_validation": false,
+  "existing_v2_closeout_preserved": true,
+  "additional_search_started": false,
+  "execution_blockers": [],
+  "next_action": "No additional training registered"
+}
