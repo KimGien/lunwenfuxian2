@@ -1,0 +1,13 @@
+{
+  "state": "complete",
+  "completed_runs": 120,
+  "planned_runs": 120,
+  "updates": 28800,
+  "augmentation": false,
+  "outer_metrics_released": true,
+  "verification": {
+    "path": "tridep_ccml/experiments/EEG-R1-37-fulltext/verification.json",
+    "sha256": "338227e64cf74421205a3bc2bbedb1ee3befe781d4d1f0fc3cace6581c2966ae"
+  },
+  "updated_utc": "2026-09-27T10:50:54.914900+00:00"
+}

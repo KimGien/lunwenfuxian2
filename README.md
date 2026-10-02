@@ -10,6 +10,7 @@ MODMA 37 人实验的源码、固定配置、完成报告与验收记录。实�
 | TRI-DEP + CCML：TC-00 至 TC-05 | 2026-09-21 | [报告](tridep_ccml/reports/tc05/TC-05实验完成报告.md) |
 | TRI-DEP + CCML v2：固定与可选实验完整收尾 | 2026-09-24 | [报告](tridep_ccml/reports/ccml_v2_full_closeout/CCML-v2总体总结与收尾报告.md) |
 | EEG 数据增强与三个终点重跑 | 2026-09-27 | [报告](tridep_ccml/experiments/EEG-AUG-JITTER-37-fulltext/EEG数据增强_三终点重跑完成报告.md) |
+| EEG-R1：分支替换 | 2026-09-27 | [报告](tridep_ccml/experiments/EEG-R1-37-fulltext/EEG-R1执行报告.md) |
 
 ## 运行与来源
 

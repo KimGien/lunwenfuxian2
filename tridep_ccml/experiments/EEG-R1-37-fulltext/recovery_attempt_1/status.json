@@ -1,0 +1,14 @@
+{
+  "state": "paused_on_engineering_failure",
+  "condition": "U0",
+  "seed": 11,
+  "fold": 5,
+  "epoch": 27,
+  "updates_this_run": 108,
+  "updated_utc": "2026-09-27T10:32:09.455737+00:00",
+  "completed_runs": 16,
+  "planned_runs": 120,
+  "augmentation": false,
+  "outer_metrics_released": false,
+  "error": "[WinError 5] Access is denied: 'C:\\\\Users\\\\jin  qiyan\\\\Desktop\\\\lunwen2\\\\tridep_ccml\\\\experiments\\\\EEG-R1-37-fulltext\\\\status.json.part' -> 'C:\\\\Users\\\\jin  qiyan\\\\Desktop\\\\lunwen2\\\\tridep_ccml\\\\experiments\\\\EEG-R1-37-fulltext\\\\status.json'"
+}
