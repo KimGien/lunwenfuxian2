@@ -1,0 +1,136 @@
+{
+  "experiment": "EEG-AUG-TRIDEP-37-fulltext",
+  "status": "complete",
+  "completed_runs": 15,
+  "updates": 1800,
+  "runs": [
+    {
+      "seed": 11,
+      "fold": 1,
+      "complete": {
+        "path": "tridep_ccml/experiments/EEG-AUG-JITTER-37-fulltext/tridep/runs/seed_11/fold_1/complete.json",
+        "sha256": "7ec6713374d7457aeafeacb82d48531524a93cdb9812fb2f5a99c2ead52338d0"
+      }
+    },
+    {
+      "seed": 11,
+      "fold": 2,
+      "complete": {
+        "path": "tridep_ccml/experiments/EEG-AUG-JITTER-37-fulltext/tridep/runs/seed_11/fold_2/complete.json",
+        "sha256": "437875bab3c522ebb53754645577781e7a7c37bfc3fd02ceac978bb238cf4799"
+      }
+    },
+    {
+      "seed": 11,
+      "fold": 3,
+      "complete": {
+        "path": "tridep_ccml/experiments/EEG-AUG-JITTER-37-fulltext/tridep/runs/seed_11/fold_3/complete.json",
+        "sha256": "ab087d1c22d016426808ecdf1bb4aed4fdd122af52863747320f5bb447dce2e8"
+      }
+    },
+    {
+      "seed": 11,
+      "fold": 4,
+      "complete": {
+        "path": "tridep_ccml/experiments/EEG-AUG-JITTER-37-fulltext/tridep/runs/seed_11/fold_4/complete.json",
+        "sha256": "d6eaec29e5d3ef90d6b5eebfeb6146d60583e5c17d0a14d68cffbff2b1792198"
+      }
+    },
+    {
+      "seed": 11,
+      "fold": 5,
+      "complete": {
+        "path": "tridep_ccml/experiments/EEG-AUG-JITTER-37-fulltext/tridep/runs/seed_11/fold_5/complete.json",
+        "sha256": "b1e95727cd3121d1d5c4a60d60e419854bb87b168289db51c622368cc0bef6ad"
+      }
+    },
+    {
+      "seed": 22,
+      "fold": 1,
+      "complete": {
+        "path": "tridep_ccml/experiments/EEG-AUG-JITTER-37-fulltext/tridep/runs/seed_22/fold_1/complete.json",
+        "sha256": "ad89adb0915f761919f8cd25d67e856f9ad67e14eda123285ea6431b917f38c0"
+      }
+    },
+    {
+      "seed": 22,
+      "fold": 2,
+      "complete": {
+        "path": "tridep_ccml/experiments/EEG-AUG-JITTER-37-fulltext/tridep/runs/seed_22/fold_2/complete.json",
+        "sha256": "48c481158a1cda3e7581a10218659aaa1f7f7ef879a627543c94aabed4e789a0"
+      }
+    },
+    {
+      "seed": 22,
+      "fold": 3,
+      "complete": {
+        "path": "tridep_ccml/experiments/EEG-AUG-JITTER-37-fulltext/tridep/runs/seed_22/fold_3/complete.json",
+        "sha256": "dfc568a82b1db0061f5da9095eff047bbb13ea36d96fcd12cb1b4bdf7f3f0f1c"
+      }
+    },
+    {
+      "seed": 22,
+      "fold": 4,
+      "complete": {
+        "path": "tridep_ccml/experiments/EEG-AUG-JITTER-37-fulltext/tridep/runs/seed_22/fold_4/complete.json",
+        "sha256": "79a8e1c870ef32a2028c8c6dc1de21d857b2d37a7f689da2e7c5ef372d9ff7a9"
+      }
+    },
+    {
+      "seed": 22,
+      "fold": 5,
+      "complete": {
+        "path": "tridep_ccml/experiments/EEG-AUG-JITTER-37-fulltext/tridep/runs/seed_22/fold_5/complete.json",
+        "sha256": "0dee5c4de96ec47af62b2976e12480fadf866dc2d17d8d6d77c22ef3db80591a"
+      }
+    },
+    {
+      "seed": 33,
+      "fold": 1,
+      "complete": {
+        "path": "tridep_ccml/experiments/EEG-AUG-JITTER-37-fulltext/tridep/runs/seed_33/fold_1/complete.json",
+        "sha256": "61827327be86ca6e16be67735cfc628de241c150f97a581c7bde23eb5976ea5a"
+      }
+    },
+    {
+      "seed": 33,
+      "fold": 2,
+      "complete": {
+        "path": "tridep_ccml/experiments/EEG-AUG-JITTER-37-fulltext/tridep/runs/seed_33/fold_2/complete.json",
+        "sha256": "9cf89a3710d83f242454d707496f9133374fdf806b308f009d6cc09074f24ccd"
+      }
+    },
+    {
+      "seed": 33,
+      "fold": 3,
+      "complete": {
+        "path": "tridep_ccml/experiments/EEG-AUG-JITTER-37-fulltext/tridep/runs/seed_33/fold_3/complete.json",
+        "sha256": "a3012167fb673c628b203854a8251d37effb4479f2e2ec376e8b90d98d1a4b16"
+      }
+    },
+    {
+      "seed": 33,
+      "fold": 4,
+      "complete": {
+        "path": "tridep_ccml/experiments/EEG-AUG-JITTER-37-fulltext/tridep/runs/seed_33/fold_4/complete.json",
+        "sha256": "6272ce071036f1b4330de44077b36d0c4bad878ac4fa0044332e97d902e842e8"
+      }
+    },
+    {
+      "seed": 33,
+      "fold": 5,
+      "complete": {
+        "path": "tridep_ccml/experiments/EEG-AUG-JITTER-37-fulltext/tridep/runs/seed_33/fold_5/complete.json",
+        "sha256": "7df5ab3182cd0d68c8322aa6459903c68e15a7284100dd2eeee60f51bcf94703"
+      }
+    }
+  ],
+  "configuration": {
+    "path": "tridep_ccml/experiments/EEG-AUG-JITTER-37-fulltext/tridep/configuration.json",
+    "sha256": "bae2c5108c265b92c657817a7ae6e23eb966a91647a93c07faa1a000f653a99d"
+  },
+  "summary": {
+    "path": "tridep_ccml/experiments/EEG-AUG-JITTER-37-fulltext/tridep/summary.json",
+    "sha256": "cf5a960aea85d030355d6d7f15449bc8011dd32262a113fae238b35a2cf5e6b8"
+  }
+}

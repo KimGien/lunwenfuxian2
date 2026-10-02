@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "experiment": "CCML-v2-S-control-EEG-aug-37-fulltext",
+  "results": {
+    "path": "tridep_ccml/experiments/EEG-AUG-JITTER-37-fulltext/v2_results.json",
+    "sha256": "6559f692968252320056ba395f6da84e1e8c1c47eba08dfd3ac427a3200bda57"
+  },
+  "verification": {
+    "path": "tridep_ccml/experiments/EEG-AUG-JITTER-37-fulltext/v2_verification.json",
+    "sha256": "c36910c9a5dbb2a78c27ede873649bd9b656591f7264fa17d73c238066c52a8c"
+  },
+  "predictions": {
+    "path": "tridep_ccml/experiments/EEG-AUG-JITTER-37-fulltext/v2_predictions.json",
+    "sha256": "ae73de45118b8819ce8fc2e21cdd6ff3f6fbd46dc29207c03d53ee5dede629c1"
+  }
+}
