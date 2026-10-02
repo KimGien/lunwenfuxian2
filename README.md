@@ -17,6 +17,7 @@ MODMA 37 人实验的源码、固定配置、完成报告与验收记录。实�
 | EEG-E2：首版工程验收停止记录 | 2026-09-29 | [报告](output/analysis/eeg_e2_20260929/EEG-E2输入边界修复阶段报告.md) |
 | EEG-E2v2：边界修复与固定训练主线 | 2026-09-29 | [报告](output/analysis/eeg_e2v2_20260929/EEG-E2v2主线完成报告.md) |
 | FUSION-G1：CE / EDL / CCML 六条件 | 2026-09-30 | [报告](output/analysis/fusion_g1_20260929/FUSION-G1整体改进主线完成报告.md) |
+| FUSION-G4：后处理开发实验与数值验收 | 2026-09-30 | [报告](output/analysis/fusion_g4_20260930/FUSION-G4后处理开发实验完成报告.md) |
 
 ## 运行与来源
 

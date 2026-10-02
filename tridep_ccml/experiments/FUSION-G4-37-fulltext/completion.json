@@ -1,0 +1,386 @@
+{
+  "stage": "G4_complete",
+  "completed_utc": "2026-09-30T03:19:46.774952+00:00",
+  "new_inner_models": 90,
+  "new_outer_models": 0,
+  "reused_outer_models": 30,
+  "completed_updates": 16200,
+  "thresholds": 30,
+  "sigmoid_calibrators": 30,
+  "EEG_augmentation": false,
+  "G1_results_already_seen_at_registration": true,
+  "study_type": "post-release development extension",
+  "G1_raw_results_unchanged": true,
+  "best_variant_selected": false,
+  "independent_population_validation": false,
+  "comparisons": [
+    {
+      "candidate": [
+        "G-CCML-ST",
+        "threshold"
+      ],
+      "control": [
+        "G-CCML-ST",
+        "raw"
+      ],
+      "kind": "postprocessing_vs_raw",
+      "delta": {
+        "macro_f1": -0.07726551226551226,
+        "balanced_accuracy": -0.068888888888889,
+        "mdd_recall": -0.011111111111111183,
+        "auc": 0.0,
+        "nll": 0.0,
+        "brier": 0.0
+      },
+      "per_seed_delta": [
+        {
+          "seed": 11,
+          "macro_f1": -0.1575108225108225,
+          "balanced_accuracy": -0.13666666666666671,
+          "mdd_recall": -0.08333333333333337,
+          "auc": 0.0,
+          "nll": 0.0,
+          "brier": 0.0
+        },
+        {
+          "seed": 22,
+          "macro_f1": -0.027380952380952284,
+          "balanced_accuracy": -0.025000000000000022,
+          "mdd_recall": 0.09999999999999998,
+          "auc": 0.0,
+          "nll": 0.0,
+          "brier": 0.0
+        },
+        {
+          "seed": 33,
+          "macro_f1": -0.04690476190476178,
+          "balanced_accuracy": -0.04500000000000015,
+          "mdd_recall": -0.050000000000000044,
+          "auc": 0.0,
+          "nll": 0.0,
+          "brier": 0.0
+        }
+      ],
+      "F1_seeds_improved": 0,
+      "classification_reference_gate_passed": false,
+      "probability_quality_improved": false
+    },
+    {
+      "candidate": [
+        "G-CCML-ST",
+        "sigmoid"
+      ],
+      "control": [
+        "G-CCML-ST",
+        "raw"
+      ],
+      "kind": "postprocessing_vs_raw",
+      "delta": {
+        "macro_f1": -0.01544973544973538,
+        "balanced_accuracy": -0.014999999999999902,
+        "mdd_recall": -1.1102230246251565e-16,
+        "auc": 0.0,
+        "nll": 0.06572612160734015,
+        "brier": 0.017122006176616966
+      },
+      "per_seed_delta": [
+        {
+          "seed": 11,
+          "macro_f1": -0.03111111111111109,
+          "balanced_accuracy": -0.03333333333333344,
+          "mdd_recall": -0.06666666666666676,
+          "auc": 0.0,
+          "nll": 0.047643774399806604,
+          "brier": 0.015201183983684863
+        },
+        {
+          "seed": 22,
+          "macro_f1": -0.027380952380952284,
+          "balanced_accuracy": -0.025000000000000022,
+          "mdd_recall": 0.0,
+          "auc": 0.0,
+          "nll": 0.07791237571557719,
+          "brier": 0.018801831555486176
+        },
+        {
+          "seed": 33,
+          "macro_f1": 0.012142857142857233,
+          "balanced_accuracy": 0.013333333333333308,
+          "mdd_recall": 0.06666666666666665,
+          "auc": 0.0,
+          "nll": 0.0716222147066371,
+          "brier": 0.01736300299067986
+        }
+      ],
+      "F1_seeds_improved": 1,
+      "classification_reference_gate_passed": false,
+      "probability_quality_improved": false
+    },
+    {
+      "candidate": [
+        "G-CCML-EST",
+        "threshold"
+      ],
+      "control": [
+        "G-CCML-EST",
+        "raw"
+      ],
+      "kind": "postprocessing_vs_raw",
+      "delta": {
+        "macro_f1": -0.02104617604617609,
+        "balanced_accuracy": -0.01722222222222225,
+        "mdd_recall": 0.0888888888888888,
+        "auc": 0.0,
+        "nll": 0.0,
+        "brier": 0.0
+      },
+      "per_seed_delta": [
+        {
+          "seed": 11,
+          "macro_f1": -0.01929292929292925,
+          "balanced_accuracy": -0.011666666666666714,
+          "mdd_recall": 0.16666666666666652,
+          "auc": 0.0,
+          "nll": 0.0,
+          "brier": 0.0
+        },
+        {
+          "seed": 22,
+          "macro_f1": -0.035634920634920575,
+          "balanced_accuracy": -0.03333333333333344,
+          "mdd_recall": 0.033333333333333326,
+          "auc": 0.0,
+          "nll": 0.0,
+          "brier": 0.0
+        },
+        {
+          "seed": 33,
+          "macro_f1": -0.008210678210678335,
+          "balanced_accuracy": -0.00666666666666671,
+          "mdd_recall": 0.06666666666666665,
+          "auc": 0.0,
+          "nll": 0.0,
+          "brier": 0.0
+        }
+      ],
+      "F1_seeds_improved": 0,
+      "classification_reference_gate_passed": false,
+      "probability_quality_improved": false
+    },
+    {
+      "candidate": [
+        "G-CCML-EST",
+        "sigmoid"
+      ],
+      "control": [
+        "G-CCML-EST",
+        "raw"
+      ],
+      "kind": "postprocessing_vs_raw",
+      "delta": {
+        "macro_f1": -0.04177008177008179,
+        "balanced_accuracy": -0.03944444444444439,
+        "mdd_recall": -0.005555555555555536,
+        "auc": 0.0,
+        "nll": 0.024119158974702848,
+        "brier": 0.005410123371548059
+      },
+      "per_seed_delta": [
+        {
+          "seed": 11,
+          "macro_f1": -0.047099567099566975,
+          "balanced_accuracy": -0.04499999999999993,
+          "mdd_recall": 0.04999999999999993,
+          "auc": 0.0,
+          "nll": -0.0044098856299703,
+          "brier": -0.00026657050971271024
+        },
+        {
+          "seed": 22,
+          "macro_f1": -0.03111111111111098,
+          "balanced_accuracy": -0.03333333333333344,
+          "mdd_recall": -0.06666666666666665,
+          "auc": 0.0,
+          "nll": 0.022603001200362405,
+          "brier": 0.009452672863258377
+        },
+        {
+          "seed": 33,
+          "macro_f1": -0.0470995670995672,
+          "balanced_accuracy": -0.040000000000000036,
+          "mdd_recall": 0.0,
+          "auc": 0.0,
+          "nll": 0.054164361353716495,
+          "brier": 0.007044267761098566
+        }
+      ],
+      "F1_seeds_improved": 0,
+      "classification_reference_gate_passed": false,
+      "probability_quality_improved": false
+    },
+    {
+      "candidate": [
+        "G-CCML-EST",
+        "raw"
+      ],
+      "control": [
+        "G-CCML-ST",
+        "raw"
+      ],
+      "kind": "matched_postprocessing_EEG_increment",
+      "delta": {
+        "macro_f1": 0.009785954785954787,
+        "balanced_accuracy": 0.007777777777777661,
+        "mdd_recall": -0.011111111111111183,
+        "auc": 0.0019444444444444153,
+        "nll": -0.010830330216217376,
+        "brier": -0.003312299589529527
+      },
+      "per_seed_delta": [
+        {
+          "seed": 11,
+          "macro_f1": -0.010202020202020212,
+          "balanced_accuracy": -0.01333333333333353,
+          "mdd_recall": -0.1166666666666667,
+          "auc": 0.0675,
+          "nll": -0.021920020646912453,
+          "brier": -0.005109862936212961
+        },
+        {
+          "seed": 22,
+          "macro_f1": 0.008253968253968291,
+          "balanced_accuracy": 0.008333333333333415,
+          "mdd_recall": 0.06666666666666665,
+          "auc": -0.036666666666666514,
+          "nll": -0.001241631193499515,
+          "brier": -0.0008826861561228305
+        },
+        {
+          "seed": 33,
+          "macro_f1": 0.03130591630591639,
+          "balanced_accuracy": 0.02833333333333332,
+          "mdd_recall": 0.016666666666666607,
+          "auc": -0.025000000000000022,
+          "nll": -0.00932933880823994,
+          "brier": -0.003944349676252762
+        }
+      ],
+      "F1_seeds_improved": 2,
+      "classification_reference_gate_passed": false,
+      "probability_quality_improved": true
+    },
+    {
+      "candidate": [
+        "G-CCML-EST",
+        "threshold"
+      ],
+      "control": [
+        "G-CCML-ST",
+        "threshold"
+      ],
+      "kind": "matched_postprocessing_EEG_increment",
+      "delta": {
+        "macro_f1": 0.06600529100529096,
+        "balanced_accuracy": 0.05944444444444441,
+        "mdd_recall": 0.0888888888888888,
+        "auc": 0.0019444444444444153,
+        "nll": -0.010830330216217376,
+        "brier": -0.003312299589529527
+      },
+      "per_seed_delta": [
+        {
+          "seed": 11,
+          "macro_f1": 0.12801587301587303,
+          "balanced_accuracy": 0.11166666666666647,
+          "mdd_recall": 0.1333333333333332,
+          "auc": 0.0675,
+          "nll": -0.021920020646912453,
+          "brier": -0.005109862936212961
+        },
+        {
+          "seed": 22,
+          "macro_f1": 0.0,
+          "balanced_accuracy": 0.0,
+          "mdd_recall": 0.0,
+          "auc": -0.036666666666666514,
+          "nll": -0.001241631193499515,
+          "brier": -0.0008826861561228305
+        },
+        {
+          "seed": 33,
+          "macro_f1": 0.06999999999999984,
+          "balanced_accuracy": 0.06666666666666676,
+          "mdd_recall": 0.1333333333333333,
+          "auc": -0.025000000000000022,
+          "nll": -0.00932933880823994,
+          "brier": -0.003944349676252762
+        }
+      ],
+      "F1_seeds_improved": 2,
+      "classification_reference_gate_passed": true,
+      "probability_quality_improved": true
+    },
+    {
+      "candidate": [
+        "G-CCML-EST",
+        "sigmoid"
+      ],
+      "control": [
+        "G-CCML-ST",
+        "sigmoid"
+      ],
+      "kind": "matched_postprocessing_EEG_increment",
+      "delta": {
+        "macro_f1": -0.016534391534391624,
+        "balanced_accuracy": -0.01666666666666683,
+        "mdd_recall": -0.016666666666666607,
+        "auc": 0.0019444444444444153,
+        "nll": -0.05243729284885468,
+        "brier": -0.015024182394598434
+      },
+      "per_seed_delta": [
+        {
+          "seed": 11,
+          "macro_f1": -0.026190476190476097,
+          "balanced_accuracy": -0.025000000000000022,
+          "mdd_recall": 0.0,
+          "auc": 0.0675,
+          "nll": -0.07397368067668936,
+          "brier": -0.020577617429610534
+        },
+        {
+          "seed": 22,
+          "macro_f1": 0.0045238095238095966,
+          "balanced_accuracy": 0.0,
+          "mdd_recall": 0.0,
+          "auc": -0.036666666666666514,
+          "nll": -0.0565510057087143,
+          "brier": -0.01023184484835063
+        },
+        {
+          "seed": 33,
+          "macro_f1": -0.027936507936508037,
+          "balanced_accuracy": -0.025000000000000022,
+          "mdd_recall": -0.050000000000000044,
+          "auc": -0.025000000000000022,
+          "nll": -0.026787192161160545,
+          "brier": -0.014263084905834056
+        }
+      ],
+      "F1_seeds_improved": 1,
+      "classification_reference_gate_passed": false,
+      "probability_quality_improved": true
+    }
+  ],
+  "core_plus_G4_new_neural_models": 240,
+  "core_plus_G4_linear_fits": 10,
+  "core_plus_G4_neural_updates": 49500,
+  "report": {
+    "path": "output/analysis/fusion_g4_20260930/FUSION-G4后处理开发实验完成报告.md",
+    "sha256": "466aa98301266fa5ba4b207c255ae5e99f5e37d0de460d1c6ad8514da218b3d4"
+  },
+  "verification": {
+    "path": "output/analysis/fusion_g4_20260930/verification.json",
+    "sha256": "5a2a5d34d9a10759d6836b638c77c902217f84ea833935b352b0616602f5d9f6"
+  }
+}
