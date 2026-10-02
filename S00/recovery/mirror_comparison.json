@@ -1,0 +1,58 @@
+{
+  "source": "https://www.kaggle.com/datasets/pankajmsah/modma-audio-group-6-dsai",
+  "version": 1,
+  "comparison": [
+    {
+      "question_id": "23",
+      "download_sha256": "e02f21034d568ab8f7dd8ca1cc540c634035274481ae6965572c53866de34c5f",
+      "local_sha256": "e02f21034d568ab8f7dd8ca1cc540c634035274481ae6965572c53866de34c5f",
+      "bytes_equal": true,
+      "candidate_valid_wav": true
+    },
+    {
+      "question_id": "24",
+      "download_sha256": "5c2f140bff00785aa5692453fd7a96cbaeb35a9ae33bb82583ad2acc6223e151",
+      "local_sha256": "5c2f140bff00785aa5692453fd7a96cbaeb35a9ae33bb82583ad2acc6223e151",
+      "bytes_equal": true,
+      "candidate_valid_wav": false
+    },
+    {
+      "question_id": "25",
+      "download_sha256": "0152ba6591cb4166606b55d14f3ad6f8533e99bdebe2d02859e5f7a543d6641b",
+      "local_sha256": "0152ba6591cb4166606b55d14f3ad6f8533e99bdebe2d02859e5f7a543d6641b",
+      "bytes_equal": true,
+      "candidate_valid_wav": false
+    },
+    {
+      "question_id": "26",
+      "download_sha256": "8b12d0ef8915bef2da04c43099f4bd86fa0ae6b55f6c138f1e3bd28e2d16159b",
+      "local_sha256": "8b12d0ef8915bef2da04c43099f4bd86fa0ae6b55f6c138f1e3bd28e2d16159b",
+      "bytes_equal": true,
+      "candidate_valid_wav": false
+    },
+    {
+      "question_id": "27",
+      "download_sha256": "75e27cd56fc15a4be4a37e6fb575ea08e5636fbafccb200a1bfe2d6c65cc7b9c",
+      "local_sha256": "75e27cd56fc15a4be4a37e6fb575ea08e5636fbafccb200a1bfe2d6c65cc7b9c",
+      "bytes_equal": true,
+      "candidate_valid_wav": false
+    },
+    {
+      "question_id": "28",
+      "download_sha256": "2ac1bb2a96e848242ba9661499f28d6cf2d5bbcab1daf150209294ca1da61b9e",
+      "local_sha256": "2ac1bb2a96e848242ba9661499f28d6cf2d5bbcab1daf150209294ca1da61b9e",
+      "bytes_equal": true,
+      "candidate_valid_wav": false
+    }
+  ],
+  "valid_replacements_for_24_to_28": 0,
+  "question_23_alternate_fdt": {
+    "members": [
+      "audio_lanzhou_2015/02010004_23.fdt",
+      "audio_lanzhou_2015/02010004_23.set"
+    ],
+    "frames": 726164,
+    "matches_current_wav_pcm_exactly": true,
+    "max_abs_difference": 0.0
+  }
+}

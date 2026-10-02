@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Primary Meta Tags -->
+  <!-- TODO: Replace with your paper title and author names -->
+  <meta name="title" content="TRI-DEP: A Trimodal Comparative Study for Depression Detection Using Speech, Text, and EEG - Eleonora Mancini, Annisaa Fitri Nurfirdausi, Paolo Torroni">
+  <!-- TODO: Write a compelling 150-160 character description of your research -->
+  <meta name="description" content="TRI-DEP systematically compares EEG, speech, and text modalities for depression detection, evaluating pretrained embeddings, neural encoders, and fusion strategies with subject-independent evaluation.">
+  <!-- TODO: Add 5-10 relevant keywords for your research area -->
+  <meta name="keywords" content="Depression Detection, Deep Neural Networks, Multimodal Data">
+  <!-- TODO: List all authors -->
+  <meta name="author" content="Eleonora Mancini, Annisaa Fitri Nurfirdausi, Paolo Torroni">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="English">
+  
+
+  Open Graph / Facebook
+  <meta property="og:type" content="article">
+  <!-- TODO: Replace with your institution or lab name -->
+  <meta property="og:site_name" content="DISI, University of Bologna, Italy">
+  <!-- TODO: Same as paper title above -->
+  <meta property="og:title" content="TRI-DEP: A Trimodal Comparative Study for Depression Detection Using Speech, Text, and EEG">
+  <!-- TODO: Same as description above -->
+  <meta property="og:description" content="TRI-DEP systematically compares EEG, speech, and text modalities for depression detection, evaluating pretrained embeddings, neural encoders, and fusion strategies with subject-independent evaluation.">
+  <!-- TODO: Replace with your actual website URL -->
+  <meta property="og:url" content="https://annisaafitrinn.github.io/tri-dep/">
+  <!-- TODO: Create a 1200x630px preview image and update path -->
+  <meta property="og:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="PAPER_TITLE - Research Preview">
+  <meta property="article:published_time" content="2024-01-01T00:00:00.000Z">
+  <meta property="article:author" content="FIRST_AUTHOR_NAME">
+  <meta property="article:section" content="Research">
+  <meta property="article:tag" content="KEYWORD1">
+  <meta property="article:tag" content="KEYWORD2">
+
+
+<!-- Twitter -->
+<!-- <meta name="twitter:card" content="summary_large_image"> -->
+<!-- TODO: Replace with your lab/institution Twitter handle -->
+<!-- <meta name="twitter:site" content="@YOUR_TWITTER_HANDLE"> -->
+<!-- TODO: Replace with first author's Twitter handle -->
+<!-- <meta name="twitter:creator" content="@AUTHOR_TWITTER_HANDLE"> -->
+<!-- TODO: Same as paper title above -->
+<!-- <meta name="twitter:title" content="PAPER_TITLE"> -->
+<!-- TODO: Same as description above -->
+<!-- <meta name="twitter:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS"> -->
+<!-- TODO: Same as social preview image above -->
+<!-- <meta name="twitter:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png"> -->
+<!-- <meta name="twitter:image:alt" content="PAPER_TITLE - Research Preview"> -->
+
+
+  <!-- Academic/Research Specific -->
+  <meta name="citation_title" content="TRI-DEP: A Trimodal Comparative Study for Depression Detection Using Speech, Text, and EEG">
+  <meta name="citation_author" content="Mancini, Eleonora">
+  <meta name="citation_author" content="Nurfirdausi, Annisaa Fitri">
+  <meta name="citation_author" content="Torroni, Paolo">
+  <meta name="citation_publication_date" content="2025">
+  <meta name="citation_conference_title" content="Preprint">
+ <!--  <meta name="citation_pdf_url" content="https://YOUR_DOMAIN.com/static/pdfs/paper.pdf">-->
+  
+  <!-- Additional SEO -->
+  <meta name="theme-color" content="#2563eb">
+  <meta name="msapplication-TileColor" content="#2563eb">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://ajax.googleapis.com">
+  <link rel="preconnect" href="https://documentcloud.adobe.com">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+
+
+  <!-- TODO: Replace with your paper title and authors -->
+  <title>TRI-DEP: A Trimodal Comparative Study for Depression Detection Using Speech, Text, and EEG - Eleonora Mancini, Annisaa Fitri Nurfirdausi, Paolo Torroni | Academic Research</title>
+  
+  <!-- Favicon and App Icons -->
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link rel="apple-touch-icon" href="static/images/favicon.ico">
+  
+  <!-- Critical CSS - Load synchronously -->
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+  
+  <!-- Non-critical CSS - Load asynchronously -->
+  <link rel="preload" href="static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="static/css/bulma-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="static/css/fontawesome.all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  
+  <!-- Fallback for browsers that don't support preload -->
+  <noscript>
+    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  </noscript>
+  
+  <!-- Fonts - Optimized loading -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Defer non-critical JavaScript -->
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script defer src="static/js/bulma-carousel.min.js"></script>
+  <script defer src="static/js/bulma-slider.min.js"></script>
+  <script defer src="static/js/index.js"></script>
+  
+  <!-- Structured Data for Academic Preprint -->
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ScholarlyArticle",
+    "headline": "TRI-DEP: A Trimodal Comparative Study for Depression Detection Using Speech, Text, and EEG",
+    "description": "A systematic exploration of multimodal depression detection using EEG, speech, and text, comparing feature representations, neural encoders, and fusion strategies with subject-independent splits.",
+    "author": [
+        {
+          "@type": "Person",
+          "name": "Eleonora Mancini"
+        },
+        {
+          "@type": "Person",
+          "name": "Annisaa Fitri Nurfirdausi"
+        },
+        {
+          "@type": "Person",
+          "name": "Paolo Torroni"
+        }
+      ],
+    "dateCreated": "2025-09-12",
+    "keywords": ["Depression Detection", "EEG", "Multimodal Learning", "Speech", "Text", "Machine Learning", "Vision Transformer", "DenseNet", "Hyperparameter Tuning"],
+    "abstract": "Depression is a widespread mental health disorder, yet its automatic detection remains challenging. This work systematically compares feature representations and modeling strategies across EEG, speech, and text, evaluates unimodal and multimodal configurations, and analyzes fusion strategies. Subject-independent splits ensure reproducibility. Results show pretrained embeddings outperform handcrafted features, EEG enhances multimodal detection, and trimodal models achieve state-of-the-art performance.",
+    "citation": "Annisaa Fitri Nurfirdausi, Eleonora Mancini, Paolo Torroni. 'TRI-DEP: A Trimodal Comparative Study for Depression Detection Using Speech, Text, and EEG.' Preprint, 2025.",
+    "isAccessibleForFree": true,
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "mainEntity": {
+      "@type": "WebPage",
+      "url": "https://annisaa.github.io/tri-dep/",
+      "@id": "https://annisaa.github.io/tri-dep/"
+    }
+  }
+  </script>
+  
+</head>
+<body>
+
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <main id="main-content">
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <!-- TODO: Replace with your paper title -->
+            <h1 class="title is-1 publication-title">TRI-DEP: A Trimodal Comparative Study for Depression Detection Using Speech, Text, and EEG</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- TODO: Replace with your paper authors and their personal links -->
+              <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=1Qk3rogAAAAJ&hl=it" target="_blank">Eleonora Mancini</a><sup>*</sup>,</span>
+                <span class="author-block">
+                  <a href="https://www.researchgate.net/profile/Annisa-Nurfirdausi" target="_blank">Annisaa Fitri Nurfirdausi</a><sup>*</sup>,</span>
+                  <span class="author-block">
+                    <a href="https://scholar.google.com/citations?user=uOZZjwsAAAAJ&hl=en" target="_blank">Paolo Torroni</a>
+                  </span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <!-- TODO: Replace with your institution and conference/journal info -->
+              <span class="author-block">DISI, University of Bologna, Italy<br>[TBD]</span>
+              <!-- TODO: Remove this line if no equal contribution -->
+              <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+            </div>
+
+
+                  <!-- TODO: Replace with your GitHub repository URL -->
+                  <span class="link-block">
+                    <a href="https://arxiv.org/abs/2510.14922" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+                  <span class="link-block">
+                    <a href="https://github.com/annisaafitrinn/tri-dep1" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <!-- TODO: Replace with your paper abstract -->
+          <p>
+            Depression is a widespread mental health disorder, yet its automatic detection remains challenging. Prior work has explored unimodal and multimodal approaches, with multimodal systems showing promise by leveraging complementary signals. However, existing studies are limited in scope, lack systematic comparisons of features, and suffer from inconsistent evaluation protocols. We address these gaps by systematically exploring feature representations and modeling strategies across EEG, together with speech and text. We evaluate handcrafted features versus pretrained embeddings, assess the effectiveness of different neural encoders, compare unimodal, bimodal, and trimodal configurations, and analyze fusion strategies with attention to the complementary role of EEG. Consistent subject-independent splits ensure reproducible benchmarking. Our results show that the combination of EEG enhances multimodal detection, pretrained embeddings outperform handcrafted features, and carefully designed trimodal models achieve state-of-the-art performance. Our work serves as a robust benchmark for future research in multimodal depression detection.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract —>
+
+<!-- Contents / Navigation -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <nav class="box" aria-label="Contents">
+      <h3 class="title is-4">Contents</h3>
+      <ul>
+        <li><a href="#baseline-works">Baseline Works</a></li>
+        <li><a href="#methodology">Methodology</a></li>
+        <li><a href="#experiments-results">Experiments and Results</a></li>
+        <li><a href="#preliminary-studies">Preliminary Studies</a></li>
+        <li><a href="#proposed-model">Proposed Model</a></li>
+      </ul>
+    </nav>
+  </div>
+</section>
+
+<!-- Baseline Works -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 id="baseline-works" class="title is-3">Baseline Works</h2>
+    <div class="content has-text-justified">
+      <p>
+        In this study, we implemented from scratch two multimodal baselines for comparison, both combining EEG and audio signals on the MODMA dataset. 
+        Yousufi et al. (2024) used DenseNet-121 as a feature extractor, while Qayyum et al. (2023) applied Vision Transformer (ViT) models for generating EEG and audio spectrograms.
+      </p>
+    </div>
+
+    <!-- Subsection 1 -->
+    <h3 id="baseline-data-prep" class="title is-4">Data Preparation for Baseline Works</h3>
+    <div class="content has-text-justified">
+      <p>
+        EEG preprocessing follows Yousufi et al. (2024), including a 0.4–45 Hz FIR bandpass filter, a 50 Hz notch filter, and average referencing. 
+        We selected 29 channels <code>(FP2, FP1, Fz, F7, F3, F4, F8, FT7, FC3, FCz, FC4, FT8, C3, C4, T3, CP3, CPz, CP4, T4, TP7, P3, Pz, P4, TP8, T5, T6, O1, Oz, O2)</code> for analysis. 
+        Since Qayyum et al. (2023) provide limited details, we applied the same preprocessing pipeline to both baselines for consistency.
+        For audio pre-processing, since both studies generate audio spectrograms directly from the original sampling rate of 44 kHz, we assume that no additional preprocessing was performed on the speech signals prior to spectrogram extraction.
+      </p>
+    </div>
+
+    <!-- Subsection 2 -->
+    <h3 id="spectrogram-generation" class="title is-4">EEG and Speech Spectrogram Generation</h3>
+    <div class="content has-text-justified">
+      <p>
+        Following Yousufi et al. (2024) and Qayyum et al. (2023), we generate STFT spectrograms for EEG and mel-spectrograms for audio using <code>librosa</code>. 
+        We apply <code>n_fft=1024</code>, <code>hop_length=512</code>, and <code>n_mels=64</code> (for audio). 
+        The resulting spectrograms are saved as <code>.png</code> images for use with 2D models such as DenseNet-121 and ViT.
+      </p>
+    </div>
+
+    <!-- Subsection 3 -->
+    <h3 id="baseline-data-splitting" class="title is-4">Data Splitting</h3>
+    <div class="content has-text-justified">
+      <p>
+        We use stratified 5-fold cross-validation with subject-level splitting to prevent data leakage. 
+        In each fold, 10% of the training data is set aside for validation (using a fixed random seed), 
+        resulting in train, validation, and test splits that preserve class balance.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Our Works -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 id="methodology" class="title is-3">Methodology</h2>
+    <div class="content has-text-justified">
+      <p></p>
+    </div>
+
+    <!-- Subsection 1 -->
+    <h3 id="eeg-preprocessing" class="title is-4">EEG Preprocessing</h3>
+    <div class="content has-text-justified">
+      <p>
+        EEG preprocessing follows two pipelines depending on the feature extraction method. 
+      </p>
+      <p>
+        <b>Pipeline 1:</b> We select 29 depression-related EEG channels 
+        <code>[FP2, FP1, Fz, F7, F3, F4, F8, FT7, FC3, FCz, FC4, FT8, C3, C4, T3, CP3, CPz, CP4, T4, TP7, P3, Pz, P4, TP8, T5, T6, O1, Oz, O2]</code>. 
+        Signals are bandpass filtered (0.5–50 Hz), notch filtered at 50 Hz, re-referenced to the average electrode, and segmented into 10-second windows.
+      </p>
+      <p>
+        <b>Pipeline 2:</b> We replicated the preprocessing steps of the CBraMod model for the MUMTAZ depression dataset. 
+        Signals are resampled to 200 Hz, bandpass filtered between 0.3–75 Hz, and notch filtered at 50 Hz. 
+        19 channels are selected 
+        <code>[FP2, FP1, F7, F3, F4, F8, FCz, C3, C4, T3, CPz, T4, P3, Pz, P4, T5, T6, O1, O2]</code>. 
+        The signals are segmented into 5-second windows (1000 samples each at 200 Hz). 
+        Each recording is divided into multiple fixed-length windows, and each window is further split into 5 non-overlapping patches of 200 samples each.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<!-- Experiments and Results -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 id="experiments-results" class="title is-3">Experiments and Results</h2>
+
+    <!-- Subsection 1 -->
+    <h3 id="experiments-data-splitting" class="title is-4">Data Splitting</h3>
+    <div class="content has-text-justified">
+      <p>
+        We perform all experiments at the subject level using stratified 5-fold cross-validation to preserve class balance. The same subject-level splits are used across experiments, ensuring reproducibility, fair comparability, and robust results reported as mean and standard deviation across folds.
+      </p>
+
+      <!-- Data split table -->
+      <div class="table-container">
+        <h4 class="title is-5 has-text-weight-semibold">Subject split configurations for stratified 5-fold cross-validation</h4>
+        <table class="table is-fullwidth is-striped is-hoverable is-bordered">
+          <thead>
+            <tr>
+              <th>Split</th>
+              <th>Fold 1</th>
+              <th>Fold 2</th>
+              <th>Fold 3</th>
+              <th>Fold 4</th>
+              <th>Fold 5</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Train</strong></td>
+              <td><code>02010024,<br>02030006,<br>02030002,<br>02020008,<br>02010005,<br>02030017,<br>02030007,<br>02010025,<br>02020023,<br>02030009,<br>02020010,<br>02010036,<br>02020014,<br>02010018,<br>02020025,<br>02010022,<br>02030004,<br>02020021,<br>02010006,<br>02020015,<br>02010010,<br>02030005,<br>02010023,<br>02020026,<br>02010008,<br>02010012,<br>02020018</code></td>
+              <td><code>02010024,<br>02030006,<br>02020027,<br>02020010,<br>02010002,<br>02030017,<br>02030009,<br>02010025,<br>02020023,<br>02030014,<br>02020014,<br>02010034,<br>02020015,<br>02010013,<br>02020025,<br>02010015,<br>02030004,<br>02020021,<br>02010004,<br>02010012,<br>02010008,<br>02030005,<br>02010018,<br>02020026,<br>02010006,<br>02010011,<br>02020019</code></td>
+              <td><code>02020008,<br>02030005,<br>02010002,<br>02030006,<br>02010006,<br>02030002,<br>02010010,<br>02010006,<br>02010025,<br>02010012,<br>02020027,<br>02030007,<br>02020019,<br>02010022,<br>02020026,<br>02010018,<br>02010034,<br>02010023,<br>02010005,<br>02030017,<br>02010004,<br>02010001,<br>02010002,<br>02010025,<br>02010012,<br>02010008,<br>02010004</code></td>
+              <td><code>02020008,<br>02030009,<br>02010007,<br>02010006,<br>02010008,<br>02030002,<br>02010022,<br>02030014,<br>02010011,<br>02010036,<br>02030006,<br>02030004,<br>02010018,<br>02010022,<br>02010013,<br>02010025,<br>02020023,<br>02010002,<br>02030007,<br>02010024,<br>02010005,<br>02010015,<br>02010021,<br>02010001,<br>02010002,<br>02010004,<br>02010015</code></td>
+              <td><code>02020008,<br>02030007,<br>02010008,<br>02010014,<br>02010018,<br>02030006,<br>02010024,<br>02010025,<br>02010022,<br>02020027,<br>02010018,<br>02010022,<br>02010016,<br>02030004,<br>02010002,<br>02010010,<br>02030001,<br>02010003,<br>02010024,<br>02010025,<br>02010015</code></td>
+            </tr>
+            <tr>
+              <td><strong>Val</strong></td>
+              <td><code>02020016,<br>02010011,<br>02020022</code></td>
+              <td><code>02020016,<br>02020010,<br>02020022</code></td>
+              <td><code>02020016,<br>02020023,<br>02010008</code></td>
+              <td><code>02010010,<br>02020022,<br>02020018,<br>02010004</code></td>
+              <td><code>02010011,<br>02020019,<br>02020015,<br>02010004</code></td>
+            </tr>
+            <tr>
+              <td><strong>Test</strong></td>
+              <td><code>02010002,<br>02010004,<br>02010013,<br>02010034,<br>02020015,<br>02020019,<br>02020027,<br>02030014</code></td>
+              <td><code>02010005,<br>02010022,<br>02010023,<br>02010036,<br>02020008,<br>02020018,<br>02030002,<br>02030007</code></td>
+              <td><code>02010011,<br>02010015,<br>02010024,<br>02020014,<br>02020021,<br>02020022,<br>02020025,<br>02030009</code></td>
+              <td><code>02010008,<br>02010012,<br>02010025,<br>02020010,<br>02020016,<br>02020026,<br>02030005</code></td>
+              <td><code>02010006,<br>02010010,<br>02010018,<br>02020023,<br>02030004,<br>02030006,<br>02030017</code></td>
+            </tr>
+            <tr>
+              <td><strong>Training Labels</strong></td>
+              <td>Healthy = 14, Depressed = 13</td>
+              <td>Healthy = 14, Depressed = 13</td>
+              <td>Healthy = 14, Depressed = 13</td>
+              <td>Healthy = 13, Depressed = 14</td>
+              <td>Healthy = 13, Depressed = 14</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+  </div>
+
+  <!-- Subsection 2 -->
+  <h3 id="baseline-results" class="title is-4">Baseline Results</h3>
+    <div class="content has-text-justified">
+      <p>
+        Below, we present the results of the baseline models, along with the improvements obtained after hyperparameter tuning and the addition of the text modality.
+      </p>
+    <!-- Baseline: Hyperparameters -->
+    <div class="table-container">
+      <h4 class="title is-5 has-text-weight-semibold">Hyperparameter details for baseline works</h4>
+      <table class="table is-fullwidth is-striped">
+        <thead>
+          <tr>
+            <th>Hyperparameters</th>
+            <th>ViT</th>
+            <th>DenseNet-121</th>
+            <th>ViT (After Tuning)</th>
+            <th>DenseNet-121 (After Tuning)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Learning Rate</td><td>0.0004</td><td>0.01</td><td>0.01</td><td>0.001</td></tr>
+          <tr><td>Optimizer</td><td>Adam</td><td>Adamax</td><td>Adam</td><td>Adamax</td></tr>
+          <tr><td>Epochs</td><td>70</td><td>30</td><td>70</td><td>40</td></tr>
+          <tr><td>Batch Size</td><td>100</td><td>16</td><td>100</td><td>32</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Baseline: ViT pooling strategies -->
+    <div class="table-container">
+      <h4 class="title is-5 has-text-weight-semibold">Vision Transformer — Pooling strategies</h4>
+      <table class="table is-fullwidth is-striped">
+        <thead>
+          <tr>
+            <th>Pooling</th>
+            <th>Accuracy</th>
+            <th>Precision</th>
+            <th>Recall</th>
+            <th>F1-Score</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Attention</td><td>0.5321 &#177; 0.2028</td><td>0.5050 &#177; 0.2452</td><td>0.5183 &#177; 0.2026</td><td>0.4960 &#177; 0.2174</td></tr>
+          <tr><td><strong>Max</strong></td><td><strong>0.5821 &#177; 0.1708</strong></td><td><strong>0.5550 &#177; 0.2274</strong></td><td><strong>0.5683 &#177; 0.1746</strong></td><td><strong>0.5495 &#177; 0.1964</strong></td></tr>
+          <tr><td>AdaptiveAvg</td><td>0.5571 &#177; 0.2197</td><td>0.5267 &#177; 0.2592</td><td>0.5383 &#177; 0.2174</td><td>0.5189 &#177; 0.2345</td></tr>
+          <tr><td>GlobalAvg</td><td>0.5821 &#177; 0.2189</td><td>0.5533 &#177; 0.2619</td><td>0.5633 &#177; 0.2187</td><td>0.5494 &#177; 0.2356</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Baseline: DenseNet pooling strategies -->
+    <div class="table-container">
+      <h4 class="title is-5 has-text-weight-semibold">DenseNet-121 — Pooling strategies</h4>
+      <table class="table is-fullwidth is-striped">
+        <thead>
+          <tr>
+            <th>Pooling</th>
+            <th>Accuracy</th>
+            <th>Precision</th>
+            <th>Recall</th>
+            <th>F1-Score</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Attention</td><td>0.4214 &#177; 0.1286</td><td>0.2876 &#177; 0.1161</td><td>0.3800 &#177; 0.1122</td><td>0.3238 &#177; 0.1080</td></tr>
+          <tr><td>Max</td><td>0.5000 &#177; 0.2414</td><td>0.4967 &#177; 0.2619</td><td>0.4833 &#177; 0.2276</td><td>0.4831 &#177; 0.2381</td></tr>
+          <tr><td>AdaptiveAvg</td><td>0.5036 &#177; 0.2601</td><td>0.3963 &#177; 0.2796</td><td>0.4583 &#177; 0.2472</td><td>0.4030 &#177; 0.2410</td></tr>
+          <tr><td><strong>GlobalAvg</strong></td><td><strong>0.5536 &#177; 0.2583</strong></td><td><strong>0.5855 &#177; 0.2929</strong></td><td><strong>0.5417 &#177; 0.2486</strong></td><td><strong>0.5309 &#177; 0.2556</strong></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Baseline: ViT before vs after tuning -->
+    <div class="table-container">
+      <h4 class="title is-5 has-text-weight-semibold">Vision Transformer — Before vs After manual tuning</h4>
+      <table class="table is-fullwidth is-striped">
+        <thead>
+          <tr>
+            <th>Configuration</th>
+            <th>Accuracy</th>
+            <th>Precision</th>
+            <th>Recall</th>
+            <th>F1-Score</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Qayyum et al., (ViT)</td><td>0.5821 &#177; 0.1708</td><td>0.5550 &#177; 0.2274</td><td>0.5683 &#177; 0.1746</td><td>0.5495 &#177; 0.1964</td></tr>
+          <tr><td><strong>After manual tuning</strong></td><td><strong>0.6036 &#177; 0.1661</strong></td><td><strong>0.5867 &#177; 0.2327</strong></td><td><strong>0.5800 &#177; 0.1697</strong></td><td><strong>0.5597 &#177; 0.1897</strong></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Baseline: Model + Text comparison -->
+    <div class="table-container">
+      <h4 class="title is-5 has-text-weight-semibold">Baseline Models — With / Without Text</h4>
+      <table class="table is-fullwidth is-striped">
+        <thead>
+          <tr>
+            <th>Configuration</th>
+            <th>Accuracy</th>
+            <th>Precision</th>
+            <th>Recall</th>
+            <th>F1-Score</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>ViT</td><td>0.6036 &#177; 0.1661</td><td>0.5867 &#177; 0.2327</td><td>0.5800 &#177; 0.1697</td><td>0.5597 &#177; 0.1897</td></tr>
+          <tr><td><strong>ViT + Text</strong></td><td><strong>0.6321 &#177; 0.2084</strong></td><td><strong>0.6133 &#177; 0.2711</strong></td><td><strong>0.6083 &#177; 0.2051</strong></td><td><strong>0.5966 &#177; 0.2324</strong></td></tr>
+          <tr><td>DenseNet-121</td><td>0.6071 &#177; 0.2292</td><td>0.6100 &#177; 0.2768</td><td>0.5967 &#177; 0.2240</td><td>0.5856 &#177; 0.2399</td></tr>
+          <tr><td><strong>DenseNet-121 + Text</strong></td><td><strong>0.6357 &#177; 0.2136</strong></td><td><strong>0.6367 &#177; 0.2630</strong></td><td><strong>0.6217 &#177; 0.2089</strong></td><td><strong>0.6089 &#177; 0.2278</strong></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+<!-- Subsection 3 -->
+  <h3 id="preliminary-studies" class="title is-4">Preliminary Studies</h3>
+    <div class="content has-text-justified">
+      <p>
+        The framework supports various combinations of feature types, deep encoders, and late-fusion strategies. To structure the investigation and ensure feasibility, we first performed unimodal experiments for each modality (EEG, speech, and text) to identify the most effective model for each stream. These best-performing unimodal models were then integrated into the final multimodal pipeline.
+        The result of preliminary studies can be seen below:
+      </p>
+    
+          <div class="table-container">
+            <h4 class="title is-5 has-text-weight-semibold">EEG Results</h4>
+            <table class="table is-striped is-hoverable is-fullwidth">
+              <thead>
+                <tr>
+                  <th>Model</th>
+                  <th>Feature Group</th>
+                  <th>Score</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>cbramod_conv</td><td>CBRaMod</td><td>0.4927 &#177; 0.1594</td></tr>
+                <tr><td>cbramod_mumtaz_conv</td><td>CBRaMod Mumtaz</td><td>0.4462 &#177; 0.1056</td></tr>
+                <tr><td>cbramod_mumtaz_lstm</td><td>CBRaMod Mumtaz</td><td>0.4424 &#177; 0.1019</td></tr>
+                <tr><td>xhand_cnn_fc</td><td>Handcrafted</td><td>0.4327 &#177; 0.1710</td></tr>
+                <tr><td>xhand_cnn_lstm</td><td>Handcrafted</td><td>0.4182 &#177; 0.0957</td></tr>
+                <tr><td>labram_gru_attn</td><td>LaBraM</td><td>0.4165 &#177; 0.0893</td></tr>
+                <tr><td>xhand_cnn_gru_attn</td><td>Handcrafted</td><td>0.4121 &#177; 0.1431</td></tr>
+                <tr><td>cbramod_mumtaz_gru_attn</td><td>CBRaMod Mumtaz</td><td>0.4038 &#177; 0.1386</td></tr>
+                <tr><td>cbramod_gru_attn</td><td>CBRaMod</td><td>0.3771 &#177; 0.1700</td></tr>
+                <tr><td>labram_lstm</td><td>LaBraM</td><td>0.3557 &#177; 0.0222</td></tr>
+                <tr><td>cbramod_lstm</td><td>CBRaMod</td><td>0.3501 &#177; 0.1557</td></tr>
+                <tr><td>labram_conv</td><td>LaBraM</td><td>0.2958 &#177; 0.0250</td></tr>
+              </tbody>
+            </table>
+            <p class="has-text-centered"><strong>Best per feature group:</strong> CBRaMod <em>cbramod_conv</em> 0.4927 &#177; 0.1594; CBRaMod Mumtaz <em>cbramod_mumtaz_conv</em> 0.4462 &#177; 0.1056; Handcrafted <em>xhand_cnn_fc</em> 0.4327 &#177; 0.1710; LaBraM <em>labram_gru_attn</em> 0.4165 &#177; 0.0893.</p>
+            <p class="has-text-centered"><strong>Best overall EEG:</strong> <em>cbramod_conv</em> 0.4927 &#177; 0.1594.</p>
+          </div>
+
+          <div class="table-container">
+            <h4 class="title is-5 has-text-weight-semibold">Speech Results</h4>
+            <table class="table is-striped is-hoverable is-fullwidth">
+              <thead>
+                <tr>
+                  <th>Model</th>
+                  <th>Feature Group</th>
+                  <th>Score</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>hubert_bigru_conv</td><td>HuBERT</td><td>0.8090 &#177; 0.0812</td></tr>
+                <tr><td>hubert_noenc_lstm</td><td>HuBERT</td><td>0.8064 &#177; 0.0795</td></tr>
+                <tr><td>hubert_noenc_conv</td><td>HuBERT</td><td>0.7785 &#177; 0.0746</td></tr>
+                <tr><td>xlsr_cnn_conv</td><td>XLSR-53</td><td>0.7736 &#177; 0.1429</td></tr>
+                <tr><td>xlsr_cnn_lstm</td><td>XLSR-53</td><td>0.7474 &#177; 0.1594</td></tr>
+                <tr><td>xlsr_gru_lstm</td><td>XLSR-53</td><td>0.7261 &#177; 0.1344</td></tr>
+                <tr><td>hubert_bigru_lstm</td><td>HuBERT</td><td>0.7003 &#177; 0.1545</td></tr>
+                <tr><td>xlsr_lstm_conv</td><td>XLSR-53</td><td>0.6990 &#177; 0.2303</td></tr>
+                <tr><td>hubert_lstm_conv</td><td>HuBERT</td><td>0.6871 &#177; 0.0450</td></tr>
+                <tr><td>prosody_mfcc_bigru_attn</td><td>Prosody+MFCC</td><td>0.6549 &#177; 0.1820</td></tr>
+                <tr><td>xlsr_gru_conv</td><td>XLSR-53</td><td>0.6114 &#177; 0.2130</td></tr>
+                <tr><td>xlsr_lstm_lstm</td><td>XLSR-53</td><td>0.5805 &#177; 0.2201</td></tr>
+                <tr><td>mfcc_cnn_lstm</td><td>MFCC</td><td>0.5532 &#177; 0.1434</td></tr>
+                <tr><td>mfcc_lstm_conv</td><td>MFCC</td><td>0.5457 &#177; 0.1389</td></tr>
+                <tr><td>prosody_mfcc_cnn_lstm</td><td>Prosody+MFCC</td><td>0.5455 &#177; 0.1818</td></tr>
+                <tr><td>prosody_mfcc_cnn_bilstm</td><td>Prosody+MFCC</td><td>0.5455 &#177; 0.1818</td></tr>
+                <tr><td>mfcc_lstm_lstm</td><td>MFCC</td><td>0.4924 &#177; 0.1526</td></tr>
+                <tr><td>mfcc_bigru_conv</td><td>MFCC</td><td>0.4899 &#177; 0.2108</td></tr>
+                <tr><td>mfcc_bigru_lstm</td><td>MFCC</td><td>0.4555 &#177; 0.1395</td></tr>
+                <tr><td>mfcc_cnn_conv</td><td>MFCC</td><td>0.3846 &#177; 0.1453</td></tr>
+                <tr><td>hubert_lstm_lstm</td><td>HuBERT</td><td>0.3557 &#177; 0.0222</td></tr>
+              </tbody>
+            </table>
+            <p class="has-text-centered"><strong>Best per feature group:</strong> HuBERT <em>hubert_bigru_conv</em> 0.8090 &#177; 0.0812; MFCC <em>mfcc_cnn_lstm</em> 0.5532 &#177; 0.1434; Prosody+MFCC <em>prosody_mfcc_bigru_attn</em> 0.6549 &#177; 0.1820; XLSR-53 <em>xlsr_cnn_conv</em> 0.7736 &#177; 0.1429.</p>
+            <p class="has-text-centered"><strong>Best overall Speech:</strong> <em>hubert_bigru_conv</em> 0.8090 &#177; 0.0812.</p>
+          </div>
+
+          <div class="table-container">
+            <h4 class="title is-5 has-text-weight-semibold">Text Results</h4>
+            <table class="table is-striped is-hoverable is-fullwidth">
+              <thead>
+                <tr>
+                  <th>Model</th>
+                  <th>Feature Group</th>
+                  <th>Score</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>macbert_lstm</td><td>MacBERT</td><td>0.7836 &#177; 0.1145</td></tr>
+                <tr><td>mpnet_lstm</td><td>MPNet</td><td>0.7684 &#177; 0.1485</td></tr>
+                <tr><td>mpnet_cnn</td><td>MPNet</td><td>0.7248 &#177; 0.2443</td></tr>
+                <tr><td>bert_cnn</td><td>BERT</td><td>0.7196 &#177; 0.1219</td></tr>
+                <tr><td>xlnet_lstm</td><td>XLNet</td><td>0.6655 &#177; 0.0876</td></tr>
+                <tr><td>bert_lstm</td><td>BERT</td><td>0.6460 &#177; 0.0849</td></tr>
+                <tr><td>macbert_cnn</td><td>MacBERT</td><td>0.6097 &#177; 0.1896</td></tr>
+                <tr><td>xlnet_cnn</td><td>XLNet</td><td>0.5638 &#177; 0.1723</td></tr>
+              </tbody>
+            </table>
+            <p class="has-text-centered"><strong>Best per feature group:</strong> BERT <em>bert_cnn</em> 0.7196 &#177; 0.1219; MPNet <em>mpnet_lstm</em> 0.7684 &#177; 0.1485; MacBERT <em>macbert_lstm</em> 0.7836 &#177; 0.1145; XLNet <em>xlnet_lstm</em> 0.6655 &#177; 0.0876.</p>
+            <p class="has-text-centered"><strong>Best overall Text:</strong> <em>macbert_lstm</em> 0.7836 &#177; 0.1145.</p>
+          </div>
+
+        <!-- Multimodal results table (transcribed) -->
+        <div class="table-container">
+          <h4 class="title is-5 has-text-weight-semibold">Baseline and Multimodal Fusion Results (F1-score)</h4>
+          <table class="table is-fullwidth is-striped is-hoverable">
+            <thead>
+              <tr>
+                <th>Category</th>
+                <th>Configuration</th>
+                <th>F1-score (mean &pm; std)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td rowspan="2">Baselines</td><td>ViT</td><td>0.560 &pm; 0.190</td></tr>
+              <tr><td><strong>DenseNet-121</strong></td><td><strong>0.586 &pm; 0.240</strong></td></tr>
+
+              <tr><td rowspan="4">Weighted Averaging</td><td>EEG + Speech (0.05 : 0.95)</td><td>0.809 &pm; 0.081</td></tr>
+              <tr><td>EEG + Text (0.15 : 0.85)</td><td>0.786 &pm; 0.116</td></tr>
+              <tr><td>Speech + Text (0.45 : 0.55)</td><td>0.839 &pm; 0.059</td></tr>
+              <tr><td><strong>EEG + Speech + Text (0.05 : 0.35 : 0.60)</strong></td><td><strong><u>0.864 &pm; 0.095</u></strong></td></tr>
+
+              <tr><td rowspan="4">Bayesian Fusion</td><td>EEG + Speech (0.05 : 0.95)</td><td>0.809 &pm; 0.081</td></tr>
+              <tr><td>EEG + Text (0.05 : 0.95)</td><td>0.784 &pm; 0.114</td></tr>
+              <tr><td>Speech + Text (0.20 : 0.80)</td><td>0.863 &pm; 0.140</td></tr>
+              <tr><td><strong>EEG + Speech + Text (0.05 : 0.30 : 0.65)</strong></td><td><strong><u>0.864 &pm; 0.095</u></strong></td></tr>
+
+              <tr><td rowspan="4">Majority Voting</td><td>EEG + Speech</td><td>0.557 &pm; 0.135</td></tr>
+              <tr><td>EEG + Text</td><td>0.500 &pm; 0.078</td></tr>
+              <tr><td><strong>Speech + Text</strong></td><td><strong>0.809 &pm; 0.081</strong></td></tr>
+              <tr><td>EEG + Speech + Text</td><td>0.800 &pm; 0.200</td></tr>
+            </tbody>
+          </table>
+          <p class="has-text-centered"><em>Table:</em> Baseline and multimodal fusion results (F1-score, mean &pm; std across 5 folds). In <strong>bold</strong>, the best performing configuration per category; the overall best is additionally <u>underlined</u>. Fusion weights were optimized via grid search (step = 0.05).</p>
+        </div>
+    </div>
+
+    <!-- Subsection 4 -->
+    <h3 id="proposed-model" class="title is-4">Proposed Model</h3>
+    <div class="content has-text-justified">
+      <p>
+        Based on our extensive experiments, we identified the best-performing models, and their overall architecture is illustrated below:
+      </p>
+    
+          <!-- Image -->
+    <figure class="image is-fullwidth">
+      <img src="static/images/tridep_1.png" alt="Illustration of best performing architectures observed" loading="lazy">
+      <figcaption class="has-text-centered">
+        Best Architecture.
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </body>
+  </html>

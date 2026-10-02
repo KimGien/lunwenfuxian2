@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv= "X-UA-Compatible" content="ie=edge">
+	<title>MODMA Dataset</title>
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.42/respond.min.cjs"></script>
+	<![endif]-->
+	<link rel="stylesheet" href="/static/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/static/css/index.css">
+	<link href="/static/css/style.css" type="text/css" rel="stylesheet" media="all">
+	<link rel="stylesheet" href="/static/css/progressbar.css" />
+	<!-- //css files -->
+
+	<link href="/static/css/popup-box.css" rel="stylesheet" type="text/css" media="all" /> <!-- popup box css -->
+	
+
+	<link rel="stylesheet" href="/static/css/jquery.treeview_copy.css" />
+	<link rel="stylesheet" href="/static/css/application.css" />
+	<script src="/static/js/jquery.js" type="text/javascript"></script>
+	<script src="/static/js/jquery.cookie.js" type="text/javascript"></script>
+	<script src="/static/js/jquery.treeview.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$("#hide").attr("disabled", "disabled");
+			$("#step2").hide();
+			$(".flo-left").change(function () {
+				detectInput();
+			});
+		});
+		function detectInput() {
+			var check_list = [];
+			var hide = $("#hide");
+			$(".flo-left").each(function () {
+				check_list.push($(this).prop('checked'));
+			});
+			var i = $.inArray(true, check_list);
+			if(i !== -1){
+				hide.removeAttr("disabled");
+				hide.click(function () {
+				$(this).parents("#step1").hide();
+				$("#step2").show();
+				$("#progress_2").attr("class", "pro_active");
+				});
+			}else {
+				hide.attr("disabled", "disabled");
+				hide.unbind('click');
+			}
+		};
+	</script>
+
+</head>
+
+<body>	
+
+	<nav class="navbar navbar-default navbar-fixed-top">
+  		<div class="container-fluid">
+    		<div class="navbar-header">
+      			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        			<span class="sr-only">Toggle navigation</span>
+       				<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+      			</button>
+      			<a class="navbar-brand" href="/data/index/">&nbsp;&nbsp;&nbsp;&nbsp;MODMA&nbsp;&nbsp;&nbsp;&nbsp;</a>
+			</div>
+    		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      			<ul class="nav navbar-nav">
+					<li><a href="/data/index" class="navWord ">Home</a></li>
+        			<li><a href="/data/application" class="navWord active">HowToAccess</a></li>
+<!--        			<li class="dropdown">-->
+<!--          				<a href="#" class="dropdown-toggle navWord " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Category <span class="caret"></span></a>-->
+<!--          					<ul class="dropdown-menu">-->
+<!--            					-->
+<!--            					<li><a href="/data/category/?id=1">EEG</a></li>-->
+<!--								-->
+<!--								-->
+<!--            					<li><a href="/data/category/?id=2">Audio</a></li>-->
+<!--								-->
+<!--								<li role="separator" class="divider"></li>-->
+<!--								-->
+<!--								-->
+<!--								<li><a href="/data/category/">ALL DATA</a></li>-->
+<!--          					</ul>-->
+<!--        			</li>-->
+					<li>
+          				<a href="/data/publications" class="navWord " >Publications</a>
+        			</li>
+					<!--<li>-->
+          				<!--<a href="/data/paradigm" class="navWord " >Paradigm</a>-->
+        			<!--</li>-->
+					<li>
+          				<a href="/data/contact" class="navWord " >Contact</a>
+        			</li>
+					
+					
+				</ul>
+
+				<ul class="nav navbar-nav navbar-right">
+				
+				<li class=""><a href="/accounts/login/" class="navWord" style="">Sign in<span class="sr-only">(current)</span> <span class="glyphicon glyphicon-log-in"></span></a></li>
+<li>
+    <a href="/accounts/register/" class="navWord" style="border: 1px solid;padding-top: 1px;padding-bottom: 1px;margin-top: 13px;margin-bottom: 11px;border-radius:5px;">Sign up</a>
+</li>
+
+				
+      			</ul>
+    		</div>
+  		</div>
+	</nav>
+	
+
+<form action="/data/datapp/" enctype="multipart/form-data" method="post" name="formen">
+    
+	<ul class="totop" id="progressbar" style="text-align: center">
+		<li class="pro_active"><h5>Select dataset</h5></li>
+		<li id="progress_2"><h5>Upload EULA</h5></li>
+		<li><h5>Wait for approval</h5></li>
+	</ul>
+    <div class="container ">
+		<div id="step1">
+			<p>If you are interested in using MODMA dataset, please take the following steps: <br>
+			1. You will have to register your own account on MODMA website <strong>using your organization email</strong>. Before you sign in for the first time, you have to check your email and activate your account. <br>
+2. All current publicly available MODMA datasets are listed below with descriptions. You may select the ones you wish to download by check the checkboxes on the left. Then click the “Next” button.<br>
+3. On the next page, you will have to download, print, sign and scan an <a href='https://modma.lzu.edu.cn/static/MODMADatasetUserLicenseAgreement.docx'>EULA (End User License Agreement)</a> and upload it through the link provided. Then click the "Submit" button.<br>
+4. Upon receipt of the EULA, the access of selected dataset files will be granted by dataset administrators. Depend on the workload of the dataset administrators, this could take a couple of days. <br>
+5. You may log in your personal page to check whether the accesses are granted. Once you do, you may download the requested files through your MODMA website "HowToAccess" section.</p>
+			<br>
+			<p><strong>* The MODMA is a multi-modal dataset, the subject id across different sub-dataset is unified.</strong> </p>
+			
+			<div class="page-header">
+				<h3>
+					<span id="data_1" class="glyphicon glyphicon-folder-open"></span> EEG
+				</h3>
+			</div>
+				
+					
+						
+
+    
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            
+                
+                <input class="flo-left" type="checkbox" name="13">
+                
+            
+            <span id="data_13" class="glyphicon glyphicon-save-file"></span>
+            EEG_128channels_ERP_lanzhou_2015
+            
+        </div>
+        <div class="panel-body">
+        
+            <li>128-channel Event-Related Potential recordings</li><li>24 Major Depressive Disorder subjects and 29 Healthy Control subjects</li><li>Age range : 16-52 years old</li><li>Includes: 1) demographic data, 2) psychological assessments</li><li>File size: 4.8G (for extracting of large file, you may use new verion of pupular tools like winrar, 7z. )</li><li>Md5sum: ac7b82ecf62de5c8783eaa0376674e9b  </li><br><li>Latest publication based on this dataset:<p>Cai, H., Gao, Y., Sun, S., Li, N., Tian, F., Xiao, H., Li, J., Yang, Z., Li, X., Zhao, Q., Liu, Z., Yao, Z., Yang, M., Peng, H., Zhu, J., Zhang, X., Hu, X., &amp; Hu, B. (2020). MODMA dataset: a Multi-modal Open Dataset for Mental-disorder Analysis. arXiv preprint arXiv:2002.09283 <a href="https://arxiv.org/pdf/2002.09283.pdf">Download </a></p></li><li>Related references:<p>Li, X., Li, J., Hu, B., Zhu, J., Zhang, X., Wei, L., ... &amp; Zhang, L. (2018). Attentional bias in MDD: ERP components analysis and classification using a dot-probe task. Computer methods and programs in biomedicine, 164, 169-179. <a href="/static/references/Attentional%20bias%20in%20MDD%20ERP%20components%20analysis%20and%20classification%20using%20a%20dot-probe%20task.pdf"> Download </a> </p><p>Hu, B., Rao, J., Li, X., Cao, T., Li, J., Majoe, D., &amp; Gutknecht, J. (2017). Emotion regulating attentional control abnormalities in major depressive disorder: an event-related potential study. Scientific reports, 7(1), 1-21. <a href="/static/references/Emotion%20Regulating%20Attentional%20Control%20Abnormalities%20In%20Major%20Depressive%20Disorder%20An%20Event-Related%20Potential%20Study.pdf"> Download </a> </p></li><li>Dot probe:<p><a href="/static/references/128%20channel%20HydroCel%20Geodesic%20Sensor%20Net-DOT%20probe%20EEG.pdf">Download</a></p></li><li>Loading data flow:<p><a href="/static/references/Loading-data-flow.docx">Download</a></p></li>
+        
+        </div>
+    </div>
+    
+
+					
+						
+
+    
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            
+                
+                <input class="flo-left" type="checkbox" name="14">
+                
+            
+            <span id="data_14" class="glyphicon glyphicon-save-file"></span>
+            EEG_128channels_resting_lanzhou_2015
+            
+        </div>
+        <div class="panel-body">
+        
+            <li>128-channel resting-state recordings</li><li>24 Major Depressive Disorder subjects and 29 Healthy Control subjects</li><li>Age range : 16-52 years old</li><li>Includes: 1) demographic data, 2) psychological assessments</li><li>File size: 2.2G</li><li>Md5sum: 7f5ea8c89c550443dc740c5c9e9d3867  </li><br><li>Latest publication based on this dataset:<p>Cai, H., Gao, Y., Sun, S., Li, N., Tian, F., Xiao, H., Li, J., Yang, Z., Li, X., Zhao, Q., Liu, Z., Yao, Z., Yang, M., Peng, H., Zhu, J., Zhang, X., Hu, X., &amp; Hu, B. (2020). MODMA dataset: a Multi-modal Open Dataset for Mental-disorder Analysis. arXiv preprint arXiv:2002.09283 <a href="https://arxiv.org/pdf/2002.09283.pdf">Download </a></p><p>Sun, S., Li, J., Chen, H., Gong, T., Li, X., &amp; Hu, B. (2020). A study of resting-state EEG biomarkers for depression recognition. arXiv preprint arXiv:2002.11039.<a href="https://arxiv.org/pdf/2002.11039.pdf">Download</a></p></li><li>Related references:<p>Sun, S., Li, X., Zhu, J., Wang, Y., La, R., Zhang, X., ... &amp; Hu, B. (2019). Graph Theory Analysis of Functional Connectivity in Major Depression Disorder With High-Density Resting State EEG Data. IEEE Transactions on Neural Systems and Rehabilitation Engineering, 27(3), 429-439. <a href="/static/references/Graph%20Theory%20Analysis%20of%20Functional%20Connectivity%20in%20Major%20Depression%20Disorder%20With%20High-Density%20Resting%20State%20EEG%20Data.pdf"> Download </a> </p> <p>Peng, H., Xia, C., Wang, Z., Zhu, J., Zhang, X., Sun, S., ... &amp; Li, X. (2019). Multivariate Pattern Analysis of EEG-Based Functional Connectivity: A Study on the Identification of Depression. IEEE Access, 7, 92630-92641. <a href="/static/references/Multivariate%20Pattern%20Analysis%20of%20EEG-Based%20Functional%20Connectivity%20A%20Study%20on%20the%20Identification%20of%20Depression.pdf"> Download </a>  </p> <p>Li, X., Jing, Z., Hu, B., Zhu, J., Zhong, N., Li, M., ... &amp; Majoe, D. (2017). A resting-state brain functional network study in MDD based on minimum spanning tree analysis and the hierarchical clustering. Complexity, 2017. <a href="/static/references/A%20resting-state%20brain%20functional%20network%20study%20in%20MDD%20based%20on%20minimum%20spanning%20tree%20analysis%20and%20the%20hierarchical%20clustering.pdf"> Download </a>  </p></li><li>Resting state:<p><a href="/static/references/128%20channel%20HydroCel%20Geodesic%20Sensor%20Net-resting%20state%20EEG.pdf">Download</a></p></li>
+        
+        </div>
+    </div>
+    
+
+					
+						
+
+    
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            
+                
+                <input class="flo-left" type="checkbox" name="17">
+                
+            
+            <span id="data_17" class="glyphicon glyphicon-save-file"></span>
+            EEG_3channels_resting_lanzhou_2015
+            
+        </div>
+        <div class="panel-body">
+        
+            <li>3-channel resting-state recordings</li><li>26 Major Depressive Disorder subjects and 29 Healthy Control subjects</li><li>Age range : 16-56 years old</li><li>Includes: 1) demographic data, 2) psychological assessments</li><li>File size: 142M</li><li>Md5sum: b4782823a5f4583de12c6334ebcd67c5  </li><br><li>Latest publication based on this dataset:<p>Cai, H., Gao, Y., Sun, S., Li, N., Tian, F., Xiao, H., Li, J., Yang, Z., Li, X., Zhao, Q., Liu, Z., Yao, Z., Yang, M., Peng, H., Zhu, J., Zhang, X., Hu, X., &amp; Hu, B. (2020). MODMA dataset: a Multi-modal Open Dataset for Mental-disorder Analysis. arXiv preprint arXiv:2002.09283 <a href="https://arxiv.org/pdf/2002.09283.pdf">Download </a></p><p>Shi, Q., Liu, A., Chen, R., Shen, J., Zhao, Q., &amp; Hu, B. (2020). Depression Detection using Resting State Three-channel EEG Signal. arXiv preprint arXiv:2002.09175 <a href="https://arxiv.org/pdf/2002.09175.pdf">Download</a></p></li>
+        
+        </div>
+    </div>
+    
+
+					
+				
+			
+			<div class="page-header">
+				<h3>
+					<span id="data_2" class="glyphicon glyphicon-folder-open"></span> Audio
+				</h3>
+			</div>
+				
+					
+						
+
+    
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            
+                
+                <input class="flo-left" type="checkbox" name="16">
+                
+            
+            <span id="data_16" class="glyphicon glyphicon-save-file"></span>
+            audio_lanzhou_2015
+            
+        </div>
+        <div class="panel-body">
+        
+            <li>23 Major Depressive Disorder subjects and 29 Healthy Control subjects</li><li>Age range = 18-52 years old</li><li>Includes: 1) demographic data, 2) psychological assessments</li><li>File size: 2.5G</li><li>Md5sum:5550552006ec4ae5a89ecb86b7a147ac </li><br><li>Latest publication based on this dataset:<p>Cai, H., Gao, Y., Sun, S., Li, N., Tian, F., Xiao, H., Li, J., Yang, Z., Li, X., Zhao, Q., Liu, Z., Yao, Z., Yang, M., Peng, H., Zhu, J., Zhang, X., Hu, X., &amp; Hu, B. (2020). MODMA dataset: a Multi-modal Open Dataset for Mental-disorder Analysis. arXiv preprint arXiv:2002.09283 <a href="https://arxiv.org/pdf/2002.09283.pdf">Download </a></p><p>Liu, Z., Wang D., Zhang L., & Hu, B. (2020) A Novel Decision Tree for Depression Recognition in Speech. arXiv preprint arXiv:2002.12759. <a href='https://arxiv.org/pdf/2002.12759'>Download</a></p></li>
+        
+        </div>
+    </div>
+    
+
+					
+				
+			
+			<a class="btn btn-primary btn-lg" id="hide" style="float: right">Next</a>
+		</div>
+		<div id="step2">
+			<p>Please download, print, sign and scan an EULA (End User License Agreement) and upload it. Then click the "Submit" button.</p>
+			<div style="margin-bottom:20px">
+				<a class="btn btn-default btn-lg" href="/static/MODMADatasetUserLicenseAgreement.docx">
+					<span class="glyphicon glyphicon-save"></span>
+					<strong>Download MODMA Dataset EULA (End User License Agreement) Template</strong>
+				</a>
+			</div>
+
+		<div class="panel panel-default">
+			<div class="panel-body">
+
+				<li class="list-unstyled">
+					<input type="file" id="picpath" onChange="document.formen.path.value=this.value" multiple="multiple" name="file" class="hidden"
+						   accept="application/vnd.openxmlformats-officedocument.wordprocessingml.document,application/msword,application/pdf">
+					<input name="path" style="height: 35px; width: 200px;margin-right: 15px;margin-left:5px;float:left;" disabled="disabled">
+					<input type="button" value="Select Upload File" onclick="document.formen.picpath.click()" class="btn btn-primary" style="float:left;margin-right:5px;">
+					<input type="submit" value="Submit" class="btn btn-primary " style="float:right">
+				</li>
+			</div>
+			</div>
+		</div>
+	</div>
+		<script type="text/javascript">
+		$("#tree").treeview();
+		</script>
+</form>
+
+
+	<div class="footer navbar-fixed-bottom">
+	<p>Copyright &copyright; 2019 All rights reserved <br>Gansu Provincial Key Laboratory of Wearable Computing,<br>Lanzhou University,
+		China. </p>
+	</div>
+
+
+	<script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+
+	
+<!-- js -->
+<script type="/static/text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<!-- //js -->
+
+<!--popup-js-->
+<script src="/static/js/jquery.magnific-popup.js" type="text/javascript"></script>
+ <script>
+	$(document).ready(function() {
+	$('.popup-with-zoom-anim').magnificPopup({
+		type: 'inline',
+		fixedContentPos: false,
+		fixedBgPos: true,
+		overflowY: 'auto',
+		closeBtnInside: true,
+		preloader: false,
+		midClick: true,
+		removalDelay: 300,
+		mainClass: 'my-mfp-zoom-in'
+	});
+																	
+	});
+</script>
+	</body>
+</html>

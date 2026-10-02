@@ -1,0 +1,115 @@
+{
+  "official_json": {
+    "passed": true,
+    "errors": [],
+    "subjects": 38,
+    "sizes": {
+      "fold_1": {
+        "train": 27,
+        "val": 3,
+        "test": 8
+      },
+      "fold_2": {
+        "train": 27,
+        "val": 3,
+        "test": 8
+      },
+      "fold_3": {
+        "train": 27,
+        "val": 3,
+        "test": 8
+      },
+      "fold_4": {
+        "train": 27,
+        "val": 4,
+        "test": 7
+      },
+      "fold_5": {
+        "train": 27,
+        "val": 4,
+        "test": 7
+      }
+    }
+  },
+  "active_cohort": {
+    "passed": true,
+    "errors": [],
+    "subjects": 37,
+    "sizes": {
+      "fold_1": {
+        "train": 27,
+        "val": 3,
+        "test": 7
+      },
+      "fold_2": {
+        "train": 26,
+        "val": 3,
+        "test": 8
+      },
+      "fold_3": {
+        "train": 26,
+        "val": 3,
+        "test": 8
+      },
+      "fold_4": {
+        "train": 27,
+        "val": 3,
+        "test": 7
+      },
+      "fold_5": {
+        "train": 27,
+        "val": 3,
+        "test": 7
+      }
+    }
+  },
+  "cohort_id": "MODMA-37-v1",
+  "folds_sha256": "a28ebe92c94428128313586d3a5524b2f03befcbc473215f4b0b2dcb49c3284d",
+  "website_table": {
+    "passed": false,
+    "errors": [
+      "fold_1/train-test: ['02020015']",
+      "fold_1: cohort differs from test union",
+      "fold_2/train-val: ['02020010']",
+      "fold_2: cohort differs from test union",
+      "fold_3/train: duplicate IDs",
+      "fold_3/train-val: ['02010008']",
+      "fold_3: cohort differs from test union",
+      "fold_4/train: duplicate IDs",
+      "fold_4/train-val: ['02010004']",
+      "fold_4/train-test: ['02010008', '02010025']",
+      "fold_4: cohort differs from test union",
+      "fold_5/train: duplicate IDs",
+      "fold_5/train-test: ['02010010', '02010018', '02030004', '02030006']",
+      "fold_5: cohort differs from test union"
+    ],
+    "subjects": 38,
+    "sizes": {
+      "fold_1": {
+        "train": 27,
+        "val": 3,
+        "test": 8
+      },
+      "fold_2": {
+        "train": 27,
+        "val": 3,
+        "test": 8
+      },
+      "fold_3": {
+        "train": 27,
+        "val": 3,
+        "test": 8
+      },
+      "fold_4": {
+        "train": 27,
+        "val": 4,
+        "test": 7
+      },
+      "fold_5": {
+        "train": 21,
+        "val": 4,
+        "test": 7
+      }
+    }
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MODMA-37 subject prediction shared by baseline and subsequent experiments",
+  "type": "object",
+  "required": [
+    "experiment",
+    "subject_id",
+    "seed",
+    "outer_fold",
+    "inner_fold",
+    "split",
+    "label",
+    "p_eeg",
+    "p_speech",
+    "p_text",
+    "p_final",
+    "prediction",
+    "fusion_weights",
+    "source_manifest_sha256",
+    "cohort_id",
+    "folds_sha256"
+  ],
+  "properties": {
+    "experiment": {
+      "enum": [
+        "B0-37",
+        "S01-37",
+        "S02-37",
+        "S03-37",
+        "S04-37",
+        "S05-37",
+        "S06-37",
+        "S07-37",
+        "S08-37",
+        "S09-37",
+        "S10-37",
+        "S11-37",
+        "S12-37",
+        "S06-T-37",
+        "S13a-37",
+        "S13b-37",
+        "S14-37",
+        "S15-37",
+        "B0-37-fulltext"
+      ]
+    },
+    "subject_id": {
+      "enum": [
+        "02010002",
+        "02010005",
+        "02010006",
+        "02010008",
+        "02010010",
+        "02010011",
+        "02010012",
+        "02010013",
+        "02010015",
+        "02010018",
+        "02010022",
+        "02010023",
+        "02010024",
+        "02010025",
+        "02010034",
+        "02010036",
+        "02020008",
+        "02020010",
+        "02020014",
+        "02020015",
+        "02020016",
+        "02020018",
+        "02020019",
+        "02020021",
+        "02020022",
+        "02020023",
+        "02020025",
+        "02020026",
+        "02020027",
+        "02030002",
+        "02030004",
+        "02030005",
+        "02030006",
+        "02030007",
+        "02030009",
+        "02030014",
+        "02030017"
+      ]
+    },
+    "seed": {
+      "enum": [
+        11,
+        22,
+        33,
+        44,
+        55,
+        42
+      ]
+    },
+    "outer_fold": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+    },
+    "inner_fold": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "split": {
+      "enum": [
+        "train",
+        "val",
+        "test"
+      ]
+    },
+    "label": {
+      "enum": [
+        0,
+        1
+      ]
+    },
+    "p_eeg": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "p_speech": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "p_text": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "p_final": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "prediction": {
+      "enum": [
+        0,
+        1
+      ]
+    },
+    "fusion_weights": {
+      "type": "array",
+      "items": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 1
+      },
+      "minItems": 3,
+      "maxItems": 3
+    },
+    "source_manifest_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "cohort_id": {
+      "const": "MODMA-37-v1"
+    },
+    "folds_sha256": {
+      "const": "a28ebe92c94428128313586d3a5524b2f03befcbc473215f4b0b2dcb49c3284d"
+    }
+  },
+  "additionalProperties": false
+}

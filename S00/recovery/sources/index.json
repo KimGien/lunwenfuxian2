@@ -1,0 +1,77 @@
+{
+  "kaggle_modma_search.json": {
+    "url": "https://www.kaggle.com/api/v1/datasets/list?search=modma&page=1",
+    "checked_utc": "2026-09-10T01:44:31.644903+00:00",
+    "status": 200,
+    "final_url": "https://www.kaggle.com/api/v1/datasets/list?search=modma&page=1",
+    "content_type": "application/json",
+    "path": "recovery\\sources\\kaggle_modma_search.json",
+    "bytes": 32437,
+    "sha256": "e7548b6df2fb0627de4e7e44ca4f9f6ca915d097e21770dbddbf87997c1a7b8e"
+  },
+  "hf_modma_search.json": {
+    "url": "https://huggingface.co/api/datasets?search=modma&limit=100",
+    "checked_utc": "2026-09-10T01:44:31.645848+00:00",
+    "status": 200,
+    "final_url": "https://huggingface.co/api/datasets?search=modma&limit=100",
+    "content_type": "application/json; charset=utf-8",
+    "path": "recovery\\sources\\hf_modma_search.json",
+    "bytes": 4602,
+    "sha256": "0db971b09d3f5515738f32b9355561e5c7799cf8df92ed4b671c38e346e7b2ac"
+  },
+  "modma_issues.json": {
+    "url": "https://api.github.com/repos/UAIS-LANZHOU/MODMA-Dataset/issues?state=all&per_page=100",
+    "checked_utc": "2026-09-10T01:44:31.646525+00:00",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/UAIS-LANZHOU/MODMA-Dataset/issues?state=all&per_page=100",
+    "content_type": "application/json; charset=utf-8",
+    "path": "recovery\\sources\\modma_issues.json",
+    "bytes": 4800,
+    "sha256": "dc2d2ed9ab27e382369c18776fc5c3f5e52f7851c579c0482bb74dc73379914a"
+  },
+  "tri_dep_issues.json": {
+    "url": "https://api.github.com/repos/annisaafitrinn/tri-dep1/issues?state=all&per_page=100",
+    "checked_utc": "2026-09-10T01:44:31.647065+00:00",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/annisaafitrinn/tri-dep1/issues?state=all&per_page=100",
+    "content_type": "application/json; charset=utf-8",
+    "path": "recovery\\sources\\tri_dep_issues.json",
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  "modma_readme.md": {
+    "url": "https://raw.githubusercontent.com/UAIS-LANZHOU/MODMA-Dataset/main/README.md",
+    "checked_utc": "2026-09-10T01:44:31.647555+00:00",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  "reshare.html": {
+    "url": "https://reshare.ukdataservice.ac.uk/854301/",
+    "checked_utc": "2026-09-10T01:44:32.092592+00:00",
+    "status": 200,
+    "final_url": "https://reshare.ukdataservice.ac.uk/854301/",
+    "content_type": "text/html; charset=utf-8",
+    "path": "recovery\\sources\\reshare.html",
+    "bytes": 97041,
+    "sha256": "d18167c259e69a020f0bd6119d332d52f7355acc02ec8bca2529d29efa1ea1cc"
+  },
+  "official_application.html": {
+    "url": "https://modma.lzu.edu.cn/data/application/",
+    "checked_utc": "2026-09-10T01:44:32.131996+00:00",
+    "status": 200,
+    "final_url": "https://modma.lzu.edu.cn/data/application/",
+    "content_type": "text/html; charset=utf-8",
+    "path": "recovery\\sources\\official_application.html",
+    "bytes": 16747,
+    "sha256": "1682685ed4996b921d15b630459e696061e4507294a9aca16b783b43eb542b96"
+  },
+  "known_defect_2021.xml": {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8296267/fullTextXML",
+    "checked_utc": "2026-09-10T01:44:32.140625+00:00",
+    "status": 200,
+    "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8296267/fullTextXML",
+    "content_type": "application/xml",
+    "path": "recovery\\sources\\known_defect_2021.xml",
+    "bytes": 93156,
+    "sha256": "5278d0823eb2a1dc01fbbdf074439430d48731067e5e9971165a65010dff97d3"
+  }
+}

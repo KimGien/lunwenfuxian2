@@ -1,0 +1,10 @@
+{
+  ".asr-venv\\Lib\\site-packages\\whisperx\\assets\\pytorch_model.bin": {
+    "sha256": "0b5b3216d60a2d32fc086b47ea8c67589aaeb26b7e07fcbe620d6d0b83e209ea",
+    "bytes": 17719103
+  },
+  "tools\\ffmpeg.exe": {
+    "sha256": "2ce797a0f88d7f067180338fb227f7b1928ea727bd9a4d7a1d022f7c52af71a3",
+    "bytes": 87638016
+  }
+}

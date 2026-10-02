@@ -1,0 +1,82 @@
+{
+  "kaggle_modma_page2.json": {
+    "url": "https://www.kaggle.com/api/v1/datasets/list?search=modma&page=2",
+    "checked_utc": "2026-09-10T01:45:34.489790+00:00",
+    "status": 200,
+    "final_url": "https://www.kaggle.com/api/v1/datasets/list?search=modma&page=2",
+    "content_type": "application/json",
+    "path": "recovery\\sources\\kaggle_modma_page2.json",
+    "bytes": 1590,
+    "sha256": "49223441b03669a664c7d658e72078e04918c6e0c6b5f80359262bd1b8d805e9"
+  },
+  "kaggle_manav_files.json": {
+    "url": "https://www.kaggle.com/api/v1/datasets/list/manavrajpurohit/modma-dataset?pageSize=1000",
+    "checked_utc": "2026-09-10T01:45:34.490583+00:00",
+    "status": 200,
+    "final_url": "https://www.kaggle.com/api/v1/datasets/list/manavrajpurohit/modma-dataset?pageSize=1000",
+    "content_type": "application/json",
+    "path": "recovery\\sources\\kaggle_manav_files.json",
+    "bytes": 89437,
+    "sha256": "c693188376bda187fd3f7ecf6e2efcb53f7826f4ded0763e95cc61bec59344cb"
+  },
+  "kaggle_kinnar_files.json": {
+    "url": "https://www.kaggle.com/api/v1/datasets/list/kinnarhalder/modmaa?pageSize=1000",
+    "checked_utc": "2026-09-10T01:45:34.491175+00:00",
+    "status": 200,
+    "final_url": "https://www.kaggle.com/api/v1/datasets/list/kinnarhalder/modmaa?pageSize=1000",
+    "content_type": "application/json",
+    "path": "recovery\\sources\\kaggle_kinnar_files.json",
+    "bytes": 26637,
+    "sha256": "eae69daf84e2e163e3eac792b849cbe77cc468557d446d181762673ab318a148"
+  },
+  "kaggle_pankaj_files.json": {
+    "url": "https://www.kaggle.com/api/v1/datasets/list/pankajmsah/modma-audio-group-6-dsai?pageSize=1000",
+    "checked_utc": "2026-09-10T01:45:34.491761+00:00",
+    "status": 200,
+    "final_url": "https://www.kaggle.com/api/v1/datasets/list/pankajmsah/modma-audio-group-6-dsai?pageSize=1000",
+    "content_type": "application/json",
+    "path": "recovery\\sources\\kaggle_pankaj_files.json",
+    "bytes": 82489,
+    "sha256": "ffe93b76170192d8102717041d5228d3d334f50f0bc7b02cdfeed0347ae1d972"
+  },
+  "kaggle_manav_view.json": {
+    "url": "https://www.kaggle.com/api/v1/datasets/view/manavrajpurohit/modma-dataset",
+    "checked_utc": "2026-09-10T01:45:34.492162+00:00",
+    "status": 200,
+    "final_url": "https://www.kaggle.com/api/v1/datasets/view/manavrajpurohit/modma-dataset",
+    "content_type": "application/json",
+    "path": "recovery\\sources\\kaggle_manav_view.json",
+    "bytes": 3477,
+    "sha256": "84fb98d5880de64830207d5121625b5f6c0bafb43a86d155294087fdf88ee3ca"
+  },
+  "kaggle_kinnar_view.json": {
+    "url": "https://www.kaggle.com/api/v1/datasets/view/kinnarhalder/modmaa",
+    "checked_utc": "2026-09-10T01:45:35.116865+00:00",
+    "status": 200,
+    "final_url": "https://www.kaggle.com/api/v1/datasets/view/kinnarhalder/modmaa",
+    "content_type": "application/json",
+    "path": "recovery\\sources\\kaggle_kinnar_view.json",
+    "bytes": 1790,
+    "sha256": "65c952a36a25690854a59f70bd00246f73792c1a75747af1a41d31675893e8ed"
+  },
+  "kaggle_pankaj_view.json": {
+    "url": "https://www.kaggle.com/api/v1/datasets/view/pankajmsah/modma-audio-group-6-dsai",
+    "checked_utc": "2026-09-10T01:45:35.161721+00:00",
+    "status": 200,
+    "final_url": "https://www.kaggle.com/api/v1/datasets/view/pankajmsah/modma-audio-group-6-dsai",
+    "content_type": "application/json",
+    "path": "recovery\\sources\\kaggle_pankaj_view.json",
+    "bytes": 1846,
+    "sha256": "73e112dff162448f489af9b5aa857aa71fae622656fbc2ac9cdc71aba328fba0"
+  },
+  "modma_readme_master.md": {
+    "url": "https://raw.githubusercontent.com/UAIS-LANZHOU/MODMA-Dataset/master/README.md",
+    "checked_utc": "2026-09-10T01:45:35.259369+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/UAIS-LANZHOU/MODMA-Dataset/master/README.md",
+    "content_type": "text/plain; charset=utf-8",
+    "path": "recovery\\sources\\modma_readme_master.md",
+    "bytes": 2399,
+    "sha256": "5596116bc04f1dde4c1cd40ac92e878eec16c177d24a20e282cdc8aa6380c7a4"
+  }
+}

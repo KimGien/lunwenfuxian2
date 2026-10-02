@@ -1,0 +1,112 @@
+# Text training configurations
+# Usage: python scripts/inference.py --config configs/training/text.yaml --all
+
+data:
+  base_dir: data/split_dataset_june
+  fold_file: data/split_dataset_june/fold_assignments.json
+
+configs:
+
+  # ── MPNet Multilingual ──────────────────────────────────────────────────
+
+  - name: mpnet_cnn
+    embedding_file: text_embedding.npy
+    model_class: ConvPoolClassifier
+    model_kwargs: {input_dim: 768}
+    epochs: 90
+    lr: 0.001
+    optimizer: Adamax
+    weight_decay: 0
+    batch_size: 64
+    output_csv: text_mpnet_cnn.csv
+    feature_group: MPNet
+
+  - name: mpnet_lstm
+    embedding_file: text_embedding.npy
+    model_class: LSTM1Classifier
+    model_kwargs: {input_dim: 768, hidden_dim: 256}
+    epochs: 50
+    lr: 0.001
+    optimizer: Adamax
+    weight_decay: 0
+    batch_size: 64
+    output_csv: text_mpnet_lstm.csv
+    feature_group: MPNet
+
+  # ── Chinese BERT Base ───────────────────────────────────────────────────
+
+  - name: bert_cnn
+    embedding_file: text_embedding_bert.npy
+    model_class: ConvPoolClassifier
+    model_kwargs: {input_dim: 768}
+    epochs: 70
+    lr: 0.001
+    optimizer: Adamax
+    weight_decay: 0
+    batch_size: 64
+    output_csv: text_bert_cnn.csv
+    feature_group: BERT
+
+  - name: bert_lstm
+    embedding_file: text_embedding_bert.npy
+    model_class: LSTM1Classifier
+    model_kwargs: {input_dim: 768, hidden_dim: 1024}
+    epochs: 50
+    lr: 0.001
+    optimizer: Adamax
+    weight_decay: 0
+    batch_size: 64
+    output_csv: text_bert_lstm.csv
+    feature_group: BERT
+
+  # ── Chinese MacBERT ──────────────────────────────────────────────────────
+
+  - name: macbert_cnn
+    embedding_file: text_embedding_macbert.npy
+    model_class: ConvPoolClassifier
+    model_kwargs: {input_dim: 768}
+    epochs: 50
+    lr: 0.0001
+    optimizer: Adamax
+    weight_decay: 0
+    batch_size: 64
+    output_csv: text_macbert_cnn.csv
+    feature_group: MacBERT
+
+  - name: macbert_lstm
+    embedding_file: text_embedding_macbert.npy
+    model_class: LSTM1Classifier
+    model_kwargs: {input_dim: 768, hidden_dim: 1024}
+    epochs: 50
+    lr: 0.0001
+    optimizer: Adamax
+    weight_decay: 0
+    batch_size: 64
+    output_csv: text_macbert_lstm.csv
+    feature_group: MacBERT
+
+  # ── Chinese XLNet ────────────────────────────────────────────────────────
+
+  - name: xlnet_cnn
+    embedding_file: text_embedding_xlnet.npy
+    model_class: ConvPoolClassifier
+    model_kwargs: {input_dim: 768}
+    epochs: 120
+    lr: 0.001
+    optimizer: Adamax
+    weight_decay: 0
+    batch_size: 32
+    output_csv: text_xlnet_cnn.csv
+    feature_group: XLNet
+
+  - name: xlnet_lstm
+    embedding_file: text_embedding_xlnet.npy
+    model_class: LSTM1Classifier
+    model_kwargs: {input_dim: 768, hidden_dim: 1024}
+    epochs: 90
+    lr: 0.0001
+    optimizer: Adamax
+    weight_decay: 0
+    batch_size: 64
+    output_csv: text_xlnet_lstm.csv
+    feature_group: XLNet

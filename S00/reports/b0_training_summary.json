@@ -1,0 +1,831 @@
+{
+  "timestamp_utc": "2026-09-11T06:56:26.540964+00:00",
+  "experiment": "B0-37",
+  "cohort_id": "MODMA-37-v1",
+  "passed": true,
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "folds_per_seed": 5,
+  "branch_training_runs": 45,
+  "unique_test_subjects_per_seed": 37,
+  "aggregate": {
+    "eeg": {
+      "macro_f1": {
+        "mean_of_seed_fold_means": 0.4494011544011543,
+        "std_of_seed_fold_means_ddof0": 0.026253941049958596,
+        "std_of_15_fold_scores_ddof0": 0.17373667950128083
+      },
+      "mdd_recall": {
+        "mean_of_seed_fold_means": 0.41111111111111104,
+        "std_of_seed_fold_means_ddof0": 0.03142696805273544,
+        "std_of_15_fold_scores_ddof0": 0.2973130702279923
+      },
+      "balanced_accuracy": {
+        "mean_of_seed_fold_means": 0.4755555555555555,
+        "std_of_seed_fold_means_ddof0": 0.034995590551163594,
+        "std_of_15_fold_scores_ddof0": 0.18128825692461562
+      }
+    },
+    "speech": {
+      "macro_f1": {
+        "mean_of_seed_fold_means": 0.6300493950493951,
+        "std_of_seed_fold_means_ddof0": 0.030297231883134174,
+        "std_of_15_fold_scores_ddof0": 0.17761876369682844
+      },
+      "mdd_recall": {
+        "mean_of_seed_fold_means": 0.5666666666666667,
+        "std_of_seed_fold_means_ddof0": 0.07576767609436587,
+        "std_of_15_fold_scores_ddof0": 0.2953340857778225
+      },
+      "balanced_accuracy": {
+        "mean_of_seed_fold_means": 0.6449999999999999,
+        "std_of_seed_fold_means_ddof0": 0.03352721393247687,
+        "std_of_15_fold_scores_ddof0": 0.16258331197676265
+      }
+    },
+    "text": {
+      "macro_f1": {
+        "mean_of_seed_fold_means": 0.6568253968253969,
+        "std_of_seed_fold_means_ddof0": 0.020998426236886646,
+        "std_of_15_fold_scores_ddof0": 0.15740846560490865
+      },
+      "mdd_recall": {
+        "mean_of_seed_fold_means": 0.5944444444444444,
+        "std_of_seed_fold_means_ddof0": 0.03142696805273541,
+        "std_of_15_fold_scores_ddof0": 0.20153730163574504
+      },
+      "balanced_accuracy": {
+        "mean_of_seed_fold_means": 0.6638888888888889,
+        "std_of_seed_fold_means_ddof0": 0.01857583721922274,
+        "std_of_15_fold_scores_ddof0": 0.15544639026659185
+      }
+    },
+    "final": {
+      "macro_f1": {
+        "mean_of_seed_fold_means": 0.6644444444444444,
+        "std_of_seed_fold_means_ddof0": 0.02282000215885786,
+        "std_of_15_fold_scores_ddof0": 0.15815960951244393
+      },
+      "mdd_recall": {
+        "mean_of_seed_fold_means": 0.5944444444444444,
+        "std_of_seed_fold_means_ddof0": 0.03142696805273541,
+        "std_of_15_fold_scores_ddof0": 0.20153730163574504
+      },
+      "balanced_accuracy": {
+        "mean_of_seed_fold_means": 0.6705555555555556,
+        "std_of_seed_fold_means_ddof0": 0.019547346761954618,
+        "std_of_15_fold_scores_ddof0": 0.15613582248071195
+      }
+    }
+  },
+  "per_seed": {
+    "11": {
+      "fold_metrics": {
+        "fold_1": {
+          "eeg": {
+            "macro_f1": 0.2857142857142857,
+            "mdd_recall": 0.3333333333333333,
+            "balanced_accuracy": 0.29166666666666663,
+            "n_subjects": 7
+          },
+          "speech": {
+            "macro_f1": 0.7083333333333333,
+            "mdd_recall": 0.6666666666666666,
+            "balanced_accuracy": 0.7083333333333333,
+            "n_subjects": 7
+          },
+          "text": {
+            "macro_f1": 0.65,
+            "mdd_recall": 0.3333333333333333,
+            "balanced_accuracy": 0.6666666666666666,
+            "n_subjects": 7
+          },
+          "final": {
+            "macro_f1": 0.65,
+            "mdd_recall": 0.3333333333333333,
+            "balanced_accuracy": 0.6666666666666666,
+            "n_subjects": 7
+          }
+        },
+        "fold_2": {
+          "eeg": {
+            "macro_f1": 0.6190476190476191,
+            "mdd_recall": 0.5,
+            "balanced_accuracy": 0.625,
+            "n_subjects": 8
+          },
+          "speech": {
+            "macro_f1": 0.5636363636363637,
+            "mdd_recall": 1.0,
+            "balanced_accuracy": 0.625,
+            "n_subjects": 8
+          },
+          "text": {
+            "macro_f1": 0.873015873015873,
+            "mdd_recall": 0.75,
+            "balanced_accuracy": 0.875,
+            "n_subjects": 8
+          },
+          "final": {
+            "macro_f1": 0.873015873015873,
+            "mdd_recall": 0.75,
+            "balanced_accuracy": 0.875,
+            "n_subjects": 8
+          }
+        },
+        "fold_3": {
+          "eeg": {
+            "macro_f1": 0.75,
+            "mdd_recall": 1.0,
+            "balanced_accuracy": 0.8,
+            "n_subjects": 8
+          },
+          "speech": {
+            "macro_f1": 0.6666666666666667,
+            "mdd_recall": 0.3333333333333333,
+            "balanced_accuracy": 0.6666666666666666,
+            "n_subjects": 8
+          },
+          "text": {
+            "macro_f1": 0.6190476190476191,
+            "mdd_recall": 0.6666666666666666,
+            "balanced_accuracy": 0.6333333333333333,
+            "n_subjects": 8
+          },
+          "final": {
+            "macro_f1": 0.7333333333333334,
+            "mdd_recall": 0.6666666666666666,
+            "balanced_accuracy": 0.7333333333333334,
+            "n_subjects": 8
+          }
+        },
+        "fold_4": {
+          "eeg": {
+            "macro_f1": 0.2857142857142857,
+            "mdd_recall": 0.3333333333333333,
+            "balanced_accuracy": 0.29166666666666663,
+            "n_subjects": 7
+          },
+          "speech": {
+            "macro_f1": 0.8444444444444444,
+            "mdd_recall": 0.6666666666666666,
+            "balanced_accuracy": 0.8333333333333333,
+            "n_subjects": 7
+          },
+          "text": {
+            "macro_f1": 0.8444444444444444,
+            "mdd_recall": 0.6666666666666666,
+            "balanced_accuracy": 0.8333333333333333,
+            "n_subjects": 7
+          },
+          "final": {
+            "macro_f1": 0.8444444444444444,
+            "mdd_recall": 0.6666666666666666,
+            "balanced_accuracy": 0.8333333333333333,
+            "n_subjects": 7
+          }
+        },
+        "fold_5": {
+          "eeg": {
+            "macro_f1": 0.125,
+            "mdd_recall": 0.0,
+            "balanced_accuracy": 0.125,
+            "n_subjects": 7
+          },
+          "speech": {
+            "macro_f1": 0.5714285714285714,
+            "mdd_recall": 0.6666666666666666,
+            "balanced_accuracy": 0.5833333333333333,
+            "n_subjects": 7
+          },
+          "text": {
+            "macro_f1": 0.2857142857142857,
+            "mdd_recall": 0.3333333333333333,
+            "balanced_accuracy": 0.29166666666666663,
+            "n_subjects": 7
+          },
+          "final": {
+            "macro_f1": 0.2857142857142857,
+            "mdd_recall": 0.3333333333333333,
+            "balanced_accuracy": 0.29166666666666663,
+            "n_subjects": 7
+          }
+        }
+      },
+      "fold_mean": {
+        "eeg": {
+          "macro_f1": 0.41309523809523807,
+          "mdd_recall": 0.4333333333333333,
+          "balanced_accuracy": 0.42666666666666664
+        },
+        "speech": {
+          "macro_f1": 0.6709018759018759,
+          "mdd_recall": 0.6666666666666666,
+          "balanced_accuracy": 0.6833333333333332
+        },
+        "text": {
+          "macro_f1": 0.6544444444444444,
+          "mdd_recall": 0.55,
+          "balanced_accuracy": 0.6599999999999999
+        },
+        "final": {
+          "macro_f1": 0.6773015873015873,
+          "mdd_recall": 0.55,
+          "balanced_accuracy": 0.6799999999999999
+        }
+      },
+      "pooled_oof": {
+        "eeg": {
+          "macro_f1": 0.4307692307692308,
+          "mdd_recall": 0.4375,
+          "balanced_accuracy": 0.4330357142857143,
+          "n_subjects": 37
+        },
+        "speech": {
+          "macro_f1": 0.6991869918699187,
+          "mdd_recall": 0.6875,
+          "balanced_accuracy": 0.7008928571428572,
+          "n_subjects": 37
+        },
+        "text": {
+          "macro_f1": 0.6636363636363636,
+          "mdd_recall": 0.5625,
+          "balanced_accuracy": 0.6622023809523809,
+          "n_subjects": 37
+        },
+        "final": {
+          "macro_f1": 0.6881226053639846,
+          "mdd_recall": 0.5625,
+          "balanced_accuracy": 0.6860119047619048,
+          "n_subjects": 37
+        }
+      },
+      "training_seconds": 13.98468579999917
+    },
+    "22": {
+      "fold_metrics": {
+        "fold_1": {
+          "eeg": {
+            "macro_f1": 0.41666666666666663,
+            "mdd_recall": 0.3333333333333333,
+            "balanced_accuracy": 0.41666666666666663,
+            "n_subjects": 7
+          },
+          "speech": {
+            "macro_f1": 0.7083333333333333,
+            "mdd_recall": 0.6666666666666666,
+            "balanced_accuracy": 0.7083333333333333,
+            "n_subjects": 7
+          },
+          "text": {
+            "macro_f1": 0.65,
+            "mdd_recall": 0.3333333333333333,
+            "balanced_accuracy": 0.6666666666666666,
+            "n_subjects": 7
+          },
+          "final": {
+            "macro_f1": 0.65,
+            "mdd_recall": 0.3333333333333333,
+            "balanced_accuracy": 0.6666666666666666,
+            "n_subjects": 7
+          }
+        },
+        "fold_2": {
+          "eeg": {
+            "macro_f1": 0.6190476190476191,
+            "mdd_recall": 0.5,
+            "balanced_accuracy": 0.625,
+            "n_subjects": 8
+          },
+          "speech": {
+            "macro_f1": 0.75,
+            "mdd_recall": 0.75,
+            "balanced_accuracy": 0.75,
+            "n_subjects": 8
+          },
+          "text": {
+            "macro_f1": 0.6190476190476191,
+            "mdd_recall": 0.75,
+            "balanced_accuracy": 0.625,
+            "n_subjects": 8
+          },
+          "final": {
+            "macro_f1": 0.6190476190476191,
+            "mdd_recall": 0.75,
+            "balanced_accuracy": 0.625,
+            "n_subjects": 8
+          }
+        },
+        "fold_3": {
+          "eeg": {
+            "macro_f1": 0.6190476190476191,
+            "mdd_recall": 1.0,
+            "balanced_accuracy": 0.7,
+            "n_subjects": 8
+          },
+          "speech": {
+            "macro_f1": 0.2727272727272727,
+            "mdd_recall": 0.0,
+            "balanced_accuracy": 0.3,
+            "n_subjects": 8
+          },
+          "text": {
+            "macro_f1": 0.6190476190476191,
+            "mdd_recall": 0.6666666666666666,
+            "balanced_accuracy": 0.6333333333333333,
+            "n_subjects": 8
+          },
+          "final": {
+            "macro_f1": 0.6190476190476191,
+            "mdd_recall": 0.6666666666666666,
+            "balanced_accuracy": 0.6333333333333333,
+            "n_subjects": 8
+          }
+        },
+        "fold_4": {
+          "eeg": {
+            "macro_f1": 0.2857142857142857,
+            "mdd_recall": 0.3333333333333333,
+            "balanced_accuracy": 0.29166666666666663,
+            "n_subjects": 7
+          },
+          "speech": {
+            "macro_f1": 0.8444444444444444,
+            "mdd_recall": 0.6666666666666666,
+            "balanced_accuracy": 0.8333333333333333,
+            "n_subjects": 7
+          },
+          "text": {
+            "macro_f1": 0.8571428571428571,
+            "mdd_recall": 1.0,
+            "balanced_accuracy": 0.875,
+            "n_subjects": 7
+          },
+          "final": {
+            "macro_f1": 0.8571428571428571,
+            "mdd_recall": 1.0,
+            "balanced_accuracy": 0.875,
+            "n_subjects": 7
+          }
+        },
+        "fold_5": {
+          "eeg": {
+            "macro_f1": 0.36363636363636365,
+            "mdd_recall": 0.0,
+            "balanced_accuracy": 0.5,
+            "n_subjects": 7
+          },
+          "speech": {
+            "macro_f1": 0.41666666666666663,
+            "mdd_recall": 0.3333333333333333,
+            "balanced_accuracy": 0.41666666666666663,
+            "n_subjects": 7
+          },
+          "text": {
+            "macro_f1": 0.41666666666666663,
+            "mdd_recall": 0.3333333333333333,
+            "balanced_accuracy": 0.41666666666666663,
+            "n_subjects": 7
+          },
+          "final": {
+            "macro_f1": 0.41666666666666663,
+            "mdd_recall": 0.3333333333333333,
+            "balanced_accuracy": 0.41666666666666663,
+            "n_subjects": 7
+          }
+        }
+      },
+      "fold_mean": {
+        "eeg": {
+          "macro_f1": 0.4608225108225108,
+          "mdd_recall": 0.4333333333333333,
+          "balanced_accuracy": 0.5066666666666666
+        },
+        "speech": {
+          "macro_f1": 0.5984343434343434,
+          "mdd_recall": 0.4833333333333333,
+          "balanced_accuracy": 0.6016666666666667
+        },
+        "text": {
+          "macro_f1": 0.6323809523809524,
+          "mdd_recall": 0.6166666666666667,
+          "balanced_accuracy": 0.6433333333333333
+        },
+        "final": {
+          "macro_f1": 0.6323809523809524,
+          "mdd_recall": 0.6166666666666667,
+          "balanced_accuracy": 0.6433333333333333
+        }
+      },
+      "pooled_oof": {
+        "eeg": {
+          "macro_f1": 0.5044642857142857,
+          "mdd_recall": 0.4375,
+          "balanced_accuracy": 0.5044642857142857,
+          "n_subjects": 37
+        },
+        "speech": {
+          "macro_f1": 0.6075757575757575,
+          "mdd_recall": 0.5,
+          "balanced_accuracy": 0.6071428571428572,
+          "n_subjects": 37
+        },
+        "text": {
+          "macro_f1": 0.6444937176644494,
+          "mdd_recall": 0.625,
+          "balanced_accuracy": 0.6458333333333333,
+          "n_subjects": 37
+        },
+        "final": {
+          "macro_f1": 0.6444937176644494,
+          "mdd_recall": 0.625,
+          "balanced_accuracy": 0.6458333333333333,
+          "n_subjects": 37
+        }
+      },
+      "training_seconds": 13.05373409999902
+    },
+    "33": {
+      "fold_metrics": {
+        "fold_1": {
+          "eeg": {
+            "macro_f1": 0.41666666666666663,
+            "mdd_recall": 0.3333333333333333,
+            "balanced_accuracy": 0.41666666666666663,
+            "n_subjects": 7
+          },
+          "speech": {
+            "macro_f1": 0.7083333333333333,
+            "mdd_recall": 1.0,
+            "balanced_accuracy": 0.75,
+            "n_subjects": 7
+          },
+          "text": {
+            "macro_f1": 0.65,
+            "mdd_recall": 0.3333333333333333,
+            "balanced_accuracy": 0.6666666666666666,
+            "n_subjects": 7
+          },
+          "final": {
+            "macro_f1": 0.65,
+            "mdd_recall": 0.3333333333333333,
+            "balanced_accuracy": 0.6666666666666666,
+            "n_subjects": 7
+          }
+        },
+        "fold_2": {
+          "eeg": {
+            "macro_f1": 0.6190476190476191,
+            "mdd_recall": 0.5,
+            "balanced_accuracy": 0.625,
+            "n_subjects": 8
+          },
+          "speech": {
+            "macro_f1": 0.75,
+            "mdd_recall": 0.75,
+            "balanced_accuracy": 0.75,
+            "n_subjects": 8
+          },
+          "text": {
+            "macro_f1": 0.6190476190476191,
+            "mdd_recall": 0.75,
+            "balanced_accuracy": 0.625,
+            "n_subjects": 8
+          },
+          "final": {
+            "macro_f1": 0.6190476190476191,
+            "mdd_recall": 0.75,
+            "balanced_accuracy": 0.625,
+            "n_subjects": 8
+          }
+        },
+        "fold_3": {
+          "eeg": {
+            "macro_f1": 0.6190476190476191,
+            "mdd_recall": 0.6666666666666666,
+            "balanced_accuracy": 0.6333333333333333,
+            "n_subjects": 8
+          },
+          "speech": {
+            "macro_f1": 0.38461538461538464,
+            "mdd_recall": 0.0,
+            "balanced_accuracy": 0.5,
+            "n_subjects": 8
+          },
+          "text": {
+            "macro_f1": 0.7333333333333334,
+            "mdd_recall": 0.6666666666666666,
+            "balanced_accuracy": 0.7333333333333334,
+            "n_subjects": 8
+          },
+          "final": {
+            "macro_f1": 0.7333333333333334,
+            "mdd_recall": 0.6666666666666666,
+            "balanced_accuracy": 0.7333333333333334,
+            "n_subjects": 8
+          }
+        },
+        "fold_4": {
+          "eeg": {
+            "macro_f1": 0.41666666666666663,
+            "mdd_recall": 0.3333333333333333,
+            "balanced_accuracy": 0.41666666666666663,
+            "n_subjects": 7
+          },
+          "speech": {
+            "macro_f1": 0.8444444444444444,
+            "mdd_recall": 0.6666666666666666,
+            "balanced_accuracy": 0.8333333333333333,
+            "n_subjects": 7
+          },
+          "text": {
+            "macro_f1": 0.8444444444444444,
+            "mdd_recall": 0.6666666666666666,
+            "balanced_accuracy": 0.8333333333333333,
+            "n_subjects": 7
+          },
+          "final": {
+            "macro_f1": 0.8444444444444444,
+            "mdd_recall": 0.6666666666666666,
+            "balanced_accuracy": 0.8333333333333333,
+            "n_subjects": 7
+          }
+        },
+        "fold_5": {
+          "eeg": {
+            "macro_f1": 0.3,
+            "mdd_recall": 0.0,
+            "balanced_accuracy": 0.375,
+            "n_subjects": 7
+          },
+          "speech": {
+            "macro_f1": 0.41666666666666663,
+            "mdd_recall": 0.3333333333333333,
+            "balanced_accuracy": 0.41666666666666663,
+            "n_subjects": 7
+          },
+          "text": {
+            "macro_f1": 0.5714285714285714,
+            "mdd_recall": 0.6666666666666666,
+            "balanced_accuracy": 0.5833333333333333,
+            "n_subjects": 7
+          },
+          "final": {
+            "macro_f1": 0.5714285714285714,
+            "mdd_recall": 0.6666666666666666,
+            "balanced_accuracy": 0.5833333333333333,
+            "n_subjects": 7
+          }
+        }
+      },
+      "fold_mean": {
+        "eeg": {
+          "macro_f1": 0.4742857142857142,
+          "mdd_recall": 0.36666666666666664,
+          "balanced_accuracy": 0.4933333333333333
+        },
+        "speech": {
+          "macro_f1": 0.6208119658119657,
+          "mdd_recall": 0.55,
+          "balanced_accuracy": 0.6499999999999999
+        },
+        "text": {
+          "macro_f1": 0.6836507936507937,
+          "mdd_recall": 0.6166666666666666,
+          "balanced_accuracy": 0.6883333333333332
+        },
+        "final": {
+          "macro_f1": 0.6836507936507937,
+          "mdd_recall": 0.6166666666666666,
+          "balanced_accuracy": 0.6883333333333332
+        }
+      },
+      "pooled_oof": {
+        "eeg": {
+          "macro_f1": 0.4954545454545455,
+          "mdd_recall": 0.375,
+          "balanced_accuracy": 0.49702380952380953,
+          "n_subjects": 37
+        },
+        "speech": {
+          "macro_f1": 0.6636363636363636,
+          "mdd_recall": 0.5625,
+          "balanced_accuracy": 0.6622023809523809,
+          "n_subjects": 37
+        },
+        "text": {
+          "macro_f1": 0.6946736684171042,
+          "mdd_recall": 0.625,
+          "balanced_accuracy": 0.6934523809523809,
+          "n_subjects": 37
+        },
+        "final": {
+          "macro_f1": 0.6946736684171042,
+          "mdd_recall": 0.625,
+          "balanced_accuracy": 0.6934523809523809,
+          "n_subjects": 37
+        }
+      },
+      "training_seconds": 11.855324200001633
+    }
+  },
+  "checkpoint_files": [
+    {
+      "path": "runs\\B0-37\\seed_11\\fold_1_eeg.pt",
+      "sha256": "9b44aa802bcc06fa1a7508c23bfe3d8007d8ca095928284dbc3899d9c74426aa"
+    },
+    {
+      "path": "runs\\B0-37\\seed_11\\fold_1_speech.pt",
+      "sha256": "2c2e4764d5f5dcb2d12427874cfbd1c6e001c05157a34193a3eaf37fdc34ea49"
+    },
+    {
+      "path": "runs\\B0-37\\seed_11\\fold_1_text.pt",
+      "sha256": "fbb3052dfeed676505e2fc242f9c10faa38257afb07b3e355112318691d44933"
+    },
+    {
+      "path": "runs\\B0-37\\seed_11\\fold_2_eeg.pt",
+      "sha256": "347443dcff12b879f72f665aa75d479863ad4cbf75f7f5d911c988127d22a3b0"
+    },
+    {
+      "path": "runs\\B0-37\\seed_11\\fold_2_speech.pt",
+      "sha256": "44a009d7ae63935ad43f619aac48938587dd348c4e785cd119beb748233147d8"
+    },
+    {
+      "path": "runs\\B0-37\\seed_11\\fold_2_text.pt",
+      "sha256": "08546911fea7772848bd3bc3cf77301e8f382ce5345a71c20913ce603a557ca7"
+    },
+    {
+      "path": "runs\\B0-37\\seed_11\\fold_3_eeg.pt",
+      "sha256": "97b3f89afe4bde6df1f4e4b42751bc07e0e16e05f7e7620194f705a144c69142"
+    },
+    {
+      "path": "runs\\B0-37\\seed_11\\fold_3_speech.pt",
+      "sha256": "41bffd4fbc97ebc299b956bf2029626b328ed70dfb713cf5d03734eb76894274"
+    },
+    {
+      "path": "runs\\B0-37\\seed_11\\fold_3_text.pt",
+      "sha256": "1362251178c49f48e78fb1dbfeaf045ea50ef372b376ab01ac5e92e9cb9d153e"
+    },
+    {
+      "path": "runs\\B0-37\\seed_11\\fold_4_eeg.pt",
+      "sha256": "ba8be8d758c7d79ce26b8fcd474d0db9e5301be57c2753e8095f53661cd914a6"
+    },
+    {
+      "path": "runs\\B0-37\\seed_11\\fold_4_speech.pt",
+      "sha256": "8ff39f69c18a3c5f790344b94be17b8bfc33e161904c4f6008aa7addda3ac108"
+    },
+    {
+      "path": "runs\\B0-37\\seed_11\\fold_4_text.pt",
+      "sha256": "c2b833181fccda904a4c48eba75c54a690c2b2b9fc1ff984afac1e9581b87327"
+    },
+    {
+      "path": "runs\\B0-37\\seed_11\\fold_5_eeg.pt",
+      "sha256": "0d33a267f9b7d49d027702846709cfd4af7a074057ad9de61bf7be4c7d6eba75"
+    },
+    {
+      "path": "runs\\B0-37\\seed_11\\fold_5_speech.pt",
+      "sha256": "1c4d78c38bbe60d936fee0e9f0c5d72639b3f5fedee4921724e5bb1822d0b88f"
+    },
+    {
+      "path": "runs\\B0-37\\seed_11\\fold_5_text.pt",
+      "sha256": "2df938fa5e18baa50a79c1bd7db36fdb5b565da4935e9c637b9d29b06b5f6a8e"
+    },
+    {
+      "path": "runs\\B0-37\\seed_22\\fold_1_eeg.pt",
+      "sha256": "9029acc8a30094f6ebe5fb0535725b869c4f474c01bbb2761d3dbc097258281d"
+    },
+    {
+      "path": "runs\\B0-37\\seed_22\\fold_1_speech.pt",
+      "sha256": "929418ba986492a10347c0d076229be65109778e7e5dbd48fc6bfb1009cb8c5a"
+    },
+    {
+      "path": "runs\\B0-37\\seed_22\\fold_1_text.pt",
+      "sha256": "fe4071e578b2957b95b9ba6f8b669a6ecc2d5e8495b215a4f3d2d0be52b10584"
+    },
+    {
+      "path": "runs\\B0-37\\seed_22\\fold_2_eeg.pt",
+      "sha256": "465ddfef120283ebf73e6faf1dcb8d25746d5a1d91dd6820b3f33f9eeda8bba2"
+    },
+    {
+      "path": "runs\\B0-37\\seed_22\\fold_2_speech.pt",
+      "sha256": "2c6fdd1faa6e86df65632283dc48a0091fd5e2c8f2c0d00f9252be442fd9c85b"
+    },
+    {
+      "path": "runs\\B0-37\\seed_22\\fold_2_text.pt",
+      "sha256": "b534a6cec3d19db723fe747c121bdf0404b34cf96e23e4c89f743c5d9f3eb1a0"
+    },
+    {
+      "path": "runs\\B0-37\\seed_22\\fold_3_eeg.pt",
+      "sha256": "0f6c61198b6403d3a6c579ee9df1419e5a85e3c7b5381c1ff70e8d3838978c65"
+    },
+    {
+      "path": "runs\\B0-37\\seed_22\\fold_3_speech.pt",
+      "sha256": "d3ee018ddcc2b889c78ffca7f25a08cac13067454f76358eabce451be4e1a33d"
+    },
+    {
+      "path": "runs\\B0-37\\seed_22\\fold_3_text.pt",
+      "sha256": "2736d928b83ced26b63c799519704981f6962ea9504862113a5843d1093c7f8c"
+    },
+    {
+      "path": "runs\\B0-37\\seed_22\\fold_4_eeg.pt",
+      "sha256": "ffa0bdcae428c14f9df9aeb2c5cde4c7a877a318f67beafbf6816d61252cc64d"
+    },
+    {
+      "path": "runs\\B0-37\\seed_22\\fold_4_speech.pt",
+      "sha256": "5793082dfa8f0e445f8bef8c110d2ae6083997a2ab5ae89212b88558bb2295e3"
+    },
+    {
+      "path": "runs\\B0-37\\seed_22\\fold_4_text.pt",
+      "sha256": "9e96fd491034978d1b7cb8245500b9d3ca5d9f2fcb0eab80661b9885850d9f53"
+    },
+    {
+      "path": "runs\\B0-37\\seed_22\\fold_5_eeg.pt",
+      "sha256": "712f7b0026186be2e6f5e7356475a46dfd912d911326c8f7a1f6e03cab293e5a"
+    },
+    {
+      "path": "runs\\B0-37\\seed_22\\fold_5_speech.pt",
+      "sha256": "b5d46d5c804c650872a049cb71ba765166b9a3d967202f2565148974bb0436c0"
+    },
+    {
+      "path": "runs\\B0-37\\seed_22\\fold_5_text.pt",
+      "sha256": "f99b8e3327ce29e39e649d669764bedea2ce3651f030002492c0080b945ea89c"
+    },
+    {
+      "path": "runs\\B0-37\\seed_33\\fold_1_eeg.pt",
+      "sha256": "c099349aaecca2bf0dbad20eaa818875833b8ea194e686a03c52a56ef4c58042"
+    },
+    {
+      "path": "runs\\B0-37\\seed_33\\fold_1_speech.pt",
+      "sha256": "41d3a12488898d47a5533016d1de9d7ed48121c088f6767a31370b2cf8988b51"
+    },
+    {
+      "path": "runs\\B0-37\\seed_33\\fold_1_text.pt",
+      "sha256": "24aef222de1468dc4920e532dd313a52794cf9a9d694949b9ca847db99460c3a"
+    },
+    {
+      "path": "runs\\B0-37\\seed_33\\fold_2_eeg.pt",
+      "sha256": "f1a30e220f2b83fdbf2e8c9f940adb1da06cb839d314ff876737f2db256fcc8a"
+    },
+    {
+      "path": "runs\\B0-37\\seed_33\\fold_2_speech.pt",
+      "sha256": "760029bf2ee20d17ff23319f7e11e585680a32c7c4427d0c227452781b015875"
+    },
+    {
+      "path": "runs\\B0-37\\seed_33\\fold_2_text.pt",
+      "sha256": "b11144db3a7dafdaa667f3eea47864c9da019708787c62ed43867e6d6b0e6c39"
+    },
+    {
+      "path": "runs\\B0-37\\seed_33\\fold_3_eeg.pt",
+      "sha256": "29f2c74d863d8f43fc9181c756e284612c2e9cde466b6c19c1bcd170746118e4"
+    },
+    {
+      "path": "runs\\B0-37\\seed_33\\fold_3_speech.pt",
+      "sha256": "d347a618ff5f53daa98ed37998a81a206a7e902e5288e38c848bd20f3f51ac40"
+    },
+    {
+      "path": "runs\\B0-37\\seed_33\\fold_3_text.pt",
+      "sha256": "168f47fe720718042f4e11e67c663e880a11e307a0509767506cc0e3438f43f3"
+    },
+    {
+      "path": "runs\\B0-37\\seed_33\\fold_4_eeg.pt",
+      "sha256": "1580a66f1372af8782ede77222cbac740784a17d17f18dd272e74510ee5445d6"
+    },
+    {
+      "path": "runs\\B0-37\\seed_33\\fold_4_speech.pt",
+      "sha256": "3966e61cccae174f40532117d8c15712b4beb2aaad00962ae3d4f5b03938ecb9"
+    },
+    {
+      "path": "runs\\B0-37\\seed_33\\fold_4_text.pt",
+      "sha256": "53a9151a2d036428d9395ecc14f280101fc40df3635f29b5c8319968dba79960"
+    },
+    {
+      "path": "runs\\B0-37\\seed_33\\fold_5_eeg.pt",
+      "sha256": "a8e1e0f26dbd82fdfe58bcf91f287ec6f8efff0a170289924d98bb1a464a28a2"
+    },
+    {
+      "path": "runs\\B0-37\\seed_33\\fold_5_speech.pt",
+      "sha256": "20a2dcb1839bfd30b262162cb66ae3928c9a0d79222dac835db1ed89f3f481e4"
+    },
+    {
+      "path": "runs\\B0-37\\seed_33\\fold_5_text.pt",
+      "sha256": "4ff16536ea9c06f96afc33c98ab39ec06398799b5ffce78db25f5ded394a1e58"
+    }
+  ],
+  "aggregation_note": "Mean each seed across5 folds, then mean across3 seeds. Seed SD and15-fold SD are descriptive; folds/seeds are not independent new subjects.",
+  "training_scope": "Three classifiers on fixed EEG/speech/text features; no backbone pretraining or fine-tuning.",
+  "limitations": [
+    "37-person code-based baseline, not an exact reproduction of original38-person result",
+    "Random frozen encoder and degenerate attention retained",
+    "EEG native scale and index mapping follow code; physical/checkpoint compatibility remains uncertain"
+  ],
+  "checkpoint_reload_verification": {
+    "passed": true,
+    "device": "cuda",
+    "predictions_reproduced": 333,
+    "max_absolute_error": 0.0
+  },
+  "independent_sklearn_metric_checks": 60
+}

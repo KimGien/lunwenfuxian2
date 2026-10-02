@@ -1,0 +1,15 @@
+{
+  "scope": "B0-37 empty ASR recovery only",
+  "recording": "02010036/22",
+  "tested_gains": [
+    1,
+    10,
+    100
+  ],
+  "selected_gain": 10,
+  "selection": "smallest tested gain returning a nonempty segment; no diagnosis labels or classification scores used",
+  "changes": "in-memory amplitude multiplication for this ASR retry only; source WAV unchanged; model, CPU float32, language zh and first-segment export retained",
+  "review": "ASR output preserved verbatim; not human verified; gain10 and gain100 differ slightly in text",
+  "evidence": "reports/asr_empty_retry_02010036_22.json",
+  "original": "archive/asr_original_empty/02010036/22.json"
+}

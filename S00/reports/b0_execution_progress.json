@@ -1,0 +1,46 @@
+{
+  "started_utc": "2026-09-10T09:04:30.553893+00:00",
+  "completed_stages": [
+    "eeg_features",
+    "speech_features",
+    "transcription",
+    "text_features",
+    "preflight_11",
+    "preflight_22",
+    "preflight_33",
+    "train_11",
+    "train_22",
+    "train_33",
+    "evaluation_audit"
+  ],
+  "training_requested": true,
+  "stage": "training_complete",
+  "status": "complete",
+  "updated_utc": "2026-09-11T06:57:44.917051+00:00",
+  "driver_active": false,
+  "transcription_audit_sha256": "14a29bda39a28397e314f886214db092bf7cfd364179f45f89a3e7c2dfe684fa",
+  "previous_driver_pid": 31536,
+  "previous_asr_pid": 27480,
+  "preflight_by_seed": {
+    "11": {
+      "passed": true,
+      "fold_subject_modality_assignments": 555
+    },
+    "22": {
+      "passed": true,
+      "fold_subject_modality_assignments": 555
+    },
+    "33": {
+      "passed": true,
+      "fold_subject_modality_assignments": 555
+    }
+  },
+  "completed_seeds": [
+    11,
+    22,
+    33
+  ],
+  "remaining_seeds": [],
+  "branch_training_runs": 45,
+  "training_summary_sha256": "60cef962c8685492c0fa1ba924b8e29b0f6eff0d7346befe958a96b24da9f83e"
+}

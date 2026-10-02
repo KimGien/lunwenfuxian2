@@ -1,0 +1,14 @@
+librosa
+scipy
+numpy
+pathlib
+soundfile
+pandas
+torch
+torchaudio
+whisperx
+mne
+transformers
+sentence_transformers
+collection
+braindecode

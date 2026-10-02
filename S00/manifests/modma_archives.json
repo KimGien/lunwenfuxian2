@@ -1,0 +1,14 @@
+[
+  {
+    "path": "dataset\\modma\\modma-dataset-2015.zip",
+    "bytes": 10175158983,
+    "sha256": "58668b4cf3076acffc37c9c29c8e457c43733036c21a675d2876928197a76a9a",
+    "provenance": "user_supplied_archive; original distribution URL not supplied"
+  },
+  {
+    "path": "dataset\\modma\\modma-audio-group-6-dsai.zip",
+    "bytes": 2670676352,
+    "sha256": "fac3630df81fd378b63b43da9ac67241c0c1b976c09b7c18e0846d96d1b44902",
+    "provenance": "user_supplied_archive; original distribution URL not supplied"
+  }
+]

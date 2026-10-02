@@ -1,0 +1,108 @@
+{
+  "macbert": {
+    "repo": "hfl/chinese-macbert-base",
+    "revision": "a986e004d2a7f2a1c2f5a3edef4e20604a974ed1",
+    "files": {
+      "README.md": {
+        "sha256": "1516e1e24fff28dfeaed65f714bc676e4739d4c70e6c9f356fbf41d2712251e5",
+        "bytes": 3842,
+        "url": "https://huggingface.co/hfl/chinese-macbert-base/resolve/a986e004d2a7f2a1c2f5a3edef4e20604a974ed1/README.md"
+      },
+      "added_tokens.json": {
+        "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+        "bytes": 2,
+        "url": "https://huggingface.co/hfl/chinese-macbert-base/resolve/a986e004d2a7f2a1c2f5a3edef4e20604a974ed1/added_tokens.json"
+      },
+      "config.json": {
+        "sha256": "648c8a2b51c12551f94bae19a66c21a59c9bd8aa0ebb99f2a0af7236cdb99daa",
+        "bytes": 659,
+        "url": "https://huggingface.co/hfl/chinese-macbert-base/resolve/a986e004d2a7f2a1c2f5a3edef4e20604a974ed1/config.json"
+      },
+      "special_tokens_map.json": {
+        "sha256": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3",
+        "bytes": 112,
+        "url": "https://huggingface.co/hfl/chinese-macbert-base/resolve/a986e004d2a7f2a1c2f5a3edef4e20604a974ed1/special_tokens_map.json"
+      },
+      "tokenizer.json": {
+        "sha256": "53ff61207898738bbdc000f38abebef01041c8d23b6270c11855fc692d0a3ad6",
+        "bytes": 268961,
+        "url": "https://huggingface.co/hfl/chinese-macbert-base/resolve/a986e004d2a7f2a1c2f5a3edef4e20604a974ed1/tokenizer.json"
+      },
+      "tokenizer_config.json": {
+        "sha256": "61785aeaba176fba6d6489f27dccfd2ddee6aee2af0e590451cab7d8b57e0874",
+        "bytes": 19,
+        "url": "https://huggingface.co/hfl/chinese-macbert-base/resolve/a986e004d2a7f2a1c2f5a3edef4e20604a974ed1/tokenizer_config.json"
+      },
+      "vocab.txt": {
+        "sha256": "45bbac6b341c319adc98a532532882e91a9cefc0329aa57bac9ae761c27b291c",
+        "bytes": 109540,
+        "url": "https://huggingface.co/hfl/chinese-macbert-base/resolve/a986e004d2a7f2a1c2f5a3edef4e20604a974ed1/vocab.txt"
+      },
+      "pytorch_model.bin": {
+        "sha256": "db0506d985574b80c33eec1cf13bd4c130585568753175871095ca13dbad9e23",
+        "bytes": 411582858,
+        "url": "https://huggingface.co/hfl/chinese-macbert-base/resolve/a986e004d2a7f2a1c2f5a3edef4e20604a974ed1/pytorch_model.bin"
+      }
+    },
+    "status": "weights_downloaded"
+  },
+  "hubert_code": {
+    "repo": "xmj2002/hubert-base-ch-speech-emotion-recognition",
+    "revision": "520fe386b3cc1b51f4db26ce7656dce8d6c9d875",
+    "files": {
+      "README.md": {
+        "sha256": "735b505d3af12fea4f22f1b2f0f15969388df5d6a1fba6fe79033559f641957b",
+        "bytes": 4107,
+        "url": "https://huggingface.co/xmj2002/hubert-base-ch-speech-emotion-recognition/resolve/520fe386b3cc1b51f4db26ce7656dce8d6c9d875/README.md"
+      },
+      "config.json": {
+        "sha256": "210b2b2cb8a3bfd2022f5db6ee3c2f820f85e63a9a8f0225fb0a6b53d73fc5aa",
+        "bytes": 1498,
+        "url": "https://huggingface.co/xmj2002/hubert-base-ch-speech-emotion-recognition/resolve/520fe386b3cc1b51f4db26ce7656dce8d6c9d875/config.json"
+      },
+      "preprocessor_config.json": {
+        "sha256": "4a93853b74278b7c769d07f5a861e5d12ceb5db2bced5620d335f87238cb9e86",
+        "bytes": 213,
+        "url": "https://huggingface.co/xmj2002/hubert-base-ch-speech-emotion-recognition/resolve/520fe386b3cc1b51f4db26ce7656dce8d6c9d875/preprocessor_config.json"
+      },
+      "pytorch_model.bin": {
+        "sha256": "0cd2286572750ab6f4cf3d1a5283cf6c92b4a8ae9e87f38ebb515439a56c5b53",
+        "bytes": 379939475,
+        "url": "https://huggingface.co/xmj2002/hubert-base-ch-speech-emotion-recognition/resolve/520fe386b3cc1b51f4db26ce7656dce8d6c9d875/pytorch_model.bin"
+      }
+    },
+    "status": "weights_downloaded"
+  },
+  "whisper_medium": {
+    "repo": "Systran/faster-whisper-medium",
+    "revision": "08e178d48790749d25932bbc082711ddcfdfbc4f",
+    "files": {
+      "README.md": {
+        "sha256": "a30144a6232423e5e4e9e17952b5a543a506dc0cb9de02fd9d875d7ec40fef83",
+        "bytes": 2005,
+        "url": "https://huggingface.co/Systran/faster-whisper-medium/resolve/08e178d48790749d25932bbc082711ddcfdfbc4f/README.md"
+      },
+      "config.json": {
+        "sha256": "3622a2ddc41ec0e0fd4e68c13c6830f03b90c38d89aaad184de02c8c642cf807",
+        "bytes": 2257,
+        "url": "https://huggingface.co/Systran/faster-whisper-medium/resolve/08e178d48790749d25932bbc082711ddcfdfbc4f/config.json"
+      },
+      "tokenizer.json": {
+        "sha256": "fb7b63191e9bb045082c79fd742a3106a12c99513ab30df4a0d47fa6cb6fd0ab",
+        "bytes": 2203239,
+        "url": "https://huggingface.co/Systran/faster-whisper-medium/resolve/08e178d48790749d25932bbc082711ddcfdfbc4f/tokenizer.json"
+      },
+      "model.bin": {
+        "sha256": "9b45e1009dcc4ab601eff815b61d80e60ce3fd8c74c1a14f4a282258286b51ae",
+        "bytes": 1527906378,
+        "url": "https://huggingface.co/Systran/faster-whisper-medium/resolve/08e178d48790749d25932bbc082711ddcfdfbc4f/model.bin"
+      },
+      "vocabulary.txt": {
+        "sha256": "34ce3fe1c5041027b3f8d42912270993f986dbc4bb34cf27f951e34a1e453913",
+        "bytes": 459861,
+        "url": "https://huggingface.co/Systran/faster-whisper-medium/resolve/08e178d48790749d25932bbc082711ddcfdfbc4f/vocabulary.txt"
+      }
+    },
+    "status": "weights_downloaded"
+  }
+}

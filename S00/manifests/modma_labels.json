@@ -1,0 +1,642 @@
+{
+  "modma-dataset-2015.zip": {
+    "archive_member": "EEG_128channels_resting_lanzhou_2015/subjects_information_EEG_128channels_resting_lanzhou_2015.xlsx",
+    "labels": {
+      "02010002": {
+        "label": 1,
+        "category": "MDD",
+        "row": 2,
+        "sheet": "Sheet1"
+      },
+      "02010004": {
+        "label": 1,
+        "category": "MDD",
+        "row": 3,
+        "sheet": "Sheet1"
+      },
+      "02010005": {
+        "label": 1,
+        "category": "MDD",
+        "row": 4,
+        "sheet": "Sheet1"
+      },
+      "02010006": {
+        "label": 1,
+        "category": "MDD",
+        "row": 5,
+        "sheet": "Sheet1"
+      },
+      "02010008": {
+        "label": 1,
+        "category": "MDD",
+        "row": 6,
+        "sheet": "Sheet1"
+      },
+      "02010010": {
+        "label": 1,
+        "category": "MDD",
+        "row": 7,
+        "sheet": "Sheet1"
+      },
+      "02010011": {
+        "label": 1,
+        "category": "MDD",
+        "row": 8,
+        "sheet": "Sheet1"
+      },
+      "02010012": {
+        "label": 1,
+        "category": "MDD",
+        "row": 9,
+        "sheet": "Sheet1"
+      },
+      "02010013": {
+        "label": 1,
+        "category": "MDD",
+        "row": 10,
+        "sheet": "Sheet1"
+      },
+      "02010015": {
+        "label": 1,
+        "category": "MDD",
+        "row": 11,
+        "sheet": "Sheet1"
+      },
+      "02010016": {
+        "label": 1,
+        "category": "MDD",
+        "row": 12,
+        "sheet": "Sheet1"
+      },
+      "02010018": {
+        "label": 1,
+        "category": "MDD",
+        "row": 13,
+        "sheet": "Sheet1"
+      },
+      "02010019": {
+        "label": 1,
+        "category": "MDD",
+        "row": 14,
+        "sheet": "Sheet1"
+      },
+      "02010021": {
+        "label": 1,
+        "category": "MDD",
+        "row": 15,
+        "sheet": "Sheet1"
+      },
+      "02010022": {
+        "label": 1,
+        "category": "MDD",
+        "row": 16,
+        "sheet": "Sheet1"
+      },
+      "02010023": {
+        "label": 1,
+        "category": "MDD",
+        "row": 17,
+        "sheet": "Sheet1"
+      },
+      "02010024": {
+        "label": 1,
+        "category": "MDD",
+        "row": 18,
+        "sheet": "Sheet1"
+      },
+      "02010025": {
+        "label": 1,
+        "category": "MDD",
+        "row": 19,
+        "sheet": "Sheet1"
+      },
+      "02010026": {
+        "label": 1,
+        "category": "MDD",
+        "row": 20,
+        "sheet": "Sheet1"
+      },
+      "02010028": {
+        "label": 1,
+        "category": "MDD",
+        "row": 21,
+        "sheet": "Sheet1"
+      },
+      "02010030": {
+        "label": 1,
+        "category": "MDD",
+        "row": 22,
+        "sheet": "Sheet1"
+      },
+      "02010033": {
+        "label": 1,
+        "category": "MDD",
+        "row": 23,
+        "sheet": "Sheet1"
+      },
+      "02010034": {
+        "label": 1,
+        "category": "MDD",
+        "row": 24,
+        "sheet": "Sheet1"
+      },
+      "02010036": {
+        "label": 1,
+        "category": "MDD",
+        "row": 25,
+        "sheet": "Sheet1"
+      },
+      "02020008": {
+        "label": 0,
+        "category": "HC",
+        "row": 26,
+        "sheet": "Sheet1"
+      },
+      "02020010": {
+        "label": 0,
+        "category": "HC",
+        "row": 27,
+        "sheet": "Sheet1"
+      },
+      "02020013": {
+        "label": 0,
+        "category": "HC",
+        "row": 28,
+        "sheet": "Sheet1"
+      },
+      "02020014": {
+        "label": 0,
+        "category": "HC",
+        "row": 29,
+        "sheet": "Sheet1"
+      },
+      "02020015": {
+        "label": 0,
+        "category": "HC",
+        "row": 30,
+        "sheet": "Sheet1"
+      },
+      "02020016": {
+        "label": 0,
+        "category": "HC",
+        "row": 31,
+        "sheet": "Sheet1"
+      },
+      "02020018": {
+        "label": 0,
+        "category": "HC",
+        "row": 32,
+        "sheet": "Sheet1"
+      },
+      "02020019": {
+        "label": 0,
+        "category": "HC",
+        "row": 33,
+        "sheet": "Sheet1"
+      },
+      "02020020": {
+        "label": 0,
+        "category": "HC",
+        "row": 34,
+        "sheet": "Sheet1"
+      },
+      "02020021": {
+        "label": 0,
+        "category": "HC",
+        "row": 35,
+        "sheet": "Sheet1"
+      },
+      "02020022": {
+        "label": 0,
+        "category": "HC",
+        "row": 36,
+        "sheet": "Sheet1"
+      },
+      "02020023": {
+        "label": 0,
+        "category": "HC",
+        "row": 37,
+        "sheet": "Sheet1"
+      },
+      "02020025": {
+        "label": 0,
+        "category": "HC",
+        "row": 38,
+        "sheet": "Sheet1"
+      },
+      "02020026": {
+        "label": 0,
+        "category": "HC",
+        "row": 39,
+        "sheet": "Sheet1"
+      },
+      "02020027": {
+        "label": 0,
+        "category": "HC",
+        "row": 40,
+        "sheet": "Sheet1"
+      },
+      "02020029": {
+        "label": 0,
+        "category": "HC",
+        "row": 41,
+        "sheet": "Sheet1"
+      },
+      "02030002": {
+        "label": 0,
+        "category": "HC",
+        "row": 42,
+        "sheet": "Sheet1"
+      },
+      "02030003": {
+        "label": 0,
+        "category": "HC",
+        "row": 43,
+        "sheet": "Sheet1"
+      },
+      "02030004": {
+        "label": 0,
+        "category": "HC",
+        "row": 44,
+        "sheet": "Sheet1"
+      },
+      "02030005": {
+        "label": 0,
+        "category": "HC",
+        "row": 45,
+        "sheet": "Sheet1"
+      },
+      "02030006": {
+        "label": 0,
+        "category": "HC",
+        "row": 46,
+        "sheet": "Sheet1"
+      },
+      "02030007": {
+        "label": 0,
+        "category": "HC",
+        "row": 47,
+        "sheet": "Sheet1"
+      },
+      "02030009": {
+        "label": 0,
+        "category": "HC",
+        "row": 48,
+        "sheet": "Sheet1"
+      },
+      "02030014": {
+        "label": 0,
+        "category": "HC",
+        "row": 49,
+        "sheet": "Sheet1"
+      },
+      "02030017": {
+        "label": 0,
+        "category": "HC",
+        "row": 50,
+        "sheet": "Sheet1"
+      },
+      "02030018": {
+        "label": 0,
+        "category": "HC",
+        "row": 51,
+        "sheet": "Sheet1"
+      },
+      "02030019": {
+        "label": 0,
+        "category": "HC",
+        "row": 52,
+        "sheet": "Sheet1"
+      },
+      "02030020": {
+        "label": 0,
+        "category": "HC",
+        "row": 53,
+        "sheet": "Sheet1"
+      },
+      "02030021": {
+        "label": 0,
+        "category": "HC",
+        "row": 54,
+        "sheet": "Sheet1"
+      }
+    }
+  },
+  "modma-audio-group-6-dsai.zip": {
+    "archive_member": "MODMA_AUDIO Datatset/audio_lanzhou_2015/subjects_information_audio_lanzhou_2015.xlsx",
+    "labels": {
+      "02010002": {
+        "label": 1,
+        "category": "MDD",
+        "row": 2,
+        "sheet": "Sheet1"
+      },
+      "02010004": {
+        "label": 1,
+        "category": "MDD",
+        "row": 3,
+        "sheet": "Sheet1"
+      },
+      "02010005": {
+        "label": 1,
+        "category": "MDD",
+        "row": 4,
+        "sheet": "Sheet1"
+      },
+      "02010006": {
+        "label": 1,
+        "category": "MDD",
+        "row": 5,
+        "sheet": "Sheet1"
+      },
+      "02010008": {
+        "label": 1,
+        "category": "MDD",
+        "row": 6,
+        "sheet": "Sheet1"
+      },
+      "02010009": {
+        "label": 1,
+        "category": "MDD",
+        "row": 7,
+        "sheet": "Sheet1"
+      },
+      "02010010": {
+        "label": 1,
+        "category": "MDD",
+        "row": 8,
+        "sheet": "Sheet1"
+      },
+      "02010011": {
+        "label": 1,
+        "category": "MDD",
+        "row": 9,
+        "sheet": "Sheet1"
+      },
+      "02010012": {
+        "label": 1,
+        "category": "MDD",
+        "row": 10,
+        "sheet": "Sheet1"
+      },
+      "02010013": {
+        "label": 1,
+        "category": "MDD",
+        "row": 11,
+        "sheet": "Sheet1"
+      },
+      "02010015": {
+        "label": 1,
+        "category": "MDD",
+        "row": 12,
+        "sheet": "Sheet1"
+      },
+      "02010018": {
+        "label": 1,
+        "category": "MDD",
+        "row": 13,
+        "sheet": "Sheet1"
+      },
+      "02010022": {
+        "label": 1,
+        "category": "MDD",
+        "row": 14,
+        "sheet": "Sheet1"
+      },
+      "02010023": {
+        "label": 1,
+        "category": "MDD",
+        "row": 15,
+        "sheet": "Sheet1"
+      },
+      "02010024": {
+        "label": 1,
+        "category": "MDD",
+        "row": 16,
+        "sheet": "Sheet1"
+      },
+      "02010025": {
+        "label": 1,
+        "category": "MDD",
+        "row": 17,
+        "sheet": "Sheet1"
+      },
+      "02010034": {
+        "label": 1,
+        "category": "MDD",
+        "row": 18,
+        "sheet": "Sheet1"
+      },
+      "02010036": {
+        "label": 1,
+        "category": "MDD",
+        "row": 19,
+        "sheet": "Sheet1"
+      },
+      "02010037": {
+        "label": 1,
+        "category": "MDD",
+        "row": 20,
+        "sheet": "Sheet1"
+      },
+      "02030002": {
+        "label": 0,
+        "category": "HC",
+        "row": 21,
+        "sheet": "Sheet1"
+      },
+      "02030004": {
+        "label": 0,
+        "category": "HC",
+        "row": 22,
+        "sheet": "Sheet1"
+      },
+      "02030005": {
+        "label": 0,
+        "category": "HC",
+        "row": 23,
+        "sheet": "Sheet1"
+      },
+      "02030006": {
+        "label": 0,
+        "category": "HC",
+        "row": 24,
+        "sheet": "Sheet1"
+      },
+      "02030007": {
+        "label": 0,
+        "category": "HC",
+        "row": 25,
+        "sheet": "Sheet1"
+      },
+      "02030008": {
+        "label": 0,
+        "category": "HC",
+        "row": 26,
+        "sheet": "Sheet1"
+      },
+      "02030009": {
+        "label": 0,
+        "category": "HC",
+        "row": 27,
+        "sheet": "Sheet1"
+      },
+      "02030014": {
+        "label": 0,
+        "category": "HC",
+        "row": 28,
+        "sheet": "Sheet1"
+      },
+      "02030015": {
+        "label": 0,
+        "category": "HC",
+        "row": 29,
+        "sheet": "Sheet1"
+      },
+      "02030016": {
+        "label": 0,
+        "category": "HC",
+        "row": 30,
+        "sheet": "Sheet1"
+      },
+      "02030017": {
+        "label": 0,
+        "category": "HC",
+        "row": 31,
+        "sheet": "Sheet1"
+      },
+      "02020007": {
+        "label": 0,
+        "category": "HC",
+        "row": 32,
+        "sheet": "Sheet1"
+      },
+      "02020008": {
+        "label": 0,
+        "category": "HC",
+        "row": 33,
+        "sheet": "Sheet1"
+      },
+      "02020010": {
+        "label": 0,
+        "category": "HC",
+        "row": 34,
+        "sheet": "Sheet1"
+      },
+      "02020011": {
+        "label": 0,
+        "category": "HC",
+        "row": 35,
+        "sheet": "Sheet1"
+      },
+      "02020014": {
+        "label": 0,
+        "category": "HC",
+        "row": 36,
+        "sheet": "Sheet1"
+      },
+      "02020015": {
+        "label": 0,
+        "category": "HC",
+        "row": 37,
+        "sheet": "Sheet1"
+      },
+      "02020016": {
+        "label": 0,
+        "category": "HC",
+        "row": 38,
+        "sheet": "Sheet1"
+      },
+      "02020018": {
+        "label": 0,
+        "category": "HC",
+        "row": 39,
+        "sheet": "Sheet1"
+      },
+      "02020019": {
+        "label": 0,
+        "category": "HC",
+        "row": 40,
+        "sheet": "Sheet1"
+      },
+      "02020021": {
+        "label": 0,
+        "category": "HC",
+        "row": 41,
+        "sheet": "Sheet1"
+      },
+      "02020022": {
+        "label": 0,
+        "category": "HC",
+        "row": 42,
+        "sheet": "Sheet1"
+      },
+      "02020023": {
+        "label": 0,
+        "category": "HC",
+        "row": 43,
+        "sheet": "Sheet1"
+      },
+      "02020025": {
+        "label": 0,
+        "category": "HC",
+        "row": 44,
+        "sheet": "Sheet1"
+      },
+      "02020026": {
+        "label": 0,
+        "category": "HC",
+        "row": 45,
+        "sheet": "Sheet1"
+      },
+      "02020027": {
+        "label": 0,
+        "category": "HC",
+        "row": 46,
+        "sheet": "Sheet1"
+      },
+      "02030010": {
+        "label": 0,
+        "category": "HC",
+        "row": 47,
+        "sheet": "Sheet1"
+      },
+      "02010001": {
+        "label": 1,
+        "category": "MDD",
+        "row": 48,
+        "sheet": "Sheet1"
+      },
+      "02010003": {
+        "label": 1,
+        "category": "MDD",
+        "row": 49,
+        "sheet": "Sheet1"
+      },
+      "02010014": {
+        "label": 1,
+        "category": "MDD",
+        "row": 50,
+        "sheet": "Sheet1"
+      },
+      "02010039": {
+        "label": 1,
+        "category": "MDD",
+        "row": 51,
+        "sheet": "Sheet1"
+      },
+      "02020004": {
+        "label": 0,
+        "category": "HC",
+        "row": 52,
+        "sheet": "Sheet1"
+      },
+      "02030001": {
+        "label": 0,
+        "category": "HC",
+        "row": 53,
+        "sheet": "Sheet1"
+      }
+    }
+  }
+}

@@ -43,3 +43,40 @@ Thumbs.db
 
 # Local ASR diagnostic contains participant transcript text
 /reports/asr_empty_retry_02010036_22.json
+
+# Publication scope: exclude TRI-DEP-DFMU at every level
+[Tt][Rr][Ii][Dd][Ee][Pp][-_][Dd][Ff][Mm][Uu]/
+*[Dd][Ff][Mm][Uu]*/
+*[Dd][Ff][Mm][Uu]*.md
+*[Dd][Ff][Mm][Uu]*.json
+**/.venv/
+**/.asr-venv/
+**/cache/
+**/runs/
+**/features/
+**/short_features/
+**/checkpoints/
+**/staged/
+**/transcripts/
+**/wheels/
+**/predictions/
+**/subjects/
+**/arrays/
+*.jsonl
+*predictions*.json
+*predictions*.csv
+*probabilities*.json
+*.joblib
+*.pkl
+*.zip
+*.fif
+*.edf
+*.mp3
+*.flac
+*.m4a
+**/.git/
+**/.DS_Store
+**/reports/asr_empty_retry_02010036_22.json
+# Incomplete experiment: training finished, results not released at upload time
+/tridep_ccml/model_opt_qpool/
+/tridep_ccml/experiments/MODEL-OPT-v2-QPOOL-37-fulltext/

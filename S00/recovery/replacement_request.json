@@ -1,0 +1,47 @@
+{
+  "files": [
+    {
+      "subject_id": "02010004",
+      "question_id": "23",
+      "current_sha256": "e02f21034d568ab8f7dd8ca1cc540c634035274481ae6965572c53866de34c5f",
+      "reason": "severe_noise_in_tail_from_about_11_seconds"
+    },
+    {
+      "subject_id": "02010004",
+      "question_id": "24",
+      "current_sha256": "5c2f140bff00785aa5692453fd7a96cbaeb35a9ae33bb82583ad2acc6223e151",
+      "reason": "unreadable_WAV"
+    },
+    {
+      "subject_id": "02010004",
+      "question_id": "25",
+      "current_sha256": "0152ba6591cb4166606b55d14f3ad6f8533e99bdebe2d02859e5f7a543d6641b",
+      "reason": "unreadable_WAV"
+    },
+    {
+      "subject_id": "02010004",
+      "question_id": "26",
+      "current_sha256": "8b12d0ef8915bef2da04c43099f4bd86fa0ae6b55f6c138f1e3bd28e2d16159b",
+      "reason": "unreadable_WAV"
+    },
+    {
+      "subject_id": "02010004",
+      "question_id": "27",
+      "current_sha256": "75e27cd56fc15a4be4a37e6fb575ea08e5636fbafccb200a1bfe2d6c65cc7b9c",
+      "reason": "unreadable_WAV"
+    },
+    {
+      "subject_id": "02010004",
+      "question_id": "28",
+      "current_sha256": "2ac1bb2a96e848242ba9661499f28d6cf2d5bbcab1daf150209294ca1da61b9e",
+      "reason": "unreadable_WAV"
+    }
+  ],
+  "acceptance": [
+    "Original recording with matching subject and question identity from a documented source",
+    "Record original bytes and SHA-256 separately from user archives",
+    "Check full PCM decoding and rerun signal-quality screening",
+    "Compare surviving portions when possible; no header guessing, content synthesis, or other-subject substitution"
+  ],
+  "recommended_source": "MODMA data custodians, or author-confirmed TRI-DEP input and handling policy"
+}

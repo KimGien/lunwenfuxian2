@@ -1,0 +1,58 @@
+{
+  "synthetic_only": true,
+  "torch": "2.8.0+cu126",
+  "cuda_runtime": "12.6",
+  "device": "cuda",
+  "models": {
+    "eeg": {
+      "forward_backward_passed": true,
+      "repeat_equal": true,
+      "shape": [
+        2,
+        2
+      ],
+      "trainable_parameters": 498434
+    },
+    "speech": {
+      "forward_backward_passed": true,
+      "repeat_equal": true,
+      "shape": [
+        2,
+        2
+      ],
+      "trainable_parameters": 3606402
+    },
+    "text": {
+      "forward_backward_passed": true,
+      "repeat_equal": true,
+      "shape": [
+        2,
+        2
+      ],
+      "trainable_parameters": 15876482
+    }
+  },
+  "gpu": "NVIDIA GeForce RTX 4080 Laptop GPU",
+  "cbramod_checkpoint": {
+    "matched_keys": 209,
+    "total_keys": 211,
+    "missing_or_mismatched": [
+      "proj_out.0.weight",
+      "proj_out.0.bias"
+    ],
+    "unexpected_keys": [
+      "classifier.1.weight",
+      "classifier.1.bias",
+      "classifier.4.weight",
+      "classifier.4.bias",
+      "classifier.7.weight",
+      "classifier.7.bias"
+    ],
+    "output_shape": [
+      1,
+      19,
+      5,
+      200
+    ]
+  }
+}

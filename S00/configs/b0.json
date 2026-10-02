@@ -1,0 +1,185 @@
+{
+  "experiment": "B0-37",
+  "status": "all_features_ready_training_preflight_passed",
+  "paper": "2510.14922v2",
+  "main_commit": "e54fd68004843d20b618af307c0e200bb6dced07",
+  "dev_commit": "be6bcafd8063cd04a325279742ff27dca24ea280",
+  "fold_file": "manifests/fold_assignments.json",
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "confirmation_seeds": [
+    44,
+    55
+  ],
+  "upstream_reference_seed": 42,
+  "labels": {
+    "0": "HC",
+    "1": "MDD"
+  },
+  "label_source": "MODMA metadata required; upstream 0201 prefix is a cross-check only",
+  "threshold": 0.5,
+  "tie_class": 0,
+  "metrics": [
+    "subject_macro_f1",
+    "mdd_recall",
+    "balanced_accuracy"
+  ],
+  "fold_std_ddof": 0,
+  "checkpoint_selection": "fixed_epochs_final_state",
+  "fusion": {
+    "method": "weighted_average",
+    "weight_step": 0.05,
+    "selection_split": "val",
+    "tie_break": "lexicographic_eeg_speech_text",
+    "paper_reference_weights": [
+      0.05,
+      0.35,
+      0.6
+    ]
+  },
+  "branches": {
+    "eeg": {
+      "name": "cbramod_mumtaz_conv",
+      "embedding_file": "cbramod_embeddings_mumtaz.npy",
+      "shape": [
+        60,
+        200
+      ],
+      "model_class": "EEGConvPoolClassifier",
+      "model_kwargs": {
+        "input_dim": 200,
+        "seq_len": 60
+      },
+      "epochs": 60,
+      "lr": 0.005,
+      "optimizer": "Adamax",
+      "weight_decay": 0,
+      "batch_size": 16
+    },
+    "speech": {
+      "name": "hubert_bigru_conv",
+      "embedding_file": "audio_embedding_hubert_lstm.npy",
+      "shape": [
+        29,
+        512
+      ],
+      "model_class": "SpeechConvPoolClassifier",
+      "model_kwargs": {
+        "input_dim": 512,
+        "hidden_dim": 1024
+      },
+      "epochs": 70,
+      "lr": 0.005,
+      "optimizer": "Adamax",
+      "weight_decay": 0,
+      "batch_size": 8
+    },
+    "text": {
+      "name": "macbert_lstm",
+      "embedding_file": "text_embedding_macbert.npy",
+      "shape": [
+        29,
+        768
+      ],
+      "model_class": "LSTM1Classifier",
+      "model_kwargs": {
+        "input_dim": 768,
+        "hidden_dim": 1024
+      },
+      "epochs": 50,
+      "lr": 0.0001,
+      "optimizer": "Adamax",
+      "weight_decay": 0,
+      "batch_size": 64
+    }
+  },
+  "preprocessing": {
+    "eeg": {
+      "sampling_rate": 200,
+      "bandpass": [
+        0.3,
+        75
+      ],
+      "notch": 50,
+      "window_seconds": 5,
+      "patch_samples": 200,
+      "channels": [
+        "FP2",
+        "FP1",
+        "F7",
+        "F3",
+        "F4",
+        "F8",
+        "FCz",
+        "C3",
+        "C4",
+        "T3",
+        "CPz",
+        "T4",
+        "P3",
+        "Pz",
+        "P4",
+        "T5",
+        "T6",
+        "O1",
+        "O2"
+      ],
+      "python_indices": [
+        9,
+        22,
+        33,
+        24,
+        124,
+        122,
+        6,
+        36,
+        104,
+        45,
+        55,
+        108,
+        52,
+        62,
+        92,
+        58,
+        96,
+        70,
+        83
+      ],
+      "unit_and_montage_verification": "code_native_indices_locked_with_disclosed_limitations",
+      "length_policy": "full_filter_then_first_300_seconds"
+    },
+    "speech": {
+      "sampling_rate": 16000,
+      "mono": true,
+      "window_samples": 80000,
+      "hop_samples": 40000,
+      "trim_top_db": 20,
+      "median_kernel": 3,
+      "short_audio_policy": "upstream_drop_with_zero_feature_audit"
+    },
+    "text": {
+      "input": "answer_only",
+      "questions": 29,
+      "pooling": "CLS",
+      "max_tokens": 512,
+      "asr": "WhisperX medium zh",
+      "asr_segment_policy": "first_segment_code_all_segments_archived"
+    }
+  },
+  "unresolved": [
+    "37-person code-based baseline, not an exact reproduction of original38-person result",
+    "Random frozen encoder and degenerate attention retained",
+    "EEG native scale and index mapping follow code; physical/checkpoint compatibility remains uncertain"
+  ],
+  "source_training": {
+    "EATD": "excluded_S00",
+    "Mumtaz": "only_author_CBramod_checkpoint_no_new_finetuning"
+  },
+  "cohort_id": "MODMA-37-v1",
+  "cohort_file": "configs/cohort.json",
+  "folds_sha256": "a28ebe92c94428128313586d3a5524b2f03befcbc473215f4b0b2dcb49c3284d",
+  "protocol_file": "configs/protocol_resolution.json"
+}

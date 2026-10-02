@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "cohort": 37,
+  "complete_subjects": 37,
+  "diagnosis_counts": {
+    "1": 16,
+    "0": 21
+  },
+  "wav_count": 1073,
+  "invalid_wav_count": 0,
+  "eeg_count": 37,
+  "eeg_sample_rates": {
+    "250.0": 37
+  },
+  "wav_sample_rates": {
+    "44100": 1073
+  },
+  "wav_hours": 5.299808453010834,
+  "duplicate_pcm_groups": [],
+  "errors": [],
+  "original_archive_publisher_not_verified": true,
+  "cohort_id": "MODMA-37-v1",
+  "folds_sha256": "a28ebe92c94428128313586d3a5524b2f03befcbc473215f4b0b2dcb49c3284d",
+  "subject_manifest_sha256": "865398778869799ab4da5bcc680d0cbcffcb2aa122d229d2d42eb13f0af72cc9",
+  "excluded_subject_ids": [
+    "02010004"
+  ],
+  "suspect_wav_count": 0,
+  "decodable_without_signal_flags": 1073,
+  "signal_screen_report": "reports/audio_signal_quality.json",
+  "signal_screen_sha256": "27742047431dfe2f4e06d430cc41ceaef2b7d87116faf947c32a0d4cd5d95983"
+}

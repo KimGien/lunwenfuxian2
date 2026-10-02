@@ -1,0 +1,91 @@
+# Decision-level (late) fusion configurations
+# Weights were optimised via grid search (step=0.05) using scripts/fusion_grid_search.py
+# Usage: python scripts/fusion.py --config configs/training/fusion.yaml
+
+data:
+  predictions_dir: predictions
+
+# Best unimodal prediction CSV per modality
+modality_files:
+  eeg: eeg_cbramod_mumtaz_conv.csv
+  speech: speech_hubert_bigru_conv.csv
+  text: text_macbert_lstm.csv
+
+# Prior P(depressed) = 17 depressed / 38 total subjects
+prior_depressed: 0.447368
+
+configs:
+
+  # ── Weighted Averaging ───────────────────────────────────────────────────
+
+  - name: "WA: EEG+Speech+Text (0.05:0.35:0.60)"
+    method: weighted_avg
+    modalities: [eeg, speech, text]
+    weights: {eeg: 0.05, speech: 0.35, text: 0.60}
+    output_csv: wa_eeg_speech_text.csv
+
+  - name: "WA: EEG+Speech (0.05:0.95)"
+    method: weighted_avg
+    modalities: [eeg, speech]
+    weights: {eeg: 0.05, speech: 0.95}
+    output_csv: wa_eeg_speech.csv
+
+  - name: "WA: EEG+Text (0.15:0.85)"
+    method: weighted_avg
+    modalities: [eeg, text]
+    weights: {eeg: 0.15, text: 0.85}
+    output_csv: wa_eeg_text.csv
+
+  - name: "WA: Speech+Text (0.45:0.55)"
+    method: weighted_avg
+    modalities: [speech, text]
+    weights: {speech: 0.45, text: 0.55}
+    output_csv: wa_speech_text.csv
+
+  # ── Bayesian Fusion ──────────────────────────────────────────────────────
+
+  - name: "BF: EEG+Speech+Text (0.05:0.30:0.65)"
+    method: bayesian
+    modalities: [eeg, speech, text]
+    weights: {eeg: 0.05, speech: 0.30, text: 0.65}
+    output_csv: bf_eeg_speech_text.csv
+
+  - name: "BF: EEG+Speech (0.05:0.95)"
+    method: bayesian
+    modalities: [eeg, speech]
+    weights: {eeg: 0.05, speech: 0.95}
+    output_csv: bf_eeg_speech.csv
+
+  - name: "BF: EEG+Text (0.05:0.95)"
+    method: bayesian
+    modalities: [eeg, text]
+    weights: {eeg: 0.05, text: 0.95}
+    output_csv: bf_eeg_text.csv
+
+  - name: "BF: Speech+Text (0.20:0.80)"
+    method: bayesian
+    modalities: [speech, text]
+    weights: {speech: 0.20, text: 0.80}
+    output_csv: bf_speech_text.csv
+
+  # ── Majority Voting ──────────────────────────────────────────────────────
+
+  - name: "MV: EEG+Speech"
+    method: majority_vote
+    modalities: [eeg, speech]
+    output_csv: mv_eeg_speech.csv
+
+  - name: "MV: EEG+Text"
+    method: majority_vote
+    modalities: [eeg, text]
+    output_csv: mv_eeg_text.csv
+
+  - name: "MV: Speech+Text"
+    method: majority_vote
+    modalities: [speech, text]
+    output_csv: mv_speech_text.csv
+
+  - name: "MV: EEG+Speech+Text"
+    method: majority_vote
+    modalities: [eeg, speech, text]
+    output_csv: mv_eeg_speech_text.csv

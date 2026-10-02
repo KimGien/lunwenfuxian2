@@ -1,0 +1,16 @@
+{
+    "dataset_class": "UnimodalDataset",
+    "classifier": "convpoolclassifier",
+    "embedding_filename": "audio_mfcc_encoded_cnn_bigru.npy",
+    "base_dir": "split_dataset",
+    "device": "cpu",
+    "save_pred": "results/speech_predictions.json",
+    "input_size": 256,
+
+    "hyperparameters": {
+        "learning_rate": 0.0001,
+        "epochs": 90,
+        "hidden_dim": 1024,
+        "batch_size": 32
+    }
+}

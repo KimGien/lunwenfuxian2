@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "model": "Systran/faster-whisper-medium",
+  "device": "cpu",
+  "compute_type": "float32",
+  "language": "zh",
+  "input_seconds": 10.0,
+  "source_path": "S00\\staged\\02010002\\audio\\01.wav",
+  "source_sha256": "720a485614ba4489f111fb6adcb440c091e39b6d1523ef0343f531cc7036a7cc",
+  "segments": 1,
+  "transcript_sha256": "c9acec01e258fd7dbd10fbd8252ba6b5ab0d0e7474b8915de0ecd585217db819",
+  "elapsed_seconds": 28.219756299979053,
+  "scope": "10-second loading/decoding test only; not corpus transcription or diagnosis"
+}

@@ -1,0 +1,77 @@
+{
+  "_id": "6461d7c5805bf40127044bc9",
+  "id": "xmj2002/hubert-base-ch-speech-emotion-recognition",
+  "private": false,
+  "pipeline_tag": "audio-classification",
+  "library_name": "transformers",
+  "tags": [
+    "transformers",
+    "pytorch",
+    "hubert",
+    "audio-classification",
+    "zh",
+    "license:apache-2.0",
+    "endpoints_compatible",
+    "deploy:azure",
+    "region:us"
+  ],
+  "downloads": 166,
+  "likes": 50,
+  "modelId": "xmj2002/hubert-base-ch-speech-emotion-recognition",
+  "author": "xmj2002",
+  "sha": "520fe386b3cc1b51f4db26ce7656dce8d6c9d875",
+  "lastModified": "2023-05-16T02:27:14.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": null,
+  "config": {
+    "architectures": [
+      "HubertForSpeechClassification"
+    ],
+    "model_type": "hubert"
+  },
+  "cardData": {
+    "license": "apache-2.0",
+    "language": [
+      "zh"
+    ],
+    "metrics": [
+      "accuracy"
+    ],
+    "pipeline_tag": "audio-classification"
+  },
+  "transformersInfo": {
+    "auto_model": "HubertForSpeechClassification",
+    "processor": "AutoProcessor"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "accuracy.png"
+    },
+    {
+      "rfilename": "config.json"
+    },
+    {
+      "rfilename": "loss.png"
+    },
+    {
+      "rfilename": "preprocessor_config.json"
+    },
+    {
+      "rfilename": "pytorch_model.bin"
+    }
+  ],
+  "spaces": [
+    "LawrenceBai/Bloom_Ware",
+    "clws/xmj2002-hubert-base-ch-speech-emotion-recognition",
+    "l1y0l20/xmj2002-hubert-base-ch-speech-emotion-recognition"
+  ],
+  "createdAt": "2023-05-15T06:57:09.000Z",
+  "usedStorage": 1138402364
+}

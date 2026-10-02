@@ -1,0 +1,163 @@
+# Early (feature-level) fusion training configurations
+# All encoders trained jointly end-to-end (~2–20M parameters)
+# Usage: python scripts/inference.py --config configs/training/early_fusion.yaml --all
+
+data:
+  base_dir: data/split_dataset_june
+  fold_file: data/split_dataset_june/fold_assignments.json
+
+# Shared embedding files (best unimodal features)
+common:
+  eeg_file: cbramod_embeddings_mumtaz.npy      # shape (60, 200)
+  speech_file: audio_embedding_hubert_lstm.npy  # shape (29, 512)
+  text_file: text_embedding_macbert.npy         # shape (29, 768)
+
+configs:
+
+  # ── Concatenation fusion ─────────────────────────────────────────────────
+
+  - name: early_concat
+    eeg_file: cbramod_embeddings_mumtaz.npy
+    speech_file: audio_embedding_hubert_lstm.npy
+    text_file: text_embedding_macbert.npy
+    early_fusion: true
+    model_class: EarlyFusionConcat
+    model_kwargs:
+      eeg_dim: 200
+      eeg_seq_len: 60
+      speech_dim: 512
+      speech_hidden: 1024
+      text_dim: 768
+      text_hidden: 1024
+      proj_dim: 128
+      dropout: 0.3
+    epochs: 80
+    lr: 0.001
+    optimizer: Adamax
+    weight_decay: 0
+    batch_size: 8
+    output_csv: early_concat.csv
+    feature_group: Early Concat
+
+  - name: early_concat_v2
+    eeg_file: cbramod_embeddings_mumtaz.npy
+    speech_file: audio_embedding_hubert_lstm.npy
+    text_file: text_embedding_macbert.npy
+    early_fusion: true
+    model_class: EarlyFusionConcat
+    model_kwargs:
+      eeg_dim: 200
+      eeg_seq_len: 60
+      speech_dim: 512
+      speech_hidden: 256
+      text_dim: 768
+      text_hidden: 256
+      proj_dim: 64
+      dropout: 0.5
+    epochs: 60
+    lr: 0.0005
+    optimizer: Adamax
+    weight_decay: 0.0001
+    batch_size: 8
+    output_csv: early_concat_v2.csv
+    feature_group: Early Concat
+
+  - name: early_concat_v3
+    eeg_file: cbramod_embeddings_mumtaz.npy
+    speech_file: audio_embedding_hubert_lstm.npy
+    text_file: text_embedding_macbert.npy
+    early_fusion: true
+    model_class: EarlyFusionConcat
+    model_kwargs:
+      eeg_dim: 200
+      eeg_seq_len: 60
+      speech_dim: 512
+      speech_hidden: 256
+      text_dim: 768
+      text_hidden: 256
+      proj_dim: 64
+      dropout: 0.5
+    epochs: 100
+    lr: 0.0001
+    optimizer: Adamax
+    weight_decay: 0.0001
+    batch_size: 8
+    output_csv: early_concat_v3.csv
+    feature_group: Early Concat
+
+  # ── Bottleneck Transformer fusion ────────────────────────────────────────
+
+  - name: early_bottleneck
+    eeg_file: cbramod_embeddings_mumtaz.npy
+    speech_file: audio_embedding_hubert_lstm.npy
+    text_file: text_embedding_macbert.npy
+    early_fusion: true
+    model_class: EarlyFusionBottleneck
+    model_kwargs:
+      eeg_dim: 200
+      eeg_seq_len: 60
+      speech_dim: 512
+      speech_hidden: 1024
+      text_dim: 768
+      text_hidden: 1024
+      proj_dim: 128
+      nhead: 4
+      num_tf_layers: 2
+      dropout: 0.3
+    epochs: 80
+    lr: 0.001
+    optimizer: Adamax
+    weight_decay: 0
+    batch_size: 8
+    output_csv: early_bottleneck.csv
+    feature_group: Early Bottleneck
+
+  - name: early_bottleneck_v2
+    eeg_file: cbramod_embeddings_mumtaz.npy
+    speech_file: audio_embedding_hubert_lstm.npy
+    text_file: text_embedding_macbert.npy
+    early_fusion: true
+    model_class: EarlyFusionBottleneck
+    model_kwargs:
+      eeg_dim: 200
+      eeg_seq_len: 60
+      speech_dim: 512
+      speech_hidden: 256
+      text_dim: 768
+      text_hidden: 256
+      proj_dim: 64
+      nhead: 4
+      num_tf_layers: 1
+      dropout: 0.5
+    epochs: 60
+    lr: 0.0005
+    optimizer: Adamax
+    weight_decay: 0.0001
+    batch_size: 8
+    output_csv: early_bottleneck_v2.csv
+    feature_group: Early Bottleneck
+
+  - name: early_bottleneck_v3
+    eeg_file: cbramod_embeddings_mumtaz.npy
+    speech_file: audio_embedding_hubert_lstm.npy
+    text_file: text_embedding_macbert.npy
+    early_fusion: true
+    model_class: EarlyFusionBottleneck
+    model_kwargs:
+      eeg_dim: 200
+      eeg_seq_len: 60
+      speech_dim: 512
+      speech_hidden: 256
+      text_dim: 768
+      text_hidden: 256
+      proj_dim: 64
+      nhead: 4
+      num_tf_layers: 1
+      dropout: 0.5
+    epochs: 100
+    lr: 0.0001
+    optimizer: Adamax
+    weight_decay: 0.0001
+    batch_size: 8
+    output_csv: early_bottleneck_v3.csv
+    feature_group: Early Bottleneck
