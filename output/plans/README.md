@@ -12,6 +12,7 @@
 - [CCML_v2_S_模态证据尺度校准固定计划](CCML_v2_S_模态证据尺度校准固定计划.md)
 - [CCML_v2_性能优化与后续计划](CCML_v2_性能优化与后续计划.md)
 - [EEG_P1有效学习验收与SparNet修复固定计划](EEG_P1有效学习验收与SparNet修复固定计划.md)
+- [EEG_P2无标签质量与尺度核查固定计划](EEG_P2无标签质量与尺度核查固定计划.md)
 - [EEG分支替换执行计划_R1](EEG分支替换执行计划_R1.md)
 - [EEG数据增强与三终点重跑固定计划](EEG数据增强与三终点重跑固定计划.md)
 - [MODMA_TRI-DEP_CCML_实验计划](MODMA_TRI-DEP_CCML_实验计划.md)
