@@ -1,0 +1,282 @@
+[
+  {
+    "condition": "G-CE-ST",
+    "applicable": false,
+    "reason": "CE produces probabilities, not Dirichlet evidence"
+  },
+  {
+    "condition": "G-CE-EST",
+    "applicable": false,
+    "reason": "CE produces probabilities, not Dirichlet evidence"
+  },
+  {
+    "condition": "G-EDL-ST",
+    "modality": "speech",
+    "group": "all",
+    "repeated_records": 111,
+    "mean_strength": 4.861602637144896,
+    "mean_u": 0.4221952106501605,
+    "applicable": true
+  },
+  {
+    "condition": "G-EDL-ST",
+    "modality": "speech",
+    "group": "correct",
+    "repeated_records": 86,
+    "mean_strength": 4.922854795012364,
+    "mean_u": 0.4153413935456165,
+    "applicable": true
+  },
+  {
+    "condition": "G-EDL-ST",
+    "modality": "speech",
+    "group": "wrong",
+    "repeated_records": 25,
+    "mean_strength": 4.65089521408081,
+    "mean_u": 0.4457723414897919,
+    "applicable": true
+  },
+  {
+    "condition": "G-EDL-ST",
+    "modality": "text",
+    "group": "all",
+    "repeated_records": 111,
+    "mean_strength": 4.7453061718124525,
+    "mean_u": 0.4303229502192489,
+    "applicable": true
+  },
+  {
+    "condition": "G-EDL-ST",
+    "modality": "text",
+    "group": "correct",
+    "repeated_records": 79,
+    "mean_strength": 4.838609882547885,
+    "mean_u": 0.42114321038692815,
+    "applicable": true
+  },
+  {
+    "condition": "G-EDL-ST",
+    "modality": "text",
+    "group": "wrong",
+    "repeated_records": 32,
+    "mean_strength": 4.514962635934353,
+    "mean_u": 0.4529854329302907,
+    "applicable": true
+  },
+  {
+    "condition": "G-EDL-EST",
+    "modality": "eeg",
+    "group": "all",
+    "repeated_records": 111,
+    "mean_strength": 3.5573468680854314,
+    "mean_u": 0.5699153445862435,
+    "applicable": true
+  },
+  {
+    "condition": "G-EDL-EST",
+    "modality": "eeg",
+    "group": "correct",
+    "repeated_records": 61,
+    "mean_strength": 3.610470525553969,
+    "mean_u": 0.562565098043348,
+    "applicable": true
+  },
+  {
+    "condition": "G-EDL-EST",
+    "modality": "eeg",
+    "group": "wrong",
+    "repeated_records": 50,
+    "mean_strength": 3.492536005973816,
+    "mean_u": 0.578882645368576,
+    "applicable": true
+  },
+  {
+    "condition": "G-EDL-EST",
+    "modality": "speech",
+    "group": "all",
+    "repeated_records": 111,
+    "mean_strength": 4.971569905409941,
+    "mean_u": 0.4132800714389698,
+    "applicable": true
+  },
+  {
+    "condition": "G-EDL-EST",
+    "modality": "speech",
+    "group": "correct",
+    "repeated_records": 87,
+    "mean_strength": 5.034350274623125,
+    "mean_u": 0.4064787369349907,
+    "applicable": true
+  },
+  {
+    "condition": "G-EDL-EST",
+    "modality": "speech",
+    "group": "wrong",
+    "repeated_records": 24,
+    "mean_strength": 4.743991067012151,
+    "mean_u": 0.43793490901589394,
+    "applicable": true
+  },
+  {
+    "condition": "G-EDL-EST",
+    "modality": "text",
+    "group": "all",
+    "repeated_records": 111,
+    "mean_strength": 4.845737107165225,
+    "mean_u": 0.42182887754998766,
+    "applicable": true
+  },
+  {
+    "condition": "G-EDL-EST",
+    "modality": "text",
+    "group": "correct",
+    "repeated_records": 80,
+    "mean_strength": 4.923869696259499,
+    "mean_u": 0.41433790922164915,
+    "applicable": true
+  },
+  {
+    "condition": "G-EDL-EST",
+    "modality": "text",
+    "group": "wrong",
+    "repeated_records": 31,
+    "mean_strength": 4.644104619180003,
+    "mean_u": 0.4411604087198934,
+    "applicable": true
+  },
+  {
+    "condition": "G-CCML-ST",
+    "modality": "speech",
+    "group": "all",
+    "repeated_records": 111,
+    "mean_strength": 3.9447494798952394,
+    "mean_u": 0.5210092749681559,
+    "applicable": true
+  },
+  {
+    "condition": "G-CCML-ST",
+    "modality": "speech",
+    "group": "correct",
+    "repeated_records": 85,
+    "mean_strength": 3.9953333209542667,
+    "mean_u": 0.513914463449927,
+    "applicable": true
+  },
+  {
+    "condition": "G-CCML-ST",
+    "modality": "speech",
+    "group": "wrong",
+    "repeated_records": 26,
+    "mean_strength": 3.779379230279189,
+    "mean_u": 0.5442038510854428,
+    "applicable": true
+  },
+  {
+    "condition": "G-CCML-ST",
+    "modality": "text",
+    "group": "all",
+    "repeated_records": 111,
+    "mean_strength": 5.5076232966002046,
+    "mean_u": 0.3706961996383495,
+    "applicable": true
+  },
+  {
+    "condition": "G-CCML-ST",
+    "modality": "text",
+    "group": "correct",
+    "repeated_records": 77,
+    "mean_strength": 5.634625196456909,
+    "mean_u": 0.3623352739718053,
+    "applicable": true
+  },
+  {
+    "condition": "G-CCML-ST",
+    "modality": "text",
+    "group": "wrong",
+    "repeated_records": 34,
+    "mean_strength": 5.220001346924725,
+    "mean_u": 0.3896312371772878,
+    "applicable": true
+  },
+  {
+    "condition": "G-CCML-EST",
+    "modality": "eeg",
+    "group": "all",
+    "repeated_records": 111,
+    "mean_strength": 3.54230116723894,
+    "mean_u": 0.5731236252698813,
+    "applicable": true
+  },
+  {
+    "condition": "G-CCML-EST",
+    "modality": "eeg",
+    "group": "correct",
+    "repeated_records": 60,
+    "mean_strength": 3.6039401928583783,
+    "mean_u": 0.5647894084453583,
+    "applicable": true
+  },
+  {
+    "condition": "G-CCML-EST",
+    "modality": "eeg",
+    "group": "wrong",
+    "repeated_records": 51,
+    "mean_strength": 3.4697846665101895,
+    "mean_u": 0.5829285862399083,
+    "applicable": true
+  },
+  {
+    "condition": "G-CCML-EST",
+    "modality": "speech",
+    "group": "all",
+    "repeated_records": 111,
+    "mean_strength": 5.020533263146341,
+    "mean_u": 0.41219341889158023,
+    "applicable": true
+  },
+  {
+    "condition": "G-CCML-EST",
+    "modality": "speech",
+    "group": "correct",
+    "repeated_records": 86,
+    "mean_strength": 5.121023904445559,
+    "mean_u": 0.40168209616528,
+    "applicable": true
+  },
+  {
+    "condition": "G-CCML-EST",
+    "modality": "speech",
+    "group": "wrong",
+    "repeated_records": 25,
+    "mean_strength": 4.674845457077026,
+    "mean_u": 0.4483523690700531,
+    "applicable": true
+  },
+  {
+    "condition": "G-CCML-EST",
+    "modality": "text",
+    "group": "all",
+    "repeated_records": 111,
+    "mean_strength": 5.1153482230933935,
+    "mean_u": 0.39912680167335646,
+    "applicable": true
+  },
+  {
+    "condition": "G-CCML-EST",
+    "modality": "text",
+    "group": "correct",
+    "repeated_records": 76,
+    "mean_strength": 5.259514093399048,
+    "mean_u": 0.3871782465200675,
+    "applicable": true
+  },
+  {
+    "condition": "G-CCML-EST",
+    "modality": "text",
+    "group": "wrong",
+    "repeated_records": 35,
+    "mean_strength": 4.80230233328683,
+    "mean_u": 0.42507223572049824,
+    "applicable": true
+  }
+]

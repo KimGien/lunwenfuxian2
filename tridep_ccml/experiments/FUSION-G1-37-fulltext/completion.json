@@ -1,0 +1,41 @@
+{
+  "stage": "G0_G3_complete",
+  "completed_utc": "2026-09-29T16:09:06.566813+00:00",
+  "new_neural_models": 90,
+  "completed_updates": 21600,
+  "outer_results_released": true,
+  "G4_postprocess_enabled": false,
+  "complete_inner_selection": false,
+  "eeg_augmentation": false,
+  "new_DFMU_models_in_this_run": 0,
+  "decision": {
+    "EEG_increment_by_family": {
+      "CE": false,
+      "EDL": false,
+      "CCML": false
+    },
+    "CCML_vs_CE_by_modality": {
+      "ST": true,
+      "EST": true
+    },
+    "stop_this_EEG_fusion_version": true,
+    "stop_CCML_EST_SGF_extensions": false,
+    "EEG_engineering_passed": true,
+    "independent_EEG_screen_passed": false,
+    "predeclared_CCML_EST_research_candidate": false,
+    "independent_population_validation": false,
+    "leaderboard_winner_selected": false
+  },
+  "EEG_plus_G_core_total_neural_models": 150,
+  "EEG_plus_G_core_total_linear_fits": 10,
+  "EEG_plus_G_core_total_new_fits": 160,
+  "EEG_plus_G_core_total_neural_updates": 33300,
+  "verification": {
+    "path": "output/analysis/fusion_g1_20260929/verification.json",
+    "sha256": "f06fb91bd32ac24c6113234d2ab7f215a0428bbafd624bf6a73c087b9db4b808"
+  },
+  "report": {
+    "path": "output/analysis/fusion_g1_20260929/FUSION-G1整体改进主线完成报告.md",
+    "sha256": "c5342e6e3af108440224c27804f7bcc2b28508752dc2c421a1772f023c0ad6b3"
+  }
+}
