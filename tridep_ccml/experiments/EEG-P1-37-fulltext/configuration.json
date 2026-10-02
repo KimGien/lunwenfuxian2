@@ -1,0 +1,96 @@
+{
+  "experiment": "EEG-P1-37-fulltext",
+  "version": 1,
+  "conditions": [
+    "U0",
+    "U2",
+    "C0",
+    "C2"
+  ],
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "folds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "epochs": 60,
+  "batch_size_subjects": 8,
+  "windows_per_subject": 60,
+  "augmentation": false,
+  "gates": {
+    "gradient_l2_min": 1e-12,
+    "representation_std_rms_min": 1e-06,
+    "representation_relative_std_min": 0.0001,
+    "zero_input_response_min": 0.0001,
+    "region_response_min": 1e-06,
+    "small_fit_steps": 500,
+    "small_fit_ce_max": 0.1,
+    "small_fit_accuracy_min": 1.0,
+    "small_fit_lr": 0.001,
+    "small_fit_weight_decay": 0.0
+  },
+  "formal_runs": 60,
+  "formal_updates": 14400,
+  "U_optimizer": {
+    "name": "Adamax",
+    "lr": 0.001,
+    "weight_decay": 0.0001
+  },
+  "C_optimizer": {
+    "name": "Adamax",
+    "encoder_lr": 0.0001,
+    "head_lr": 0.001,
+    "weight_decay": 0.0
+  },
+  "loss": {
+    "rho": 1.25,
+    "delta": 1.0,
+    "gamma": 1.0,
+    "anneal_epochs": 50
+  },
+  "gradient_clip": 1.0,
+  "threshold_MDD": ">0.5",
+  "checkpoint": "fixed epoch 60",
+  "parent_configuration": {
+    "path": "tridep_ccml/experiments/EEG-R1-37-fulltext/configuration.json",
+    "sha256": "6e04ad7d881366e6f7c68721ca6383d8385c5ded639078373b0efa7a4eb8b859"
+  },
+  "data_manifest": {
+    "path": "tridep_ccml/experiments/EEG-R1-37-fulltext/data_manifest.json",
+    "sha256": "655d11482e08fc73d2c66de7a0c2dba91cc937c1acf58669abdf5c39348fef44"
+  },
+  "preflight": {
+    "path": "tridep_ccml/experiments/EEG-P1-37-fulltext/preflight.json",
+    "sha256": "07e9f2df77aefca2be8e806c4ea6e545bf5f799213aa93422b02d18cd8f6dda7"
+  },
+  "structure_manifest": {
+    "path": "tridep_ccml/experiments/EEG-P1-37-fulltext/structure_manifest.json",
+    "sha256": "fd0cc0efc7db9dc398200e9394596dd927eb246ef248007a0b601e3ad48e909f"
+  },
+  "sources": {
+    "output/plans/EEG_P1有效学习验收与SparNet修复固定计划.md": "32fcf3ca1a3c62d15babba272d7db065d5c7773303a860793d92b41c13538890",
+    "tridep_ccml/eeg_p1/__init__.py": "ebd9c6bc2bb6e09a8efe1b8780429d77d4df0a26628b98151ee38e0b046cdb84",
+    "tridep_ccml/eeg_p1/common.py": "8f9324e67fd481241502d31798afd8722c25a8cfd117adce2b6581a4fa565918",
+    "tridep_ccml/eeg_p1/evaluate.py": "0668cb8c1ae4123a2bf29969552e1bd05bbcc5e8b47277ff77cfc30a288c8e18",
+    "tridep_ccml/eeg_p1/finalize.py": "ae425eaae343688cf396810bd4458ac21e7c62c641d64118625e10dd7750077d",
+    "tridep_ccml/eeg_p1/health.py": "b37ec8e357ad96e123e49f8d9974643ffbe73d16bfc3c8f6d947e8820286b64e",
+    "tridep_ccml/eeg_p1/models.py": "c118bd04270ef226d6fea922801ccd5985098fb6b7645bad95b37db96f971680",
+    "tridep_ccml/eeg_p1/prepare.py": "c8bf049e61596847dab8f0fb07f29de6a219935ea2015f374083c78eda24b65d",
+    "tridep_ccml/eeg_p1/run.py": "403f1acd1e5f1463db2af33d22b3c6b2c43e72b1cdb9a7bdca20df150c7e0ef9",
+    "tridep_ccml/eeg_p1/test_contracts.py": "45df7ca237bba2a975ccb8cab5aea838a3186f4f9b30f0dd728bcbc6751ad0c7",
+    "tridep_ccml/eeg_p1/train.py": "12ae69fd80153f4c2678a5bd2dc3a4a67f201cb68800fc64c5c4245302972800"
+  },
+  "cuda_device": "NVIDIA GeForce RTX 4080 Laptop GPU",
+  "torch_version": "2.8.0+cu126",
+  "registered_plan": {
+    "path": "output/plans/EEG_P1有效学习验收与SparNet修复固定计划.md",
+    "sha256": "32fcf3ca1a3c62d15babba272d7db065d5c7773303a860793d92b41c13538890"
+  },
+  "frozen_utc": "2026-09-27T14:34:58.603746+00:00"
+}

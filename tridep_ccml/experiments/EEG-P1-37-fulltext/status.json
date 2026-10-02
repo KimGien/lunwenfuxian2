@@ -1,0 +1,9 @@
+{
+  "state": "complete",
+  "completed_runs": 60,
+  "planned_runs": 60,
+  "augmentation": false,
+  "outer_metrics_released": true,
+  "engineering_acceptance_pass": true,
+  "updated_utc": "2026-09-27T14:43:11.188222+00:00"
+}
