@@ -1,0 +1,425 @@
+{
+  "schema": "eeg_nine_candidate_final_delivery_manifest_v1",
+  "created_at": "2026-10-13T17:09:15.531074+08:00",
+  "status": "delivered_all_required_scientific_and_final_acceptance_artifacts",
+  "full_plan_completed": true,
+  "assembly_only_not_a_new_scientific_audit": true,
+  "completed_scope": {
+    "original_formal_fits": 360,
+    "supervised_fits": 345,
+    "fold_local_SSL_fits": 15,
+    "finetune_fits": 135,
+    "actual_CPU_checkpoint_reads_in_final_gate": 405,
+    "supervised_conditions": 23,
+    "evaluated_snapshots": 435,
+    "resource_measurements": 12,
+    "resource_optimizer_updates": 0,
+    "strict_requirements_verified": 30,
+    "memory_pause_final_gate": true,
+    "full_system_standby_final_gate": true
+  },
+  "nine_candidates": {
+    "CSBrain": {
+      "status": "未改善",
+      "all_prespecified_routes_completed": true,
+      "routes": [
+        "CSBrain-frozen-smallhead",
+        "CSBrain-lastblock-finetune"
+      ],
+      "passing_routes": [],
+      "negative_results_count_as_completed": true,
+      "scope": "本项目预先登记的输入与训练适配"
+    },
+    "REVE": {
+      "status": "未改善",
+      "all_prespecified_routes_completed": true,
+      "routes": [
+        "REVE-frozen-smallhead",
+        "REVE-lastblock-finetune"
+      ],
+      "passing_routes": [],
+      "negative_results_count_as_completed": true,
+      "scope": "本项目预先登记的输入与训练适配"
+    },
+    "EEGPT": {
+      "status": "未改善",
+      "all_prespecified_routes_completed": true,
+      "routes": [
+        "EEGPT-frozen-smallhead",
+        "EEGPT-lastblock-finetune"
+      ],
+      "passing_routes": [],
+      "negative_results_count_as_completed": true,
+      "scope": "本项目预先登记的输入与训练适配"
+    },
+    "LUNA": {
+      "status": "未改善",
+      "all_prespecified_routes_completed": true,
+      "routes": [
+        "LUNA-frozen-smallhead",
+        "LUNA-lastblock-finetune"
+      ],
+      "passing_routes": [],
+      "negative_results_count_as_completed": true,
+      "scope": "本项目预先登记的输入与训练适配"
+    },
+    "CodeBrain": {
+      "status": "未改善",
+      "all_prespecified_routes_completed": true,
+      "routes": [
+        "CodeBrain-frozen-smallhead",
+        "CodeBrain-lastblock-finetune"
+      ],
+      "passing_routes": [],
+      "negative_results_count_as_completed": true,
+      "scope": "本项目预先登记的输入与训练适配"
+    },
+    "EEGConformer": {
+      "status": "未改善",
+      "all_prespecified_routes_completed": true,
+      "routes": [
+        "EEGConformer-scratch"
+      ],
+      "passing_routes": [],
+      "negative_results_count_as_completed": true,
+      "scope": "本项目预先登记的输入与训练适配"
+    },
+    "BIOT": {
+      "status": "未改善",
+      "all_prespecified_routes_completed": true,
+      "routes": [
+        "BIOT-frozen-smallhead",
+        "BIOT-lastblock-finetune"
+      ],
+      "passing_routes": [],
+      "negative_results_count_as_completed": true,
+      "scope": "本项目预先登记的输入与训练适配"
+    },
+    "EEG2Rep": {
+      "status": "未改善",
+      "all_prespecified_routes_completed": true,
+      "routes": [
+        "EEG2Rep-supervised"
+      ],
+      "passing_routes": [],
+      "negative_results_count_as_completed": true,
+      "scope": "本项目预先登记的输入与训练适配"
+    },
+    "EEGMamba": {
+      "status": "未改善",
+      "all_prespecified_routes_completed": true,
+      "routes": [
+        "EEGMamba-frozen-smallhead",
+        "EEGMamba-lastblock-finetune"
+      ],
+      "passing_routes": [],
+      "negative_results_count_as_completed": true,
+      "scope": "作者公开实现适配实验，未取得全文，不称完整论文复现"
+    }
+  },
+  "artifacts": {
+    "final_cost": {
+      "path": "output/analysis/eeg_all_candidates_v1_20261008/final_full_plan_cost_1791878935037825200.json",
+      "sha256": "1213c45eaceeb78b0644ade79aa71a9b9638d05a5b7e6bce3f87d4a228515354"
+    },
+    "wide_acceptance": {
+      "path": "output/analysis/eeg_all_candidates_v1_20261008/full_plan_acceptance_v9_1791880718467386600.json",
+      "sha256": "a25798add925ba129df97aff7f2c2e2043fc90e568b6977479676d84f27d65aa"
+    },
+    "final_semantic_review": {
+      "path": "output/analysis/eeg_all_candidates_v1_20261008/independent_final_semantic_review_1791879676618795700.json",
+      "sha256": "4ea1fe8142f6bf5d50d4c829ccb04aca88b9e675ddfac7d79216b8ed1c231043"
+    },
+    "CPU135_405": {
+      "path": "output/analysis/eeg_all_candidates_v1_20261008/completed_finetune_checkpoint_audit_v17_1791833719887124200.json",
+      "sha256": "7fa47f81891194cc1e71cf0e0005bc469a0699772091914c3ba5194a1d7656b1"
+    },
+    "resources12": {
+      "path": "output/analysis/eeg_all_candidates_v1_20261008/supplemental_head_resource_v9_complete_1791876496108405800.json",
+      "sha256": "1df4a4e95444ee44bbe650e7293f86530c11b21a30eabcfe334749b461247e16"
+    },
+    "G3_final_bundle": {
+      "path": "output/analysis/eeg_all_candidates_v1_20261008/final_cost_sync_control_bundle_v4_1791881440239138400.json",
+      "sha256": "63ed8127d959eee57599810aa4da2540d5fff07f553fc982f5c2649aacefe670"
+    },
+    "G3_original_companion": {
+      "path": "output/analysis/eeg_all_candidates_v1_20261008/sync_boundary_v3_cost_companion_1791601316065099800.json",
+      "sha256": "9090421f81639c495b81d3ae33f99b6500642f9311edc8ffc252bd58b79b50a3"
+    },
+    "pause_three_loss_companion": {
+      "path": "output/analysis/eeg_all_candidates_v1_20261008/pause_memory_resume_cost_companion_v5_1791882223072419700.json",
+      "sha256": "762cf0118cedb19fac2c3a78bca15d5bec5afe5e3997ea7b5744480db82ba1bb"
+    },
+    "memory_pause_final_gate": {
+      "path": "output/analysis/eeg_all_candidates_v1_20261008/memory_pause_final_delivery_v5_verified_final_delivery_with_memory_pause_1791882251686464600.json",
+      "sha256": "eb1f296be2db15608126b5f9cac74ae85a5aa0797673d4e0fa452a95c9bab142"
+    },
+    "system_standby_companion": {
+      "path": "output/analysis/eeg_all_candidates_v1_20261008/system_standby_cost_companion_v5_1791882285459650100.json",
+      "sha256": "6e0056ad1a8819b1e5cd078b0b08ef740a810b422229809a68a234208a71e68e"
+    },
+    "system_standby_final_gate": {
+      "path": "output/analysis/eeg_all_candidates_v1_20261008/system_standby_final_delivery_v6_verified_final_delivery_with_bound_standby_scope_1791882360842078300.json",
+      "sha256": "085536eec1a62d1b4c04a369c0222eefc2b9b5dd9ca6ebb64a7c33a9befbf8fc"
+    },
+    "full_power_timer_scope": {
+      "path": "output/analysis/eeg_all_candidates_v1_20261008/full_system_power_timer_scope_1791881536952146900.json",
+      "sha256": "6b9f3f6cc223ba782eab79955e8fb2ed026324224a3fae56b460fa677f7c7e23"
+    },
+    "independent_full_power_scope": {
+      "path": "output/analysis/eeg_all_candidates_v1_20261008/independent_final_system_low_power_scope_review_v2_1791881863754362300.json",
+      "sha256": "3adbfdf666faaaebe1999069297088756685aaa7e0cffc1b8c673ce600bf5755"
+    },
+    "power_prefix": {
+      "path": "output/analysis/eeg_all_candidates_v1_20261008/system_power_event_full_range_prefix_1791876271590.json",
+      "sha256": "1269fec163aaf846676c88b54f2e252879467a641eeba5d7871111380c307a87"
+    },
+    "power_suffix": {
+      "path": "output/analysis/eeg_all_candidates_v1_20261008/system_power_event_full_range_suffix_1791879383255.json",
+      "sha256": "2781a3d581eb0d1dcba0916e15e83b61e9bdd07baaa12f6a09a57b0d50caa66b"
+    },
+    "final_postprocessing_source_review": {
+      "path": "output/analysis/eeg_all_candidates_v1_20261008/independent_E13_final_compatibility_source_review_1791875707354688800.json",
+      "sha256": "07a8c699862bbbedfdfe0fea4f91868d4a582d631f83eee2282655de6de5eabe"
+    },
+    "full_power_source_review": {
+      "path": "output/analysis/eeg_all_candidates_v1_20261008/independent_full_power_scope_source_review_1791878543512820500.json",
+      "sha256": "4f8a16a25a90f2b2b677f2a62e3454e1ffac6f399c98215ea3799d873b3eb2dc"
+    },
+    "manifest_exception_source_review": {
+      "path": "output/analysis/eeg_all_candidates_v1_20261008/independent_manifest_metadata_exception_source_review_1791882189866299200.json",
+      "sha256": "b507af33132a73e39f75051085b9db9af1720aa8e0a5cf958a1c3252ffde6cc0"
+    },
+    "actual_post_cost_pause_v4_failure": {
+      "path": "output/analysis/eeg_all_candidates_v1_20261008/actual_pause_v4_manifest_guard_failure_1791881597248839900.json",
+      "sha256": "4b68f357d86da043b19926f486fdfd8bab8948c5243d4b339fb602331010521a"
+    },
+    "IO_erratum_historical": {
+      "path": "output/analysis/eeg_all_candidates_v1_20261008/historical_binary_hash_scope_erratum_1791601956592773300.json",
+      "sha256": "c7542365ed904799da58242605a3d46dabfd164ec00cdb18a409887405279038"
+    },
+    "IO_erratum_independent_review": {
+      "path": "output/analysis/eeg_all_candidates_v1_20261008/independent_closure_review_binary_hash_scope_erratum_1791602447024092800.json",
+      "sha256": "462f2f3beea08b79640c4d8f1a0889cb02bc29fe9579dcb667232d3bb79b0962"
+    },
+    "IO_erratum_G3_scope": {
+      "path": "output/analysis/eeg_all_candidates_v1_20261008/sync_control_companion_read_scope_erratum_1791602404565633400.json",
+      "sha256": "bc114598e11c57bb2cc5f09115c764054b6709932b9b3fa75b1f125edd8a2461"
+    },
+    "evaluation_complete": {
+      "path": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/evaluation/complete.json",
+      "sha256": "7cc8a34d33f78497af0e5cc59242d095ddc27d1d8ebd9b64e8e54c48ff3c04a2"
+    },
+    "evaluation_report": {
+      "path": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/evaluation/evaluation_report.json",
+      "sha256": "b1de11ec111999f7013dfc33f72c01815ec50e69dea4feb4ffa6d744984290b9"
+    },
+    "comparison_table": {
+      "path": "output/analysis/eeg_all_candidates_v1_20261008/unified_comparison.csv",
+      "sha256": "5337683aefe6f9135fe79a1a1e3337a3a1bb21283176d1fc168f78523cb6064d"
+    },
+    "oof_probabilities": {
+      "path": "output/analysis/eeg_all_candidates_v1_20261008/oof_probabilities.csv",
+      "sha256": "9472bc2b5c160cb500e67f51aaaadd2d721109906d21515d1f71275b3cb18a90"
+    },
+    "nine_paper_report": {
+      "path": "output/analysis/eeg_all_candidates_v1_20261008/九候选统一完成报告.md",
+      "sha256": "fce2135e2bf74e17d22ec3767cfdbf80a163656c37a77fb915b204d2ec4e8887"
+    },
+    "cost_human_report": {
+      "path": "output/analysis/eeg_all_candidates_v1_20261008/九候选全计划成本伴随报告_1791878935037825200.md",
+      "sha256": "7abafcafb94062ffaa302e018575e3057f25368b763a36018c3e84743c2b6c9a"
+    },
+    "G3_human_report": {
+      "path": "output/analysis/eeg_all_candidates_v1_20261008/同步资格控制成本附页_1791601316065099800.md",
+      "sha256": "8cf8c014aa4cc5f37b99e0688888418e34a87e669f2a228f09e173ae1e3dead8"
+    },
+    "pause_three_loss_human_report": {
+      "path": "output/analysis/eeg_all_candidates_v1_20261008/pause_memory_and_three_loss_cost_v5_1791882223072419700.md",
+      "sha256": "38ab8082e2ac33dc0bc8c31bed27f969ccafcfbe44f249179995bf6c057bd51a"
+    },
+    "original_noon_human_report": {
+      "path": "output/analysis/eeg_all_candidates_v1_20261008/原进程暂停恢复成本附页_1791625875034611700.md",
+      "sha256": "b4f294d45c1ad19727e5e47719909c4e7c064758ad11c53a0d434e6729b58bbc"
+    },
+    "system_standby_human_report": {
+      "path": "output/analysis/eeg_all_candidates_v1_20261008/系统低功耗重叠成本附页_1791882285459650100.md",
+      "sha256": "5de5d0dde4a8a4dd969708302a0d085af46300ca65f1f64aad4209813a8af5fd"
+    },
+    "process_loss_1": {
+      "path": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/process_loss_closures/lost_f3_1791597116209422300.json",
+      "sha256": "e56bbb201c067bf0bab31c0d405520fb2860deb12796f088072bb30bdd73de65"
+    },
+    "process_loss_1_recovery_registration": {
+      "path": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/continuation_queue_v5/recovery_registration.json",
+      "sha256": "ec1500ce2671600fca1588e41f14fc559e12300824aaa5c4a2625671f8d2ec9f"
+    },
+    "process_loss_1_pause_proof": {
+      "path": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/pause_events/q4_user_pause_1791558499460173100/pause_complete.json",
+      "sha256": "247d0b0dc3329a248ef7ca384b4acb2b2956e403d6b512c6b493306ed697d910"
+    },
+    "process_loss_1_checkpoint_cpu_resume_proof": {
+      "path": "output/analysis/eeg_all_candidates_v1_20261008/recovery_cpu_preflight_csb33f4_1791596275747982600.json",
+      "sha256": "6e8985f94502b9d36de56fd4a9c3b6d901346e3b5c28f9b62db5d45663632308"
+    },
+    "process_loss_1_process_absence_evidence": {
+      "path": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/continuation_queue_v5/recoveries/resume_1791597116030233300/process_absence.json",
+      "sha256": "f513e03fd19c775938d52af5b793a712cc759b8475ed7599a2842c8770ae2f90"
+    },
+    "process_loss_2": {
+      "path": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/process_loss_closures/lost_f3_v2_1791706969935734100.json",
+      "sha256": "14286a281be2d896653fb717ea2faefb86b84b3d80e572e36795154b746bfc8e"
+    },
+    "process_loss_2_recovery_registration": {
+      "path": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/continuation_queue_v5/recovery_registration_v2.json",
+      "sha256": "525f6ed6e838fe267956c54d90d4e6d13d7da3bc710863aca90c35af466782cd"
+    },
+    "process_loss_2_previous_recovery_registration": {
+      "path": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/continuation_queue_v5/recovery_registration.json",
+      "sha256": "ec1500ce2671600fca1588e41f14fc559e12300824aaa5c4a2625671f8d2ec9f"
+    },
+    "process_loss_2_base_queue_registration": {
+      "path": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/continuation_queue_v5/registration.json",
+      "sha256": "a9db8e215f1d32cd215d550319c0fa1646985c54d2167783a7547b3a6ea5312f"
+    },
+    "process_loss_2_checkpoint_cpu_resume_proof": {
+      "path": "output/analysis/eeg_all_candidates_v1_20261008/recovery_cpu_preflight_luna33f3_1791705459339343500.json",
+      "sha256": "80b8a90beb18188eb1358ebf8306ed720d17fb6e3c7acc239c263cab3542722f"
+    },
+    "process_loss_2_process_absence_evidence": {
+      "path": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/process_loss_recovery_v2/absence_1791705348325.json",
+      "sha256": "0752ae58764afcc749b2619eff6fb535fd3026c8e9ecacda1af817ba33c5400a"
+    },
+    "process_loss_2_runtime_process_absence_evidence": {
+      "path": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/continuation_queue_v5/recoveries/process_loss_v2_1791706966692025300/fresh_absence_1.json",
+      "sha256": "edec5c6fffb7c32d0626392aee77f901761ae0128b2ecd42a50c66e28d0a7b3f"
+    },
+    "process_loss_3": {
+      "path": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/process_loss_closures/lost_f3_v3_1791767849813215500.json",
+      "sha256": "83d4558818cd8727a4ec4b04d18ebfc18653aed6f3a03a611edb5a41f659e791"
+    },
+    "process_loss_3_recovery_registration": {
+      "path": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/continuation_queue_v5/recovery_registration_v3.json",
+      "sha256": "653df2183b1a9cdcd74755f69629d2cf89ca3de8a6b7e9bf26b7df0bfcabbaf4"
+    },
+    "process_loss_3_previous_recovery_registration": {
+      "path": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/continuation_queue_v5/recovery_registration_v2.json",
+      "sha256": "525f6ed6e838fe267956c54d90d4e6d13d7da3bc710863aca90c35af466782cd"
+    },
+    "process_loss_3_base_queue_registration": {
+      "path": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/continuation_queue_v5/registration.json",
+      "sha256": "a9db8e215f1d32cd215d550319c0fa1646985c54d2167783a7547b3a6ea5312f"
+    },
+    "process_loss_3_pause_native_proof": {
+      "path": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/pause_events/q5_user_pause_1791729696123/native_pause_complete.json",
+      "sha256": "65977f9551a7621f9df0e1701173bf1845794a6c60b7a0d58012237092a98c40"
+    },
+    "process_loss_3_pause_capture": {
+      "path": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/pause_events/q5_user_pause_1791729696123/captured_identities.json",
+      "sha256": "c1b3424abe3345190a8b8cee9d89f024a62cd1ef1bc852ebc9d084b9662681ef"
+    },
+    "process_loss_3_pause_progress_and_observer": {
+      "path": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/pause_events/q5_user_pause_1791729696123/paused_fit_progress_and_observer_snapshot.json",
+      "sha256": "7feba94e10375d50a7fcd565d8fdf4f5ea9f988d2ac0d1d4af76c5b9288e0548"
+    },
+    "process_loss_3_checkpoint_cpu_resume_proof": {
+      "path": "output/analysis/eeg_all_candidates_v1_20261008/recovery_cpu_preflight_labram4s33f1_1791767054086345800.json",
+      "sha256": "2b575b700a086b5a14e668b0f8af563dae81173a5f1f7f0215d9ba7657d6f32e"
+    },
+    "process_loss_3_process_absence_evidence": {
+      "path": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/process_loss_recovery_v3/absence_1791767037388.json",
+      "sha256": "b705bbedcd313ee5a679d684aa26147185f61e86660bdd534a4d986e2ecf0fc0"
+    },
+    "process_loss_3_runtime_process_absence_evidence": {
+      "path": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/continuation_queue_v5/recoveries/process_loss_v3_1791767848030118400/fresh_absence_1.json",
+      "sha256": "03bd2e91e888f9d9ced491b7740506272970d7b5d7a41f44004efcd579a733c7"
+    },
+    "lifecycle_training_registration": {
+      "path": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/continuation_queue_v14/registration.json",
+      "sha256": "93b19228fb8d3f032f87be4072f4ff2fb3a0bbe2d89adce93117896b5bc59742"
+    },
+    "lifecycle_CPU_gate": {
+      "path": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/post_training_cpu_recovery_v1/complete.json",
+      "sha256": "fc3c163fcbd62a73cf4f01cdfb7ddfb919b86dc479dd6f4fc22a01f4f9aa1181"
+    },
+    "lifecycle_CPU_audit": {
+      "path": "output/analysis/eeg_all_candidates_v1_20261008/completed_finetune_checkpoint_audit_v17_1791833719887124200.json",
+      "sha256": "7fa47f81891194cc1e71cf0e0005bc469a0699772091914c3ba5194a1d7656b1"
+    },
+    "lifecycle_post_training_recovery_gate": {
+      "path": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/post_training_cpu_recovery_v1/complete.json",
+      "sha256": "fc3c163fcbd62a73cf4f01cdfb7ddfb919b86dc479dd6f4fc22a01f4f9aa1181"
+    },
+    "lifecycle_training_source_review": {
+      "path": "output/analysis/eeg_all_candidates_v1_20261008/independent_mamba_final15_chain_source_review_1791825762635182800.json",
+      "sha256": "046098ae6b1ba58d57add72390ff71baf5337d51d3b25efd2c9d16e66b68a0ed"
+    }
+  },
+  "same_final_cost": {
+    "path": "output/analysis/eeg_all_candidates_v1_20261008/final_full_plan_cost_1791878935037825200.json",
+    "sha256": "1213c45eaceeb78b0644ade79aa71a9b9638d05a5b7e6bce3f87d4a228515354"
+  },
+  "same_wide_acceptance": {
+    "path": "output/analysis/eeg_all_candidates_v1_20261008/full_plan_acceptance_v9_1791880718467386600.json",
+    "sha256": "a25798add925ba129df97aff7f2c2e2043fc90e568b6977479676d84f27d65aa"
+  },
+  "process_loss_closures": [
+    {
+      "path": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/process_loss_closures/lost_f3_1791597116209422300.json",
+      "sha256": "e56bbb201c067bf0bab31c0d405520fb2860deb12796f088072bb30bdd73de65"
+    },
+    {
+      "path": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/process_loss_closures/lost_f3_v2_1791706969935734100.json",
+      "sha256": "14286a281be2d896653fb717ea2faefb86b84b3d80e572e36795154b746bfc8e"
+    },
+    {
+      "path": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/process_loss_closures/lost_f3_v3_1791767849813215500.json",
+      "sha256": "83d4558818cd8727a4ec4b04d18ebfc18653aed6f3a03a611edb5a41f659e791"
+    }
+  ],
+  "power_review": {
+    "range": {
+      "start": "2026-10-08T11:16:40.945854+08:00",
+      "end": "2026-10-13T16:08:55.027167+08:00"
+    },
+    "timer_inventory_count": 1240,
+    "unknown_exact_endpoint_count": 513,
+    "possible_fit_count": 360,
+    "possible_is_not_proven_interrupted": true,
+    "exact_active_seconds": null,
+    "exact_subtraction_performed": false
+  },
+  "scientific_disclosures": [
+    "全部九候选完成预登记路线，但均未达到匹配控制的工程改善门槛；这不是统计显著性结论。",
+    "三个种子的111条预测仍来自37名独立受试者；阈值pMDD>0.5，等于0.5为HC；未按测试分数选择模型或阈值。",
+    "135个微调终态均更新编码器，最终选中的48个检查点来自head-only热身，87个来自末层微调；不能把终态更新冒充选中检查点的编码器更新。",
+    "EEGMamba私有反向累加顺序及布局已调整，未证明与原CUDA反向梯度逐位等价；未宣称同步或扩大批处理带来加速。",
+    "EEGMamba外部预训练语料与本37名受试者的重叠排除仍未知；公开全文未取得，不称完整论文复现。",
+    "原始包含暂停的计时保留；历史精确有效训练耗时和全部物理操作精确总量未知，仍为null。暂停、守护等待、嵌套时间和已包含的交接额外操作未重复相加。",
+    "三次进程失去的原因、实际退出时点、未落盘尾部及未知耗时保持未知；原running/failed字节保留。",
+    "完整系统事件范围限于登记至最终成本快照；513条未知端点记录采用明确保守包络，360个possible fit不代表360次真实受中断。锁屏/Modern Standby会话时长不等于停止计算时长。",
+    "字节哈希与Tensor反序列化分开记述；全部三份I/O勘误随交付绑定。"
+  ],
+  "post_cost_delivery_work": {
+    "frozen_final_cost_recollected": false,
+    "post_snapshot_actual_failure": {
+      "path": "output/analysis/eeg_all_candidates_v1_20261008/actual_pause_v4_manifest_guard_failure_1791881597248839900.json",
+      "sha256": "4b68f357d86da043b19926f486fdfd8bab8948c5243d4b339fb602331010521a"
+    },
+    "subsequent_source_review": {
+      "path": "output/analysis/eeg_all_candidates_v1_20261008/independent_manifest_metadata_exception_source_review_1791882189866299200.json",
+      "sha256": "b507af33132a73e39f75051085b9db9af1720aa8e0a5cf958a1c3252ffde6cc0"
+    },
+    "successful_final_G3_pause_memory_standby_scope_gates_bound_above": true,
+    "primary_elapsed_seconds_of_post_cost_document_checks": null,
+    "tool_wall_times_not_added_to_primary_training_cost": true,
+    "new_training_optimizer_or_prediction_work": 0
+  },
+  "artifact_assembly_operations": {
+    "new_models": 0,
+    "new_training": 0,
+    "predictions_recomputed": 0,
+    "output_CSV_bytes_hashed": true,
+    "checkpoint_or_signal_arrays_opened": false
+  }
+}

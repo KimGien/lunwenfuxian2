@@ -1,0 +1,15 @@
+# 后续队列与统一评价最终独立审查
+
+2026-10-08：最终16项纯标准库测试全部通过（1.976秒），见 [结果与当前源SHA](continuation_queue_stdlib_final_16tests_audit.json)。没有实际训练 / 评价子进程、GPU 模型前向或优化更新；测试全部使用合成 artifact 和模拟 process。先前9项绿结果及之前观察到的实质失败保留。
+
+完整矩阵保持先前165与剩余195，共360次正式拟合；七候选及两个LaBraM微调均独立执行，不依据冻结成绩删除。真实SSL64、条件工程锁、独占owner、Windows进程树及Linux实际PID/PGID清理、依赖失败继续独立工作、165交接时重新核验产物与来源均通过。
+
+新增评价尾有两道验证。dispatcher先检查冻结执行源和全部360份完成证据，通过后才启动LinuxMamba评价，再启动Windows统一评价；评价入口自身也以同一完整gate为首项操作，模型构造和原始数据读取在之后。失败gate或源文件变更的模拟场景，评价child启动数严格为0。Linux评价失败时Windows统一评价不启动。
+
+评价进程退出0不再足以成功。Linux必须通过 `completed_condition_verified`，核验15个同fold概率bundle、111条OOF、37人、gate/checkpoint/source及字节哈希。Windows必须通过 `completed_report_verified`，确认360正式拟合、23监督条件、345监督模型、435预定快照、9篇结论与所有报告 / CSV / 完成bundle哈希。真实存在但绑定过期的完成文件和gate过期的报告均被CPU verifier拒绝；缺少真实产物也保持failed。
+
+当前 `test_evaluation_frozen` 由本次完整gate实际结果决定，不再仅依据360状态计数。失败gate记录另存版本，成功历史gate保持原字节；当前gate状态单独更新，避免先前成功记录掩盖后续来源错误。
+
+CodeBrain修复登记现已绑定原失败导出全部产物的前后SHA清单；新主manifest不在旧文件前像范围内。原两个owner PID的证据文件已纳入queue源码锁。修复仍仅针对记录中的实际CodeBrain失败，在两个原进程退出后串行versioned export→旧ready_queue恢复。旧源文件与失败产物保持原字节。
+
+本审查验收了队列实现与故障边界，未将尚未完成的正式训练或测试成绩标为完成。真实统一评价仍只能在全部360训练及产物/来源核验通过后由队列启动。
