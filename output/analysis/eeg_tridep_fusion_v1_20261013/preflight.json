@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "checked_at": "2026-10-13T10:36:10.599813+00:00",
+  "units": 375,
+  "rows": 13875,
+  "sources": 9899,
+  "bytes_hashed": 13188359166,
+  "historical_probabilities_exact": true,
+  "historical_ST_grid_exact": true,
+  "old_eeg_metrics_replayed": true,
+  "missing_predictions": 0,
+  "model_loading": 0,
+  "neural_forwards": 0,
+  "checkpoint_validation": "SHA256 of bound checkpoint bytes; existing frozen evaluation provenance reused"
+}

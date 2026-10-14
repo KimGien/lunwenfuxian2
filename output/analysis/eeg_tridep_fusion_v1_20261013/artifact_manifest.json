@@ -1,0 +1,57 @@
+{
+  "files": [
+    {
+      "path": "output/analysis/eeg_tridep_fusion_v1_20261013/baseline_predictions.jsonl",
+      "sha256": "f7ce2b68e85ec0a6ff35ab76c408c61d7982e3a5476c9d8862ddd7638a438cfb"
+    },
+    {
+      "path": "output/analysis/eeg_tridep_fusion_v1_20261013/baseline_selections.json",
+      "sha256": "c107a5325d39d29fb13e3356751d845033499c6aec7c7151a5c41a7040af410f"
+    },
+    {
+      "path": "output/analysis/eeg_tridep_fusion_v1_20261013/cost.json",
+      "sha256": "7d415ef5193bef33208342ec23a74f16b725e06c29b4abaec966aea480a034db"
+    },
+    {
+      "path": "output/analysis/eeg_tridep_fusion_v1_20261013/independent_verification.json",
+      "sha256": "1ed6f49deae8f05242bb3a0da5e0d72247330c56d36cda9ff3fadad60b1c69c8"
+    },
+    {
+      "path": "output/analysis/eeg_tridep_fusion_v1_20261013/paired_changes.jsonl",
+      "sha256": "c5891b1f9d4e2398b9d4f65afc877ca633b1fc73818a08118689cc4208a6d51e"
+    },
+    {
+      "path": "output/analysis/eeg_tridep_fusion_v1_20261013/predictions.jsonl",
+      "sha256": "a1013b30dd7b097d0bddfed024307c668c4bff12e53d11099a931cfe1acb9ea8"
+    },
+    {
+      "path": "output/analysis/eeg_tridep_fusion_v1_20261013/preflight.json",
+      "sha256": "997bf3a26363c53a30427d32f8d6facabd079ea7fcae75373bea05431361ef02"
+    },
+    {
+      "path": "output/analysis/eeg_tridep_fusion_v1_20261013/results.json",
+      "sha256": "39ecbfc2a7edbac44249e8d98e549de2c413c03c5309d1c32ff5c7ad5a2151ab"
+    },
+    {
+      "path": "output/analysis/eeg_tridep_fusion_v1_20261013/selections.json",
+      "sha256": "7d7aff84698afe059545ef4989c6930700dabcb1c5df2ca1c5c474b62ee693a9"
+    },
+    {
+      "path": "output/analysis/eeg_tridep_fusion_v1_20261013/summary.csv",
+      "sha256": "6b29d437ebde1e1428cb5cd761a8891f9cef237b1d359fe12163bcbc4f3c5643"
+    },
+    {
+      "path": "output/analysis/eeg_tridep_fusion_v1_20261013/unit_sources.json",
+      "sha256": "28f8290df902e3485793cdb719505fe87d509677d95df372256cc062ecba145c"
+    },
+    {
+      "path": "output/analysis/eeg_tridep_fusion_v1_20261013/九篇EEG接入TRI-DEP融合完成报告.md",
+      "sha256": "48a3451c700221e470a1f37e9cc67bc720f83c565a7beaf43b8af2a32b94d99c"
+    }
+  ],
+  "registration": {
+    "path": "tridep_ccml/experiments/EEG-TriDep-Fusion-v1-37-20261013/registration_v2.json",
+    "sha256": "eb403793d97ee9ea486bfef5f41a4187c15522c41bebc575f10d3fc48278291f"
+  },
+  "execution_attempt": "tridep_ccml/experiments/EEG-TriDep-Fusion-v1-37-20261013/attempt_1791887569733604100"
+}

@@ -1,0 +1,59 @@
+{
+  "execution": {
+    "passed": true,
+    "ended_at": "2026-10-13T10:37:04.552728+00:00",
+    "elapsed_seconds": 254.81891450000694,
+    "units": 375,
+    "views": 1500,
+    "validation_selections": 375,
+    "validation_candidate_scores": 86625,
+    "baseline_grid_replays": 30,
+    "baseline_grid_scores": 3780,
+    "new_training": 0,
+    "optimizer_updates": 0,
+    "model_loads": 0,
+    "neural_forwards": 0,
+    "asr": 0,
+    "source_hashes_after_verified": 9899,
+    "independent_verification_pending": true
+  },
+  "independent_verification_seconds": 31.80500540000503,
+  "all_attempts": [
+    {
+      "attempt": "attempt_1791887424322881900",
+      "status": "failed.json",
+      "record": {
+        "ended_at": "2026-10-13T10:31:11.392888+00:00",
+        "elapsed_seconds": 47.069790800014744,
+        "error_type": "KeyError",
+        "error": "'test_ids'"
+      }
+    },
+    {
+      "attempt": "attempt_1791887569733604100",
+      "status": "execution_complete.json",
+      "record": {
+        "passed": true,
+        "ended_at": "2026-10-13T10:37:04.552728+00:00",
+        "elapsed_seconds": 254.81891450000694,
+        "units": 375,
+        "views": 1500,
+        "validation_selections": 375,
+        "validation_candidate_scores": 86625,
+        "baseline_grid_replays": 30,
+        "baseline_grid_scores": 3780,
+        "new_training": 0,
+        "optimizer_updates": 0,
+        "model_loads": 0,
+        "neural_forwards": 0,
+        "asr": 0,
+        "source_hashes_after_verified": 9899,
+        "independent_verification_pending": true
+      }
+    }
+  ],
+  "new_training": 0,
+  "neural_forwards": 0,
+  "source_hash_bytes": 13188359166,
+  "note": "Hash I/O included in wall time; retries preserved."
+}
