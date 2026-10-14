@@ -1,0 +1,104 @@
+"""Native/WSL child admission for new Q6 repair execution; stdlib only.
+
+Actual parent and child identities are captured afresh. No process is stopped,
+resumed, or killed. Default import performs no inventory/GPU/record operation.
+"""
+from __future__ import annotations
+import os
+from pathlib import Path
+import sys
+import time
+from . import storage as S
+from . import qualify_deterministic_repairs_v3 as Q
+
+SOURCE=Path(__file__).resolve()
+ROOT=S.OUT/'continuation_queue_v6'
+WORKER_MODULE='tridep_ccml.eeg_all_candidates.repair_owned_worker_v1'
+QUEUE_MODULE='tridep_ccml.eeg_all_candidates.continuation_queue_v6'
+
+def require(ok,message):
+    if not ok:raise ValueError(message)
+
+def queue_roles(items,pid):
+    own=next((x for x in items if x['pid']==pid),None)
+    require(own is not None and QUEUE_MODULE in own['command'],'Exact native Q6 dispatcher absent')
+    roles=[own]
+    parent=next((x for x in items if x['pid']==own['parent']),None)
+    if parent:
+        require(parent['command']==own['command'],'Unknown experimental queue parent')
+        roles.append(parent)
+    return roles
+
+def validate_native(items,owner,admission,*,worker_pid,platform):
+    require(owner.get('id')==admission.get('queue_owner_id')
+            and owner.get('execution_version')==6 and owner.get('child_token')==admission.get('token')
+            and owner.get('child_job')==admission.get('job'),'Current actual child/queue lease differs')
+    roles=list(owner['native_roles'])
+    for role in roles:
+        require(any(x==role for x in items),'Parent native birth/command/parent changed')
+    launch=next((x for x in items if x['pid']==owner['child_pid']),None)
+    require(launch is not None and launch==owner['child_native_identity']
+            and launch['parent']==owner['pid']
+            and WORKER_MODULE in launch['command'] and admission['token'] in launch['command'],
+            'Exact bound child launcher absent')
+    roles.append(launch)
+    if platform=='win32':
+        actual=next((x for x in items if x['pid']==worker_pid),None)
+        require(actual is not None,'Actual Python child identity absent')
+        if worker_pid!=launch['pid']:
+            require(actual['parent']==launch['pid'] and actual['command']==launch['command'],
+                    'Native Python child outside exact launcher tree')
+            roles.append(actual)
+    else:
+        require(platform=='linux' and 'wsl.exe' in launch['command'].lower(),'Actual WSL launcher required')
+    allowed={(x['pid'],x['birth']) for x in roles}
+    require(all((x['pid'],x['birth']) in allowed for x in items),'Another experimental process remains')
+    return roles
+
+def enter(binding,token,*,condition,repair_registration):
+    path=S.checked(binding)
+    require(path.is_relative_to((ROOT/'attempts').resolve()) and path.name=='worker_admission.json',
+            'Canonical actual worker admission required')
+    admission=S.read(path)
+    require(admission['token']==token and admission['condition']==condition
+            and admission['repair_registration']==repair_registration
+            and admission['source']==S.desc(SOURCE)
+            and admission['worker_source']==S.desc(SOURCE.with_name('repair_owned_worker_v1.py')),
+            'Actual worker/source/condition registration differs')
+    require(admission['queue_source']==S.desc(SOURCE.with_name('continuation_queue_v6.py'))
+            and admission['queue_registration']==S.desc(ROOT/'registration.json'),'Actual source6 registration changed')
+    registration=S.read(S.checked(admission['queue_registration']))
+    require(registration['schema']=='eeg_deterministic_repair_queue_v6' and registration['version']==6
+            and registration['repair_registrations'][condition]==repair_registration,'Actual Q6 condition job differs')
+    for descriptor in registration['sources']:S.checked(descriptor)
+    # Parent publishes Popen PID plus full native birth before admitting model
+    # work. Waiting is bounded and does not initialize a CUDA context.
+    deadline=time.monotonic()+20
+    while True:
+        Q.check_pause()
+        require(not (S.OUT/'continuation_queue_v5/owner.json').exists(),'Old Q5 owner remains')
+        owner=S.read(ROOT/'owner.json')
+        if owner.get('child_native_identity') and owner.get('child_token')==token:break
+        require(time.monotonic()<deadline,'Parent has not bound actual child birth')
+        time.sleep(.1)
+    items=Q.host_inventory()
+    roles=validate_native(items,owner,admission,worker_pid=os.getpid(),platform=sys.platform)
+    gpu=Q.gpu_empty()
+    identity={'pid':os.getpid(),'parent':os.getppid(),'platform':sys.platform,'native_roles':roles,
+              'source':admission['worker_source'],'owner_verifier_source':S.desc(SOURCE),
+              'queue_owner_id':owner['id'],'admission':binding,'GPU_before_runtime':gpu,
+              'linux_start_ticks':Path('/proc/self/stat').read_text().rsplit(')',1)[1].split()[19] if sys.platform=='linux' else None}
+    S.save(path.parent/'worker_owner.json',identity,immutable=True)
+    return admission,identity
+
+def require_live(admission,identity):
+    Q.check_pause()
+    require(not (S.OUT/'continuation_queue_v5/owner.json').exists(),'Old owner appeared')
+    require(S.desc(SOURCE)==identity['owner_verifier_source'],'Runtime owner verifier changed')
+    owner=S.read(ROOT/'owner.json')
+    roles=validate_native(Q.host_inventory(),owner,admission,worker_pid=os.getpid(),platform=sys.platform)
+    require(roles==identity['native_roles'],'Actual child tree/creation identity changed')
+    if sys.platform=='linux':
+        require(Path('/proc/self/stat').read_text().rsplit(')',1)[1].split()[19]==identity['linux_start_ticks'],
+                'Actual Linux worker birth changed')
+    return S.desc(ROOT/'owner.json')
