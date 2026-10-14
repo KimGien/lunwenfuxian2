@@ -1,0 +1,44 @@
+{
+  "schema": "fusion_recorded_cost_v1",
+  "formal_fits": 1200,
+  "optimizer_updates": 455944,
+  "formal_train_recorded_seconds": 2461.017971204652,
+  "validation_recorded_seconds": 88.84352359213517,
+  "checkpoint_writes_recorded_seconds": 1464.5960167006415,
+  "feature_export_recorded_seconds": 610.1973097998125,
+  "EEG_export_records_with_timing": 210,
+  "E00_ST_source_cache_replay_total_seconds": null,
+  "source_registration_audit_total_seconds": null,
+  "selected_model_evaluation_recorded_seconds": 1.160648998687975,
+  "independent_second_test_replay_total_seconds": null,
+  "engineering_recovery_total_seconds": null,
+  "engineering_benchmark": {
+    "path": "tridep_ccml/experiments/Fusion-EEG15-Methods5-v2-37-20261013/engineering/complete.json",
+    "sha256": "11b263897ac5366b48bc9c2427be71e719abffa059c43b782362d3b65208305a"
+  },
+  "failed_startup_attempts": [
+    {
+      "kind": "historical plan post-training edit rejected by old registration loader",
+      "cost_unknown_seconds": null,
+      "original_sources_preserved": true
+    },
+    {
+      "kind": "original CNN per-person forward differs from sealed batch16; exact sealed batch restored in v3",
+      "repeated_forward_cost_unknown_seconds": null,
+      "no_optimizer_updates": true
+    }
+  ],
+  "recovery_events": [],
+  "failure_evidence": [
+    {
+      "path": "tridep_ccml/experiments/Fusion-EEG15-Methods5-v2-37-20261013/control/failure_1791902768572808100.json",
+      "sha256": "2427209c170ecf97b0b9d4791954e82935910b9b7dc8952a7d23cf1b140049d8"
+    }
+  ],
+  "unknown_uncommitted_update_or_exit_tails": null,
+  "all_process_active_training_seconds": null,
+  "combined_total_seconds": null,
+  "interpretation": "These are separately recorded elapsed categories, not a complete active compute total. Unmeasured admission, recovery, final replay and failure tails remain null. No overlapping wall envelope is added.",
+  "all_OS_low_power_windows_reconstructed": false,
+  "OS_scope_note": "Final system event evidence and sleep/pause influence must be checked separately; no blanket uninterrupted-runtime claim."
+}
