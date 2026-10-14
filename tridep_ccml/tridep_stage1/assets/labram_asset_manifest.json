@@ -1,0 +1,114 @@
+{
+  "official_repository": "https://github.com/935963004/LaBraM",
+  "official_revision": "c431221e6cfd23dbfa9950e0180682fb322b0548",
+  "official_tree_url": "https://api.github.com/repos/935963004/LaBraM/git/trees/c431221e6cfd23dbfa9950e0180682fb322b0548?recursive=1",
+  "official_checkpoint_name": "labram-base.pth",
+  "timm_helper_repository": "https://github.com/huggingface/pytorch-image-models",
+  "timm_helper_tag": "v0.4.12",
+  "timm_helper_revision": "7096b52a613eefb4f6d8107366611c8983478b19",
+  "downloaded_at_Asia_Shanghai": "2026-10-05T11:06:22.577559+08:00",
+  "files": [
+    {
+      "path": "vendor/labram/modeling_finetune.py",
+      "url": "https://raw.githubusercontent.com/935963004/LaBraM/c431221e6cfd23dbfa9950e0180682fb322b0548/modeling_finetune.py",
+      "sha256": "7b3514c9a661ebd417a2dd9834a9f2fab0a2e518c8212c73ebebaaa165c29d88",
+      "bytes": 21273,
+      "upstream_git_blob_sha1": "611bf7a8a36a25f7035cc45fcff0ca47fe971f79"
+    },
+    {
+      "path": "vendor/labram/modeling_pretrain.py",
+      "url": "https://raw.githubusercontent.com/935963004/LaBraM/c431221e6cfd23dbfa9950e0180682fb322b0548/modeling_pretrain.py",
+      "sha256": "c5a013c9a220b14697556e12195a8bfb5ba29a79031fadffc545bea8bd463b6a",
+      "bytes": 14205,
+      "upstream_git_blob_sha1": "5031482130cb74a722a543f6d3f0ab86e2fbd995"
+    },
+    {
+      "path": "vendor/labram/utils.py",
+      "url": "https://raw.githubusercontent.com/935963004/LaBraM/c431221e6cfd23dbfa9950e0180682fb322b0548/utils.py",
+      "sha256": "c5ad729bd57ab31e04572f426d94f7fb164ef0fbfd1f7076da6bf8dfbd833e32",
+      "bytes": 29167,
+      "upstream_git_blob_sha1": "65cfe1b2d4b1fdc71a954e47df30867d708a402b"
+    },
+    {
+      "path": "vendor/labram/engine_for_finetuning.py",
+      "url": "https://raw.githubusercontent.com/935963004/LaBraM/c431221e6cfd23dbfa9950e0180682fb322b0548/engine_for_finetuning.py",
+      "sha256": "7e0e8dad3f208645ac3c966ef356433b84def3f371852daf2858778562726f92",
+      "bytes": 8664,
+      "upstream_git_blob_sha1": "9a5ac6ac6bb141c339dd869d84b82d70a220d6ca"
+    },
+    {
+      "path": "vendor/labram/run_class_finetuning.py",
+      "url": "https://raw.githubusercontent.com/935963004/LaBraM/c431221e6cfd23dbfa9950e0180682fb322b0548/run_class_finetuning.py",
+      "sha256": "5aeeb1290ed5a1e2be0ba7244181864d86ebd8d3f67489c46f27979b50fd57dc",
+      "bytes": 27263,
+      "upstream_git_blob_sha1": "a09a62f32546574c8600be7132df124910c8e540"
+    },
+    {
+      "path": "vendor/labram/README.md",
+      "url": "https://raw.githubusercontent.com/935963004/LaBraM/c431221e6cfd23dbfa9950e0180682fb322b0548/README.md",
+      "sha256": "e5f410f36a9f97601dfef910958ed7a605f35b4ad1cae3d1d93793e61a17ba40",
+      "bytes": 6024,
+      "upstream_git_blob_sha1": "9ba0d1a4602ffb6fefa68c203650fc40e2a0314a"
+    },
+    {
+      "path": "vendor/labram/LICENSE",
+      "url": "https://raw.githubusercontent.com/935963004/LaBraM/c431221e6cfd23dbfa9950e0180682fb322b0548/LICENSE",
+      "sha256": "bc3f03e2c9071fb40507f5c575d95eeaa98d07c54c54fb2855942b2a729adc71",
+      "bytes": 1070,
+      "upstream_git_blob_sha1": "2208a148ac666cdf09a18dd6e355df8ed051f672"
+    },
+    {
+      "path": "vendor/labram/requirements.txt",
+      "url": "https://raw.githubusercontent.com/935963004/LaBraM/c431221e6cfd23dbfa9950e0180682fb322b0548/requirements.txt",
+      "sha256": "f98d3c692a93173a83cab693a36c6857b402ac948766c332e2db1c35b03442be",
+      "bytes": 118,
+      "upstream_git_blob_sha1": "4865b07f3a7fc07c485ded82a6b025b267ddd6be"
+    },
+    {
+      "path": "assets/labram-base.pth",
+      "url": "https://raw.githubusercontent.com/935963004/LaBraM/c431221e6cfd23dbfa9950e0180682fb322b0548/checkpoints/labram-base.pth",
+      "sha256": "7c50583826afac76c4ab18f43d958df40496c8229accc09ed6a227c9bb57c37c",
+      "bytes": 96612769,
+      "upstream_git_blob_sha1": "221148b5af403e9178629bb61e94b2e7d89ef172"
+    },
+    {
+      "path": "vendor/timm_helpers/drop.py",
+      "url": "https://raw.githubusercontent.com/huggingface/pytorch-image-models/7096b52a613eefb4f6d8107366611c8983478b19/timm/models/layers/drop.py",
+      "sha256": "99cd8bf3d9e503ca4633264141fda078662e4bb7e94367a17c7a5fda646eab4d",
+      "bytes": 6938,
+      "upstream_git_blob_sha1": null
+    },
+    {
+      "path": "vendor/timm_helpers/helpers.py",
+      "url": "https://raw.githubusercontent.com/huggingface/pytorch-image-models/7096b52a613eefb4f6d8107366611c8983478b19/timm/models/layers/helpers.py",
+      "sha256": "a4765afa3f3147e0562e07e5172cefb709fda359b9dade55fff29ab8c90ebad0",
+      "bytes": 748,
+      "upstream_git_blob_sha1": null
+    },
+    {
+      "path": "vendor/timm_helpers/weight_init.py",
+      "url": "https://raw.githubusercontent.com/huggingface/pytorch-image-models/7096b52a613eefb4f6d8107366611c8983478b19/timm/models/layers/weight_init.py",
+      "sha256": "11b84ad1e7236bae192787972e90d5b3b90bb1eba6241952cd681b1bdbf91cbe",
+      "bytes": 3324,
+      "upstream_git_blob_sha1": null
+    },
+    {
+      "path": "vendor/timm_helpers/LICENSE",
+      "url": "https://raw.githubusercontent.com/huggingface/pytorch-image-models/7096b52a613eefb4f6d8107366611c8983478b19/LICENSE",
+      "sha256": "71b111620fa32c17a80ccd6db2da759d31a591e497d8b5f382174f59d1b59d49",
+      "bytes": 11343,
+      "upstream_git_blob_sha1": null
+    }
+  ],
+  "author_input_contract": {
+    "physical_unit": "microvolts",
+    "sampling_rate_hz": 200,
+    "amplitude_divisor": 100,
+    "patch_samples": 200,
+    "embedding_dim": 200,
+    "max_patches_per_channel": 16,
+    "channel_index": "official utils.standard_1020.index(name) + 1; CLS=0"
+  },
+  "runtime_import_adapter": "Exact official modeling_finetune.py AST; replace only timm helper imports with pinned official helper modules and unused model-registration decorator with identity. No architecture/forward code edits.",
+  "physical_scale_selection": "No subject labels, validation/test scores or data normalization choose unit scale."
+}
