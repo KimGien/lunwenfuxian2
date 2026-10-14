@@ -1,0 +1,74 @@
+[
+  {
+    "method": "MMDynamics",
+    "repository": "TencentAILabHealthcare/mmdynamics",
+    "commit": "06a2bb8a66953be77c53e6a027bc04193c5bdca4",
+    "path": "model.py",
+    "local_path": "tridep_ccml/fusion_eeg_grid_v2/vendor/MMDynamics/model.py",
+    "git_blob": "b6dd24afdbaef42fc4ca24aec6c5b2b259b157d1",
+    "url": "https://github.com/TencentAILabHealthcare/mmdynamics/blob/06a2bb8a66953be77c53e6a027bc04193c5bdca4/model.py"
+  },
+  {
+    "method": "ECML",
+    "repository": "jiajunsi/RCML",
+    "commit": "c9c5ab41e6fe62a85e5f6441a4dc7b568e1fa421",
+    "path": "model.py",
+    "local_path": "tridep_ccml/fusion_eeg_grid_v2/vendor/ECML/model.py",
+    "git_blob": "14e1c5f2379958111ba8fe3b2f25a8e22ef486f4",
+    "url": "https://github.com/jiajunsi/RCML/blob/c9c5ab41e6fe62a85e5f6441a4dc7b568e1fa421/model.py"
+  },
+  {
+    "method": "ECML",
+    "repository": "jiajunsi/RCML",
+    "commit": "c9c5ab41e6fe62a85e5f6441a4dc7b568e1fa421",
+    "path": "loss_function.py",
+    "local_path": "tridep_ccml/fusion_eeg_grid_v2/vendor/ECML/loss_function.py",
+    "git_blob": "18bdb2e6ba85f7ac5fd840527481fed9f1f1f082",
+    "url": "https://github.com/jiajunsi/RCML/blob/c9c5ab41e6fe62a85e5f6441a4dc7b568e1fa421/loss_function.py"
+  },
+  {
+    "method": "ECML",
+    "repository": "jiajunsi/RCML",
+    "commit": "c9c5ab41e6fe62a85e5f6441a4dc7b568e1fa421",
+    "path": "main.py",
+    "local_path": "tridep_ccml/fusion_eeg_grid_v2/vendor/ECML/main.py",
+    "git_blob": "bfe1cd92b90ce33f621c0a0626aaedd5b9fe4d37",
+    "url": "https://github.com/jiajunsi/RCML/blob/c9c5ab41e6fe62a85e5f6441a4dc7b568e1fa421/main.py"
+  },
+  {
+    "method": "LMF",
+    "repository": "Justin1904/Low-rank-Multimodal-Fusion",
+    "commit": "ea4755124d19bddf7941695215e98f16fbb1fff9",
+    "path": "model.py",
+    "local_path": "tridep_ccml/fusion_eeg_grid_v2/vendor/LMF/model.py",
+    "git_blob": "4c3deb93092fb373766d6b05bd7e871c51f9f4a6",
+    "url": "https://github.com/Justin1904/Low-rank-Multimodal-Fusion/blob/ea4755124d19bddf7941695215e98f16fbb1fff9/model.py"
+  },
+  {
+    "method": "QMF",
+    "repository": "QingyangZhang/QMF",
+    "commit": "fe6c4c6ef7cb23f0a89594ee413d485f1854268b",
+    "path": "RGBD-scene-recognition/models/QMF.py",
+    "local_path": "tridep_ccml/fusion_eeg_grid_v2/vendor/QMF/RGBD-scene-recognition/models/QMF.py",
+    "git_blob": "c148bf84f0e63402b9ec45ead0cb0073e3a359f8",
+    "url": "https://github.com/QingyangZhang/QMF/blob/fe6c4c6ef7cb23f0a89594ee413d485f1854268b/RGBD-scene-recognition/models/QMF.py"
+  },
+  {
+    "method": "QMF",
+    "repository": "QingyangZhang/QMF",
+    "commit": "fe6c4c6ef7cb23f0a89594ee413d485f1854268b",
+    "path": "RGBD-scene-recognition/utils/crl_utils.py",
+    "local_path": "tridep_ccml/fusion_eeg_grid_v2/vendor/QMF/RGBD-scene-recognition/utils/crl_utils.py",
+    "git_blob": "ced694e47fbae7bf85061e9150205ab56dd26e2b",
+    "url": "https://github.com/QingyangZhang/QMF/blob/fe6c4c6ef7cb23f0a89594ee413d485f1854268b/RGBD-scene-recognition/utils/crl_utils.py"
+  },
+  {
+    "method": "QMF",
+    "repository": "QingyangZhang/QMF",
+    "commit": "fe6c4c6ef7cb23f0a89594ee413d485f1854268b",
+    "path": "RGBD-scene-recognition/train_QMF_nyud2.py",
+    "local_path": "tridep_ccml/fusion_eeg_grid_v2/vendor/QMF/RGBD-scene-recognition/train_QMF_nyud2.py",
+    "git_blob": "1d472b6b55fdd134652ead8f0444dc0a99c2cecf",
+    "url": "https://github.com/QingyangZhang/QMF/blob/fe6c4c6ef7cb23f0a89594ee413d485f1854268b/RGBD-scene-recognition/train_QMF_nyud2.py"
+  }
+]
