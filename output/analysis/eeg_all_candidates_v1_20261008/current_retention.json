@@ -1,0 +1,75 @@
+{
+  "policy_id": "s00_original_cbramod_cnn_macro_f1_gt_20261013",
+  "status": "active",
+  "retained_condition_count": 9,
+  "retained_candidate_family_count": 3,
+  "baseline_macro_f1": 0.4494011544011543,
+  "generator_source": {
+    "path": "tridep_ccml/eeg_all_candidates/retention_revision.py",
+    "sha256": "e342df471c234cc259d77b05f8a44656f21ec59ccdca8f150ba968e35ff4a5b6"
+  },
+  "historical_sources_unchanged": [
+    {
+      "path": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/evaluation/complete.json",
+      "sha256": "7cc8a34d33f78497af0e5cc59242d095ddc27d1d8ebd9b64e8e54c48ff3c04a2"
+    },
+    {
+      "path": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/evaluation/evaluation_report.json",
+      "sha256": "b1de11ec111999f7013dfc33f72c01815ec50e69dea4feb4ffa6d744984290b9"
+    },
+    {
+      "path": "output/analysis/eeg_all_candidates_v1_20261008/unified_comparison.csv",
+      "sha256": "5337683aefe6f9135fe79a1a1e3337a3a1bb21283176d1fc168f78523cb6064d"
+    },
+    {
+      "path": "output/analysis/eeg_all_candidates_v1_20261008/oof_probabilities.csv",
+      "sha256": "9472bc2b5c160cb500e67f51aaaadd2d721109906d21515d1f71275b3cb18a90"
+    },
+    {
+      "path": "output/analysis/eeg_all_candidates_v1_20261008/九候选统一完成报告.md",
+      "sha256": "fce2135e2bf74e17d22ec3767cfdbf80a163656c37a77fb915b204d2ec4e8887"
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/evaluate_v13.py",
+      "sha256": "f7bd1be03785ee5d3db7dd1a934eef546d22f790b9f52911f41a477e9f74b410"
+    },
+    {
+      "path": "S00/reports/b0_training_summary.json",
+      "sha256": "60cef962c8685492c0fa1ba924b8e29b0f6eff0d7346befe958a96b24da9f83e"
+    },
+    {
+      "path": "S00/manifests/fold_assignments.json",
+      "sha256": "a28ebe92c94428128313586d3a5524b2f03befcbc473215f4b0b2dcb49c3284d"
+    },
+    {
+      "path": "S00/runs/B0-37/seed_11/probabilities.jsonl",
+      "sha256": "324039a71106e2179e4b889be983da9fae32f1de52efda7803caf2667c338c92"
+    },
+    {
+      "path": "S00/runs/B0-37/seed_22/probabilities.jsonl",
+      "sha256": "2f3429edc84c891bcdc172c3b4295da9a270d9beb4a2de1b2f156bf1360f353c"
+    },
+    {
+      "path": "S00/runs/B0-37/seed_33/probabilities.jsonl",
+      "sha256": "085e303dca9d20af9b55c26077fa008de81e4520291d7b129733ec2c36688675"
+    }
+  ],
+  "artifacts": {
+    "retention_policy_revision_20261013.json": {
+      "path": "output/analysis/eeg_all_candidates_v1_20261008/retention_policy_revision_20261013.json",
+      "sha256": "c10dba9c87a06908b09106650e64dfd362d65169441ed146b00d2d10c170eef3"
+    },
+    "unified_comparison_original_tridep_baseline_20261013.csv": {
+      "path": "output/analysis/eeg_all_candidates_v1_20261008/unified_comparison_original_tridep_baseline_20261013.csv",
+      "sha256": "4924024ccad59739e97b59d1ac4b5d9314532312557b51dc0d197d611901a5ec"
+    },
+    "retained_models_original_tridep_baseline_20261013.json": {
+      "path": "output/analysis/eeg_all_candidates_v1_20261008/retained_models_original_tridep_baseline_20261013.json",
+      "sha256": "8e31927f7a650da4cfb6d4c219d3160a41d0c02df7cccca40d91ab845024dfb5"
+    },
+    "九候选统一完成报告_原TRIDEP基线修订版_20261013.md": {
+      "path": "output/analysis/eeg_all_candidates_v1_20261008/九候选统一完成报告_原TRIDEP基线修订版_20261013.md",
+      "sha256": "f444ca4786ccb10836e742562092e79545e670ddc21bbd9316f46dfe624135c8"
+    }
+  }
+}
