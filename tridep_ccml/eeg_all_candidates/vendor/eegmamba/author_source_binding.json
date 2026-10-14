@@ -1,0 +1,403 @@
+{
+  "repository": "https://github.com/wjq-learning/EEGMamba",
+  "revision": "dbc83fa072744201e8897aeb9f65007b952ad323",
+  "source_modified": false,
+  "archive": {
+    "path": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/assets/source_archives/eegmamba-dbc83fa072744201e8897aeb9f65007b952ad323.zip",
+    "url": "https://codeload.github.com/wjq-learning/EEGMamba/zip/dbc83fa072744201e8897aeb9f65007b952ad323",
+    "sha256": "718fbda3b9064e7be5454cee6fa6b5f0ef83d90eb0b98f86548fa7b1c2cd2837",
+    "bytes": 448837
+  },
+  "files": [
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/.gitignore",
+      "sha256": "b6d5281f2e97bd8507de6697c0d40a8d87be62d9efba7371e1d1749b58cbbe68",
+      "bytes": 5
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/LICENSE",
+      "sha256": "eb839b706e4d7219842e96d7dc33285844abc794292602deb3498be7b699537c",
+      "bytes": 1068
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/README.md",
+      "sha256": "549b99498719cf26677d782d1333c5bd82a0a388c2ba72e8bd04659444f5fa21",
+      "bytes": 4466
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/datasets/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/datasets/bciciv2a_dataset.py",
+      "sha256": "729a9bf76527b0d31560acc62b88800b48c705806aabe0055ed337b8ccd85133",
+      "bytes": 2193
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/datasets/chb_dataset.py",
+      "sha256": "49c039b79fd59d0e37939645d191486b359f7d00112921fac530117b1c7605b9",
+      "bytes": 2152
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/datasets/faced_dataset.py",
+      "sha256": "a9b6ef27aeaaa424a8d2521f06bbcf35e3fc991633d0bedc9ed25f0235275f1e",
+      "bytes": 2192
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/datasets/isruc_dataset.py",
+      "sha256": "0a0c6dee0825319df4e67f2be727af2b78d1bec515de869ab8e02bc1f5cae104",
+      "bytes": 3756
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/datasets/modma_dataset.py",
+      "sha256": "ecf07d7c1da3a1865c1b2fbfaac9eb4f9a7d89cb1edd34c2581dc39f88f1fcf1",
+      "bytes": 2251
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/datasets/mumtaz_dataset.py",
+      "sha256": "2eec3dd63f490fe2747adb2ead8d15a126d875fe51c2d6d3cff90aaa37265ad9",
+      "bytes": 2210
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/datasets/physio_dataset.py",
+      "sha256": "7af1ab084073de1f535d410e4c8cf37a8847d7604bfb67e6642531a9a749b69a",
+      "bytes": 2258
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/datasets/pretraining_dataset.py",
+      "sha256": "2cbb3ae3b0b7ff1f8941649ad206d801314a8ea3f6afd60f41ab68643adc8978",
+      "bytes": 3571
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/datasets/seedv_dataset.py",
+      "sha256": "3908c0e9a94c36faaa60246855b6ce67b12835f6ee37adc2295223a4118d078f",
+      "bytes": 2265
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/datasets/seedvig_dataset.py",
+      "sha256": "259829a4bdd8d871073501e3c321d43244b64fc93ff2cc0af0529649f390e1c4",
+      "bytes": 2177
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/datasets/shu_dataset.py",
+      "sha256": "9c10bc8e0df3f825a31319434f321998915c23cb2f8ae5e26e7b192da2bcbeed",
+      "bytes": 2362
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/datasets/speech_dataset.py",
+      "sha256": "69e5f4455312fd24c1a7c46ded049d9f2fca601fa62588b4c17c94536dccde10",
+      "bytes": 2207
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/datasets/stress_dataset.py",
+      "sha256": "70461c2cecf6026f4988c7e222d10b9d46f006f32c6b5d9031b35e31fb0b0739",
+      "bytes": 2206
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/datasets/tuab_dataset.py",
+      "sha256": "a2e4c5224c5d6492b4a416562639adcb2c7b4a0a68756fb4101960913dd5f0b2",
+      "bytes": 2155
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/datasets/tuev_dataset.py",
+      "sha256": "da78fb2caa0ddc462e59b172f00f2680009b455fef384c1e3bdf05825f8de475",
+      "bytes": 2494
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/figure/EEGMamba.png",
+      "sha256": "2a6b2732c14c3521892d008e9005f6914919e8f6c09fe49591f02a49aca4d389",
+      "bytes": 256433
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/figure/EEGMamba_logo.png",
+      "sha256": "d2e580ced5690221827186a1cd1fdf247e4798957737f7a49121f2c83c132bf2",
+      "bytes": 95574
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/finetune_evaluator.py",
+      "sha256": "56646f96447384920216d84aa1189b4a96c2e16ced3b927a360e6bcc19711ad3",
+      "bytes": 2654
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/finetune_main.py",
+      "sha256": "feb721425c695dfc4ec3f4fc1fe9ea5f856df2711726fd5551239f9c5cd4a1eb",
+      "bytes": 8288
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/finetune_trainer.py",
+      "sha256": "5b83372c83b0766e7ac6e5f24e65922ffae97ff8065bc2dfd72488e0feeee69d",
+      "bytes": 12461
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/models/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/models/eegmamba.py",
+      "sha256": "0c91c8bfcca1dcbae6565be0bc801014ae408b27ab38ddfd7fac7425f04bf509",
+      "bytes": 5228
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/models/model_for_bciciv2a.py",
+      "sha256": "4bd5c95a6059b30f6e5efd8fee67ce9764c3ad50502b1bc5623c513b1338a97b",
+      "bytes": 2126
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/models/model_for_chb.py",
+      "sha256": "f172fd17e62c25e35cb2b4f772a337c7be867c63836d81b9bfd8d319ff1ffb0f",
+      "bytes": 2189
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/models/model_for_faced.py",
+      "sha256": "282254abca4a4b2b964938055dec695fa95b283448fa176a7c57958ab8d6f5be",
+      "bytes": 2114
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/models/model_for_isruc.py",
+      "sha256": "6def937bff0e1629dc661b4177a587d81091c28ccbb946b9223052f31c326816",
+      "bytes": 1552
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/models/model_for_modma.py",
+      "sha256": "36d72ca0b25fea09485d98f6c2b8abe4af4cf7a1bdbc804d4cd8543db69b28e0",
+      "bytes": 2213
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/models/model_for_mumtaz.py",
+      "sha256": "136ef2665167133f0fa73cb60b267482dccdbb720336158638f2f22f6ac2e448",
+      "bytes": 2200
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/models/model_for_physio.py",
+      "sha256": "4d6a6ca7bbdbbb15c983ad655d5a23fb77deaa72fc8198c0b3271fb851fe5aa0",
+      "bytes": 2105
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/models/model_for_seedv.py",
+      "sha256": "6af8732a8c9aaaacfc67dfdcc668ad96536ed2da68f9599dea56b180e4a90eed",
+      "bytes": 2190
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/models/model_for_seedvig.py",
+      "sha256": "3aa65d0429241c74f0503bccf2aaaa5b9287c277c4ab2c3142b22fc8f39afb66",
+      "bytes": 2201
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/models/model_for_shu.py",
+      "sha256": "35bb65ad326b9a8379e73d8c2e91a055809bfc7abc25a4b5c4c2edff702ec670",
+      "bytes": 2201
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/models/model_for_speech.py",
+      "sha256": "a76f2be9739da25ff7695cb9f7b6d6a31227d855b57530e7d2257ec9cd5238e8",
+      "bytes": 2088
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/models/model_for_stress.py",
+      "sha256": "9b399e1c2996e0f160dce3c24acf3a8193ff09ab66bfc5c4c3232e79dd4940aa",
+      "bytes": 2201
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/models/model_for_tuab.py",
+      "sha256": "9ea8e05c67a0dfff5edaa3f65da02594ce91e62b987cce9a9760c12b88cd01b6",
+      "bytes": 2205
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/models/model_for_tuev.py",
+      "sha256": "a0343b3f38e758dfba9cf242399f87e18224ca6d6897a3d0865d1b5163a736a4",
+      "bytes": 2106
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/modules/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/modules/config_mamba.py",
+      "sha256": "14deb712edf00a2218af1f6aa72f3e187c4f83a36ef47a543850e91c18318bc8",
+      "bytes": 390
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/modules/mixer_seq_simple.py",
+      "sha256": "4871b070304f4235436d6bc12ef8f8d91fdc3bb88568dbf1ba8814d0e1825e26",
+      "bytes": 7945
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/preprocessing/README.md",
+      "sha256": "f06d625b4c509c3ccdaea7b030bdcf4368d88b8cffc12e4e2299b714e388f241",
+      "bytes": 32
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/preprocessing/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/preprocessing/preprocessing_for_finetuning/CHB-MIT/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/preprocessing/preprocessing_for_finetuning/CHB-MIT/process1.py",
+      "sha256": "0b04de1966a58a8f526a7c880dd163fa8dc057f838d9cfa61f39d4981b00ae0f",
+      "bytes": 9226
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/preprocessing/preprocessing_for_finetuning/CHB-MIT/process2.py",
+      "sha256": "bdb2cfd714a0264b396b0b2be2f849c613ba8e92463288328644c614acd38838",
+      "bytes": 6871
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/preprocessing/preprocessing_for_finetuning/ISRUC/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/preprocessing/preprocessing_for_finetuning/ISRUC/edf_.py",
+      "sha256": "f0e3489c5193313943dc05c988d94485a0d3859a016f4d553bddf3204ad5ee73",
+      "bytes": 77056
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/preprocessing/preprocessing_for_finetuning/ISRUC/prepare_ISRUC_1.py",
+      "sha256": "938f0228de8c222e3c860f546ad49e39acf6cecf8bbaad88c3488df34f8ec466",
+      "bytes": 3292
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/preprocessing/preprocessing_for_finetuning/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/preprocessing/preprocessing_for_finetuning/preprocessing_SEEDV.py",
+      "sha256": "93975f61734ee75378ea7f962d5813adcabb7b07bb32f640eec25c544a0e10d4",
+      "bytes": 2763
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/preprocessing/preprocessing_for_finetuning/preprocessing_bciciv2a.py",
+      "sha256": "d8ae8a79704f3924b6a5ca2f7dc5fab6f6d4d20f9b5851ffa870942df80c5c67",
+      "bytes": 3259
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/preprocessing/preprocessing_for_finetuning/preprocessing_faced.py",
+      "sha256": "8ed039ecdf5bdb1f320c009ab7eabb1143e88b34fcdd7271eb69bba3aab7ca17",
+      "bytes": 1444
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/preprocessing/preprocessing_for_finetuning/preprocessing_modma.py",
+      "sha256": "a2d8da8fc5ecc3c0a63a1eec92034c78e90e5d4e370616c3f1d1cc79ccf399cd",
+      "bytes": 1727
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/preprocessing/preprocessing_for_finetuning/preprocessing_mumtaz.py",
+      "sha256": "47bcaec678c8e18ef06a3ced40e620a8a54ce45033d6f711876e715a5b32ca56",
+      "bytes": 2831
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/preprocessing/preprocessing_for_finetuning/preprocessing_physio.py",
+      "sha256": "4bcfa76e5076d53f14bcf5e7ad728bf38a67f472c4a51157e799487882ea4bcb",
+      "bytes": 3180
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/preprocessing/preprocessing_for_finetuning/preprocessing_seedvig.py",
+      "sha256": "33a3cf9eec66f2d3ff85efa5bd7c7321918e3e0913e85322c831a429b0e24a52",
+      "bytes": 1560
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/preprocessing/preprocessing_for_finetuning/preprocessing_shu.py",
+      "sha256": "3a3570149af4b53b917aecb26bca0392133b2111639b015471e161b75a5b0f2e",
+      "bytes": 1404
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/preprocessing/preprocessing_for_finetuning/preprocessing_speech.py",
+      "sha256": "8139632992dc8bd9b152ce642da9b8896acb5bf25dcce46624a40d730443783f",
+      "bytes": 3342
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/preprocessing/preprocessing_for_finetuning/preprocessing_stress.py",
+      "sha256": "cadf6b080c062cdec507ca13cf5ba695cc858545a05c8596d5544c1f785125a6",
+      "bytes": 1802
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/preprocessing/preprocessing_for_finetuning/preprocessing_tuab.py",
+      "sha256": "91e22f38601c5505fb3250bc249b7b6f376c3b4b47f4761f93ec7bf20790df8a",
+      "bytes": 9164
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/preprocessing/preprocessing_for_finetuning/preprocessing_tuev.py",
+      "sha256": "0827f732e2e260dab49cd54aaa5f1012c86c9da70cb629350384e85a1d27f38b",
+      "bytes": 8489
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/preprocessing/preprocessing_for_pretraining/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/preprocessing/preprocessing_for_pretraining/preprocessing_p2018_for_pretraining.py",
+      "sha256": "9bfe11539ac7a942771ad74f0ab4f1c7cf381b79aae5e946e6b9114e2b592449",
+      "bytes": 2004
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/preprocessing/preprocessing_for_pretraining/preprocessing_raw_for_pretraining.py",
+      "sha256": "88575634b6762d8959ab4edd317a4ad20e4f5d4f17406671eaa252b89962eb1d",
+      "bytes": 2002
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/preprocessing/preprocessing_for_pretraining/preprocessing_siena_for_pretraining.py",
+      "sha256": "04d02c7c4dc58e8dabe24daf8b410fd0d36640abe88027810aa42c01b17ae579",
+      "bytes": 1865
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/preprocessing/preprocessing_for_pretraining/preprocessing_szbd_for_pretraining.py",
+      "sha256": "639fcbcce689b334cf5c785cf4ef710c23e5a48c56a7d0c5c21b6861665aee1a",
+      "bytes": 1801
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/preprocessing/preprocessing_for_pretraining/preprocessing_tueg_for_pretraining.py",
+      "sha256": "33710ce918c1babd9f45cc7aab342cd03786550bded5faaccb3b0408d0f65577",
+      "bytes": 3777
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/pretrain_main.py",
+      "sha256": "24bf260af20f66eea410b6f29f03f8a1917fbd21763c842b8ca96c3733da07c0",
+      "bytes": 3874
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/pretrain_trainer.py",
+      "sha256": "0b988c372779541404feb3bdbca0163ea43f1eec1db1fd22d9fe5a7388659158",
+      "bytes": 4492
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/pretrained_weights/README.md",
+      "sha256": "d1a0232c9d8e71207fbdb54588cb9d527bbb3eb177facfbcb3f6ff73c5c03a09",
+      "bytes": 157
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/quick_example.py",
+      "sha256": "ba9b8483f25bf60a4c6d706c1e5f233f34ccae639c6e22b9e91a5b9cd6d782a1",
+      "bytes": 801
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/requirements.txt",
+      "sha256": "1e69ba63af4985b12904ef5f262751f452bdeeff8b1be8d97f5d0ff4acce0738",
+      "bytes": 101
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/utils/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/utils/signaltools.py",
+      "sha256": "05424ca0251fd8ccb47b28c677e0337ee019b28fe7e39f08a0e274283cc4870c",
+      "bytes": 8787
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegmamba/utils/util.py",
+      "sha256": "acb07a4c862803a59d219e920a849eba86c968854f4f814b9dad8402aaf252ff",
+      "bytes": 510
+    }
+  ]
+}

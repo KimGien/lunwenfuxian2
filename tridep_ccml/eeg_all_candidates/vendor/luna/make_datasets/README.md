@@ -1,0 +1,152 @@
+Copyright (C) 2025 ETH Zurich, Switzerland. SPDX-License-Identifier: Apache-2.0. See LICENSE file at the root of the repository for details.
+
+# Dataset Preparation Scripts
+
+This directory contains scripts for processing raw datasets into formats suitable for efficient training and evaluation.
+
+## TUEG preparation (`make_tueg_bipolar.py`)
+
+We provide an example script on how to format TUEG into bipolar. This is then used by our pre-training scripts. Make sure to change all of the occurences of `#CHANGEME`. The main processing script follow a very similar pattern to the one explained for `process_raw_eeg.py` here below.
+
+**Prerequisites**:
+-   You must have the raw TUEG dataset downloaded from their official sources.
+
+**Command-Line Usage**:
+The script takes the dataset name, the path to the raw data, and an output directory as arguments.
+
+```bash
+python make_datasets/make_tueg_bipolar.py --in_path /path/to/raw_data --hdf5_file_path /path/to/processed_data
+```
+
+### Arguments:
+-   `--in_path`: The absolute path to the root directory of the downloaded raw EDF files for the TUEG dataset.
+-   `--hdf5_file_path`: The directory where the script will save the procsessed `.h5` files.
+
+---
+
+## Raw EEG Preprocessing (`process_raw_eeg.py`)
+
+Before the datasets can be converted to HDF5, the raw EDF files must first be preprocessed, windowed, and saved as intermediate
+pickle files. The `process_raw_eeg.py` script handles this entire pipeline.
+
+**Key Processing Steps**
+1. **Loads EDF files**: Reads the raw EEG data.
+2. **Selects and orders channels**: Standardizes all recordings to a 21‑channel layout.
+3. **Applies filters**: A band‑pass filter (0.1–75.0 Hz) and a 60 Hz notch filter are applied.
+4. **Resamples data**: All data is resampled to 256 Hz.
+5. **Creates bipolar montage**: Re‑references the signals to the standard TCP bipolar montage.
+6. **Windows data**: Segments the continuous signal into 5‑second windows.
+7. **Generates labels**: Applies labels based on the dataset and specified mode:
+   - **tuab**: Assigns a single file‑level label (normal/abnormal) to all windows from that file.
+    - **tusl**: Assigns a segment‑level label (`bckg`, `seiz`, `slow`) based on the majority label found in the 5‑second window.
+    - **tuar**: Assigns segment‑level artifact labels based on the chosen `--mode` (e.g., a single 0/1 for **Binary** or a per‑channel array for **MultiLabel**).
+8. **Saves segments**: Each 5‑second window (data + label) is saved as a separate `.pkl` file.
+
+**How to Use the Script**
+The script is designed to be run from the command line and requires you to specify which dataset you are processing.
+
+**Prerequisites**
+- You must have the raw **TUH** datasets (**TUAB**, **TUSL**, or **TUAR**) downloaded from their official sources.
+- The required Python packages, including `mne`, `numpy`, `pandas`, and `tqdm`, must be installed.
+
+**Command‑Line Usage**
+```bash
+python make_datasets/process_raw_eeg.py <dataset_name>       --root_dir /path/to/raw_data       --output_dir /processed_eeg [options]
+```
+
+**Arguments**
+- `<dataset_name>`: The dataset to process. Must be one of `tuab`, `tusl`, or `tuar`.
+- `--root_dir`: The absolute path to the root directory of the downloaded raw EDF files for the specified dataset.
+- `--output_dir`: The directory where the script will save the processed `.pkl` files. The script will automatically create `train`, `val`, and `test` subdirectories inside a `processed` folder here.
+- `--processes`: (Optional) The number of CPU cores to use for parallel processing (default: `24`).
+- `--mode`: (Optional) Specifies the labeling mode for the **TUAR** dataset only. Must be one of `Binary`, `MultiBinary`, or `MultiLabel` (default: `Binary`).
+
+**Examples**
+- To process the **TUAB** dataset:
+  ```bash
+  python make_datasets/process_raw_eeg.py tuab         --root_dir /eeg_data/TUAB/edf         --output_dir /processed_eeg
+  ```
+
+- To process the **TUAR** dataset using the **MultiLabel** mode:
+  ```bash
+  python make_datasets/process_raw_eeg.py tuar         --root_dir /eeg_data/TUAR/edf         --output_dir /processed_eeg       --mode MultiLabel
+  ```
+
+---
+
+## HDF5 Conversion (`make_hdf5.py`)
+
+After you have generated the processed `.pkl` files using the script above, the `make_hdf5.py` script is used to bundle these
+thousands of small pickle files into large, efficient HDF5 (`.h5`) files. This is the final step before training.
+
+**How to Use the Script**
+The script is run from the command line and takes the path to your processed data as an argument.
+
+**Command‑Line Usage**
+```bash
+python make_datasets/make_hdf5.py --prepath /processed_eeg [options]
+```
+
+**Arguments**
+- `--prepath` (Required): The absolute path to the directory containing your dataset folders (e.g., `/processed_eeg/`). This directory
+  should contain the `TUAB_data`, `TUSL_data`, etc., folders created by `process_raw_eeg.py`, so this should mirror the `--output_dir` used previously.
+- `--dataset` (Optional): Which dataset to process. Choices: `TUAR`, `TUSL`, `TUAB`, `All` (default: `All`).
+- `--remove_pkl` (Optional): If included, this flag will delete the `processed` directory (containing all the intermediate `.pkl` files)
+  for a dataset after its `.h5` files are successfully created.
+
+**Examples**
+- To convert all datasets found in `/processed_eeg` and remove the `.pkl` files after conversion:
+  ```bash
+  python make_datasets/make_hdf5.py --prepath /processed_eeg --dataset All --remove_pkl
+  ```
+
+- To convert only the **TUAB** dataset and keep the original `.pkl` files:
+  ```bash
+  python make_datasets/make_hdf5.py --prepath /processed_eeg --dataset TUAB
+  ```
+
+  ## Non-TUH Dataset Preprocessing 
+
+  For **non-TUH datasets for LuMamba**, preprocessing and export scripts are provided for:
+  - [**MoBI**](https://springernature.figshare.com/articles/dataset/A_mobile_brain-body_imaging_dataset_recorded_during_treadmill_walking_with_a_brain-computer_interface/5807511?backTo=%2Fcollections%2FA_mobile_brain-body_imaging_dataset_recorded_during_treadmill_walking_with_a_brain-computer_interface%2F3894013&file=10263603) (gait prediction)
+  - [**MODMA**](https://modma.lzu.edu.cn/data/index/) (depression detection)
+  - [**Mumtaz2016**](https://figshare.com/articles/dataset/EEG_Data_New/4244171) (depression detection)
+  - [**TDBrain**](https://brainclinics.com/resources/) (Parkinson's detection)
+  - [**APAVA**](https://osf.io/jbysn/overview) (Alzheimer's detection)
+
+  For **non-TUH datasets for PanLUNA**, preprocessing and export scripts are provided for:
+
+  - Pretraining Datasets:
+     - [**Siena Scalp EEG Database**](https://physionet.org/content/siena-scalp-eeg/1.0.0/) - 29 channel EEG dataset.
+     - [**MIMIC-IV-ECG: Diagnostic Electrocardiogram Matched Subset**](https://physionet.org/content/mimic-iv-ecg/1.0/) - 12 channel ECG dataset.
+     - [**CODE-15%**](https://zenodo.org/records/4916206) - 12 channel ECG dataset.
+     - [**PulseDB**](https://github.com/pulselabteam/PulseDB) - 1 ECG channel and 1 PPG channel.
+  - Fine-tuning Dataset:
+     - [**HMC**](https://physionet.org/content/hmc-sleep-staging/1.1/) - 4 EEG channels and 1 ECG channel.
+     - [**SEED-VII**](https://bcmi.sjtu.edu.cn/home/seed/seed-vii.html) - 62 EEG channels and 1 ECG channel.
+     - [**PTB-XL**](https://physionet.org/content/ptb-xl/1.0.3/) - 12 ECG channels.
+     - [**CSN**](https://physionet.org/content/ecg-arrhythmia/1.0.0/) - 12 ECG channels.
+     - [**CPSC 2018**](https://www.kaggle.com/datasets/physionet/china-physiological-signal-challenge-in-2018) - 12 ECG channels.
+     - [**WESAD**](https://www.kaggle.com/datasets/orvile/wesad-wearable-stress-affect-detection-dataset) - 1 ECG and 1 PPG channel.
+  
+  Scripts can be found in `BioFoundation/make_datasets/` under script names corresponding to the datasets.
+
+  Scripts handle both **preprocessing** and **HDF5 conversion**.
+
+  **How to Use the Script**
+  - Download the dataset of your choice (see link to dataset and user agreement forms).
+  - Select the script corresponding to the dataset of your choice, e.g. use `make_tdbrain_dataset.py` if you want to preprocess and export the TDBRain dataset to HDF5.
+  - The script is run from the command line and takes the path to the raw data directory `prepath` (the original download folder) and `output_path`, the export directory containing your dataset folders (e.g. `./processed_eeg/`).
+  - The script will automatically handle train/test/val splits and create a dataset subfolder in `output_path` containing preprocessed train/test/val HDF5 files.
+
+  **Command-Line Usage**
+  To preprocess and convert the APAVA dataset, where raw .mat files are in `/raw_data/APAVA`:
+    ```bash
+    python make_datasets/make_apava_dataset.py --prepath "/raw_data/APAVA" --output_path "/processed_eeg"
+    ```
+
+  **Notes on file naming**
+  - The `make_<dataset_name>_dataset.py` scripts were tailored to most recent dataset versions on official platforms. File naming and format assumptions in the scripts may have to be adjusted in future versions.
+  - For **Mumtaz2016**, file naming errors were corrected manually (see `(!!!) Important` tags in `make_mumtaz_dataset.py` to perform the necessary checks).
+  - For **PTB-XL**, **CSN** and **CPSC 2018** datasets, go to [MERL ICML 2024 repository](https://github.com/cheliu-computation/MERL-ICML2024/tree/main/finetune/data_split) and download `csv` files providing `train/val/test` splits and provide the path to the folder storing these `csv` files under `--csv_files_dir` argument in corresponding scripts.
+  

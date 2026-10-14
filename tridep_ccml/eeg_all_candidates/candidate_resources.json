@@ -1,0 +1,333 @@
+{
+  "schema_version": 1,
+  "audit_date_Asia_Shanghai": "2026-10-08",
+  "scope": "sources, formal weights, metadata, adapter CPU engineering only; no GPU fitting by resource audit",
+  "download_manifest": "tridep_ccml\\experiments\\EEG-AllCandidates-v1-37-20261008\\assets\\download_manifest.json",
+  "dependency_directory": "tridep_ccml\\experiments\\EEG-AllCandidates-v1-37-20261008\\assets\\python_dependencies",
+  "default_python": "S00/.venv/Scripts/python.exe",
+  "default_python_version": "3.13.14",
+  "torch_version": "2.8.0+cu126",
+  "gpu_name": "NVIDIA GeForce RTX4080 Laptop GPU",
+  "eegmamba_linux_dependency_status": "official Linux runtime ready; CPU strict117keys passed; GPU engineering pending sequential slot",
+  "raw_input": {
+    "path": "tridep_ccml/experiments/TriDep-Stage1-EEG-37-fulltext/cache/input_exports.json",
+    "shape_per_subject": [
+      60,
+      19,
+      1000
+    ],
+    "sample_rate_hz": 200,
+    "physical_calibration_confirmed": false,
+    "reference": "accepted E2v2 unchanged common reference"
+  },
+  "candidates": {
+    "CSBrain": {
+      "source": {
+        "repository": "https://github.com/yuchen2199/CSBrain",
+        "revision": "185aee55b24d0410a830df8dd08d03f675616998",
+        "path": "tridep_ccml\\eeg_all_candidates\\vendor\\csbrain",
+        "binding": "tridep_ccml\\eeg_all_candidates\\vendor\\csbrain\\author_source_binding.json",
+        "archive_sha256": "8a3bd6dedea60648554091498e6d4d792443a20ed284da2a3353bb953f3aea71",
+        "source_files": 72,
+        "source_modified": false
+      },
+      "formal_pretrained_weights": [
+        {
+          "path": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/assets/csbrain/CSBrain.pth",
+          "url": "https://drive.usercontent.google.com/download?id=1Z67je1HQhClyG9XER_zJzFMAKSVNmnF0&export=download&authuser=0&confirm=t",
+          "sha256": "cfcdf9dcb069905e5e02e92fe3d59bd3574e779bf554cc02cb701994a79e99cc",
+          "bytes": 35722626
+        }
+      ],
+      "weights_expected": true,
+      "notes": [
+        "models.CSBrain.CSBrain; D200;12 layers;295 tensor keys strictly loaded on CPU.",
+        "Author Mumtaz data reader divides numeric amplitude by100.",
+        "Register genuine FCz/CPz region topology; do not rename as Fz/Cz."
+      ],
+      "formal_fit_status": "not adjudicated by resource audit"
+    },
+    "REVE": {
+      "source": {
+        "repository": "https://github.com/elouayas/reve_eeg",
+        "revision": "06a7059a07c3dabd80aee60c3dbc1eca4bdbe1c7",
+        "path": "tridep_ccml\\eeg_all_candidates\\vendor\\reve",
+        "binding": "tridep_ccml\\eeg_all_candidates\\vendor\\reve\\author_source_binding.json",
+        "archive_sha256": "c522cf8c9d2a48ee3cfc98f0b713fc219d4ff8bfdd1ac309ed06b5cfb0d33b11",
+        "source_files": 87,
+        "source_modified": false
+      },
+      "formal_pretrained_weights": [
+        {
+          "path": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/assets/reve/model.safetensors",
+          "url": "https://huggingface.co/brain-bzh/reve-base/resolve/dc2a075c287bb2f6c04ee5875bd79535a0f7dba6/model.safetensors",
+          "sha256": "8ecc650619598748286c2457f81f5c6bd12e8bb59db44f7b02af1955c44de8fe",
+          "bytes": 276773456
+        }
+      ],
+      "weights_expected": true,
+      "notes": [
+        "Local Hugging Face wrapper + Base safetensors; D512;22 layers;140 tensor keys.",
+        "Official brain-bzh/reve-positions coordinate resource downloaded and pinned separately.",
+        "Strictly reject missing electrode names; preserve exact author coordinate numbers/scale."
+      ],
+      "formal_fit_status": "not adjudicated by resource audit"
+    },
+    "EEGPT": {
+      "source": {
+        "repository": "https://github.com/BINE022/EEGPT",
+        "revision": "ea7282f698c406cd423ccbedbe9960853761144c",
+        "path": "tridep_ccml/tridep_eegpt/vendor/EEGPT_mcae.py",
+        "sha256": "cfe3d786e6c351e9678f9f7183cd17dab0dfbb131590ef88e3e4a9efae728a95"
+      },
+      "formal_pretrained_weights": [
+        {
+          "path": "work/models/eegpt_author_bound_20261006/eegpt_mcae_58chs_4s_large4E.ckpt",
+          "sha256": "9d63ebc80bba1ad5e3277df4eecfa05d2745e6243a12ff743c4c0a93930dfac0",
+          "bytes": 1020602524,
+          "hash_evidence": "previously accepted strict load binding tridep_eegpt/assets.py"
+        }
+      ],
+      "weights_expected": true,
+      "notes": [
+        "Reuse previously accepted full58chs4s checkpoint and strict loader.",
+        "512 dimensions for new small head; old random projection only for paired duration diagnosis.",
+        "256Hz4s1024 samples; channel dictionary verified historically."
+      ],
+      "formal_fit_status": "not adjudicated by resource audit"
+    },
+    "LUNA": {
+      "source": {
+        "repository": "https://github.com/pulp-bio/BioFoundation",
+        "revision": "f7e94379255c425819c9138ceca60c26bc13b88e",
+        "path": "tridep_ccml\\eeg_all_candidates\\vendor\\luna",
+        "binding": "tridep_ccml\\eeg_all_candidates\\vendor\\luna\\author_source_binding.json",
+        "archive_sha256": "baa31ae8237fc2a78a67c007f7e509baf37119bb98166fabe2b3a308b136c821",
+        "source_files": 427,
+        "source_modified": false
+      },
+      "formal_pretrained_weights": [
+        {
+          "path": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/assets/luna/LUNA_base.safetensors",
+          "url": "https://huggingface.co/PulpBio/LUNA/resolve/999c1af0fd6fbfb43ed47169c61fe9faa49cfe9f/LUNA_base.safetensors",
+          "sha256": "482839ad9152b6948ff166d2a1638637c54b4d91f1cefadbce6312831ba9b11d",
+          "bytes": 26712092
+        }
+      ],
+      "weights_expected": true,
+      "notes": [
+        "Base224 tensor keys loaded strictly; Q4*D64=256 features after8 temporal layers.",
+        "256Hz physical5s1280 samples;40point patches; author per-window/channel unbiased std z score.",
+        "Author MNE standard_1005 nominal head coordinates; actual19 identities retained.",
+        "Pretrained cross_attn query present; downstream classifier learned_agg absent from formal weights."
+      ],
+      "formal_fit_status": "not adjudicated by resource audit",
+      "cpu_adapter_check": {
+        "passed": true,
+        "report": "output\\analysis\\eeg_all_candidates_v1_20261008\\remaining_adapters_cpu_check.json",
+        "adapter_path": "tridep_ccml\\eeg_all_candidates\\adapters\\luna.py",
+        "adapter_sha256": "d026b338653dbd740b29413e6427816797fd26444cebf75d738dcb0d43f9214c"
+      }
+    },
+    "CodeBrain": {
+      "source": {
+        "repository": "https://github.com/jingyingma01/CodeBrain",
+        "revision": "22d350caf68246d2fda4f630ef837420db3fb130",
+        "path": "tridep_ccml\\eeg_all_candidates\\vendor\\codebrain",
+        "binding": "tridep_ccml\\eeg_all_candidates\\vendor\\codebrain\\author_source_binding.json",
+        "archive_sha256": "4ebe7c8324a7a03e6cd54b7aa417bc65881d0c34bfc1089194f19c7ea8739805",
+        "source_files": 43,
+        "source_modified": false
+      },
+      "formal_pretrained_weights": [
+        {
+          "path": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/assets/codebrain/CodeBrain.pth",
+          "url": "https://huggingface.co/YjMajy/CodeBrain/resolve/bef08d2fdb1759685371cc635aad21ce59163689/CodeBrain.pth",
+          "sha256": "d9714b8732c9883a04d022ee66254cd578ae1fa27f5458e6ab7f1aa96e9a7352",
+          "bytes": 60901006
+        }
+      ],
+      "weights_expected": true,
+      "notes": [
+        "Use Models.SSSM.SSSM EEGSSM, not modeling_finetune.NeuralTransformer or tokenizer.",
+        "8 residual blocks;269 tensor keys strictly loaded; D200;5 one-second200point patches.",
+        "Author mask.cuda() replaced at runtime by mask.to(h_s.device); source snapshot bytes unchanged.",
+        "Tokenizer lm_head_t/lm_head_f exist in checkpoint but are excluded from feature forward."
+      ],
+      "formal_fit_status": "not adjudicated by resource audit",
+      "cpu_adapter_check": {
+        "passed": true,
+        "report": "output\\analysis\\eeg_all_candidates_v1_20261008\\remaining_adapters_cpu_check.json",
+        "adapter_path": "tridep_ccml\\eeg_all_candidates\\adapters\\codebrain.py",
+        "adapter_sha256": "a1b9fa21bed78024c13c77e5d784d5a165b51e1c09e0506e267732262382a369"
+      }
+    },
+    "EEGConformer": {
+      "source": {
+        "repository": "https://github.com/eeyhsong/EEG-Conformer",
+        "revision": "9ae149ba62487ceae723277d13adac27837113d2",
+        "path": "tridep_ccml\\eeg_all_candidates\\vendor\\eegconformer",
+        "binding": "tridep_ccml\\eeg_all_candidates\\vendor\\eegconformer\\author_source_binding.json",
+        "archive_sha256": "cab64b3cd845a87acdd7ecbfa233842227dc77a7d7f4b01e2b53d0cb53917a8e",
+        "source_files": 21,
+        "source_modified": false
+      },
+      "formal_pretrained_weights": [],
+      "weights_expected": false,
+      "notes": [
+        "Author convolution +6 attention layers, defaultD40.",
+        "Change spatial convolution22 channels to19 and task readout; random initialization is required.",
+        "No universal pretrained checkpoint is claimed."
+      ],
+      "formal_fit_status": "not adjudicated by resource audit"
+    },
+    "BIOT": {
+      "source": {
+        "repository": "https://github.com/ycq091044/BIOT",
+        "revision": "d138e32634e52ae9fa6ec98ac9c4087b14ca869a",
+        "path": "tridep_ccml\\eeg_all_candidates\\vendor\\biot",
+        "binding": "tridep_ccml\\eeg_all_candidates\\vendor\\biot\\author_source_binding.json",
+        "archive_sha256": "a036f13a1a43a4b62b9d14d16654e453a97d9532f4c34019d2b985cc5edd096b",
+        "source_files": 35,
+        "source_modified": false
+      },
+      "formal_pretrained_weights": [
+        {
+          "path": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/assets/biot/EEG-PREST-16-channels.ckpt",
+          "sha256": "40f55f5d23e83796495616c8145c8336fcff2b901c42e8ba5115223081c2ad70",
+          "bytes": 13791969,
+          "url": "https://raw.githubusercontent.com/ycq091044/BIOT/d138e32634e52ae9fa6ec98ac9c4087b14ca869a/pretrained-models/EEG-PREST-16-channels.ckpt",
+          "from_verified_source_archive": "tridep_ccml/eeg_all_candidates/vendor/biot/pretrained-models/EEG-PREST-16-channels.ckpt"
+        }
+      ],
+      "weights_expected": true,
+      "notes": [
+        "Author PREST16 checkpoint57 tensor keys strictly loaded; D256.",
+        "Build exact16 bipolar differences on unstandardized common-reference raw before95%abs normalization.",
+        "Pretrained10s vs local5s difference disclosed; no missingFz/Cz blocker.",
+        "Last Transformer block contains its own pre-norms; no extra invented output normalization."
+      ],
+      "formal_fit_status": "not adjudicated by resource audit",
+      "cpu_adapter_check": {
+        "passed": true,
+        "report": "output\\analysis\\eeg_all_candidates_v1_20261008\\remaining_adapters_cpu_check.json",
+        "adapter_path": "tridep_ccml\\eeg_all_candidates\\adapters\\biot.py",
+        "adapter_sha256": "75f0f129d25c4736867a19a8f7ef68f43e7935678120b4a5f6ed0f59eb0a70d2"
+      }
+    },
+    "EEG2Rep": {
+      "source": {
+        "repository": "https://github.com/Navidfoumani/EEG2Rep",
+        "revision": "8a72c39c8b5b1c1bd05d527c4187f30965fa5198",
+        "path": "tridep_ccml\\eeg_all_candidates\\vendor\\eeg2rep",
+        "binding": "tridep_ccml\\eeg_all_candidates\\vendor\\eeg2rep\\author_source_binding.json",
+        "archive_sha256": "1b8fcabb851a6e7c08845414c7f8e763d268dd51ca2781775c5ec0a9a2d96b33",
+        "source_files": 25,
+        "source_modified": false
+      },
+      "formal_pretrained_weights": [],
+      "weights_expected": false,
+      "notes": [
+        "No verified universal pretrained checkpoint; independently train eachfold/seed on training subjects.",
+        "Keep SSP, maskedtarget MSE, predictor variance/covariance and EMA; author defaults recorded in source.",
+        "Author copy_weight uses storage alias and trainer resets it each epoch: clone initialtarget once, then independent EMA needed and must be declared.",
+        "SSP samples two subsequences that can overlap; do not silently change mask semantics."
+      ],
+      "formal_fit_status": "not adjudicated by resource audit"
+    },
+    "EEGMamba": {
+      "source": {
+        "repository": "https://github.com/wjq-learning/EEGMamba",
+        "revision": "dbc83fa072744201e8897aeb9f65007b952ad323",
+        "path": "tridep_ccml\\eeg_all_candidates\\vendor\\eegmamba",
+        "binding": "tridep_ccml\\eeg_all_candidates\\vendor\\eegmamba\\author_source_binding.json",
+        "archive_sha256": "718fbda3b9064e7be5454cee6fa6b5f0ef83d90eb0b98f86548fa7b1c2cd2837",
+        "source_files": 78,
+        "source_modified": false
+      },
+      "formal_pretrained_weights": [
+        {
+          "path": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/assets/eegmamba/pretrained_EEGMamba.pth",
+          "url": "https://huggingface.co/weighting666/EEGMamba/resolve/0b060d87acd6f23bf1d0b852bf1726064f335f97/pretrained_EEGMamba.pth",
+          "sha256": "b452bb29ecf1d6131ba82a50c6e13823ec1d660d9009d013e691d19b2916f4fe",
+          "bytes": 13313895
+        }
+      ],
+      "weights_expected": true,
+      "notes": [
+        "Official117 tensor keys downloaded;12 Mamba2 layers; D200; requires mamba_ssm/Triton RMSNorm kernels.",
+        "MixerModel flips hidden_states and residual after each layer; alternating direction, not parallel bidirectional concatenation.",
+        "quick_example incorrectly references CBraMod; use models.eegmamba.EEGMamba.",
+        "No public full text acquired; label author-public-implementation adaptation experiment."
+      ],
+      "formal_fit_status": "not adjudicated by resource audit",
+      "cpu_adapter_check": {
+        "passed": true,
+        "strict_loaded_keys": 117,
+        "adapter_path": "tridep_ccml\\eeg_all_candidates\\adapters\\eegmamba.py",
+        "adapter_sha256": "1b7cef916818654108920efdd99873e0684614750bc9b32cdf6c25d1ca719d2a",
+        "report": "output\\analysis\\eeg_all_candidates_v1_20261008\\eegmamba_cpu_strict_load.json",
+        "neural_forward_calls": 0
+      }
+    }
+  },
+  "reve_position_resource": {
+    "repository": "brain-bzh/reve-positions",
+    "revision": "befa5b57a455b77cf302daf610c2e9ed8140bace",
+    "files": [
+      {
+        "path": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/assets/reve_positions/README.md",
+        "url": "https://huggingface.co/brain-bzh/reve-positions/resolve/befa5b57a455b77cf302daf610c2e9ed8140bace/README.md",
+        "sha256": "e08e7961aaca6d559478f70549c402c4b74278abdd4ced02ddb5cd10beb5e6d1",
+        "bytes": 2301
+      },
+      {
+        "path": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/assets/reve_positions/config.json",
+        "url": "https://huggingface.co/brain-bzh/reve-positions/resolve/befa5b57a455b77cf302daf610c2e9ed8140bace/config.json",
+        "sha256": "8e89acf4d27cf1d24815add8df771e6cf138b68846e60796db57e36f1ec8d6f8",
+        "bytes": 7719
+      },
+      {
+        "path": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/assets/reve_positions/configuration_bank.py",
+        "url": "https://huggingface.co/brain-bzh/reve-positions/resolve/befa5b57a455b77cf302daf610c2e9ed8140bace/configuration_bank.py",
+        "sha256": "148ac1c41478be7bfbcd1575d68fcf6d75076da5dfdf9f682e6742612cc88f73",
+        "bytes": 277
+      },
+      {
+        "path": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/assets/reve_positions/model.safetensors",
+        "url": "https://huggingface.co/brain-bzh/reve-positions/resolve/befa5b57a455b77cf302daf610c2e9ed8140bace/model.safetensors",
+        "sha256": "4b793820b9df0998667deb6c8ce2dbb86b38221d5165c1844bc4971941b13f13",
+        "bytes": 6628
+      },
+      {
+        "path": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/assets/reve_positions/position_bank.py",
+        "url": "https://huggingface.co/brain-bzh/reve-positions/resolve/befa5b57a455b77cf302daf610c2e9ed8140bace/position_bank.py",
+        "sha256": "26ad5d55fb667da7c80bcc8e8512eb35bca33054a3b3e2bcafe4775543aa1cd0",
+        "bytes": 973
+      },
+      {
+        "path": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/assets/reve_positions/positions.json",
+        "url": "https://huggingface.co/brain-bzh/reve-positions/resolve/befa5b57a455b77cf302daf610c2e9ed8140bace/positions.json",
+        "sha256": "f62ca8d7dd4b88e1422ea17348440a41ed0b73b9ff7d12c3b1229492c9b448a5",
+        "bytes": 59729
+      }
+    ]
+  },
+  "engineering_accounting_this_audit": {
+    "gpu_forward_calls": 0,
+    "formal_fits": 0,
+    "synthetic_cpu_optimizer_steps": 3
+  },
+  "eegmamba_linux_runtime": {
+    "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+    "torch": "2.5.1+cu124",
+    "torch_cuda": "12.4",
+    "mamba_ssm": "2.2.4",
+    "causal_conv1d": "1.5.0.post8",
+    "triton": "3.1.0",
+    "distribution": "TRI-DEP-Ubuntu-24.04",
+    "environment": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/assets/eegmamba_linux_env",
+    "base_environment_modified": false,
+    "binding": "tridep_ccml\\experiments\\EEG-AllCandidates-v1-37-20261008\\assets\\eegmamba_linux_runtime.json"
+  }
+}

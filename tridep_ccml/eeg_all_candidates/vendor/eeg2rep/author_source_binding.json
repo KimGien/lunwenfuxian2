@@ -1,0 +1,138 @@
+{
+  "repository": "https://github.com/Navidfoumani/EEG2Rep",
+  "revision": "8a72c39c8b5b1c1bd05d527c4187f30965fa5198",
+  "source_modified": false,
+  "archive": {
+    "path": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/assets/source_archives/eeg2rep-8a72c39c8b5b1c1bd05d527c4187f30965fa5198.zip",
+    "url": "https://codeload.github.com/Navidfoumani/EEG2Rep/zip/8a72c39c8b5b1c1bd05d527c4187f30965fa5198",
+    "sha256": "1b8fcabb851a6e7c08845414c7f8e763d268dd51ca2781775c5ec0a9a2d96b33",
+    "bytes": 180731
+  },
+  "files": [
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eeg2rep/.idea/.gitignore",
+      "sha256": "a9e54fc4f08bc97d82c04bd86ff37d3af84ba9ef4ad87fcfcb438dab622e8aaa",
+      "bytes": 47
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eeg2rep/.idea/24.02.22 EE2Rep Github.iml",
+      "sha256": "95f9be93f2819dc62cd33112f2655d3bc38a36d047ca9465828e42967491c547",
+      "bytes": 410
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eeg2rep/.idea/inspectionProfiles/Project_Default.xml",
+      "sha256": "86f2dda06f967e37ae3b86c7f3999a303bc8be0454107a091a11734d177ba6d0",
+      "bytes": 6251
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eeg2rep/.idea/inspectionProfiles/profiles_settings.xml",
+      "sha256": "9c3cbde9dcb3d1bd9bd6f93494fbcb5361acf5f3de3dc8c699f9cf805a6f223f",
+      "bytes": 228
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eeg2rep/.idea/misc.xml",
+      "sha256": "3e0f58cbd719658a6db65ff520769ee1c28c1f7f319391b3a7724252995c2d7d",
+      "bytes": 326
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eeg2rep/.idea/modules.xml",
+      "sha256": "86f5ecfe1c16d33f55b8112a8d4cb31e3bbf642beccb2c004402e2eae14d69d0",
+      "bytes": 296
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eeg2rep/.idea/vcs.xml",
+      "sha256": "6323e12648862a0a96fc0d7877672817d6cd91e2c2a3c3d78f1090db23c6e88e",
+      "bytes": 167
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eeg2rep/Dataset/Numpy_maker.py",
+      "sha256": "1d177489a05963bef8dc1fb0a979eb655d4bad40a28777c4f280229d34e4220e",
+      "bytes": 10492
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eeg2rep/Dataset/TUAB.py",
+      "sha256": "d5b386df3988c747d4519fb7a70dee61fd2e6795bfff3627406e9f9170c3f481",
+      "bytes": 8806
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eeg2rep/Dataset/TUEV.py",
+      "sha256": "95701e62d4ba989c565fd70b8ea37f049e67fc18cc0ad921117e31580a26c4c2",
+      "bytes": 6695
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eeg2rep/Dataset/data_loader.py",
+      "sha256": "c9e60924b94514f9a29c7c2bbe117e2f54e93e12ac6b1d7f3f743ce8494622ef",
+      "bytes": 13493
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eeg2rep/Fig/EEG2Rep.png",
+      "sha256": "8642554ca9afac470c0f7dab530c0541566cadb4ea4c16910be79630c1d43df5",
+      "bytes": 144411
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eeg2rep/Models/Attention.py",
+      "sha256": "8d639ea0b03b0d1fd4fe5cd36d3e67b23345e853aef8ca0c939bda8c868c2074",
+      "bytes": 11919
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eeg2rep/Models/analysis.py",
+      "sha256": "582569a476c88281eab469953cb92e028aede592455af82f23e61cd838b8f6c7",
+      "bytes": 20416
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eeg2rep/Models/loss.py",
+      "sha256": "024bad42b8aaba8580b28d106b7b42aabe5e826dcb5a0f4fec9427db31241d13",
+      "bytes": 855
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eeg2rep/Models/model.py",
+      "sha256": "aa0a3e28e167f5bf16b8c26458ccfcc2d269e44066d06e1d73efc34d89ed2f88",
+      "bytes": 7837
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eeg2rep/Models/optimizers.py",
+      "sha256": "c01d3e0d056b11105311079d09721036a5d69563235b01f5c56c7e31e67b3f1f",
+      "bytes": 10653
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eeg2rep/Models/utils.py",
+      "sha256": "736a5cab169d7f441e2d0e8ef1decc05a93b6e6a4bf283f0ddf48c1a5e8537bf",
+      "bytes": 10515
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eeg2rep/README.md",
+      "sha256": "7be11716c5d2c3c7edfd402b7d2d74433773f51eb243073b9d395b87b98008ff",
+      "bytes": 3412
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eeg2rep/eval.py",
+      "sha256": "8d3a983cc77ffb0302dc1598b51e7a7865198be602a2c350e98141c72a00a785",
+      "bytes": 4136
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eeg2rep/main.py",
+      "sha256": "7cd1ab838748c14a20a46343f3e7c9ad92958c1920c32f6658a777a851f62eca",
+      "bytes": 5321
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eeg2rep/requirements.txt",
+      "sha256": "79a169ea06e0f309464eaa9bcd67fb0c323a60d944caff862ace08117535b50c",
+      "bytes": 877
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eeg2rep/running.py",
+      "sha256": "0d4591ac9a1a274dcb59f5825523f386155fa8544503b21b437925198b70f8be",
+      "bytes": 9543
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eeg2rep/trainer.py",
+      "sha256": "c14a65487a362e133689bd7fa4ce258d7a1270ead9600b60f247800eca816185",
+      "bytes": 18139
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eeg2rep/utils.py",
+      "sha256": "49d0d9dc245ad2975f384d1037e5527b1fd8bc76c2d1066d93acf1b90b29235f",
+      "bytes": 5317
+    }
+  ]
+}

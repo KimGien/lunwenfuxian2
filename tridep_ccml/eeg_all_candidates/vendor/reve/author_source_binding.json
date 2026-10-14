@@ -1,0 +1,448 @@
+{
+  "repository": "https://github.com/elouayas/reve_eeg",
+  "revision": "06a7059a07c3dabd80aee60c3dbc1eca4bdbe1c7",
+  "source_modified": false,
+  "archive": {
+    "path": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/assets/source_archives/reve-06a7059a07c3dabd80aee60c3dbc1eca4bdbe1c7.zip",
+    "url": "https://codeload.github.com/elouayas/reve_eeg/zip/06a7059a07c3dabd80aee60c3dbc1eca4bdbe1c7",
+    "sha256": "c522cf8c9d2a48ee3cfc98f0b713fc219d4ff8bfdd1ac309ed06b5cfb0d33b11",
+    "bytes": 306407
+  },
+  "files": [
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/CITATION.cff",
+      "sha256": "fc817c8744ec5fe40136dc4cabf487b11e5381e68065123e00eb47619963733b",
+      "bytes": 966
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/LICENSE",
+      "sha256": "21edfbcf8e7aad3e958e8c17405f47626ec5e984649af6461e29947f4cdc1e8b",
+      "bytes": 1096
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/README.md",
+      "sha256": "627d2ed9b85d33a4a406439935f8e7b313c7da70067538a5d8473011be188ce3",
+      "bytes": 5985
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/hf/README.md",
+      "sha256": "82ae9fffafe124550230d5f91da9c439e59acfb883a96cd8a4ecdba36b3f5f0e",
+      "bytes": 315
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/hf/reve-base/.gitattributes",
+      "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+      "bytes": 1519
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/hf/reve-base/README.md",
+      "sha256": "0555caf36c67c6362a7616e7840740682d576fdc1efc5791837a6a0ec54babe2",
+      "bytes": 8690
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/hf/reve-base/config.json",
+      "sha256": "5b74a19202d1aaa5d1814b26b720e4184cd0047f28a672834d390318eed05945",
+      "bytes": 428
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/hf/reve-base/configuration_reve.py",
+      "sha256": "8abbf691a2de914dccb692aa42b987d20815b52dc0642b0db1fd216df4ccbbfb",
+      "bytes": 769
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/hf/reve-base/modeling_reve.py",
+      "sha256": "3292273147a5abc528e5478bab4b29e59ef07aba9c9b9eb12169da8f2f364481",
+      "bytes": 14890
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/hf/reve-positions/.gitattributes",
+      "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+      "bytes": 1519
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/hf/reve-positions/README.md",
+      "sha256": "e08e7961aaca6d559478f70549c402c4b74278abdd4ced02ddb5cd10beb5e6d1",
+      "bytes": 2301
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/hf/reve-positions/config.json",
+      "sha256": "8e89acf4d27cf1d24815add8df771e6cf138b68846e60796db57e36f1ec8d6f8",
+      "bytes": 7719
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/hf/reve-positions/configuration_bank.py",
+      "sha256": "148ac1c41478be7bfbcd1575d68fcf6d75076da5dfdf9f682e6742612cc88f73",
+      "bytes": 277
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/hf/reve-positions/position_bank.py",
+      "sha256": "26ad5d55fb667da7c80bcc8e8512eb35bca33054a3b3e2bcafe4775543aa1cd0",
+      "bytes": 973
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/hf/reve-positions/positions.json",
+      "sha256": "f62ca8d7dd4b88e1422ea17348440a41ed0b73b9ff7d12c3b1229492c9b448a5",
+      "bytes": 59729
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/preprocessing/ISRUC/__init__.py",
+      "sha256": "1a93275fa41141dc7b6d927096a3445f9b2e6aeadc7f4366808d5e3369dbefca",
+      "bytes": 56
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/preprocessing/ISRUC/edf_.py",
+      "sha256": "b734fffac4ecb4872ee35d553ab621f73a13148ed195459cbd32604f79176578",
+      "bytes": 75807
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/preprocessing/ISRUC/prepare_ISRUC.py",
+      "sha256": "c14fd7b4e2176030290e10a09d1d03322fbf56256d0cffc792bf5ce0167399e9",
+      "bytes": 3548
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/preprocessing/README.md",
+      "sha256": "75d977acba8f5584b2b0c3a8642622b495ddacbfd2c3233050252d1ad1e2842e",
+      "bytes": 5944
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/preprocessing/preprocessing_bciciv2a.py",
+      "sha256": "db87bb2e2daba716ebd2bd5261584e0e4c5f8e9d974a9cf22408d84435d087f2",
+      "bytes": 3858
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/preprocessing/preprocessing_faced.py",
+      "sha256": "bcafb70cfbb876ec816fec76f42f82d7a76c2384d0806c097da1e92d000ec1be",
+      "bytes": 1931
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/preprocessing/preprocessing_hmc.py",
+      "sha256": "9a46c5cc41284b3c64cced039eff8562a182295021087cd29094a74a94cb1c0a",
+      "bytes": 4720
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/preprocessing/preprocessing_mumtaz.py",
+      "sha256": "31667ea143e808780f3e9ae2847a13a05acaa1af8d3109eed07f0846ebe3aa06",
+      "bytes": 4052
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/preprocessing/preprocessing_physio.py",
+      "sha256": "c031edea76d75c503b8943182772f0888274e7a5d1b4d70dca4762e5918ad4c9",
+      "bytes": 4606
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/preprocessing/preprocessing_speech.py",
+      "sha256": "d91ff97e5e25c93e11a438535146c295bcd88dffd5da7bb450ad0ddf5784cebc",
+      "bytes": 3736
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/preprocessing/preprocessing_stress.py",
+      "sha256": "3cac67da2e8e0c72c3f94696df70c292a60ad28fef3798934d2df14d57f6a1db",
+      "bytes": 2894
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/pyproject.toml",
+      "sha256": "232524ae78442c55e8432a6d5a8551049df8951719e3399d0f96c5098c848133",
+      "bytes": 2263
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/configs/README.md",
+      "sha256": "ee2f6c586c14892602650c08981410d1acce1f5fcd247bfb1cb218460fb8d894",
+      "bytes": 7466
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/configs/config_dt.yaml",
+      "sha256": "1726b1ec6563a49950873cfe77b60b13bfd9b5ed6df25e24ec3baa0d88f01bf1",
+      "bytes": 969
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/configs/config_train.yaml",
+      "sha256": "2f0786bc515e5f3fb75d2eb5ea1be2dfbed501cc05bc392b9f136baeeb0bd904",
+      "bytes": 1358
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/configs/decoder/base.yaml",
+      "sha256": "6da6d2375b69dd074a7d50d1cf1b8940f05653196be7bcc546766c90d44c7d54",
+      "bytes": 151
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/configs/encoder/base.yaml",
+      "sha256": "ad162dd129c93a466b7e8ada2be1e00e0c1272e95789a9bcb943786680dedb31",
+      "bytes": 171
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/configs/encoder/large.yaml",
+      "sha256": "f1eaf1210958ea01102481f70ed5a577b13799cae736d269fa9fa967ff27d925",
+      "bytes": 173
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/configs/encoder/small.yaml",
+      "sha256": "1ac18e134fc79c7e1898a957f71a8067f329df3240fb1c7e2591d7af7ab09db4",
+      "bytes": 170
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/configs/encoder/tiny.yaml",
+      "sha256": "b0f92e6e82f55c89d22105ae319659c509cf0b1820a2a743686eaa274da1257b",
+      "bytes": 170
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/configs/init/cls_wrapper.yaml",
+      "sha256": "8845102ec00b12a02db6eea561b5afca02194ef2351149d696434acb905af25e",
+      "bytes": 121
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/configs/init/mae.yaml",
+      "sha256": "96a2e30284e68aeec94b18aef37f96004f29000c7bace1b31dd9d896278793c1",
+      "bytes": 226
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/configs/optimizer/adam.yaml",
+      "sha256": "cdbcde70dc6667e43d8963fa572c9953a2913a1f773e6644953cb63d7dda6a19",
+      "bytes": 95
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/configs/optimizer/adamw.yaml",
+      "sha256": "22313b45aed4908ca8955205ded0d716fc58af46dd46a594a63b4d34a741a17c",
+      "bytes": 96
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/configs/optimizer/sgd.yaml",
+      "sha256": "c4019ab6484c7d91972eaa885d3e2004daf9d9dbf24322a334db219f3c89f88d",
+      "bytes": 94
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/configs/optimizer/stable_adamw.yaml",
+      "sha256": "6a1afe79ea2e47e0abb1b3e70a50929258a53b603363dd06d9f91eb2cb229089",
+      "bytes": 109
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/configs/optimizer/stable_adamw_distributed.yaml",
+      "sha256": "f22bc2272c69d38cfef8739423cc313b45c9116d2822d0b5825bdc0950829643",
+      "bytes": 207
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/configs/preprocessing/default.yaml",
+      "sha256": "0c75676f53d5209e4df13c1b2c07918bf17d23b5b84cf01230f85cae046843a1",
+      "bytes": 208
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/configs/resolver.py",
+      "sha256": "c856310d8f5b31ffaf3b922fd8fa00374ac5edd39430b5781f3ef646eaf86c9b",
+      "bytes": 1858
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/configs/scheduler/plateau.yaml",
+      "sha256": "46e91c06e093d0082489a28a12e4fdf33a5cf9fed6478a20729271d21bc16557",
+      "bytes": 86
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/configs/scheduler/plateau_acc.yaml",
+      "sha256": "c0a8ea3343e95542d51f5c790a7d59c46c28691f804d9d791e0801d52178edb0",
+      "bytes": 86
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/configs/scheduler/trapezoid.yaml",
+      "sha256": "208896971908dbfaf708bdb65bf78e3e4cc69128ebed9b45cf5a66eedc0aff17",
+      "bytes": 149
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/configs/task/_none.yaml",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/configs/task/bciciv2a.yaml",
+      "sha256": "8b27f2f27e95597e67babc8ef2c2ade9185364375a71ee68e8ac8804970bcf37",
+      "bytes": 838
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/configs/task/faced.yaml",
+      "sha256": "93d055aeefcf97f9a9344530daaf67ed38444c6ea85ce8f50ad7b077a230a3d4",
+      "bytes": 828
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/configs/task/hmc.yaml",
+      "sha256": "da50045ab83cb937667579936342e4547df421c71e9eb652d8dd05cf9a249674",
+      "bytes": 585
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/configs/task/isruc.yaml",
+      "sha256": "7d0c4450398d1f8cff30e4eedb17837d0489a970cae7ce9bf9c2b740646669ee",
+      "bytes": 617
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/configs/task/moabb_bciciv2a.yaml",
+      "sha256": "cb1dc8e0032b397551ac95270c80d9414ee1246b22e782aa3b5c74f46bdb6447",
+      "bytes": 1332
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/configs/task/mumtaz.yaml",
+      "sha256": "194556651c90081fa176077991244da7d7d5d4dbb07985241c21329839d765f8",
+      "bytes": 739
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/configs/task/optuna_bciciv2a.yaml",
+      "sha256": "2a6cb97153bfa14268dba34865628f79a40e08a10097fddfad8cb5fd8e1111a5",
+      "bytes": 917
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/configs/task/physio.yaml",
+      "sha256": "eec8e80137e125c8bea6a28fd4b26bdd690464ac1d192c20c5aeb94d47a48c14",
+      "bytes": 1132
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/configs/task/speech.yaml",
+      "sha256": "095c73d96526f2002c50c70e4e840e6696ace76a96618d2faa33f68193369224",
+      "bytes": 1048
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/configs/task/stress.yaml",
+      "sha256": "4493fced3001bca1685eb162bc7cef321ebe0c6ecba4a1e95a5a8afaa846e735",
+      "bytes": 709
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/configs/task/tuab.yaml",
+      "sha256": "2922610088ceb1aa1aa61cb0b6f85442842a3890ba134e65897b407e051187b1",
+      "bytes": 606
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/configs/task/tuev.yaml",
+      "sha256": "e57567a53739be21ee60f9c3cc0adc6f0e9ca5e49915ca35089e9af2b0220d19",
+      "bytes": 650
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/configs/validate.py",
+      "sha256": "d87ffe92c0ae2a697d503ce7d72f9b93cddfe2c3bf3d04ce0dc056a39a7f345e",
+      "bytes": 1627
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/downstream_tasks/README.md",
+      "sha256": "0b406ff20a3b26be8e5d7640753341ef1c0d661f8b6abc2f6f92a32d97ff006c",
+      "bytes": 7088
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/downstream_tasks/dataloader_isruc.py",
+      "sha256": "78d0a7a9fba74474f301ed5bb04efab7fc724f788ead610aad713075fc5e84a7",
+      "bytes": 4166
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/downstream_tasks/dataloader_moabb.py",
+      "sha256": "ece0a550619d05f73f6a0953a4394246ad7d83fa05282f182ebbd802ce40b81d",
+      "bytes": 2905
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/downstream_tasks/dataloader_tuh.py",
+      "sha256": "4b37962f27a499e2c802cfb3c5ff1d39e391e67061c9ea27d47f74fbf733365f",
+      "bytes": 4521
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/downstream_tasks/dataloaders.py",
+      "sha256": "9f5b92a77ce0c21190ce493e50b0cc15a6a833f726c9df8975fab37f418f6348",
+      "bytes": 5586
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/downstream_tasks/eval_core.py",
+      "sha256": "88b8e4b4e06963e66be33f942fb99fcb5c2997bf1153cf2cf12971a56e04a1c2",
+      "bytes": 2968
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/downstream_tasks/position_utils.py",
+      "sha256": "0be566b2ec704fa1daabc9a84f40b3e3bfc58ddd41917f85c87f573b99584767",
+      "bytes": 2386
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/downstream_tasks/train_core.py",
+      "sha256": "8366fc468dfff811f1401777b6a92427d4a1c489f8fbb7056c1116f722408d62",
+      "bytes": 6207
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/downstream_tasks/utils.py",
+      "sha256": "b989ec421d710e44e7e735a949025b01aa8e7a1976917ad3199cf433ffbc552b",
+      "bytes": 2707
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/dt.py",
+      "sha256": "2fe20b86a4936c4a4f188648e15e61f8a08fa04caf3e9f2c225782db6842b262",
+      "bytes": 15633
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/dt_opt.py",
+      "sha256": "7059b53823a7e1a9fd944809f509dc280f2403a1566c23175c4a825f48e5ac90",
+      "bytes": 20414
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/eval_dt.py",
+      "sha256": "4a7ae96e549ac97dfe56800febb02005f8566d6784f51922a2f5dafee18faf2b",
+      "bytes": 3738
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/models/backbone.py",
+      "sha256": "632ecd10ddb5efcc6f50a7207b0aa3934e7304438eb3f1db1edfefc3fab3371f",
+      "bytes": 7845
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/models/classifier.py",
+      "sha256": "cf71d0f455df0e9a263363213d75fbf493ffc5d587cd3c1f80cdc90ab961f90f",
+      "bytes": 5055
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/models/encoder.py",
+      "sha256": "933684a3306e16c16926cead0fc8c8c0a9ae99ad9dfaf54dee860c5b335d1b6c",
+      "bytes": 10043
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/models/lora.py",
+      "sha256": "39a5b02198790f5207972d04bd0cc9d0f948f8780c6ba4dca137f626f98b07c8",
+      "bytes": 2870
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/models/mae.py",
+      "sha256": "71578c46dea8b391d76e94b3d4af353fdcfca3df59c9462b6898774133c57822",
+      "bytes": 6607
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/train.py",
+      "sha256": "f0b24bbd4fa8dd914c0e7a770cb6a437dc9fa9ba1510be3624b4a2924f1b6774",
+      "bytes": 4019
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/utils/data_loading.py",
+      "sha256": "9a1d2dcc86f03466d900e9e31010077a47d5f36b67d977cb9b32c10f89c2d606",
+      "bytes": 22497
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/utils/ddp_setup.py",
+      "sha256": "6a94045a874b3cd0674da15e8d9176f8cdded41a02f64a1dfcb3994f1cc5b46d",
+      "bytes": 4288
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/utils/initialization.py",
+      "sha256": "f57a373a1a6a8b956bbfe7f5eae2d9d48405f71c37462af91fe55ee1f4101eb8",
+      "bytes": 4897
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/utils/model_utils.py",
+      "sha256": "eaaa39d1b9cf34974701c85cae0ab14e56082930548354d27b7e22162566f2e1",
+      "bytes": 8185
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/utils/optim.py",
+      "sha256": "897794bfca55e3ca44663deac49d7231c8ec9b484777226d272767c5966c823e",
+      "bytes": 3329
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/utils/stable_adamw.py",
+      "sha256": "486342669b4d7d528d38d2aa4c84b312e14b9b60d73ea31dfc2439f0ce86035c",
+      "bytes": 18525
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/src/utils/stable_adamw_distributed.py",
+      "sha256": "542b335ad91f4e055d3dcbfb28cce08b54961ef79991875348a30c0150ab1ce8",
+      "bytes": 21631
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/reve/uv.lock",
+      "sha256": "ba5e6348ec0f79b87691e411d89bc0ebe5f10ecc69a5ad943854b807c5065079",
+      "bytes": 498334
+    }
+  ]
+}

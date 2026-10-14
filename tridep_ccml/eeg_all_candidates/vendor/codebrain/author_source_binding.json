@@ -1,0 +1,228 @@
+{
+  "repository": "https://github.com/jingyingma01/CodeBrain",
+  "revision": "22d350caf68246d2fda4f630ef837420db3fb130",
+  "source_modified": false,
+  "archive": {
+    "path": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/assets/source_archives/codebrain-22d350caf68246d2fda4f630ef837420db3fb130.zip",
+    "url": "https://codeload.github.com/jingyingma01/CodeBrain/zip/22d350caf68246d2fda4f630ef837420db3fb130",
+    "sha256": "4ebe7c8324a7a03e6cd54b7aa417bc65881d0c34bfc1089194f19c7ea8739805",
+    "bytes": 2858462
+  },
+  "files": [
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/codebrain/.gitignore",
+      "sha256": "615b2fd61342e72c9ca3e014831fb402030c0c2f049a18b69c272ab2755d7c19",
+      "bytes": 24
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/codebrain/Checkpoints/README.md",
+      "sha256": "b5c81155f875eaf39c34bd38aa7df269cd0a4d1dee608d093acd40e06ccbed5b",
+      "bytes": 375
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/codebrain/Datasets/chb_dataset.py",
+      "sha256": "26e2fefe4bfc699b0a1bb9c40036fa9feadbd9971165714af7428bc9e3b7baf8",
+      "bytes": 2113
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/codebrain/Datasets/faced_dataset.py",
+      "sha256": "fb71f6e5f51b6bace681a4c08d06529eed3ec857bb2cb1c4a665d5ff7390bc82",
+      "bytes": 2156
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/codebrain/Datasets/isruc3_dataset.py",
+      "sha256": "055b0f4078cebc8de37ca7b0ffe68abceca65d7a535ef95f99b4efcaeebf430b",
+      "bytes": 3799
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/codebrain/Datasets/isruc_dataset.py",
+      "sha256": "f8d71e54acff9e3284af5422eda5a6eeaf587d32dbdfdb333ad944b8d8462bc9",
+      "bytes": 3661
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/codebrain/Datasets/pretraining_dataset.py",
+      "sha256": "81366bd9474ca0bc314631eaed0f1713ac8bfe6ea7d56f8e2132a729ed2115c1",
+      "bytes": 1022
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/codebrain/Datasets/seedv_dataset.py",
+      "sha256": "c2ac46d8305f35c3c7924a83c2abc46faf8b5723681622b86b4f9951fbacda6e",
+      "bytes": 2161
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/codebrain/Datasets/shu_dataset.py",
+      "sha256": "eec2fed13c3715c5ddb87525fc226dc74ba852784cf9ead9195db6e1c642e0db",
+      "bytes": 2146
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/codebrain/Datasets/speech_dataset.py",
+      "sha256": "96ba317dea62c6511ba34fdc60cccefeacfc1bd7c7061c3a485ee484817c7595",
+      "bytes": 2098
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/codebrain/Datasets/stress_dataset.py",
+      "sha256": "eec2fed13c3715c5ddb87525fc226dc74ba852784cf9ead9195db6e1c642e0db",
+      "bytes": 2146
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/codebrain/Datasets/tuab_dataset.py",
+      "sha256": "065d5febeaf8641c3487efc57f107d5433a2a4958d49b35bd2a393505f0cb12b",
+      "bytes": 2037
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/codebrain/Datasets/tuev_dataset.py",
+      "sha256": "8a9ba74f0bae9a415a7f054b5b0095f845fe9b74e4c82690e3e3b15ebb9741b2",
+      "bytes": 2375
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/codebrain/Downstream/finetune_evaluator.py",
+      "sha256": "435de48c8021e0807e9f5004a749ba5be9fee09825b9e7dd357b250cd3a541ee",
+      "bytes": 2014
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/codebrain/Downstream/finetune_main.py",
+      "sha256": "c18364e4903007cde80e949519291b3ea5a9dc0b8ea51b5449f1b4fd2b5b4f53",
+      "bytes": 7482
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/codebrain/Downstream/finetune_trainer.py",
+      "sha256": "c364ac3f3fe19d38002b82649239c12617eb61ea911281023b3fd428228e4f1e",
+      "bytes": 14765
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/codebrain/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/codebrain/Models/SGConv.py",
+      "sha256": "94f12f897ab4e8784a45d64fb65664184c872e6928159a6759fda2920c488be8",
+      "bytes": 13776
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/codebrain/Models/SSSM.py",
+      "sha256": "e2fe5f7364907129507f3a9e946df9f9e44e10c3511efdcf772fab46d6fa278f",
+      "bytes": 11845
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/codebrain/Models/model_for_chb.py",
+      "sha256": "49c0e8698ca6966e978a4cfd2f49c5acce798603b74b01f07a2abe845b0bc842",
+      "bytes": 2265
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/codebrain/Models/model_for_faced.py",
+      "sha256": "ca98d2a80f17da8e0a4479cda7dd9645fb725b4b95fcce877ae1bc6f2763cbf4",
+      "bytes": 1987
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/codebrain/Models/model_for_isruc.py",
+      "sha256": "e4a87241367d6f348ff475d52e506f18262ed2692afa4339fa65dd9fded305f8",
+      "bytes": 2222
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/codebrain/Models/model_for_seedv.py",
+      "sha256": "e88be6bd84909c00519ed1d8463d298975dbc13971dae188835727cee4e3831d",
+      "bytes": 1730
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/codebrain/Models/model_for_shu.py",
+      "sha256": "8ee6fd16d0aed1ce3a90cff16c2d83d42111f0f138357e10a88ecba4185cc4b3",
+      "bytes": 1740
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/codebrain/Models/model_for_speech.py",
+      "sha256": "76d1cf3b9429fd91d49c3b509547cb596a05e2f79c32088ebc435fd479e886c2",
+      "bytes": 1617
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/codebrain/Models/model_for_stress.py",
+      "sha256": "1b171f3cd3a6161e2e58759e2cf3227ea1ed6718a928102139084b286f6a6b68",
+      "bytes": 1702
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/codebrain/Models/model_for_tuab.py",
+      "sha256": "c9efaceecef847b95576b9bc096a15fe724579ad93f5e32909fc9967df56f45d",
+      "bytes": 1724
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/codebrain/Models/model_for_tuev.py",
+      "sha256": "74ff71c8711c6219ea1238de0fd602c5dcfc8b32e87f023b1f8e4306c582502d",
+      "bytes": 1722
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/codebrain/Models/modeling_finetune.py",
+      "sha256": "38c605f10adb93ad30c0caca483b8626ef58a8be55cea24c2d895a56425f8ad2",
+      "bytes": 18514
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/codebrain/Models/modeling_tokenizer.py",
+      "sha256": "fdedfdca23e1e7cbc2eb24277deb041d1b63ec9c60819f4d367f181b9b3551c2",
+      "bytes": 13176
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/codebrain/Models/norm_ema_quantizer.py",
+      "sha256": "170fbd54e43fcec4b6226410a491e5fa250e9895604058cb4de6783ca8dc3a5b",
+      "bytes": 6975
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/codebrain/Preprocessing/ISRUC_S3.py",
+      "sha256": "78f8f482a8031b2167ac7d80466f05f4f427925902dae16d99bb79a2e51f696b",
+      "bytes": 2998
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/codebrain/Preprocessing/README.md",
+      "sha256": "11d45aeb755390b7f87f50ea6112db26a7234b4d2a6c59d3eff2847c1cbfb3b1",
+      "bytes": 191
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/codebrain/Preprocessing/get_ISRUC_S3.sh",
+      "sha256": "ea0e2937d004c7757fc2d326ba80944a097e448029fb388fb7f291ae635cd6f2",
+      "bytes": 545
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/codebrain/Pretrain/Trainer.py",
+      "sha256": "b798fcb224575744927f51231a969cbd13af6f26b6cd4fc39ceeb038386db237",
+      "bytes": 14708
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/codebrain/Pretrain/pretrain_EEGSSM.py",
+      "sha256": "7bf6fe7dca837669a9d7da6b855bd32435c226e0b26a0088ddc71d5cfd81cc01",
+      "bytes": 5269
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/codebrain/Pretrain/pretrain_TFDual.py",
+      "sha256": "9dcc111fbc1bca96b4fee4a54390ece9cbed6e9fba85b4f4bda14ea2dd294d18",
+      "bytes": 5768
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/codebrain/README.md",
+      "sha256": "8d0df192000cee042e2d443ebd2bee38bb17303ac3a88470288b8925d072485a",
+      "bytes": 1974
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/codebrain/Utils/util.py",
+      "sha256": "4ccbde436e7e2d82973a3b1139922f84eab2d09f3f3adcea923e234c14be97f0",
+      "bytes": 11656
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/codebrain/assets/codes.png",
+      "sha256": "eb1fbd8e38359bc8f7368ccab51416bdf5a3981006d680c2461212a2a0d5855f",
+      "bytes": 861513
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/codebrain/assets/intro.png",
+      "sha256": "3c3e1b4b93e6142f2031a8e051e2be9a320ebe928efb2e0503d7aec8815332a5",
+      "bytes": 1680502
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/codebrain/assets/model.png",
+      "sha256": "f56387a56921da4431fb37b6c04aa22d46404ba6fe8e8a1df6aa46d63023e3d4",
+      "bytes": 358629
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/codebrain/requirements.txt",
+      "sha256": "2b1ba3aea0cd6f45f74b583b8260033d0134936e47c02393dd804a68c85a3e03",
+      "bytes": 212
+    }
+  ]
+}

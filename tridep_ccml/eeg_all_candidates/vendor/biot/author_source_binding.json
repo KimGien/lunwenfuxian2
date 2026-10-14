@@ -1,0 +1,188 @@
+{
+  "repository": "https://github.com/ycq091044/BIOT",
+  "revision": "d138e32634e52ae9fa6ec98ac9c4087b14ca869a",
+  "source_modified": false,
+  "archive": {
+    "path": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/assets/source_archives/biot-d138e32634e52ae9fa6ec98ac9c4087b14ca869a.zip",
+    "url": "https://codeload.github.com/ycq091044/BIOT/zip/d138e32634e52ae9fa6ec98ac9c4087b14ca869a",
+    "sha256": "a036f13a1a43a4b62b9d14d16654e453a97d9532f4c34019d2b985cc5edd096b",
+    "bytes": 38505480
+  },
+  "files": [
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/biot/.gitignore",
+      "sha256": "95ea23ecb0489bcd9a7800b650a66758352b72ab5ba4aebc37096cb2b9ca4121",
+      "bytes": 54
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/biot/LICENSE",
+      "sha256": "65e06960663f5af0a31b0d5ac60c7502861c3ef1c5d41eb9dd1918a94f26eec1",
+      "bytes": 1068
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/biot/README.md",
+      "sha256": "b4a56b3f5a68b71ac06386220995bc669c4a8dcf547294077a459efc007f41af",
+      "bytes": 10215
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/biot/__pycache__/model_bak.cpython-39.pyc",
+      "sha256": "198eefff6a975e40dbcc84c4c12d3ff4ad448ff4167b257bcf8f103b307cd3db",
+      "bytes": 18907
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/biot/__pycache__/utils.cpython-39.pyc",
+      "sha256": "901e917a68badd77211d395839f19e66e8ab82267a86c2e6a488b0912f192f1b",
+      "bytes": 2730
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/biot/datasets/CHB-MIT/process1.py",
+      "sha256": "a1c7d8a6443fa180c22a36e743f53018cf98f5268cda11e7fa47f9b1a1f1e5a6",
+      "bytes": 9199
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/biot/datasets/CHB-MIT/process2.py",
+      "sha256": "0bcc3d289583704fde5b003d155bd5db628f1155e2ab40a17cfddedadb4de09f",
+      "bytes": 6900
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/biot/datasets/SHHS/process.py",
+      "sha256": "2287884bef9acca2a729d419a8db58108ef6924561de11079a032248843b21e6",
+      "bytes": 2890
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/biot/datasets/TUAB/process.py",
+      "sha256": "67550f28109346e28d9ada7860a8e1ce233a8acdbe1072181e8e6a9b06b83d1b",
+      "bytes": 8808
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/biot/datasets/TUEV/process.py",
+      "sha256": "e0390b122395a484fc7bd3edf5d12781f3152bf10b04479a19a0f9d7b543ac60",
+      "bytes": 6705
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/biot/fig/bst.jpg",
+      "sha256": "a32ffd9ea85d99f81c22fb12a66043b3f743f519cc4206a07615e5769f5f8482",
+      "bytes": 219524
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/biot/fig/sentence.jpg",
+      "sha256": "b7f68ab48d52b55ca53871dd1f1c2333132b4dc7f50b139b4e0ed88e92b84db7",
+      "bytes": 415717
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/biot/model/__init__.py",
+      "sha256": "d0d76cfe8736cdc8c283aaae28b714aab0684cdeafee0844f5ed42395ea0f837",
+      "bytes": 259
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/biot/model/__pycache__/__init__.cpython-39.pyc",
+      "sha256": "d49fd6cdce723c8d19b8e6e89989c0e3628c9810fdba859678f78ed8b72e6ca3",
+      "bytes": 455
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/biot/model/__pycache__/biot.cpython-39.pyc",
+      "sha256": "57165b6b474588a3c78d0bf4b7ff9c5c5b217ac2ea4223dc91632189d089f317",
+      "bytes": 7129
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/biot/model/__pycache__/cnn_transformer.cpython-39.pyc",
+      "sha256": "16120a59d1ece3a6368214a11fcc4411881041fd6a33ba54b91f5fbd775b560f",
+      "bytes": 5515
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/biot/model/__pycache__/contrawr.cpython-39.pyc",
+      "sha256": "65c3bad192bb58a34fb49114a891b3c3df4f7c463799ec881e380922682d8d69",
+      "bytes": 4126
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/biot/model/__pycache__/sparcnet.cpython-39.pyc",
+      "sha256": "a10f771d97c608e301ddbbb4a5243caf83bba3e9b43a67bde0abf780423f6833",
+      "bytes": 6804
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/biot/model/__pycache__/st_transformer.cpython-39.pyc",
+      "sha256": "09b22bacd37b31ddafe8e98557173dca0a5938d5c8053e8dbc0aefae50e6fa71",
+      "bytes": 6777
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/biot/model/biot.py",
+      "sha256": "2bba53052a93a005033b27ef89f20037fd7894780ce9da130b823c7c73029e01",
+      "bytes": 6800
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/biot/model/cnn_transformer.py",
+      "sha256": "e6d34e0204bebbe5495d2c41ddce1e650991d6bea893a7883db3cc9218d4f4b6",
+      "bytes": 5608
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/biot/model/contrawr.py",
+      "sha256": "82eba543ee54cbbc6ac29475e7b8f97d6844c58909013add24f9ff8c73dfa771",
+      "bytes": 4157
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/biot/model/ffcl.py",
+      "sha256": "0199d092d6431ebdafebe35f5147e546452502964fefa0d21eace21d9e16bfe3",
+      "bytes": 4555
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/biot/model/sparcnet.py",
+      "sha256": "79a422ee04a850131e8bae2b584206b271633c09b6c09207d9a9a2a9835b3e33",
+      "bytes": 8328
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/biot/model/st_transformer.py",
+      "sha256": "fff6d619843e4c33f390102a039c626e02f98b4dd9f571f146ef9e96e34b9d91",
+      "bytes": 6938
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/biot/pretrained-models/EEG-PREST-16-channels.ckpt",
+      "sha256": "40f55f5d23e83796495616c8145c8336fcff2b901c42e8ba5115223081c2ad70",
+      "bytes": 13791969
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/biot/pretrained-models/EEG-SHHS+PREST-18-channels.ckpt",
+      "sha256": "391b53f77d5060e43746f3ffd5aae8107785f4fd122bf2f87221a1b5b2854a84",
+      "bytes": 13794194
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/biot/pretrained-models/EEG-six-datasets-18-channels.ckpt",
+      "sha256": "78ff15a1782f194286a97b1abe68b2bf100a39803325e2917337d0a77a228542",
+      "bytes": 13794371
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/biot/requirements.txt",
+      "sha256": "4d5731c5262c9cb6a493b37644afd2df6b1a0222906183223a7d87366393de7b",
+      "bytes": 71
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/biot/run_binary_supervised.py",
+      "sha256": "a87c0ab90063255e1eb15d159645ee9e2f94a6fde26c8fcd6bc7eba53a3512e0",
+      "bytes": 13603
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/biot/run_example.py",
+      "sha256": "bd067cb7c19b390827f99842311938365d19bbe0609be638340e24e886834396",
+      "bytes": 3775
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/biot/run_multiclass_supervised.py",
+      "sha256": "871c8d39dec296d9b12020bf24b3b5ab703a327aaddfc5aa6a78f374f678be01",
+      "bytes": 11514
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/biot/run_supervised_pretrain.py",
+      "sha256": "1534d145d25c8af1fe5ff6d950ba9d6fec7d5bb1867aab96c57a6487c5fc89e5",
+      "bytes": 6748
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/biot/run_unsupervised_pretrain.py",
+      "sha256": "d45b9da4689ddbd9f1211596919ccb23009abb790dcdb2d93258b7a0f1dd324b",
+      "bytes": 5125
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/biot/utils.py",
+      "sha256": "db4702ec8db3fa54f29097da39ceffd67c1a21ee605f0716d4bd4c8e172c2d4b",
+      "bytes": 12999
+    }
+  ]
+}

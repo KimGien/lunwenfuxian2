@@ -1,0 +1,2148 @@
+{
+  "repository": "https://github.com/pulp-bio/BioFoundation",
+  "revision": "f7e94379255c425819c9138ceca60c26bc13b88e",
+  "source_modified": false,
+  "archive": {
+    "path": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/assets/source_archives/luna-f7e94379255c425819c9138ceca60c26bc13b88e.zip",
+    "url": "https://codeload.github.com/pulp-bio/BioFoundation/zip/f7e94379255c425819c9138ceca60c26bc13b88e",
+    "sha256": "baa31ae8237fc2a78a67c007f7e509baf37119bb98166fabe2b3a308b136c821",
+    "bytes": 3207109
+  },
+  "files": [
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/.github/workflows/core-smoke.yml",
+      "sha256": "17e26df7ec3737f2d993546cc2ac2b90106572bd3115da62a72925d840d4f0ec",
+      "bytes": 2148
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/.gitignore",
+      "sha256": "9085ffd7aced6570d9e7cc58da889c2e3884019f6c32b235f2a10e3f69cd4404",
+      "bytes": 153
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/NOTICE",
+      "sha256": "67823effff615aade6e210b3e7c5ae014601643aea0fb7aea2770a2a9e6f81ac",
+      "bytes": 2602
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/README.md",
+      "sha256": "66b90a1764022df893d1e40202aa894ff78317534a973f2b0fdce25ba019046f",
+      "bytes": 8834
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/ares/__init__.py",
+      "sha256": "4fc7a732557e3b1fc71a3c1ba075083eb77b8ce6dce912d86a60f9c1566ff2e5",
+      "bytes": 165
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/ares/nn/__init__.py",
+      "sha256": "11faaee809ccdcad7666ae0214d2355ae63bda43a8b33744a68dc700dc5d074a",
+      "bytes": 2163
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/ares/nn/_custom_layers.py",
+      "sha256": "c686ca93d176197341aa4c3f0ed1be9b1bc67adb1232dc36cf51429590fbe8d1",
+      "bytes": 1758
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/ares/nn/activation.py",
+      "sha256": "a0ee7c310e3a26d914dc50c05faa0301334c669c8481f3e6249ae26b50fe400d",
+      "bytes": 935
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/ares/nn/attention.py",
+      "sha256": "af77fb8fdab9d59e270888143e9adc51fb533a387ee340f0e07bee84ab82a46e",
+      "bytes": 524
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/ares/nn/blocks.py",
+      "sha256": "34659f5c51d6f1866d2a06e28ab4e8e7fe0c219738a09d424db2de84b5da5a5a",
+      "bytes": 3406
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/ares/nn/compat.py",
+      "sha256": "f6d2bedf672669530e2fd110d7ef0b31059c7e4d6010a6fa726ba15eecc6ad28",
+      "bytes": 1514
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/ares/nn/conv.py",
+      "sha256": "9579403e3e17894f344707c54bc3b75fd65d83d1b8e6e95c44db06b5ff50384e",
+      "bytes": 585
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/ares/nn/elementwise.py",
+      "sha256": "d777cc8f793ebda8beb69aab6b0ccd18cfddda103d1a97a0529a31dd00641d83",
+      "bytes": 1995
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/ares/nn/embedding.py",
+      "sha256": "668e27c2880ca2e072faa7b4d0dd64f97e110a59306a5f1d3ff0e6d8e169aeca",
+      "bytes": 1088
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/ares/nn/linear.py",
+      "sha256": "f6cc137c8f8452b461fa05c7be4dbf952dffa5f37317173b73709dc73342b82f",
+      "bytes": 580
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/ares/nn/mamba.py",
+      "sha256": "73464997b89cd6a4219904dcc564fad2a6d9ab9c1177be4e6b53b3b362881a7b",
+      "bytes": 448
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/ares/nn/normalization.py",
+      "sha256": "3474c6a61ee84dfaf49c4739d045b29ad50bf8b92821fc8bff2c3d94d9726fe8",
+      "bytes": 1316
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/ares/nn/pooling.py",
+      "sha256": "2502f8f75a1c9d789a566e8c0bd11ac4903b20c67a953ada220e897e8272f3b6",
+      "bytes": 667
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/ares/nn/quant_config.py",
+      "sha256": "c26f278884abbfe82f8501433210ca3defa3204963ed9556902cf43e9e0bc9ca",
+      "bytes": 552
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/ares/nn/reshape.py",
+      "sha256": "59c0cecf074676d860c7bdb6769cfb46f0de041566a1b72c646e55a59e58aaff",
+      "bytes": 1063
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/atomic_ops/README.md",
+      "sha256": "f6a665a88814728e4eca45c6817906831b04577b30e546a6c4c1727c234f3aa0",
+      "bytes": 8807
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/atomic_ops/__init__.py",
+      "sha256": "bb426dc1c67b1fed6b1954274a9a523f56a45c700c0e8f6b38ac59e266f12362",
+      "bytes": 8343
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/atomic_ops/add.py",
+      "sha256": "a84a53454d9c569edc8e3275e9f57d360808f3ff22150d5111b2024727d50a40",
+      "bytes": 5456
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/atomic_ops/alternating_attention.py",
+      "sha256": "40f040c0433824b1e4b72a0388ca6d2f45db0148eb18163f3166e2bdae665d74",
+      "bytes": 15311
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/atomic_ops/avgpool.py",
+      "sha256": "a93ff672188b5bb99eef17376d7f936f030910305a84b97c4608074e35b80d18",
+      "bytes": 5057
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/atomic_ops/classification_head.py",
+      "sha256": "2b0668c658eca3f0946aeae92f2f21a19303b99ec83aa04c9b7c3e9723c2bc31",
+      "bytes": 8967
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/atomic_ops/concat.py",
+      "sha256": "ebd01b1868b68f38d0fe021421fc6d231bb94f425ec3ea40863a00d0319fef9b",
+      "bytes": 6083
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/atomic_ops/constants.py",
+      "sha256": "f88fbfe968bd0bbe77131335075899610e346f85915d0a755445af0105346ce4",
+      "bytes": 1069
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/atomic_ops/conv1d_depthwise.py",
+      "sha256": "9b88add872993dd4a1df3a2617b4141a638e5667afda18fede86bd600874062d",
+      "bytes": 14759
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/atomic_ops/conv2d.py",
+      "sha256": "87c23fdd7620c6264586e99d596f75995c6aac5e2e54a9c1c8e9f6849d5fc9fb",
+      "bytes": 9705
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/atomic_ops/cross_attention.py",
+      "sha256": "276a28eacb2a07e7b0266cfaf811417e88b54d7ace8acc3d55ddd7aff2a17aee",
+      "bytes": 14322
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/atomic_ops/cross_attention_self_refine.py",
+      "sha256": "6703e0f15acd70a3a38d3edf97c80138d79a7e7b86fca9f7623d071eb6e4cdfc",
+      "bytes": 17252
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/atomic_ops/embedding.py",
+      "sha256": "6445f05493372a40a8af23ae71c435bb6aa9f489c04989ecbc84cae9c6f4918d",
+      "bytes": 2235
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/atomic_ops/flatten.py",
+      "sha256": "d3d5c1de686b98feb787efbf49b075596fdb5dd221d60157f0097b36020c106b",
+      "bytes": 7612
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/atomic_ops/flip.py",
+      "sha256": "fde9c4164753f8a2ede878faac5194cd1443e3610fbd10ce093fe31b9e86600d",
+      "bytes": 5326
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/atomic_ops/gelu.py",
+      "sha256": "9c9c7aa24ba5456cdfdd1700e1b9c2b8d5a99af515559b5449b27c7068090cc6",
+      "bytes": 18873
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/atomic_ops/globalavgpool.py",
+      "sha256": "cbe3779483241fd9dce06ea78c31fbb7e632ef67e6aaa4abbbd9e8f45e349263",
+      "bytes": 6592
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/atomic_ops/groupnorm.py",
+      "sha256": "372df416f7494b95679ee0c80df214344007784d2d4316691fd9040133e47e52",
+      "bytes": 6021
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/atomic_ops/kv_cache.py",
+      "sha256": "3edc290a2111f7802e34b37cc346934b9b04d8078026c1cdade5ceea1e398c11",
+      "bytes": 14768
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/atomic_ops/layernorm.py",
+      "sha256": "e07ad509f9987a507ef0ff59e8c4e4ac37e35b46883374b5dd895d5b6028f452",
+      "bytes": 28881
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/atomic_ops/linear.py",
+      "sha256": "dfee7dc9ae6e3a72bfffdcd7fb3aed7d205a145615c7b00d24f3f2741656104a",
+      "bytes": 11194
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/atomic_ops/llama_block.py",
+      "sha256": "d1a29f62a91bd3b99ba31d95c2fa3db65b67504f00ca8421ec986ebcf8284708",
+      "bytes": 20357
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/atomic_ops/maxpool.py",
+      "sha256": "db03d1df2bc5ccdd73e226b81f5cb06ba98931523fe369bab9221735023a6b4e",
+      "bytes": 9712
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/atomic_ops/mhsa.py",
+      "sha256": "a871d5e8e372b135f113eeb627cfad1877a165cfb5e39c65d056ad2db57a6ab3",
+      "bytes": 50653
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/atomic_ops/quantize.py",
+      "sha256": "d771b2e334ed29b6d785ca70f66931b5b48468610e5a5405ac754441216cffab",
+      "bytes": 5678
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/atomic_ops/relu.py",
+      "sha256": "135bf4447139dd13ffde0f48d3a90df2d4410e98135eb1c69262b22eeb8b2fe0",
+      "bytes": 5251
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/atomic_ops/requantize.py",
+      "sha256": "ffb4e2d7b5e2cd572fe273743a077922fc2ddc537e6259aa5d39a5283db48f44",
+      "bytes": 2741
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/atomic_ops/rfft.py",
+      "sha256": "f40237bc2cb4dfa0a30ca30d7e782eca771f100de494aa0f2c1c44d9227cba46",
+      "bytes": 8231
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/atomic_ops/rmsnorm.py",
+      "sha256": "610b9d2e735fc4168df5ea199d7b6a32cd24c7cc97fec41c3fc9d76b203c20f2",
+      "bytes": 18540
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/atomic_ops/rope.py",
+      "sha256": "cfbda04d57b8e24792e14729e9b77d05873f63465eb7a40fdbe21ae87502bef9",
+      "bytes": 4703
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/atomic_ops/run_all_tests.py",
+      "sha256": "929f312d432ec45dcd379b1960059a4e846731995385cd35e719bcd096035154",
+      "bytes": 4425
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/atomic_ops/silu.py",
+      "sha256": "fd2d2fb7404dc73bc9f99f904aa90c04172dca433adf512c885dbcbc4d63bd91",
+      "bytes": 9142
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/atomic_ops/softmax.py",
+      "sha256": "87fee28575bcf53a6ff8cf429ca61a27b779febd54067ced132f6797347234a4",
+      "bytes": 11200
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/atomic_ops/softplus.py",
+      "sha256": "9c965723f37ead6e3d0c01cdc9cf8b60751e2ed4ebc36db08265af2b44f85c0b",
+      "bytes": 12803
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/atomic_ops/ssm.py",
+      "sha256": "cf7d25a86d59fe35a6af79abeba6a913d1835f6e124066ea2c0cea27fa202204",
+      "bytes": 33736
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/atomic_ops/swiglu.py",
+      "sha256": "c7957e66784a6c78e1ebb0b39f621f626f7da4966390d235b65cf7485501610a",
+      "bytes": 13656
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/atomic_ops/tanh.py",
+      "sha256": "85622327e053c71ca3e3c63c2263ad423253b0839dda0c533738dc1e220ce9cc",
+      "bytes": 8385
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/atomic_ops/test_edge_cases.py",
+      "sha256": "800588a6b93801caa0e94de14f7bc07c6602c87653329b9c97740c9bacaabdec",
+      "bytes": 10756
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/atomic_ops/test_i_softmax.py",
+      "sha256": "4bb74c1a16d96bce5b3006f9132bed70ba728097a146188c4e3601a836f312f5",
+      "bytes": 10208
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/atomic_ops/transpose.py",
+      "sha256": "cf42833b93a6e5914ac53f0c9d16b8f0308a47f11255080815ca9e4a622460cd",
+      "bytes": 5357
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/README.md",
+      "sha256": "ce6e8df1d3c25f0f1fb50ca3ddca66ee39f4848cdaf264ec6e949c50f8a2b597",
+      "bytes": 18268
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/checkpoints/README.md",
+      "sha256": "04a9634d8d03857efa581a3c685c3d638c374bd73a3fea48135caa90e6c609a2",
+      "bytes": 1314
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/checkpoints/__init__.py",
+      "sha256": "9ce7820e4ffbe8806f1b40d2e2e2f3f1fa46d8223f57f89ba398b699a6837063",
+      "bytes": 1278
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/checkpoints/replay.py",
+      "sha256": "7606d098e02887b488ecff39b49d1f5bd19343da4c23073c6d7051e7ae323b12",
+      "bytes": 3062
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/checkpoints/schema.py",
+      "sha256": "c4195b3ced5981ceba59e8d613016e36a77683af515d0b34bc965341f2dbc8ae",
+      "bytes": 1543
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/checkpoints/test_checkpoints.py",
+      "sha256": "5a44f4891976833629652b54bdd233d4b42c64932f996115b94897c5ebe8b5cf",
+      "bytes": 4175
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/checkpoints/writer.py",
+      "sha256": "e43eec74e8a23fc7d274a85e06b5c15d4910683d4d0ea7547109df057260b1c5",
+      "bytes": 3222
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/constants.py",
+      "sha256": "c2b5f5dec4c92a37e9def95ca7fcdb317679d8e581f7fd64967afca391b86b09",
+      "bytes": 436
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/gap9_model.py",
+      "sha256": "1f7dcec272021d1eee24b626912d01b45f2637a7944ed0e2184623b496293e6c",
+      "bytes": 71111
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/generate_c_code.py",
+      "sha256": "2b0423e207d7923bf6cb7de9b25f076f00e05c43ae0e68c9f134dbec60b6ac97",
+      "bytes": 384075
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/layers/__init__.py",
+      "sha256": "2d95d0c2a57b67d5d0f48192da9e8ca2c2d8025f8dcaecf1ba6002477df4cd53",
+      "bytes": 1943
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/layers/activation_handlers.py",
+      "sha256": "145e9d2cc9e09b4624d3ed60f409f56a0e57a9475ba9ec1a3cd66602836a406a",
+      "bytes": 1546
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/layers/attention_handlers.py",
+      "sha256": "f17f451edaeeb88a035ecf9d15bd55b0a88c18985f2c81dd1b28f0552222de40",
+      "bytes": 7586
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/layers/conv_handlers.py",
+      "sha256": "85f4ebc8ff7dd1b387a160233871259121b1dfb6ea87c0d1fc3f9c4cc137c19b",
+      "bytes": 13478
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/layers/elementwise_handlers.py",
+      "sha256": "8e23a53271ec25e2609e242b971d38f97c6c3d1bfde1244491d13becb45235e3",
+      "bytes": 12074
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/layers/embedding_handlers.py",
+      "sha256": "88ae065dfd79423652a617f99ae62083cc2b466f18776801afc0baafc08ff478",
+      "bytes": 9013
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/layers/linear_handlers.py",
+      "sha256": "8a968c6f4f587ed21d3dc52016bff2343453d5eb801d6e2eea89b1ef9308a5b7",
+      "bytes": 10284
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/layers/mamba_handlers.py",
+      "sha256": "077d9a9e9eac9e96ef4342f67b3c638086f34d1ae67c17e3fb005a8970864498",
+      "bytes": 28469
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/layers/norm_activation_handlers.py",
+      "sha256": "6f9ed684711ac11649433dfcc4199cf617c651887df4ec287173dd5117a553dd",
+      "bytes": 10983
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/layers/pool_handlers.py",
+      "sha256": "b4cd35e4d3a11f0bb0f1b90764ad6a5edb3f829ffb79ec4db7d1aba249746720",
+      "bytes": 11305
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/layers/quant_handlers.py",
+      "sha256": "8e55a0fca941f123ab9c44e2baad4a3222aa5dbec830964c17592a6ab83b5166",
+      "bytes": 3833
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/layers/reshape_handlers.py",
+      "sha256": "dfc7c7842c9c9b51dc1101b1af3f6cc306cdbfd66e752e442252c6a5095d00c5",
+      "bytes": 5372
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/layers/signal_handlers.py",
+      "sha256": "61374302a6d982008b90951d0a09abf142238c5c6705f1cd24d29197bdff7f5c",
+      "bytes": 2310
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/memory/__init__.py",
+      "sha256": "f445c4d5d5f4d011219f3cd8253a06967b668a5702e1619d4ce20ea885568124",
+      "bytes": 578
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/memory/annotation_pass.py",
+      "sha256": "59faea626a9ac93178d4c7e6d37395fb080c0dfa9b09ddffd31556524470a580",
+      "bytes": 13696
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/memory/memory_levels.py",
+      "sha256": "e7508995d73c6a26036fdac5888db056180a7ce4e0c4087c8abdb9f0ea647de4",
+      "bytes": 3742
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/memory/planners/__init__.py",
+      "sha256": "363ebefc0bee156d0f6e83a248b6a48a8fb425bc9b54713a70f52997e4a8441e",
+      "bytes": 1809
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/memory/planners/arena_first_fit.py",
+      "sha256": "e21936e2ff5a177b8e6acc711d746868fca2d925c71b97230a414e3cf2a77be9",
+      "bytes": 8609
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/memory/planners/planner_base.py",
+      "sha256": "9524c899704d7446811511413d02f57c09ea3190efede0edb77891c24d96a0d6",
+      "bytes": 790
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/memory/planners/planner_result.py",
+      "sha256": "d0fdc37041ac5907d74c74fefb8caca11b424d0ca726bcd82e5fd60ad72d761d",
+      "bytes": 860
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/ne16_packing.py",
+      "sha256": "5ae436ec131ccd4bfdd163cbd774cf2549abb7a038d431d789f7f9df69e1a67a",
+      "bytes": 25461
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/optimization/README.md",
+      "sha256": "80729cae8c363fbb3342e0c947224c286c1a6bc9b3037c145cd94cd6e04b1ecb",
+      "bytes": 2801
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/optimization/__init__.py",
+      "sha256": "52bfb0333f038fb593bc7b97f66982b49a1115b058611d9f9c4df3c51dd41605",
+      "bytes": 3519
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/optimization/analyzer.py",
+      "sha256": "bfae188bd374c53d44703a0cee3779dcde8e6538bf37425dbe717f862c24db4c",
+      "bytes": 14965
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/optimization/auto_tuner.py",
+      "sha256": "e6728a39b0d1dfdd1eba605e3aeea4c6de187bdee03cb69ae5ccc5ea5fea24a2",
+      "bytes": 39133
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/optimization/checkpoints/__init__.py",
+      "sha256": "2e764ebccaffdd3c7710689794711b3c4c0f9a3a0c287ba4db9417b5723c2df1",
+      "bytes": 515
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/optimization/checkpoints/schema.py",
+      "sha256": "ace53e3edf22f7921e0057187dd5987d1993590a0936d8e74b43f9f54627a8f1",
+      "bytes": 786
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/optimization/checkpoints/writer.py",
+      "sha256": "d381339385ba3f5130d9c86553ffd8393942b7f4e32379b542000e8e4b68e294",
+      "bytes": 1828
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/optimization/config_schema.py",
+      "sha256": "41baaf998057e572fe8a13f26347a65ba908adb4660fed5d19255bf07632990b",
+      "bytes": 11227
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/optimization/data/knowledge_base.json",
+      "sha256": "a608a8f78a47cf8708e612a6dcf9f507eac1dfa073cfe774cc99a09d819004cc",
+      "bytes": 212904
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/optimization/data/schema.json",
+      "sha256": "11c930ca331fc1a42773ec1a737fa81feae8c44473890ffc8178da4c383a2a46",
+      "bytes": 4912
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/optimization/fusion/__init__.py",
+      "sha256": "005a38637acdb0aef500f25914982c41f51a7dc69be33682de6f0d4081b5ad0f",
+      "bytes": 898
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/optimization/fusion/checks.py",
+      "sha256": "ba7abcd233ed1034ef00c35934d4a05d268097b59edca6d83adad9779964f727",
+      "bytes": 2855
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/optimization/fusion/matcher.py",
+      "sha256": "9a8b37a2c657de90cbb70e99db52618ca50e113f95a5b1ce4a085bba415ae382",
+      "bytes": 5195
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/optimization/fusion/registry.py",
+      "sha256": "3e1aa80e45dcb22f70e9bf4835053f608b304ec590c11edd8c1b26e1ec05164d",
+      "bytes": 2139
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/optimization/fusion/report.py",
+      "sha256": "4abae510dc66fc84387de4a382214fc931661a6ea3080d1f0792c53bb99362c3",
+      "bytes": 1056
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/optimization/fusion/transformer.py",
+      "sha256": "d4ccad8e5d4f888d4926f8d3049921cee7c89af79f1a0a7b48894f3b9a6f3c11",
+      "bytes": 7692
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/optimization/knowledge_base.py",
+      "sha256": "771701791a2d0dd7c6bd94bb24725b22bbfcf4d9e3e7a4d590a8abfbe29550bc",
+      "bytes": 15764
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/optimization/profile_parser.py",
+      "sha256": "802df07e02aa01bfcecda84573f7aed63cedfae2937d9f5f74845275126c10f0",
+      "bytes": 15263
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/optimization/search_space.py",
+      "sha256": "49e74cbcca5cd123abde0236a05a79713ea67169eae80ba795b7b58156d6d27e",
+      "bytes": 25685
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/optimization/shape_matching.py",
+      "sha256": "262f54c254887e7a181bf7138800d953c73ba1c165723d258fccf52b18f45043",
+      "bytes": 13689
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/optimization/test_fusion_checkpoint_scaffolding.py",
+      "sha256": "a568b2b53d2c1e881affb9c873f5c2624c7ca887f2126b06c5586663ff42b829",
+      "bytes": 5741
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/optimization/test_knowledge_base.py",
+      "sha256": "d04af34031b509b4a5fb72a7714aee11bef5682ada36953352e60f9aecc255e8",
+      "bytes": 14396
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/pipeline/context.py",
+      "sha256": "bc4fcd2e015cb8e45b90b6163bf2fb8c5271b1d3f4a5a337aaa1f69ee1a1ee61",
+      "bytes": 968
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/pipeline/pass_base.py",
+      "sha256": "b489357bf2f2faef50b88ce2b1a4434e753d8078089d5c871438df6ffac9169d",
+      "bytes": 464
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/pipeline/pipeline.py",
+      "sha256": "5ac32f8ca0bc073d8a9689f26a805ad0af1b380dc4e17b84d4c10d8e8ee15e19",
+      "bytes": 4439
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/runtime/README.md",
+      "sha256": "c2b5071b52b8a6755e3f9a44a6b33a27d1f34c27c21d73645c567e39581e8f43",
+      "bytes": 908
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/runtime/inc/ares_config.h",
+      "sha256": "cffc8651d38e946b89629e63a386a1c164d180efe41916535281d92c8de0a822",
+      "bytes": 4329
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/runtime/inc/core/utils.h",
+      "sha256": "4bdb42b3ca7b031b6f7ec38dd18cf5a24367f9862e7a299f79ebf46d861b8454",
+      "bytes": 874
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/runtime/inc/dma_async_contract.h",
+      "sha256": "930241b009f725ae71cb28bb1db7b274059bd463420b4e78ed4e6f315fe918d6",
+      "bytes": 1853
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/runtime/inc/l3_prefetch.h",
+      "sha256": "622d9ee69de3521230de2d63c2e48d1ec8542ac3e416c602d956d0af38c8cd5d",
+      "bytes": 2188
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/runtime/inc/layer_descriptors.h",
+      "sha256": "b53c820f79966942fd15a7cf41e010fcb2ca4628e52dbcdd271d500e1ae05af8",
+      "bytes": 22573
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/runtime/inc/mem.h",
+      "sha256": "824ad4c44a468fc8293b4b05d118e2ca8204488913f0c58fbc58ff5db107e699",
+      "bytes": 657
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/runtime/inc/ne16/ne16_driver.h",
+      "sha256": "ac00bfbce73aa6d5f8af8dae22d312ede510eceb9869397b3ec35b86dc52148f",
+      "bytes": 8263
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/runtime/inc/ne16/ne16_linear.h",
+      "sha256": "bfe9e72057d1d9be1872963740e01efc9388e9caa6741fd241d2f6ebee72e8bd",
+      "bytes": 10593
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/runtime/inc/network_buffer_mgmt.h",
+      "sha256": "3e04a55f29c8ac02e6b56a3917bef3602fd9e4114dad80859a3e55e7078aa7eb",
+      "bytes": 1892
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/runtime/inc/network_dma_pipeline.h",
+      "sha256": "a19dbb5414995c22052f686a3e1590228b50c156bde443e1ac132b2bbe2c1073",
+      "bytes": 21935
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/runtime/inc/network_executor.h",
+      "sha256": "88f6f365c716e225847c45c7f178156e3970595c440c19b2fbe8beebc0f51fc7",
+      "bytes": 12008
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/runtime/inc/network_kernels.h",
+      "sha256": "56e909e30b180deb85787e96be7a99380a250cd8ff535f2097d5460fdfe814cb",
+      "bytes": 42346
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/runtime/inc/network_l3_prefetch.h",
+      "sha256": "19951cb79f1202918886f575ca5b01c3b776693db970d2ad42aeeadbe087708f",
+      "bytes": 7451
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/runtime/inc/ops/op_activation.h",
+      "sha256": "76f2061386ee22fe3e1cb973ec6a4b369adc38e86ec0ca980a5a6c6b5763b5cc",
+      "bytes": 2168
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/runtime/inc/ops/op_conv2d.h",
+      "sha256": "8cace93664fe9ec11b35b356d40aadbd4b0c30ed61144f51800241b4972ffd46",
+      "bytes": 623
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/runtime/inc/ops/op_elementwise.h",
+      "sha256": "adec43e6c56af4f6530ecc1182bf709ada82ae786f30ad64942ec691303f881e",
+      "bytes": 2169
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/runtime/inc/ops/op_linear.h",
+      "sha256": "3a19f0b526fb14f2db47d9dc9bd9038fe16b1db711353c4c7c4f5a975a2f7cb7",
+      "bytes": 1080
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/runtime/inc/ops/op_mhsa.h",
+      "sha256": "ab19a4ddd2ff9382bd98667b4ca988fd97f96381ca03ef95b3661dd6c3c23908",
+      "bytes": 3753
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/runtime/inc/ops/op_norm.h",
+      "sha256": "281f0ef723af1e63a644746f1db8730945a2b2798d8191926b3047cbe02d46ce",
+      "bytes": 2723
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/runtime/inc/ops/op_pool.h",
+      "sha256": "2bd3ae69cd4e41b061b4883521c6d8458643fabac60727d3847e1717d90fd54a",
+      "bytes": 2938
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/runtime/inc/simple_executor.h",
+      "sha256": "41ff6f1533a1e05eac97c703640daf8c44d0674ae54d72ab250f373b9bc325fc",
+      "bytes": 1373
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/runtime/inc/tile_buffer_manager.h",
+      "sha256": "6c74780db71e42674405129a3eccb462307537297ca1d2c070cc7a6f5e582a10",
+      "bytes": 31058
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/runtime/src/core/utils.c",
+      "sha256": "9f9b269dc36d68df125190f79ef662b99cda31c13d2518200a4dd10d305cec93",
+      "bytes": 2618
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/runtime/src/dma_async_contract.c",
+      "sha256": "0df2342aaf740f31cd2021c77e024aa08cf889300e7ecabf9b5dfd32b7f888db",
+      "bytes": 1966
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/runtime/src/kernels/kernel_conv2d.c",
+      "sha256": "1a921c56dca4bad2090c9fdeaa0e18765448487a04af0b1f071fbf78c2e8dbf8",
+      "bytes": 108774
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/runtime/src/kernels/kernel_linear.c",
+      "sha256": "021ac509603ad1334d5e15a144d2843eb83317584e0296b89da0b93bebb954f8",
+      "bytes": 34195
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/runtime/src/kernels/kernel_mhsa.c",
+      "sha256": "680ae9b775d612571b421af0ed6cf2761d287687d93aba725718e59e722c168a",
+      "bytes": 40930
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/runtime/src/kernels/kernel_perf.c",
+      "sha256": "8a8b4728c57d4a82ad74f7e5a24101460e11fbeff415702c5ea538c38001d381",
+      "bytes": 4952
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/runtime/src/kernels/kernel_softmax.c",
+      "sha256": "d1739ba2aeb9043ad856db46ba97e7e67645be068715e035da88144441fd6e5c",
+      "bytes": 11003
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/runtime/src/kernels/kernel_ssm.c",
+      "sha256": "133ba361f951a2f9a23f128103a27574ffacf1d3204ab9e66902a248809f07df",
+      "bytes": 45025
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/runtime/src/mem.c",
+      "sha256": "cba4a54c2fd3c68ee805fcde2e1c314a77f3a6b9da609330fe8fbb455c781932",
+      "bytes": 7244
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/runtime/src/ne16/ne16_driver.c",
+      "sha256": "ae4ea55fed22536243c10385941ad59e72efee474d1255f4899b63917f715840",
+      "bytes": 60073
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/runtime/src/ne16/ne16_linear.c",
+      "sha256": "1e092662a3d3e644e33eef8a00c5ee0aa6ed77867b87da13dd47f33e70f03ea5",
+      "bytes": 48275
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/runtime/src/network_buffer_mgmt.c",
+      "sha256": "0ef37a3284a6b538e66e9d454a4d27455954e6641581ddb4cc43cdb41219a643",
+      "bytes": 867
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/runtime/src/network_dma_pipeline.c",
+      "sha256": "2b25596a73d8729dc20ed193b53cfb8f70e24d56853ce27cfa8a0bcce8a30049",
+      "bytes": 287193
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/runtime/src/network_executor.c",
+      "sha256": "232b91c3dd490e7e24c9c3906b6973b21ca9729a6bc8110f59256832a0540a80",
+      "bytes": 215528
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/runtime/src/network_kernels.c",
+      "sha256": "18ee5ea038b4a3766843d00fb0263cb562bbea31b26caa7aefbac5450a628fb6",
+      "bytes": 15478
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/runtime/src/network_l3_prefetch.c",
+      "sha256": "4cddb1d81ca8a649774cbddbea6fb82035d0f9988762183fbb3d5a58fa901041",
+      "bytes": 7019
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/runtime/src/ops/op_activation.c",
+      "sha256": "4fd2455fe093a6eac17c80aece7015871b8f44f677daf6934caf4e7b5e7154e4",
+      "bytes": 9216
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/runtime/src/ops/op_conv2d.c",
+      "sha256": "6cc83dc655a0f0e31c91e4683962007c1b92620bdc6a1620c7b6cdb16582f53c",
+      "bytes": 9227
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/runtime/src/ops/op_elementwise.c",
+      "sha256": "4141a685ae8cd3c64bb8c2f361ede139450da3859f46ec60a04ec37e2e4738a8",
+      "bytes": 16822
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/runtime/src/ops/op_linear.c",
+      "sha256": "784dfe50b0d47c6e5f2bf6a51265f18376209806c851f9a554e9d9416fd60dc0",
+      "bytes": 13235
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/runtime/src/ops/op_mhsa.c",
+      "sha256": "0780f57705d9574be3e55826e15a5e1dd8644d6b425f476212647e3cac0c1762",
+      "bytes": 16392
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/runtime/src/ops/op_norm.c",
+      "sha256": "96b374b44c94bad7314ac7b51e9ed57700df1dcc6ea399880d181dc6172513ee",
+      "bytes": 19101
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/runtime/src/ops/op_pool.c",
+      "sha256": "45c749aaa2e334b20bb61913079e6d77bca8070c36891fa5c6083199ab16fa8d",
+      "bytes": 18817
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/runtime/src/simple_executor.c",
+      "sha256": "0b62a05325b0d2879d18593d34567e0686d9afe64a24b8278a295c73287d70a8",
+      "bytes": 5665
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/siracusa_model.py",
+      "sha256": "956c1f84d1265868a99e95b422cf3c7a407bd4b8c711ad4134d0c24cee3dddaa",
+      "bytes": 2907
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/targets/__init__.py",
+      "sha256": "33b92d370c2b6d2db46c69c23e3fd28354e81a3a7bf6167dc931e195be926c9f",
+      "bytes": 1146
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/targets/gap9_target.py",
+      "sha256": "9d2eaf2c6194dad012902259ee1bd73973d8399bf0039418404d8e7e518e45b5",
+      "bytes": 2636
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/targets/siracusa_target.py",
+      "sha256": "90204b8debb88266250aef66e1e8f47f806aa64b66e7ca1c3d2e9317ac3a83e3",
+      "bytes": 2403
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/targets/target_base.py",
+      "sha256": "ae5a7a0cec53ac28db9295c626e1c2b0addfbe46d8790a700320e48342b076dd",
+      "bytes": 3720
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/templates/Makefile.mako",
+      "sha256": "b4952629b3a0836e6d0ec108b02e0532fefec7c62ca76fc540ec43b34a7659bb",
+      "bytes": 4462
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/templates/main.c.mako",
+      "sha256": "f5dff6ac318709f923ae631a5117d8e2ec952554aafaf8376bb316f23cfe22a6",
+      "bytes": 13501
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/templates/network.c.mako",
+      "sha256": "77e1da6b60d6eea3a5f145bddbac74413b4cf012e65f0ca59539f8d92d0b34f7",
+      "bytes": 378617
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/templates/network.h.mako",
+      "sha256": "d2077aff3b98e90e725d8dfaa8669a1b901264c450d921cc92e77fb66317d007",
+      "bytes": 1436
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/templates/network_data.h.mako",
+      "sha256": "7830d5727ff9d98822d4c6dd5613164cae7d1893c2c252a7dcc3346d3f05d25c",
+      "bytes": 752
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/templates/partials/README.md",
+      "sha256": "caa284686f6db76e6588fe7beebc4c52cf12ce6c9fdbca8aba2bdd5c51e47bae",
+      "bytes": 301
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/templates/partials/network_args_struct.mako",
+      "sha256": "577fed27e903628b8d93170df12d0d02d3148777925a3b20f0f248befb64d98a",
+      "bytes": 7614
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/templates/partials/network_helpers.mako",
+      "sha256": "d43b97b8dd0264bbb79ab7b22c5bcc422691331ec60f5a2d474cc4f6a599cd79",
+      "bytes": 19318
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/tiling/strategies/__init__.py",
+      "sha256": "e55ef118d71a78b61a1ab82817d770739a493c2f14f19ae8568e2ea2cc2b231b",
+      "bytes": 2396
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/tiling/strategies/double_buffer.py",
+      "sha256": "88930d5780f2c8bd71a8caddaf711b241734922d3ea6aed5af966cbadad7f3bf",
+      "bytes": 253
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/tiling/strategies/single_buffer.py",
+      "sha256": "dbdf79fd810b6715ce1474667a7b56a8279c457aeb73900548ed80ee109716a8",
+      "bytes": 253
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/tiling/strategies/strategy_base.py",
+      "sha256": "b8820089a3f5597fe56124d3c5df26cd7a8ff17d4a19e329c9ded1e280f41752",
+      "bytes": 2197
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/codegen/tiling/strategies/triple_buffer_weights.py",
+      "sha256": "5bf336f10bcd34f4d972cfb0963bfac366ff954947b227dfe2349aa3dc1d0fdf",
+      "bytes": 276
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/docs/ADDING_OPERATIONS.md",
+      "sha256": "4b875bf9e92c5bbeb105a607418b6dfc4f72b47ef345c75c4922a84f6b001a67",
+      "bytes": 3513
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/docs/ARCHITECTURE.md",
+      "sha256": "f5dfa4f23a3c7b0a045eed0c051b35d444daaa92330624d379143eaa94a448ad",
+      "bytes": 4253
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/docs/DEBUGGING.md",
+      "sha256": "80ec8d3976490cdc0874dd09d71e8f1d7128a0abccd0c5b0d41672ceeb4f451d",
+      "bytes": 5439
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/docs/GETTING_STARTED.md",
+      "sha256": "e85ff43de5cfedc61002e00419ffd4293f956556157e112d7c2437c73348f7a2",
+      "bytes": 3148
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/docs/PERFORMANCE_BASELINE.md",
+      "sha256": "18c198c33b9d7da44bb0f8eaedffbe1b54733381ee9054a571addc3bfc8362e6",
+      "bytes": 4840
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/docs/QUANTIZATION_GUIDE.md",
+      "sha256": "ed033413425c6ef8e6a28a9e885f666d92ff53fa507ac9ce6eda2ba339a23582",
+      "bytes": 5712
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/docs/README.md",
+      "sha256": "22cc17830031e6cb4c6b4913c5d888391304e5bd361e599a108bc0169b15933f",
+      "bytes": 1686
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/docs/SUPPORTED_OPERATIONS.md",
+      "sha256": "e4fac28b9e6f4f3fb1e9f01e65631ab87daf9e69d2dad3c512d143153a84eb97",
+      "bytes": 7148
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/docs/performance_baseline.csv",
+      "sha256": "1203e8477e4d7bad803edc99c16f048a43ce8ca580eaeb482b810378b735a6e2",
+      "bytes": 1960
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/examples/ares_nn/simplecnn.py",
+      "sha256": "64b848433dec9e10f1a2f060e06d9612992f9295b625fb87b8f02e4019130a01",
+      "bytes": 1936
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/examples/ares_nn/transformer_block.py",
+      "sha256": "e8bf15f7afcaceae420e1a0912a085271820121fb8d2ef65f8ed3e94bb1c023b",
+      "bytes": 1716
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/requirements.txt",
+      "sha256": "8687b7671c58b6f1e92abc31489f73d37f4f198e55d1cf4ceb2451229a7f3574",
+      "bytes": 90
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/README.md",
+      "sha256": "95c6a836870fb9e21eccfc0653615d974724cacee8aa19938e402038359fd000",
+      "bytes": 17452
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/generate_all_tests.py",
+      "sha256": "35ad82f014a1a961d96987fae4d4935ad1aa95578e87f9c26f4410906fac1db9",
+      "bytes": 57162
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/measure_quantized_accuracy.py",
+      "sha256": "c46f88e9a626355ea54719d27a16e58dad9876718577f85999a75b2c8ff9f03e",
+      "bytes": 9646
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/run_gap9_projects.py",
+      "sha256": "6d0fd75c2f414dd398859c7cd5e8651f59e7851df53bc90916140d1b75dc30de",
+      "bytes": 8690
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/test_networks/README.md",
+      "sha256": "30a4f09f5151c4c191d5105a9853d82bc92fd36e79c189991a7cba69c0a0da6a",
+      "bytes": 4371
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/test_networks/__init__.py",
+      "sha256": "4fe944e4dabfa6d2a54c6fe1f3eb4ce0fa65ddb9f02f5eeced313374aa35bae8",
+      "bytes": 139
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/test_networks/brevitas_custom_layers.py",
+      "sha256": "6d9202f4417817e741dc02a40e683d6bbbc74e89f966203f0335b0bf80b9d9e5",
+      "bytes": 85411
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/test_networks/test_10_resnet18.py",
+      "sha256": "6d4c1c99ad9569c8a1c64fabe2c261efd36cfd500e1ece1b4e5b100ca98fa6d4",
+      "bytes": 9669
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/test_networks/test_11_layernorm_basic.py",
+      "sha256": "b97c6f63e1a562fb17226a4571ec094f1678159523db7c5d1a3a62ec77be85ac",
+      "bytes": 2138
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/test_networks/test_12_gelu_basic.py",
+      "sha256": "7ebd297922031fd241633eb32bec70c8d12079cd171c544d775592f16336efff",
+      "bytes": 2206
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/test_networks/test_13_transformer_simple.py",
+      "sha256": "b4ead2350a4abe7555e1f9614848a19d10c1071e878d5bd4b19c522acc93ca36",
+      "bytes": 8915
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/test_networks/test_14_multiblock_transformer.py",
+      "sha256": "3791b1dc5eb5d9bc6e75bda5d3e6f4d0931e39154f90396c5aed8aaf3f29e091",
+      "bytes": 10180
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/test_networks/test_15_tinymyo_tiny.py",
+      "sha256": "9839f074a72c0c4d13f7246af0138616fca7b30aae30513f3f82836c59c7e9e0",
+      "bytes": 8483
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/test_networks/test_16_mamba_conv1d.py",
+      "sha256": "4436207d8af3d6d93a64df8910b15f5c0757ac09d94a6d21f1cb9980eaa031b9",
+      "bytes": 4863
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/test_networks/test_17_mamba_ssm.py",
+      "sha256": "c541548237dd116731310ce14bc99c2cd4cdaf441569d76a586ba55d76bf7b7d",
+      "bytes": 4935
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/test_networks/test_18_mamba_block.py",
+      "sha256": "384449e969cbfe7d2d4bdd57904fca171d5bd30ac1ed7fa6c1df929dcabcb9f1",
+      "bytes": 6159
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/test_networks/test_19_mamba_stacked.py",
+      "sha256": "e1c6c25e6604fbf9243bc359b87b73843b7785758fc1273577ad22ab0cc27599",
+      "bytes": 6466
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/test_networks/test_1_simplecnn.py",
+      "sha256": "772fcfc630e36b585589c7fbaf492b5e9d5544d4e2637e65c2e053bce85f1bb8",
+      "bytes": 2561
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/test_networks/test_20_bidirectional_mamba.py",
+      "sha256": "95a837bce0541c8086b02515dea7d22776bbdcfe1360088620d4c539b18766a8",
+      "bytes": 7570
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/test_networks/test_21_femba_patchembedder.py",
+      "sha256": "4a9a773e848b787f3af09c91b5ee96be7f8ae2d050b6f0350c44b7de76b8f48b",
+      "bytes": 9268
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/test_networks/test_22_femba_full.py",
+      "sha256": "a96568c770f1aa7b1f62e0218facb2cabae2d81fd86db74395ed499f1812577e",
+      "bytes": 10053
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/test_networks/test_23_femba_full_input.py",
+      "sha256": "f041a0645cd86315d282a01707255e39fd014a54d0b36198c47b1ea969053d5d",
+      "bytes": 10897
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/test_networks/test_24_femba_full_expand2.py",
+      "sha256": "c86035211fedf0e0c52fee70dfa4c4db4a7f465f16fa28f8a021dec1f2120d30",
+      "bytes": 10563
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/test_networks/test_25_femba_tiny_int8.py",
+      "sha256": "61bd38145613278312da42373b62ab9673ae4620f9afa1bde7f4ee18f626be32",
+      "bytes": 10792
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/test_networks/test_26_tinymyo_8ch_400tok.py",
+      "sha256": "0c46923e0f613e9ea4ac6faa42a49a68a694bf2f99b4564e62778b9b85432aae",
+      "bytes": 8414
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/test_networks/test_27_linear3d_bench.py",
+      "sha256": "37835a3387b080f650eb9d592cfe3f41db358f01b2cc817126d8e2ba053e3d46",
+      "bytes": 3908
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/test_networks/test_28_conv2d_remainder.py",
+      "sha256": "b9f550d40457d9e978c58f5fffabb7d01d364001c96a581848a9726a4edff79b",
+      "bytes": 2885
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/test_networks/test_29_luna_base.py",
+      "sha256": "d310ccfca14cc224f39b789a80c4ac9acd8c052583217b0cadaa815ff7990e6c",
+      "bytes": 13983
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/test_networks/test_2_tinycnn.py",
+      "sha256": "7c21eda346d07a1032bfded5784ce89f4d4967b92fcb859d03c9781d07f9b2d4",
+      "bytes": 1915
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/test_networks/test_30_autotune_stress.py",
+      "sha256": "51506120f9a0de7dcf3a254e1c8106d2011df50d66b030033535c70a16711ce3",
+      "bytes": 3278
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/test_networks/test_31_luna_full.py",
+      "sha256": "c35ace0e4a2e333339f73c74a937c9c66b7208d29f2a68df16a2bfa405399a41",
+      "bytes": 21183
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/test_networks/test_36_drowsiness_fusion.py",
+      "sha256": "537d9150e0f073b876483113f07c0a7744650e8bace2a8aafc21e3af41a967e9",
+      "bytes": 9855
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/test_networks/test_37_zeropad2d.py",
+      "sha256": "f9979654aff21a519c044ebb5d3a0b6de69cdaec9ee34e797a6efbd4a736eb19",
+      "bytes": 3555
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/test_networks/test_38_ne16_linear.py",
+      "sha256": "e74c80469670e3194211a0bafe407d38611ab920e536969e27a1df7cc449d4a6",
+      "bytes": 2597
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/test_networks/test_39_ne16_large.py",
+      "sha256": "a55e53245244ef6243c3afd0d5ab82a082a9e451c743dbe2f12ada2a62c8fab1",
+      "bytes": 3567
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/test_networks/test_3_mlp.py",
+      "sha256": "eb15ffb9bf81fd83e9287a16359e3f81c501e2265debd9d3942dbf9e00f4c27b",
+      "bytes": 2013
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/test_networks/test_40_depthwise_conv.py",
+      "sha256": "c7e71e159d37ed49a4b537ca4b7bb79b581787debc79f0ada54f2f56d2abd2d4",
+      "bytes": 4007
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/test_networks/test_41_large_depthwise.py",
+      "sha256": "4f4123872a0255c776266f3c71b53b6ef76f9a09faa9b4c71eb375965e908880",
+      "bytes": 4882
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/test_networks/test_42_llama_minimal.py",
+      "sha256": "c18e8cdfdc90f90054aa16a40b62a43bb6e689b71741a7ea030feb121994f2bb",
+      "bytes": 7605
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/test_networks/test_43_cerebro_original.py",
+      "sha256": "1108ad55527dc3876acff79de7ee8d68c7a3a954bfba40eccc3642a3a2d875d3",
+      "bytes": 10899
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/test_networks/test_44_llama_swiglu.py",
+      "sha256": "454ab5960fb0209c2a2b7441d9bd2b83c8591fb622e706d2ff56caf9cdc76585",
+      "bytes": 7922
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/test_networks/test_4_resnet_basic.py",
+      "sha256": "d1ee8c4c12a535c86d914487758b4dd643d2b5286cdbf2f19e127dd5ac292ff3",
+      "bytes": 3095
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/test_networks/test_5_densenet_basic.py",
+      "sha256": "7bb8078f49c6b29e59ea591a295d00743a5c94c8075eff5210dca44e72fde3e3",
+      "bytes": 4213
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/test_networks/test_6_multitilecnn.py",
+      "sha256": "49213000069388b906a3049e3da94bc83009996ee05f2a17053c7ee62b37427d",
+      "bytes": 2562
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/test_networks/test_7_bottleneck.py",
+      "sha256": "a88f70531d36b508aca426caa67aeecca9a2145932ec8e227eee0af58a637afe",
+      "bytes": 3016
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/test_networks/test_8_stride2.py",
+      "sha256": "8d19983631f3efb46aa26a7b505c0bff4e566ead052c3c12e10c3fecb3e98bb6",
+      "bytes": 4453
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/test_networks/test_9_padding.py",
+      "sha256": "6445822e5927f15315ba063e71b17d48df01dbe5bc16789e8cdeeecef9920301",
+      "bytes": 4909
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/usability/__init__.py",
+      "sha256": "200aec5e118dc24e2d8352fa4e2d68a094fb8bc3a2279350f15851c8dc21f2ce",
+      "bytes": 93
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/usability/test_ares_nn_library.py",
+      "sha256": "599d43e586abc6aa8f6c880045ec1ad74e1c739d863f440828521e93fd10c620",
+      "bytes": 2985
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tests/usability/test_model_compatibility_checker.py",
+      "sha256": "565e3e8cdd3a54fe0c7cf00cb351ad587e43ac77795f6e19e22451bb24f393ee",
+      "bytes": 3618
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tools/README.md",
+      "sha256": "5bf887ee05b885376c8d7f2d051273d935b71b7d6f8d98f60a7ec0fd40b8ff8e",
+      "bytes": 13776
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tools/ares_support_registry.py",
+      "sha256": "89f987b56009b7066de24c4f829424e9b8ae4fd91c1a771f00114442f04beeea",
+      "bytes": 4906
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tools/auto_tune.py",
+      "sha256": "5c7f0ac98d92ca9996adf2572aebdb0bc4e3d94a7ba077d6e50650958dddb447",
+      "bytes": 5865
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tools/check_model_compatibility.py",
+      "sha256": "b71ab477dc049c2bcfe6354baef5a17b77bf3305a7c864f40fcbddcb9a025269",
+      "bytes": 7141
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tools/gap9_env_gvsoc.sh",
+      "sha256": "d792e98982c094be5b61facd0a5f57917f4697bb1092b996600848469d7f021a",
+      "bytes": 2318
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tools/generate_golden_outputs.py",
+      "sha256": "3d730976360c778ba49b3869c2805e9db8e255d52abd110d3358b57c067bb1a6",
+      "bytes": 13849
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tools/generate_softmax_lut.py",
+      "sha256": "867df69500fe9f9d1c27a3a41f1e5b9efe9ae6e79916ffe88770477ba10e4e8e",
+      "bytes": 11095
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tools/generate_supported_operations_doc.py",
+      "sha256": "2b2dc4081fa5ae180c7a21808a835d6961a97e635df5fe0ae68f6fae76675822",
+      "bytes": 5071
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tools/int8_inference.py",
+      "sha256": "0cdb1a006176e58d6ab6a618d92dfb75a87ab77aa5a306c33d89a55675c5611e",
+      "bytes": 129068
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tools/knowledge_base_cli.py",
+      "sha256": "395cfeb57bbaeb0ce564f34be4071d9341e09f4144f47a0525c9fd5e047f23e7",
+      "bytes": 12383
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tools/merge_profile_runs.py",
+      "sha256": "84b022b29b7a732caf62cea0473713c2625c9165f34e655396a805bcdc8d4be3",
+      "bytes": 4146
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tools/model_compatibility_core.py",
+      "sha256": "d1a17cb55542b70ad12cdccb13736619731598152bc944cc887ee7d3a7208d98",
+      "bytes": 14302
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tools/perf/README.md",
+      "sha256": "8507fdc6713ba9776d3a6db2e6c218adbf8bcc4b6e0935b23336df394d1e4584",
+      "bytes": 2630
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tools/perf/collect_gap9_metrics.py",
+      "sha256": "8671a92ca0a837cd6dbe77685f75bc4d0f16810d779a8eb714d55a7e32b5f88b",
+      "bytes": 11549
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tools/perf/compare_gap9_metrics.py",
+      "sha256": "ad76f30c3de368eadd2277fdda128e168f2e7d816c1e4009cfba50ced48ddf77",
+      "bytes": 12824
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tools/perf/emit_perf_report_md.py",
+      "sha256": "daf37f0ce59bcd1ddaf3fd26cf732e043cd75314c3940fbbe834ad7c574255e9",
+      "bytes": 5834
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tools/profile_macs.py",
+      "sha256": "dad16d5384d281a097e7cde8c2ce22fc621accd7d9516f3441dcfb13443d41f2",
+      "bytes": 10410
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tools/pytorch_extractor.py",
+      "sha256": "f0e32c97cf08d086f593d9f3afdcad1feadcf393ec2b607e5d2d150c5529761c",
+      "bytes": 114143
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tools/record_optimization.py",
+      "sha256": "e0b3118fcdb50cf386164c4d2cb45923e5d137f8fc74f804b65b325f99342672",
+      "bytes": 7940
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tools/siracusa_env_gvsoc.sh",
+      "sha256": "1916c1a229fcedd075d8f8eadd660c1e10c07804b89686f417d8b3541c94bf2a",
+      "bytes": 1727
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tools/validate_supported_operations_doc.py",
+      "sha256": "c655f6de0f37bb0942a0c82c7e3a620dbb9dc9aeb8ac1c80f1479c7b6bcc42b4",
+      "bytes": 2537
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tutorials/.DS_Store",
+      "sha256": "d8eedba9e67fc31aded725d55d18e7f3bba3102002288a56e54a4cc51fb29e06",
+      "bytes": 6148
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tutorials/.gitignore",
+      "sha256": "b952291cebbe6ae75ea1afd9ec8632dbc0b0e221f2ce8baad2badc67942d387d",
+      "bytes": 100
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tutorials/README.md",
+      "sha256": "df2014ba3965ea4fa296c9e90a8931780aa15b710a30655c3d99305aaf435321",
+      "bytes": 904
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/ARES/tutorials/getting_started.ipynb",
+      "sha256": "209d2f8f0b581052c5e93e9bdb84e54ecb10d721f32e5cb3c7c706f600ad5792",
+      "bytes": 53069
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/CONTRIBUTING.md",
+      "sha256": "6c9fb69566333a86b1600f268f257732b80acde5294d376adbae51d9e990eea5",
+      "bytes": 3036
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/LICENSE",
+      "sha256": "74f12a486d18d6cecb6e732d03832c7235e6e2d70e0a9d8ec0ee303d33622555",
+      "bytes": 9160
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/README.md",
+      "sha256": "bd62da33f957f3fd1157eff8effe0293ce6adedfa71eba0098f6a33c1fec403e",
+      "bytes": 5432
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/biofoundation/__init__.py",
+      "sha256": "5ad78c54424589d69b71373ca716eedb101b4d4858ab4af6d35711e2d22af163",
+      "bytes": 1502
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/biofoundation/core/__init__.py",
+      "sha256": "f8bb659719535ab01b7cf1f27206f0e1a84ac202a117754f5983acf605ba3494",
+      "bytes": 1724
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/biofoundation/core/batch.py",
+      "sha256": "761dbad8126e8721c0880031555cda97433fe0e999816af7fbe97e179ef3694f",
+      "bytes": 3696
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/biofoundation/core/environment.py",
+      "sha256": "0738ec085daecadb0244b90a76c3a4a36bc308dedab5492c0ab87693f84dc18c",
+      "bytes": 2315
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/biofoundation/model_registry.py",
+      "sha256": "d206bb499d217c036a20da432690f0d5cccab0eb5bbcf9dfaeeb20d346dc87b4",
+      "bytes": 5001
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/config/README.md",
+      "sha256": "76bc0253ff79383a5652b38c3098d3a5b10df59b0578bee424d950f02ba8f1de",
+      "bytes": 3328
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/config/criterion/finetune_criterion.yaml",
+      "sha256": "e85602bba92785a0e1f8fb31a6ee730b7feafdf303d58889fe00dcae52c6475e",
+      "bytes": 1589
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/config/criterion/pretrain_criterion.yaml",
+      "sha256": "1736550330c342a1c0d52caeed6819eb10c04eebde68f1b2f120172b5a225ea5",
+      "bytes": 1636
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/config/data_module/dataset_types.yaml",
+      "sha256": "a6559cf4084daa37ec536e50c8547743e776bf20285a2d972adf9337a7be1a3c",
+      "bytes": 2604
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/config/data_module/emg_finetune_data_module.yaml",
+      "sha256": "5b0f4791100d9cb7f299d53ede43b669ac29c158133c815d056255668c50f81a",
+      "bytes": 2112
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/config/data_module/emg_pretrain_data_module.yaml",
+      "sha256": "a921deff4aecf6a1765bfb248b67426c03d518c6cf19031c74fa70b644881a60",
+      "bytes": 3160
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/config/data_module/finetune_data_module.yaml",
+      "sha256": "255da340f5ce5c46a146867a2d0cdf8c5420409dbbca66f72553c0658e7e9dbb",
+      "bytes": 2027
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/config/data_module/finetune_data_module_multimodal_PanLUNA.yaml",
+      "sha256": "4dd1c04b9c2db619784fe11705da37d5febf4b5950da092148c5f7e439eb4b04",
+      "bytes": 3472
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/config/data_module/finetune_data_module_unimodal_PanLUNA.yaml",
+      "sha256": "4a5f50a82c1a84cfc82731428eb984671843cdc36d5e578f435b3079e28210a4",
+      "bytes": 2639
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/config/data_module/multiloader_data_module.yaml",
+      "sha256": "f1b524504bff3548543a0e48354c4ae809fc8b20cdeb66b96351d25decb3f8d7",
+      "bytes": 6473
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/config/data_module/multiloader_data_module_PanLUNA.yaml",
+      "sha256": "a31bc9bd22235cca02ae2048861d8d6f96ca5cd4b5d064d33645ba7ce9e437d8",
+      "bytes": 32256
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/config/data_module/pretrain_data_module.yaml",
+      "sha256": "f711094a02605c9e91f051986f933fccaeb7360aeefa402ed00c804e941bf2f9",
+      "bytes": 5657
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/config/data_module/subject_independent_data_module.yaml",
+      "sha256": "ed220a46b344b39b9dc4d4898a6c105c06222aa6e74e15709d05c084f398af1e",
+      "bytes": 1939
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/config/defaults.yaml",
+      "sha256": "d65279a0a462690e4707011c83068c730376ea5143237ace33763ab8ebd61812",
+      "bytes": 2972
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/config/experiment/FEMBA_finetune.yaml",
+      "sha256": "a1d8dc2b943172d8c45b5900d13a252b7473f91d803847cb253c179b0ea14e45",
+      "bytes": 2744
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/config/experiment/FEMBA_pretrain.yaml",
+      "sha256": "5c473ce70054df62cde271f100a9bb8f278bc41462e20c56a07a207a3bc263a7",
+      "bytes": 2449
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/config/experiment/FEMBA_quantized.yaml",
+      "sha256": "4c4cbac66250fbe73b167a913860014759b5ae64b99805555f2bc69e39992786",
+      "bytes": 2612
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/config/experiment/LUNA_finetune.yaml",
+      "sha256": "c85c15d9cfa765aa456bdd01aa8284aa83acf1e205b8e58410201e9b36a01f29",
+      "bytes": 3728
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/config/experiment/LUNA_pretrain.yaml",
+      "sha256": "fcc0e2ece1ee2b306de8abc536b25fb45f9bb972aee290c827f73997a8b4edd8",
+      "bytes": 2986
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/config/experiment/LuMamba_finetune.yaml",
+      "sha256": "b2d08a3916200be96dea98e827a682bd50206e4a6ea7d02ba2ae591bcc2a3818",
+      "bytes": 4264
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/config/experiment/LuMamba_pretrain.yaml",
+      "sha256": "e4bb2ba688c353eaffc80933acfbf776994764271fde26381de10bdc167c8e33",
+      "bytes": 4606
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/config/experiment/PanLUNA_finetune.yaml",
+      "sha256": "626d27d2cf233d07d6aa2239d6917daa43a001716f36f6565031bbe6ea851697",
+      "bytes": 4440
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/config/experiment/PanLUNA_pretrain.yaml",
+      "sha256": "1e765b6e2164855635e97847b6a62d6848e334b3b98f2f49c1cc4805738aa593",
+      "bytes": 2974
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/config/experiment/TinyMyo_finetune.yaml",
+      "sha256": "5ad5dd5cd66e37ec3efdd7b58968d2bc783a239b10bf66cca97f3b98ef4f4935",
+      "bytes": 3034
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/config/experiment/TinyMyo_pretrain.yaml",
+      "sha256": "7aca6936a007b52027ca13658a858790773d597f4880e672cb4a48965e1f79c0",
+      "bytes": 2827
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/config/model/FEMBA_finetune.yaml",
+      "sha256": "ae8367edfc96584cc5a4d3a75cc9164f88b3fb274f23075be9255709bed1deb2",
+      "bytes": 1733
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/config/model/FEMBA_pretrain.yaml",
+      "sha256": "cd6c891ffe3b9b1c494cf07ae08b6131396e9d0ab571962245de2090ad61ea80",
+      "bytes": 1674
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/config/model/FEMBA_quantized.yaml",
+      "sha256": "861093814383c6ba341c245aaf489ea789f1933276ef194783cec01188c5cbcf",
+      "bytes": 1774
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/config/model/LUNA_base.yaml",
+      "sha256": "46d7dd18c381073c5f5acb33b3ce9bc008e49123b0e41f1c532abea7eb32f3bd",
+      "bytes": 1687
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/config/model/LUNA_huge.yaml",
+      "sha256": "d4b3c3900174c61eae06bca29f0d5a32c93ab077e13eafa560dca31238b9b4af",
+      "bytes": 1688
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/config/model/LUNA_large.yaml",
+      "sha256": "1e632c3d874e9dd19c858699908080d0bbeb3c4fc5d31350ccf877fc8c29f823",
+      "bytes": 1687
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/config/model/LuMamba_tiny.yaml",
+      "sha256": "5439f967af9162521a8e04668efc630df0ce9f1fb8e0ed96b72549d9262b706e",
+      "bytes": 2077
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/config/model/PanLUNA_finetune.yaml",
+      "sha256": "c160e9618a19e21158a38b3d7f495901469254cbd18349afba340485b5cc36e1",
+      "bytes": 1707
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/config/model/PanLUNA_pretrain.yaml",
+      "sha256": "bf52c96363d9e47e8194130b108c9b2a2dbdae5fad6b45bd5f3362b81cd89047",
+      "bytes": 1707
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/config/model/TinyMyo_finetune.yaml",
+      "sha256": "17a9685e63389ea5aa612a03db5beb6719c6fd5768a1e33fc28660cd21517718",
+      "bytes": 1706
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/config/model/TinyMyo_pretrain.yaml",
+      "sha256": "f4e381aac79f5bd25a2d07ff042bf15539997e14ebb7e362ef8b558d3a59eb3f",
+      "bytes": 1693
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/config/scheduler/cosine.yaml",
+      "sha256": "78db171e123ce3e3cca647c6957fa010d050f603a9dd287db0021962a2d891b2",
+      "bytes": 1874
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/config/scheduler/multi_step_lr.yaml",
+      "sha256": "df1267b64cd4cd7548add536736d3b9953ddb7d935127ef9921611f59d40d492",
+      "bytes": 1765
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/config/task/finetune_regression_task_LuMamba.yaml",
+      "sha256": "f32726f9ad6a6286b3d99f79d8a35bace5974d411d8dbe05a9a22d87201e2b02",
+      "bytes": 1622
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/config/task/finetune_task.yaml",
+      "sha256": "8ce613c4c8f38b24e9c6f6b0ec10c7d6cce0986b44e8f89bb48913d1a9bb796a",
+      "bytes": 1592
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/config/task/finetune_task_LUNA.yaml",
+      "sha256": "c222b560db85171945810198add324f6191088aef7261fab394dddd1fda08500",
+      "bytes": 1599
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/config/task/finetune_task_PanLUNA.yaml",
+      "sha256": "6cb881fbd2f98c818dfea86b651dd29d691eabfd33d025cf0a5d78f93b8ddf5a",
+      "bytes": 1601
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/config/task/finetune_task_TinyMyo.yaml",
+      "sha256": "5a37fc335b7d361b2a4af830ade86a0557290a6a73ed7bb8f64504fb90527378",
+      "bytes": 1517
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/config/task/pretrain_task.yaml",
+      "sha256": "57dd6eabe7f28d6b7d8cd8fbb1b690b49f6fc7adb75316ede2cf054aa9c6d1ef",
+      "bytes": 1588
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/config/task/pretrain_task_LUNA.yaml",
+      "sha256": "863d716f3d2b4ff10be075f1b3b72d34deb74cd0f94e500afe546aaf10ecf0ae",
+      "bytes": 1595
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/config/task/pretrain_task_LuMamba.yaml",
+      "sha256": "df11fca9cf2983963dbd5d527203693611c8da191d523b3301fe900ac693a57c",
+      "bytes": 1598
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/config/task/pretrain_task_PanLUNA.yaml",
+      "sha256": "1f408b5fc46d4e4641192113ba2b6c51d46e7d2af223c8a7351e13d9ff5a6f92",
+      "bytes": 1597
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/config/task/pretrain_task_TinyMyo.yaml",
+      "sha256": "565a114d036d0ada734f1af5ca780f73cb95d68b8d80178da309312df760db1c",
+      "bytes": 1554
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/criterion/README.md",
+      "sha256": "2814b1bc65e81b689027d3fd2dd8de39c4bd32b10015c5f3bbcb2f1ea94b2758",
+      "bytes": 2856
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/criterion/pretrain_criterion.py",
+      "sha256": "10cca2cc8aaaa8661314e9e0deb676a9c9615a571a958fdf0578bb4f3dc99eba",
+      "bytes": 3675
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/criterion/query_specialization_criterion.py",
+      "sha256": "976ba2da465a2c8d360c1e61d57f42a4296c5c312525570f1ef87fbdd988a469",
+      "bytes": 2892
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/data_module/README.md",
+      "sha256": "1eed46def8c5aa1ff4fca1d3177d434ec26812e2d4075d3b5ce7e1442315a104",
+      "bytes": 6244
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/data_module/finetune_data_module.py",
+      "sha256": "f5e15802a45ebc8af98165320cfb2daba4b62b742b1cf8f9cbbfba565672474a",
+      "bytes": 4863
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/data_module/multiloader_data_module.py",
+      "sha256": "a80cd222a787742fda8d1eea9f583f6c92475c0aac11a97d92b75d627f209a4b",
+      "bytes": 10151
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/data_module/pretrain_data_module.py",
+      "sha256": "3e907ebde7ac71fadee4daeccbe8d74399972057aa9ec808e5fff97fd1dda155",
+      "bytes": 6040
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/data_module/subject_independent_data_module.py",
+      "sha256": "aab982df3c1c515fcf7f44c10f3d0d16005c9aa393d6fd393bc170af3a26d99d",
+      "bytes": 4923
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/datasets/README.md",
+      "sha256": "721e295c817ee2ccdc892875270054f13684149b3c3378c41c122e7b9efdb256",
+      "bytes": 3765
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/datasets/apava_dataset.py",
+      "sha256": "6f576d90c3eaa291656a9f0750ba61b23b485caebd9ce1ea83cdb2da5b953b3e",
+      "bytes": 3238
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/datasets/emg_finetune_dataset.py",
+      "sha256": "f49518eda977f3d7f2b9ad80d6e5e4dde363c7681f3d08d83ed4120d1cab1a15",
+      "bytes": 3478
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/datasets/emg_pretrain_dataset.py",
+      "sha256": "111dda24150e7d2fdbc5ccad31d4921c1032c80f86449f8f692a2b2976a8127e",
+      "bytes": 5584
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/datasets/finetuning_multimodal_datasets_PanLUNA.py",
+      "sha256": "1c6f58a11b7d94c9a346e0e1591cc4beb7c0db51b1bc07e3a8cba3a368950daa",
+      "bytes": 5256
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/datasets/finetuning_unimodal_datasets_PanLUNA.py",
+      "sha256": "88062b0a1ed4018b856bd3384a46442c120759c56ffd5137c6e278313ea5970c",
+      "bytes": 4097
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/datasets/hdf5_dataset.py",
+      "sha256": "f0461d1d4a20fe9930d3fc5d35df791899ec33d2b401ab547d01c2cd8cf92c98",
+      "bytes": 3450
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/datasets/mobi_dataset.py",
+      "sha256": "74f3af63d0fdc8b34ab4dc63970033c0e0cdadefacfab96c66a20f6a13a8ba87",
+      "bytes": 4606
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/datasets/modma_dataset.py",
+      "sha256": "f621741455e7a116cbab9ed9e868aa5319b6aa904de375199c48b9715b86c4d8",
+      "bytes": 5878
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/datasets/mumtaz_dataset.py",
+      "sha256": "de7f5a650fa730f9d1434e3f067aabad37fdb416898c594b503f5b693b6e0bcb",
+      "bytes": 3277
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/datasets/pretraining_datasets_PanLUNA.py",
+      "sha256": "0a74c1399cdae4f4605b5608759cdb9e7a385b36e51d30cfa3d34ff447d58d97",
+      "bytes": 4073
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/datasets/seed_v_dataset.py",
+      "sha256": "d20bd0518bba6831b710e1c24fe34abe151e2f43cfdb707f655dc3a12130f3e3",
+      "bytes": 3138
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/datasets/siena_dataset.py",
+      "sha256": "0764131f24b0d7e1ce1d625a176a345439c1f1d4f6002c104173db8e0453aa9c",
+      "bytes": 3556
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/datasets/tdbrain_dataset.py",
+      "sha256": "b4c6e6e7c07e565bfaa346f05efa40089a8792eb34cc87ddd508cbb220935690",
+      "bytes": 3483
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/datasets/tuh_dataset.py",
+      "sha256": "117ee4b372c3486e8993496e21f1cacff8e4ec03993dafac63f57fff65599a46",
+      "bytes": 3640
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/docs/CITATIONS.md",
+      "sha256": "2dcf3c07d502cf49dcc1403a204f2d5c47756dd5a5a8f736bf4b325f87a470f9",
+      "bytes": 3471
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/docs/README.md",
+      "sha256": "f4e0f9c524b2604b44c3896cfa162c32972a78d6dbe8d401c071f19a18ffa733",
+      "bytes": 2596
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/docs/TRAINING.md",
+      "sha256": "74bbf90ea329a6a5e0698587dd892cf29991c35d72b7b5923074988359e710b4",
+      "bytes": 3229
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/docs/datasets/TUAB.md",
+      "sha256": "0b0e6c80d80b2a47c14ab4f01e3fe6e8e89cbde80ec160d482236bed9ba2726d",
+      "bytes": 423
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/docs/datasets/TUAR.md",
+      "sha256": "8513eb72f93cbbb725e81d07acb9c7103588d540968b98feec776c8bcdc14bea",
+      "bytes": 1114
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/docs/datasets/TUEG.md",
+      "sha256": "5e5a5fd646a28f840afe51e4bc0dd3447d8580f739d973f0255b04f09eec72a1",
+      "bytes": 686
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/docs/datasets/TUSL.md",
+      "sha256": "799c9c7f9c22447777e169f2741bd7787a6b6226b9582ee309b4a37f3ffaf34b",
+      "bytes": 701
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/docs/model/FEMBA.md",
+      "sha256": "5d5c266ae37940e2be52910c8a56fddb4aa028cc154862d61720cc2a3e76a93d",
+      "bytes": 5172
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/docs/model/LUNA.md",
+      "sha256": "a1c9eb1ef8c01d5f42124722685966b67f3b536eef755c6cc45a85db14403565",
+      "bytes": 6407
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/docs/model/LuMamba.md",
+      "sha256": "c12a02f31259c080e63c857d71d4226c55ec66b1cdb97b6ff1a486f2d487734d",
+      "bytes": 8733
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/docs/model/PanLUNA.md",
+      "sha256": "9122884ea579ad3789c63428826574f5d6121d797a356ed945d9efb634f259a4",
+      "bytes": 11649
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/docs/model/TinyMyo.md",
+      "sha256": "3372ee57df00a24fd21bdeb43160d8516dbeaec7d5d2e54df4525cf75f32276e",
+      "bytes": 10526
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/docs/model/logo/FEMBA_logo.png",
+      "sha256": "0ae4682639dd251563ca9328aa1d8a10e9398ebcbe1ac8234b6ca544cad90adc",
+      "bytes": 89422
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/docs/model/logo/FEMBA_logo.svg",
+      "sha256": "8178d89996c0ad4fe2cc4e99c3ffa123213bde7954f658d4c8ea128174513bee",
+      "bytes": 29242
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/docs/model/logo/LUNA_logo.png",
+      "sha256": "f97d22e6768177c4ca63043387f39e95ee8bebfa19ea3cb27005e47da853a02d",
+      "bytes": 498679
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/docs/model/logo/LuMamba.pdf",
+      "sha256": "0052208957f21e4578b7f47601112239c7b4362aed8da5ef2cb9af658d0f3984",
+      "bytes": 678267
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/docs/model/logo/LuMamba_logo.png",
+      "sha256": "f7a72cd318613e523271082a810bc386d0dbdc65c5d2a415cb7461d0af61c9c4",
+      "bytes": 552442
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/docs/model/logo/PanLUNA_logo.svg",
+      "sha256": "7b15e1a936b1ad669d8aa2f0e9957261215de1721c2693edd5f5bb6383e63a01",
+      "bytes": 24021
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/docs/model/logo/TinyMyo_logo.png",
+      "sha256": "c28b55c089cd532a84a6badbb0f9cfb7bf52e71bf8a2043a6be34e0784cda0e1",
+      "bytes": 275341
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/docs/tasks/finetune_task.md",
+      "sha256": "34668b7042549602d7644caf660b6555ca70abdb49c32f20c5c914696cfcf38e",
+      "bytes": 5206
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/docs/tasks/pretrain_task.md",
+      "sha256": "d6bbc68a1b0eaac87de974fafe6eb237cbc12757937732f268fd673883cd1401",
+      "bytes": 3628
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/make_datasets/README.md",
+      "sha256": "b436cb4d2798f97e3a04da30faa4270b52465f6e5b1c9e0337cc4f110953845e",
+      "bytes": 9568
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/make_datasets/make_apava_dataset.py",
+      "sha256": "f068789abcdbd1bd71b8b7f7e86b03ffd8846da0cb61cda184822b4ea4180da6",
+      "bytes": 6797
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/make_datasets/make_code15_dataset.py",
+      "sha256": "5bc31fb90470d611e0436a3a2b8ebd0462ae09007bc9a29009c8459132097dc8",
+      "bytes": 7082
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/make_datasets/make_cpsc2018_dataset.py",
+      "sha256": "2bef719257d6765c934645f940b1b6acff5e489fcb198a8b1bf2776ff080b7a9",
+      "bytes": 6591
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/make_datasets/make_csn_dataset.py",
+      "sha256": "84e5f669471c7df9cf690aad4f2201bf610c39ee5372f7d9b128aa807cca5881",
+      "bytes": 7020
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/make_datasets/make_hdf5.py",
+      "sha256": "b539c8541c1eb78af8ffcc963151387d975220f5fef28becdfe3448713fab53e",
+      "bytes": 7465
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/make_datasets/make_hmc_dataset.py",
+      "sha256": "722fca3ec32b3b39dbfa3cc8ee74dea37bf6eecb4f197cc101fdb8234341f42b",
+      "bytes": 7618
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/make_datasets/make_mimic_iv_dataset.py",
+      "sha256": "175604e726435e0891d9be8040a25ceac99e8938f4ff43499fbd0be58385520c",
+      "bytes": 6250
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/make_datasets/make_mobi_dataset.py",
+      "sha256": "1eace5233cf4dd9f4c0a824231aabaa7962d527b74d8149da1d000abccf088a3",
+      "bytes": 10234
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/make_datasets/make_modma_dataset.py",
+      "sha256": "416d7f05e12ffb840b1a16330d2325d16307e1ed9272bcf0c63bb765291a15a9",
+      "bytes": 7864
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/make_datasets/make_mumtaz_dataset.py",
+      "sha256": "e3c0f08b0f426eb14dc7aad7d34b64eb699365f780c24e4158875423fca576b4",
+      "bytes": 8714
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/make_datasets/make_ptbxl_dataset.py",
+      "sha256": "1428192e8b542be425cd0a14544aa0b40bca9136bebd0dd0d6ad5e81b86698a6",
+      "bytes": 7405
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/make_datasets/make_pulsedb_dataset.py",
+      "sha256": "3b64048b4c295fcb18eef74e58557ef548c6525815ddd5461fd5163e892beb51",
+      "bytes": 7567
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/make_datasets/make_seed_vii_dataset.py",
+      "sha256": "4d3199486f4e626b1739f5194bcb4e193f7198fdeb47456ec13b966771ac0a87",
+      "bytes": 9266
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/make_datasets/make_siena_dataset.py",
+      "sha256": "bde79fe4e4bf960a9c2e71284947fecddeeaaae47076a9a7b30612d63d2b1051",
+      "bytes": 5232
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/make_datasets/make_tdbrain_dataset.py",
+      "sha256": "f57d698af1a722a4dd9f437b342369fc489afaba3b3f32b83dd63e869688426c",
+      "bytes": 8400
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/make_datasets/make_tueg_bipolar.py",
+      "sha256": "cfc5ca07acd57a550eb7ad21e30ec83fa406a28469b34c68141bbef4c6c446c9",
+      "bytes": 18508
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/make_datasets/make_wesad_dataset.py",
+      "sha256": "7a16ebc4cc085c861a6c18c9cc62467e34137c5885b4b9018aa44d9c4cb5fcf9",
+      "bytes": 12498
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/make_datasets/process_raw_ecg.py",
+      "sha256": "583c717d2605bdf7b1e3d2468ca5507a2748b9dd34ce359d11b737bee63388fc",
+      "bytes": 5400
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/make_datasets/process_raw_eeg.py",
+      "sha256": "553b813f46b01bd73f354b5634f1bdd1047eb66459bb94d0d13aeaac76d44a0c",
+      "bytes": 21490
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/make_datasets/util/preprocess_utils.py",
+      "sha256": "c65516d53640dcaa27c85df753c3d0441536d7fa7bfd93a8556f7fb0f1e07027",
+      "bytes": 3352
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/models/FEMBA.py",
+      "sha256": "384ed796e0cdfc75db63eef5a05cd9219f258be5e112c595f4abc0a048d8827e",
+      "bytes": 12293
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/models/LUNA.py",
+      "sha256": "e9a63a556f7bb05dff5be0f34d2d199f7cdcbc0174a980d9c3f2cd30da0412f8",
+      "bytes": 15662
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/models/LuMamba.py",
+      "sha256": "1a01165109389b0d192bf90a58ca3e049f3c73587476750cc575d4007ad6aa4c",
+      "bytes": 9069
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/models/PanLUNA.py",
+      "sha256": "350f397f82b542fd4540d0607df9cad04f904e666c3f912a7d55f17029e0b1f7",
+      "bytes": 16008
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/models/README.md",
+      "sha256": "160ee8ff1660c6a8114c63c72970acfaa5fff7f467559ff6449aafc6accd018f",
+      "bytes": 1713
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/models/TinyMyo.py",
+      "sha256": "5f71aa5813c3a3cb65f5800844b11b05f75d7a7bc1c4ca185c63965e0013c935",
+      "bytes": 30349
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/models/modules/__init__.py",
+      "sha256": "db3985dbe085bd3fef8a5d1ad7eee5f408fd362c32ca9af3dbe35fa7bcd0e6a2",
+      "bytes": 1439
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/models/modules/channel_embeddings.py",
+      "sha256": "3fee1694a221de165c7ade3e41b3249c8a362a44aef0479f0bc813587ae42575",
+      "bytes": 4222
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/models/modules/channel_location_embedder.py",
+      "sha256": "016bfd0eedce555bd7fd3413ae0d53cc2f47ba0a5905f65412aed9bc49a9e1ad",
+      "bytes": 3027
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/models/modules/frequency_embedder.py",
+      "sha256": "1b8606fd889d67b6d970b8d8c83b9e781256ce2337cff76ce8512748ef1c080a",
+      "bytes": 3430
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/models/modules/lead_positions.py",
+      "sha256": "40b7775dbc209d153fc884ff8518423f467d6f7da40b8aea2312f125c483950a",
+      "bytes": 6287
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/models/modules/rope_transformer_encoder_block.py",
+      "sha256": "13563830711a6448a02a5f8ef739138e2ba4018e12efe9a4e4bf69920db751b7",
+      "bytes": 5143
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/pyproject.toml",
+      "sha256": "cac0b2989fdf6a209644829715f7a32a97b29e16f956c57f27498a253ddfbe62",
+      "bytes": 871
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/requirements.txt",
+      "sha256": "1c8a7c8507297fb16914c0a65405fa43e983a83633bb6a28d8bd8aaf1750f221",
+      "bytes": 343
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/run_train.py",
+      "sha256": "4dae8e7cf8f5f1eb2f02ad49865e1e953270e81f2e56f7bf922074b8c2032563",
+      "bytes": 7999
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/schedulers/README.md",
+      "sha256": "c1e074fbfba23c697f3991135dad747e67813454c46990c42a6d6cb6c3f4c216",
+      "bytes": 2845
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/schedulers/cosine.py",
+      "sha256": "73e90615da0d717f1515d1edbb516b289ba2ab242095e218f1a5ed6709ba78ab",
+      "bytes": 4542
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/schedulers/multi_step_lr.py",
+      "sha256": "dfdc06735e97e18f9f055d1972cb36ecd87b38cb98b35c8606c12b3241bb398d",
+      "bytes": 5033
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/scripts/README.md",
+      "sha256": "0683a8512280514bfacbf1f27e1baf1b21c654931fcb9010f0bd4b68e942a8d6",
+      "bytes": 315
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/tasks/README.md",
+      "sha256": "fc63e2bb52b37072d995c176e1ba1cb7e018164b88fcbcc734f4911178d97a72",
+      "bytes": 3116
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/tasks/finetune_regression_task_LuMamba.py",
+      "sha256": "47f990c325fb12b6c2c2058777df30f089caff88ba1e25be8fc1f12fcc8c24d5",
+      "bytes": 12094
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/tasks/finetune_task.py",
+      "sha256": "a17fa64fd070842358d7812f81faec0275fbc13a0c3bbcdf1bb2a61dfbb750c3",
+      "bytes": 14369
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/tasks/finetune_task_EMG.py",
+      "sha256": "b808fded5e4f75e8eacd8915d7f4c946faf4f84f55a7c44e4abfa838aaf4f2c9",
+      "bytes": 18209
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/tasks/finetune_task_LUNA.py",
+      "sha256": "5178f4206a870550ba4ff7b25c4f97eb4c1e89f192430404090eb2bdd9327b34",
+      "bytes": 16838
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/tasks/finetune_task_PanLUNA.py",
+      "sha256": "3501bcb3b6a8914b6076c1d970888dea662b070deb2d52723f2eac9591176213",
+      "bytes": 21747
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/tasks/pretrain_task.py",
+      "sha256": "c6e3c49ead4a2542cb499c7f691d4c36eb76018fb5042526e9a1d6dfa1d550e7",
+      "bytes": 10398
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/tasks/pretrain_task_EMG.py",
+      "sha256": "68390af61d6248e9aa413402ebd5a5967ce05e072ef24aae646764e525e363ef",
+      "bytes": 10770
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/tasks/pretrain_task_LUNA.py",
+      "sha256": "20f00e36d27c59a6c7a64fb0e88f914d2e89e80a4827241e37cc3fd9adff6870",
+      "bytes": 11535
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/tasks/pretrain_task_LuMamba.py",
+      "sha256": "319bfa8e213f584a12ae886486cc6455b9f59aa755afaa3bd8aea07cf24f99d5",
+      "bytes": 35785
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/tasks/pretrain_task_PanLUNA.py",
+      "sha256": "30f6a319bc254bc74c5892ecb9123ad2e51f56602e6ead2e93409a97c725a59f",
+      "bytes": 12609
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/tests/__init__.py",
+      "sha256": "8a6027c2f93f32874281ccc8f6b6f4817d335fd522958f18528860d1cc91accd",
+      "bytes": 1440
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/tests/test_batch.py",
+      "sha256": "2aaf1fb01d1a15f877cf616d4e2597ccb9d279a58d9acc101a43eaacc52970e4",
+      "bytes": 3048
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/tests/test_environment.py",
+      "sha256": "e95cf1adee5333199c463e00135a87fbe03f243d28356fae43a4777ad57af605",
+      "bytes": 2317
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/tests/test_hydra_composition.py",
+      "sha256": "e80c4f1f9c3fcc8360edc896377ea1107be78960caab509849091daf6a8118cd",
+      "bytes": 2911
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/tests/test_model_registry.py",
+      "sha256": "8ded85ef914c345438b425a9b98e241ed01f116c1d995f57017aa7de0d93f6ff",
+      "bytes": 4934
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/tests/test_repository_contracts.py",
+      "sha256": "58082bfc286e738612fa316ed4245695bbe2a45bc5b4c5e26a5f355eaead858c",
+      "bytes": 7238
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/util/ckpt_to_safetensor.py",
+      "sha256": "8eb607a2d1058d4e491e09c43accaa381df787feed5df41ad7279b29e4009370",
+      "bytes": 3226
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/luna/util/train_utils.py",
+      "sha256": "13eba63f611af0cf8d6b58efe28eb1e7be7909735e25f2ae460b74703aab9e9b",
+      "bytes": 2916
+    }
+  ]
+}

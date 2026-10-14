@@ -1,0 +1,118 @@
+{
+  "repository": "https://github.com/eeyhsong/EEG-Conformer",
+  "revision": "9ae149ba62487ceae723277d13adac27837113d2",
+  "source_modified": false,
+  "archive": {
+    "path": "tridep_ccml/experiments/EEG-AllCandidates-v1-37-20261008/assets/source_archives/eegconformer-9ae149ba62487ceae723277d13adac27837113d2.zip",
+    "url": "https://codeload.github.com/eeyhsong/EEG-Conformer/zip/9ae149ba62487ceae723277d13adac27837113d2",
+    "sha256": "cab64b3cd845a87acdd7ecbfa233842227dc77a7d7f4b01e2b53d0cb53917a8e",
+    "bytes": 1317623
+  },
+  "files": [
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegconformer/.DS_Store",
+      "sha256": "ccff07b4397ebe2178abeb0d22afff040d21dc69879ef2ec41664a7452af3766",
+      "bytes": 6148
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegconformer/LICENSE",
+      "sha256": "d885650dc61da681c4cbab23798d7bbc82147d07118a6808d7bcdfef3f5a6fef",
+      "bytes": 36586
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegconformer/README.md",
+      "sha256": "2c121f6b86dd2d0ba9b4fb27ba719628dd7f9b65f70082bf49db95b3f051e56e",
+      "bytes": 2203
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegconformer/conformer.py",
+      "sha256": "866ea540a20bf158dc22450ff393c136def016bcf75ee3d3d646d24161f6954c",
+      "bytes": 15218
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegconformer/conformer_BCIIV2b.py",
+      "sha256": "0108ed8e44b6ead87d7a16aeea34cc39f849e836b7db7be80cdb367d840a8280",
+      "bytes": 17592
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegconformer/conformer_seed_1s_5fold.py",
+      "sha256": "0caf4a91a898dc007526bfaff3b6426878c0b7ce9e63651fab3989539159d63c",
+      "bytes": 18328
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegconformer/preprocessing/.DS_Store",
+      "sha256": "094ea9636a10fd3b0150805ee6c2daf04a602085b7faa519bdd95838abc81077",
+      "bytes": 6148
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegconformer/preprocessing/BCIIV2a.m",
+      "sha256": "ee8cd68f76bf524e24bda00509757746f1c3ddec0a91780c3f4ddb09b1da4f96",
+      "bytes": 2405
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegconformer/preprocessing/BCIIV2b.m",
+      "sha256": "02e2e642b1b0483575344d5c626e95d5f736fcb37018f07952b98f7902fc6bee",
+      "bytes": 1514
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegconformer/preprocessing/seed.m",
+      "sha256": "9dd08e2643ba2e6c27d36f7019d592769ff7b38308e7c7af50af844dba504839",
+      "bytes": 1406
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegconformer/preprocessing/seed_file/label.mat",
+      "sha256": "4c3f1c0a60ee49d70f8c0003fc9871c45c2215cae95faec9da216224b59fe517",
+      "bytes": 188
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegconformer/preprocessing/seed_file/namefile_list.mat",
+      "sha256": "a19b7a5c5064b816610bb942081cfd633b89df54021179bddd0ced0738101072",
+      "bytes": 843
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegconformer/preprocessing/seed_file/short_name.mat",
+      "sha256": "638bcbb202c81428541541c538f3608025849eafba3a523d9424b7bfbc700434",
+      "bytes": 543
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegconformer/preprocessing/seed_process_slice.py",
+      "sha256": "c6afd9b92b25d65be3be5d451eb8f7cd6f1161c67f8301e9593f427f58bb58ef",
+      "bytes": 2493
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegconformer/preprocessing/seed_process_slice_cv.py",
+      "sha256": "4a56c5c04e8e845ba8e34954a04c10ae3caf982061a75d1467695b5865b8c79a",
+      "bytes": 1393
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegconformer/visualization/.DS_Store",
+      "sha256": "8c0d4aefe206a53797f60a6d8b1664ee47361bd38ac919d8a076a65a9141f124",
+      "bytes": 6148
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegconformer/visualization/CAT.py",
+      "sha256": "1618199aeb2f5488c07c55dc0904e4625a5bc18a25405781f4922443f7e5df4b",
+      "bytes": 4778
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegconformer/visualization/Fig1.png",
+      "sha256": "3ace3401eba9eb14bc09ffccfab2d9e0cc4a5aec273b002c5f9ca617fd727afa",
+      "bytes": 1461335
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegconformer/visualization/tSNE.py",
+      "sha256": "343c6e22f313689a19ab07a7cb3362d95c8572a43892ab16f14537fb076d85d1",
+      "bytes": 815
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegconformer/visualization/topography.py",
+      "sha256": "69678f1212de5ca1db51e1239b1f9f1da7c07df353b3d522695be548235d30bc",
+      "bytes": 1501
+    },
+    {
+      "path": "tridep_ccml/eeg_all_candidates/vendor/eegconformer/visualization/utils.py",
+      "sha256": "7c88e5059ae1709018856fd0af6c80fd2ac717e0566d3f97e3dc94fb0aa98bc9",
+      "bytes": 8336
+    }
+  ]
+}
